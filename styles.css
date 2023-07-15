@@ -21,39 +21,7 @@ body {
     z-index: 9999;
 }
 
-.logo {
-    width: 50%;
-    padding: 20px;
-    font-family: Lobster;
-}
 
-.menu {
-    width: 50%;
-    padding: 20px;
-}
-
-.menu ul {
-    list-style-type: none;
-    display: inline-flex;
-}
-
-.menu ul li {
-    margin-right: 3%;
-    position: relative;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 1px;
-    font-size: x-large;
-    transition: background-color 0.3s ease;
-}
-
-.menu ul li a:hover {
-    background-color: #ffcc00;
-    animation: example-animation 1s ease infinite;
-}
 
 @keyframes example-animation {
     0% {
@@ -278,40 +246,6 @@ body {
     border-radius: 10%;
 }
 
-.container-fluid {
-    background-color: #604ed2;
-}
-
-.offcanvas-body {
-    background-color: rgb(106, 0, 255);
-}
-
-.offcanvas-header {
-    background-color: rgb(106, 0, 255);
-}
-
-.buscar-button-IMG {
-    width: 60%;
-}
-
-.btn-outline-success {
-    width: 100px
-}
-
-.navbar {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-
-.logo {
-    margin-top: -4%;
-    /* Ajusta el valor según tus necesidades */
-}
-
-.navbar-toggler {
-    margin-top: -5%;
-    /* Ajusta el valor según tus necesidades */
-}
 
 /* Clase para que solo se vea en celular */
 @media only screen and (min-width: 768px) {

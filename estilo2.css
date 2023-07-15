@@ -7,14 +7,6 @@ body {
     padding: 0;
 }
 
-.imagenesChicas {
-    width: 100%;
-
-}
-
-.mySwiper .swiper-slide {
-    text-align: center;
-}
 
 .slide-with-image {
     display: flex;
