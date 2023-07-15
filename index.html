@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
 
-    <link rel="stylesheet" href="estilo2.css">
 </head>
 
 <body style="background-color: var(--bs-body-bg);">
@@ -68,15 +67,32 @@
             <a href="#" class="nav-link"><i class="bi bi-cart text-white" style="font-size: 1.65em;"></i></a>
         </div>
     </nav>
-
-    <div class="slideshow">
-        <div class="slideshow-container">
-            <a href="pagina1.html"><img class="slide" src="img/1.png" alt="Imagen 1"></a>
-            <a href="pagina2.html"><img class="slide" src="img/2.png" alt="Imagen 2"></a>
-            <a href="pagina3.html"><img class="slide" src="img/3.png" alt="Imagen 3"></a>
+    <!-- Carrusel de promos -->
+    <div class="w-100">
+        <div id="heroCarousel" class="carousel slide w-100" data-bs-ride="carousel">
+            <!-- Los distintos slides del carrusel -->
+            <div class="carousel-inner w-100">
+                <div class="carousel-item active">
+                    <a href="pagina1.html"><img class="d-block w-100" src="img/1.webp" alt="Imagen 1"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="pagina2.html"><img class="d-block w-100" src="img/2.webp" alt="Imagen 2"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="pagina3.html"><img class="d-block w-100" src="img/3.webp" alt="Imagen 3"></a>
+                </div>
+            </div>
+            <!-- Boton para retroceder -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <!-- Boton para avanzar -->
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <a class="prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></a>
-        <a class="next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></a>
     </div>
 
     <div class="loMasVendido">
