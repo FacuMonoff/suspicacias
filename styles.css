@@ -201,28 +201,27 @@ body {
     margin-right: 10px;
 }
 
-.whatsapp-logo {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.whatsapp-logo img {
-    width: 30px;
-}
-
-
-.whatsapp-button {
+/* Para que el icono quede abajo a la derecha siempre */
+.float-wa {
     position: fixed;
-    bottom: 8%;
-    right: 1%;
-    padding-right: 1%;
-    z-index: 999;
+    width: 60px;
+    height: 60px;
+    bottom: 5%;
+    right: 5%;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 
-.whatsapp-button-IMG {
-    width: 40%;
-
+/* Para poder centrar el icono de whatsapp en el circulo */
+.bi-whatsapp {
+    vertical-align: -6px;
 }
+
 
 .product-list {
     display: flex;
