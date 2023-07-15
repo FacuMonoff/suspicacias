@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+    color: black;
+    font-style: italic;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 1%;
+    position: relative;
+    margin-top: 1%;
+
+    /* Asegura que el contenedor ocupe toda la altura de la pantalla */
+}
+
+.descuento {
+    background-color: #edfa42;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.logo {
+    width: 50%;
+    padding: 20px;
+    font-family: Lobster;
+}
+
+.menu {
+    width: 50%;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.menu ul li {
+    margin-right: 3%;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 1px;
+    font-size: x-large;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #ffcc00;
+    animation: example-animation 1s ease infinite;
+}
+
+@keyframes example-animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.slideshow {
+    position: relative;
+    width: 100%;
+}
+
+.slideshow-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    width: 80%;
+    height: auto;
+    max-width: 1200px;
+    /* Cambia el valor según tus necesidades */
+    max-height: 900px;
+    /* Cambia el valor según tus necesidades */
+    display: block;
+    margin: 0 auto;
+
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-2%);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.losMasVendidos {
+    padding-top: 5%;
+}
+
+.nuestroCatalogo {
+    color: white;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.more-options {
+    padding: 20px;
+}
+
+.more-options h2 {
+    color: white;
+}
+
+
+.option {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.option img {
+    width: 100px;
+    max-width: 100%;
+}
+
+.option button {
+    display: block;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+}
+
+.show-all-catalog {
+    padding: 20px;
+    text-align: center;
+}
+
+.show-all-catalog button {
+    color: rgb(0, 0, 0);
+    width: 5cm;
+    height: 1cm;
+}
+
+.follow-us {
+    background-color: white;
+    padding: 20px;
+}
+
+.follow-us h2 {
+    color: red;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.logos {
+    width: 3%;
+}
+
+.footer {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.whatsapp-logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatsapp-logo img {
+    width: 30px;
+}
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 8%;
+    right: 1%;
+    padding-right: 1%;
+    z-index: 999;
+}
+
+.whatsapp-button-IMG {
+    width: 40%;
+
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.product-card {
+    flex-basis: calc(33.33% - 20px);
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 1px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.product-image {
+    width: 60%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    margin-bottom: 5px;
+}
+
+.buy-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline;
+
+}
+
+.losMasVendidos {
+    text-align: center;
+    margin: 1%;
+}
+
+.seccionCatalogo {
+    background-color: rgb(0, 0, 0);
+}
+
+.cardCatalogo {
+    margin: 1%;
+    padding-left: 4%;
+    padding-bottom: 5%;
+    display: inline-flex;
+    text-align: center;
+    width: 30%;
+}
+
+.cardCatalogo img {
+    width: 90%;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.container-fluid {
+    background-color: #604ed2;
+}
+
+.offcanvas-body {
+    background-color: rgb(106, 0, 255);
+}
+
+.offcanvas-header {
+    background-color: rgb(106, 0, 255);
+}
+
+.buscar-button-IMG {
+    width: 60%;
+}
+
+.btn-outline-success {
+    width: 100px
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.logo {
+    margin-top: -4%;
+    /* Ajusta el valor según tus necesidades */
+}
+
+.navbar-toggler {
+    margin-top: -5%;
+    /* Ajusta el valor según tus necesidades */
+}

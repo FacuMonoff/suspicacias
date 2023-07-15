@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="estilo2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+
+</head>
+
+<body>
+
+
+    <nav class="navbar fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="logo">
+                <h1>SUSPICACIAS</h1>
+            </div>
+            <button>boton</button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SUSPICACIAS</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CATALOGO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                CONTACTO
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Instagram</a></li>
+                                <li><a class="dropdown-item" href="#">Facebook</a></li>
+
+                                <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><img src="img/logos redes/buscar.png"
+                                alt="WhatsApp" class="buscar-button-IMG"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="slideshow">
+        <div class="slideshow-container">
+            <a href="pagina1.html"><img class="slide" src="img/1.png" alt="Imagen 1"></a>
+            <a href="pagina2.html"><img class="slide" src="img/2.png" alt="Imagen 2"></a>
+            <a href="pagina3.html"><img class="slide" src="img/3.png" alt="Imagen 3"></a>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></a>
+        <a class="next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></a>
+    </div>
+
+    <div class="loMasVendido">
+        <h2 class="losMasVendidos">LOS MAS VENDIDOS</h2>
+        <div id="product-list" class="product-list"></div>
+    </div>
+
+    <section class="seccionCatalogo text-center">
+        <h2 class="nuestroCatalogo">NUESTRO CATALOGO</h2>
+        <div class="cardCatalogo" onclick="openLink('https://www.example1.com')">
+            <img src="img/fetiche.png" alt="Imagen 1">
+        </div>
+
+        <div class="cardCatalogo" onclick="openLink('https://www.example2.com')">
+            <img src="img/juegos.png" alt="Imagen 2">
+        </div>
+
+        <div class="cardCatalogo" onclick="openLink('https://www.example3.com')">
+            <img src="img/lenceria.png" alt="Imagen 3">
+        </div>
+
+        <div class="cardCatalogo" onclick="openLink('https://www.example1.com')">
+            <img src="img/lenceria.png" alt="Imagen 1">
+        </div>
+
+        <div class="cardCatalogo" onclick="openLink('https://www.example2.com')">
+            <img src="img/fetiche.png" alt="Imagen 2">
+        </div>
+
+        <div class="cardCatalogo" onclick="openLink('https://www.example3.com')">
+            <img src="img/juegos.png" alt="Imagen 3">
+        </div>
+    </section>
+
+    <div class="imagenesChicas">
+        <swiper-container class="mySwiper" navigation="true" pagination-clickable="true" space-between="30"
+            slides-per-view="2">
+            <swiper-slide>
+                <div class="swiper-slide slide-with-image">
+                    <img src="img/logos redes/ubicacion-removebg-preview.png" alt="">
+                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
+                </div>
+            </swiper-slide>
+            <div class="swiper-slide slide-with-image">
+                <swiper-slide>
+                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
+                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
+                </swiper-slide>
+            </div>
+            <div class="swiper-slide slide-with-image">
+                <swiper-slide>
+                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
+                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
+                </swiper-slide>
+            </div>
+            <div class="swiper-slide slide-with-image">
+                <swiper-slide>
+                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
+                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
+                </swiper-slide>
+            </div>
+            <div class="swiper-slide slide-with-image">
+                <swiper-slide>
+                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
+                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
+                </swiper-slide>
+            </div>
+            <div class="swiper-slide slide-with-image">
+                <swiper-slide>
+                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
+                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
+                </swiper-slide>
+            </div>
+
+        </swiper-container>
+    </div>
+
+    <div class="follow-us">
+        <h2>Síguenos en las redes</h2>
+        <div class="social-media">
+            <a href="#"><img src="img/logos redes/facebook.png" alt="Facebook" class="logos"></a>
+            <a href="#"><img src="img/logos redes/insta.png" alt="Instagram" class="logos"></a>
+            <a href="#"><img src="img/logos redes/whatsapp.png" alt="WhatsApp" class="logos"></a>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus id dolores nemo mollitia doloribus nisi
+        tempore quae quam rem quo, voluptates molestiae odit inventore. Accusamus obcaecati eius in quo magnam.
+    </footer>
+
+    <a class="whatsapp-button" href="#"><img src="img/logos redes/whatsapp.png" alt="WhatsApp"
+            class="whatsapp-button-IMG"></a>
+
+    <script src="script.js"></script>
+    <script src="json.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5f500e39bc.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
