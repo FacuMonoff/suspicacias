@@ -199,11 +199,10 @@ body {
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
-}
 
-/* Para poder centrar el icono de whatsapp en el circulo */
-.bi-whatsapp {
-    vertical-align: -6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -314,14 +313,35 @@ body {
     /* Ajusta el valor según tus necesidades */
 }
 
+/* Clase para que solo se vea en celular */
 @media only screen and (min-width: 768px) {
     .visible-phone {
         display: none;
     }
 }
 
+/* Clase para que no se vea en celular */
 @media only screen and (max-width: 768px) {
     .hidden-phone {
         display: none;
     }
+}
+
+/* Trasnforma los indicators del carousel en circulos */
+.carousel-indicators>button {
+    height: 0.5em !important;
+    width: 0.5em !important;
+    border: 0 !important;
+    border-radius: 0.5em;
+}
+
+/* Para bajar los puntos en el carousel */
+.carousel-indicators {
+    bottom: -10% !important;
+}
+
+/* Margen arriba y abajo para todos los elementos con tag section */
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
