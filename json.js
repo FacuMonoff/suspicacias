@@ -43,12 +43,16 @@ const productListContainer = document.getElementById("product-list");
 // Generar el contenido de los productos
 const productHTML = products.map((product) => `
      
-  <div class="product-card" >
-    <img class="product-image" src="${product.image}" alt="${product.name}">
-    <h3 class="product-name">${product.name}</h3>
-    <p class="product-price">${product.price}</p>
-    <button class="buy-button">Comprar</button>
-  </div>
+    <div class="col">
+        <div class="card h-100">
+            <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">${product.name}</h5>
+                <p class="card-text">${product.price}</p>
+                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+            </div>
+        </div>
+    </div>
 `).join("");
 
 // Insertar el contenido en el contenedor en el HTML
