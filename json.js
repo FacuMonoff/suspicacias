@@ -12,26 +12,26 @@ const products = [
 
     },
     {
-        image: "img/jugueteyfondo1.png",
+        image: "img/JUGUETE 1.png",
         name: "Producto 3",
+        price: "$15.00",
+
+    },
+    {
+        image: "img/JUGUETE 2.png",
+        name: "Producto 4",
+        price: "$15.00",
+
+    },
+    {
+        image: "img/JUGUETE 3.png",
+        name: "Producto 5",
         price: "$15.00",
 
     },
     {
         image: "img/jugueteyfondo2.png",
-        name: "Producto 3",
-        price: "$15.00",
-
-    },
-    {
-        image: "img/jugueteyfondo1.png",
-        name: "Producto 3",
-        price: "$15.00",
-
-    },
-    {
-        image: "img/jugueteyfondo2.png",
-        name: "Producto 3",
+        name: "Producto 6",
         price: "$15.00",
 
     },
