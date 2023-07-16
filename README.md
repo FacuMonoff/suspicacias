@@ -1,4 +1,5 @@
 # Cosas que cambie:
+## Julio 15 2023
 1. Cambie el icono de whatsapp para que tenga el fondo y use BoostrapIcon en vez de una imagen.
 2. Cambie la seccion al final que habiamos hecho con Swiper.js por BoostrapCarousel.
     - Cuando no estas en celular es una fila con tres columnas.
@@ -9,6 +10,10 @@
 5. Optimice las imagenes de la promo porque pesaban demasiado.
 6. Cambie los slides que habias hecho en javascript por BoostrapCarousel.
 7. Borre funciones y estilos que usaste para tu swipe.
+## Julio 16 2023
+1. Cambie la seccion de productos por cartas de Boostrap.
+2. Elimine clase en css inecesarias.
+3. Agregue mas productos.
 
 # Cosas que faltan por hacer:
 1. Mejorar la seccion de los productos
