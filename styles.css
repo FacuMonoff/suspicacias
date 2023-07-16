@@ -10,51 +10,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.losMasVendidos {
-    padding-top: 5%;
-}
-
 .nuestroCatalogo {
     color: white;
     padding-top: 3%;
     text-align: center;
-}
-
-.more-options {
-    padding: 20px;
-}
-
-.more-options h2 {
-    color: white;
-}
-
-
-.option {
-    display: inline-block;
-    margin-right: 100px;
-}
-
-.option img {
-    width: 100px;
-    max-width: 100%;
-}
-
-.option button {
-    display: block;
-    margin-top: 10px;
-    background-color: red;
-    color: white;
-}
-
-.show-all-catalog {
-    padding: 20px;
-    text-align: center;
-}
-
-.show-all-catalog button {
-    color: rgb(0, 0, 0);
-    width: 5cm;
-    height: 1cm;
 }
 
 .follow-us {
@@ -104,58 +63,6 @@ body {
     align-items: center;
 }
 
-
-.product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.product-card {
-    flex-basis: calc(33.33% - 20px);
-    border: 3px solid #000000;
-    border-radius: 10px;
-    padding: 1px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    padding-bottom: 2%;
-}
-
-.product-image {
-    width: 60%;
-    height: 75%;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.product-name {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.product-price {
-    margin-bottom: 5px;
-}
-
-.buy-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline;
-
-}
-
-.losMasVendidos {
-    text-align: center;
-    margin: 1%;
-}
 
 .seccionCatalogo {
     background-color: rgb(0, 0, 0);
