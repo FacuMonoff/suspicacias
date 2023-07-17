@@ -5,86 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="media.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="estilo2.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
 
-<body>
-
-
-    <nav class="navbar fixed-top">
-        <div class="container">
+<body style="background-color: var(--bs-body-bg);">
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <!-- Boton para expandir el nav -->
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="logo">
-                <h1>SUSPICACIAS</h1>
-            </div>
-            <button>boton</button>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+
+            <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
+                <!-- Cabecera del nav cuando expandimos -->
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SUSPICACIAS</h5>
+                    <!-- Titulo -->
+                    <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel">Suspicacias</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
+                <!-- Todo el contenido que vamos a tener en el offcanvas -->
                 <div class="offcanvas-body">
+                    <!-- Una lista para los items que vamos a tener en el offcanvas -->
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">CATALOGO</a>
+                            <a class="nav-link text-uppercase" href="#">Catalogo</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                CONTACTO
+                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contacto
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Instagram</a></li>
-                                <li><a class="dropdown-item" href="#">Facebook</a></li>
-
-                                <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                                <li><a class="dropdown-item" href="#">Instagram <i class="bi bi-instagram"></i></a></li>
+                                <li><a class="dropdown-item" href="#">Facebook <i class="bi bi-facebook"></i></a></li>
+                                <li><a class="dropdown-item" href="#">Whatsapp <i class="bi bi-whatsapp"></i></a></li>
                             </ul>
                         </li>
                     </ul>
+                    <!-- El form para nuestro boton de busqueda -->
                     <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit"><img src="img/logos redes/buscar.png"
-                                alt="WhatsApp" class="buscar-button-IMG"></button>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
             </div>
+            <!-- El titulo que va en el centro del navbar -->
+            <a class="navbar-brand" href="#" style="font-family: Lobster;font-size: 2.2em;">Suspicacias</a>
+            <!-- Carrito de compra -->
+            <a href="#" class="nav-link"><i class="bi bi-cart text-white" style="font-size: 1.65em;"></i></a>
         </div>
     </nav>
-
-
-    <div class="slideshow">
-        <div class="slideshow-container">
-            <a href="pagina1.html"><img class="slide" src="img/1.png" alt="Imagen 1"></a>
-            <a href="pagina2.html"><img class="slide" src="img/2.png" alt="Imagen 2"></a>
-            <a href="pagina3.html"><img class="slide" src="img/3.png" alt="Imagen 3"></a>
+    <!-- Carrusel de promos -->
+    <div class="w-100">
+        <div id="heroCarousel" class="carousel slide w-100" data-bs-ride="carousel">
+            <!-- Los distintos slides del carrusel -->
+            <div class="carousel-inner w-100">
+                <div class="carousel-item active">
+                    <a href="pagina1.html"><img class="d-block w-100" src="img/1.webp" alt="Imagen 1"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="pagina2.html"><img class="d-block w-100" src="img/2.webp" alt="Imagen 2"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="pagina3.html"><img class="d-block w-100" src="img/3.webp" alt="Imagen 3"></a>
+                </div>
+            </div>
+            <!-- Boton para retroceder -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <!-- Boton para avanzar -->
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <a class="prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></a>
-        <a class="next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></a>
     </div>
+    <!-- Seccion de los productos mostrados -->
+    <section class="container">
+        <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
+    </section>
 
-    <div class="loMasVendido">
-        <h2 class="losMasVendidos">LOS MAS VENDIDOS</h2>
-        <div id="product-list" class="product-list"></div>
-    </div>
-
-    <section class="seccionCatalogo text-center">
+    <!-- '<section class="seccionCatalogo text-center">
         <h2 class="nuestroCatalogo">NUESTRO CATALOGO</h2>
         <div class="cardCatalogo" onclick="openLink('https://www.example1.com')">
             <img src="img/fetiche.png" alt="Imagen 1">
@@ -109,50 +124,81 @@
         <div class="cardCatalogo" onclick="openLink('https://www.example3.com')">
             <img src="img/juegos.png" alt="Imagen 3">
         </div>
+    </section> -->
+    <!-- Seccion de los servicios en CUALQUIER dispositivo DISTINTO de celular -->
+    <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
+        <!-- Una fila de 3 columnas con cartas -->
+        <div class="row">
+            <div class="col-4">
+                <div class="card border-0">
+                    <!-- Icono de la carta -->
+                    <i class="bi bi-geo-alt"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <i class="bi bi-truck"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Envios a cualquier parte del pais</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="card border-0">
+                    <i class="bi bi-shield-check"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Pagos y envios 100% discretos</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion carrusel de los servicios UNICAMENTE en celular -->
+    <section id="service-carousel" class="carousel slide visible-phone w-100 carousel-dark" style="font-size: 1rem;"
+        data-bs-interval="5000" data-bs-ride="carousel">
+        <!-- Dentro de este div van los items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card border-0 text-center d-block w-100" style="font-size: 2em;">
+                    <!-- Icono de la carta -->
+                    <i class="bi bi-geo-alt"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card border-0 text-center d-block w-100" style="font-size: 2em;">
+                    <i class="bi bi-shield-check"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Pagos y envios 100% discretos</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card border-0 text-center d-block w-100" style="font-size: 2rem;">
+                    <i class="bi bi-truck"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Envios a todo el pais</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Estos son los puntos para cambiar entre slides -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#service-carousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#service-carousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#service-carousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+        </div>
     </section>
 
-    <div class="imagenesChicas">
-        <swiper-container class="mySwiper" navigation="true" pagination-clickable="true" space-between="30"
-            slides-per-view="2">
-            <swiper-slide>
-                <div class="swiper-slide slide-with-image">
-                    <img src="img/logos redes/ubicacion-removebg-preview.png" alt="">
-                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
-                </div>
-            </swiper-slide>
-            <div class="swiper-slide slide-with-image">
-                <swiper-slide>
-                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
-                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
-                </swiper-slide>
-            </div>
-            <div class="swiper-slide slide-with-image">
-                <swiper-slide>
-                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
-                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
-                </swiper-slide>
-            </div>
-            <div class="swiper-slide slide-with-image">
-                <swiper-slide>
-                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
-                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
-                </swiper-slide>
-            </div>
-            <div class="swiper-slide slide-with-image">
-                <swiper-slide>
-                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
-                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
-                </swiper-slide>
-            </div>
-            <div class="swiper-slide slide-with-image">
-                <swiper-slide>
-                    <img src="img/logos redes/facebook.png" alt="Imagen 3">
-                    <p>ENVIOS A CUALQUIER PARTE DEL PAIS ("100% DISCRETO")</p>
-                </swiper-slide>
-            </div>
-
-        </swiper-container>
-    </div>
 
     <div class="follow-us">
         <h2>Síguenos en las redes</h2>
@@ -162,25 +208,17 @@
             <a href="#"><img src="img/logos redes/whatsapp.png" alt="WhatsApp" class="logos"></a>
         </div>
     </div>
-
-
     <footer class="footer">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus id dolores nemo mollitia doloribus nisi
         tempore quae quam rem quo, voluptates molestiae odit inventore. Accusamus obcaecati eius in quo magnam.
     </footer>
 
-    <a class="whatsapp-button" href="#"><img src="img/logos redes/whatsapp.png" alt="WhatsApp"
-            class="whatsapp-button-IMG"></a>
+    <a class="float-wa" href="#"><i class="bi bi-whatsapp"></i></a>
 
-    <script src="script.js"></script>
     <script src="json.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/5f500e39bc.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
