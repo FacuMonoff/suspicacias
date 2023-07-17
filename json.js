@@ -1,12 +1,12 @@
 const products = [
     {
-        image: "img/jugueteyfondo1.png",
+        image: "img/JUGUETE 1.png",
         name: "Producto 1",
         price: "$10.00",
 
     },
     {
-        image: "img/jugueteyfondo2.png",
+        image: "img/JUGUETE 1.png",
         name: "Producto 2",
         price: "$15.00",
 
@@ -18,19 +18,19 @@ const products = [
 
     },
     {
-        image: "img/JUGUETE 2.png",
+        image: "img/JUGUETE 1.png",
         name: "Producto 4",
         price: "$15.00",
 
     },
     {
-        image: "img/JUGUETE 3.png",
+        image: "img/JUGUETE 1.png",
         name: "Producto 5",
         price: "$15.00",
 
     },
     {
-        image: "img/jugueteyfondo2.png",
+        image: "img/JUGUETE 1.png",
         name: "Producto 6",
         price: "$15.00",
 

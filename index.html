@@ -14,7 +14,7 @@
 
 </head>
 
-<body style="background-color: var(--bs-body-bg);">
+<body>
     <!-- Navbar -->
     <nav class="navbar navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
@@ -94,118 +94,188 @@
             </button>
         </div>
     </div>
-    <!-- Seccion de los productos mostrados -->
-    <section class="container">
-        <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
-    </section>
 
-    <!-- '<section class="seccionCatalogo text-center">
-        <h2 class="nuestroCatalogo">NUESTRO CATALOGO</h2>
-        <div class="cardCatalogo" onclick="openLink('https://www.example1.com')">
-            <img src="img/fetiche.png" alt="Imagen 1">
-        </div>
+    <div class="background-container">
 
-        <div class="cardCatalogo" onclick="openLink('https://www.example2.com')">
-            <img src="img/juegos.png" alt="Imagen 2">
-        </div>
+        <!-- Seccion de los productos mostrados -->
+        <section class="container">
+            <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
+        </section>
 
-        <div class="cardCatalogo" onclick="openLink('https://www.example3.com')">
-            <img src="img/lenceria.png" alt="Imagen 3">
-        </div>
+        <!-- '<section class="seccionCatalogo text-center">
+            <h2 class="nuestroCatalogo">NUESTRO CATALOGO</h2>
+            <div class="cardCatalogo" onclick="openLink('https://www.example1.com')">
+                <img src="img/fetiche.png" alt="Imagen 1">
+            </div>
+    
+            <div class="cardCatalogo" onclick="openLink('https://www.example2.com')">
+                <img src="img/juegos.png" alt="Imagen 2">
+            </div>
+    
+            <div class="cardCatalogo" onclick="openLink('https://www.example3.com')">
+                <img src="img/lenceria.png" alt="Imagen 3">
+            </div>
+    
+            <div class="cardCatalogo" onclick="openLink('https://www.example1.com')">
+                <img src="img/lenceria.png" alt="Imagen 1">
+            </div>
+    
+            <div class="cardCatalogo" onclick="openLink('https://www.example2.com')">
+                <img src="img/fetiche.png" alt="Imagen 2">
+            </div>
+    
+            <div class="cardCatalogo" onclick="openLink('https://www.example3.com')">
+                <img src="img/juegos.png" alt="Imagen 3">
+            </div>
+        </section> -->
+        <!-- Seccion de los servicios en CUALQUIER dispositivo DISTINTO de celular -->
+        <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
+            <!-- Una fila de 3 columnas con cartas -->
+            <div class="row g-4 justify-content-center">
+                <div class="col-4">
+                    <div class="card border-0">
+                        <!-- Icono de la carta -->
+                        <i class="bi bi-incognito"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Envios 100% discreto</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card border-0">
+                        <i class="bi bi-person-circle"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Atención personalizada</h5>
+                        </div>
+                    </div>
 
-        <div class="cardCatalogo" onclick="openLink('https://www.example1.com')">
-            <img src="img/lenceria.png" alt="Imagen 1">
-        </div>
-
-        <div class="cardCatalogo" onclick="openLink('https://www.example2.com')">
-            <img src="img/fetiche.png" alt="Imagen 2">
-        </div>
-
-        <div class="cardCatalogo" onclick="openLink('https://www.example3.com')">
-            <img src="img/juegos.png" alt="Imagen 3">
-        </div>
-    </section> -->
-    <!-- Seccion de los servicios en CUALQUIER dispositivo DISTINTO de celular -->
-    <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
-        <!-- Una fila de 3 columnas con cartas -->
-        <div class="row">
-            <div class="col-4">
-                <div class="card border-0">
-                    <!-- Icono de la carta -->
-                    <i class="bi bi-geo-alt"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                </div>
+                <div class="col-4">
+                    <div class="card border-0 h-100">
+                        <i class="bi bi-geo-alt"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Ubicacion </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card border-0">
+                        <i class="bi bi-currency-dollar"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Metodos de pago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card border-0">
+                        <i class="bi bi-speedometer"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Envios express</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card border-0">
+                        <i class="bi bi-shop"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Retiro en local</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card border-0">
+                        <i class="bi bi-globe-americas"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Envios a todo el país</h5>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card border-0">
-                    <i class="bi bi-truck"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Envios a cualquier parte del pais</h5>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-4">
-                <div class="card border-0">
-                    <i class="bi bi-shield-check"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Pagos y envios 100% discretos</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Seccion carrusel de los servicios UNICAMENTE en celular -->
-    <section id="service-carousel" class="carousel slide visible-phone w-100 carousel-dark" style="font-size: 1rem;"
-        data-bs-interval="5000" data-bs-ride="carousel">
-        <!-- Dentro de este div van los items -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="card border-0 text-center d-block w-100" style="font-size: 2em;">
-                    <!-- Icono de la carta -->
-                    <i class="bi bi-geo-alt"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card border-0 text-center d-block w-100" style="font-size: 2em;">
-                    <i class="bi bi-shield-check"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Pagos y envios 100% discretos</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card border-0 text-center d-block w-100" style="font-size: 2rem;">
-                    <i class="bi bi-truck"></i>
-                    <div class="card-body">
-                        <h5 class="card-title">Envios a todo el pais</h5>
-                    </div>
-                </div>
-            </div>
-            <!-- Estos son los puntos para cambiar entre slides -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#service-carousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#service-carousel" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#service-carousel" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-        </div>
-    </section>
+        </section>
 
 
-    <div class="follow-us">
-        <h2>Síguenos en las redes</h2>
-        <div class="social-media">
-            <a href="#"><img src="img/logos redes/facebook.png" alt="Facebook" class="logos"></a>
-            <a href="#"><img src="img/logos redes/insta.png" alt="Instagram" class="logos"></a>
-            <a href="#"><img src="img/logos redes/whatsapp.png" alt="WhatsApp" class="logos"></a>
+        <!-- Seccion carrusel de los servicios UNICAMENTE en celular -->
+        <section id="carouselExampleAutoplaying" class="carousel slide visible-phone w-100 carousel-dark"
+            style="font-size: 1rem;" data-bs-interval="5000" data-bs-ride="carousel">
+            <!-- Dentro de este div van los items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card border-0 text-center d-block w-100" style="font-size: 2rem;">
+                        <!-- Icono de la carta -->
+                        <i class="bi bi-incognito"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Envios 100% discreto</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card border-0 text-center d-block w-100" style="font-size: 2rem;">
+                        <i class="bi bi-person-circle"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Atención personalizada</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card border-0 text-center d-block w-100" style="font-size: 2rem;">
+                        <i class="bi bi-geo-alt"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Ubicacion </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card border-0 text-center d-block w-100" style="font-size: 2rem;">
+                        <i class="bi bi-currency-dollar"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Metodos de pago</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card border-0 text-center d-block w-100" style="font-size: 2rem;">
+                        <i class="bi bi-speedometer"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Envios express</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card border-0 text-center d-block w-100" style="font-size: 2rem;">
+                        <i class="bi bi-shop"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Retiro en local</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card border-0 text-center d-block w-100" style="font-size: 2rem;">
+                        <i class="bi bi-globe-americas"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Envios a todo el país</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Estos son los puntos para cambiar entre slides -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#service-carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#service-carousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#service-carousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="follow-us">
+            <h2>Síguenos en las redes</h2>
+            <div class="social-media">
+                <a href="#"><img src="img/logos redes/facebook.png" alt="Facebook" class="logos"></a>
+                <a href="#"><img src="img/logos redes/insta.png" alt="Instagram" class="logos"></a>
+                <a href="#"><img src="img/logos redes/whatsapp.png" alt="WhatsApp" class="logos"></a>
+            </div>
         </div>
     </div>
     <footer class="footer">

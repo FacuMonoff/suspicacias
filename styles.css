@@ -8,16 +8,13 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-image: url(img/fondoRojo.png);
+    background-size: cover;
 }
 
-.nuestroCatalogo {
-    color: white;
-    padding-top: 3%;
-    text-align: center;
-}
+
 
 .follow-us {
-    background-color: white;
     padding: 20px;
 }
 
@@ -64,9 +61,9 @@ body {
 }
 
 
-.seccionCatalogo {
+/*.seccionCatalogo {
     background-color: rgb(0, 0, 0);
-}
+}*/
 
 .cardCatalogo {
     margin: 1%;
