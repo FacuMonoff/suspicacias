@@ -129,69 +129,98 @@
             </div>
         </section> -->
         <!-- Seccion de los servicios en CUALQUIER dispositivo DISTINTO de celular -->
-        <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
-            <!-- Una fila de 3 columnas con cartas -->
-            <div class="row g-4 justify-content-center">
-                <div class="col-4">
-                    <div class="card border-0">
-                        <!-- Icono de la carta -->
-                        <i class="bi bi-incognito"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Envios 100% discreto</h5>
+        <!-- Seccion carrusel de los servicios UNICAMENTE en celular -->
+       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <!-- Primera sección -->
+                    <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-4">
+                                <div class="card border-0">
+                                    <i class="bi bi-incognito"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Envios 100% discreto</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card border-0">
+                                    <i class="bi bi-person-circle"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Atención personalizada</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card border-0 h-100">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Ubicacion</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
-                <div class="col-4">
-                    <div class="card border-0">
-                        <i class="bi bi-person-circle"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Atención personalizada</h5>
+                <div class="carousel-item">
+                    <!-- Segunda sección -->
+                    <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-4">
+                                <div class="card border-0">
+                                    <i class="bi bi-currency-dollar"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Metodos de pago</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card border-0">
+                                    <i class="bi bi-speedometer"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Envios express</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card border-0">
+                                    <i class="bi bi-shop"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Retiro en local</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-
+                    </section>
                 </div>
-                <div class="col-4">
-                    <div class="card border-0 h-100">
-                        <i class="bi bi-geo-alt"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Ubicacion </h5>
+                <div class="carousel-item">
+                    <!-- Tercera sección -->
+                    <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-4">
+                                <div class="card border-0">
+                                    <i class="bi bi-globe-americas"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Envios a todo el país</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card border-0">
-                        <i class="bi bi-currency-dollar"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Metodos de pago</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card border-0">
-                        <i class="bi bi-speedometer"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Envios express</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card border-0">
-                        <i class="bi bi-shop"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Retiro en local</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card border-0">
-                        <i class="bi bi-globe-americas"></i>
-                        <div class="card-body">
-                            <h5 class="card-title">Envios a todo el país</h5>
-                        </div>
-                    </div>
+                    </section>
                 </div>
             </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
 
         <!-- Seccion carrusel de los servicios UNICAMENTE en celular -->
