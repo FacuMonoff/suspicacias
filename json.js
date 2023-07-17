@@ -57,3 +57,25 @@ const productHTML = products.map((product) => `
 
 // Insertar el contenido en el contenedor en el HTML
 productListContainer.innerHTML = productHTML;
+
+
+//texto adiccional
+const cards = document.querySelectorAll('.card');
+
+cards.forEach((card) => {
+    const additionalText = card.querySelector('.additional-text');
+    const cardTitle = card.querySelector('h5.card-title');
+    const icon = card.querySelector('i');
+
+    card.addEventListener('mouseenter', () => {
+        additionalText.style.display = 'block';
+        cardTitle.style.visibility = 'hidden';
+        icon.style.visibility = 'hidden';
+    });
+
+    card.addEventListener('mouseleave', () => {
+        additionalText.style.display = 'none';
+        cardTitle.style.visibility = 'visible';
+        icon.style.visibility = 'visible';
+    });
+});

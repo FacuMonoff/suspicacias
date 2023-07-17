@@ -81,6 +81,32 @@ body {
     border-radius: 10%;
 }
 
+.card {
+    position: relative;
+    overflow: hidden;
+    /* Evita que el texto adicional desborde el contenedor de la tarjeta */
+}
+
+.card-body {
+    position: relative;
+    /* Asegura que el texto adicional esté posicionado dentro del contenedor de la tarjeta */
+    text-align: center;
+}
+
+.additional-text {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
 
 /* Clase para que solo se vea en celular */
 @media only screen and (min-width: 768px) {
