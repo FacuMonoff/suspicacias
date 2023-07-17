@@ -296,17 +296,6 @@ body {
     border-radius: 10%;
 }
 
-.container-fluid {
-    background-color: #604ed2;
-}
-
-.offcanvas-body {
-    background-color: rgb(106, 0, 255);
-}
-
-.offcanvas-header {
-    background-color: rgb(106, 0, 255);
-}
 
 .buscar-button-IMG {
     width: 60%;
