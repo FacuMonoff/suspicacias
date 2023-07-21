@@ -1,0 +1,29 @@
+/* Son variables globales en css */
+body {
+    --main-rgb: 233, 37, 41;
+    --main: #e92529;
+
+    /* --bs-body-color: #fff;
+    --bs-body-color: rgb(255, 255, 255); */
+
+    --bs-dark-rgb: var(--main-rgb);
+    /* --bs-body-bg: var(--bs-body-color); */
+    --bs-link-hover-color: var(--main);
+    --bs-link-hover-color-rgb: var(--main-rgb);
+    --bs-link-color-rgb: var(--bs-body-color);
+}
+
+/* Para que no aparezcan los puntos en las listas */
+li {
+    list-style: none;
+}
+
+/* Para que no este subrayados de los links */
+a {
+    text-decoration: none;
+}
+
+/* Para que se subrayen cuando pases el mouse sobre un link  */
+a:hover {
+    text-decoration: underline;
+}
