@@ -47,7 +47,7 @@ const productHTML = products.map((product) => `
         <div class="card h-100">
             <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" alt="...">
             <div class="card-body">
-                <h5 class="card-title">${product.name}</h5>
+                <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
                 <p class="card-text">${product.price}</p>
                 <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
