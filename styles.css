@@ -12,14 +12,21 @@ body {
     background-size: cover;
 }
 
+.nuestrosDestacados {
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
 
 
 .follow-us {
     padding: 20px;
+    text-align: center;
 }
 
 .follow-us h2 {
-    color: red;
+    color: white
 }
 
 .social-media {

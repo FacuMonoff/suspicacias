@@ -40,7 +40,7 @@
                             <a class="nav-link active text-uppercase" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">Catalogo</a>
+                            <a class="nav-link text-uppercase" href="catalogo.html">Catalogo</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
@@ -97,6 +97,7 @@
 
     <div class="background-container">
 
+        <h2 class="nuestrosDestacados">NUESTROS DESTACADOS</h2>
         <!-- Seccion de los productos mostrados -->
         <section class="container">
             <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
@@ -335,26 +336,67 @@
         </section>
 
 
-        <div class="follow-us">
-            <h2>Síguenos en las redes</h2>
-            <div class="social-media">
-                <a href="#"><img src="img/logos redes/facebook.png" alt="Facebook" class="logos"></a>
-                <a href="#"><img src="img/logos redes/insta.png" alt="Instagram" class="logos"></a>
-                <a href="#"><img src="img/logos redes/whatsapp.png" alt="WhatsApp" class="logos"></a>
+        <footer class="footer">
+            <div class="row">
+                <!-- Primera columna con botones -->
+                <div class="col-sm-6 col-md-3">
+                    <h3>Botones</h3>
+                    <ul class="list-unstyled">
+                        <li><button class="btn btn-primary">Botón 1</button></li>
+                        <li><button class="btn btn-primary">Botón 2</button></li>
+                        <li><button class="btn btn-primary">Botón 3</button></li>
+                    </ul>
+                </div>
+
+                <!-- Segunda columna con métodos de pago e imágenes -->
+                <div class="col-sm-6 col-md-3">
+                    <h3>Métodos de Pago</h3>
+                    <p>Aceptamos las siguientes formas de pago:</p>
+                    <ul>
+                        <li>Tarjeta de crédito</li>
+                        <li>PayPal</li>
+                        <!-- Agrega más métodos de pago aquí si es necesario -->
+                    </ul>
+                    <div>
+                        <img src="ruta/imagen1.jpg" alt="Métodos de pago" class="img-fluid" width="100" height="50">
+                        <img src="ruta/imagen2.jpg" alt="Métodos de pago" class="img-fluid" width="100" height="50">
+                        <!-- Agrega más imágenes de métodos de pago si es necesario -->
+                    </div>
+                </div>
+
+                <!-- Tercera columna con contacto -->
+                <div class="col-sm-6 col-md-3">
+                    <h3>Contactanos</h3>
+                    <p>
+                        Puedes contactarnos a través de:
+                        <br>
+                        Email: ejemplo@ejemplo.com
+                        <br>
+                        Teléfono: +1 234 567 890
+                    </p>
+                </div>
+
+                <!-- Cuarta columna con redes sociales -->
+                <div class="col-sm-6 col-md-3">
+                    <h3>Redes Sociales</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="enlace_facebook"><img src="ruta_icono_facebook"
+                                    alt="Facebook" class="img-fluid"></a></li>
+                        <li class="list-inline-item"><a href="enlace_twitter"><img src="ruta_icono_twitter"
+                                    alt="Twitter" class="img-fluid"></a></li>
+                        <!-- Agrega más iconos y enlaces a redes sociales si es necesario -->
+                    </ul>
+                </div>
             </div>
-        </div>
-    </div>
-    <footer class="footer">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus id dolores nemo mollitia doloribus nisi
-        tempore quae quam rem quo, voluptates molestiae odit inventore. Accusamus obcaecati eius in quo magnam.
-    </footer>
+        </footer>
 
-    <a class="float-wa" href="#"><i class="bi bi-whatsapp"></i></a>
 
-    <script src="json.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+        <a class="float-wa" href="#"><i class="bi bi-whatsapp"></i></a>
+
+        <script src="json.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
