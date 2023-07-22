@@ -100,7 +100,7 @@ body {
     text-align: center;
 }
 
-.additional-text {
+.card .additional-text {
     display: none;
     position: absolute;
     bottom: 0;
@@ -111,7 +111,6 @@ body {
     text-align: center;
     font-size: 14px;
 }
-
 
 
 
@@ -146,4 +145,31 @@ body {
 section {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+#filtro-btn {
+    display: none;
+    margin-top: 10px;
+}
+
+#filtro-list {
+    display: none;
+    margin-top: 10px;
+}
+
+@media (max-width: 767.98px) {
+
+    /* Estilos para la pantalla pequeña */
+    #content-container {
+        display: none;
+        /* Ocultar todo el contenido en pantallas pequeñas */
+    }
+
+    #filtro-btn {
+        display: block;
+    }
+
+    #filtro-list.active {
+        display: block;
+    }
 }

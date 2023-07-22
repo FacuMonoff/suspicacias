@@ -39,8 +39,17 @@
                         <li class="nav-item">
                             <a class="nav-link active text-uppercase" aria-current="page" href="#">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="catalogo.html">Catalogo</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">agregar ofertas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">juguetes y accesorios </a>
+                                </li>
+                                <li><a class="dropdown-item" href="lubricantesYGeles.html">lubricantes y geles</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
@@ -52,6 +61,9 @@
                                 <li><a class="dropdown-item" href="#">Facebook <i class="bi bi-facebook"></i></a></li>
                                 <li><a class="dropdown-item" href="#">Whatsapp <i class="bi bi-whatsapp"></i></a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" aria-current="page" href="#">ventas mayoristas</a>
                         </li>
                     </ul>
                     <!-- El form para nuestro boton de busqueda -->
@@ -96,11 +108,28 @@
     </div>
 
     <div class="background-container">
-
         <h2 class="nuestrosDestacados">NUESTROS DESTACADOS</h2>
+
         <!-- Seccion de los productos mostrados -->
         <section class="container">
             <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
+        </section>
+
+
+        <section class="seccionCatalogo text-center">
+            <h2 class="nuestrosDestacados">CATEGORIAS</h2>
+            <div class="cardCatalogo" onclick="openLink('https://www.example1.com')">
+                <a href=""><img src="img/fetiche.png" alt="Imagen 1"></a>
+            </div>
+
+            <div class="cardCatalogo" onclick="openLink('https://www.example2.com')">
+                <a href=""><img src="img/juegos.png" alt="Imagen 2"></a>
+            </div>
+
+            <div class="cardCatalogo" onclick="openLink('https://www.example3.com')">
+                <a href=""><img src="img/lenceria.png" alt="Imagen 3"></a>
+            </div>
+
         </section>
 
         <!-- Seccion de los servicios en CUALQUIER dispositivo DISTINTO de celular -->
@@ -314,27 +343,31 @@
             <div class="row">
                 <!-- Primera columna con botones -->
                 <div class="col-sm-6 col-md-3">
-                    <h3>Botones</h3>
+                    <h3>Navegación</h3>
                     <ul class="list-unstyled">
-                        <li><button class="btn btn-primary">Botón 1</button></li>
-                        <li><button class="btn btn-primary">Botón 2</button></li>
-                        <li><button class="btn btn-primary">Botón 3</button></li>
+
+                        <li><a href="index.html"> INICIO</a></li>
+                        <li><a href="productos.html">PRODUCTOS</a></li>
+                        <li><a href="contactos.html">CONTACTOS</a></li>
+                        <li><a href="ventaMayorista.html">MAYORISTA</a></li>
                     </ul>
                 </div>
 
                 <!-- Segunda columna con métodos de pago e imágenes -->
                 <div class="col-sm-6 col-md-3">
                     <h3>Métodos de Pago</h3>
-                    <p>Aceptamos las siguientes formas de pago:</p>
-                    <ul>
-                        <li>Tarjeta de crédito</li>
-                        <li>PayPal</li>
-                        <!-- Agrega más métodos de pago aquí si es necesario -->
-                    </ul>
                     <div>
-                        <img src="ruta/imagen1.jpg" alt="Métodos de pago" class="img-fluid" width="100" height="50">
-                        <img src="ruta/imagen2.jpg" alt="Métodos de pago" class="img-fluid" width="100" height="50">
-                        <!-- Agrega más imágenes de métodos de pago si es necesario -->
+                        <img src="/metodos de pago/MASTERCARD.png" alt="Métodos de pago" class="img-fluid" width="50"
+                            height="50">
+                        <img src="/metodos de pago/VISA.png" alt="Métodos de pago" class="img-fluid" width="50"
+                            height="50">
+                        <img src="/metodos de pago/MAESTRO.png" alt="Métodos de pago" class="img-fluid" width="50"
+                            height="50">
+                        <img src="/metodos de pago/PAGOFACIL.png" alt="Métodos de pago" class="img-fluid" width="50"
+                            height="50">
+                        <img src="/metodos de pago/RAPIPAGO.png" alt="Métodos de pago" class="img-fluid" width="50"
+                            height="50">
+
                     </div>
                 </div>
 
@@ -344,20 +377,33 @@
                     <p>
                         Puedes contactarnos a través de:
                         <br>
-                        Email: ejemplo@ejemplo.com
+                        <i class="bi bi-envelope-at"></i>
+                        suspicaciasexshopctes@gmail.com
                         <br>
-                        Teléfono: +1 234 567 890
+                        <i class="bi bi-telephone"></i>
+                        +54 9 3794015905
+                        <br>
+                        <i class="bi bi-geo-alt"></i>
+                        Brasil 805, Corrientes Capital
+                        <br>
+                        <i class="bi bi-clock"></i>
+                        Lunes a Sabados: 11am a 23pm
                     </p>
+
                 </div>
 
                 <!-- Cuarta columna con redes sociales -->
                 <div class="col-sm-6 col-md-3">
                     <h3>Redes Sociales</h3>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="enlace_facebook"><img src="ruta_icono_facebook"
-                                    alt="Facebook" class="img-fluid"></a></li>
-                        <li class="list-inline-item"><a href="enlace_twitter"><img src="ruta_icono_twitter"
-                                    alt="Twitter" class="img-fluid"></a></li>
+                        <li class="list-inline-item"><a
+                                href="https://www.facebook.com/profile.php?id=100093064702085"><img
+                                    src="/img/logos redes/facebook.png" alt="Facebook" class="img-fluid" width="50"
+                                    height="50"></a></li>
+                        <li class="list-inline-item"><a
+                                href="https://instagram.com/suspicacias.sexshop?igshid=MzRlODBiNWFlZA=="><img
+                                    src="img/logos redes/insta.png" alt="Twitter" class="img-fluid" width="50"
+                                    height="50"></a></li>
                         <!-- Agrega más iconos y enlaces a redes sociales si es necesario -->
                     </ul>
                 </div>
@@ -365,7 +411,7 @@
         </footer>
 
 
-        <a class="float-wa" href="#"><i class="bi bi-whatsapp"></i></a>
+        <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
 
         <script src="json.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

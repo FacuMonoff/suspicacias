@@ -53,6 +53,10 @@
                                 <li><a class="dropdown-item" href="#">Whatsapp <i class="bi bi-whatsapp"></i></a></li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" aria-current="page" href="ventaMayorista.html">ventas
+                                mayoristas</a>
+                        </li>
                     </ul>
                     <!-- El form para nuestro boton de busqueda -->
                     <form class="d-flex mt-3" role="search">
@@ -70,64 +74,82 @@
     <!-- Main section -->
     <section class="container">
         <!-- 1 columna en celular || 2 columnas en los demas dispositivos -->
-        <section class="row row-cols-md-2 row-cols-sm-1 justify-content-between">
+        <section class="row row-cols-md-2 row-cols-sm-1 justify-content-center">
             <!-- Ruta en la que te encontras -->
-            <div class="col-md-3 col-sm-12">
-                <h4><a href="/">Inicio</a>/<b>Productos</b></h4>
-            </div>
-            <div class="col-md-3 col-sm-12">
-                <!-- Filtro para ordenar -->
-                <form action="">
-                    <label for="ordenar" class="form-label"><b>Ordenar por:</b></label>
-                    <select name="ordenar" id="" class="form-select form-select-sm">
-                        <option selected>Destacado</option>
-                        <option value="1">A-Z</option>
-                        <option value="2">Z-A</option>
-                        <option value="3">Precio</option>
-                    </select>
-                </form>
-            </div>
+            <h2>Juguetes y accesorios</h2>
+
         </section>
-        <!-- Categorias y Filtros, Productos  -->
-        <section class="row justify-content-between">
-            <div class="col-md-3 col-sm-12">
-                <!-- Categorias -->
+        <section class="row justify-content-between filters-section">
+            <div id="content-container" class="col-md-3 col-sm-12">
+                <!-- Categorias y Filtros - Se mostrará en pantallas medianas y grandes -->
                 <div class="mb-4">
                     <h3 class="mb-4"><b>Categorias</b></h3>
                     <ul class="list-group">
-                        <a class="" href="">En Promocion</a>
-                        <a class="" href="/jugueteYAccesorios.html">Juguetes y Accesorios</a>
-                        <a class="" href="">Categoria 3</a>
-                        <a class="" href="">Categoria 4</a>
-                        <a class="" href="">Categoria 5</a>
+                        <li><a class="" href="">En Promocion</a></li>
+                        <li><a class="" href="">Categoria 2</a></li>
+                        <li><a class="" href="">Categoria 3</a></li>
+                        <li><a class="" href="">Categoria 4</a></li>
+                        <li><a class="" href="">Categoria 5</a></li>
                     </ul>
                 </div>
-                <!-- Filtros -->
                 <div>
                     <h3 class="mb-4"><b>Filtros</b></h3>
                     <h4><b>Precio</b></h4>
                     <form action="" class="row">
                         <div class="col-4"><input type="number" name="desde" id="" style="width: 100%;"></div>
-
                         <div class="col-4"><input type="number" name="hasta" id="" style="width: 100%;"></div>
                     </form>
                 </div>
+                <div class="col-md-3 col-sm-12">
+                    <!-- Filtro para ordenar -->
+                    <form action="">
+                        <label for="ordenar" class="form-label"><b>Ordenar por:</b></label>
+                        <select name="ordenar" id="" class="form-select form-select-sm">
+                            <option selected>Destacado</option>
+                            <option value="1">A-Z</option>
+                            <option value="2">Z-A</option>
+                            <option value="3">Precio</option>
+                        </select>
+                    </form>
+                </div>
             </div>
+
+            <!-- Botón y lista desplegable - Se mostrará en pantallas pequeñas -->
+            <div class="col-md-9 col-sm-12">
+                <button id="filtro-btn" class="btn btn-primary" onclick="toggleFilterList()">FILTRAR POR</button>
+                <ul id="filtro-list" class="list-group">
+                    <a>En Promocion</a>
+                    <a class="d-container">Categoria 2</a>
+                    <a class="">Categoria 3</a>
+                    <a class="">Categoria 4</a>
+                    <a class="">Categoria 5</a>
+                </ul>
+                <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
+            </div>
+
+        </section>
+        <!-- Categorias y Filtros, Productos  -->
+        <section class="row justify-content-between">
+
             <!-- Los productos -->
             <div class="col-md-9 col-sm-12">
                 <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
             </div>
         </section>
     </section>
+
+
+
     <footer class="footer">
         <div class="row">
             <!-- Primera columna con botones -->
             <div class="col-sm-6 col-md-3">
-                <h3>Botones</h3>
+                <h3>Navegacion</h3>
                 <ul class="list-unstyled">
-                    <li><button class="btn btn-primary">Botón 1</button></li>
-                    <li><button class="btn btn-primary">Botón 2</button></li>
-                    <li><button class="btn btn-primary">Botón 3</button></li>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="nuestroLocal.html">Nuestro Local</a></li>
+                    <li><a href="">Politica de devolucion</a></li>
                 </ul>
             </div>
 
