@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <!-- Boton para expandir el nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <!-- Cabecera del nav cuando expandimos -->
+                <div class="offcanvas-header">
+                    <!-- Titulo -->
+                    <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel">Suspicacias</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!-- Todo el contenido que vamos a tener en el offcanvas -->
+                <div class="offcanvas-body">
+                    <!-- Una lista para los items que vamos a tener en el offcanvas -->
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                PRODUCTOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">agregar ofertas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">juguetes y accesorios </a>
+                                </li>
+                                <li><a class="dropdown-item" href="lubricantesYGeles.html">lubricantes y geles</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Contacto
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://instagram.com/suspicacias.sexshop?igshid=MzRlODBiNWFlZA==">Instagram
+                                        <i class="bi bi-instagram"></i></a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.facebook.com/profile.php?id=100093064702085">Facebook
+                                        <i class="bi bi-facebook"></i></a></li>
+                                <li><a class="dropdown-item" href="https://wa.link/rgb5ni">Whatsapp <i
+                                            class="bi bi-whatsapp"></i></a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" aria-current="page" href="#">ventas mayoristas</a>
+                        </li>
+                    </ul>
+                    <!-- El form para nuestro boton de busqueda -->
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            <!-- El titulo que va en el centro del navbar -->
+            <a class="navbar-brand" href="#" style="font-family: Lobster;font-size: 2.2em;">Suspicacias</a>
+            <!-- Carrito de compra -->
+            <a href="#" class="nav-link"><i class="bi bi-cart text-white" style="font-size: 1.65em;"></i></a>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="row product-container text-center">
+            <div class="col-md-6 product-image">
+                <!-- Insertar aquí la imagen del producto -->
+                <img class="image img-fluid" src="img/fondo2.png" alt="Imagen del producto">
+
+                <!-- Segunda sección -->
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-4">
+
+                        <img src="img/fondo2.png" alt="" style="width: 100%;">
+
+                    </div>
+                    <div class="col-4">
+
+                        <img src="img/fondo2.png" alt="" style="width: 100%;">
+                    </div>
+                    <div class="col-4">
+
+                        <img src="img/fondo2.png" alt="" style="width: 100%;">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col product-details text-start" style="color: white;">
+                <div class="row">
+                    <div class="col">
+                        <h2>Nombre del producto</h2>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4><b>$2.500</b></h4>
+                        <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h4>Descripcion:</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum sint modi neque fuga et.
+                            Facere saepe ipsa nostrum atque quod molestias nesciunt a? Pariatur iste magni laboriosam,
+                            libero inventore consectetur!</p>
+                    </div>
+                </div>
+                <div class="quantity-button">
+                    <label for="cantidad d-block">Cantidad:</label>
+                    <br>
+                    <input type="number" name="cantidad"></input>
+                </div>
+                <br>
+                <button class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+
+    <h2 class="text-white text-center">Tambien te puede gustar</h2>
+
+    <section class="container">
+        <div class="row row-cols-md-4 row-cols-sm-2 g-4" id="product-list"></div>
+    </section>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- Primera sección -->
+                <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-4">
+                            <div class="card border-0">
+                                <i class="bi bi-incognito"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Envios 100% discreto</h5>
+                                    <div class="additional-text">
+                                        <p>Texto adicional para "Envios 100% discreto"Texto adicional para "Envios
+                                            100% discreto"Texto adicional para "Envios 100% discreto".</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card border-0">
+                                <i class="bi bi-person-circle"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Atención personalizada</h5>
+                                    <div class="additional-text">
+                                        <p>Texto adicional para "Atención personalizada"Texto adicional para
+                                            "Atención personalizada"Texto adicional para "Atención personalizada".
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card border-0 h-100">
+                                <i class="bi bi-geo-alt"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Ubicacion</h5>
+                                    <div class="additional-text">
+                                        <p>Texto adicional para "Ubicacion"Texto adicional para "UbicacionTexto
+                                            adicional para "Ubicacion.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <!-- Segunda sección -->
+                <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-4">
+                            <div class="card border-0">
+                                <i class="bi bi-currency-dollar"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Metodos de pago</h5>
+                                    <div class="additional-text">
+                                        <p>Texto adicional para "Metodos de pago"Texto adicional para "Metodos de
+                                            pagoTexto adicional para "Metodos de pago.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card border-0">
+                                <i class="bi bi-speedometer"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Envios express</h5>
+                                    <div class="additional-text">
+                                        <p>Texto adicional para "Envios express"Texto adicional para "Envios
+                                            express"Texto adicional para "Envios express".</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card border-0">
+                                <i class="bi bi-shop"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Retiro en local</h5>
+                                    <div class="additional-text">
+                                        <p>Texto adicional para "Retiro en local"Texto adicional para "Retiro en
+                                            local"Texto adicional para "Retiro en local".</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <!-- Tercera sección -->
+                <section class="container text-center service-section hidden-phone" style="font-size: 4rem;">
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-4">
+                            <div class="card border-0">
+                                <i class="bi bi-globe-americas"></i>
+                                <div class="card-body">
+                                    <h5 class="card-title">Envios a todo el país</h5>
+                                    <div class="additional-text">
+                                        <p>Texto adicional para "Envios a todo el país"Texto adicional para "Envios
+                                            a todo el país"Texto adicional para "Envios a todo el país".</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <button class="carousel-control-prev hidden-phone" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="bi-arrow-left-circle-fill" style="font-size: 3rem; color: rgb(0, 0, 0);"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next hidden-phone" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="bi-arrow-right-circle-fill" style="font-size: 3rem; color: rgb(0, 0, 0);"></span>
+            <span class="visually-hidden ">Next</span>
+        </button>
+    </div>
+
+    <footer class="footer">
+        <div class="row">
+            <!-- Primera columna con botones -->
+            <div class="col-sm-6 col-md-3">
+                <h3>Navegación</h3>
+                <ul class="list-unstyled">
+
+                    <li><a href="index.html"> INICIO</a></li>
+                    <li><a href="productos.html">PRODUCTOS</a></li>
+                    <li><a href="contactos.html">CONTACTOS</a></li>
+                    <li><a href="ventaMayorista.html">MAYORISTA</a></li>
+                </ul>
+            </div>
+
+            <!-- Segunda columna con métodos de pago e imágenes -->
+            <div class="col-sm-6 col-md-3">
+                <h3>Métodos de Pago</h3>
+                <div>
+                    <img src="/metodos de pago/MASTERCARD.png" alt="Métodos de pago" class="img-fluid" width="50"
+                        height="50">
+                    <img src="/metodos de pago/VISA.png" alt="Métodos de pago" class="img-fluid" width="50" height="50">
+                    <img src="/metodos de pago/MAESTRO.png" alt="Métodos de pago" class="img-fluid" width="50"
+                        height="50">
+                    <img src="/metodos de pago/PAGOFACIL.png" alt="Métodos de pago" class="img-fluid" width="50"
+                        height="50">
+                    <img src="/metodos de pago/RAPIPAGO.png" alt="Métodos de pago" class="img-fluid" width="50"
+                        height="50">
+
+                </div>
+            </div>
+
+            <!-- Tercera columna con contacto -->
+            <div class="col-sm-6 col-md-3">
+                <h3>Contactanos</h3>
+                <p>
+                    Puedes contactarnos a través de:
+                    <br>
+                    <i class="bi bi-envelope-at"></i>
+                    suspicaciasexshopctes@gmail.com
+                    <br>
+                    <i class="bi bi-telephone"></i>
+                    +54 9 3794015905
+                    <br>
+                    <i class="bi bi-geo-alt"></i>
+                    Brasil 805, Corrientes Capital
+                    <br>
+                    <i class="bi bi-clock"></i>
+                    Lunes a Sabados: 11am a 23pm
+                </p>
+
+            </div>
+
+            <!-- Cuarta columna con redes sociales -->
+            <div class="col-sm-6 col-md-3">
+                <h3>Redes Sociales</h3>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100093064702085"><img
+                                src="/img/logos redes/facebook.png" alt="Facebook" class="img-fluid" width="50"
+                                height="50"></a></li>
+                    <li class="list-inline-item"><a
+                            href="https://instagram.com/suspicacias.sexshop?igshid=MzRlODBiNWFlZA=="><img
+                                src="img/logos redes/insta.png" alt="Twitter" class="img-fluid" width="50"
+                                height="50"></a></li>
+                    <!-- Agrega más iconos y enlaces a redes sociales si es necesario -->
+                </ul>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+    <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
+
+    <script src="json.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

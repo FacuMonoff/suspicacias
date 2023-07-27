@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>INICIO</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="boostrap_var.css">
+
 </head>
 
 <body>
@@ -24,6 +24,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- menu despegable-->
             <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <!-- Cabecera del nav cuando expandimos -->
@@ -83,7 +84,8 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase" aria-current="page" href="#">ventas mayoristas</a>
+                            <a class="nav-link text-uppercase" aria-current="page" href="ventaMayorista.html">ventas
+                                mayoristas</a>
                         </li>
                     </ul>
                     <!-- El form para nuestro boton de busqueda -->
@@ -101,62 +103,6 @@
     </nav>
 
 
-    <!-- Main section -->
-    <section class="container">
-        <!-- 1 columna en celular || 2 columnas en los demas dispositivos -->
-        <section class="row row-cols-md-2 row-cols-sm-1 justify-content-center">
-            <!-- Ruta en la que te encontras -->
-            <h2>*agregar categoria elegida*</h2>
-
-        </section>
-        <section class="row justify-content-between filters-section">
-            <div id="content-container" class="col-md-3 col-sm-12">
-                <!-- Categorias y Filtros - Se mostrará en pantallas medianas y grandes -->
-                <div class="mb-4">
-                    <h4 class="mb-4"><b>*agregar categoria elegida*</b></h4>
-                    <ul class="list-group">
-                        <li><a class="" href="">*subcategoria* </a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="mb-4"><b>Filtros</b></h3>
-                    <h4><b>Precio</b></h4>
-                    <form action="" class="row">
-                        <div class="col-4"><input type="number" name="desde" id="" style="width: 100%;"></div>
-                        <div class="col-4"><input type="number" name="hasta" id="" style="width: 100%;"></div>
-                    </form>
-                </div>
-
-            </div>
-
-            <!-- Botón y lista desplegable - Se mostrará en pantallas pequeñas -->
-            <div class="col-md-9 col-sm-12">
-                <button id="filtro-btn" class="btn btn-primary" onclick="toggleFilterList()">FILTRAR POR</button>
-                <ul id="filtro-list" class="list-group">
-                    <a>En Promocion</a>
-                    <a class="d-container">Categoria 2</a>
-                    <a class="">Categoria 3</a>
-                    <a class="">Categoria 4</a>
-                    <a class="">Categoria 5</a>
-                </ul>
-                <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
-            </div>
-
-        </section>
-        <!-- Categorias y Filtros, Productos  -->
-        <section class="row justify-content-between">
-
-            <!-- Los productos -->
-            <div class="col-md-9 col-sm-12">
-                <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
-            </div>
-        </section>
-    </section>
 
 
 
@@ -226,15 +172,14 @@
                     <li class="list-inline-item"><a
                             href="https://instagram.com/suspicacias.sexshop?igshid=MzRlODBiNWFlZA=="><img
                                 src="img/logos redes/tiktok.png" alt="tiktok" class="img-fluid" width="50"
-                                height="50"></a>
-                    </li>
+                                height="50"></a></li>
                     <!-- Agrega más iconos y enlaces a redes sociales si es necesario -->
                 </ul>
             </div>
         </div>
     </footer>
 
-    <!-- Icono de whatsapp -->
+
     <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
 
     <script src="json.js"></script>

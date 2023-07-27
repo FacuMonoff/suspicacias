@@ -6,10 +6,17 @@
     padding: 0;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-image: url(img/fondoRojo.png);
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .nuestrosDestacados {
@@ -172,4 +179,18 @@ section {
     #filtro-list.active {
         display: block;
     }
+}
+
+/* SUBMENU */
+/*
+.dropdown-menu {
+    background-color: red;
+}
+
+.dropdown-item {
+    color: white;
+}
+*/
+.form-control {
+    background-color: white;
 }
