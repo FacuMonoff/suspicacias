@@ -41,10 +41,7 @@
                             <a class="nav-link active text-uppercase" aria-current="page" href="#">Sex sale |
                                 ¡OFERTAS!</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-uppercase" aria-current="page" href="producto.html">Sa
-                                ¡OFERTAS!</a>
-                        </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -440,6 +437,25 @@
             </div>
         </footer>
 
+        <script>
+            window.addEventListener("DOMContentLoaded", () => {
+                const urlParams = new URLSearchParams(window.location.search);
+                const productIndex = parseInt(urlParams.get("index"));
+
+                if (!isNaN(productIndex) && productIndex >= 0 && productIndex < products.length) {
+                    const selectedProduct = products[productIndex];
+                    // Aquí puedes acceder a la información del producto seleccionado (selectedProduct)
+                    // y modificar el contenido HTML de "descripcion.html" para mostrar la descripción del producto.
+                    // Por ejemplo:
+                    document.getElementById("product-image").src = selectedProduct.image;
+                    document.getElementById("product-name").textContent = selectedProduct.name;
+                    document.getElementById("product-price").textContent = selectedProduct.price;
+                    // ... Agrega más código para mostrar otros detalles del producto si es necesario.
+                } else {
+                    // Si el índice del producto no es válido o no se proporcionó, puedes mostrar un mensaje de error o redirigir al usuario a otra página.
+                }
+            });
+        </script>
 
         <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
 

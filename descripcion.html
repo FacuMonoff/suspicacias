@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DESCRIPCION</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <!-- El titulo que va en el centro del navbar -->
-            <a class="navbar-brand" href="#" style="font-family: Lobster;font-size: 2.2em;">Suspicacias</a>
+            <a class="navbar-brand" href="index.html" style="font-family: Lobster;font-size: 2.2em;">Suspicacias</a>
             <!-- Carrito de compra -->
             <a href="#" class="nav-link"><i class="bi bi-cart text-white" style="font-size: 1.65em;"></i></a>
         </div>
@@ -89,23 +89,23 @@
         <div class="row product-container text-center">
             <div class="col-md-6 product-image">
                 <!-- Insertar aquí la imagen del producto -->
-                <img class="image img-fluid" src="img/fondo2.png" alt="Imagen del producto">
+                <img id="product-image" class="image img-fluid" src="" alt="Imagen del producto">
 
                 <!-- Segunda sección -->
 
                 <div class="row g-4 justify-content-center">
                     <div class="col-4">
 
-                        <img src="img/fondo2.png" alt="" style="width: 100%;">
+                        <img id="product-image2" src="" alt="" style="width: 100%;">
 
                     </div>
                     <div class="col-4">
 
-                        <img src="img/fondo2.png" alt="" style="width: 100%;">
+                        <img id="product-image2" src="" alt="" style="width: 100%;">
                     </div>
                     <div class="col-4">
 
-                        <img src="img/fondo2.png" alt="" style="width: 100%;">
+                        <img id="product-image2" src="" alt="" style="width: 100%;">
                     </div>
                 </div>
 
@@ -114,22 +114,20 @@
             <div class="col product-details text-start" style="color: white;">
                 <div class="row">
                     <div class="col">
-                        <h2>Nombre del producto</h2>
+                        <h2 id="product-name"></h2>
                         <br>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h4><b>$2.500</b></h4>
+                        <h4><b id="product-price"></b></h4>
                         <br>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <h4>Descripcion:</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum sint modi neque fuga et.
-                            Facere saepe ipsa nostrum atque quod molestias nesciunt a? Pariatur iste magni laboriosam,
-                            libero inventore consectetur!</p>
+                        <p id="product-descripcion"></p>
                     </div>
                 </div>
                 <div class="quantity-button">
@@ -342,7 +340,6 @@
 
 
     </footer>
-
 
     <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
 
