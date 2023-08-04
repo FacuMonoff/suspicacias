@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 
 </head>
 
@@ -80,8 +81,33 @@
             </div>
             <!-- El titulo que va en el centro del navbar -->
             <a class="navbar-brand" href="index.html" style="font-family: Lobster;font-size: 2.2em;">Suspicacias</a>
+
             <!-- Carrito de compra -->
-            <a href="#" class="nav-link"><i class="bi bi-cart text-white" style="font-size: 1.65em;"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#carritoContainer"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <i class="bi bi-cart text-white" style="font-size: 1.65em;"></i>
+            </button>
+
+            <!-- Carrito de compra card -->
+            <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" aria-labelledby="offcanvasNavbarLabel"
+                id="carritoContainer">
+                <!-- Agregamos el header del carrito -->
+                <div class="offcanvas-header">
+                    <!-- Titulo -->
+                    <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel">Carrito</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <!-- Agregamos el cuerpo del carrito -->
+                <div class="offcanvas-body">
+                    <!-- Contenedor del carrito de compras -->
+                    <div id="carritoContent">
+                        <!-- Aquí se mostrarán los productos agregados al carrito -->
+                    </div>
+                    <!-- Botón para cerrar el carrito -->
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="offcanvas">Cerrar Carrito</button>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -341,12 +367,14 @@
 
     </footer>
 
+
     <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
 
     <script src="json.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 
 </html>

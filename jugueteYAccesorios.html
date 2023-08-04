@@ -106,21 +106,19 @@
         <!-- 1 columna en celular || 2 columnas en los demas dispositivos -->
         <section class="row row-cols-md-2 row-cols-sm-1 justify-content-center">
             <!-- Ruta en la que te encontras -->
-            <h2>*agregar categoria elegida*</h2>
+            <h2 id="category-title">Todas las categorias</h2>
 
         </section>
         <section class="row justify-content-between filters-section">
             <div id="content-container" class="col-md-3 col-sm-12">
                 <!-- Categorias y Filtros - Se mostrará en pantallas medianas y grandes -->
                 <div class="mb-4">
-                    <h4 class="mb-4"><b>*agregar categoria elegida*</b></h4>
+                    <h4 class="mb-4">Todas las categorias</h4>
                     <ul class="list-group">
-                        <li><a class="" href="">*subcategoria* </a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
-                        <li><a class="" href="">*subcategoria*</a></li>
+                        <a href="jugueteYAccesorios.html">En Promocion</a>
+                        <a class="categoria-btn" data-categoria="vibrador">vibrador</a>
+                        <a class="categoria-btn" data-categoria="estimulador">estimulador</a>
+                        <a class="categoria-btn" data-categoria="succionador">succionador</a>
                     </ul>
                 </div>
                 <div>
@@ -138,11 +136,10 @@
             <div class="col-md-9 col-sm-12">
                 <button id="filtro-btn" class="btn btn-primary" onclick="toggleFilterList()">FILTRAR POR</button>
                 <ul id="filtro-list" class="list-group">
-                    <a>En Promocion</a>
-                    <a class="d-container">Categoria 2</a>
-                    <a class="">Categoria 3</a>
-                    <a class="">Categoria 4</a>
-                    <a class="">Categoria 5</a>
+                    <a id="en-promocion-btn">En Promocion</a>
+                    <a class="categoria-btn" data-categoria="vibrador">vibrador</a>
+                    <a class="categoria-btn" data-categoria="estimulador">estimulador</a>
+                    <a class="categoria-btn" data-categoria="succionador">succionador</a>
                 </ul>
                 <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
             </div>
@@ -152,8 +149,11 @@
         <section class="row justify-content-between">
 
             <!-- Los productos -->
-            <div class="col-md-9 col-sm-12">
+            <div class="col-md-9 col-sm-12" id="products-wrapper">
                 <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
+            </div>
+            <div class="col-md-9 col-sm-12">
+                <div id="productos-container"> <!-- Aquí se mostrarán los productos filtrados --> </div>
             </div>
         </section>
     </section>
