@@ -4,7 +4,7 @@ const products = [
         image: "img/vicky 1.1.png",
         image2: "img/vicky 1.2.png",
         name: "VICKY 1",
-        price: "$15.712",
+        price: "$15,712",
         descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender",
         categoria: "vibrador"
 
@@ -13,7 +13,7 @@ const products = [
         image: "img/miky 4.png",
         image2: "img/miky 4.1.png",
         name: "MIKY 4",
-        price: "$15.302",
+        price: "$15,302",
         descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
         categoria: "vibrador"
     },
@@ -21,7 +21,7 @@ const products = [
         image: "img/katy 4.png",
         image2: "img/katy 4.1.png",
         name: "KATY 4",
-        price: "$9.588",
+        price: "$9,588",
         descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
         categoria: "vibrador"
 
@@ -30,7 +30,7 @@ const products = [
         image: "img/diamont 1.1.png",
         image2: "img/diamont 1.png",
         name: "DIAMONT 1",
-        price: "$27.442",
+        price: "$27,442",
         descripcion: "¿Buscas sentirte diferente? El Vibrador Diamond,  tiene un diseño sofisticado a puro glamour, y elegantemente brillante e intenso. Con su doble motor estimulará completamente tu zona de punto G y clítoris de manera muy efectiva. Para una dosis extra de placer, combínalo con el serum lubricante EOS DSICOVER PUNTO G.",
         categoria: "estimulador"
     },
@@ -38,7 +38,7 @@ const products = [
         image: "img/male 2.png",
         image2: "img/male 2.1.png",
         name: "MALE 2",
-        price: "$34.462",
+        price: "$34,462",
         descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
         categoria: "estimulador"
     },
@@ -46,7 +46,7 @@ const products = [
         image: "img/luxe rabbit 1.png",
         image2: "img/luxe rabbit 1.1.png",
         name: "LUXE RABBIT",
-        price: "$51.383",
+        price: "$51,383",
         descripcion: "está equipado con características únicas para provocar y tentar. Eje giratorio de 3 velocidades a prueba de agua Tecnología Rolling WavesTM 7 Vibrador con función de estimulador del clítoris Elastómero puro seguro para la piel Libre de ftalato y látex El carro extraíble de la batería ahorra vida útil de la batería: requiere 3 baterías AAA Longitud: 9 pulgadas Longitud insertable: 4 pulgadas Ancho: 1.43 pulgadas Circunferencia: 4.5 pulgadas Peso del producto (sin paquete) : 8.6 onzas",
         categoria: "estimulador"
     },
@@ -54,7 +54,7 @@ const products = [
         image: "img/ana 8.png",
         image2: "img/JUGUETE 3.png",
         name: "ANA 8",
-        price: "$35.238",
+        price: "$35,238",
         descripcion: " Su intensa vibración se concentra a lo largo de todo el juguete y aún más fuerte en su cabezal, esto hace que puedas deslizarlo en tu zona genital y en cualquier otra parte del cuerpo donde necesites estimularte. Este masajeador contiene otro cabezal para poder experimentar los 10 niveles de succión que quieras en tu zona Clitorial. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. Presione el botón derecho para ajustar los modos de pulsación del cabezal, 10 modos de pulsación de frecuencia. Presione el botón izquierdo para ajustar los 10 modos de vibración final. Cambie el cabezal para sus 10 niveles de succión. ",
         categoria: "succionador"
     },
@@ -62,7 +62,7 @@ const products = [
         image: "img/sofi 3.png",
         image2: "img/sofi 3.1.png",
         name: "SOFI 3",
-        price: "$18.494",
+        price: "$18,494",
         descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior  y uno levemente menor  en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona de vaginal y clítoris de manera muy efectiva. Apenas con una zona superior texturada y su estimulador de clítoris con un diseño de conejo con una solo oreja.",
         categoria: "estimulador"
 
@@ -71,7 +71,7 @@ const products = [
         image: "img/vicky 1.1.png",
         image2: "img/vicky 1.2.png",
         name: "VICKY 1",
-        price: "$15.712",
+        price: "$15,712",
         descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender",
         categoria: "vibrador"
 
@@ -80,7 +80,7 @@ const products = [
         image: "img/miky 4.png",
         image2: "img/miky 4.1.png",
         name: "MIKY 4",
-        price: "$15.302",
+        price: "$15,302",
         descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
         categoria: "vibrador"
     },
@@ -88,7 +88,7 @@ const products = [
         image: "img/katy 4.png",
         image2: "img/katy 4.1.png",
         name: "KATY 4",
-        price: "$9.588",
+        price: "$9,588",
         descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
         categoria: "vibrador"
 
@@ -97,7 +97,7 @@ const products = [
         image: "img/diamont 1.1.png",
         image2: "img/diamont 1.png",
         name: "DIAMONT 1",
-        price: "$27.442",
+        price: "$27,442",
         descripcion: "¿Buscas sentirte diferente? El Vibrador Diamond,  tiene un diseño sofisticado a puro glamour, y elegantemente brillante e intenso. Con su doble motor estimulará completamente tu zona de punto G y clítoris de manera muy efectiva. Para una dosis extra de placer, combínalo con el serum lubricante EOS DSICOVER PUNTO G.",
         categoria: "estimulador"
     },
@@ -105,7 +105,7 @@ const products = [
         image: "img/male 2.png",
         image2: "img/male 2.1.png",
         name: "MALE 2",
-        price: "$34.462",
+        price: "$34,462",
         descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
         categoria: "estimulador"
     },
@@ -113,7 +113,7 @@ const products = [
         image: "img/luxe rabbit 1.png",
         image2: "img/luxe rabbit 1.1.png",
         name: "LUXE RABBIT",
-        price: "$51.383",
+        price: "$51,383",
         descripcion: "está equipado con características únicas para provocar y tentar. Eje giratorio de 3 velocidades a prueba de agua Tecnología Rolling WavesTM 7 Vibrador con función de estimulador del clítoris Elastómero puro seguro para la piel Libre de ftalato y látex El carro extraíble de la batería ahorra vida útil de la batería: requiere 3 baterías AAA Longitud: 9 pulgadas Longitud insertable: 4 pulgadas Ancho: 1.43 pulgadas Circunferencia: 4.5 pulgadas Peso del producto (sin paquete) : 8.6 onzas",
         categoria: "estimulador"
     },
@@ -121,7 +121,7 @@ const products = [
         image: "img/ana 8.png",
         image2: "img/JUGUETE 3.png",
         name: "ANA 8",
-        price: "$35.238",
+        price: "$35,238",
         descripcion: " Su intensa vibración se concentra a lo largo de todo el juguete y aún más fuerte en su cabezal, esto hace que puedas deslizarlo en tu zona genital y en cualquier otra parte del cuerpo donde necesites estimularte. Este masajeador contiene otro cabezal para poder experimentar los 10 niveles de succión que quieras en tu zona Clitorial. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. Presione el botón derecho para ajustar los modos de pulsación del cabezal, 10 modos de pulsación de frecuencia. Presione el botón izquierdo para ajustar los 10 modos de vibración final. Cambie el cabezal para sus 10 niveles de succión. ",
         categoria: "succionador"
     },
@@ -129,13 +129,18 @@ const products = [
         image: "img/sofi 3.png",
         image2: "img/sofi 3.1.png",
         name: "SOFI 3",
-        price: "$18.494",
+        price: "$18,494",
         descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior  y uno levemente menor  en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona de vaginal y clítoris de manera muy efectiva. Apenas con una zona superior texturada y su estimulador de clítoris con un diseño de conejo con una solo oreja.",
         categoria: "estimulador"
 
     },
 
 ];
+
+// Convertir los precios en números antes de usar los productos
+products.forEach(producto => {
+    producto.price = parseFloat(producto.price.replace(/[^0-9.-]+/g, ""));
+});
 
 // Generar el contenido de los productos
 const productListContainer = document.getElementById("product-list");
@@ -150,7 +155,7 @@ const productHTML = products.map((product) => `
             </a>
             <div class="card-body">
                 <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
-                <p class="card-text">${product.price}</p>
+                <p class="card-text">${formatPrice(product.price)}</p>
                  <button class="btn btn-primary" onclick="mostrarEnCarrito(${products.indexOf(product)})">Agregar al carrito</button>
             </div>
         </div>
@@ -279,6 +284,7 @@ function agregarAlCarrito(producto) {
         );
     }
 
+
     // Mostrar el toast usando Toastify
     Toastify({
         text: `${producto.name} ha sido agregado al carrito.`,
@@ -357,7 +363,8 @@ function actualizarCarrito() {
 
             const price = document.createElement('p');
             price.className = 'card-text';
-            price.textContent = item.price;
+            const totalPrice = item.price * item.cantidad; // Calcular el precio total por producto
+            price.textContent = formatPrice(totalPrice); // Formatear el precio con el símbolo "$" y separadores de miles
             infoContainer.appendChild(price);
 
             const buttonContainer = document.createElement('div');
@@ -392,6 +399,11 @@ function actualizarCarrito() {
             carritoContent.appendChild(card);
         });
     }
+}
+
+// Función para formatear el precio con el símbolo "$" y separadores de miles
+function formatPrice(price) {
+    return '$' + price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
 }
 
 // Función para actualizar la cantidad de un producto en el carrito
