@@ -255,6 +255,7 @@ function agregarAlCarrito(producto) {
     const existeEnCarrito = carritoProductos.some((item) => item.name === producto.name);
     const totalAmountElement = document.getElementById('totalAmount');
 
+
     if (!existeEnCarrito) {
         // Verificar que el precio sea un número válido
         if (!isNaN(parseFloat(producto.price))) {
@@ -268,6 +269,9 @@ function agregarAlCarrito(producto) {
         carritoProductos = carritoProductos.map((item) =>
             item.name === producto.name ? { ...item, cantidad: item.cantidad + 1 } : item
         );
+
+        // Actualizar el almacenamiento local con los datos del carrito
+        localStorage.setItem('carrito', JSON.stringify(carritoProductos));
     }
 
     // Mostrar el toast usando Toastify
@@ -296,7 +300,7 @@ function restarCantidad(itemName) {
     if (producto && producto.cantidad > 1) {
         producto.cantidad -= 1;
     }
-
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
     actualizarCarrito();
 }
 
@@ -307,7 +311,7 @@ function sumarCantidad(itemName) {
     if (producto) {
         producto.cantidad += 1;
     }
-
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
     actualizarCarrito();
 }
 
@@ -315,7 +319,24 @@ function sumarCantidad(itemName) {
 function eliminarDelCarrito(nombreProducto) {
     carritoProductos = carritoProductos.filter((item) => item.name !== nombreProducto);
     actualizarCarrito();
+
+    // Actualizar el almacenamiento local con los datos del carrito
+    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
 }
+
+// Función para cargar los datos del carrito desde el almacenamiento local
+function cargarCarritoDesdeLocalStorage() {
+    const carritoGuardado = localStorage.getItem('carrito');
+    if (carritoGuardado) {
+        carritoProductos = JSON.parse(carritoGuardado);
+        actualizarCarrito(); // Actualizar el contenido del carrito al cargar los datos desde el almacenamiento local
+    }
+}
+
+// Llamar a la función para cargar los datos del carrito al iniciar la aplicación
+cargarCarritoDesdeLocalStorage();
+
+
 function actualizarCarrito() {
     const carritoContent = document.getElementById('carritoContent');
     carritoContent.innerHTML = ''; // Limpiamos el contenido antes de actualizar
