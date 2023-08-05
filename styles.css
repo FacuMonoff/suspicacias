@@ -182,16 +182,18 @@ section {
     }
 }
 
-/* SUBMENU */
-/*
-.dropdown-menu {
-    background-color: red;
-}
 
-.dropdown-item {
-    color: white;
-}
-*/
 .form-control {
     background-color: white;
+}
+
+/* Estilos para el total en el carrito */
+.total-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.total-text {
+    font-size: 20px;
+    font-weight: bold;
 }

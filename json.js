@@ -166,28 +166,6 @@ const productHTML = products.map((product) => `
 productListContainer.innerHTML = productHTML;
 
 
-//texto adiccional card bonos
-const cards = document.querySelectorAll('.card');
-
-cards.forEach((card) => {
-    const additionalText = card.querySelector('.additional-text');
-    const cardTitle = card.querySelector('h5.card-title');
-    const icon = card.querySelector('i');
-
-    card.addEventListener('mouseenter', () => {
-        additionalText.style.display = 'block';
-        cardTitle.style.visibility = 'hidden';
-        icon.style.visibility = 'hidden';
-    });
-
-    card.addEventListener('mouseleave', () => {
-        additionalText.style.display = 'none';
-        cardTitle.style.visibility = 'visible';
-        icon.style.visibility = 'visible';
-    });
-});
-
-
 //CAMBIANDO IMAGENES EN LA SECCION DE "NUESTROS DESTACADOS"
 // Función para mostrar la imagen grande
 function showImage(element, imageUrl) {
@@ -275,15 +253,22 @@ let carritoProductos = [];
 // Función para agregar un producto al carrito
 function agregarAlCarrito(producto) {
     const existeEnCarrito = carritoProductos.some((item) => item.name === producto.name);
+    const totalAmountElement = document.getElementById('totalAmount');
 
     if (!existeEnCarrito) {
-        carritoProductos.push({ ...producto, cantidad: 1 });
+        // Verificar que el precio sea un número válido
+        if (!isNaN(parseFloat(producto.price))) {
+            producto.price = parseFloat(producto.price).toString(); // Convertir el precio a cadena
+            carritoProductos.push({ ...producto, cantidad: 1 });
+        } else {
+            console.error("El precio del producto no es un número válido:", producto.price);
+            return; // Salir de la función si el precio no es válido
+        }
     } else {
         carritoProductos = carritoProductos.map((item) =>
             item.name === producto.name ? { ...item, cantidad: item.cantidad + 1 } : item
         );
     }
-
 
     // Mostrar el toast usando Toastify
     Toastify({
@@ -300,21 +285,30 @@ function agregarAlCarrito(producto) {
     actualizarCarrito();
 }
 
-function actualizarCarrito() {
-    const carritoContent = document.getElementById('carritoContent');
-    carritoContent.innerHTML = ''; // Limpiamos el contenido antes de actualizar
+function formatPrice(price) {
+    return '$' + price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+}
 
-    if (carritoProductos.length === 0) {
-        // Si el carrito está vacío, mostramos un mensaje
-        carritoContent.innerHTML = `
-            <p>No hay productos en el carrito.</p>
-        `;
-    } else {
-        // Si hay productos en el carrito, creamos una tarjeta para cada producto
-        carritoProductos.forEach((item) => {
-            // ... Código para crear la tarjeta de cada producto ...
-        });
+// Función para restar cantidad de un producto en el carrito
+function restarCantidad(itemName) {
+    const producto = carritoProductos.find((item) => item.name === itemName);
+
+    if (producto && producto.cantidad > 1) {
+        producto.cantidad -= 1;
     }
+
+    actualizarCarrito();
+}
+
+// Función para sumar cantidad de un producto en el carrito
+function sumarCantidad(itemName) {
+    const producto = carritoProductos.find((item) => item.name === itemName);
+
+    if (producto) {
+        producto.cantidad += 1;
+    }
+
+    actualizarCarrito();
 }
 
 // Función CARRITO
@@ -325,6 +319,8 @@ function eliminarDelCarrito(nombreProducto) {
 function actualizarCarrito() {
     const carritoContent = document.getElementById('carritoContent');
     carritoContent.innerHTML = ''; // Limpiamos el contenido antes de actualizar
+
+    let total = 0; // Variable para calcular el precio total
 
     if (carritoProductos.length === 0) {
         // Si el carrito está vacío, mostramos un mensaje
@@ -357,7 +353,7 @@ function actualizarCarrito() {
             cardBody.appendChild(infoContainer);
 
             const title = document.createElement('h5');
-            title.className = 'card-title mt-2';
+            title.className = 'card-title mt-4';
             title.textContent = item.name;
             infoContainer.appendChild(title);
 
@@ -378,13 +374,24 @@ function actualizarCarrito() {
             buttonContainer.appendChild(deleteButton);
 
             const quantityContainer = document.createElement('div');
-            quantityContainer.className = 'col-md';
+            quantityContainer.className = 'col-md text-center'; // Agregamos la clase "text-center" para centrar el contenido
             cardBody.appendChild(quantityContainer);
 
             const quantityLabel = document.createElement('label');
             quantityLabel.htmlFor = 'cantidad';
             quantityLabel.textContent = 'Cantidad:';
             quantityContainer.appendChild(quantityLabel);
+
+            const quantityInputGroup = document.createElement('div');
+            quantityInputGroup.className = 'input-group'; // Agregamos la clase "input-group" para mostrar los botones dentro del input
+            quantityContainer.appendChild(quantityInputGroup);
+
+            const quantityDecreaseButton = document.createElement('button');
+            quantityDecreaseButton.type = 'button';
+            quantityDecreaseButton.className = 'btn btn-outline-secondary';
+            quantityDecreaseButton.textContent = '-';
+            quantityDecreaseButton.onclick = () => restarCantidad(item.name); // Llamamos a la función para restar la cantidad
+            quantityInputGroup.appendChild(quantityDecreaseButton);
 
             const quantityInput = document.createElement('input');
             quantityInput.type = 'number';
@@ -394,17 +401,31 @@ function actualizarCarrito() {
             quantityInput.value = item.cantidad;
             quantityInput.min = '1';
             quantityInput.onchange = () => actualizarCantidad(item.name, quantityInput.value);
-            quantityContainer.appendChild(quantityInput);
+            quantityInputGroup.appendChild(quantityInput);
+
+            const quantityIncreaseButton = document.createElement('button');
+            quantityIncreaseButton.type = 'button';
+            quantityIncreaseButton.className = 'btn btn-outline-secondary';
+            quantityIncreaseButton.textContent = '+';
+            quantityIncreaseButton.onclick = () => sumarCantidad(item.name); // Llamamos a la función para sumar la cantidad
+            quantityInputGroup.appendChild(quantityIncreaseButton);
 
             carritoContent.appendChild(card);
+
+
+            // Calculamos el precio total del producto (precio * cantidad)
+            const precioTotalProducto = item.price * item.cantidad;
+            total += precioTotalProducto; // Acumulamos el precio total del producto al total general
         });
+    }
+
+    // Mostramos el total en el elemento con id "totalAmount"
+    const totalAmountElement = document.getElementById('totalAmount');
+    if (totalAmountElement) {
+        totalAmountElement.textContent = formatPrice(total); // Utilizamos la función formatPrice para formatear el total con el símbolo "$" y separadores de miles
     }
 }
 
-// Función para formatear el precio con el símbolo "$" y separadores de miles
-function formatPrice(price) {
-    return '$' + price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
-}
 
 // Función para actualizar la cantidad de un producto en el carrito
 function actualizarCantidad(nombreProducto, cantidad) {
@@ -419,5 +440,6 @@ function mostrarEnCarrito(index) {
     const producto = products[index];
     agregarAlCarrito(producto);
 }
+
 
 

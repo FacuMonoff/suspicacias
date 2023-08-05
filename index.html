@@ -119,13 +119,16 @@
                 </div>
                 <!-- Agregamos el cuerpo del carrito -->
                 <div class="offcanvas-body">
+
+                    <!-- Contenedor del carrito de compras -->
                     <!-- Contenedor del carrito de compras -->
                     <div id="carritoContent">
                         <!-- Aquí se mostrarán los productos agregados al carrito -->
                     </div>
-                    <!-- Botón para cerrar el carrito -->
-                    <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-success btn-lg" style="text-align: center;">Realizar
+
+                    <div class="d-grid gap-2 carritoContent">
+                        <p>TOTAL: <span id="totalAmount">0.00</span></p>
+                        <button type="button" class="btn btn-success btn-lg " style="text-align: center;">Realizar
                             compra</button>
                     </div>
                 </div>
@@ -311,6 +314,29 @@
                 <span class="visually-hidden ">Next</span>
             </button>
         </div>
+        <script>
+            const cards = document.querySelectorAll('.card');
+
+            cards.forEach((card) => {
+                const additionalText = card.querySelector('.additional-text');
+                const cardTitle = card.querySelector('h5.card-title');
+                const icon = card.querySelector('i');
+
+                card.addEventListener('mouseenter', () => {
+                    if (additionalText && cardTitle && icon) {
+                        additionalText.style.display = 'block';
+                        cardTitle.style.visibility = 'hidden';
+                        icon.style.visibility = 'hidden';
+                    }
+                });
+
+                card.addEventListener('mouseleave', () => {
+                    additionalText.style.display = 'none';
+                    cardTitle.style.visibility = 'visible';
+                    icon.style.visibility = 'visible';
+                });
+            });
+        </script>
 
 
         <!-- Seccion carrusel de los servicios UNICAMENTE en celular -->
@@ -493,7 +519,7 @@
 
         <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
 
-        <script src="json.js"></script>
+        <script src="json.js" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
             crossorigin="anonymous"></script>
