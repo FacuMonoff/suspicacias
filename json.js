@@ -192,6 +192,7 @@ window.addEventListener("DOMContentLoaded", () => {
     } else {
         // Si el índice del producto no es válido o no se proporcionó, puedes mostrar un mensaje de error o redirigir al usuario a otra página.
     }
+
 });
 
 
@@ -335,6 +336,23 @@ function cargarCarritoDesdeLocalStorage() {
 
 // Llamar a la función para cargar los datos del carrito al iniciar la aplicación
 cargarCarritoDesdeLocalStorage();
+
+
+// Evento para detectar cambios en la URL (enrutamiento)
+window.addEventListener('popstate', () => {
+    const url = window.location.pathname;
+    const currentPage = url.substring(url.lastIndexOf('/') + 1);
+
+    // Verificar si la URL actual es diferente a "descripcion.html"
+    if (currentPage !== 'descripcion.html') {
+        actualizarCarrito();
+    }
+});
+
+// Evento cuando el contenido de la página se carga por completo
+document.addEventListener('DOMContentLoaded', () => {
+    cargarCarritoDesdeLocalStorage();
+});
 
 
 function actualizarCarrito() {

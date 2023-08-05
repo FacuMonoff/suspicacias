@@ -100,12 +100,18 @@
                 </div>
                 <!-- Agregamos el cuerpo del carrito -->
                 <div class="offcanvas-body">
+
+                    <!-- Contenedor del carrito de compras -->
                     <!-- Contenedor del carrito de compras -->
                     <div id="carritoContent">
                         <!-- Aquí se mostrarán los productos agregados al carrito -->
                     </div>
-                    <!-- Botón para cerrar el carrito -->
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="offcanvas">Cerrar Carrito</button>
+
+                    <div class="d-grid gap-2 carritoContent">
+                        <p>TOTAL: <span id="totalAmount">0.00</span></p>
+                        <button type="button" class="btn btn-success btn-lg " style="text-align: center;">Realizar
+                            compra</button>
+                    </div>
                 </div>
             </div>
         </div>
