@@ -121,15 +121,27 @@
                 <div class="offcanvas-body">
 
                     <!-- Contenedor del carrito de compras -->
-                    <!-- Contenedor del carrito de compras -->
                     <div id="carritoContent">
                         <!-- Aquí se mostrarán los productos agregados al carrito -->
                     </div>
 
                     <div class="d-grid gap-2 carritoContent">
                         <p>TOTAL: <span id="totalAmount">0.00</span></p>
-                        <button type="button" class="btn btn-success btn-lg " style="text-align: center;">Realizar
-                            compra</button>
+                        <!-- Modifica el botón "Realizar compra" para almacenar los productos en el LocalStorage -->
+                        <button type="button" class="btn btn-success btn-lg" style="text-align: center;"
+                            onclick="realizarCompra();">
+                            Realizar compra
+                        </button>
+                        <script>
+                            // Función para realizar la compra
+                            function realizarCompra() {
+                                // Guarda el carrito en el LocalStorage
+                                localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+                                // Abre la página de compras.html
+                                window.location.href = 'compras.html';
+                            }
+                        </script>
+
                     </div>
                 </div>
 
