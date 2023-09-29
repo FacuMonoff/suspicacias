@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="boostrap_var.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 
 <body>
@@ -24,6 +25,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- menu despegable-->
             <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <!-- Cabecera del nav cuando expandimos -->
@@ -40,6 +42,7 @@
                             <a class="nav-link active text-uppercase" aria-current="page" href="#">Sex sale |
                                 ¡OFERTAS!</a>
                         </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -54,20 +57,20 @@
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Disfraz</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Enemas</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Fetiche</a></li>
-                                <li><a class="dropdown-item" href="lubricantesYGeles.html">Fundas</a></li>
-                                <li><a class="dropdown-item" href="lubricantesYGeles.html">Hombres</a></li>
-                                <li><a class="dropdown-item" href="lubricantesYGeles.html">Juegos</a></li>
-                                <li><a class="dropdown-item" href="lubricantesYGeles.html">Lenceria</a></li>
-                                <li><a class="dropdown-item" href="lubricantesYGeles.html">Lubricantes</a></li>
-                                <li><a class="dropdown-item" href="lubricantesYGeles.html">Perfumeria</a></li>
-                                <li><a class="dropdown-item" href="lubricantesYGeles.html">Preservativos</a></li>
-                                <li><a class="dropdown-item" href="lubricantesYGeles.html">Velas</a></li>
-                                <li><a class="dropdown-item" href="lubricantesYGeles.html">Vibradores</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Fundas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Hombres</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Juegos</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Lenceria</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Lubricantes</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Perfumeria</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Preservativos</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Velas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html">Vibradores</a></li>
 
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                            <a class="nav-link dropdown-toggle text-uppercase" href="" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Contacto
                             </a>
@@ -83,7 +86,8 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-uppercase" aria-current="page" href="#">ventas mayoristas</a>
+                            <a class="nav-link text-uppercase" aria-current="page" href="ventaMayorista.html">ventas
+                                mayoristas</a>
                         </li>
                     </ul>
                     <!-- El form para nuestro boton de busqueda -->
@@ -95,8 +99,54 @@
             </div>
             <!-- El titulo que va en el centro del navbar -->
             <a class="navbar-brand" href="index.html" style="font-family: Lobster;font-size: 2.2em;">Suspicacias</a>
+
+
             <!-- Carrito de compra -->
-            <a href="#" class="nav-link"><i class="bi bi-cart text-white" style="font-size: 1.65em;"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#carritoContainer"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <i class="bi bi-cart text-white" style="font-size: 1.65em;"></i>
+            </button>
+
+            <!-- Carrito de compra card -->
+            <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" aria-labelledby="offcanvasNavbarLabel"
+                id="carritoContainer">
+                <!-- Agregamos el header del carrito -->
+                <div class="offcanvas-header">
+                    <!-- Titulo -->
+                    <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel">Carrito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                        style="font-size: 2rem;"></button>
+                </div>
+                <!-- Agregamos el cuerpo del carrito -->
+                <div class="offcanvas-body">
+
+                    <!-- Contenedor del carrito de compras -->
+                    <div id="carritoContent">
+                        <!-- Aquí se mostrarán los productos agregados al carrito -->
+                    </div>
+
+                    <div class="d-grid gap-2 carritoContent">
+                        <p>TOTAL: <span id="totalAmount">0.00</span></p>
+                        <!-- Modifica el botón "Realizar compra" para almacenar los productos en el LocalStorage -->
+                        <button type="button" class="btn btn-success btn-lg" style="text-align: center;"
+                            onclick="realizarCompra();">
+                            Realizar compra
+                        </button>
+                        <script>
+                            // Función para realizar la compra
+                            function realizarCompra() {
+                                // Guarda el carrito en el LocalStorage
+                                localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+                                // Abre la página de compras.html
+                                window.location.href = 'compras.html';
+                            }
+                        </script>
+
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </nav>
 
@@ -149,7 +199,8 @@
         <section class="row justify-content-between">
 
             <!-- Los productos -->
-            <div class="col-md-9 col-sm-12" id="products-wrapper">
+            <script src="json.js"></script>
+            <div class="col-md-9 col-sm-12 ">
                 <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
             </div>
             <div class="col-md-9 col-sm-12">
@@ -236,11 +287,11 @@
 
     <!-- Icono de whatsapp -->
     <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
-
     <script src="json.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 
 </html>

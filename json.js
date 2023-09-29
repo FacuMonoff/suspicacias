@@ -137,6 +137,8 @@ const products = [
 
 ];
 
+
+
 // Convertir los precios en números antes de usar los productos
 products.forEach(producto => {
     producto.price = parseFloat(producto.price.replace(/[^0-9.-]+/g, ""));
@@ -238,8 +240,8 @@ function mostrarProductosPorCategoria(categoria) {
                     </a>
                     <div class="card-body">
                         <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
-                        <p class="card-text">${producto.price}</p>
-                        <button class="btn btn-primary" onclick="mostrarEnCarrito(${products.indexOf(producto)})">Agregar al carrito</button>
+                        <p class="card-text">${formatPrice(producto.price)}</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito(${products.indexOf(producto)})">Agregdddar al carrito</button>
                     </div>
                 </div>
             </div>
