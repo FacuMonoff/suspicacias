@@ -1,4 +1,4 @@
-const products = [
+const Products = [
 
     {
         image: "img/vicky 1.1.png",
@@ -7,7 +7,6 @@ const products = [
         price: "$15,712",
         descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender",
         categoria: "vibrador"
-
     },
     {
         image: "img/miky 4.png",
@@ -24,7 +23,70 @@ const products = [
         price: "$9,588",
         descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
         categoria: "vibrador"
-
+    },
+    {
+        image: "img/diamont 1.1.png",
+        image2: "img/diamont 1.png",
+        name: "DIAMONT 1",
+        price: "$27,442",
+        descripcion: "¿Buscas sentirte diferente? El Vibrador Diamond,  tiene un diseño sofisticado a puro glamour, y elegantemente brillante e intenso. Con su doble motor estimulará completamente tu zona de punto G y clítoris de manera muy efectiva. Para una dosis extra de placer, combínalo con el serum lubricante EOS DSICOVER PUNTO G.",
+        categoria: "estimulador"
+    },
+    {
+        image: "img/male 2.png",
+        image2: "img/male 2.1.png",
+        name: "MALE 2",
+        price: "$34,462",
+        descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
+        categoria: "estimulador"
+    },
+    {
+        image: "img/luxe rabbit 1.png",
+        image2: "img/luxe rabbit 1.1.png",
+        name: "LUXE RABBIT",
+        price: "$51,383",
+        descripcion: "está equipado con características únicas para provocar y tentar. Eje giratorio de 3 velocidades a prueba de agua Tecnología Rolling WavesTM 7 Vibrador con función de estimulador del clítoris Elastómero puro seguro para la piel Libre de ftalato y látex El carro extraíble de la batería ahorra vida útil de la batería: requiere 3 baterías AAA Longitud: 9 pulgadas Longitud insertable: 4 pulgadas Ancho: 1.43 pulgadas Circunferencia: 4.5 pulgadas Peso del producto (sin paquete) : 8.6 onzas",
+        categoria: "estimulador"
+    },
+    {
+        image: "img/ana 8.png",
+        image2: "img/JUGUETE 3.png",
+        name: "ANA 8",
+        price: "$35,238",
+        descripcion: " Su intensa vibración se concentra a lo largo de todo el juguete y aún más fuerte en su cabezal, esto hace que puedas deslizarlo en tu zona genital y en cualquier otra parte del cuerpo donde necesites estimularte. Este masajeador contiene otro cabezal para poder experimentar los 10 niveles de succión que quieras en tu zona Clitorial. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. Presione el botón derecho para ajustar los modos de pulsación del cabezal, 10 modos de pulsación de frecuencia. Presione el botón izquierdo para ajustar los 10 modos de vibración final. Cambie el cabezal para sus 10 niveles de succión. ",
+        categoria: "succionador"
+    },
+    {
+        image: "img/sofi 3.png",
+        image2: "img/sofi 3.1.png",
+        name: "SOFI 3",
+        price: "$18,494",
+        descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior  y uno levemente menor  en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona de vaginal y clítoris de manera muy efectiva. Apenas con una zona superior texturada y su estimulador de clítoris con un diseño de conejo con una solo oreja.",
+        categoria: "estimulador"
+    },
+    {
+        image: "img/vicky 1.1.png",
+        image2: "img/vicky 1.2.png",
+        name: "VICKY 1",
+        price: "$15,712",
+        descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender",
+        categoria: "vibrador"
+    },
+    {
+        image: "img/miky 4.png",
+        image2: "img/miky 4.1.png",
+        name: "MIKY 4",
+        price: "$15,302",
+        descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
+        categoria: "vibrador"
+    },
+    {
+        image: "img/katy 4.png",
+        image2: "img/katy 4.1.png",
+        name: "KATY 4",
+        price: "$9,588",
+        descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
+        categoria: "vibrador"
     },
     {
         image: "img/diamont 1.1.png",
@@ -67,89 +129,20 @@ const products = [
         categoria: "estimulador"
 
     },
-    {
-        image: "img/vicky 1.1.png",
-        image2: "img/vicky 1.2.png",
-        name: "VICKY 1",
-        price: "$15,712",
-        descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender",
-        categoria: "vibrador"
-
-    },
-    {
-        image: "img/miky 4.png",
-        image2: "img/miky 4.1.png",
-        name: "MIKY 4",
-        price: "$15,302",
-        descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
-        categoria: "vibrador"
-    },
-    {
-        image: "img/katy 4.png",
-        image2: "img/katy 4.1.png",
-        name: "KATY 4",
-        price: "$9,588",
-        descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
-        categoria: "vibrador"
-
-    },
-    {
-        image: "img/diamont 1.1.png",
-        image2: "img/diamont 1.png",
-        name: "DIAMONT 1",
-        price: "$27,442",
-        descripcion: "¿Buscas sentirte diferente? El Vibrador Diamond,  tiene un diseño sofisticado a puro glamour, y elegantemente brillante e intenso. Con su doble motor estimulará completamente tu zona de punto G y clítoris de manera muy efectiva. Para una dosis extra de placer, combínalo con el serum lubricante EOS DSICOVER PUNTO G.",
-        categoria: "estimulador"
-    },
-    {
-        image: "img/male 2.png",
-        image2: "img/male 2.1.png",
-        name: "MALE 2",
-        price: "$34,462",
-        descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
-        categoria: "estimulador"
-    },
-    {
-        image: "img/luxe rabbit 1.png",
-        image2: "img/luxe rabbit 1.1.png",
-        name: "LUXE RABBIT",
-        price: "$51,383",
-        descripcion: "está equipado con características únicas para provocar y tentar. Eje giratorio de 3 velocidades a prueba de agua Tecnología Rolling WavesTM 7 Vibrador con función de estimulador del clítoris Elastómero puro seguro para la piel Libre de ftalato y látex El carro extraíble de la batería ahorra vida útil de la batería: requiere 3 baterías AAA Longitud: 9 pulgadas Longitud insertable: 4 pulgadas Ancho: 1.43 pulgadas Circunferencia: 4.5 pulgadas Peso del producto (sin paquete) : 8.6 onzas",
-        categoria: "estimulador"
-    },
-    {
-        image: "img/ana 8.png",
-        image2: "img/JUGUETE 3.png",
-        name: "ANA 8",
-        price: "$35,238",
-        descripcion: " Su intensa vibración se concentra a lo largo de todo el juguete y aún más fuerte en su cabezal, esto hace que puedas deslizarlo en tu zona genital y en cualquier otra parte del cuerpo donde necesites estimularte. Este masajeador contiene otro cabezal para poder experimentar los 10 niveles de succión que quieras en tu zona Clitorial. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. Presione el botón derecho para ajustar los modos de pulsación del cabezal, 10 modos de pulsación de frecuencia. Presione el botón izquierdo para ajustar los 10 modos de vibración final. Cambie el cabezal para sus 10 niveles de succión. ",
-        categoria: "succionador"
-    },
-    {
-        image: "img/sofi 3.png",
-        image2: "img/sofi 3.1.png",
-        name: "SOFI 3",
-        price: "$18,494",
-        descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior  y uno levemente menor  en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona de vaginal y clítoris de manera muy efectiva. Apenas con una zona superior texturada y su estimulador de clítoris con un diseño de conejo con una solo oreja.",
-        categoria: "estimulador"
-
-    },
-
 ];
 
 
-
 // Convertir los precios en números antes de usar los productos
-products.forEach(producto => {
+Products.forEach(producto => {
     producto.price = parseFloat(producto.price.replace(/[^0-9.-]+/g, ""));
 });
 
 // Generar el contenido de los productos
 const productListContainer = document.getElementById("product-list");
-const productHTML = products.map((product) => `
+const productHTML = Products.map((product) => `
     <div class="col">
         <div class="card h-100">
-            <a href="descripcion.html?index=${products.indexOf(product)}"> <!-- Agregamos el enlace aquí -->
+            <a href="descripcion.html?index=${Products.indexOf(product)}"> <!-- Agregamos el enlace aquí -->
                 <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
                     onmouseover="showImage(this, '${product.image2}')" 
                     onmouseout="showImage(this, '${product.image}')"
@@ -158,7 +151,7 @@ const productHTML = products.map((product) => `
             <div class="card-body">
                 <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
                 <p class="card-text">${formatPrice(product.price)}</p>
-                 <button class="btn btn-primary" onclick="mostrarEnCarrito(${products.indexOf(product)})">Agregar al carrito</button>
+                 <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
             </div>
         </div>
     </div>
@@ -181,7 +174,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const productIndex = parseInt(urlParams.get("index"));
 
     if (!isNaN(productIndex) && productIndex >= 0 && productIndex < products.length) {
-        const selectedProduct = products[productIndex];
+        const selectedProduct = Products[productIndex];
         // Aquí puedes acceder a la información del producto seleccionado (selectedProduct)
         // y modificar el contenido HTML de "descripcion.html" para mostrar la descripción del producto.
         // Por ejemplo:
@@ -222,7 +215,7 @@ function mostrarProductosPorCategoria(categoria) {
     const productosContainer = document.getElementById("product-list");
 
     // Filtrar los productos que pertenecen a la categoría seleccionada
-    const productosFiltrados = products.filter(producto => producto.categoria === categoria);
+    const productosFiltrados = Products.filter(producto => producto.categoria === categoria);
 
     // Limpiar el contenedor antes de agregar los productos filtrados
     productosContainer.innerHTML = "";
@@ -232,7 +225,7 @@ function mostrarProductosPorCategoria(categoria) {
         const productoHTML = `
             <div class="col">
                 <div class="card h-100"> <!-- Usa la clase "card" aquí -->
-                    <a href="descripcion.html?index=${products.indexOf(producto)}">
+                    <a href="descripcion.html?index=${Products.indexOf(producto)}">
                         <img src="${producto.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
                             onmouseover="showImage(this, '${producto.image2}')" 
                             onmouseout="showImage(this, '${producto.image}')"
@@ -241,7 +234,8 @@ function mostrarProductosPorCategoria(categoria) {
                     <div class="card-body">
                         <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
                         <p class="card-text">${formatPrice(producto.price)}</p>
-                        <button class="btn btn-primary" onclick="agregarAlCarrito(${products.indexOf(producto)})">Agregdddar al carrito</button>
+                        <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
+
                     </div>
                 </div>
             </div>
@@ -253,45 +247,52 @@ function mostrarProductosPorCategoria(categoria) {
 const carritoContainer = document.getElementById('carritoContainer');
 let carritoProductos = [];
 
-// Función para agregar un producto al carrito
 function agregarAlCarrito(producto) {
-    const existeEnCarrito = carritoProductos.some((item) => item.name === producto.name);
-    const totalAmountElement = document.getElementById('totalAmount');
+    // Verificar si el objeto producto existe y no es nulo
+    if (producto && typeof producto === 'object') {
+        // Verificar si el objeto producto tiene las propiedades requeridas
+        if (producto.name && producto.price && producto.image) {
+            const existeEnCarrito = carritoProductos.some((item) => item.name === producto.name);
+            const totalAmountElement = document.getElementById('totalAmount');
 
+            if (!existeEnCarrito) {
+                // Verificar que el precio sea un número válido
+                if (!isNaN(parseFloat(producto.price))) {
+                    producto.price = parseFloat(producto.price).toString(); // Convertir el precio a cadena
+                    carritoProductos.push({ ...producto, cantidad: 1 });
+                } else {
+                    console.error("El precio del producto no es un número válido:", producto.price);
+                    return; // Salir de la función si el precio no es válido
+                }
+            } else {
+                carritoProductos = carritoProductos.map((item) =>
+                    item.name === producto.name ? { ...item, cantidad: item.cantidad + 1 } : item
+                );
 
-    if (!existeEnCarrito) {
-        // Verificar que el precio sea un número válido
-        if (!isNaN(parseFloat(producto.price))) {
-            producto.price = parseFloat(producto.price).toString(); // Convertir el precio a cadena
-            carritoProductos.push({ ...producto, cantidad: 1 });
+                // Actualizar el almacenamiento local con los datos del carrito
+                localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+            }
+
+            // Mostrar el toast usando Toastify
+            Toastify({
+                text: `${producto.name} ha sido agregado al carrito.`,
+                duration: 3000,
+                position: "center",
+                close: true,
+                style: {
+                    background: "linear-gradient(to right, #00b09b, #96c93d)",
+                },
+            }).showToast();
+
+            // Actualizar el contenido del carrito después de agregar el producto
+            actualizarCarrito();
         } else {
-            console.error("El precio del producto no es un número válido:", producto.price);
-            return; // Salir de la función si el precio no es válido
+            console.error("El objeto producto no contiene todas las propiedades necesarias.");
         }
     } else {
-        carritoProductos = carritoProductos.map((item) =>
-            item.name === producto.name ? { ...item, cantidad: item.cantidad + 1 } : item
-        );
-
-        // Actualizar el almacenamiento local con los datos del carrito
-        localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+        console.error("El objeto producto no es válido o está ausente.");
     }
-
-    // Mostrar el toast usando Toastify
-    Toastify({
-        text: `${producto.name} ha sido agregado al carrito.`,
-        duration: 3000,
-        position: "center",
-        close: true,
-        style: {
-            background: "linear-gradient(to right, #00b09b, #96c93d)",
-        },
-    }).showToast();
-
-    // Actualizar el contenido del carrito después de agregar el producto
-    actualizarCarrito();
 }
-
 function formatPrice(price) {
     return '$' + price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
 }
@@ -362,6 +363,7 @@ function actualizarCarrito() {
     carritoContent.innerHTML = ''; // Limpiamos el contenido antes de actualizar
 
     let total = 0; // Variable para calcular el precio total
+    let inputCounter = 0; // Contador para IDs únicos de input
 
     if (carritoProductos.length === 0) {
         // Si el carrito está vacío, mostramos un mensaje
@@ -370,7 +372,7 @@ function actualizarCarrito() {
         `;
     } else {
         // Si hay productos en el carrito, creamos una tarjeta para cada producto
-        carritoProductos.forEach((item) => {
+        carritoProductos.forEach((item, index) => {
             const card = document.createElement('div');
             card.className = 'card mb-3';
             card.style.maxWidth = '540px';
@@ -419,7 +421,7 @@ function actualizarCarrito() {
             cardBody.appendChild(quantityContainer);
 
             const quantityLabel = document.createElement('label');
-            quantityLabel.htmlFor = 'cantidad';
+            quantityLabel.htmlFor = `cantidad${index}`; // Usar el mismo índice para el id del campo de cantidad
             quantityLabel.textContent = 'Cantidad:';
             quantityContainer.appendChild(quantityLabel);
 
@@ -436,8 +438,8 @@ function actualizarCarrito() {
 
             const quantityInput = document.createElement('input');
             quantityInput.type = 'number';
-            quantityInput.name = 'cantidad';
-            quantityInput.id = 'cantidad';
+            quantityInput.name = `cantidad${index}`; // Asignar un nombre único usando el índice
+            quantityInput.id = `cantidad${index}`; // Asignar un ID único usando el índice
             quantityInput.className = 'form-control';
             quantityInput.value = item.cantidad;
             quantityInput.min = '1';
@@ -478,7 +480,7 @@ function actualizarCantidad(nombreProducto, cantidad) {
 
 // Función para mostrar los productos en el carrito al hacer clic
 function mostrarEnCarrito(index) {
-    const producto = products[index];
+    const producto = Products[index];
     agregarAlCarrito(producto);
 }
 
