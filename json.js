@@ -483,6 +483,3 @@ function mostrarEnCarrito(index) {
     const producto = Products[index];
     agregarAlCarrito(producto);
 }
-
-
-
