@@ -173,7 +173,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const productIndex = parseInt(urlParams.get("index"));
 
-    if (!isNaN(productIndex) && productIndex >= 0 && productIndex < products.length) {
+    if (!isNaN(productIndex) && productIndex >= 0 && productIndex < Products.length) {
         const selectedProduct = Products[productIndex];
         // Aquí puedes acceder a la información del producto seleccionado (selectedProduct)
         // y modificar el contenido HTML de "descripcion.html" para mostrar la descripción del producto.
@@ -483,3 +483,49 @@ function mostrarEnCarrito(index) {
     const producto = Products[index];
     agregarAlCarrito(producto);
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Obtén el parámetro de consulta 'query' de la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('query');
+
+    // Filtra los productos que coincidan con la búsqueda
+    const productosFiltrados = Products.filter(producto => {
+        // Aquí definimos la lógica de filtrado
+        const nombreEnMinusculas = producto.name.toLowerCase();
+        const descripcionEnMinusculas = producto.descripcion.toLowerCase();
+        const categoriaEnMinusculas = producto.categoria.toLowerCase(); // Asegúrate de que la propiedad 'categoria' exista en tus objetos de producto
+
+        // Comprueba si el nombre, descripción o categoría contienen el término de búsqueda
+        return (
+            nombreEnMinusculas.includes(query.toLowerCase()) ||
+            descripcionEnMinusculas.includes(query.toLowerCase()) ||
+            categoriaEnMinusculas.includes(query.toLowerCase())
+        );
+    });
+
+    // Obtén el contenedor de la lista de productos en tu página HTML
+    const productListContainer = document.getElementById("product-list");
+
+    // Genera el contenido de las tarjetas y lo inserta en el contenedor
+    const productHTML = productosFiltrados.map(product => `
+         <div class="col">
+        <div class="card h-100">
+            <a href="descripcion.html?index=${Products.indexOf(product)}"> <!-- Agregamos el enlace aquí -->
+                <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
+                    onmouseover="showImage(this, '${product.image2}')" 
+                    onmouseout="showImage(this, '${product.image}')"
+                    alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                <p class="card-text">${formatPrice(product.price)}</p>
+                 <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+    `).join("");
+
+    // Insertar el contenido en el contenedor en el HTML
+    productListContainer.innerHTML = productHTML;
+});

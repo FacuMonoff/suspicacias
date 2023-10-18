@@ -74,7 +74,8 @@
                     </ul>
                     <!-- El form para nuestro boton de busqueda -->
                     <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2" type="search" id="searchInput" name="search"
+                            placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
@@ -152,7 +153,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h4><b id="product-price"></b></h4>
+                        <h4>$<b id="product-price"></b></h4>
                         <br>
                     </div>
                 </div>
@@ -163,9 +164,9 @@
                     </div>
                 </div>
                 <div class="quantity-button">
-                    <label for="cantidad d-block">Cantidad:</label>
+                    <label for="cantidad">Cantidad:</label>
                     <br>
-                    <input type="number" name="cantidad"></input>
+                    <input type="number" id="cantidad" name="cantidad">
                 </div>
                 <br>
                 <button class="btn btn-primary">Comprar</button>
