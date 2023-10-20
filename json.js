@@ -529,3 +529,53 @@ document.addEventListener("DOMContentLoaded", function () {
     // Insertar el contenido en el contenedor en el HTML
     productListContainer.innerHTML = productHTML;
 });
+
+function cargarProdcutosMSG() {
+    let inputCarrito = document.getElementById("producto-carrito")
+    console.log(inputCarrito.value)
+    carritoProductos.forEach((producto) => (inputCarrito.value = inputCarrito.value + ` ${producto.name} + ${producto.cantidad}||`))
+
+
+    console.log(inputCarrito.value)
+}
+
+
+console.log()
+
+const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece99', {
+    locale: 'es-AR' // The most common are: 'pt-BR', 'es-AR' and 'en-US'
+});
+
+// Handle call to backend and generate preference.
+
+document.getElementById("checkout-btn").addEventListener("click", function () {
+
+    document.getElementById('totalAmount').innerHTML
+
+    const orderData = {
+        quantity: 1,
+        description: "Productos",
+        price: 100
+    };
+
+    fetch("http://localhost:8080/create_preference", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(orderData),
+    })
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (init_point) {
+            console.log(init_point["id"])
+        })
+        .catch(function () {
+            alert("Unexpected error");
+            $('#checkout-btn').attr("disabled", false);
+        });
+});
+
+
+
