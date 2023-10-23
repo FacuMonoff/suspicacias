@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <script src="https://sdk.mercadopago.com/js/v2"></script>
+
 </head>
 
 <body style="background-image: none; background-color: rgb(228, 241, 252);">
@@ -154,7 +155,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 style="text-align: center; margin-top: 2%; font-weight: 700;">Datos del destinatario</h1>
-                <form action="https://formsubmit.co/nospamfranco@gmail.com" method="POST">
+                <form action="https://formsubmit.co/maximilianomonoff@gmail.com" method="POST">
                     <div class="form-group" style="margin-top: 3%;">
                         <label for="nombre">Nombre:</label>
                         <input type="text" class="form-control" id="nombre" name="nombre"
@@ -247,11 +248,42 @@
                             </label>
                         </div>
                     </div>
-                    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required hidden
-                        id="producto-carrito"></textarea>
-                    <input type="submit" value="Enviar" onclick="cargarProdcutosMSG()" id="checkout-btn">
+                    <textarea placeholder="Your Message" class="form-control" name="productosAgregados" rows="10"
+                        style="display: none;" id="producto-carrito"></textarea>
+                    <button type="button" id="checkout-btn">Enviar</button>
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
                     <input type="hidden" name="_captcha" value="false">
+
+                    <script>
+                        document.getElementById("checkout-btn").addEventListener("click", function () {
+
+                            document.getElementById('totalAmount').innerHTML
+
+                            const orderData = {
+                                quantity: 1,
+                                description: "Productos",
+                                price: 100
+                            };
+
+                            fetch("http://localhost:8080/create_preference", {
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/json",
+                                },
+                                body: JSON.stringify(orderData),
+                            })
+                                .then(function (response) {
+                                    return response.json();
+                                })
+                                .then(function (init_point) {
+                                    console.log(init_point["id"])
+                                })
+                                .catch(function () {
+                                    alert("Unexpected error");
+                                    $('#checkout-btn').attr("disabled", false);
+                                });
+                        });
+                    </script>
                 </form>
             </div>
         </div>

@@ -489,26 +489,30 @@ document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const query = urlParams.get('query');
 
-    // Filtra los productos que coincidan con la búsqueda
-    const productosFiltrados = Products.filter(producto => {
-        // Aquí definimos la lógica de filtrado
-        const nombreEnMinusculas = producto.name.toLowerCase();
-        const descripcionEnMinusculas = producto.descripcion.toLowerCase();
-        const categoriaEnMinusculas = producto.categoria.toLowerCase(); // Asegúrate de que la propiedad 'categoria' exista en tus objetos de producto
+    let productosFiltrados = [];  // Inicializa como un array vacío
 
-        // Comprueba si el nombre, descripción o categoría contienen el término de búsqueda
-        return (
-            nombreEnMinusculas.includes(query.toLowerCase()) ||
-            descripcionEnMinusculas.includes(query.toLowerCase()) ||
-            categoriaEnMinusculas.includes(query.toLowerCase())
-        );
-    });
+    if (query !== null) {
+        // Filtra los productos que coincidan con la búsqueda
+        productosFiltrados = Products.filter(producto => {
+            // Aquí definimos la lógica de filtrado
+            const nombreEnMinusculas = (producto.name || '').toLowerCase();
+            const descripcionEnMinusculas = (producto.descripcion || '').toLowerCase();
+            const categoriaEnMinusculas = (producto.categoria || '').toLowerCase();
+
+            // Comprueba si el nombre, descripción o categoría contienen el término de búsqueda
+            return (
+                nombreEnMinusculas.includes(query.toLowerCase()) ||
+                descripcionEnMinusculas.includes(query.toLowerCase()) ||
+                categoriaEnMinusculas.includes(query.toLowerCase())
+            );
+        });
+    }
 
     // Obtén el contenedor de la lista de productos en tu página HTML
     const productListContainer = document.getElementById("product-list");
 
     // Genera el contenido de las tarjetas y lo inserta en el contenedor
-    const productHTML = productosFiltrados.map(product => `
+    const productHTML = (productosFiltrados.length > 0 ? productosFiltrados : Products).map(product => `
          <div class="col">
         <div class="card h-100">
             <a href="descripcion.html?index=${Products.indexOf(product)}"> <!-- Agregamos el enlace aquí -->
@@ -530,6 +534,7 @@ document.addEventListener("DOMContentLoaded", function () {
     productListContainer.innerHTML = productHTML;
 });
 
+
 function cargarProdcutosMSG() {
     let inputCarrito = document.getElementById("producto-carrito")
     console.log(inputCarrito.value)
@@ -547,35 +552,3 @@ const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece9
 });
 
 // Handle call to backend and generate preference.
-
-document.getElementById("checkout-btn").addEventListener("click", function () {
-
-    document.getElementById('totalAmount').innerHTML
-
-    const orderData = {
-        quantity: 1,
-        description: "Productos",
-        price: 100
-    };
-
-    fetch("http://localhost:8080/create_preference", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify(orderData),
-    })
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (init_point) {
-            console.log(init_point["id"])
-        })
-        .catch(function () {
-            alert("Unexpected error");
-            $('#checkout-btn').attr("disabled", false);
-        });
-});
-
-
-
