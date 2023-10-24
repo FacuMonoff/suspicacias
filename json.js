@@ -361,9 +361,35 @@ document.addEventListener('DOMContentLoaded', () => {
 function actualizarCarrito() {
     const carritoContent = document.getElementById('carritoContent');
     carritoContent.innerHTML = ''; // Limpiamos el contenido antes de actualizar
+    const productoCarritoTextArea = document.getElementById('producto-carrito');
 
     let total = 0; // Variable para calcular el precio total
     let inputCounter = 0; // Contador para IDs únicos de input
+
+    // Calcular el precio total de todos los productos en el carrito
+    let precioTotalCarrito = 0;
+    carritoProductos.forEach(item => {
+        const precioTotalProducto = item.price * item.cantidad;
+        precioTotalCarrito += precioTotalProducto;
+    });
+
+    // Obtener el elemento donde se mostrará el precio total
+    const totalAmountElemento = document.getElementById('totalAmount');
+
+    if (totalAmountElemento) {
+        // Mostrar el precio total formateado en el elemento
+        totalAmountElemento.textContent = formatPrice(precioTotalCarrito);
+    }
+
+    if (productoCarritoTextArea) {
+        const productosAgregados = carritoProductos.map(item => `${item.name} - Cantidad: ${item.cantidad}`).join(' ---- ');
+        const productosTotales = carritoProductos.reduce((total, item) => total + (item.price * item.cantidad), 0);
+
+        const mensaje = productosAgregados + ' ---- Total de todos los productos: ' + formatPrice(productosTotales);
+        productoCarritoTextArea.textContent = mensaje;
+        console.log(productoCarritoTextArea.textContent)
+
+    }
 
     if (carritoProductos.length === 0) {
         // Si el carrito está vacío, mostramos un mensaje
@@ -535,17 +561,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-function cargarProdcutosMSG() {
-    let inputCarrito = document.getElementById("producto-carrito")
-    console.log(inputCarrito.value)
-    carritoProductos.forEach((producto) => (inputCarrito.value = inputCarrito.value + ` ${producto.name} + ${producto.cantidad}||`))
-
-
-    console.log(inputCarrito.value)
-}
-
-
-console.log()
 
 const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece99', {
     locale: 'es-AR' // The most common are: 'pt-BR', 'es-AR' and 'en-US'
