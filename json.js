@@ -1,5 +1,4 @@
 const Products = [
-
     {
         image: "img/vicky 1.1.png",
         image2: "img/vicky 1.2.png",
