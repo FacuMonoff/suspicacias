@@ -5,7 +5,7 @@ const Products = [
         name: "VICKY 1",
         price: "$15,712",
         descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender",
-        categoria: "vibrador"
+        categoria: "vibradores"
     },
     {
         image: "img/miky 4.png",
@@ -13,7 +13,7 @@ const Products = [
         name: "MIKY 4",
         price: "$15,302",
         descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
-        categoria: "vibrador"
+        categoria: "vibradores"
     },
     {
         image: "img/katy 4.png",
@@ -21,7 +21,7 @@ const Products = [
         name: "KATY 4",
         price: "$9,588",
         descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
-        categoria: "vibrador"
+        categoria: "vibradores"
     },
     {
         image: "img/diamont 1.1.png",
@@ -29,7 +29,7 @@ const Products = [
         name: "DIAMONT 1",
         price: "$27,442",
         descripcion: "¿Buscas sentirte diferente? El Vibrador Diamond,  tiene un diseño sofisticado a puro glamour, y elegantemente brillante e intenso. Con su doble motor estimulará completamente tu zona de punto G y clítoris de manera muy efectiva. Para una dosis extra de placer, combínalo con el serum lubricante EOS DSICOVER PUNTO G.",
-        categoria: "estimulador"
+        categoria: "estimuladores"
     },
     {
         image: "img/male 2.png",
@@ -37,7 +37,7 @@ const Products = [
         name: "MALE 2",
         price: "$34,462",
         descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
-        categoria: "estimulador"
+        categoria: "estimuladores"
     },
     {
         image: "img/luxe rabbit 1.png",
@@ -45,7 +45,7 @@ const Products = [
         name: "LUXE RABBIT",
         price: "$51,383",
         descripcion: "está equipado con características únicas para provocar y tentar. Eje giratorio de 3 velocidades a prueba de agua Tecnología Rolling WavesTM 7 Vibrador con función de estimulador del clítoris Elastómero puro seguro para la piel Libre de ftalato y látex El carro extraíble de la batería ahorra vida útil de la batería: requiere 3 baterías AAA Longitud: 9 pulgadas Longitud insertable: 4 pulgadas Ancho: 1.43 pulgadas Circunferencia: 4.5 pulgadas Peso del producto (sin paquete) : 8.6 onzas",
-        categoria: "estimulador"
+        categoria: "estimuladores"
     },
     {
         image: "img/ana 8.png",
@@ -53,7 +53,7 @@ const Products = [
         name: "ANA 8",
         price: "$35,238",
         descripcion: " Su intensa vibración se concentra a lo largo de todo el juguete y aún más fuerte en su cabezal, esto hace que puedas deslizarlo en tu zona genital y en cualquier otra parte del cuerpo donde necesites estimularte. Este masajeador contiene otro cabezal para poder experimentar los 10 niveles de succión que quieras en tu zona Clitorial. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. Presione el botón derecho para ajustar los modos de pulsación del cabezal, 10 modos de pulsación de frecuencia. Presione el botón izquierdo para ajustar los 10 modos de vibración final. Cambie el cabezal para sus 10 niveles de succión. ",
-        categoria: "succionador"
+        categoria: "succionadores"
     },
     {
         image: "img/sofi 3.png",
@@ -61,74 +61,645 @@ const Products = [
         name: "SOFI 3",
         price: "$18,494",
         descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior  y uno levemente menor  en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona de vaginal y clítoris de manera muy efectiva. Apenas con una zona superior texturada y su estimulador de clítoris con un diseño de conejo con una solo oreja.",
-        categoria: "estimulador"
+        categoria: "estimuladores"
+    },
+    //ANILLOS
+    {
+        image: "img/anillos/Ring 6 Blue.jpeg",
+        image2: "img/anillos/Ring 6 Clear.jpeg",
+        name: "Ring 6 ST",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
     },
     {
-        image: "img/vicky 1.1.png",
-        image2: "img/vicky 1.2.png",
-        name: "VICKY 1",
-        price: "$15,712",
-        descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender",
-        categoria: "vibrador"
-    },
-    {
-        image: "img/miky 4.png",
-        image2: "img/miky 4.1.png",
-        name: "MIKY 4",
-        price: "$15,302",
-        descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
-        categoria: "vibrador"
-    },
-    {
-        image: "img/katy 4.png",
-        image2: "img/katy 4.1.png",
-        name: "KATY 4",
-        price: "$9,588",
-        descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
-        categoria: "vibrador"
-    },
-    {
-        image: "img/diamont 1.1.png",
-        image2: "img/diamont 1.png",
-        name: "DIAMONT 1",
-        price: "$27,442",
-        descripcion: "¿Buscas sentirte diferente? El Vibrador Diamond,  tiene un diseño sofisticado a puro glamour, y elegantemente brillante e intenso. Con su doble motor estimulará completamente tu zona de punto G y clítoris de manera muy efectiva. Para una dosis extra de placer, combínalo con el serum lubricante EOS DSICOVER PUNTO G.",
-        categoria: "estimulador"
-    },
-    {
-        image: "img/male 2.png",
-        image2: "img/male 2.1.png",
-        name: "MALE 2",
-        price: "$34,462",
-        descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
-        categoria: "estimulador"
-    },
-    {
-        image: "img/luxe rabbit 1.png",
-        image2: "img/luxe rabbit 1.1.png",
-        name: "LUXE RABBIT",
-        price: "$51,383",
-        descripcion: "está equipado con características únicas para provocar y tentar. Eje giratorio de 3 velocidades a prueba de agua Tecnología Rolling WavesTM 7 Vibrador con función de estimulador del clítoris Elastómero puro seguro para la piel Libre de ftalato y látex El carro extraíble de la batería ahorra vida útil de la batería: requiere 3 baterías AAA Longitud: 9 pulgadas Longitud insertable: 4 pulgadas Ancho: 1.43 pulgadas Circunferencia: 4.5 pulgadas Peso del producto (sin paquete) : 8.6 onzas",
-        categoria: "estimulador"
-    },
-    {
-        image: "img/ana 8.png",
-        image2: "img/JUGUETE 3.png",
-        name: "ANA 8",
-        price: "$35,238",
-        descripcion: " Su intensa vibración se concentra a lo largo de todo el juguete y aún más fuerte en su cabezal, esto hace que puedas deslizarlo en tu zona genital y en cualquier otra parte del cuerpo donde necesites estimularte. Este masajeador contiene otro cabezal para poder experimentar los 10 niveles de succión que quieras en tu zona Clitorial. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. Presione el botón derecho para ajustar los modos de pulsación del cabezal, 10 modos de pulsación de frecuencia. Presione el botón izquierdo para ajustar los 10 modos de vibración final. Cambie el cabezal para sus 10 niveles de succión. ",
-        categoria: "succionador"
-    },
-    {
-        image: "img/sofi 3.png",
-        image2: "img/sofi 3.1.png",
-        name: "SOFI 3",
-        price: "$18,494",
-        descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior  y uno levemente menor  en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona de vaginal y clítoris de manera muy efectiva. Apenas con una zona superior texturada y su estimulador de clítoris con un diseño de conejo con una solo oreja.",
-        categoria: "estimulador"
+        image: "img/anillos/Kevin.jpg",
+        image2: "img/anillos/kevin.2.webp",
+        name: "Kevin ST",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
 
     },
+    {
+        image: "img/anillos/anillo-doble-hot-finger-rojo-real-skin-caiman.jpg",
+        image2: "img/anillos/ANILLO DOBLE HOT FINGER ROJO 2.webp",
+        name: "Anillo Doble Hot Finger Rojo Real Skin Caimán",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/anillo torito peneano vibrador el matador.jpg",
+        image2: "img/anillos/anillo torito 2.webp",
+        name: "Anillo Torito Peneano Vibra Caimán",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/Ring 6 Black.jpg",
+        image2: "img/anillos/ring 6 black.2.jpg",
+        name: "Ring 6 Black ST",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/Adjustable Ring 37mm.jpg",
+        image2: "img/anillos/RING AJUSTABLE 2.webp",
+        name: "Ring Ajustable 37mm",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/Cristal Ring.jpg",
+        image2: "img/anillos/cristal ring 2.jpg",
+        name: "Cristal Ring ST",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/miss v anillos.jpg",
+        image2: "img/anillos/miss v anillos.jpg",
+        name: "Anillo Love Ring Miss V",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/anillo doble peneano conejo violeta.jpeg",
+        image2: "img/anillos/anillo-doble-peneano-vibrador-conejito-violeta-usb 2.jpg",
+        name: "Anillo Doble Peneano Vibr Conejito Violeta ",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/ring 8 azul.png",
+        image2: "img/anillos/ring 8.jpeg",
+        name: "Ring 8 ",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/dual cock ring 3 blue.png",
+        image2: "img/anillos/DUAL COCK RING 3 BLUE 2.jpg",
+        name: "Dual Cock Ring 3 Blue ST",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/kit de 3 anillos beaded cockring clear.jfif",
+        image2: "img/anillos/kit de 3 anillos beaded cockring black.jpg",
+        name: "Kit de 3 Anillos Beaded Cockrings",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/aro vibrador maxx.jpeg",
+        image2: "img/anillos/aro vibrador maxx 2.png",
+        name: "Maxx Play Aro Vibrado",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    {
+        image: "img/anillos/anillo-peneano-retardante-commander-calexotics 2.jpg",
+        image2: "img/anillos/anillo-peneano-retardante-commander-calexotics.jpg",
+        name: "anillo peneano retardante calexotics",
+        price: "$",
+        descripcion: "",
+        categoria: "anillos",
+    },
+    //VIBRADORES
+    {
+        image: "img/vibradores/Hi-Rubber Piel.jpg",
+        image2: "img/vibradores/hi rubber 2.jpeg",
+        name: "hi rubber",
+        price: "$",
+        descripcion: "",
+        categoria: "vibradores",
+    },
+    {
+        image: "img/vibradores/Ciber 1.jpg",
+        image2: "img/vibradores/ciber 1.2.jpeg",
+        name: "Vibrador Ciber 1 19cm",
+        price: "$7,842.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/Rocket blue mini.png",
+        image2: "img/vibradores/ROCKET BLUE MINI BLUE 2.webp",
+        name: "Rocket Blue Mini Blue",
+        price: "$3,338.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/Strap On.jpeg",
+        image2: "img/vibradores/strap on blue 2.png",
+        name: "Strap On Blue",
+        price: "$43,416.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/martina ST.jpeg",
+        image2: "img/vibradores/martina.2.jpg",
+        name: "Martina",
+        price: "$51,405.92",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/strap on 2.jpeg",
+        image2: "img/vibradores/strap on 2.2.jpg",
+        name: "Strap On 2",
+        price: "$20,806.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/Quadruple sweet pink.jpeg",
+        image2: "img/vibradores/Quadruple sweet purple.jpeg",
+        name: "Quadruple Sweet",
+        price: "$17,948.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/naty 5.jpeg",
+        image2: "img/vibradores/naty 5.jpeg",
+        name: "Naty 5",
+        price: "$40,129.22",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/Vibrating 1.jpg",
+        image2: "img/vibradores/Vibrating 1.2.webp",
+        name: "Vibrating 1",
+        price: "$60,365.26",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/bullet 9 varios.jpeg",
+        image2: "img/vibradores/bullet 9 2.png",
+        name: "Bullet 9",
+        price: "$9,256.04",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/finger due.webp",
+        image2: "img/vibradores/finger due black 2.jpeg",
+        name: "Finger Due ST",
+        price: "$11,304.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/bullet 8 varios.jpeg",
+        image2: "img/vibradores/bullet 8 2.webp",
+        name: "Bullet 8",
+        price: "$7,823.76",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/doreen gold bala vibradora inalambrica.jpg",
+        image2: "img/vibradores/PRETTY LOVE royal pleasure 2.jpg",
+        name: "Doreen Gold Bala Vibradora Inalámbrica Pretty Love",
+        price: "$51,608.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/mini vibrador lapiz labial rosa.jpg",
+        image2: "img/vibradores/mini vibrador lapiz labial rojo.jpg",
+        name: "Mini Vibrador Lápiz labial",
+        price: "$7,614.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/doble plus remote partner vibrador satisfyer.jpeg",
+        image2: "img/vibradores/Satisfyer Double Plus vibrador 2.webp",
+        name: "Double Plus Remote Partner Vibrador Satisfyer",
+        price: "$62,076.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/bullet silver pink.jpeg",
+        image2: "img/vibradores/bullet silver pink.jpeg",
+        name: "Bullet 5 Silver",
+        price: "$21,394.76",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/nini 1.jpeg",
+        image2: "img/vibradores/nini 1 2.jpg",
+        name: "Nini 1 ST",
+        price: "$8,912.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/finger 1 purple.webp",
+        image2: "img/vibradores/FINGER 1 PURPLE 2.jpg",
+        name: "Finger 1 Purple",
+        price: "$8,900.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/finger 2 blue.jpeg",
+        image2: "img/vibradores/FINGER 2 blue.2.png",
+        name: "Finger 2 Blue",
+        price: "$15,610.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/finger 3.jpg",
+        image2: "img/vibradores/FINGER 3 vibrador.2.jpg",
+        name: "Finger 3 Fucsia USB",
+        price: "$21,396.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/finger 4 fucsia.webp",
+        image2: "img/vibradores/FINGER 4 vibrador mariposa 2.png",
+        name: "Finger 4",
+        price: "$10,000.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/lula.webp",
+        image2: "img/vibradores/lula vibrador 2.jpeg",
+        name: "Lula",
+        price: "$56,139.94",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/majo.jpg",
+        image2: "img/vibradores/maseajador majo.png",
+        name: "Majo",
+        price: "$37,184.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/bullet remote black.jpeg",
+        image2: "img/vibradores/BULLET REMOTE BLACK 2.png",
+        name: "Bullet Remote Black",
+        price: "$27,464.12",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/vicky 2.jpeg",
+        image2: "img/vibradores/vicky 2.2.png",
+        name: "Vicky 2 Red",
+        price: "$29,631.26",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/vicky 1.jpeg",
+        image2: "img/vicky 1.2.png",
+        name: "Vicky 1",
+        price: "$20,708.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/miky 1.jpg",
+        image2: "img/vibradores/miky 1.2.jpg",
+        name: "Miky 1",
+        price: "$23,068.22",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/fiorella 1.jpg",
+        image2: "img/vibradores/fiorella 1.2.jpeg",
+        name: "Fiorella 1",
+        price: "$22,550.34",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/male 2.jpg",
+        image2: "img/male 2.1.png",
+        name: "Male 2",
+        price: "$54,983.18",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/luxe rabbit 1.1.png",
+        image2: "img/luxe rabbit 1.1.png",
+        name: "Vibrador Doble Estimulador Luxe Rabbit",
+        price: "$60,732.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/mini wand.jpg",
+        image2: "img/vibradores/mini wand 2.webp",
+        name: "Mini Wand",
+        price: "$8,086.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/finger 5 fucsia.webp",
+        image2: "img/vibradores/finger 5.2.jpeg",
+        name: "Finger 5",
+        price: "$21,396.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/vibro clasic 3 red.webp",
+        image2: "img/vibradores/vibro clasic 3 gold.webp",
+        name: "Vibro Clasic 3",
+        price: "$10,748.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/bullet 6.jpeg",
+        image2: "img/vibradores/bullet 6 black.jpeg",
+        name: "Bullet 6",
+        price: "$10,773.38",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/fiorella 2.webp",
+        image2: "img/vibradores/fiorella 2.2.jpeg",
+        name: "Fiorella 2",
+        price: "$22,550.34",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/miky 2.jpeg",
+        image2: "img/vibradores/miky 2.jpeg",
+        name: "Miky 2",
+        price: "$24,379.86",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/miky 3.jpeg",
+        image2: "img/vibradores/miky 3 .2.jpg",
+        name: "Miky 3",
+        price: "$25,691.50",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/miky 4.jpeg",
+        image2: "img/vibradores/miky 4 .2.jpg",
+        name: "Miky 4",
+        price: "$24,379.86",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/anahi 2.jpeg",
+        image2: "img/vibradores/anahi 2.2.webp",
+        name: "Anahi 2 ST",
+        price: "$70,096.78",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/gems 2 purple.jpeg",
+        image2: "img/vibradores/gems 2 purple.jpeg",
+        name: "Gems 2 Purple ST",
+        price: "$11,188.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/gems 4 purple.jpeg",
+        image2: "img/vibradores/gems 4 purple.jpeg",
+        name: "Gems 4 Purple ST",
+        price: "$10,988.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/gems 5.jpeg",
+        image2: "img/vibradores/gems 5.jpeg",
+        name: "Gems 5 Purple ST",
+        price: "$10,988.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/nini 2 blue.jpeg",
+        image2: "img/vibradores/nini 2 blue.jpeg",
+        name: "Nini 2 Blue ST",
+        price: "$8,912.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/vibro 4 pink.jpeg",
+        image2: "img/vibradores/vibro 4.2.jpg",
+        name: "Vibro 4 Pink ST",
+        price: "$11,492.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/punto g blue.webp",
+        image2: "img/vibradores/punto g blue.2.jpg",
+        name: "Punto G Blue",
+        price: "$8,799.90",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/bullet 1 pink.jpg",
+        image2: "img/vibradores/bullet 1.2.webp",
+        name: "Bullet 1",
+        price: "$27,542.29",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/bullet 7.jpg",
+        image2: "img/vibradores/bullet 7 .2.jpeg",
+        name: "Bullet 7",
+        price: "$12,290.72",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/naty 7.jpg",
+        image2: "img/vibradores/naty 7 .2.jpg",
+        name: "Naty 7",
+        price: "$45,378.20",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/rabbit 2 vibrador.jpeg",
+        image2: "img/vibradores/RABBIT 2 ST vibrador.2.webp",
+        name: "Rabbit 2 ST",
+        price: "$27,831.96",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/prime fantasy bala vibradora bv.webp",
+        image2: "img/vibradores/PRIME FANTASY BALA VIBRADORA BV.2.webp",
+        name: "Prime Fantasy Bala Vibradora BV",
+        price: "$17,600.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/prime fantasy lengua vibradora lg.webp",
+        image2: "img/vibradores/PRIME FANTASY LENGUA VIBRADORA LG.2.webp",
+        name: "Prime Fantasy Lengua Vibradora LG",
+        price: "$18,854.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/prime fantasy vibrador masajeador vm.webp",
+        image2: "img/vibradores/PRIME FANTASY VIBRADOR MASAJEADOR VM.2.webp",
+        name: "Prime Fantasy Vibrador Masajeador VM",
+        price: "$36,780.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/prime fantasy vibrador estimulador ve.webp",
+        image2: "img/vibradores/PRIME FANTASY VIBRADOR ESTIMULADOR VE.2.webp",
+        name: "Prime Fantasy Vibrador Estimulador VE",
+        price: "$32,180.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/maxx play vibrador rabbit.webp",
+        image2: "img/vibradores/MAXX PLAY VIBRADOR RABBIT.2.jpg",
+        name: "Maxx Play Vibrador Rabbit",
+        price: "$33,508.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/katy 1.jpeg",
+        image2: "img/vibradores/katy 1.2.jpg",
+        name: "Katy 1",
+        price: "$16,935.94",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/sofi 2.jpg",
+        image2: "img/vibradores/sofi 2.2.jpg",
+        name: "Sofi 2 ST",
+        price: "$24,380.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/sofi 3.jpg",
+        image2: "img/vibradores/sofi 3.2.jpg",
+        name: "Sofi 3 ST",
+        price: "$24,380.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/laura.jpeg",
+        image2: "img/vibradores/laura.2.jpeg",
+        name: "Laura",
+        price: "$26,520.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/tongue vibrador.png",
+        image2: "img/vibradores/tongue.2.webp",
+        name: "Tongue",
+        price: "$30,713.00",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/martina ST.jpeg",
+        image2: "img/vibradores/martina.2.jpg",
+        name: "Martina",
+        price: "$46,897.96",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/majo 3 vibrador.jpeg",
+        image2: "img/vibradores/majo 3.2.png",
+        name: "Majo 3",
+        price: "$38,187.88",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/majo 2.jpg",
+        image2: "img/vibradores/majo 2.2.jpg",
+        name: "Majo 2",
+        price: "$38,187.88",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/vibrador paula st.jpg",
+        image2: "img/vibradores/paula.2.jfif",
+        name: "Paula",
+        price: "$34,753.90",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/diamont 3.jpg",
+        image2: "img/vibradores/Diamond 3.2.webp",
+        name: "Diamont 3",
+        price: "$51,771.34",
+        descripcion: "",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/vibradores/strap on 2.jpeg",
+        image2: "img/vibradores/strap on 2.2.jpg",
+        name: "Strap On 2 Luxur",
+        price: "$70,313.38",
+        descripcion: "",
+        categoria: "vibradores"
+    }
 ];
+
 
 
 // Convertir los precios en números antes de usar los productos
