@@ -2783,7 +2783,7 @@ Products.forEach(producto => {
 });
 
 // Generar el contenido de los productos
-const productListContainer = document.getElementById("product-list");
+/*const productListContainer = document.getElementById("product-list");
 const productHTML = Products.map((product) => `
     <div class="col">
         <div class="card h-100">
@@ -2803,7 +2803,76 @@ const productHTML = Products.map((product) => `
 `).join("");
 
 // Insertar el contenido en el contenedor en el HTML
+productListContainer.innerHTML = productHTML;*/
+
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Mezclar aleatoriamente los productos
+const shuffledProducts = shuffle(Products);
+
+// Tomar los primeros 12 productos después de la mezcla
+const randomProducts = shuffledProducts.slice(0, 12);
+
+// Generar el contenido de los productos
+const productListContainer = document.getElementById("product-list");
+
+// Iterar a través de los primeros 12 productos y mostrarlos
+randomProducts.forEach((product, index) => {
+    if (index < 12) {
+        const productCard = document.createElement("div");
+        productCard.classList.add("col", "product-card"); // Agrega la clase "product-card" para ocultarlos por defecto
+        productCard.innerHTML = `
+        <div class="card h-100">
+             <div class="col">
+        <div class="card h-100">
+            <a href="descripcion.html?index=${Products.indexOf(product)}"> <!-- Agregamos el enlace aquí -->
+                <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
+                    onmouseover="showImage(this, '${product.image2}')" 
+                    onmouseout="showImage(this, '${product.image}')"
+                    alt="...">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                <p class="card-text">${formatPrice(product.price)}</p>
+                 <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+        </div>
+    `;
+        productListContainer.appendChild(productCard);
+    }
+});
 productListContainer.innerHTML = productHTML;
+
+// Insertar el contenido en el contenedor en el HTML
+
+// Añade un botón para mostrar más productos
+const showMoreButton = document.createElement("button");
+showMoreButton.textContent = "Mostrar más productos";
+showMoreButton.addEventListener("click", () => {
+    // Muestra los siguientes 12 productos al hacer clic en el botón
+    document.querySelectorAll(".product-card:not(.visible)").forEach((card, index) => {
+        if (index < 12) {
+            card.style.display = "block";
+            card.classList.add("visible");
+        }
+    });
+
+    // Oculta el botón si no hay más productos para mostrar
+    if (document.querySelectorAll(".product-card:not(.visible)").length === 0) {
+        showMoreButton.style.display = "none";
+    }
+});
+
+// Agrega el botón "Mostrar más productos" al contenedor
+productListContainer.appendChild(showMoreButton);
 
 
 //CAMBIANDO IMAGENES EN LA SECCION DE "NUESTROS DESTACADOS"
