@@ -1716,988 +1716,986 @@ const Products = [
     //---------------------------------------------------------ANAL
     //---------------------------------------------------------------------------------------------------------------------------
     {
-        "image": "img/anal/Dilatador 3 Large.jpg",
-        "image2": "img/anal/Dilatador 3 Large.jpg",
-        "name": "Dilatador 3 Largue ST",
-        "price": "$21,875.25",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Dilatador 3 Large.jpg",
+        image2: "img/anal/Dilatador 3 Large.jpg",
+        name: "Dilatador 3 Largue ST",
+        price: "$21,875.25",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Agus 3 Red.jpg",
-        "image2": "img/anal/Agus 3 Red.jpg",
-        "name": "Agus 3 Red ST",
-        "price": "$16,142.02",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Agus 3 Red.jpg",
+        image2: "img/anal/Agus 3 Red.jpg",
+        name: "Agus 3 Red ST",
+        price: "$16,142.02",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Leo.jpg",
-        "image2": "img/anal/Leo.jpg",
-        "name": "Leo - Cola de Ratón ST",
-        "price": "$15,113.89",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Leo.jpg",
+        image2: "img/anal/Leo.jpg",
+        name: "Leo - Cola de Ratón ST",
+        price: "$15,113.89",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Dilatador 3 Medium.jpg",
-        "image2": "img/anal/Dilatador 3 Medium.jpg",
-        "name": "Dilatador 3 Medium ST",
-        "price": "$14,635.70",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Dilatador 3 Medium.jpg",
+        image2: "img/anal/Dilatador 3 Medium.jpg",
+        name: "Dilatador 3 Medium ST",
+        price: "$14,635.70",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Ducha Anal 2 - 310ml ST.jpg",
-        "image2": "img/anal/Ducha Anal 2 - 310ml ST.jpg",
-        "name": "Ducha Anal 2 - 310ml ST",
-        "price": "$11,119.75",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Ducha Anal 2 - 310ml ST.jpg",
+        image2: "img/anal/Ducha Anal 2 - 310ml ST.jpg",
+        name: "Ducha Anal 2 - 310ml ST",
+        price: "$11,119.75",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
-        "image2": "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
-        "name": "Easy Clean Enema 2 - 89ml ST",
-        "price": "$10,773.30",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
+        image2: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
+        name: "Easy Clean Enema 2 - 89ml ST",
+        price: "$10,773.30",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Playtail Fox Anal Plug Pink.jpg",
-        "image2": "img/anal/Playtail Fox Anal Plug Pink.jpg",
-        "name": "Playtail Fox Anal Plug Pink ST",
-        "price": "$19,877.42",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Playtail Fox Anal Plug Pink.jpg",
+        image2: "img/anal/Playtail Fox Anal Plug Pink.jpg",
+        name: "Playtail Fox Anal Plug Pink ST",
+        price: "$19,877.42",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Plug Silicona Blue Large ST.jpg",
-        "image2": "img/anal/Plug Silicona Blue Large ST.jpg",
-        "name": "Plug Silicona Blue Large ST",
-        "price": "$15,325.40",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Plug Silicona Blue Large ST.jpg",
+        image2: "img/anal/Plug Silicona Blue Large ST.jpg",
+        name: "Plug Silicona Blue Large ST",
+        price: "$15,325.40",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Plug Gold Rose Heart Large.jpg",
-        "image2": "img/anal/Plug Gold Rose Heart Large.jpg",
-        "name": "Plug Gold Rose Heart Large ST",
-        "price": "$16,842.74",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Plug Gold Rose Heart Large.jpg",
+        image2: "img/anal/Plug Gold Rose Heart Large.jpg",
+        name: "Plug Gold Rose Heart Large ST",
+        price: "$16,842.74",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Nicoles Vibra Plug.png",
-        "image2": "img/anal/Nicoles Vibra Plug.png",
-        "name": "Nicoles Plug Vibro Blue ST",
-        "price": "$12,728.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Nicoles Vibra Plug.png",
+        image2: "img/anal/Nicoles Vibra Plug.png",
+        name: "Nicoles Plug Vibro Blue ST",
+        price: "$12,728.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Platinum Waterproof Micro Inexpulsable M Negro.jpg",
-        "image2": "img/anal/Platinum Waterproof Micro Inexpulsable M Negro.jpg",
-        "name": "Inexvibe Real Skin",
-        "price": "$5,098.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Platinum Waterproof Micro Inexpulsable M Negro.jpg",
+        image2: "img/anal/Platinum Waterproof Micro Inexpulsable M Negro.jpg",
+        name: "Inexvibe Real Skin",
+        price: "$5,098.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
-        "image2": "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
-        "name": "Anal Inexpulsable Mini Vibrador Violeta Caimán",
-        "price": "$6,036.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
+        image2: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
+        name: "Anal Inexpulsable Mini Vibrador Violeta Caimán",
+        price: "$6,036.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Plug Anal Curvo Avispa Violeta.jpg",
-        "image2": "img/anal/Plug Anal Curvo Avispa Violeta.jpg",
-        "name": "Plug Anal Curvo Avispa Violeta Caimán",
-        "price": "$3,126.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Plug Anal Curvo Avispa Violeta.jpg",
+        image2: "img/anal/Plug Anal Curvo Avispa Violeta.jpg",
+        name: "Plug Anal Curvo Avispa Violeta Caimán",
+        price: "$3,126.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
-        "image2": "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
-        "name": "Plug Personal Trainer Estimulador Anal Caimán",
-        "price": "$2,894.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
+        image2: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
+        name: "Plug Personal Trainer Estimulador Anal Caimán",
+        price: "$2,894.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/plug inexpulsable penetrador anal caiman.jpg",
-        "image2": "img/anal/plug inexpulsable penetrador anal caiman.jpg",
-        "name": "Plug Penetrador Anal Caimán",
-        "price": "$6,112.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/plug inexpulsable penetrador anal caiman.jpg",
+        image2: "img/anal/plug inexpulsable penetrador anal caiman.jpg",
+        name: "Plug Penetrador Anal Caimán",
+        price: "$6,112.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Plug Anal Mediano Natural 00-124-21.jpg",
-        "image2": "img/anal/Plug Anal Mediano Natural 00-124-21.jpg",
-        "name": "Plug Anal Mediano Natural Caimán",
-        "price": "$2,894.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Plug Anal Mediano Natural 00-124-21.jpg",
+        image2: "img/anal/Plug Anal Mediano Natural 00-124-21.jpg",
+        name: "Plug Anal Mediano Natural Caimán",
+        price: "$2,894.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Bolas anales N5.jpg",
-        "image2": "img/anal/Bolas anales N5.jpg",
-        "name": "Bolas Anales N5 Calexotics",
-        "price": "$6,612.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Bolas anales N5.jpg",
+        image2: "img/anal/Bolas anales N5.jpg",
+        name: "Bolas Anales N5 Calexotics",
+        price: "$6,612.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Gancho Anal de metal.jpg",
-        "image2": "img/anal/Gancho Anal de metal.jpg",
-        "name": "Gancho Anal De Metal 17x2 Bulk Con Aro Deseos Cap",
-        "price": "$12,066.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Gancho Anal de metal.jpg",
+        image2: "img/anal/Gancho Anal de metal.jpg",
+        name: "Gancho Anal De Metal 17x2 Bulk Con Aro Deseos Cap",
+        price: "$12,066.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Super Plug XL El Grande.jpg",
-        "image": "img/anal/Super Plug XL El Grande.jpg",
-        "image2": "",
-        "name": "Super Plug 22x11 Caimán",
-        "price": "$12,720.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Super Plug XL El Grande.jpg",
+        image2: "img/anal/Super Plug XL El Grande.jpg",
+        name: "Super Plug 22x11 Caimán",
+        price: "$12,720.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
-        "image2": "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
-        "name": "Anal Beads 1 Fucsia (SI082 Fucsia) ST",
-        "price": "$12,233.72",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
+        image2: "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
+        name: "Anal Beads 1 Fucsia (SI082 Fucsia) ST",
+        price: "$12,233.72",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Jimy 1 Blue.jpg",
-        "image2": "img/anal/Jimy 1 Blue.jpg",
-        "name": "Jimy 1",
-        "price": "$39,538.94",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Jimy 1 Blue.jpg",
+        image2: "img/anal/Jimy 1 Blue.jpg",
+        name: "Jimy 1",
+        price: "$39,538.94",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Jimy 2 Blue.jpg",
-        "image2": "img/anal/Jimy 2 Blue.jpg",
-        "name": "Jimy 2",
-        "price": "$39,538.94",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Jimy 2 Blue.jpg",
+        image2: "img/anal/Jimy 2 Blue.jpg",
+        name: "Jimy 2",
+        price: "$39,538.94",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Jimy 3 Blue.jpg",
-        "image2": "img/anal/Jimy 3 Blue.jpg",
-        "name": "Jimy 3",
-        "price": "$39,538.94",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Jimy 3 Blue.jpg",
+        image2: "img/anal/Jimy 3 Blue.jpg",
+        name: "Jimy 3",
+        price: "$39,538.94",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Jimy 4 Blue.jpg",
-        "image2": "img/anal/Jimy 4 Blue.jpg",
-        "name": "Jimy 4",
-        "price": "$39,538.94",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Jimy 4 Blue.jpg",
+        image2: "img/anal/Jimy 4 Blue.jpg",
+        name: "Jimy 4",
+        price: "$39,538.94",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/plug pride 2.webp",
-        "image2": "img/anal/plug pride 2.webp",
-        "name": "Plug Pride 2",
-        "price": "$17,544.41",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/plug pride 2.webp",
+        image2: "img/anal/plug pride 2.webp",
+        name: "Plug Pride 2",
+        price: "$17,544.41",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/plug Yorck Blue.jpg",
-        "image2": "img/anal/plug Yorck Blue.jpg",
-        "name": "Plug Yorck",
-        "price": "$45,410.11",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/plug Yorck Blue.jpg",
+        image2: "img/anal/plug Yorck Blue.jpg",
+        name: "Plug Yorck",
+        price: "$45,410.11",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/vibro + pilu 1 inexpulsable.webp",
-        "image2": "img/anal/vibro + pilu 1 inexpulsable.webp",
-        "name": "Vibro + Pilu 1 Inexpulsable",
-        "price": "$15,325.40",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/vibro + pilu 1 inexpulsable.webp",
+        image2: "img/anal/vibro + pilu 1 inexpulsable.webp",
+        name: "Vibro + Pilu 1 Inexpulsable",
+        price: "$15,325.40",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Hugo inexpulsable Blu.jpg",
-        "image2": "img/anal/Hugo inexpulsable Blu.jpg",
-        "name": "Hugo Inexpulsable RC",
-        "price": "$34,712.87",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Hugo inexpulsable Blu.jpg",
+        image2: "img/anal/Hugo inexpulsable Blu.jpg",
+        name: "Hugo Inexpulsable RC",
+        price: "$34,712.87",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/BLACK INEXPULSABLE.jpg",
-        "image2": "img/anal/BLACK INEXPULSABLE.jpg",
-        "name": "Black Inexpulsable",
-        "price": "$18,565.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/BLACK INEXPULSABLE.jpg",
+        image2: "img/anal/BLACK INEXPULSABLE.jpg",
+        name: "Black Inexpulsable",
+        price: "$18,565.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/ducha anal pequeña 89ml.jpg",
-        "image2": "img/anal/ducha anal pequeña 89ml.jpg",
-        "name": "Ducha Anal Pequeña 89ml Deseos Capitales",
-        "price": "$8,930.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/ducha anal pequeña 89ml.jpg",
+        image2: "img/anal/ducha anal pequeña 89ml.jpg",
+        name: "Ducha Anal Pequeña 89ml Deseos Capitales",
+        price: "$8,930.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
-        "image2": "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
-        "name": "Plug Anal Grande Cola De Conejo Negra Des Cap",
-        "price": "$15,042.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
+        image2: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
+        name: "Plug Anal Grande Cola De Conejo Negra Des Cap",
+        price: "$15,042.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/plug anal silicona small cola de conejo blanco.webp",
-        "image2": "img/anal/plug anal silicona small cola de conejo blanco.webp",
-        "name": "Plug Anal Silicona Small Cola De Conejo Blanco",
-        "price": "$10,650.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/plug anal silicona small cola de conejo blanco.webp",
+        image2: "img/anal/plug anal silicona small cola de conejo blanco.webp",
+        name: "Plug Anal Silicona Small Cola De Conejo Blanco",
+        price: "$10,650.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/anal bears 2 blue.jpg",
-        "image2": "img/anal/anal bears 2 blue.jpg",
-        "name": "Anal Bears 2 Blue",
-        "price": "$12,233.72",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/anal bears 2 blue.jpg",
+        image2: "img/anal/anal bears 2 blue.jpg",
+        name: "Anal Bears 2 Blue",
+        price: "$12,233.72",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Glass 1 Clear.jpg",
-        "image2": "img/anal/Glass 1 Clear.jpg",
-        "name": "Glass 1",
-        "price": "$13,808.06",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Glass 1 Clear.jpg",
+        image2: "img/anal/Glass 1 Clear.jpg",
+        name: "Glass 1",
+        price: "$13,808.06",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/maxx play plug baxx.webp",
-        "image2": "img/anal/maxx play plug baxx.webp",
-        "name": "Maxx Play Plug BAXX",
-        "price": "$14,301.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/maxx play plug baxx.webp",
+        image2: "img/anal/maxx play plug baxx.webp",
+        name: "Maxx Play Plug BAXX",
+        price: "$14,301.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Agus 2 Black ST.jfif",
-        "image2": "img/anal/Agus 2 Black ST.jfif",
-        "name": "Agus 2 Black ST",
-        "price": "$16,142.02",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Agus 2 Black ST.jfif",
+        image2: "img/anal/Agus 2 Black ST.jfif",
+        name: "Agus 2 Black ST",
+        price: "$16,142.02",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Silicone Plug Fucsia Medium ST.jpg",
-        "image2": "img/anal/Silicone Plug Fucsia Medium ST.jpg",
-        "name": "Silicone Plug Fucsia Medium ST",
-        "price": "$13,808.06",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Silicone Plug Fucsia Medium ST.jpg",
+        image2: "img/anal/Silicone Plug Fucsia Medium ST.jpg",
+        name: "Silicone Plug Fucsia Medium ST",
+        price: "$13,808.06",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Silicone Plug Fucsia largue ST.jfif",
-        "image2": "img/anal/Silicone Plug Fucsia largue ST.jfif",
-        "name": "Silicone Plug Fucsia Large ST",
-        "price": "$15,325.40",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Silicone Plug Fucsia largue ST.jfif",
+        image2: "img/anal/Silicone Plug Fucsia largue ST.jfif",
+        name: "Silicone Plug Fucsia Large ST",
+        price: "$15,325.40",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Plug Gold Rose Round Small ST.jpeg",
-        "image2": "img/anal/Plug Gold Rose Round Small ST.jpeg",
-        "name": "Plug Gold Rose Round Small ST",
-        "price": "$13,751.06",
-        "descripcion": "",
-        "categoria": "anal",
+        image: "img/anal/Plug Gold Rose Round Small ST.jpeg",
+        image2: "img/anal/Plug Gold Rose Round Small ST.jpeg",
+        name: "Plug Gold Rose Round Small ST",
+        price: "$13,751.06",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/mini plug anal de silicona S 7,3 x 2,2 cm.jpg",
-        "image2": "img/anal/mini plug anal de silicona S 7,3 x 2,2 cm.jpg",
-        "name": "Mini Plug Anal de Silicona",
-        "price": "$14,546.04",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/mini plug anal de silicona S 7,3 x 2,2 cm.jpg",
+        image2: "img/anal/mini plug anal de silicona S 7,3 x 2,2 cm.jpg",
+        name: "Mini Plug Anal de Silicona",
+        price: "$14,546.04",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/monster plug escalonado negro 15cm real skin.jpg",
-        "image2": "img/anal/monster plug escalonado negro 15cm real skin.jpg",
-        "name": "Monster Plug Escalonado Negro 15cm Real Skin",
-        "price": "$4,980.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/monster plug escalonado negro 15cm real skin.jpg",
+        image2: "img/anal/monster plug escalonado negro 15cm real skin.jpg",
+        name: "Monster Plug Escalonado Negro 15cm Real Skin",
+        price: "$4,980.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/monster plug prostatico xl negro real skin.jpg",
-        "image2": "img/anal/monster plug prostatico xl negro real skin.jpg",
-        "name": "Monster Plug Prostatico XL Negro Real Skin",
-        "price": "$4,980.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/monster plug prostatico xl negro real skin.jpg",
+        image2: "img/anal/monster plug prostatico xl negro real skin.jpg",
+        name: "Monster Plug Prostatico XL Negro Real Skin",
+        price: "$4,980.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
-        "image2": "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
-        "name": "Plug Anal Pequeño de Silicona Negro Joya Roja",
-        "price": "$6,830.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
+        image2: "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
+        name: "Plug Anal Pequeño de Silicona Negro Joya Roja",
+        price: "$6,830.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/plug anal smooth nano S negro.jpg",
-        "image2": "img/anal/plug anal smooth nano S negro.jpg",
-        "name": "Plug Anal Smooth Nano S Negro",
-        "price": "$4,260.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/plug anal smooth nano S negro.jpg",
+        image2: "img/anal/plug anal smooth nano S negro.jpg",
+        name: "Plug Anal Smooth Nano S Negro",
+        price: "$4,260.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/plug anal ultra XL rojo.jpg",
-        "image2": "img/anal/plug anal ultra XL rojo.jpg",
-        "name": "Plug Anal Ultra XL Rojo",
-        "price": "$3,820.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/plug anal ultra XL rojo.jpg",
+        image2: "img/anal/plug anal ultra XL rojo.jpg",
+        name: "Plug Anal Ultra XL Rojo",
+        price: "$3,820.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/plug butt anal de acero pequeño joya roja.jpg",
-        "image2": "img/anal/plug butt anal de acero pequeño joya roja.jpg",
-        "name": "Plug Butt Anal de Acero Pequeño Joya Roja",
-        "price": "$10,320.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/plug butt anal de acero pequeño joya roja.jpg",
+        image2: "img/anal/plug butt anal de acero pequeño joya roja.jpg",
+        name: "Plug Butt Anal de Acero Pequeño Joya Roja",
+        price: "$10,320.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/plug vibrador ripley negro XXL 18cm x 4,5cm.jpg",
-        "image2": "img/anal/plug vibrador ripley negro XXL 18cm x 4,5cm.jpg",
-        "name": "Plug Vibrador Ripley Negro XXL 18 cm x 4.5cm",
-        "price": "$7,330.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/plug vibrador ripley negro XXL 18cm x 4,5cm.jpg",
+        image2: "img/anal/plug vibrador ripley negro XXL 18cm x 4,5cm.jpg",
+        name: "Plug Vibrador Ripley Negro XXL 18 cm x 4.5cm",
+        price: "$7,330.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/varita estimulador anal en rojo.jpg",
-        "image2": "img/anal/varita estimulador anal en rojo.jpg",
-        "name": "Varita Estimulador Anal en Rojo",
-        "price": "$5,320.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/varita estimulador anal en rojo.jpg",
+        image2: "img/anal/varita estimulador anal en rojo.jpg",
+        name: "Varita Estimulador Anal en Rojo",
+        price: "$5,320.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/varita tripli anal estimulador rojo.jpg",
-        "image2": "img/anal/varita tripli anal estimulador rojo.jpg",
-        "name": "Varita Triple Anal Estimulador Roja",
-        "price": "$8,310.00",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/varita tripli anal estimulador rojo.jpg",
+        image2: "img/anal/varita tripli anal estimulador rojo.jpg",
+        name: "Varita Triple Anal Estimulador Roja",
+        price: "$8,310.00",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/silicone pulg red kit.jpg",
-        "image2": "img/anal/silicone pulg red kit.jpg",
-        "name": "Kit Silicona Corazón Red",
-        "price": "$46,051.54",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/silicone pulg red kit.jpg",
+        image2: "img/anal/silicone pulg red kit.jpg",
+        name: "Kit Silicona Corazón Red",
+        price: "$46,051.54",
+        descripcion: "",
+        categoria: "anal"
     },
     {
-        "image": "img/anal/Kit Plug Fucsia.jfif",
-        "image2": "img/anal/Kit Plug Fucsia.jfif",
-        "name": "Kit Plug Fucsia",
-        "price": "$30,498.80",
-        "descripcion": "",
-        "categoria": "anal"
+        image: "img/anal/Kit Plug Fucsia.jfif",
+        image2: "img/anal/Kit Plug Fucsia.jfif",
+        name: "Kit Plug Fucsia",
+        price: "$30,498.80",
+        descripcion: "",
+        categoria: "anal"
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------FETICHE
     //---------------------------------------------------------------------------------------------------------------------------
-
     {
-        "image": "img/fetiche/FUSTA ROJA.jpeg",
-        "image2": "img/fetiche/Fusta Roja.webp",
-        "name": "Fusta Red ST",
-        "price": "$14,433.39",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/FUSTA ROJA.jpeg",
+        image2: "img/fetiche/Fusta Roja.webp",
+        name: "Fusta Red ST",
+        price: "$14,433.39",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Pasties Heart Red.jpg",
-        "image2": "img/fetiche/Pasties Heart Red.jpg",
-        "name": "Pasties Red",
-        "price": "$7,798.47",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Pasties Heart Red.jpg",
+        image2: "img/fetiche/Pasties Heart Red.jpg",
+        name: "Pasties Red",
+        price: "$7,798.47",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Nipples Champs 6.jpg",
-        "image2": "img/fetiche/Nipples Champs 6.jpg",
-        "name": "Niples Champs 6",
-        "price": "$12,011.24",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Nipples Champs 6.jpg",
+        image2: "img/fetiche/Nipples Champs 6.jpg",
+        name: "Niples Champs 6",
+        price: "$12,011.24",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Handcuffs Blue.jpg",
-        "image2": "img/fetiche/Handcuffs Blue.jpg",
-        "name": "Handcuffs Blue",
-        "price": "$13,808.06",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Handcuffs Blue.jpg",
+        image2: "img/fetiche/Handcuffs Blue.jpg",
+        name: "Handcuffs Blue",
+        price: "$13,808.06",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Fusta con tachas.jpeg",
-        "image2": "img/fetiche/Fusta con tachas.jpeg",
-        "name": "Fusta con tacha ST",
-        "price": "$12,290.72",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Fusta con tachas.jpeg",
+        image2: "img/fetiche/Fusta con tachas.jpeg",
+        name: "Fusta con tacha ST",
+        price: "$12,290.72",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/PALMETA NEGRA.jpeg",
-        "image2": "img/fetiche/PALMETA NEGRA.jpeg",
-        "name": "Palmeta Negra ST",
-        "price": "$10,773.38",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/PALMETA NEGRA.jpeg",
+        image2: "img/fetiche/PALMETA NEGRA.jpeg",
+        name: "Palmeta Negra ST",
+        price: "$10,773.38",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/collar esposas y tobillos con cadenas.webp",
-        "image2": "img/fetiche/collar esposas y tobillos con cadenas.webp",
-        "name": "Collar, Esposas Y Tobillos Con Cadenas Inf Placer",
-        "price": "$6,972.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/collar esposas y tobillos con cadenas.webp",
+        image2: "img/fetiche/collar esposas y tobillos con cadenas.webp",
+        name: "Collar, Esposas Y Tobillos Con Cadenas Inf Placer",
+        price: "$6,972.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
-        "image2": "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
-        "name": "Tangas Con Esposas de Cuero Inf Placer",
-        "price": "$4,976.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
+        image2: "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
+        name: "Tangas Con Esposas de Cuero Inf Placer",
+        price: "$4,976.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Esposas Y Tobilleras Con Correa De Cuero 2.jpeg",
-        "image2": "img/fetiche/Esposas Y Tobilleras Con Correa De Cuero 2.jpeg",
-        "name": "Esposas Y Tobilleras Con Correa De Cuero",
-        "price": "$4,032.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Esposas Y Tobilleras Con Correa De Cuero 2.jpeg",
+        image2: "img/fetiche/Esposas Y Tobilleras Con Correa De Cuero 2.jpeg",
+        name: "Esposas Y Tobilleras Con Correa De Cuero",
+        price: "$4,032.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/antifaz ciego con encaje luxury dorado.jpg",
-        "image2": "img/fetiche/antifaz ciego con encaje luxury dorado.jpg",
-        "name": "Antifaz Ciego con encaje Luxury | Dorado",
-        "price": "$5,652.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/antifaz ciego con encaje luxury dorado.jpg",
+        image2: "img/fetiche/antifaz ciego con encaje luxury dorado.jpg",
+        name: "Antifaz Ciego con encaje Luxury | Dorado",
+        price: "$5,652.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/antifaz ciego con encaje luxury rosa.webp",
-        "image2": "img/fetiche/antifaz ciego con encaje luxury rosa.webp",
-        "name": "Antifaz Ciego con encaje Luxury | Rosa",
-        "price": "$5,652.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/antifaz ciego con encaje luxury rosa.webp",
+        image2: "img/fetiche/antifaz ciego con encaje luxury rosa.webp",
+        name: "Antifaz Ciego con encaje Luxury | Rosa",
+        price: "$5,652.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Set esposas Ribbon y choker rojo.jpeg",
-        "image2": "img/fetiche/Set esposas Ribbon y choker rojo.jpeg",
-        "name": "Set Esposas Ribbon y Choquer Rojo BDSM Deseos Cap",
-        "price": "$6,960.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Set esposas Ribbon y choker rojo.jpeg",
+        image2: "img/fetiche/Set esposas Ribbon y choker rojo.jpeg",
+        name: "Set Esposas Ribbon y Choquer Rojo BDSM Deseos Cap",
+        price: "$6,960.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Collar con correa y mosqueton KS35801.png",
-        "image2": "img/fetiche/Collar con correa y mosqueton KS35801.png",
-        "name": "Collar Con Correa y Mosquetón Rojo BDSM Inf Placer",
-        "price": "$2,801.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Collar con correa y mosqueton KS35801.png",
+        image2: "img/fetiche/Collar con correa y mosqueton KS35801.png",
+        name: "Collar Con Correa y Mosquetón Rojo BDSM Inf Placer",
+        price: "$2,801.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/mini cola less tipo v ecocuero bdsm.jpg",
-        "image2": "img/fetiche/mini cola less tipo v ecocuero bdsm.jpg",
-        "name": "Mini Cola less Tipo V",
-        "price": "$2,616.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/mini cola less tipo v ecocuero bdsm.jpg",
+        image2: "img/fetiche/mini cola less tipo v ecocuero bdsm.jpg",
+        name: "Mini Cola less Tipo V",
+        price: "$2,616.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/cepo inmovilizador de pies y manos bondage.jpg",
-        "image2": "img/fetiche/cepo inmovilizador de pies y manos bondage.jpg",
-        "name": "Cepo Inmovilizador de Pies y Manos Bondage",
-        "price": "$8,594.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/cepo inmovilizador de pies y manos bondage.jpg",
+        image2: "img/fetiche/cepo inmovilizador de pies y manos bondage.jpg",
+        name: "Cepo Inmovilizador de Pies y Manos Bondage",
+        price: "$8,594.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/kit luxury niko - bondage.jpeg",
-        "image2": "img/fetiche/kit luxury niko - bondage.jpeg",
-        "name": "Bondage Niko",
-        "price": "$112,050.34",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/kit luxury niko - bondage.jpeg",
+        image2: "img/fetiche/kit luxury niko - bondage.jpeg",
+        name: "Bondage Niko",
+        price: "$112,050.34",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/luxury passion chantilly kit.jpg",
-        "image2": "img/fetiche/luxury passion chantilly kit.jpg",
-        "name": "Luxury Passion Chantilly Kit ST",
-        "price": "$80,127.94",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/luxury passion chantilly kit.jpg",
+        image2: "img/fetiche/luxury passion chantilly kit.jpg",
+        name: "Luxury Passion Chantilly Kit ST",
+        price: "$80,127.94",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Antifaz Zorrita Símil Cuero Rosa Inf Placer.jpg",
-        "image2": "img/fetiche/Antifaz Zorrita Símil Cuero Rosa Inf Placer.jpg",
-        "name": "Antifaz Zorrita Símil Cuero Rosa",
-        "price": "$1,200.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Antifaz Zorrita Símil Cuero Rosa Inf Placer.jpg",
+        image2: "img/fetiche/Antifaz Zorrita Símil Cuero Rosa Inf Placer.jpg",
+        name: "Antifaz Zorrita Símil Cuero Rosa",
+        price: "$1,200.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/antifaz Zorrita Símil Cuero negro.jpg",
-        "image2": "img/fetiche/antifaz Zorrita Símil Cuero negro.jpg",
-        "name": "Antifaz Zorrita Símil Cuero Negro Inf Placer",
-        "price": "$1,200.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/antifaz Zorrita Símil Cuero negro.jpg",
+        image2: "img/fetiche/antifaz Zorrita Símil Cuero negro.jpg",
+        name: "Antifaz Zorrita Símil Cuero Negro Inf Placer",
+        price: "$1,200.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Antifaz Ciego Símil Cuero Rosa Inf Placer.png",
-        "image2": "img/fetiche/Antifaz Ciego Símil Cuero Rosa Inf Placer.png",
-        "name": "Antifaz Ciego Símil Cuero Rosa",
-        "price": "$1,042.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Antifaz Ciego Símil Cuero Rosa Inf Placer.png",
+        image2: "img/fetiche/Antifaz Ciego Símil Cuero Rosa Inf Placer.png",
+        name: "Antifaz Ciego Símil Cuero Rosa",
+        price: "$1,042.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/antifaz fiesta negro pasionel.webp",
-        "image2": "img/fetiche/antifaz fiesta negro pasionel.webp",
-        "name": "Antifaz Fiesta Negro Pasionel",
-        "price": "$2,290.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/antifaz fiesta negro pasionel.webp",
+        image2: "img/fetiche/antifaz fiesta negro pasionel.webp",
+        name: "Antifaz Fiesta Negro Pasionel",
+        price: "$2,290.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Antifaz de Enfermera Blanco y Rojo Pasionel.png",
-        "image2": "img/fetiche/Antifaz de Enfermera Blanco y Rojo Pasionel.png",
-        "name": "Antifaz de Enfermera Blanco y Rojo Pasionel",
-        "price": "$2,290.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Antifaz de Enfermera Blanco y Rojo Pasionel.png",
+        image2: "img/fetiche/Antifaz de Enfermera Blanco y Rojo Pasionel.png",
+        name: "Antifaz de Enfermera Blanco y Rojo Pasionel",
+        price: "$2,290.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Cuerda 5m Red.jpg",
-        "image2": "img/fetiche/Cuerda 5m Red.jpg",
-        "name": "Cuerda Roja 5 metros Roja",
-        "price": "$9,256.04",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Cuerda 5m Red.jpg",
+        image2: "img/fetiche/Cuerda 5m Red.jpg",
+        name: "Cuerda Roja 5 metros Roja",
+        price: "$9,256.04",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Handcuff Red.png",
-        "image2": "img/fetiche/Handcuff Red.png",
-        "name": "Handcuff Red",
-        "price": "$13,808.06",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Handcuff Red.png",
+        image2: "img/fetiche/Handcuff Red.png",
+        name: "Handcuff Red",
+        price: "$13,808.06",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Cuerda 10 metros Black.jpeg",
-        "image2": "img/fetiche/Cuerda 10 metros Black.jpeg",
-        "name": "Cuerda 10 metros Black",
-        "price": "$10,773.38",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Cuerda 10 metros Black.jpeg",
+        image2: "img/fetiche/Cuerda 10 metros Black.jpeg",
+        name: "Cuerda 10 metros Black",
+        price: "$10,773.38",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Esposas Alcatraz Metalicas Reales Inf Placer.jpg",
-        "image2": "img/fetiche/Esposas Alcatraz Metalicas Reales Inf Placer.jpg",
-        "name": "Esposas Alcatraz Metalicas Reales",
-        "price": "$20,996.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Esposas Alcatraz Metalicas Reales Inf Placer.jpg",
+        image2: "img/fetiche/Esposas Alcatraz Metalicas Reales Inf Placer.jpg",
+        name: "Esposas Alcatraz Metalicas Reales",
+        price: "$20,996.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Choker de Cuero con Púas y Argolla D Inf Placer.jpg",
-        "image2": "img/fetiche/Choker de Cuero con Púas y Argolla D Inf Placer.jpg",
-        "name": "Choker de Cuero con Púas y Argolla D Inf Placer",
-        "price": "$2,264.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Choker de Cuero con Púas y Argolla D Inf Placer.jpg",
+        image2: "img/fetiche/Choker de Cuero con Púas y Argolla D Inf Placer.jpg",
+        name: "Choker de Cuero con Púas y Argolla D Inf Placer",
+        price: "$2,264.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/antifaz ciego de cuero bdsm.jpg",
-        "image2": "img/fetiche/antifaz ciego de cuero bdsm.jpg",
-        "name": "Antifaz Ciego De Cuero BDSM",
-        "price": "$1,720.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/antifaz ciego de cuero bdsm.jpg",
+        image2: "img/fetiche/antifaz ciego de cuero bdsm.jpg",
+        name: "Antifaz Ciego De Cuero BDSM",
+        price: "$1,720.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/pezoneras con pinza cadena metalizada Ouch.jpg",
-        "image2": "img/fetiche/pezoneras con pinza cadena metalizada Ouch.jpg",
-        "name": "Pezoneras Con Pinza Cadena Metalizada Ouch!",
-        "price": "$19,920.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/pezoneras con pinza cadena metalizada Ouch.jpg",
+        image2: "img/fetiche/pezoneras con pinza cadena metalizada Ouch.jpg",
+        name: "Pezoneras Con Pinza Cadena Metalizada Ouch!",
+        price: "$19,920.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/pezoneras con pinza y doble cadena dorada.jpg",
-        "image2": "img/fetiche/pezoneras con pinza y doble cadena dorada.jpg",
-        "name": "Pezoneras Con Pinza y Doble Cadena Dorada",
-        "price": "$6,310.00",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/pezoneras con pinza y doble cadena dorada.jpg",
+        image2: "img/fetiche/pezoneras con pinza y doble cadena dorada.jpg",
+        name: "Pezoneras Con Pinza y Doble Cadena Dorada",
+        price: "$6,310.00",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/Vibro + 7 Piezas Bondage Set Black ST.jpeg",
-        "image2": "img/fetiche/Vibro + 7 Piezas Bondage Set Black ST.jpeg",
-        "name": "Vibro + 7 Piezas Bondage Set Black ST",
-        "price": "$16,741.58",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/Vibro + 7 Piezas Bondage Set Black ST.jpeg",
+        image2: "img/fetiche/Vibro + 7 Piezas Bondage Set Black ST.jpeg",
+        name: "Vibro + 7 Piezas Bondage Set Black ST",
+        price: "$16,741.58",
+        descripcion: "",
+        categoria: "fetiche"
     },
     {
-        "image": "img/fetiche/esposas inmovilizador de metal rojo.webp",
-        "image2": "img/fetiche/esposas inmovilizador de metal rojo.webp",
-        "name": "Inmovilizador Rojo",
-        "price": "$13,808.06",
-        "descripcion": "",
-        "categoria": "fetiche"
+        image: "img/fetiche/esposas inmovilizador de metal rojo.webp",
+        image2: "img/fetiche/esposas inmovilizador de metal rojo.webp",
+        name: "Inmovilizador Rojo",
+        price: "$13,808.06",
+        descripcion: "",
+        categoria: "fetiche"
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------DILDOS
     //--------------------------------------------------------------------------------------------
-
     {
-        "image": "img/Dildos/Real Dildo.jpg",
-        "image2": "img/Dildos/Real Dildo.jpg",
-        "name": "Real Dildo",
-        "price": "$12,973.43",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/Real Dildo.jpg",
+        image2: "img/Dildos/Real Dildo.jpg",
+        name: "Real Dildo",
+        price: "$12,973.43",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/Real Cock 19.jpg",
-        "image2": "img/Dildos/Real Cock 19.jpg",
-        "name": "Real Cock 19",
-        "price": "$23,093.72",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/Real Cock 19.jpg",
+        image2: "img/Dildos/Real Cock 19.jpg",
+        name: "Real Cock 19",
+        price: "$23,093.72",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/Real Cock 17.jpg",
-        "image2": "img/Dildos/Real Cock 17.jpg",
-        "name": "Real Cock 17",
-        "price": "$25,498.48",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/Real Cock 17.jpg",
+        image2: "img/Dildos/Real Cock 17.jpg",
+        name: "Real Cock 17",
+        price: "$25,498.48",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/Joe 5 Skin.jpg",
-        "image2": "img/Dildos/Joe 5 Skin.jpg",
-        "name": "Dildo Joe 5 16cm ST",
-        "price": "$27,307.79",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/Joe 5 Skin.jpg",
+        image2: "img/Dildos/Joe 5 Skin.jpg",
+        name: "Dildo Joe 5 16cm ST",
+        price: "$27,307.79",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/Jumbo Pie Grande XL Negro 37 cm x 8 cm.jpg",
-        "image2": "img/Dildos/Jumbo Pie Grande XL Negro 37 cm x 8 cm.jpg",
-        "name": "Jumbo Pié Grande XL",
-        "price": "$14,982.00",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/Jumbo Pie Grande XL Negro 37 cm x 8 cm.jpg",
+        image2: "img/Dildos/Jumbo Pie Grande XL Negro 37 cm x 8 cm.jpg",
+        name: "Jumbo Pié Grande XL",
+        price: "$14,982.00",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/pride 4.jpg",
-        "image2": "img/Dildos/pride 4.jpg",
-        "name": "Pride 4",
-        "price": "$49,592.00",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/pride 4.jpg",
+        image2: "img/Dildos/pride 4.jpg",
+        name: "Pride 4",
+        price: "$49,592.00",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/pride 5.jpeg",
-        "image2": "img/Dildos/pride 5.jpeg",
-        "name": "Pride 5",
-        "price": "$37,959.06",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/pride 5.jpeg",
+        image2: "img/Dildos/pride 5.jpeg",
+        name: "Pride 5",
+        price: "$37,959.06",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/ciber vibe sean davi L 20x4.jpg",
-        "image2": "img/Dildos/ciber vibe sean davi L 20x4.jpg",
-        "name": "Ciber Vibe Sean Davi L 20x4 Caimán",
-        "price": "$8,060.00",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/ciber vibe sean davi L 20x4.jpg",
+        image2: "img/Dildos/ciber vibe sean davi L 20x4.jpg",
+        name: "Ciber Vibe Sean Davi L 20x4 Caimán",
+        price: "$8,060.00",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/pride.webp",
-        "image2": "img/Dildos/pride.webp",
-        "name": "Pride",
-        "price": "$36,860.13",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/pride.webp",
+        image2: "img/Dildos/pride.webp",
+        name: "Pride",
+        price: "$36,860.13",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/Real Cock 3.jpg",
-        "image2": "img/Dildos/Real Cock 3.jpg",
-        "name": "Real Cock 3",
-        "price": "$16,537.60",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/Real Cock 3.jpg",
+        image2: "img/Dildos/Real Cock 3.jpg",
+        name: "Real Cock 3",
+        price: "$16,537.60",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/Real cock 5.jpeg",
-        "image2": "img/Dildos/Real cock 5.jpeg",
-        "name": "Real Cock 5",
-        "price": "$16,539.27",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/Real cock 5.jpeg",
+        image2: "img/Dildos/Real cock 5.jpeg",
+        name: "Real Cock 5",
+        price: "$16,539.27",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/bam suck realistico con sopapa xxl.jpg",
-        "image2": "img/Dildos/bam suck realistico con sopapa xxl.jpg",
-        "name": "Bam Suck Realístico con Sopapa XXL",
-        "price": "$15,210.00",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
+        image2: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
+        name: "Bam Suck Realístico con Sopapa XXL",
+        price: "$15,210.00",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/Consolador Realistic Suck Sopapa Kevin Dean XXL.jpg",
-        "image2": "img/Dildos/Consolador Realistic Suck Sopapa Kevin Dean XXL.jpg",
-        "name": "Consolador Realistic Suck Sopapa Kevin Dean XXL",
-        "price": "$15,210.00",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/Consolador Realistic Suck Sopapa Kevin Dean XXL.jpg",
+        image2: "img/Dildos/Consolador Realistic Suck Sopapa Kevin Dean XXL.jpg",
+        name: "Consolador Realistic Suck Sopapa Kevin Dean XXL",
+        price: "$15,210.00",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/dildo clasico softee dong celeste 20 x 4cm.jpeg",
-        "image2": "img/Dildos/dildo clasico softee dong celeste 20 x 4cm.jpeg",
-        "name": "Dildo Clásico Softee Dong Celeste 20 x 4cm",
-        "price": "$12,160.00",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/dildo clasico softee dong celeste 20 x 4cm.jpeg",
+        image2: "img/Dildos/dildo clasico softee dong celeste 20 x 4cm.jpeg",
+        name: "Dildo Clásico Softee Dong Celeste 20 x 4cm",
+        price: "$12,160.00",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/suck act real XXL brad Stone 27 x 6 cm.jpg",
-        "image2": "img/Dildos/suck act real XXL brad Stone 27 x 6 cm.jpg",
-        "name": "Suck Act Real XXL Brad Stone 27 x 6 cm",
-        "price": "$15,210.00",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/suck act real XXL brad Stone 27 x 6 cm.jpg",
+        image2: "img/Dildos/suck act real XXL brad Stone 27 x 6 cm.jpg",
+        name: "Suck Act Real XXL Brad Stone 27 x 6 cm",
+        price: "$15,210.00",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/suck act realistico XXL Tom Chase 27 x 6,5cm.jpeg",
-        "image2": "img/Dildos/suck act realistico XXL Tom Chase 27 x 6,5cm.jpeg",
-        "name": "Suck Act Realístico XXL Tom Chase 27 x 6.5cm",
-        "price": "$15,210.00",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/suck act realistico XXL Tom Chase 27 x 6,5cm.jpeg",
+        image2: "img/Dildos/suck act realistico XXL Tom Chase 27 x 6,5cm.jpeg",
+        name: "Suck Act Realístico XXL Tom Chase 27 x 6.5cm",
+        price: "$15,210.00",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/real cook 7.jpg",
-        "image2": "img/Dildos/real cook 7.jpg",
-        "name": "Real cock 7",
-        "price": "$20,254.46",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/real cook 7.jpg",
+        image2: "img/Dildos/real cook 7.jpg",
+        name: "Real cock 7",
+        price: "$20,254.46",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/real cook 8 dildo st.jpg",
-        "image2": "img/Dildos/real cook 8 dildo st.jpg",
-        "name": "Real cock 8",
-        "price": "$24,185.75",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/real cook 8 dildo st.jpg",
+        image2: "img/Dildos/real cook 8 dildo st.jpg",
+        name: "Real cock 8",
+        price: "$24,185.75",
+        descripcion: "",
+        categoria: "dildos"
     },
     {
-        "image": "img/Dildos/real cook 12 dildo st.jpeg",
-        "image2": "img/Dildos/real cook 12 dildo st.jpeg",
-        "name": "Real cock 12",
-        "price": "$42,759.37",
-        "descripcion": "",
-        "categoria": "dildos"
+        image: "img/Dildos/real cook 12 dildo st.jpeg",
+        image2: "img/Dildos/real cook 12 dildo st.jpeg",
+        name: "Real cock 12",
+        price: "$42,759.37",
+        descripcion: "",
+        categoria: "dildos"
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------PRESERVATIVOS
     //--------------------------------------------------------------------------------------------
     {
-        "image": "img/preservativo/PRIME TACHAS X 3 Un.png",
-        "image2": "img/preservativo/PRIME TACHAS X 3 Un.png",
-        "name": "Prime Tachas Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRIME TACHAS X 3 Un.png",
+        image2: "img/preservativo/PRIME TACHAS X 3 Un.png",
+        name: "Prime Tachas Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/PRESERVATIVOS PRIME RETARDANTE.png",
-        "image2": "img/preservativo/PRESERVATIVOS PRIME RETARDANTE.png",
-        "name": "Prime Retardante Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRESERVATIVOS PRIME RETARDANTE.png",
+        image2: "img/preservativo/PRESERVATIVOS PRIME RETARDANTE.png",
+        name: "Prime Retardante Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/PRIME MEGA x 3 Un.png",
-        "image2": "img/preservativo/PRIME MEGA x 3 Un.png",
-        "name": "Prime Mega Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRIME MEGA x 3 Un.png",
+        image2: "img/preservativo/PRIME MEGA x 3 Un.png",
+        name: "Prime Mega Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/PRIME ESPERMICIDA X 3 Un.png",
-        "image2": "img/preservativo/PRIME ESPERMICIDA X 3 Un.png",
-        "name": "Prime Espermicida Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRIME ESPERMICIDA X 3 Un.png",
+        image2: "img/preservativo/PRIME ESPERMICIDA X 3 Un.png",
+        name: "Prime Espermicida Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/PRIME STRONGER X 3 Un.png",
-        "image2": "img/preservativo/PRIME STRONGER X 3 Un.png",
-        "name": "Prime Stronger Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRIME STRONGER X 3 Un.png",
+        image2: "img/preservativo/PRIME STRONGER X 3 Un.png",
+        name: "Prime Stronger Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/PRIME ANATÓMICO X3 UN.png",
-        "image2": "img/preservativo/PRIME ANATÓMICO X3 UN.png",
-        "name": "Prime Anatómico Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRIME ANATÓMICO X3 UN.png",
+        image2: "img/preservativo/PRIME ANATÓMICO X3 UN.png",
+        name: "Prime Anatómico Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/prime ultra fino caja x 3 unidades.webp",
-        "image2": "img/preservativo/prime ultra fino caja x 3 unidades.webp",
-        "name": "Prime Ultra Fino Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/prime ultra fino caja x 3 unidades.webp",
+        image2: "img/preservativo/prime ultra fino caja x 3 unidades.webp",
+        name: "Prime Ultra Fino Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/PRIME SUPER FINO X 3 Un.png",
-        "image2": "img/preservativo/PRIME SUPER FINO X 3 Un.png",
-        "name": "Prime Super Fino Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRIME SUPER FINO X 3 Un.png",
+        image2: "img/preservativo/PRIME SUPER FINO X 3 Un.png",
+        name: "Prime Super Fino Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/PRIME EXTRA LUBRICADO x 3 Un.png",
-        "image2": "img/preservativo/PRIME EXTRA LUBRICADO x 3 Un.png",
-        "name": "Prime Extra Lubricado Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRIME EXTRA LUBRICADO x 3 Un.png",
+        image2: "img/preservativo/PRIME EXTRA LUBRICADO x 3 Un.png",
+        name: "Prime Extra Lubricado Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/PRIME TEXTURADDO X 3 Un.png",
-        "image2": "img/preservativo/PRIME TEXTURADDO X 3 Un.png",
-        "name": "Prime Texturado Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRIME TEXTURADDO X 3 Un.png",
+        image2: "img/preservativo/PRIME TEXTURADDO X 3 Un.png",
+        name: "Prime Texturado Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/skin mixta x3 unidades preservativo.png",
-        "image2": "img/preservativo/skin mixta x3 unidades preservativo.png",
-        "name": "Skin Mixta x 3 unidades",
-        "price": "$1,649.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/skin mixta x3 unidades preservativo.png",
+        image2: "img/preservativo/skin mixta x3 unidades preservativo.png",
+        name: "Skin Mixta x 3 unidades",
+        price: "$1,649.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/maxx super fino x3 unidades.jpg",
-        "image2": "img/preservativo/maxx super fino x3 unidades.jpg",
-        "name": "Maxx Super Fino x 3 unidades",
-        "price": "$779.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/maxx super fino x3 unidades.jpg",
+        image2: "img/preservativo/maxx super fino x3 unidades.jpg",
+        name: "Maxx Super Fino x 3 unidades",
+        price: "$779.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/maxx tachas 3 unidades.png",
-        "image2": "img/preservativo/maxx tachas 3 unidades.png",
-        "name": "Maxx Tachas 3 unidades",
-        "price": "$779.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/maxx tachas 3 unidades.png",
+        image2: "img/preservativo/maxx tachas 3 unidades.png",
+        name: "Maxx Tachas 3 unidades",
+        price: "$779.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/Prime Warming.jfif",
-        "image2": "img/preservativo/Prime Warming.jfif",
-        "name": "Prime Warming Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/Prime Warming.jfif",
+        image2: "img/preservativo/Prime Warming.jfif",
+        name: "Prime Warming Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     {
-        "image": "img/preservativo/PRIME TURBO X 3 Un.png",
-        "image2": "img/preservativo/PRIME TURBO X 3 Un.png",
-        "name": "Prime Turbo Caja x 3 unid",
-        "price": "$1,105.00",
-        "descripcion": "",
-        "categoria": "PRESERVATIVOS"
+        image: "img/preservativo/PRIME TURBO X 3 Un.png",
+        image2: "img/preservativo/PRIME TURBO X 3 Un.png",
+        name: "Prime Turbo Caja x 3 unid",
+        price: "$1,105.00",
+        descripcion: "",
+        categoria: "PRESERVATIVOS"
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------MASTURBADORES
     //--------------------------------------------------------------------------------------------
     {
-        "image": "img/masturbadores/masturbador vagina skin.jpg",
-        "image2": "img/masturbadores/masturbador vagina skin.jpg",
-        "name": "masturbador vagina skin",
-        "price": "$7,279",
-        "descripcion": "",
-        "categoria": "masturbadores"
+        image: "img/masturbadores/masturbador vagina skin.jpg",
+        image2: "img/masturbadores/masturbador vagina skin.jpg",
+        name: "masturbador vagina skin",
+        price: "$7,279",
+        descripcion: "",
+        categoria: "masturbadores"
     },
     {
-        "image": "img/masturbadores/dark grey masturbador de glande.jpeg",
-        "image2": "img/masturbadores/dark grey masturbador de glande.jpeg",
-        "name": "dark grey masturbador",
-        "price": "$60,039",
-        "descripcion": "",
-        "categoria": "masturbadores"
+        image: "img/masturbadores/dark grey masturbador de glande.jpeg",
+        image2: "img/masturbadores/dark grey masturbador de glande.jpeg",
+        name: "dark grey masturbador",
+        price: "$60,039",
+        descripcion: "",
+        categoria: "masturbadores"
     },
     {
-        "image": "img/masturbadores/huevo masturbador.jpg",
-        "image2": "img/masturbadores/huevo masturbador.jpg",
-        "name": "huevito masturbador x1 unidad",
-        "price": "$5,759",
-        "descripcion": "",
-        "categoria": "masturbadores"
+        image: "img/masturbadores/huevo masturbador.jpg",
+        image2: "img/masturbadores/huevo masturbador.jpg",
+        name: "huevito masturbador x1 unidad",
+        price: "$5,759",
+        descripcion: "",
+        categoria: "masturbadores"
     },
     {
-        "image": "img/masturbadores/XP-1.jpg",
-        "image2": "img/masturbadores/XP-1.jpg",
-        "name": "XP 1",
-        "price": "$33,889",
-        "descripcion": "",
-        "categoria": "masturbadores"
+        image: "img/masturbadores/XP-1.jpg",
+        image2: "img/masturbadores/XP-1.jpg",
+        name: "XP 1",
+        price: "$33,889",
+        descripcion: "",
+        categoria: "masturbadores"
     },
+
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------SUCCIONADORES
     //--------------------------------------------------------------------------------------------
@@ -2783,96 +2781,27 @@ Products.forEach(producto => {
 });
 
 // Generar el contenido de los productos
-/*const productListContainer = document.getElementById("product-list");
-const productHTML = Products.map((product) => `
+const productListContainer = document.getElementById("product-list");
+const productHTML = Products.slice(0, 12).map((product) => `
     <div class="col">
         <div class="card h-100">
             <a href="descripcion.html?index=${Products.indexOf(product)}"> <!-- Agregamos el enlace aquí -->
                 <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
-                    onmouseover="showImage(this, '${product.image2}')" 
+                    onmouseover="showImage(this, '${product.image2}')"
                     onmouseout="showImage(this, '${product.image}')"
                     alt="...">
             </a>
             <div class="card-body">
                 <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
                 <p class="card-text">${formatPrice(product.price)}</p>
-                 <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+                <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
             </div>
         </div>
     </div>
 `).join("");
 
 // Insertar el contenido en el contenedor en el HTML
-productListContainer.innerHTML = productHTML;*/
-
-function shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-}
-
-// Mezclar aleatoriamente los productos
-const shuffledProducts = shuffle(Products);
-
-// Tomar los primeros 12 productos después de la mezcla
-const randomProducts = shuffledProducts.slice(0, 12);
-
-// Generar el contenido de los productos
-const productListContainer = document.getElementById("product-list");
-
-// Iterar a través de los primeros 12 productos y mostrarlos
-randomProducts.forEach((product, index) => {
-    if (index < 12) {
-        const productCard = document.createElement("div");
-        productCard.classList.add("col", "product-card"); // Agrega la clase "product-card" para ocultarlos por defecto
-        productCard.innerHTML = `
-        <div class="card h-100">
-             <div class="col">
-        <div class="card h-100">
-            <a href="descripcion.html?index=${Products.indexOf(product)}"> <!-- Agregamos el enlace aquí -->
-                <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
-                    onmouseover="showImage(this, '${product.image2}')" 
-                    onmouseout="showImage(this, '${product.image}')"
-                    alt="...">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
-                <p class="card-text">${formatPrice(product.price)}</p>
-                 <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
-            </div>
-        </div>
-    </div>
-        </div>
-    `;
-        productListContainer.appendChild(productCard);
-    }
-});
 productListContainer.innerHTML = productHTML;
-
-// Insertar el contenido en el contenedor en el HTML
-
-// Añade un botón para mostrar más productos
-const showMoreButton = document.createElement("button");
-showMoreButton.textContent = "Mostrar más productos";
-showMoreButton.addEventListener("click", () => {
-    // Muestra los siguientes 12 productos al hacer clic en el botón
-    document.querySelectorAll(".product-card:not(.visible)").forEach((card, index) => {
-        if (index < 12) {
-            card.style.display = "block";
-            card.classList.add("visible");
-        }
-    });
-
-    // Oculta el botón si no hay más productos para mostrar
-    if (document.querySelectorAll(".product-card:not(.visible)").length === 0) {
-        showMoreButton.style.display = "none";
-    }
-});
-
-// Agrega el botón "Mostrar más productos" al contenedor
-productListContainer.appendChild(showMoreButton);
 
 
 //CAMBIANDO IMAGENES EN LA SECCION DE "NUESTROS DESTACADOS"
