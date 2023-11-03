@@ -2786,56 +2786,49 @@ document.addEventListener("DOMContentLoaded", function () {
     let productsToShow = 12;
     let productsDisplayed = 0;
 
-    // Función para cargar y mostrar más productos
-    function loadMoreProducts() {
-        // Barajar la lista de productos al inicio
-        shuffleArray(Products);
+    // Verificar si estamos en la página index.html
+    if (typeof isIndexPage !== 'undefined' && isIndexPage) {
+        // Función para cargar y mostrar más productos
+        function loadMoreProducts() {
+            const productsToDisplay = Products.slice(productsDisplayed, productsDisplayed + productsToShow);
 
-        const productsToDisplay = Products.slice(productsDisplayed, productsDisplayed + productsToShow);
-
-        const productHTML = productsToDisplay.map((product) => `
-            <div class="col">
-                <div class="card h-100">
-                    <a href="descripcion.html?index=${Products.indexOf(product)}">
-                        <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
-                            onmouseover="showImage(this, '${product.image2}')"
-                            onmouseout="showImage(this, '${product.image}')"
-                            alt="...">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
-                        <p class="card-text">${formatPrice(product.price)}</p>
-                        <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+            const productHTML = productsToDisplay.map((product) => `
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="descripcion.html?index=${Products.indexOf(product)}">
+                            <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
+                                onmouseover="showImage(this, '${product.image2}')"
+                                onmouseout="showImage(this, '${product.image}')"
+                                alt="...">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                            <p class="card-text">${formatPrice(product.price)}</p>
+                            <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        `).join("");
+            `).join("");
 
-        productListContainer.innerHTML += productHTML;
+            productListContainer.innerHTML += productHTML;
 
-        // Actualiza la cantidad de productos mostrados
-        productsDisplayed += productsToDisplay.length;
+            // Actualiza la cantidad de productos mostrados
+            productsDisplayed += productsToDisplay.length;
 
-        // Oculta el botón de carga si no hay más productos
-        if (productsDisplayed >= Products.length) {
-            loadMoreButton.style.display = "none";
+            // Oculta el botón de carga si no hay más productos
+            if (productsDisplayed >= Products.length) {
+                loadMoreButton.style.display = "none";
+            }
         }
+
+        // Cargar y mostrar los primeros 12 productos en su orden original
+        loadMoreProducts();
+
+        // Manejar el evento de clic del botón "Cargar más"
+        loadMoreButton.addEventListener("click", loadMoreProducts);
     }
-
-    // Función para barajar un array (Fisher-Yates shuffle)
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-    }
-
-    // Cargar y mostrar los primeros 12 productos al azar
-    loadMoreProducts();
-
-    // Manejar el evento de clic del botón "Cargar más"
-    loadMoreButton.addEventListener("click", loadMoreProducts);
 });
+
 
 
 //CAMBIANDO IMAGENES EN LA SECCION DE "NUESTROS DESTACADOS"
@@ -3170,7 +3163,9 @@ function actualizarCarrito() {
     if (totalAmountElement) {
         totalAmountElement.textContent = formatPrice(total); // Utilizamos la función formatPrice para formatear el total con el símbolo "$" y separadores de miles
     }
+
 }
+
 
 
 // Función para actualizar la cantidad de un producto en el carrito
@@ -3243,4 +3238,4 @@ const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece9
     locale: 'es-AR' // The most common are: 'pt-BR', 'es-AR' and 'en-US'
 });
 
-// Handle call to backend and generate preference.
+

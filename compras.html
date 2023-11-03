@@ -254,39 +254,49 @@
                     <button type="submit" name="enviar" id="checkout-btn">Enviar</button>
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
                     <input type="hidden" name="_captcha" value="false">
-
                     <script>
-                        document.getElementById("checkout-btn").addEventListener("click", function () {
+                        document.addEventListener("DOMContentLoaded", function () {
+                            document.getElementById("checkout-btn").addEventListener("click", function () {
+                                // Obtener los datos del carrito almacenados en el localStorage
+                                const carrito = JSON.parse(localStorage.getItem('carrito'));
 
-                            document.getElementById('totalAmount').innerHTML
+                                // Inicializar el precio en 0
+                                let totalPrice = 0;
 
-                            const orderData = {
-                                quantity: 1,
-                                description: "Productos",
-                                price: 100
-                            };
+                                if (carrito) {
+                                    // Calcular el precio total sumando los precios de los productos en el carrito
+                                    totalPrice = carrito.reduce((total, product) => total + parseFloat(product.price), 0);
+                                }
 
-                            fetch("http://localhost:8080/create_preference", {
-                                method: "POST",
-                                headers: {
-                                    "Content-Type": "application/json",
-                                },
-                                body: JSON.stringify(orderData),
-                            })
-                                .then(function (response) {
-                                    return response.json();
+                                const orderData = {
+                                    quantity: 1,
+                                    description: "Total",
+                                    price: totalPrice, // Utiliza el precio total calculado
+                                };
+
+                                fetch("http://localhost:8080/create_preference", {
+                                    method: "POST",
+                                    headers: {
+                                        "Content-Type": "application/json",
+                                    },
+                                    body: JSON.stringify(orderData),
                                 })
-                                .then(function (init_point) {
-                                    // Redirige a la página de Mercado Pago usando el init_point
-                                    window.location.href = init_point["id"];
-                                    console.log(init_point["id"])
-                                })
-                                .catch(function () {
-                                    alert("Unexpected error");
-                                    $('#checkout-btn').attr("disabled", false);
-                                });
+                                    .then(function (response) {
+                                        return response.json();
+                                    })
+                                    .then(function (init_point) {
+                                        // Redirige a la página de Mercado Pago usando el init_point
+                                        window.location.href = init_point["id"];
+                                        console.log(init_point["id"]);
+                                    })
+                                    .catch(function () {
+                                        alert("Unexpected error");
+                                        $('#checkout-btn').attr("disabled", false);
+                                    });
+                            });
                         });
                     </script>
+
                 </form>
             </div>
         </div>
