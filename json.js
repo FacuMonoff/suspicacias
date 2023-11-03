@@ -1483,7 +1483,7 @@ const Products = [
         name: "Kegel Ball 4 Pink",
         price: "$12,290.72",
         descripcion: "",
-        categoria: "KEGEL"
+        categoria: "Kegel"
     },
     {
         image: "img/KEGEL/Smart Love Balls Blue.jpg",
@@ -1491,7 +1491,7 @@ const Products = [
         name: "Smart Love Balls Blue",
         price: "$10,773.38",
         descripcion: "",
-        categoria: "KEGEL"
+        categoria: "Kegel"
     },
     {
         image: "img/KEGEL/Kegel Ball Pink.jpg",
@@ -1499,7 +1499,7 @@ const Products = [
         name: "Kegel Ball Pink",
         price: "$12,290.72",
         descripcion: "",
-        categoria: "KEGEL"
+        categoria: "Kegel"
     },
     {
         image: "img/KEGEL/kegel ball 1 fucsia.png",
@@ -1507,7 +1507,7 @@ const Products = [
         name: "Kegel Ball 1 Fucsia",
         price: "$12,290.72",
         descripcion: "",
-        categoria: "KEGEL"
+        categoria: "Kegel"
     },
     {
         image: "img/KEGEL/Playballs AG-119.jpeg",
@@ -1515,7 +1515,7 @@ const Products = [
         name: "Playballs Silver",
         price: "$22,594.84",
         descripcion: "",
-        categoria: "KEGEL"
+        categoria: "Kegel"
     },
     {
         image: "img/KEGEL/kegel ball 2 fucsia.jpeg",
@@ -1523,7 +1523,7 @@ const Products = [
         name: "Kegel Ball 2 Fucsia",
         price: "$11,475.05",
         descripcion: "",
-        categoria: "KEGEL"
+        categoria: "Kegel"
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------JUEGOS
