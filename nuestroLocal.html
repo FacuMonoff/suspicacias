@@ -24,6 +24,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- menu despegable-->
             <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <!-- Cabecera del nav cuando expandimos -->
@@ -37,34 +38,118 @@
                     <!-- Una lista para los items que vamos a tener en el offcanvas -->
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active text-uppercase" aria-current="page" href="/">Inicio</a>
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">Sex sale |
+                                ¡OFERTAS!</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">Catalogo</a>
-                        </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                CATEGORIAS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#anal">Anal</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#anillos">Anillos</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#KEGEL">Bolas
+                                        Chinas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#dildos">Dildos</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#disfraces">Disfraz</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#fetiche">Fetiche</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#fundas">Fundas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#juegos">Juegos</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#Lubricantes">Lubricantes</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="/jugueteYAccesorios.html#PRESERVATIVOS">Preservativos</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#Velas">Velas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#vibradores">Vibradores</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="/jugueteYAccesorios.html#succionadores">Succionadores</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase" href="" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Contacto
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Instagram <i class="bi bi-instagram"></i></a></li>
-                                <li><a class="dropdown-item" href="#">Facebook <i class="bi bi-facebook"></i></a></li>
-                                <li><a class="dropdown-item" href="#">Whatsapp <i class="bi bi-whatsapp"></i></a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.instagram.com/suspicacias.s3xshop/">Instagram
+                                        <i class="bi bi-instagram"></i></a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.facebook.com/profile.php?id=100093064702085">Facebook
+                                        <i class="bi bi-facebook"></i></a></li>
+                                <li><a class="dropdown-item" href="https://wa.link/rgb5ni">Whatsapp <i
+                                            class="bi bi-whatsapp"></i></a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" aria-current="page" href="ventaMayorista.html">ventas
+                                mayoristas</a>
                         </li>
                     </ul>
                     <!-- El form para nuestro boton de busqueda -->
-                    <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    <form action="busqueda.html" method="get">
+                        <input type="text" name="query" placeholder="Buscar productos...">
+                        <button type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
             <!-- El titulo que va en el centro del navbar -->
-            <a class="navbar-brand" href="/" style="font-family: Lobster;font-size: 2.2em;">Suspicacias</a>
+            <a class="navbar-brand" href="index.html" style="font-family: Lobster;font-size: 2.2em;">Suspicacias</a>
+
+
             <!-- Carrito de compra -->
-            <a href="#" class="nav-link"><i class="bi bi-cart text-white" style="font-size: 1.65em;"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#carritoContainer"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <i class="bi bi-cart text-white" style="font-size: 1.65em;"></i>
+            </button>
+
+            <!-- Carrito de compra card -->
+            <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" aria-labelledby="offcanvasNavbarLabel"
+                id="carritoContainer">
+                <!-- Agregamos el header del carrito -->
+                <div class="offcanvas-header">
+                    <!-- Titulo -->
+                    <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel">Carrito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                        style="font-size: 2rem;"></button>
+                </div>
+                <!-- Agregamos el cuerpo del carrito -->
+                <div class="offcanvas-body">
+
+                    <!-- Contenedor del carrito de compras -->
+                    <div id="carritoContent">
+                        <!-- Aquí se mostrarán los productos agregados al carrito -->
+                    </div>
+
+                    <div class="d-grid gap-2 carritoContent">
+                        <p>TOTAL: <span id="totalAmount">0.00</span></p>
+                        <!-- Modifica el botón "Realizar compra" para almacenar los productos en el LocalStorage -->
+                        <button type="button" class="btn btn-success btn-lg" style="text-align: center;"
+                            onclick="realizarCompra();">
+                            Realizar compra
+                        </button>
+                        <script>
+                            // Función para realizar la compra
+                            function realizarCompra() {
+                                // Guarda el carrito en el LocalStorage
+                                localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+                                // Abre la página de compras.html
+                                window.location.href = 'compras.html';
+                            }
+                        </script>
+
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </nav>
     <!-- Main section -->

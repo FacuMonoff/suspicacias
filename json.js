@@ -997,7 +997,7 @@ const Products = [
         name: "Vela Perfumada Coconut Desire 15grs Sexitive",
         price: "$1,478.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/vainilla sweet 15gr.jpg",
@@ -1005,7 +1005,7 @@ const Products = [
         name: "Vela Perfumada Vainilla Sweet 15grs Sexitive",
         price: "$1,478.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/mon amour intense 30gr 2.webp",
@@ -1013,7 +1013,7 @@ const Products = [
         name: "Vela Masajes Mon Amour Intense 30grs Sexitive",
         price: "$2,228.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/st massage candle mango y maracuya.webp",
@@ -1021,7 +1021,7 @@ const Products = [
         name: "Vela Masajes Mango y Maracuyá 30grs Sexitive",
         price: "$2,228.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/be aphrodisiac 15gr.jpg",
@@ -1029,7 +1029,7 @@ const Products = [
         name: "Vela Masajes Afrodisíaca BE Sexitive 15grs",
         price: "$1,478.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/body souffle sexitive 15gr.jpg",
@@ -1037,7 +1037,7 @@ const Products = [
         name: "Vela Perfumada Body Soufflé Frutilla 15g Sexitive",
         price: "$1,478.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/body souffle sexitive 30gr.jpg",
@@ -1045,7 +1045,7 @@ const Products = [
         name: "Vela de Masajes Body Souffle Strawberries 30gr",
         price: "$2,675.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/desire coconut scented candle 30gr.jpg",
@@ -1053,7 +1053,7 @@ const Products = [
         name: "Vela de Masajes Candle Desire Coconut 30grs",
         price: "$2,228.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/crazy girl 30gr.webp",
@@ -1061,7 +1061,7 @@ const Products = [
         name: "Vela de Masajes Crazy Girls 30grs",
         price: "$2,228.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/Vela Perfumada Vainilla Sweet 30grs Sexitive.jpg",
@@ -1069,7 +1069,7 @@ const Products = [
         name: "Vela Perfumada Vainilla Sweet 30grs Sexitive",
         price: "$2,228.00",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/st massage candle mango y maracuya.webp",
@@ -1077,7 +1077,7 @@ const Products = [
         name: "Vela de Masajes Mango y Maracuyá 60cc",
         price: "$5,968.47",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     {
         image: "img/velas/st massage candle frutos del bosque.jpg",
@@ -1085,7 +1085,7 @@ const Products = [
         name: "Vela de Masajes Frutos del Bosque 60cc",
         price: "$5,968.47",
         descripcion: "",
-        categoria: "velas y aceites de masaje"
+        categoria: "Velas"
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //----------------------------------------------------------------LUBRICANTES
@@ -1096,7 +1096,7 @@ const Products = [
         name: "Gel íntino WARMING 120cc ST",
         price: "$5,209.80",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel Maracuyá 120cc.jpg",
@@ -1104,7 +1104,7 @@ const Products = [
         name: "Gel íntimo MARACUYÁ 120cc ST",
         price: "$5,209.80",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel íntimo Extra time 120cc.jpg",
@@ -1112,7 +1112,7 @@ const Products = [
         name: "Gel íntimo EXTRA TIME 120cc ST",
         price: "$5,209.80",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel MEN 120cc.jpg",
@@ -1120,7 +1120,7 @@ const Products = [
         name: "Gel íntimo MEN 120cc ST",
         price: "$5,209.80",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel íntimo BUTT 120cc.jpg",
@@ -1128,7 +1128,7 @@ const Products = [
         name: "Gel íntimo BUTT 120cc ST",
         price: "$5,209.80",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel íntimo Frutilla 60cc ST.jpg",
@@ -1136,7 +1136,7 @@ const Products = [
         name: "Gel íntimo Frutilla 60cc ST",
         price: "$3,818.91",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel frutilla 120cc.jpg",
@@ -1144,7 +1144,7 @@ const Products = [
         name: "Gel íntmo ON FRUTILLA 120cc ST",
         price: "$5,209.80",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel íntimo MEN 60cc.jpg",
@@ -1152,7 +1152,7 @@ const Products = [
         name: "Gel íntmo MEN 60cc",
         price: "$3,818.91",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel Maracuyá 60cc.jpg",
@@ -1160,7 +1160,7 @@ const Products = [
         name: "Gel íntimo MARACUYÁ 60cc ST",
         price: "$3,818.91",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel íntimo ICE 60cc.jpg",
@@ -1168,7 +1168,7 @@ const Products = [
         name: "Gel íntimo ICE 60cc ST",
         price: "$3,818.91",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel Neutro 60cc.jpg",
@@ -1176,7 +1176,7 @@ const Products = [
         name: "Gel íntimo NEUTRO 60cc ST",
         price: "$3,818.91",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel íntimo Woman 60cc.jpg",
@@ -1184,7 +1184,7 @@ const Products = [
         name: "Gel íntimo WOMAN 60cc ST",
         price: "$3,818.91",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel Chocolate 60cc.jpg",
@@ -1192,7 +1192,7 @@ const Products = [
         name: "Gel íntimo CHOCOLATE 60cc ST",
         price: "$3,818.91",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel íntimo Extra time 60cc.jpg",
@@ -1200,7 +1200,7 @@ const Products = [
         name: "Gel íntimo EXTRA TIME 60cc ST",
         price: "$3,818.91",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel íntimo Warming 60cc.jpg",
@@ -1208,7 +1208,7 @@ const Products = [
         name: "Gel íntimo WARMING 60cc ST",
         price: "$3,818.91",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Toy Cleaner Limpiador de juguetes Premium sexitive 120ml.jpg",
@@ -1216,7 +1216,7 @@ const Products = [
         name: "Limpiador de Juguetes Premiun Sexitive 120cc",
         price: "$1,623.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
@@ -1224,7 +1224,7 @@ const Products = [
         name: "Limpiador de Juguetes Fly Night 100cc",
         price: "$2,014.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
@@ -1232,7 +1232,7 @@ const Products = [
         name: "Limpiador de Juguetes Fly Night 90cc",
         price: "$1,531.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
@@ -1240,7 +1240,7 @@ const Products = [
         name: "Aceite Masajes Love Potion Frutos Rojos 30ml",
         price: "$2,554.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
@@ -1248,7 +1248,7 @@ const Products = [
         name: "Aceite de Masaj Mini Love Potion ice Cream 15gr",
         price: "$1,438.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
@@ -1256,7 +1256,7 @@ const Products = [
         name: "Aceite de Masajes Mini Love Potion Banana 15gr",
         price: "$1,438.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Crema Intensif de Erecciones y Orgasmos Black 50ml.jpg",
@@ -1264,7 +1264,7 @@ const Products = [
         name: "Crema Intensif de Erecciones y Orgasmos Black 50ml",
         price: "$4,163.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/thewildboys-gelcrema-anal1.webp",
@@ -1272,7 +1272,7 @@ const Products = [
         name: "Crema Íntima Anal Relajante The Wild Boys 250grs",
         price: "$5,105.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel crema Tonificante The Wild Boys.png",
@@ -1280,7 +1280,7 @@ const Products = [
         name: "Gel Crema Tonificante The WB Paprika & Mentol 200g",
         price: "$3,519.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml.jfif",
@@ -1288,7 +1288,7 @@ const Products = [
         name: "Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml",
         price: "$2,094.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.jpg",
@@ -1296,7 +1296,7 @@ const Products = [
         name: "Óleo Orgásmico Estimulante XXX 15ml",
         price: "$3,359.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
@@ -1304,7 +1304,7 @@ const Products = [
         name: "Aceite de Masajes Mini Love Potion Frutilla 15gr",
         price: "$1,438.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel intimo efecto frio miss v.jpg",
@@ -1312,7 +1312,7 @@ const Products = [
         name: "Gel Íntimo Efecto Frío Miss V",
         price: "$1,709.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel lubricante anal lube premium.webp",
@@ -1320,7 +1320,7 @@ const Products = [
         name: "Gel Lubricante Anal Lube Premium 130ml",
         price: "$2,715.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel lubricante intimo anal fly night.jpg",
@@ -1328,7 +1328,7 @@ const Products = [
         name: "Gel Lubricante Íntimo Anal Fly Night",
         price: "$4,083.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/lubricante siliconado anal afrodisia.jpeg",
@@ -1336,7 +1336,7 @@ const Products = [
         name: "Lubricante Siliconado Anal Afrodisia",
         price: "$4,898.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
@@ -1344,7 +1344,7 @@ const Products = [
         name: "Aceite Comestible Love Potion Champagne Frambuesa",
         price: "$1,438.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/love-potion chocolate sexitive.png",
@@ -1352,7 +1352,7 @@ const Products = [
         name: "Aceite Comestible Love Potion Chocolate",
         price: "$1,438.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Prime Gel Natural Mixta 22grs.jpg",
@@ -1360,7 +1360,7 @@ const Products = [
         name: "Prime Gel Natural Mixta 22grs",
         price: "$2,888.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/PRIME gel TOUCH AFRODISIACO X 200ML.jpg",
@@ -1368,7 +1368,7 @@ const Products = [
         name: "Prime Gel Touch Afrodisíaco 200ml",
         price: "$6,981.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel maxx lado b 30 grs.webp",
@@ -1376,7 +1376,7 @@ const Products = [
         name: "Gel Maxx Lado B 30grs",
         price: "$2,568.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel Íntmo Chocolate 120cc ST.webp",
@@ -1384,7 +1384,7 @@ const Products = [
         name: "Gel Íntmo Chocolate 120cc ST",
         price: "$5,209.80",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.webp",
@@ -1392,7 +1392,7 @@ const Products = [
         name: "Prime Gel Natural Hot Pleasure 22grs",
         price: "$3,475.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Prime Gel Natural Excite 22grs.jpg",
@@ -1400,7 +1400,7 @@ const Products = [
         name: "Prime Gel Natural Excite 22grs",
         price: "$3,475.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Prime Gel Touch Original 200ml.jpg",
@@ -1408,7 +1408,7 @@ const Products = [
         name: "Prime Gel Touch Original 200ml",
         price: "$6,981.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel-intimo-mine-my-pleasure-50ml.png",
@@ -1416,7 +1416,7 @@ const Products = [
         name: "Gel Íntimo Mine My Plearure 50ml Sexitive",
         price: "$1,700.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/lubricante lube more play intensity hot pleasure.jpg",
@@ -1424,7 +1424,7 @@ const Products = [
         name: "Gel Lubricante Lube Efecto Calor Pleasure 130ml",
         price: "$2,715.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/lubricante lube more play supreme retardante.jpg",
@@ -1432,7 +1432,7 @@ const Products = [
         name: "Gel Lubricante Lube Supreme Retardante 130ml",
         price: "$2,715.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel diabolico fisting extremo anal 500ml.jpg",
@@ -1440,7 +1440,7 @@ const Products = [
         name: "Gel Diabólico Fisting Extremo Anal 500ml Fly Night",
         price: "$7,524.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel estimulador femenino miss v L-arginina 50ml.png",
@@ -1448,7 +1448,7 @@ const Products = [
         name: "Gel Estimalador Femenino Miss V L-Arginina 50ml.",
         price: "$1,966.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel lubricante intimo anal sedanal miss v 50ml.webp",
@@ -1456,7 +1456,7 @@ const Products = [
         name: "Gel lubricante Íntimo Anal Sedanal Miss V 50ml",
         price: "$2,670.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/pouch oh yes! crema orgasmica estimulacion.png",
@@ -1464,7 +1464,7 @@ const Products = [
         name: "Pouch Oh Yes! Crema Orgasmica",
         price: "$391.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Pouch Oh Yes! Lubricante Revujenation.png",
@@ -1472,7 +1472,7 @@ const Products = [
         name: "Pouch Oh Yes! Lubricante Revujenation",
         price: "$391.00",
         descripcion: "",
-        categoria: "geles y aceites íntimos"
+        categoria: "Lubricantes"
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------BOLAS KEGEL
@@ -1483,7 +1483,7 @@ const Products = [
         name: "Kegel Ball 4 Pink",
         price: "$12,290.72",
         descripcion: "",
-        categoria: "bolas chinas o kegel"
+        categoria: "KEGEL"
     },
     {
         image: "img/KEGEL/Smart Love Balls Blue.jpg",
@@ -1491,7 +1491,7 @@ const Products = [
         name: "Smart Love Balls Blue",
         price: "$10,773.38",
         descripcion: "",
-        categoria: "bolas chinas o kegel"
+        categoria: "KEGEL"
     },
     {
         image: "img/KEGEL/Kegel Ball Pink.jpg",
@@ -1499,7 +1499,7 @@ const Products = [
         name: "Kegel Ball Pink",
         price: "$12,290.72",
         descripcion: "",
-        categoria: "bolas chinas o kegel"
+        categoria: "KEGEL"
     },
     {
         image: "img/KEGEL/kegel ball 1 fucsia.png",
@@ -1507,7 +1507,7 @@ const Products = [
         name: "Kegel Ball 1 Fucsia",
         price: "$12,290.72",
         descripcion: "",
-        categoria: "bolas chinas o kegel"
+        categoria: "KEGEL"
     },
     {
         image: "img/KEGEL/Playballs AG-119.jpeg",
@@ -1515,7 +1515,7 @@ const Products = [
         name: "Playballs Silver",
         price: "$22,594.84",
         descripcion: "",
-        categoria: "bolas chinas o kegel"
+        categoria: "KEGEL"
     },
     {
         image: "img/KEGEL/kegel ball 2 fucsia.jpeg",
@@ -1523,7 +1523,7 @@ const Products = [
         name: "Kegel Ball 2 Fucsia",
         price: "$11,475.05",
         descripcion: "",
-        categoria: "bolas chinas o kegel"
+        categoria: "KEGEL"
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------JUEGOS
@@ -2861,18 +2861,40 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 
-//CAMBIANDO NOMBRE H2 EN LA CATEGORIA
+// Función para obtener el fragmento de la URL
+function getFragmentFromURL() {
+    return window.location.hash.substring(1); // Obtiene el fragmento excluyendo el #
+}
 
+// Función para filtrar productos en base al fragmento de la URL
+function filtrarProductosPorFragmento() {
+    const fragmento = getFragmentFromURL();
+
+    if (fragmento) {
+        // Filtra los productos según la categoría del fragmento
+        mostrarProductosPorCategoria(fragmento);
+
+        // Cambia el título del H2 con el nombre de la categoría seleccionada
+        const categoryTitle = document.getElementById("category-title");
+        categoryTitle.textContent = fragmento;
+    }
+}
+
+// Llama a la función para filtrar productos cuando se carga la página
+window.addEventListener("load", filtrarProductosPorFragmento);
+
+// Código para manejar los botones de categoría
 document.addEventListener("DOMContentLoaded", () => {
     const categoriaBtns = document.querySelectorAll(".categoria-btn");
-    const categoryTitle = document.getElementById("category-title");
 
     categoriaBtns.forEach(btn => {
         btn.addEventListener("click", () => {
             const categoriaSeleccionada = btn.getAttribute("data-categoria");
+
+            // Filtra los productos y cambia el título al hacer clic en un botón de categoría
             mostrarProductosPorCategoria(categoriaSeleccionada);
 
-            // Actualizar el título del H2 con el nombre de la categoría seleccionada
+            const categoryTitle = document.getElementById("category-title");
             categoryTitle.textContent = categoriaSeleccionada;
         });
     });
@@ -2913,6 +2935,8 @@ function mostrarProductosPorCategoria(categoria) {
         productosContainer.insertAdjacentHTML("beforeend", productoHTML);
     });
 }
+
+
 
 const carritoContainer = document.getElementById('carritoContainer');
 let carritoProductos = [];
@@ -3237,5 +3261,9 @@ document.addEventListener("DOMContentLoaded", function () {
 const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece99', {
     locale: 'es-AR' // The most common are: 'pt-BR', 'es-AR' and 'en-US'
 });
+
+
+
+
 
 
