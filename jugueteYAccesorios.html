@@ -157,7 +157,6 @@
         </section>
         <section class="row justify-content-between">
             <div id="content-container" class="col-md-3 col-sm-12">
-                <!-- Categorias y Filtros - Se mostrará en pantallas medianas y grandes -->
                 <div class="mb-4">
                     <h4 class="mb-4">Todas las categorias</h4>
                     <ul class="list-group">
@@ -178,36 +177,20 @@
                     </ul>
                 </div>
             </div>
-
-            <!-- Botón y lista desplegable - Se mostrará en pantallas pequeñas -->
             <div class="col-md-9 col-sm-12">
-                <ul id="filtro-list" class="list-group">
-                    <a href="jugueteYAccesorios.html">En Promocion</a>
-                    <a class="categoria-btn" data-categoria="anal">Anal</a>
-                    <a class="categoria-btn" data-categoria="anillos">Anillos</a>
-                    <a class="categoria-btn" data-categoria="dildos">Dildos</a>
-                    <a class="categoria-btn" data-categoria="disfraces">Disfraz</a>
-                    <a class="categoria-btn" data-categoria="fetiche">Fetiche</a>
-                    <a class="categoria-btn" data-categoria="juegos">Juegos</a>
-                    <a class="categoria-btn" data-categoria="Kegel">Kegel</a>
-                    <a class="categoria-btn" data-categoria="Lubricantes">Lubricantes</a>
-                    <a class="categoria-btn" data-categoria="PRESERVATIVOS">Preservativos</a>
-                    <a class="categoria-btn" data-categoria="succionadores">Succionadores</a>
-                    <a class="categoria-btn" data-categoria="Velas">Velas</a>
-                    <a class="categoria-btn" data-categoria="vibradores">Vibradores</a>
-                </ul>
-                <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
+                <section class="container">
+                    <div class="row row-cols-md-4 row-cols-sm-2 g-4" id="product-list"></div>
+                </section>
             </div>
-
         </section>
+
+        <div style="display: none;" id="product-lista"></div>
 
         <!-- Categorias y Filtros, Productos  -->
         <section class="row justify-content-between">
 
-            <!-- Los productos -->
-            <div class="col-md-9 col-sm-12 ">
-                <div class="row row-cols-md-3 row-cols-sm-2 g-4" id="product-list"></div>
-            </div>
+
+
             <div class="col-md-9 col-sm-12">
                 <div id="productos-container"> <!-- Aquí se mostrarán los productos filtrados --> </div>
             </div>

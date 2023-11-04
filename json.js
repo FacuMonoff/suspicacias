@@ -2780,6 +2780,7 @@ Products.forEach(producto => {
     producto.price = parseFloat(producto.price.replace(/[^0-9.-]+/g, ""));
 });
 
+//FUNCION PARA MOSTRAR 12 PRODUCTOS AL AZAR
 document.addEventListener("DOMContentLoaded", function () {
     const productListContainer = document.getElementById("product-lista");
     const loadMoreButton = document.getElementById("load-more-button");
@@ -2840,8 +2841,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
-
-
 
 
 //CAMBIANDO IMAGENES EN LA SECCION DE "NUESTROS DESTACADOS"
@@ -2948,7 +2947,6 @@ function mostrarProductosPorCategoria(categoria) {
         productosContainer.insertAdjacentHTML("beforeend", productoHTML);
     });
 }
-
 
 
 const carritoContainer = document.getElementById('carritoContainer');
@@ -3245,29 +3243,50 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Obtén el contenedor de la lista de productos en tu página HTML
     const productListContainer = document.getElementById("product-list");
+    const loadMoreButton = document.getElementById("load-more-button");
+    const productsToShow = 12;
+    let productsDisplayed = 0;
 
-    // Genera el contenido de las tarjetas y lo inserta en el contenedor
-    const productHTML = (productosFiltrados.length > 0 ? productosFiltrados : Products).map(product => `
-         <div class="col">
-        <div class="card h-100">
-            <a href="descripcion.html?index=${Products.indexOf(product)}"> <!-- Agregamos el enlace aquí -->
-                <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
-                    onmouseover="showImage(this, '${product.image2}')" 
-                    onmouseout="showImage(this, '${product.image}')"
-                    alt="...">
-            </a>
-            <div class="card-body">
-                <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
-                <p class="card-text">${formatPrice(product.price)}</p>
-                 <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+    // Función para cargar y mostrar más productos
+    function loadMoreProducts() {
+        const productsToDisplay = productosFiltrados.slice(productsDisplayed, productsDisplayed + productsToShow);
+
+        const productHTML = productsToDisplay.map(product => `
+            <div class="col">
+                <div class="card h-100">
+                    <a href="descripcion.html?index=${Products.indexOf(product)}">
+                        <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
+                            onmouseover="showImage(this, '${product.image2}')"
+                            onmouseout="showImage(this, '${product.image}')"
+                            alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                        <p class="card-text">${formatPrice(product.price)}</p>
+                        <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    `).join("");
+        `).join("");
 
-    // Insertar el contenido en el contenedor en el HTML
-    productListContainer.innerHTML = productHTML;
+        productListContainer.innerHTML += productHTML;
+
+        // Actualiza la cantidad de productos mostrados
+        productsDisplayed += productsToDisplay.length;
+
+        // Oculta el botón de carga si no hay más productos
+        if (productsDisplayed >= productosFiltrados.length) {
+            loadMoreButton.style.display = "none";
+        }
+    }
+
+    // Cargar y mostrar los primeros 12 productos
+    loadMoreProducts();
+
+    // Manejar el evento de clic del botón "Mostrar más"
+    loadMoreButton.addEventListener("click", loadMoreProducts);
 });
+
 
 
 
