@@ -2788,6 +2788,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let productsDisplayed = 0;
     let shuffledProducts = []; // Array para almacenar los productos en orden aleatorio
 
+
     // Función para cargar y mostrar más productos
     function loadMoreProducts() {
         if (shuffledProducts.length === 0) {
@@ -2841,6 +2842,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+
+
 
 
 //CAMBIANDO IMAGENES EN LA SECCION DE "NUESTROS DESTACADOS"
@@ -3040,11 +3043,11 @@ function cargarCarritoDesdeLocalStorage() {
         carritoProductos = JSON.parse(carritoGuardado);
         actualizarCarrito(); // Actualizar el contenido del carrito al cargar los datos desde el almacenamiento local
     }
+    return carritoGuardado; // Devolver el valor de carritoGuardado
 }
 
 // Llamar a la función para cargar los datos del carrito al iniciar la aplicación
 cargarCarritoDesdeLocalStorage();
-
 
 // Evento para detectar cambios en la URL (enrutamiento)
 window.addEventListener('popstate', () => {
@@ -3057,11 +3060,28 @@ window.addEventListener('popstate', () => {
     }
 });
 
-// Evento cuando el contenido de la página se carga por completo
-document.addEventListener('DOMContentLoaded', () => {
-    cargarCarritoDesdeLocalStorage();
-});
 
+
+// Función para obtener el carrito desde el localStorage
+function obtenerCarritoDesdeLocalStorage() {
+    const carritoJSON = localStorage.getItem('carrito');
+    return carritoJSON ? JSON.parse(carritoJSON) : [];
+}
+
+// Función para guardar el carrito en el localStorage
+function guardarCarritoEnLocalStorage(carrito) {
+    const carritoJSON = JSON.stringify(carrito);
+    localStorage.setItem('carrito', carritoJSON);
+}
+
+// Función para inicializar el carrito al cargar la página
+function inicializarCarrito() {
+    carritoProductos = obtenerCarritoDesdeLocalStorage();
+    actualizarCarrito();
+}
+
+// Llama a la función para inicializar el carrito al cargar la página
+inicializarCarrito();
 
 function actualizarCarrito() {
     const carritoContent = document.getElementById('carritoContent');
