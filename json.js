@@ -2785,14 +2785,19 @@ document.addEventListener("DOMContentLoaded", function () {
     const loadMoreButton = document.getElementById("load-more-button");
     let productsToShow = 12;
     let productsDisplayed = 0;
+    let shuffledProducts = []; // Array para almacenar los productos en orden aleatorio
 
-    // Verificar si estamos en la página index.html
-    if (typeof isIndexPage !== 'undefined' && isIndexPage) {
-        // Función para cargar y mostrar más productos
-        function loadMoreProducts() {
-            const productsToDisplay = Products.slice(productsDisplayed, productsDisplayed + productsToShow);
+    // Función para cargar y mostrar más productos
+    function loadMoreProducts() {
+        if (shuffledProducts.length === 0) {
+            // Si no hay productos en orden aleatorio, mezcla los productos originales y guárdalos en shuffledProducts
+            shuffledProducts = Products.slice(); // Copia los productos originales
+            shuffleArray(shuffledProducts); // Mezcla los productos en orden aleatorio
+        }
 
-            const productHTML = productsToDisplay.map((product) => `
+        const productsToDisplay = shuffledProducts.slice(productsDisplayed, productsDisplayed + productsToShow);
+
+        const productHTML = productsToDisplay.map((product) => `
                 <div class="col">
                     <div class="card h-100">
                         <a href="descripcion.html?index=${Products.indexOf(product)}">
@@ -2810,24 +2815,32 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
             `).join("");
 
-            productListContainer.innerHTML += productHTML;
+        productListContainer.innerHTML += productHTML;
 
-            // Actualiza la cantidad de productos mostrados
-            productsDisplayed += productsToDisplay.length;
+        // Actualiza la cantidad de productos mostrados
+        productsDisplayed += productsToDisplay.length;
 
-            // Oculta el botón de carga si no hay más productos
-            if (productsDisplayed >= Products.length) {
-                loadMoreButton.style.display = "none";
-            }
+        // Oculta el botón de carga si no hay más productos
+        if (productsDisplayed >= shuffledProducts.length) {
+            loadMoreButton.style.display = "none";
         }
+    }
 
-        // Cargar y mostrar los primeros 12 productos en su orden original
-        loadMoreProducts();
+    // Cargar y mostrar los primeros 12 productos en su orden original
+    loadMoreProducts();
 
-        // Manejar el evento de clic del botón "Cargar más"
-        loadMoreButton.addEventListener("click", loadMoreProducts);
+    // Manejar el evento de clic del botón "Cargar más"
+    loadMoreButton.addEventListener("click", loadMoreProducts);
+
+    // Función para mezclar un array en orden aleatorio (Fisher-Yates shuffle)
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
     }
 });
+
 
 
 
