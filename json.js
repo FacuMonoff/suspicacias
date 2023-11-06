@@ -86,7 +86,7 @@ const Products = [
     {
         image: "img/anillos/anillo-doble-hot-finger-rojo-real-skin-caiman.jpg",
         image2: "img/anillos/ANILLO DOBLE HOT FINGER ROJO 2.webp",
-        name: "Anillo Doble Hot Finger Rojo Real Skin Caimán",
+        name: "Anillo Doble Hot Finger Rojo",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
@@ -94,7 +94,7 @@ const Products = [
     {
         image: "img/anillos/anillo torito peneano vibrador el matador.jpg",
         image2: "img/anillos/anillo torito 2.webp",
-        name: "Anillo Torito Peneano Vibra Caimán",
+        name: "Anillo Torito Peneano",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
@@ -110,7 +110,7 @@ const Products = [
     {
         image: "img/anillos/Adjustable Ring 37mm.jpg",
         image2: "img/anillos/RING AJUSTABLE 2.webp",
-        name: "Ring Ajustable 37mm",
+        name: "Ring Ajustable",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
@@ -126,7 +126,7 @@ const Products = [
     {
         image: "img/anillos/miss v anillos.jpg",
         image2: "img/anillos/miss v anillos.jpg",
-        name: "Anillo Love Ring Miss V",
+        name: "Anillo Love Ring",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
@@ -134,7 +134,7 @@ const Products = [
     {
         image: "img/anillos/anillo doble peneano conejo violeta.jpeg",
         image2: "img/anillos/anillo-doble-peneano-vibrador-conejito-violeta-usb 2.jpg",
-        name: "Anillo Doble Peneano Vibr Conejito Violeta ",
+        name: "Anillo Doble Conejito",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
@@ -150,7 +150,7 @@ const Products = [
     {
         image: "img/anillos/dual cock ring 3 blue.png",
         image2: "img/anillos/DUAL COCK RING 3 BLUE 2.jpg",
-        name: "Dual Cock Ring 3 Blue ST",
+        name: "Dual Cock Ring 3 Blue",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
@@ -174,7 +174,7 @@ const Products = [
     {
         image: "img/anillos/anillo-peneano-retardante-commander-calexotics 2.jpg",
         image2: "img/anillos/anillo-peneano-retardante-commander-calexotics.jpg",
-        name: "anillo peneano retardante calexotics",
+        name: "anillo peneano retardante",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
@@ -193,7 +193,7 @@ const Products = [
     {
         image: "img/vibradores/Ciber 1.jpg",
         image2: "img/vibradores/ciber 1.2.jpeg",
-        name: "Vibrador Ciber 1 19cm",
+        name: "Vibrador Ciber 1",
         price: "$7,842.00",
         descripcion: "",
         categoria: "vibradores"
@@ -281,7 +281,7 @@ const Products = [
     {
         image: "img/vibradores/doreen gold bala vibradora inalambrica.jpg",
         image2: "img/vibradores/PRETTY LOVE royal pleasure 2.jpg",
-        name: "Doreen Gold Bala Vibradora Inalámbrica Pretty Love",
+        name: "Bala Vibradora Inalámbrica",
         price: "$51,608.00",
         descripcion: "",
         categoria: "vibradores"
@@ -297,7 +297,7 @@ const Products = [
     {
         image: "img/vibradores/doble plus remote partner vibrador satisfyer.jpeg",
         image2: "img/vibradores/Satisfyer Double Plus vibrador 2.webp",
-        name: "Double Plus Remote Partner Vibrador Satisfyer",
+        name: "Double Plus Remote Partner",
         price: "$62,076.00",
         descripcion: "",
         categoria: "vibradores"
@@ -417,7 +417,7 @@ const Products = [
     {
         image: "img/luxe rabbit 1.1.png",
         image2: "img/luxe rabbit 1.1.png",
-        name: "Vibrador Doble Estimulador Luxe Rabbit",
+        name: "Luxe Rabbit",
         price: "$60,732.00",
         descripcion: "",
         categoria: "vibradores"
@@ -489,7 +489,7 @@ const Products = [
     {
         image: "img/vibradores/anahi 2.jpeg",
         image2: "img/vibradores/anahi 2.2.webp",
-        name: "Anahi 2 ST",
+        name: "Anahi 2 ",
         price: "$70,096.78",
         descripcion: "",
         categoria: "vibradores"
@@ -497,7 +497,7 @@ const Products = [
     {
         image: "img/vibradores/gems 2 purple.jpeg",
         image2: "img/vibradores/gems 2 purple.jpeg",
-        name: "Gems 2 Purple ST",
+        name: "Gems 2 Purple",
         price: "$11,188.00",
         descripcion: "",
         categoria: "vibradores"
@@ -505,7 +505,7 @@ const Products = [
     {
         image: "img/vibradores/gems 4 purple.jpeg",
         image2: "img/vibradores/gems 4 purple.jpeg",
-        name: "Gems 4 Purple ST",
+        name: "Gems 4 Purple ",
         price: "$10,988.00",
         descripcion: "",
         categoria: "vibradores"
@@ -513,7 +513,7 @@ const Products = [
     {
         image: "img/vibradores/gems 5.jpeg",
         image2: "img/vibradores/gems 5.jpeg",
-        name: "Gems 5 Purple ST",
+        name: "Gems 5 Purple ",
         price: "$10,988.00",
         descripcion: "",
         categoria: "vibradores"
@@ -521,7 +521,7 @@ const Products = [
     {
         image: "img/succionadores/luxury strap on 3.jpeg",
         image2: "img/succionadores/luxury strap on 3.jpeg",
-        name: "Luxury Strap On 3 ST",
+        name: "Luxury Strap On 3 ",
         price: "$57,422.86",
         descripcion: "",
         categoria: "vibradores"
@@ -529,7 +529,7 @@ const Products = [
     {
         image: "img/vibradores/nini 2 blue.jpeg",
         image2: "img/vibradores/nini 2 blue.jpeg",
-        name: "Nini 2 Blue ST",
+        name: "Nini 2 Blue",
         price: "$8,912.00",
         descripcion: "",
         categoria: "vibradores"
@@ -537,7 +537,7 @@ const Products = [
     {
         image: "img/vibradores/vibro 4 pink.jpeg",
         image2: "img/vibradores/vibro 4.2.jpg",
-        name: "Vibro 4 Pink ST",
+        name: "Vibro 4 Pink",
         price: "$11,492.00",
         descripcion: "",
         categoria: "vibradores"
@@ -577,7 +577,7 @@ const Products = [
     {
         image: "img/vibradores/rabbit 2 vibrador.jpeg",
         image2: "img/vibradores/RABBIT 2 ST vibrador.2.webp",
-        name: "Rabbit 2 ST",
+        name: "Rabbit 2",
         price: "$27,831.96",
         descripcion: "",
         categoria: "vibradores"
@@ -585,7 +585,7 @@ const Products = [
     {
         image: "img/vibradores/prime fantasy bala vibradora bv.webp",
         image2: "img/vibradores/PRIME FANTASY BALA VIBRADORA BV.2.webp",
-        name: "Prime Fantasy Bala Vibradora BV",
+        name: "Prime Bala Vibradora",
         price: "$17,600.00",
         descripcion: "",
         categoria: "vibradores"
@@ -593,7 +593,7 @@ const Products = [
     {
         image: "img/vibradores/prime fantasy lengua vibradora lg.webp",
         image2: "img/vibradores/PRIME FANTASY LENGUA VIBRADORA LG.2.webp",
-        name: "Prime Fantasy Lengua Vibradora LG",
+        name: "Prime Lengua Vibradora",
         price: "$18,854.00",
         descripcion: "",
         categoria: "vibradores"
@@ -601,7 +601,7 @@ const Products = [
     {
         image: "img/vibradores/prime fantasy vibrador masajeador vm.webp",
         image2: "img/vibradores/PRIME FANTASY VIBRADOR MASAJEADOR VM.2.webp",
-        name: "Prime Fantasy Vibrador Masajeador VM",
+        name: "Prime Vibrador Masajeador",
         price: "$36,780.00",
         descripcion: "",
         categoria: "vibradores"
@@ -609,7 +609,7 @@ const Products = [
     {
         image: "img/vibradores/prime fantasy vibrador estimulador ve.webp",
         image2: "img/vibradores/PRIME FANTASY VIBRADOR ESTIMULADOR VE.2.webp",
-        name: "Prime Fantasy Vibrador Estimulador VE",
+        name: "Prime Vibrador Estimulador",
         price: "$32,180.00",
         descripcion: "",
         categoria: "vibradores"
@@ -617,7 +617,7 @@ const Products = [
     {
         image: "img/vibradores/maxx play vibrador rabbit.webp",
         image2: "img/vibradores/MAXX PLAY VIBRADOR RABBIT.2.jpg",
-        name: "Maxx Play Vibrador Rabbit",
+        name: "Vibrador Rabbit",
         price: "$33,508.00",
         descripcion: "",
         categoria: "vibradores"
@@ -633,7 +633,7 @@ const Products = [
     {
         image: "img/vibradores/sofi 2.jpg",
         image2: "img/vibradores/sofi 2.2.jpg",
-        name: "Sofi 2 ST",
+        name: "Sofi 2 ",
         price: "$24,380.00",
         descripcion: "",
         categoria: "vibradores"
@@ -641,7 +641,7 @@ const Products = [
     {
         image: "img/vibradores/sofi 3.jpg",
         image2: "img/vibradores/sofi 3.2.jpg",
-        name: "Sofi 3 ST",
+        name: "Sofi 3",
         price: "$24,380.00",
         descripcion: "",
         categoria: "vibradores"
@@ -705,7 +705,7 @@ const Products = [
     {
         image: "img/vibradores/strap on 2.jpeg",
         image2: "img/vibradores/strap on 2.2.jpg",
-        name: "Strap On 2 Luxur",
+        name: "Strap On 2 Luxury",
         price: "$70,313.38",
         descripcion: "",
         categoria: "vibradores"
@@ -716,7 +716,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz Agente FBI Premium Talle L Sexyrol.jpg",
         image2: "img/disfraz/FBI 2.webp",
-        name: "Disfraz Agente FBI Premium Talle L Sexyrol",
+        name: "Disfraz Agente FBI",
         price: "$17,814.00",
         descripcion: "",
         categoria: "disfraces"
@@ -724,7 +724,7 @@ const Products = [
     {
         image2: "img/disfraz/Disfraz Diablita Sexy Mordisco Fantasía 2.jpeg",
         image: "img/disfraz/Disfraz Diablita Sexy Mordisco Fantasía 3.jpg",
-        name: "Disfraz Diablita Sexy Mordisco Fantasía",
+        name: "Disfraz Diablita",
         price: "$10,202.00",
         descripcion: "",
         categoria: "disfraces"
@@ -732,7 +732,7 @@ const Products = [
     {
         image2: "img/disfraz/disfraz secretaria sexy mordisco fantasia.webp",
         image: "img/disfraz/disfraz secretaria sexy mordisco fantasia 2.jpg",
-        name: "Disfraz Secretaria Sexy Mordisco Fantasía",
+        name: "Disfraz Secretaria Sexy",
         price: "$8,798.00",
         descripcion: "",
         categoria: "disfraces"
@@ -740,7 +740,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz Enfermera Sexy Mordisco Fantasía.jpg",
         image2: "img/disfraz/Disfraz Enfermera Body Sexy Mordisco Fantasía 2.webp",
-        name: "Disfraz Enfermera Body Sexy Mordisco Fantasía",
+        name: "Disfraz Enfermera Body Sexy",
         price: "$7,964.00",
         descripcion: "",
         categoria: "disfraces"
@@ -748,7 +748,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Diablita Sexy - xl - Queen Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Diablita Sexy Queen Line de Pasionel 2.jpg",
-        name: "Disfraz de Diablita Sexy Queen Line de Pasionel",
+        name: "Disfraz de Diablita Sexy",
         price: "$10,166.00",
         descripcion: "",
         categoria: "disfraces"
@@ -756,7 +756,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Caperucita Roja Free Tax Line Pasionel PA-FT04.jpg",
         image2: "img/disfraz/Disfraz de Caperucita Roja Free Tax Line Pasionel PA-FT04.jpg",
-        name: "Disfraz de Caperucita Roja Free Tax Line Pasionel",
+        name: "Disfraz de Caperucita Roja ",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -764,7 +764,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Secretaria Negro Free Tax Line Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Secretaria Negro 2.png",
-        name: "Disfraz de Secretaria Free Tax Line Pasionel",
+        name: "Disfraz de Secretaria",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -772,7 +772,7 @@ const Products = [
     {
         image: "img/disfraz/disfraz de mujer maravilla free tax line pasionel.jpg",
         image2: "img/disfraz/disfraz de mujer maravilla free tax line pasionel 2.jpg",
-        name: "Disfraz de Mujer Maravilla Free tax Line Pasionel",
+        name: "Disfraz de Mujer Maravilla",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -780,7 +780,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de bebota sexy premium Pasionel PA-P045.jpg",
         image2: "img/disfraz/Disfraz de bebota sexy premium Pasionel 2.jpeg",
-        name: "Disfraz de Bebota Sexy Premium Line de Pasionel",
+        name: "Disfraz de Bebota Sexy",
         price: "$11,424.00",
         descripcion: "",
         categoria: "disfraces"
@@ -788,7 +788,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Minnie Mouse Free Tax Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Minnie Mouse Free Tax Line de Pasionel 2",
-        name: "Disfraz de Minnie Mouse Free Tax Line de Pasionel",
+        name: "Disfraz de Minnie Mouse",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -796,7 +796,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz Mucamita Erótica de Malena ML-005.jpg",
         image2: "img/disfraz/Disfraz Mucamita Erótica de Malena 2.jpg",
-        name: "Disfraz Mucamita Erótica de Malena",
+        name: "Disfraz Mucamita Erótica",
         price: "$8,654.00",
         descripcion: "",
         categoria: "disfraces"
@@ -804,7 +804,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Secretaria Sexy Candy Lips CL504.jpg",
         image2: "img/disfraz/Disfraz de Secretaria Sexy Candy Lips 2.jpg",
-        name: "Disfraz de Secretaria Sexy Candy Lips",
+        name: "Disfraz de Secretaria Sexy",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -812,7 +812,7 @@ const Products = [
     {
         image: "img/disfraz/Enfermera Sexy Disfraz Candy Lips.jpg",
         image2: "img/disfraz/Enfermera Sexy Disfraz Candy Lips 2.webp",
-        name: "Enfermera Sexy Disfraz Candy Lips",
+        name: "Enfermera Sexy Disfraz",
         price: "$5,532.00",
         descripcion: "",
         categoria: "disfraces"
@@ -820,7 +820,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Mucamita Candy Lips.jpg",
         image2: "img/disfraz/Disfraz de Mucamita Candy Lips 2.jpg",
-        name: "Disfraz de Mucamita Candy Lips",
+        name: "Disfraz de Mucamita",
         price: "$6,488.00",
         descripcion: "",
         categoria: "disfraces"
@@ -828,7 +828,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz De Colegiala Erótica Queen Line de Pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE COLEGIALA ERÓTICA QUEEN LINE PASIONEL 2.jpg",
-        name: "Disfraz De Colegiala Erótica Queen Line Pasionel",
+        name: "Disfraz De Colegiala Erótica",
         price: "$12,280.00",
         descripcion: "",
         categoria: "disfraces"
@@ -836,7 +836,7 @@ const Products = [
     {
         image: "img/disfraz/disfraz de novia erotica free tax line pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE NOVIA EROTICA FREE TAX LINE DE PASIONEL 2.jpg",
-        name: "Disfraz de Novia Erotica Free Tax Line de Pasionel",
+        name: "Disfraz de Novia Erotica ",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -844,7 +844,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Bebota Free Tax Line de Pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE BEBOTA FREE TAX LINE PASIONEL 2.png",
-        name: "Disfraz De Bebota Free Tax Line Pasionel",
+        name: "Disfraz De Bebota",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -852,7 +852,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Enfermera Free Tax Line de Pasionel.webp",
         image2: "img/disfraz/Disfraz de Enfermera Free Tax Line de Pasionel 2.jfif",
-        name: "Disfraz de Enfermera Free Tax Line de Pasionel",
+        name: "Disfraz de Enfermera",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -860,7 +860,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Monja Sexy Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Monja Sexy Pasionel 2.webp",
-        name: "Disfraz de Monja Sexy Pasionel",
+        name: "Disfraz de Monja Sexy",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -868,7 +868,7 @@ const Products = [
     {
         image: "img/disfraz/Conjunto Selección Argentina Free Tax Pasionel.jpg",
         image2: "img/disfraz/Conjunto Selección Argentina Free Tax Pasionel.jpg",
-        name: "Conjunto Selección Argentina Free Tax Pasionel",
+        name: "Conjunto Selección Argentina",
         price: "$4,214.00",
         descripcion: "",
         categoria: "disfraces"
@@ -876,7 +876,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Conejita Playboy Queen Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Conejita Playboy Queen Line de Pasionel 2.jpg",
-        name: "Disfraz de Conejita Playboy Queen Line de Pasionel",
+        name: "Disfraz de Conejita Playboy",
         price: "$10,166.00",
         descripcion: "",
         categoria: "disfraces"
@@ -884,7 +884,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz De Harley Queen Free tax Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz De Harley Queen Free tax Line de Pasionel 2.webp",
-        name: "Disfraz De Harley Queen Free tax Line de Pasionel",
+        name: "Disfraz De Harley Queen",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -892,7 +892,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Mamá Noel Queen Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Mamá Noel Queen Line de Pasionel.jpg",
-        name: "Disfraz de Mamá Noel Queen Line de Pasionel",
+        name: "Disfraz de Mamá Noel",
         price: "$10,166.00",
         descripcion: "",
         categoria: "disfraces"
@@ -900,7 +900,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz De Ninja Sexy Free tax Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz De Ninja Sexy Free tax Line de Pasionel 2.jpg",
-        name: "Disfraz De Ninja Sexy Free tax Line de Pasionel",
+        name: "Disfraz De Ninja Sexy",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -908,7 +908,7 @@ const Products = [
     {
         image: "img/disfraz/DISFRAZ PORRISTA SELECCIÓN ARGENTINA MALENA.jpg",
         image2: "img/disfraz/DISFRAZ PORRISTA SELECCIÓN ARGENTINA MALENA 2.jpg",
-        name: "Disfraz Porrista Selección Argentina Malena",
+        name: "Disfraz Porrista Selección Argentina ",
         price: "$8,654.00",
         descripcion: "",
         categoria: "disfraces"
@@ -916,7 +916,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Colegiala Sexy Free Tax Line de Pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE COLEGIALA SEXY FREE TAX LINE PASIONEL 2",
-        name: "Disfraz de Colegiala Sexy Free Tax Line Pasionel",
+        name: "Disfraz de Colegiala Sexy",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -924,7 +924,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz de Diablita Sexy Malena.jpg",
         image2: "img/disfraz/Disfraz de Diablita Sexy Malena 2.jpg",
-        name: "Disfraz de Diablita Sexy Malena",
+        name: "Disfraz de Diablita Sexy",
         price: "$9,186.00",
         descripcion: "",
         categoria: "disfraces"
@@ -932,7 +932,7 @@ const Products = [
     {
         image: "img/disfraz/DISFRAZ DE GATITA SEXY DE MALENA",
         image2: "img/disfraz/DISFRAZ DE GATITA SEXY DE MALENA 2.jpg",
-        name: "Disfraz de Gatita Sexy de Malena",
+        name: "Disfraz de Gatita Sexy",
         price: "$8,654.00",
         descripcion: "",
         categoria: "disfraces"
@@ -940,7 +940,7 @@ const Products = [
     {
         image: "img/disfraz/DISFRAZ DE MARINERA SEXY FREE TAX LINE DE PASIONEL.jpg",
         image2: "img/disfraz/DISFRAZ DE MARINERA SEXY FREE TAX LINE DE PASIONEL 2.jpg",
-        name: "Disfraz De Marinera Sexy Free tax Line de Pasionel",
+        name: "Disfraz De Marinera Sexy",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -948,7 +948,7 @@ const Products = [
     {
         image: "img/disfraz/disfraz fantasia presa pasionel.jpg",
         image2: "img/disfraz/disfraz fantasia presa pasionel 2.webp",
-        name: "Disfraz de Presa Erótica Free Tax Line de Pasionel",
+        name: "Disfraz de Presa Erótica",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
@@ -956,7 +956,7 @@ const Products = [
     {
         image: "img/disfraz/DISFRAZ DE VIUDA ALEGRE SEXY DE MALENA",
         image2: "img/disfraz/DISFRAZ DE VIUDA ALEGRE SEXY DE MALENA 2.jpg",
-        name: "Disfraz de Viuda Alegre Sexy de Malena",
+        name: "Disfraz de Viuda Alegre Sexy",
         price: "$12,610.00",
         descripcion: "",
         categoria: "disfraces"
@@ -994,7 +994,7 @@ const Products = [
     {
         image: "img/velas/desire coconut 15gr.webp",
         image2: "img/velas/desire coconut 15gr.webp",
-        name: "Vela Perfumada Coconut Desire 15grs Sexitive",
+        name: "Vela Perfumada Coconut ",
         price: "$1,478.00",
         descripcion: "",
         categoria: "Velas"
@@ -1002,7 +1002,7 @@ const Products = [
     {
         image: "img/velas/vainilla sweet 15gr.jpg",
         image2: "img/velas/vainilla sweet 15gr.jpg",
-        name: "Vela Perfumada Vainilla Sweet 15grs Sexitive",
+        name: "Vela Perfumada Vainilla",
         price: "$1,478.00",
         descripcion: "",
         categoria: "Velas"
@@ -1010,7 +1010,7 @@ const Products = [
     {
         image: "img/velas/mon amour intense 30gr 2.webp",
         image2: "img/velas/mon amour intense 30gr 2.webp",
-        name: "Vela Masajes Mon Amour Intense 30grs Sexitive",
+        name: "Vela Masajes Mon Amour",
         price: "$2,228.00",
         descripcion: "",
         categoria: "Velas"
@@ -1018,7 +1018,7 @@ const Products = [
     {
         image: "img/velas/st massage candle mango y maracuya.webp",
         image2: "img/velas/st massage candle mango y maracuya.webp",
-        name: "Vela Masajes Mango y Maracuyá 30grs Sexitive",
+        name: "Vela Masajes Mango y Maracuya",
         price: "$2,228.00",
         descripcion: "",
         categoria: "Velas"
@@ -1026,7 +1026,7 @@ const Products = [
     {
         image: "img/velas/be aphrodisiac 15gr.jpg",
         image2: "img/velas/be aphrodisiac 15gr.jpg",
-        name: "Vela Masajes Afrodisíaca BE Sexitive 15grs",
+        name: "Vela Masajes Afrodisíaca BE",
         price: "$1,478.00",
         descripcion: "",
         categoria: "Velas"
@@ -1034,7 +1034,7 @@ const Products = [
     {
         image: "img/velas/body souffle sexitive 15gr.jpg",
         image2: "img/velas/body souffle sexitive 15gr.jpg",
-        name: "Vela Perfumada Body Soufflé Frutilla 15g Sexitive",
+        name: "Vela Perfumada Body Soufflé Frutilla",
         price: "$1,478.00",
         descripcion: "",
         categoria: "Velas"
@@ -1042,7 +1042,7 @@ const Products = [
     {
         image: "img/velas/body souffle sexitive 30gr.jpg",
         image2: "img/velas/body souffle sexitive 30gr.jpg",
-        name: "Vela de Masajes Body Souffle Strawberries 30gr",
+        name: "Vela de Masajes Body Souffle",
         price: "$2,675.00",
         descripcion: "",
         categoria: "Velas"
@@ -1050,7 +1050,7 @@ const Products = [
     {
         image: "img/velas/desire coconut scented candle 30gr.jpg",
         image2: "img/velas/desire coconut scented candle 30gr.jpg",
-        name: "Vela de Masajes Candle Desire Coconut 30grs",
+        name: "Vela de Masajes Candle Desire Coconut",
         price: "$2,228.00",
         descripcion: "",
         categoria: "Velas"
@@ -1066,7 +1066,7 @@ const Products = [
     {
         image: "img/velas/Vela Perfumada Vainilla Sweet 30grs Sexitive.jpg",
         image2: "img/velas/Vela Perfumada Vainilla Sweet 30grs Sexitive.jpg",
-        name: "Vela Perfumada Vainilla Sweet 30grs Sexitive",
+        name: "Vela Perfumada Vainilla Sweet",
         price: "$2,228.00",
         descripcion: "",
         categoria: "Velas"
@@ -1074,7 +1074,7 @@ const Products = [
     {
         image: "img/velas/st massage candle mango y maracuya.webp",
         image2: "img/velas/st massage candle mango y maracuya.webp",
-        name: "Vela de Masajes Mango y Maracuyá 60cc",
+        name: "Vela de Masajes Mango y Maracuyá",
         price: "$5,968.47",
         descripcion: "",
         categoria: "Velas"
@@ -1082,7 +1082,7 @@ const Products = [
     {
         image: "img/velas/st massage candle frutos del bosque.jpg",
         image2: "img/velas/st massage candle frutos del bosque.jpg",
-        name: "Vela de Masajes Frutos del Bosque 60cc",
+        name: "Vela de Masajes Frutos del Bosque",
         price: "$5,968.47",
         descripcion: "",
         categoria: "Velas"
@@ -1093,7 +1093,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel íntimo Warming 120cc.jpg",
         image2: "img/lubricantes/Gel íntimo Warming 120cc.jpg",
-        name: "Gel íntino WARMING 120cc ST",
+        name: "Gel íntino WARMING ",
         price: "$5,209.80",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1101,7 +1101,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel Maracuyá 120cc.jpg",
         image2: "img/lubricantes/Gel Maracuyá 120cc.jpg",
-        name: "Gel íntimo MARACUYÁ 120cc ST",
+        name: "Gel íntimo MARACUYÁ",
         price: "$5,209.80",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1109,7 +1109,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel íntimo Extra time 120cc.jpg",
         image2: "img/lubricantes/Gel íntimo Extra time 120cc.jpg",
-        name: "Gel íntimo EXTRA TIME 120cc ST",
+        name: "Gel íntimo EXTRA TIME",
         price: "$5,209.80",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1117,7 +1117,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel MEN 120cc.jpg",
         image2: "img/lubricantes/Gel MEN 120cc.jpg",
-        name: "Gel íntimo MEN 120cc ST",
+        name: "Gel íntimo MEN",
         price: "$5,209.80",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1125,7 +1125,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel íntimo BUTT 120cc.jpg",
         image2: "img/lubricantes/Gel íntimo BUTT 120cc.jpg",
-        name: "Gel íntimo BUTT 120cc ST",
+        name: "Gel íntimo BUTT",
         price: "$5,209.80",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1133,7 +1133,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel íntimo Frutilla 60cc ST.jpg",
         image2: "img/lubricantes/Gel íntimo Frutilla 60cc ST.jpg",
-        name: "Gel íntimo Frutilla 60cc ST",
+        name: "Gel íntimo Frutilla",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1141,7 +1141,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel frutilla 120cc.jpg",
         image2: "img/lubricantes/Gel frutilla 120cc.jpg",
-        name: "Gel íntmo ON FRUTILLA 120cc ST",
+        name: "Gel íntmo ON FRUTILLA",
         price: "$5,209.80",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1149,7 +1149,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel íntimo MEN 60cc.jpg",
         image2: "img/lubricantes/Gel íntimo MEN 60cc.jpg",
-        name: "Gel íntmo MEN 60cc",
+        name: "Gel íntmo MEN",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1157,7 +1157,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel Maracuyá 60cc.jpg",
         image2: "img/lubricantes/Gel Maracuyá 60cc.jpg",
-        name: "Gel íntimo MARACUYÁ 60cc ST",
+        name: "Gel íntimo MARACUYÁ",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1165,7 +1165,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel íntimo ICE 60cc.jpg",
         image2: "img/lubricantes/Gel íntimo ICE 60cc.jpg",
-        name: "Gel íntimo ICE 60cc ST",
+        name: "Gel íntimo ICE",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1173,7 +1173,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel Neutro 60cc.jpg",
         image2: "img/lubricantes/Gel Neutro 60cc.jpg",
-        name: "Gel íntimo NEUTRO 60cc ST",
+        name: "Gel íntimo NEUTRO",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1181,7 +1181,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel íntimo Woman 60cc.jpg",
         image2: "img/lubricantes/Gel íntimo Woman 60cc.jpg",
-        name: "Gel íntimo WOMAN 60cc ST",
+        name: "Gel íntimo WOMAN",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1189,7 +1189,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel Chocolate 60cc.jpg",
         image2: "img/lubricantes/Gel Chocolate 60cc.jpg",
-        name: "Gel íntimo CHOCOLATE 60cc ST",
+        name: "Gel íntimo CHOCOLATE",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1197,7 +1197,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel íntimo Extra time 60cc.jpg",
         image2: "img/lubricantes/Gel íntimo Extra time 60cc.jpg",
-        name: "Gel íntimo EXTRA TIME 60cc ST",
+        name: "Gel íntimo EXTRA TIME",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
@@ -1205,7 +1205,7 @@ const Products = [
     {
         image: "img/lubricantes/Gel íntimo Warming 60cc.jpg",
         image2: "img/lubricantes/Gel íntimo Warming 60cc.jpg",
-        name: "Gel íntimo WARMING 60cc ST",
+        name: "Gel íntimo WARMING",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
@@ -2780,42 +2780,40 @@ Products.forEach(producto => {
     producto.price = parseFloat(producto.price.replace(/[^0-9.-]+/g, ""));
 });
 
-//FUNCION PARA MOSTRAR 12 PRODUCTOS AL AZAR
+
 document.addEventListener("DOMContentLoaded", function () {
     const productListContainer = document.getElementById("product-lista");
-    const loadMoreButton = document.getElementById("load-more-button");
+    const loadMoreButton = document.getElementById("cargarMasBoton"); // Cambio de ID
     let productsToShow = 12;
     let productsDisplayed = 0;
     let shuffledProducts = []; // Array para almacenar los productos en orden aleatorio
 
-
-    // Función para cargar y mostrar más productos
+    // Función para cargar y mostrar más productos (similar a la primera función)
     function loadMoreProducts() {
         if (shuffledProducts.length === 0) {
             // Si no hay productos en orden aleatorio, mezcla los productos originales y guárdalos en shuffledProducts
             shuffledProducts = Products.slice(); // Copia los productos originales
             shuffleArray(shuffledProducts); // Mezcla los productos en orden aleatorio
         }
-
         const productsToDisplay = shuffledProducts.slice(productsDisplayed, productsDisplayed + productsToShow);
 
         const productHTML = productsToDisplay.map((product) => `
-                <div class="col">
-                    <div class="card h-100">
-                        <a href="descripcion.html?index=${Products.indexOf(product)}">
-                            <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
-                                onmouseover="showImage(this, '${product.image2}')"
-                                onmouseout="showImage(this, '${product.image}')"
-                                alt="...">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
-                            <p class="card-text">${formatPrice(product.price)}</p>
-                            <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
-                        </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="descripcion.html?index=${Products.indexOf(product)}">
+                        <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;"
+                            onmouseover="showImage(this, '${product.image2}')"
+                            onmouseout="showImage(this, '${product.image}')"
+                            alt="...">
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                        <p class="card-text">${formatPrice(product.price)}</p>
+                        <button class="btn btn-primary mt-auto" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
                     </div>
                 </div>
-            `).join("");
+            </div>
+        `).join("");
 
         productListContainer.innerHTML += productHTML;
 
@@ -2831,7 +2829,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Cargar y mostrar los primeros 12 productos en su orden original
     loadMoreProducts();
 
-    // Manejar el evento de clic del botón "Cargar más"
+    // Manejar el evento de clic del nuevo botón "Cargar más"
     loadMoreButton.addEventListener("click", loadMoreProducts);
 
     // Función para mezclar un array en orden aleatorio (Fisher-Yates shuffle)
@@ -2842,6 +2840,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
+
 
 
 
