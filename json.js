@@ -2968,6 +2968,9 @@ function agregarAlCarrito(producto) {
                 if (!isNaN(parseFloat(producto.price))) {
                     producto.price = parseFloat(producto.price).toString(); // Convertir el precio a cadena
                     carritoProductos.push({ ...producto, cantidad: 1 });
+
+                    // Guardar el carrito en el almacenamiento local tan pronto como se agrega un producto
+                    localStorage.setItem('carrito', JSON.stringify(carritoProductos));
                 } else {
                     console.error("El precio del producto no es un número válido:", producto.price);
                     return; // Salir de la función si el precio no es válido
@@ -3001,6 +3004,7 @@ function agregarAlCarrito(producto) {
         console.error("El objeto producto no es válido o está ausente.");
     }
 }
+
 function formatPrice(price) {
     return '$' + price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
 }
