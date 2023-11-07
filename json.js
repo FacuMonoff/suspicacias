@@ -69,9 +69,9 @@ const Products = [
     {
         image: "img/anillos/Ring 6 Blue.jpeg",
         image2: "img/anillos/Ring 6 Clear.jpeg",
-        name: "Ring 6 ST",
+        name: "Ring 6 ST Blue",
         price: "$1",
-        descripcion: "",
+        descripcion: " Para innovar y experimentar cosas nuevas, este anillo generará una fabulosa sensación tanto para el que lo lleva colocado como para su pareja. Su potente sujeción en pene y testículos ayudan a retardar la eyaculación y a mantener la erección y en este caso encontrará una generosa lengua para estimula el clítoris En este caso además de sujetar el pene también abraza los testículos Gracias a su fuerte sujeción conseguirás mantener una erección mas fuerte y firme, evitando asi la dsifunción y prolongar el período de la relación sexual  Unidad vibradora extraíble para jugar independiente del anillo ---- 1 Nivel de vibración ----  Usa 3 LR44 ---- ",
         categoria: "anillos",
     },
     {
@@ -79,7 +79,7 @@ const Products = [
         image2: "img/anillos/kevin.2.webp",
         name: "Kevin ST",
         price: "$1",
-        descripcion: "",
+        descripcion: " El anillo Kevin de ST es un accesorio diseñado para mejorar la experiencia sexual masculina y femenina. Además, el diseño del anillo incluye lengüitas que rotan, lo que permite estimular el clítoris durante la penetración, brindando una experiencia única y placentera. El anillo Kevin cuenta con un motor interno muy potente que ofrece vibraciones intensas.Con tres modos de vibración lineal y siete ritmos diferentes, podrás ajustar la intensidad según tus preferencias y explorar diversas sensaciones. Fabricado con silicona 100% pura y ABS, el anillo Kevin es seguro para el cuerpo y cómodo de usar.Es recargable, lo que significa que no tendrás que preocuparte por comprar pilas constantemente.Además, viene con un cable de carga para facilitar su recarga.",
         categoria: "anillos",
 
     },
@@ -88,9 +88,9 @@ const Products = [
         image2: "img/anillos/ANILLO DOBLE HOT FINGER ROJO 2.webp",
         name: "Anillo Doble Hot Finger Rojo",
         price: "$1",
-        descripcion: "",
+        descripcion: " Disfruta con tu pareja el profundo placer de la doble penetración con el hot finger. Este anillo está creado para realizar una doble penetración además te ayudará a mejorar la erección y funcionará como retardante de la eyaculación.Este anillo es sumamente firme y estable para que no se doble o se mueva durante el acto sexual.El dildo de menor tamaño será el mejor estimulador para tus juegos con penetración anal.Para utilizarlo solamente debes introducir tu pene en el dildo y empezar a disfrutar del placer más absoluto.La flexibilidad de su material hace que sea apto para todas las tallas.Tiene la punta redondeada para facilitar la entrada y hacerla lo más placentera posible. ----   Material: Jelly ---- Medidas dildo: Largo: 13 cm.x Ancho 2 cm(Diametro del anillo sin estirar: 4 cm)",
         categoria: "anillos",
-    },
+    },/*
     {
         image: "img/anillos/anillo torito peneano vibrador el matador.jpg",
         image2: "img/anillos/anillo torito 2.webp",
@@ -98,15 +98,15 @@ const Products = [
         price: "$1",
         descripcion: "",
         categoria: "anillos",
-    },
+    },*/
     {
         image: "img/anillos/Ring 6 Black.jpg",
         image2: "img/anillos/ring 6 black.2.jpg",
         name: "Ring 6 Black ST",
         price: "$1",
-        descripcion: "",
+        descripcion: "Anillo peneano, mantiene la erección  y retarda la eyaculación. Colocalo en la base del pene logra darle firmeza evitando la disfunción y a su vez estimulando clítoris con el roce por medio de la penetración.Balita extraíble.y un hermoso diseño con orejitas, que  rozan perfectamente con el clítoris de una manera muy diferente y estimulante. ----  Silicona 100 % pura + ABS. ----  100 % Libre de Fthalatos. ----  Libre de látex. ----  3 modos de vibración lineal. ----  7 ritmos diferentes de vibración ----  Adaptable a todos los tamaños de Pene ----  Recargable.Incluye cable de carga ----  Tiempo de carga: aprox. 50m ----  Tiempo de uso: 50 m. ----  Tecla de fácil manejo ----  Medidas: 7.8 cm x 6 cm x 1.8 cm. ----  Impermeable.No sumergible.",
         categoria: "anillos",
-    },
+    },/*
     {
         image: "img/anillos/Adjustable Ring 37mm.jpg",
         image2: "img/anillos/RING AJUSTABLE 2.webp",
@@ -114,15 +114,15 @@ const Products = [
         price: "$1",
         descripcion: "",
         categoria: "anillos",
-    },
+    },*/
     {
         image: "img/anillos/Cristal Ring.jpg",
         image2: "img/anillos/cristal ring 2.jpg",
         name: "Cristal Ring ST",
         price: "$1",
-        descripcion: "",
+        descripcion: "CRISTAL mantiene la erección; retarda la eyaculación y a su vez estimula clítoris a partir del roce del mismo por medio de la penetración. Gracias a su elasticidad conseguirás mantener una erección más firme y fuerte. Cristal es ideal para jugar en pareja y que ambos puedan disfrutar plenamente. Los anillos permiten mantener el pene erecto evitando la disfunción y prolongando el periodo de las relaciones sexuales. La unidad vibradora es extraíble para poder darle otros usos en el cuerpo. ---- 3Pilas LR41. NO INCLUIDA",
         categoria: "anillos",
-    },
+    },/*
     {
         image: "img/anillos/miss v anillos.jpg",
         image2: "img/anillos/miss v anillos.jpg",
@@ -130,13 +130,13 @@ const Products = [
         price: "$1",
         descripcion: "",
         categoria: "anillos",
-    },
+    },*/
     {
         image: "img/anillos/anillo doble peneano conejo violeta.jpeg",
         image2: "img/anillos/anillo-doble-peneano-vibrador-conejito-violeta-usb 2.jpg",
         name: "Anillo Doble Conejito",
         price: "$1",
-        descripcion: "",
+        descripcion: "Anillo peneano con forma de conejito, posee doble anillo para que pueda ajustarse al pene y los testículos, lo que aumenta el flujo sanguíneo y logra erecciones más potentes al tiempo que retarda la eyaculación. Su potente balita logra vibración en el pene y la cabeza y orejas del conejo estimulan de manera directa",
         categoria: "anillos",
     },
     {
@@ -144,7 +144,7 @@ const Products = [
         image2: "img/anillos/ring 8.jpeg",
         name: "Ring 8 ",
         price: "$1",
-        descripcion: "",
+        descripcion: "Anillo de silicona, con vibracion, la funcion de los anillos es generar presion en la base del pene producida la ereccion, para mantener la sangre, generar mas sensacion, ereccion firme y control de la eyaculacion totalmente adaptable, estimulacion para disfrutar en pareja ---- facil higiene, a pilas, boton de encendido y apagado",
         categoria: "anillos",
     },
     {
@@ -152,7 +152,7 @@ const Products = [
         image2: "img/anillos/DUAL COCK RING 3 BLUE 2.jpg",
         name: "Dual Cock Ring 3 Blue",
         price: "$1",
-        descripcion: "",
+        descripcion: " Este anillo para pene y testículos mantiene la erección del pene y retarda la eyaculación. Colocado en la base del pene logra darle firmeza, evitando la disfunción y a su vez estimulando clítoris con el roce por medio de la penetración y los 10 modos de vibración diferentes.Su diseño con dos orejitas hará que roce perfectamentecon el clítoris de una manera muy diferente y estimulante.Motor extraíble para juego independiente del anillo Silicona ---- 100% pura Hipo alergénico ---- 3 Modos de vibración lineal ---- 7 Ritmos diferentes de vibración ---- Adaptable a todos los tamaños de pene ---- Recargable USB ---- Tiempo de Carga: Aprox. 50 Min ---- Tiempo de Uso: Aprox. 50 Min ---- Medidas: 7.5 x 7.5 x 6.5 cm ---- Impermeable.No sumergible",
         categoria: "anillos",
     },
     {
@@ -160,7 +160,7 @@ const Products = [
         image2: "img/anillos/kit de 3 anillos beaded cockring black.jpg",
         name: "Kit de 3 Anillos Beaded Cockrings",
         price: "$1",
-        descripcion: "",
+        descripcion: " Anillos súper elásticos adaptables para colocarse en el pene, ayudando a mantener una erección por más tiempo y retardando la eyaculación. Su exclusivo diseño permite generar distintas sensaciones para quien recibe la estimulación.  Anillos descartables. Se aconseja que su tiempo de uso no exceda los 20/30 minutos . Se recomienda usar con lubricantes de base agua al momento de colocarlos y retirarlos. Colocar por encima del preservativo.",
         categoria: "anillos",
     },
     {
@@ -168,7 +168,7 @@ const Products = [
         image2: "img/anillos/aro vibrador maxx 2.png",
         name: "Maxx Play Aro Vibrado",
         price: "$1",
-        descripcion: "",
+        descripcion: "El aro vibrador Maxx Play es un producto premium de silicona, muy suave y agradable al tacto. Apto para uso personal y en pareja, para vivir un momento único. El producto contiene un botón para controlar el encendido/apagado y los distintos modos de vibración. ---- Tiempo de carga: 2 hrs ---- Tiempo de uso: 1-2 hrs  ---- Nivel de sonido bajo en el uso.  ---- 5 modos de vibración. ---- Carga mediante USB.",
         categoria: "anillos",
     },
     {
@@ -176,7 +176,7 @@ const Products = [
         image2: "img/anillos/anillo-peneano-retardante-commander-calexotics.jpg",
         name: "anillo peneano retardante",
         price: "$1",
-        descripcion: "",
+        descripcion: "Un anillo para el pene que se adapta perfectamente debido al material flexible del cual esta fabricado. Aporta la firmeza de un pene erecto durante mucho más tiempo. Además de asegurar una firme erección retrasa el momento de la eyaculación para prolongar los momentos de placer",
         categoria: "anillos",
     },
     //--------------------------------------------------------------------------------------------
@@ -718,7 +718,7 @@ const Products = [
         image2: "img/disfraz/FBI 2.webp",
         name: "Disfraz Agente FBI",
         price: "$17,814.00",
-        descripcion: "",
+        descripcion: "marca malena",
         categoria: "disfraces"
     },
     {
