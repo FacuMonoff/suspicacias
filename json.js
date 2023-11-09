@@ -187,7 +187,7 @@ const Products = [
         image2: "img/vibradores/hi rubber 2.jpeg",
         name: "hi rubber",
         price: "$1",
-        descripcion: "",
+        descripcion: "Fantástico vibrador multi función para pasar tus noches a solas o en compañía de la forma mas placentera posible.",
         categoria: "vibradores",
     },
     {
@@ -195,7 +195,7 @@ const Products = [
         image2: "img/vibradores/ciber 1.2.jpeg",
         name: "Vibrador Ciber 1",
         price: "$7,842.00",
-        descripcion: "",
+        descripcion: "Fantástico vibrador multi función para pasar tus noches a solas o en compañía de la forma mas placentera posible.",
         categoria: "vibradores"
     },
     {
@@ -203,7 +203,7 @@ const Products = [
         image2: "img/vibradores/ROCKET BLUE MINI BLUE 2.webp",
         name: "Rocket Blue Mini Blue",
         price: "$3,338.00",
-        descripcion: "",
+        descripcion: "Aunque su objetivo principal es el estímulo del clítoris, estos vibradores pueden enfocarse en otras zonas del cuerpo para potenciar el deseo sexual. Si bien son ideales para utilizar individualmente, se transforman en un condimento extra al utilizarlos en pareja.",
         categoria: "vibradores"
     },
     {
@@ -211,23 +211,7 @@ const Products = [
         image2: "img/vibradores/strap on blue 2.png",
         name: "Strap On Blue",
         price: "$43,416.00",
-        descripcion: "",
-        categoria: "vibradores"
-    },
-    {
-        image: "img/vibradores/martina ST.jpeg",
-        image2: "img/vibradores/martina.2.jpg",
-        name: "Martina",
-        price: "$51,405.92",
-        descripcion: "",
-        categoria: "vibradores"
-    },
-    {
-        image: "img/vibradores/strap on 2.jpeg",
-        image2: "img/vibradores/strap on 2.2.jpg",
-        name: "Strap On 2",
-        price: "$20,806.00",
-        descripcion: "",
+        descripcion: "Strap on vibrador increíblemente potente y silencioso, hecho de silicona médica de alta calidad, totalmente segura y agradable al tacto. Consta de dos lados insertables: Uno corto y ancho para quien tome el control activo, y otro largo que permite penetrar a tu amante. Además posee una superficie texturada para mayor estimulación en el clítoris y una estimulación directa al punto G. Su cubierta suave y lisa facilita la penetración y el goce sin complicaciones. Para una mejor sensación de placer siempre es recomendable usar lubricantes de agua, así el roce es mas intenso. -----  Color: Celeste  -----  Recargable USB. -----  10 funciones.-----  Fácil de operar y limpiar. -----  El tiempo de duración de la bateria es de aproximadamente 1 hora.",
         categoria: "vibradores"
     },
     {
@@ -235,7 +219,7 @@ const Products = [
         image2: "img/vibradores/Quadruple sweet purple.jpeg",
         name: "Quadruple Sweet",
         price: "$17,948.00",
-        descripcion: "",
+        descripcion: "Divertite con este mini vibrador intercambiando sus 4 cabezales que producirán distintas sensaciones. La textura es super suave para garantizar una agradable sensación al tocar tu cuerpo y llevarte poco a poco a una explosión de placer.",
         categoria: "vibradores"
     },
     {
@@ -243,7 +227,7 @@ const Products = [
         image2: "img/vibradores/naty 5.jpeg",
         name: "Naty 5",
         price: "$40,129.22",
-        descripcion: "",
+        descripcion: "Este vibrador de silicona líquida suave y sedosa. Contiene potente motor que funciona como vibrador. Su diseño realístico, con glande perfecto, más su interesante vibración, lo hace muy singular y placentero. El tener comando a distancia, lo hace aún más cómodo de manipular. ----- Vibrador con ventosa.  ----- Textura: venosa y suave. ----- Libre de látex. ----- 100% Libre de Fthalatos. ----- Recargable. ----- Contiene el Cable USB. ----- Control remoto. ----- Rango de distancia hasta 10 m. ----- Material: Silicona. ----- Tacto realístico. ----- Impermeable No sumergible. ----- 7 ritmos de vibración. ----- Color Violeta ----- 4 Modos de vibracion -----  Medidas: longitud 18.4 cm, diametro 4 cm. ----- Utilizar lubricante a base de agua.  Higienizar con agua tibia y jabón antibacteriano para Toys o neutro.",
         categoria: "vibradores"
     },
     {
@@ -251,7 +235,7 @@ const Products = [
         image2: "img/vibradores/Vibrating 1.2.webp",
         name: "Vibrating 1",
         price: "$60,365.26",
-        descripcion: "",
+        descripcion: "Este vibrador de silicona líquida suave y sedosa (Liquid Silicone Ultra Realistic Touch). Contiene potente motor que funciona como vibrador. Su diseño realístico, con glande perfecto, más su interesante vibración, lo hace muy singular y placentero. El tener comando a distancia, lo hace aún más cómodo de manipular. Recargable USB. Medidas: longitud total: 21 cm. Diámetro: 6 cm en su base. Medidas: longitud insertable: 19 cm. Diámetro: 4.2 cm.",
         categoria: "vibradores"
     },
     {
@@ -259,7 +243,7 @@ const Products = [
         image2: "img/vibradores/bullet 9 2.png",
         name: "Bullet 9",
         price: "$9,256.04",
-        descripcion: "",
+        descripcion: "Deléitese con los placeres simples de un clásico, versatil, simple y poderosa, estos bullet, son el juguete sexual esencial para todos. Una pulsación del botón activa una vibración intensa, mientras que la punta suave permite identificar fácilmente el placer. El tamaño discreto es perfecto para viajar y divertirse mientras viaja. Pruébelo en el spa o en la ducha y convierta la hora del baño en un momento de felicidad. Para un rendimiento óptimo, retire las pilas durante el almacenamiento. Alto: 9,3cm Díametro: 1,8cm Usa 1 AAA (no incluída)",
         categoria: "vibradores"
     },
     {
@@ -267,7 +251,7 @@ const Products = [
         image2: "img/vibradores/finger due black 2.jpeg",
         name: "Finger Due ST",
         price: "$11,304.00",
-        descripcion: "",
+        descripcion: "Este magnifico deddal con vibración ayuda perfectamente a estimular punto G, introduciendo dos dedos en la vagina trasladando la vibración hacia su interior y quedando la bala de manera más enérgetica apoyada en clítoris. De esta manera, lo que generalmente hacemos manualmente, se acompaña con una suave y aterciopelada silicona y vibración. ",
         categoria: "vibradores"
     },
     {
@@ -275,7 +259,7 @@ const Products = [
         image2: "img/vibradores/bullet 8 2.webp",
         name: "Bullet 8",
         price: "$7,823.76",
-        descripcion: "",
+        descripcion: "Bala vibradora recubierta de silicona.para estimular la zona erógenas que desees. Material: ABS + Silicona Tiempo de uso: 50 minutos Impermeable Tamaño: 60 m. largo 18 mm Diámetro Higenizar con agua y jabón antibacteriano o neutro.",
         categoria: "vibradores"
     },
     {
@@ -283,7 +267,7 @@ const Products = [
         image2: "img/vibradores/PRETTY LOVE royal pleasure 2.jpg",
         name: "Bala Vibradora Inalámbrica",
         price: "$51,608.00",
-        descripcion: "",
+        descripcion: "con esta bola de kegel con control remoto de silicona suave. Con un control remoto inalámbrico, la bola es perfecta para emociones en solitario y juegos en pareja. Dále el control remtoo a tu pareja y deja que elija cuál de las 12 funciones de vibración vas a disfrutar esa noche. Disfruta de velocidades constantes y diferentes patrones mientras llegas a un poderoso orgasmo.",
         categoria: "vibradores"
     },
     {
@@ -291,15 +275,15 @@ const Products = [
         image2: "img/vibradores/mini vibrador lapiz labial rojo.jpg",
         name: "Mini Vibrador Lápiz labial",
         price: "$7,614.00",
-        descripcion: "",
+        descripcion: "Vibrador discreto, tipo labial. Ideal para estimular tu clitoris a cualquier hora, en cualquier lugar. Su tamaño compacto, real al de un labial común, te permite llevarlo a todas partes y pasar desapercibido. Sólo necesitas una pila AAA(no incluida) para activar su funcionamiento ¡Y listo! A disfrutar de tu sexualidad con placer, discreción y responsabilidad.",
         categoria: "vibradores"
     },
     {
-        image: "img/vibradores/doble plus remote partner vibrador satisfyer.jpeg",
+        image: "img/vibradores/doble plus remote partner vibrador satisfyer 1.jpg",
         image2: "img/vibradores/Satisfyer Double Plus vibrador 2.webp",
         name: "Double Plus Remote Partner",
         price: "$62,076.00",
-        descripcion: "",
+        descripcion: "Dos potentes motores transmiten intensos ritmos de vibración a través de todo el juguete. El Satisfyer Double Plus Remote es, por supuesto, impermeable y será tu acompañante perfecto tanto en una romántica bañera de hidromasaje como bajo las cómodas sábanas de tu casa. Las vibraciones debajo del agua de este compañero de diversión son percibidas por muchas parejas como particularmente intensas. Se puede controlar de forma inalámbrica con el mando a distancia incluido, lo que hace que sus experiencias sensuales sean más creativas y excitantes.",
         categoria: "vibradores"
     },
     {
@@ -307,9 +291,9 @@ const Products = [
         image2: "img/vibradores/bullet silver pink.jpeg",
         name: "Bullet 5 Silver",
         price: "$21,394.76",
-        descripcion: "",
+        descripcion: "Deja volar tu imaginación con esta juguetona e intensa bala de diseño elegante y ergonómico. Haz pequeñas travesuras con sus 10 velocidades y una potencia vibradora inigualable.  Su pequeño tamaño la hace adecuado incluso para llevarla disimuladamente entre la ropa interior. Con esta bala vibradora podrás olvidarte de comprar pilas ya que tiene batería recargable y un elegante cargador magnético incluido. ----- 10 Modos de vibración ----- Material: ABS+ Silicona ----- Batería: Litio recargable -----  Cargador: Jack / USB(incluido) -----  Tiempo de uso: 50 minutos -----  Impermeable -----  Tamaño: - 61 mm.Largo - 18 mm.Diámetro",
         categoria: "vibradores"
-    },
+    },/*
     {
         image: "img/vibradores/nini 1.jpeg",
         image2: "img/vibradores/nini 1 2.jpg",
@@ -333,13 +317,13 @@ const Products = [
         price: "$15,610.00",
         descripcion: "",
         categoria: "vibradores"
-    },
+    },*/
     {
         image: "img/vibradores/finger 3.jpg",
         image2: "img/vibradores/FINGER 3 vibrador.2.jpg",
         name: "Finger 3 Fucsia USB",
         price: "$21,396.00",
-        descripcion: "",
+        descripcion: "Estimulador clitoriano 10 velocidades ----- Silicona + ABS ----- USB recargable -----  Medida: 10 cm ----- Higienizar con agua tibia y jabón antibacteriano para Toys o neutro. Modo de carga.El proceso de recarga funciona a través de un cargador USB, que utiliza la tecnología carga rápida en menos de 2 horas.Mientras la luz titila, significa que la recarga se está realizando, una vez que deja de titilar, desenchufar.Pegado al botón del power hay 1 punto donde debe insertarse el conector para su respectiva carga.",
         categoria: "vibradores"
     },
     {
@@ -347,7 +331,7 @@ const Products = [
         image2: "img/vibradores/FINGER 4 vibrador mariposa 2.png",
         name: "Finger 4",
         price: "$10,000.00",
-        descripcion: "",
+        descripcion: "Dedal recargable. Ideal para poder estimular la vulva sujeto al dedo para una mejor manipulación. De vibración silenciosa. ----- Material: silicona 100% pura + ABS ----- 10 funciones de vibración -----  Longitud: 11cm -----  Ancho de la mariposa: 9cm -----  Recargable.Incluye cable USB. ----- Impermeable.No sumergible. -----  Libre de ftalatos.",
         categoria: "vibradores"
     },
     {
@@ -355,7 +339,7 @@ const Products = [
         image2: "img/vibradores/lula vibrador 2.jpeg",
         name: "Lula",
         price: "$56,139.94",
-        descripcion: "",
+        descripcion: "Explora con este fino y elegante estimulador de clítoris de diseño tridimensional tus zonas erógenas favoritas. Sus puntas en forma de lengüitas y su vibración intensa en todo el largo del juguete, hará que puedas estimularte de la forma que más te guste llegando al clímax rápidamente. Con él podrás jugar en cualquier zona sensible de tu cuerpo o el de tu pareja. -----  Silicona 100 % pura + ABS. -----  100 % Libre de Fthalatos. -----  Hipo alergénico. -----  Libre de látex.-----  1 motor. -----  10 ritmos diferentes de vibración. -----  Medidas: 19 cm * 5 cm. 5 cm. -----  Peso del Kit: 213 gr. -----  Tiempo de carga: aprox. 1.30 hs. -----  Tiempo de uso aprox. 1 hs. -----  Recargable.Incluye cable de carga. -----  Impermeable.No sumergible.",
         categoria: "vibradores"
     },
     {
@@ -363,9 +347,9 @@ const Products = [
         image2: "img/vibradores/maseajador majo.png",
         name: "Majo",
         price: "$37,184.00",
-        descripcion: "",
+        descripcion: "Vibrador estimulador de clitoris. Su diseño es ideal para usar debajo de la ropa interior.  -----  Material: silicona -----  10 funciones de vibración -----  Longitud: 9, 5cm -----  Diámetro: 4, 5cm -----  Recargable.Incluye cable USB ----- Impermeable.No sumergible. ----- Libre de ftalatos.",
         categoria: "vibradores"
-    },
+    },/*
     {
         image: "img/vibradores/bullet remote black.jpeg",
         image2: "img/vibradores/BULLET REMOTE BLACK 2.png",
@@ -373,13 +357,13 @@ const Products = [
         price: "$27,464.12",
         descripcion: "",
         categoria: "vibradores"
-    },
+    },*/
     {
         image: "img/vibradores/vicky 2.jpeg",
         image2: "img/vibradores/vicky 2.2.png",
         name: "Vicky 2 Red",
         price: "$29,631.26",
-        descripcion: "",
+        descripcion: "¿Buscas un juguete para descubrirte y conocerte mejor? Este vibrador de doble estimulación te llevará a otro universo con su hermoso diseño e intensidad. Su material de silicona pura y suave te garantizará un óptimo placer.  Su estimulador Clitorial rabbit hará que puedas sensiblemente llegar a una gran excitación. Su vaginal curvo corto, hará que puedas disfrutar del apoyo perfecto en Punto G. Es sencillamente tu acompañante perfecto en cualquier lugar, con una forma elegante, totalmente silencioso y discreto.",
         categoria: "vibradores"
     },
     {
@@ -387,7 +371,7 @@ const Products = [
         image2: "img/vicky 1.2.png",
         name: "Vicky 1",
         price: "$20,708.00",
-        descripcion: "",
+        descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control.",
         categoria: "vibradores"
     },
     {
@@ -395,9 +379,9 @@ const Products = [
         image2: "img/vibradores/miky 1.2.jpg",
         name: "Miky 1",
         price: "$23,068.22",
-        descripcion: "",
+        descripcion: "Su aguda punta y vibración intensa en todo el largo del juguete, hará que puedas estimularte de la forma que más te guste en cualquier zona erógena. Apto para penetración superficial, con irregularidades en su textura para una mayor estimulación. ----- Silicona 100% pura + ABS. 100% Libre de Fthalatos.    ----- Hipoalergénico.Libre de látex. Silencioso y discreto. -----  7 ritmos de vibración. -----Tecla de fácil manejo. ----- Recargable. ----- Incluye cable de carga. ----- Capacidad de batería: aprox. 1.5 hs.Tiempo de carga: aprox. 1.5 hs. ----- Impermeable.No sumergible. ----- Longitud total: 16.6cm ----- Diámetro: mayor 4cm, de base 2.8cm",
         categoria: "vibradores"
-    },
+    },/*
     {
         image: "img/vibradores/fiorella 1.jpg",
         image2: "img/vibradores/fiorella 1.2.jpeg",
@@ -405,13 +389,13 @@ const Products = [
         price: "$22,550.34",
         descripcion: "",
         categoria: "vibradores"
-    },
+    },*/
     {
         image: "img/vibradores/male 2.jpg",
         image2: "img/male 2.1.png",
         name: "Male 2",
         price: "$54,983.18",
-        descripcion: "",
+        descripcion: "¿Buscas un juguete diferente? Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G. ----- Totalmente silencioso y discreto. ----- 10 ritmos diferentes de vibración. -----  3 motores.-----            Medidas: 22 cm x 3.8 cm x 9 cm",
         categoria: "vibradores"
     },
     {
@@ -419,7 +403,7 @@ const Products = [
         image2: "img/luxe rabbit 1.1.png",
         name: "Luxe Rabbit",
         price: "$60,732.00",
-        descripcion: "",
+        descripcion: "Es un juguete erótico que te permite controlar todos los detalles de tus prácticas masturbatorias: intensidad, patrón de movimiento, vibrador interno y externo, dirección del giro…   Imagínate hasta 36 combinaciones diferentes o, mejor aún, lánzate a probarlas.Este vibrador con conejito debería formar parte de la colección de juguetes sexuales de todas las mujeres.",
         categoria: "vibradores"
     },
     {
@@ -427,7 +411,7 @@ const Products = [
         image2: "img/vibradores/mini wand 2.webp",
         name: "Mini Wand",
         price: "$8,086.00",
-        descripcion: "",
+        descripcion: "Poderoso mini vibrador Portatil ----- Medidas: 6, 5cm x 1, 5 cm ----- Ideal para llevarlo con vos a cualquier lado! Funciona, con 2 pilas de reloj(incluidas) Diseñado para estimulacion clitoriana o anal. Este pequeño y potente vibrador que podras llevar facilmente a cualquier parte te permitira vivir facilmente sensaciones unicas de placer",
         categoria: "vibradores"
     },
     {
@@ -435,7 +419,7 @@ const Products = [
         image2: "img/vibradores/finger 5.2.jpeg",
         name: "Finger 5",
         price: "$21,396.00",
-        descripcion: "",
+        descripcion: "ideal estimulador de clítoris con forma y textura suave para una placentera sensación, con diez velocidades, además con su práctico aro para introducir un dedo para mayor comodidad al manipular los movimientos que te harán alcanzar otros niveles de satisfacción. Con uso de pilas, Se recomiendo el uso de lubricantes a base de agua con este producto",
         categoria: "vibradores"
     },
     {
@@ -443,7 +427,7 @@ const Products = [
         image2: "img/vibradores/vibro clasic 3 gold.webp",
         name: "Vibro Clasic 3",
         price: "$10,748.00",
-        descripcion: "",
+        descripcion: "VIBRACIÓN DE ULTRA VELOCIDAD ----- VIBRO CLÁSICO QUE NO TE PUEDE FALTAR EN TU COLECCIÓN DE JUGUETES ----- PRUÉBALO EN EL SPA O EN LA DUCHA Y CONVIERTA LA HORA DELBAÑO EN UN MOMENTO DE FELICIDAD ----- PARA UN RENDIMIENTO ÓPTIMO, RETIRE LAS BATERÍAS DURANTE EL ALMACENAMIENTO ",
         categoria: "vibradores"
     },
     {
@@ -451,9 +435,9 @@ const Products = [
         image2: "img/vibradores/bullet 6 black.jpeg",
         name: "Bullet 6",
         price: "$10,773.38",
-        descripcion: "",
+        descripcion: "Bala vibradora para estimular las zonas erógenas de tu cuerpo que más desees. Características • 10 funciones de vibración. • Material: ABS+ Silicona. • Batería: 1AAA (no incluida). • Tiempo de uso: 50 minutos. • Medidas: 8.7 x 1.8 cm. • Libre de Phalatos. • Impermeable. • Silencioso, máximo 55db. • Tamaño: 94mm largo. 18 mm. • Utilizar lubricante a base de agua. • Higienizar con agua tibia y jabón neutro.",
         categoria: "vibradores"
-    },
+    },/*
     {
         image: "img/vibradores/fiorella 2.webp",
         image2: "img/vibradores/fiorella 2.2.jpeg",
@@ -461,13 +445,13 @@ const Products = [
         price: "$22,550.34",
         descripcion: "",
         categoria: "vibradores"
-    },
+    },*/
     {
         image: "img/vibradores/miky 2.jpeg",
         image2: "img/vibradores/miky 2.jpeg",
         name: "Miky 2",
         price: "$24,379.86",
-        descripcion: "",
+        descripcion: "Material: silicona 100% pura + ABS ----- 7 funciones de vibración ----- Longitud total: 15cm ----- Diametro: 2, 5cm ----- Recargable.Incluye cable USB. ----- Impermeable.No sumergible. ----- Libre de ftalatos.",
         categoria: "vibradores"
     },
     {
@@ -475,9 +459,9 @@ const Products = [
         image2: "img/vibradores/miky 3 .2.jpg",
         name: "Miky 3",
         price: "$25,691.50",
-        descripcion: "",
+        descripcion: "Material: silicona 100% pura + ABS ----- 7 funciones de vibración ----- Longitud total: 16cm ----- Longitud insertable: 12cm ----- Diametro: 3cm ----- Recargable.Incluye cable USB. ----- Impermeable.No sumergible. ----- Libre de ftalatos.",
         categoria: "vibradores"
-    },
+    },/*
     {
         image: "img/vibradores/miky 4.jpeg",
         image2: "img/vibradores/miky 4 .2.jpg",
@@ -493,29 +477,29 @@ const Products = [
         price: "$70,096.78",
         descripcion: "",
         categoria: "vibradores"
-    },
+    },*/
     {
         image: "img/vibradores/gems 2 purple.jpeg",
         image2: "img/vibradores/gems 2 purple.jpeg",
         name: "Gems 2 Purple",
         price: "$11,188.00",
-        descripcion: "",
+        descripcion: "Vibrador flexible ----- De ABS + TPE ----- Usa 2 pilas AA(no incluidas) ----- Medidas: largo 22, 5cm ----- maximo diametro: 5cm ",
         categoria: "vibradores"
-    },
+    },/*
     {
         image: "img/vibradores/gems 4 purple.jpeg",
         image2: "img/vibradores/gems 4 purple.jpeg",
-        name: "Gems 4 Purple ",
+        name: "Gems 4 Purple",
         price: "$10,988.00",
-        descripcion: "",
+        descripcion: "Vibrador flexible ----- De ABS + TPE ----- Usa 2 pilas AA(no incluidas) -----  Medidas: largo 20 cm ----- maximo diametro: 4cm ",
         categoria: "vibradores"
-    },
+    },*/
     {
         image: "img/vibradores/gems 5.jpeg",
         image2: "img/vibradores/gems 5.jpeg",
         name: "Gems 5 Purple ",
         price: "$10,988.00",
-        descripcion: "",
+        descripcion: "Vibrador flexible ----- De ABS + TPE ----- Usa 2 pilas AA(no incluidas) ----- Medidas: largo 20 cm ----- maximo diametro: 4, 8cm",
         categoria: "vibradores"
     },
     {
@@ -523,7 +507,7 @@ const Products = [
         image2: "img/succionadores/luxury strap on 3.jpeg",
         name: "Luxury Strap On 3 ",
         price: "$57,422.86",
-        descripcion: "",
+        descripcion: "Strap on Strapless. Ideal para pegging. Su diseño permite Cada extremo de este juguete posee su motor. Su extremo más corto se introduce en el canal vaginal haciendo fuerza con los músculos pubocoxigeos y el otro extremo en tu pareja. Ideal para una musculatura firme, y en el caso de resultar muy pesado puede colocarse cualquier arnés desmontable. Por su diseño es ideal para estimular punto G, clítoris o próstata. Además, este en particular producto trae un control remoto a distancia para poder manejarlo con mayor comodidad.",
         categoria: "vibradores"
     },
     {
@@ -531,7 +515,7 @@ const Products = [
         image2: "img/vibradores/nini 2 blue.jpeg",
         name: "Nini 2 Blue",
         price: "$8,912.00",
-        descripcion: "",
+        descripcion: "VIBRADOR FLEXIBLE -----  DE ABS + TPE -----  MEDIDAS: LARGO: 18 CM ----- ANCHO: 3, 8 CM ----- LUBRICANTE A BASE DE AGUA -----  NO SUMERGIBLE ----- HIGIENE AGUA Y JABÓN NEUTRO",
         categoria: "vibradores"
     },
     {
@@ -539,9 +523,9 @@ const Products = [
         image2: "img/vibradores/vibro 4.2.jpg",
         name: "Vibro 4 Pink",
         price: "$11,492.00",
-        descripcion: "",
+        descripcion: "El estimulador vibrador de alta calidad de tonos atrevidos y elegantes, repelentes al agua y seguros para el cuerpo. ----- Son excelentes juguetes discretos con patrones de vibración.  ----- Medidas: 13.7 cm Introducible: 11.5 cm x 3 cm.  ----- Utiliza una pila AAA(no incluída).",
         categoria: "vibradores"
-    },
+    },/*
     {
         image: "img/vibradores/punto g blue.webp",
         image2: "img/vibradores/punto g blue.2.jpg",
@@ -549,13 +533,13 @@ const Products = [
         price: "$8,799.90",
         descripcion: "",
         categoria: "vibradores"
-    },
+    },*/
     {
         image: "img/vibradores/bullet 1 pink.jpg",
         image2: "img/vibradores/bullet 1.2.webp",
         name: "Bullet 1",
         price: "$27,542.29",
-        descripcion: "",
+        descripcion: "Bala vibradora de silicona extrasuave ----- Tiene 7 programas de vibración. ----- Tiempo de uso 50 minutos. ----- Disponible en color fucsia. ----- Impermeable. ----- Bateria con cargador USB. ----- Mide 9, 8cm de largo total y 2, 1cm de diámetro.",
         categoria: "vibradores"
     },
     {
@@ -563,7 +547,7 @@ const Products = [
         image2: "img/vibradores/bullet 7 .2.jpeg",
         name: "Bullet 7",
         price: "$12,290.72",
-        descripcion: "",
+        descripcion: "Bala vibradora para estimular las zonas erógenas de tu cuerpo que más desees. Características • 10 funciones de vibración. • Material: ABS+ Silicona. • Batería: 1AAA (no incluida). • Tiempo de uso: 50 minutos. • Medidas: 8.7 x 1.8 cm. • Libre de Phalatos. • Impermeable. • Silencioso, máximo 55db. • Tamaño: 94mm largo. 18 mm. • Utilizar lubricante a base de agua. • Higienizar con agua tibia y jabón neutro.",
         categoria: "vibradores"
     },
     {
@@ -571,7 +555,7 @@ const Products = [
         image2: "img/vibradores/naty 7 .2.jpg",
         name: "Naty 7",
         price: "$45,378.20",
-        descripcion: "",
+        descripcion: " Vibrador recargable en silicona suave y sedosa de gran calidad. Caracteristicas: Material: silicona pura suave y sedosa. Contiene 4 velocidades. 7 modos de vibración. Recargable mediante cable USB Medidas 19 cm Introducible: 15 cm x 4 medidas aproximadas. Cómo utilizar mantenga presionado el botón de encendido 2 segundos para encender o apagar. Presione cada vez para controlar la vibración 7 modos de vibracion. Cómo cargar Incluye un cable USB para cargar. La señal de luz LED parpadea durante el período de carga. Luz constante una vez cargada por completo. Estás listo para hasta 1,5 horas de vibración increíble. Es recomendable el uso de lubricantes al agua con este producto. Guardarlo completamente limpio y seco en contenedores de tela preferentemente.",
         categoria: "vibradores"
     },
     {
@@ -579,7 +563,7 @@ const Products = [
         image2: "img/vibradores/RABBIT 2 ST vibrador.2.webp",
         name: "Rabbit 2",
         price: "$27,831.96",
-        descripcion: "",
+        descripcion: "Vibrador rotador. Posee varios modos de rotación y vibración muy potentes, esto te dará sin duda una estimulación inolvidable, al mismo tiempo cuando se introduce dentro tuyo, te hará sentir aún más profundamente sus vibraciones, masajeando tu interior. • TPE + ABS. • 2 Motores. • 36 modos de vibración. • 8 modos de rotación independientes. • 2 botones de encendido independiente.  • Batería de Litio. • Medidas: 23 cm * 3.5 cm.  • Peso: 163 gr. • Recargable.Incluye cable de carga. • Capacidad de batería: aprox. 1 hs.  • Tiempo de carga: 2 hs.  • Impermeable.No sumergible.",
         categoria: "vibradores"
     },
     {
@@ -587,7 +571,7 @@ const Products = [
         image2: "img/vibradores/PRIME FANTASY BALA VIBRADORA BV.2.webp",
         name: "Prime Bala Vibradora",
         price: "$17,600.00",
-        descripcion: "",
+        descripcion: "Explorá tus zonas erógenas favoritas con esta elegante bala vibradora. De tacto suave y tamaño discreto, es ideal para utilizarla cuando quieras, la podés llevar puesta y activarla a tu gusto. Con sus 10 modos de vibración podés encontrar el placer que buscas y lograr tus fantasías.",
         categoria: "vibradores"
     },
     {
@@ -595,7 +579,7 @@ const Products = [
         image2: "img/vibradores/PRIME FANTASY LENGUA VIBRADORA LG.2.webp",
         name: "Prime Lengua Vibradora",
         price: "$18,854.00",
-        descripcion: "",
+        descripcion: "Vibrá alto con la lengua vibradora y estimuladoradel punto G. Además de estimular el clítoris, podés utilizarla en todas tus zonas erógenas. De diseño minimalista y de tacto muy suave, es elcomplemento ideal para lograr el mayor placer de tuencuentro sexual.",
         categoria: "vibradores"
     },
     {
@@ -603,7 +587,7 @@ const Products = [
         image2: "img/vibradores/PRIME FANTASY VIBRADOR MASAJEADOR VM.2.webp",
         name: "Prime Vibrador Masajeador",
         price: "$36,780.00",
-        descripcion: "",
+        descripcion: "Es un objeto de placer con estilo único. Su pricipalfunción es la vibración, donde cuenta con 7velocidades diferentes, pero ademas otorgaestimulacion ya que la parte superior, o su cabeza, sirve para realizar masajesestimuladores en las zonas más íntimas.",
         categoria: "vibradores"
     },
     {
@@ -611,7 +595,7 @@ const Products = [
         image2: "img/vibradores/PRIME FANTASY VIBRADOR ESTIMULADOR VE.2.webp",
         name: "Prime Vibrador Estimulador",
         price: "$32,180.00",
-        descripcion: "",
+        descripcion: "Experimentá una doble sensación con el vibrador y estimulador. Te permite disfrutar de 10 modos de vibración junto a una estimulación única que otorgan las tachas que tiene el juguete. Incluye: 1 VIBRADOR ESTIMULADOR, 3 PRESERVATIVOS SUPER FINOS DE LÁTEX DE CAUCHO NATURAL, 1 POUCH DE GEL ÍNTIMO 4.5gr",
         categoria: "vibradores"
     },
     {
@@ -619,7 +603,7 @@ const Products = [
         image2: "img/vibradores/MAXX PLAY VIBRADOR RABBIT.2.jpg",
         name: "Vibrador Rabbit",
         price: "$33,508.00",
-        descripcion: "",
+        descripcion: "Es un vibrador y a la vez un estimulador del clitoris. Con un diseño muy suave al tacto, un producto con 10 velocidades de vibracion para el máximo placer. Tambien con USB recargable para volver a la carga cuantas veces quieras. Especificaciones ----- 10 modos de vibracion/ velocidades ----- Material Silicona premium - de tacto muy suave ----- Altura de parte para penetracion: 12cm ----- RECARGA DE PRODCUTO POR USB(categoria eco friendly - no desechable) ----- Duracion de batería / uso 1 hora ----- Cabeza de vibrador con texturas para mayor placer ----- Alto total: 22cm",
         categoria: "vibradores"
     },
     {
@@ -627,7 +611,7 @@ const Products = [
         image2: "img/vibradores/katy 1.2.jpg",
         name: "Katy 1",
         price: "$16,935.94",
-        descripcion: "",
+        descripcion: "Este vibrador de doble estimulación con glande en su extremo, te llevará a otro universo por su hermoso diseño e intensidad. Su material de silicona aterciopelada te garantizará un óptimo placer.  Su estimulador Clitorial uniforme hará que puedas sensiblemente llegar a una gran excitación. Ideal mujeres sensibles que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.Totalmente silencioso y discreto.             Características • 3 modos de vibración lineal.  • 7 ritmos diferentes. • 2 motores. • Diámetro: 3.3cm.Longitud total: 18, 5 cm. • 2 pilas AAA • Teclas de fácil manejo. • Impermeable.No sumergible.",
         categoria: "vibradores"
     },
     {
@@ -635,7 +619,7 @@ const Products = [
         image2: "img/vibradores/sofi 2.2.jpg",
         name: "Sofi 2 ",
         price: "$24,380.00",
-        descripcion: "",
+        descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior y uno levemente menor en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona superior texturada y su estimulador de clítoris con un diseño de conejo con una sola oreja. ----- 10 ritmos diferentes de vibración. ----- Dos motores. ----- Longitud total: 18cm. ----- Tiempo de carga: aprox. 70 m. ----- Tiempo de uso aprox. 2hs.",
         categoria: "vibradores"
     },
     {
@@ -643,7 +627,7 @@ const Products = [
         image2: "img/vibradores/sofi 3.2.jpg",
         name: "Sofi 3",
         price: "$24,380.00",
-        descripcion: "",
+        descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior  y uno levemente menor  en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona de vaginal y clítoris de manera muy efectiva. Apenas con una zona superior texturada y su estimulador de clítoris con un diseño de conejo con una solo oreja. Diseño Ergonómico vaginal + clítoris. • 10 ritmos diferentes de vibración. • Dos motores. • Longitud total: 18 cm.Estimulador: 3.3 cm. • Peso: 131 gr. • Tiempo de carga: aprox. 70 m. • Tiempo de uso aprox. 2 hs. • Recargable.Incluye cable de carga.",
         categoria: "vibradores"
     },
     {
@@ -651,7 +635,7 @@ const Products = [
         image2: "img/vibradores/laura.2.jpeg",
         name: "Laura",
         price: "$26,520.00",
-        descripcion: "",
+        descripcion: "POTENTE MASAJEADOR CLITORIAL: El masaje le ofrecerá una fuerte vibración que concentrará la energía en todo el juguete y en cualquier parte del cuerpo, en su zona genital, en su cuello, espalda, hombros, pies y piernas o donde necesite estimularse.  Tu experiencia de masaje clitorial puede ser más suave o más intenso de acuerdo a tu sensibilidad; sin dudas significará una experiencia muy excitante cualquiera que elijas. ----- 10 PATRONES: Relájate con un juguete súper silencioso que cuenta 10 modos de vibración diferentes.  ----- Portatíl y recargable  ----- Controlador de 3 botones la batería tan solo necesita 2 horas para estar completamente cargada.Importante no cargar más de 3 horas ",
         categoria: "vibradores"
     },
     {
@@ -659,7 +643,7 @@ const Products = [
         image2: "img/vibradores/tongue.2.webp",
         name: "Tongue",
         price: "$30,713.00",
-        descripcion: "",
+        descripcion: "Vibrador de lengua realista, estimula las partes sensibles de tu cuerpo. 10 modos de vibración, para satisfacer sus necesidades. Fabricado con materiales de silicona de, agradables para la piel y suaves. Diseño resistente al agua, fácil de limpiar y usar. Carga magnética USB por la base de carga.",
         categoria: "vibradores"
     },
     {
@@ -667,7 +651,7 @@ const Products = [
         image2: "img/vibradores/martina.2.jpg",
         name: "Martina",
         price: "$46,897.96",
-        descripcion: "",
+        descripcion: "Este juguete es un masajeador recargable muy intenso. Lo práctico de su diseño es que cuenta con sus botones para alternar sus modos de vibración en la parte superior y está diseñado ergonómicamente para tener un agarre perfecto y poder masajear cualquier zona erógena del cuerpo con mayor facilidad. Experimenta un diseño diferente de masajeador con el que podrás recorrer todas las curvas de tu cuerpo y el de tu pareja. -----  10 ritmos diferentes de vibración. • Recargable.Incluye cable de carga. • Tecla de fácil manejo. • Medidas: 9.4 cm * 5.6 cm * 9.5 cm. • Peso: 143 gr. • Tiempo de carga: aprox. 4 hs.• Tiempo de uso: aprox. 1.5 hs.",
         categoria: "vibradores"
     },
     {
@@ -675,7 +659,7 @@ const Products = [
         image2: "img/vibradores/majo 3.2.png",
         name: "Majo 3",
         price: "$38,187.88",
-        descripcion: "",
+        descripcion: "Este estimulador de clitoris está diseñado para que puedas llevarlo colocado a donde quieras que vayas como si fuera un protector diario, con la diferencia que su intensa vibración te hará trepar las nubes, rapidamente. Cuenta también con un control rmeoto inalámbrico para que puedas manejarlos vos o quien quieras. Perfectamente cubierto con una suave y sedosa superficie de silicona. El diseño está adaptado para que puedas utilizar en la parte del cuerpo que quieras, incluso en el de tu pareja. ----- 1 motor -----  7 ritmos diferentes de vibración -----  Longitud total: 11cm x 4, 3 cm x 4, 1 cm ----- Peso: 95 gr ----- Tiempo de carga: aprox. 2 hs. -----  Tiempo de uso aprox: 1 hs. ----- Recargable.Incluye cable de carga. ----- Impermeable.No sumergible.",
         categoria: "vibradores"
     },
     {
@@ -683,7 +667,7 @@ const Products = [
         image2: "img/vibradores/majo 2.2.jpg",
         name: "Majo 2",
         price: "$38,187.88",
-        descripcion: "",
+        descripcion: "ST nos trae este simpático diseño para estimular clítoris de diferentes maneras y con diferentes texturas y formas para aprovechar un mismo juguete con opciones de estimulación diferente para lograr un mayor placer. Para una mejor manipulación posee control remoto inalambrico. Colocalo en tu tanga preferida y sali a disfrutar de la vida  • 1 motor Control remoto inalambrico 10 modos de vibración • Longitud total: 10, 7 cm.Diámetro: 4, 5 cm. • Peso: 50 gr. • Tiempo de carga: aprox. 70 m. • Tiempo de uso aprox. 2 hs. • Recargable.Incluye cable de carga. •  Impermeable.No sumergible.",
         categoria: "vibradores"
     },
     {
@@ -691,7 +675,7 @@ const Products = [
         image2: "img/vibradores/paula.2.jfif",
         name: "Paula",
         price: "$34,753.90",
-        descripcion: "",
+        descripcion: "Cuenta con 7 funciones de vibración y una interfaz súper sencilla. Si juntamos todo eso a su increíble apariencia este juguete se convertirá en tu favorito en muy poco tiempo. Produce una excitante sensación por medio de la penetración y la estimulación del clítoris y Punto G al mismo tiempo! Este diseño, se caracteriza por estimular con vibración en la penetración con la medida justa, sin ser pequeño, ni grande, tanto en su longitud como diámetro, y también estimular el clítoris también con vibración. Silicona de material seguro, sedoso y suave, muy agradable al tacto y fácil de limpiar. A prueba de agua, lo cual permite su utilización en ambientes húmedos, como el baño.",
         categoria: "vibradores"
     },
     {
@@ -699,7 +683,7 @@ const Products = [
         image2: "img/vibradores/Diamond 3.2.webp",
         name: "Diamont 3",
         price: "$51,771.34",
-        descripcion: "",
+        descripcion: "Este doble estimulador de clítoris y punto G recargable, tiene un diseño sofisticado, a puro glamour y elegantemente brillante e intenso. Su ergonómica forma te dará la posibilidad de estimularte de manera completa y además podrás utilizarlo desde su control remoto inalámbrico. • Estimulador de clítoris y Punto G, con control remoto. ----- • 8 ritmos diferentes de vibración.Botones + y – para regular la intensidad de vibración. • Diseño: piedra cristal. • Longitud total: 13.6 cm.Longitud insertable: 7.7 cm. • Peso: 150 gr. • Tiempo de carga: aprox. 3.5 hs. • Tiempo de uso aprox. 50 m. • Recargable.Incluye cable de carga. • Impermeable.No sumergible.",
         categoria: "vibradores"
     },
     {
@@ -707,42 +691,42 @@ const Products = [
         image2: "img/vibradores/strap on 2.2.jpg",
         name: "Strap On 2 Luxury",
         price: "$70,313.38",
-        descripcion: "",
+        descripcion: "Ideal para pegging o penetración que no involucre un pene, su diseño permite que la pareja inserte el extremo más pequeño por vía vaginal y lo sostenga con sus músculos pubocoxígeos o agregue un arnés para soporte adicional. Cada extremo de este consolador doble ingeniosamente diseñado tiene la forma para un placer óptimo. El eje liso presenta una punta redondeada para su fácil inserción y una almohadilla estriada para la estimulación del clítoris. Ambos extremos presentan curvas que apuntan al punto G o al punto P para una estimulación directa. El eje largo es cómodo y su diseño curvo es ideal  para masajear a su pareja. Adecuado para principiantes y avanzados.",
         categoria: "vibradores"
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------DISFRACES
     //--------------------------------------------------------------------------------------------
-    {
+    /* {
         image: "img/disfraz/Disfraz Agente FBI Premium Talle L Sexyrol.jpg",
         image2: "img/disfraz/FBI 2.webp",
         name: "Disfraz Agente FBI",
         price: "$17,814.00",
         descripcion: "marca malena",
         categoria: "disfraces"
-    },
+    },*/
     {
         image2: "img/disfraz/Disfraz Diablita Sexy Mordisco Fantasía 2.jpeg",
         image: "img/disfraz/Disfraz Diablita Sexy Mordisco Fantasía 3.jpg",
         name: "Disfraz Diablita",
         price: "$10,202.00",
-        descripcion: "",
+        descripcion: "Disfraz de diablita. incluye ----- less ----- capa ----- cuernitos ----- pollera y top ----- guantes",
         categoria: "disfraces"
     },
-    {
+    /*{
         image2: "img/disfraz/disfraz secretaria sexy mordisco fantasia.webp",
         image: "img/disfraz/disfraz secretaria sexy mordisco fantasia 2.jpg",
         name: "Disfraz Secretaria Sexy",
         price: "$8,798.00",
         descripcion: "",
         categoria: "disfraces"
-    },
+    },*/
     {
         image: "img/disfraz/Disfraz Enfermera Sexy Mordisco Fantasía.jpg",
         image2: "img/disfraz/Disfraz Enfermera Body Sexy Mordisco Fantasía 2.webp",
         name: "Disfraz Enfermera Body Sexy",
         price: "$7,964.00",
-        descripcion: "",
+        descripcion: "INCLUYE: ----- Cofia -----  Mitones ----- Top regulable ----- Mini regulable ----- Less regulable",
         categoria: "disfraces"
     },
     {
@@ -750,7 +734,7 @@ const Products = [
         image2: "img/disfraz/Disfraz de Diablita Sexy Queen Line de Pasionel 2.jpg",
         name: "Disfraz de Diablita Sexy",
         price: "$10,166.00",
-        descripcion: "",
+        descripcion: "Conjunto de 4 (cuatro) piezas: ----- Vestido con pollerita y cuello de diabla + colita y detalles de tul ----- Cuernitos de espuma forrados en rojo con vincha plástica ----- Talle único regulable.",
         categoria: "disfraces"
     },
     {
@@ -758,15 +742,15 @@ const Products = [
         image2: "img/disfraz/Disfraz de Caperucita Roja Free Tax Line Pasionel PA-FT04.jpg",
         name: "Disfraz de Caperucita Roja ",
         price: "$7,904.00",
-        descripcion: "",
+        descripcion: "Disfraz sexy de Caperucita ----- Compuesto por: ----- Body trikini con sobrefalda ----- Caperuza roja ----- NO INCLUYE MEDIAS ----- Talle único con múltiples ajustes que abarca S, M y L",
         categoria: "disfraces"
     },
     {
-        image: "img/disfraz/Disfraz de Secretaria Negro Free Tax Line Pasionel.jpg",
-        image2: "img/disfraz/Disfraz de Secretaria Negro 2.png",
+        image: "img/disfraz/secretaria pasionel.jpg",
+        image2: "img/disfraz/secretaria pasionel 2.png",
         name: "Disfraz de Secretaria",
         price: "$7,904.00",
-        descripcion: "",
+        descripcion: "Top tiras regulables ----- Colitas para el pelo ----- Pollerita tiras regulables ----- Tanga incorporada",
         categoria: "disfraces"
     },
     {
@@ -774,7 +758,7 @@ const Products = [
         image2: "img/disfraz/disfraz de mujer maravilla free tax line pasionel 2.jpg",
         name: "Disfraz de Mujer Maravilla",
         price: "$7,904.00",
-        descripcion: "",
+        descripcion: "Conjunto de 4 (cuatro) piezas: ----- Vincha roja de tela con estrella dorada. ----- Corpiño rojo ajustable al cuello y la espalda. ----- 2 brazaletes rojos. ----- Culotte azul con estrellas doradas y 2 tiras rojas a los costados para un mejor ajuste. ",
         categoria: "disfraces"
     },
     {
@@ -782,47 +766,47 @@ const Products = [
         image2: "img/disfraz/Disfraz de bebota sexy premium Pasionel 2.jpeg",
         name: "Disfraz de Bebota Sexy",
         price: "$11,424.00",
-        descripcion: "",
+        descripcion: "Compuesto por: -----  Vestido cuadrillé rosa con moño ----- Colaless con tutú ----- Cuellito BB ----- Chupete ----- Colitas para el pelo ",
         categoria: "disfraces"
     },
-    {
+    /*{
         image: "img/disfraz/Disfraz de Minnie Mouse Free Tax Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Minnie Mouse Free Tax Line de Pasionel 2",
         name: "Disfraz de Minnie Mouse",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
-    },
-    {
+    },*/
+    /*{
         image: "img/disfraz/Disfraz Mucamita Erótica de Malena ML-005.jpg",
         image2: "img/disfraz/Disfraz Mucamita Erótica de Malena 2.jpg",
         name: "Disfraz Mucamita Erótica",
         price: "$8,654.00",
         descripcion: "",
         categoria: "disfraces"
-    },
+    },*/
     {
         image: "img/disfraz/Disfraz de Secretaria Sexy Candy Lips CL504.jpg",
         image2: "img/disfraz/Disfraz de Secretaria Sexy Candy Lips 2.jpg",
         name: "Disfraz de Secretaria Sexy",
-        price: "$7,904.00",
-        descripcion: "",
+        price: "$5,278",
+        descripcion: "Disfraz de secretaria sexy, de 3 piezas ----- Top, Pollera, Corbata. ----- Talle único con múltiples ajustes.",
         categoria: "disfraces"
     },
-    {
+    /*{
         image: "img/disfraz/Enfermera Sexy Disfraz Candy Lips.jpg",
         image2: "img/disfraz/Enfermera Sexy Disfraz Candy Lips 2.webp",
         name: "Enfermera Sexy Disfraz",
         price: "$5,532.00",
         descripcion: "",
         categoria: "disfraces"
-    },
+    },*/
     {
         image: "img/disfraz/Disfraz de Mucamita Candy Lips.jpg",
         image2: "img/disfraz/Disfraz de Mucamita Candy Lips 2.jpg",
         name: "Disfraz de Mucamita",
         price: "$6,488.00",
-        descripcion: "",
+        descripcion: "Complace tu fantasía con Candy Lips Contenido: Vincha. Blusa. Guantes. Pollera. Talle ajustable del S al L",
         categoria: "disfraces"
     },
     {
@@ -830,23 +814,23 @@ const Products = [
         image2: "img/disfraz/DISFRAZ DE COLEGIALA ERÓTICA QUEEN LINE PASIONEL 2.jpg",
         name: "Disfraz De Colegiala Erótica",
         price: "$12,280.00",
-        descripcion: "",
+        descripcion: "Conjunto de 3 (tres) piezas: ----- Vestido con faldita de cuadros rojos y corpiño blanco. -----  Cuellito blanco con mini corbata -----  2 coletas para el cabello. ----- Talle único regulable. (Ideal para talles grandes)",
         categoria: "disfraces"
     },
-    {
+    /*{
         image: "img/disfraz/disfraz de novia erotica free tax line pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE NOVIA EROTICA FREE TAX LINE DE PASIONEL 2.jpg",
         name: "Disfraz de Novia Erotica ",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
-    },
+    },*/
     {
         image: "img/disfraz/Disfraz de Bebota Free Tax Line de Pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE BEBOTA FREE TAX LINE PASIONEL 2.png",
         name: "Disfraz De Bebota",
         price: "$7,904.00",
-        descripcion: "",
+        descripcion: "Disfraz de Bebota ----- Compuesto por: ----- Culotte con cintas laterales ----- Corpiño con cuellito BB ----- Colitas para el pelo ----- Medias bucaneras lisas, sin moños ----- Talle único con múltiples ajustes que abarca S, M y L",
         categoria: "disfraces"
     },
     {
@@ -854,23 +838,23 @@ const Products = [
         image2: "img/disfraz/Disfraz de Enfermera Free Tax Line de Pasionel 2.jfif",
         name: "Disfraz de Enfermera",
         price: "$7,904.00",
-        descripcion: "",
+        descripcion: "Talle único. El corpiño abarca del 85 al 95 máximo de busto aproximadamente -----  La pollera abarca hasta un 42/44 aprox (Se ata atras) -----  El top tiene el pecho cruzado -----  Incluye: todo lo de la foto",
         categoria: "disfraces"
     },
-    {
+    /*{
         image: "img/disfraz/Disfraz de Monja Sexy Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Monja Sexy Pasionel 2.webp",
         name: "Disfraz de Monja Sexy",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
-    },
+    },*/
     {
         image: "img/disfraz/Conjunto Selección Argentina Free Tax Pasionel.jpg",
         image2: "img/disfraz/Conjunto Selección Argentina Free Tax Pasionel.jpg",
         name: "Conjunto Selección Argentina",
         price: "$4,214.00",
-        descripcion: "",
+        descripcion: "El traje Se compone de 2 piezas: ----- 1 Top blanco y azul, con estampa numero 10 y logo amarillo ----- 1 minifalda súper ajustada para marcar bien tus líneas femeninas",
         categoria: "disfraces"
     },
     {
@@ -878,7 +862,7 @@ const Products = [
         image2: "img/disfraz/Disfraz de Conejita Playboy Queen Line de Pasionel 2.jpg",
         name: "Disfraz de Conejita Playboy",
         price: "$10,166.00",
-        descripcion: "",
+        descripcion: "Conjunto de 4 (Cuatro) piezas: ----- ----- Trikini combinado en blanco y negro con detalles de boleritos en el vientre y la mini falda. (Incluye colaless) ----- 2 puños en peluche blanco. ----- Vincha con orejas blancas. ----- Cuello blanco con moño, se ajusta a las tiras principales del trikini.",
         categoria: "disfraces"
     },
     {
@@ -886,7 +870,7 @@ const Products = [
         image2: "img/disfraz/Disfraz De Harley Queen Free tax Line de Pasionel 2.webp",
         name: "Disfraz De Harley Queen",
         price: "$7,904.00",
-        descripcion: "",
+        descripcion: "Compuesto por: ----- ----- Corpiño Daddy's Lil Monster ----- Culotte con cintas laterales ----- Colitas para el pelo ----- Medias panty de red ----- Talle único con múltiples ajustes que abarca S, M y L ",
         categoria: "disfraces"
     },
     {
@@ -894,23 +878,23 @@ const Products = [
         image2: "img/disfraz/Disfraz de Mamá Noel Queen Line de Pasionel.jpg",
         name: "Disfraz de Mamá Noel",
         price: "$10,166.00",
-        descripcion: "",
+        descripcion: "Conjunto de 4 (cuatro) piezas: ----- Vestido con rojo y blanco con cuello y moño negro ----- 2 brazaletes ----- Gorrito ----- Talle Grande ----- Talle único regulable.",
         categoria: "disfraces"
     },
-    {
+    /*{
         image: "img/disfraz/Disfraz De Ninja Sexy Free tax Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz De Ninja Sexy Free tax Line de Pasionel 2.jpg",
         name: "Disfraz De Ninja Sexy",
         price: "$7,904.00",
         descripcion: "",
         categoria: "disfraces"
-    },
+    },*/
     {
         image: "img/disfraz/DISFRAZ PORRISTA SELECCIÓN ARGENTINA MALENA.jpg",
         image2: "img/disfraz/DISFRAZ PORRISTA SELECCIÓN ARGENTINA MALENA 2.jpg",
         name: "Disfraz Porrista Selección Argentina ",
         price: "$8,654.00",
-        descripcion: "",
+        descripcion: "El traje Se compone de 5 piezas: ----- Top blanco y azul con mangas, diseñado con un escote de escándalo en el pecho y la espalda rematado por un elegante lazo negro. -----Una minifalda súper ajustada para marcar bien tus líneas femeninas ----- Colaless a juego azul y blanco ----- 2 lacitos a juegos para atar en cualquier parte del cuerpo ----- Medias Blancas de red ",
         categoria: "disfraces"
     },
     {
@@ -918,7 +902,7 @@ const Products = [
         image2: "img/disfraz/DISFRAZ DE COLEGIALA SEXY FREE TAX LINE PASIONEL 2",
         name: "Disfraz de Colegiala Sexy",
         price: "$7,904.00",
-        descripcion: "",
+        descripcion: "Conjunto de 3 (tres) piezas: ----- Top ajustable en negro con mini corbata en el centro. ----- Pollerita cuadrillé ajustable. ----- 2 cintas para el pelo. ----- Talle único regulable. ",
         categoria: "disfraces"
     },
     {
@@ -926,7 +910,7 @@ const Products = [
         image2: "img/disfraz/Disfraz de Diablita Sexy Malena 2.jpg",
         name: "Disfraz de Diablita Sexy",
         price: "$9,186.00",
-        descripcion: "",
+        descripcion: "Este disfraz de diablita es ideal para ser la más sexy. Con el conjunto ardiente de Malena que incorpora cuernos y cola atraerás todas las miradas, ya que su body ajustado y las medias con encaje no dejan indiferente a nadie.No cabe ninguna duda de que su diseño es de lo más original para esos momentos acalorados. -----  Conjunto de 2(dos) piezas: -----  Body rojo multitalle con cola de diablo. -----  Diadema roja. -----  Talle único regulable.",
         categoria: "disfraces"
     },
     {
@@ -934,7 +918,7 @@ const Products = [
         image2: "img/disfraz/DISFRAZ DE GATITA SEXY DE MALENA 2.jpg",
         name: "Disfraz de Gatita Sexy",
         price: "$8,654.00",
-        descripcion: "",
+        descripcion: "Este disfraz de gatúbela se compone de 3 piezas, el body con los guantes con el antifaz te darán un aspecto irresistiblemente sexy.  ----- El conjunto tiene 3 piezas: ----- Body negro ajustable en top y tanga. ----- Guantes negros. ----- Antifaz negro.",
         categoria: "disfraces"
     },
     {
@@ -942,7 +926,7 @@ const Products = [
         image2: "img/disfraz/DISFRAZ DE MARINERA SEXY FREE TAX LINE DE PASIONEL 2.jpg",
         name: "Disfraz De Marinera Sexy",
         price: "$7,904.00",
-        descripcion: "",
+        descripcion: "El disfraz de marinera es un kit súper sensual para que cumplas tus fantasías mas íntimas. Compuesto por un corpiño de rayas negras y blancas con moño, 1 culotte negro con cintas rojas para ajustar a los costados, y una linda gorra blanca con la inconfundible marca del ancla. Rompe la rutina con una experiencia que sacará a flote tus mas preciosos encantos. ----- Disfraz de Marina incluye 3(tres piezas): ----- 1 corpiño ajustable de rayas negras y blancas con moño rojo en el centro. ----- 1 culotte azul ----- 1 gorra blanca",
         categoria: "disfraces"
     },
     {
@@ -950,7 +934,7 @@ const Products = [
         image2: "img/disfraz/disfraz fantasia presa pasionel 2.webp",
         name: "Disfraz de Presa Erótica",
         price: "$7,904.00",
-        descripcion: "",
+        descripcion: "*Disfraz Presa Super Sexy Incluye: -----  Gorro. -----  Gargantilla -----  Soutien Regulable -----  Esposas de Tela. ----- Pollerita Regulable con Colaless Incorporada. ----- NO INCLUYE MEDIAS.",
         categoria: "disfraces"
     },
     {
@@ -958,7 +942,7 @@ const Products = [
         image2: "img/disfraz/DISFRAZ DE VIUDA ALEGRE SEXY DE MALENA 2.jpg",
         name: "Disfraz de Viuda Alegre Sexy",
         price: "$12,610.00",
-        descripcion: "",
+        descripcion: "Talla única: se adapta a tu cuerpo  ----- El conjunto tiene 3(tres) piezas: ----- Baby doll ajustable con encaje negro. ----- Portaligas de encaje negro. ----- Bombacha de encaje.",
         categoria: "disfraces"
     },
     //--------------------------------------------------------------------------------------------
@@ -969,7 +953,7 @@ const Products = [
         image2: "img/fundas/X-Tender 1.2.jpg",
         name: "Funda X-Tender 1",
         price: "$1",
-        descripcion: "",
+        descripcion: "¿Deseas un poco más de tamaño de la forma más cómoda posible? ¡Entonces esto es exactamente lo que necesitas! La funda está diseñada para alargar y engrosar el cuerpo del pene. Eso sí, para poder utilizar una funda se debe tener una erección firme, porque la misma se colocará como un guante sobre el pene. ----- Características • Material TPE. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • Diseño Ergonómico. • Textura venosa. • Realística.",
         categoria: "fundas"
     },
     {
@@ -977,7 +961,7 @@ const Products = [
         image2: "img/fundas/funda X-Tender 2.2.jpg",
         name: "Funda X-Tender 2",
         price: "$1",
-        descripcion: "",
+        descripcion: "Funda peneana de silicona, flexible, texturada, adaptable, hueca para colocar el pene adentro, extensora hasta 5cm de longitud • higiene agua y jabon • medidas: 19, 5 x 4, 2cm aprox",
         categoria: "fundas"
     },
     {
@@ -985,7 +969,7 @@ const Products = [
         image2: "img/fundas/funda X-Tender 4.2.jpg",
         name: "Funda X-Tender 4",
         price: "$1",
-        descripcion: "",
+        descripcion: "La funda está diseñada para alargar  y engrosar el cuerpo del pene. Tiene un contorno que proporciona una estimulación óptima y gracias al anillo para testículos se mantendrá en su lugar. ¡Ni siquiera sus mejores movimientos podrán hacer que se suelte! A esta funda se le agrego una bullet de vibración para auto estimularse y estimular clítoris por medio del roce en la penetración. Eso sí, para poder utilizar una funda se debe tener una erección firme, porque la misma se colocará como un guante sobre el pene. Características • Material TPE + -ABS. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • Textura venosa. • Realística. • Bullet  1 vibración. 3 pilas LR44, no incluidas. • Sumergible. • Usar lubricante a base de agua sobre la superficie de la funda. -----    Medidas: 21 cm x 9.6 cm x 6.5cm.",
         categoria: "fundas"
     },
     //--------------------------------------------------------------------------------------------
@@ -996,7 +980,7 @@ const Products = [
         image2: "img/velas/desire coconut 15gr.webp",
         name: "Vela Perfumada Coconut ",
         price: "$1,478.00",
-        descripcion: "",
+        descripcion: "Vela para masajes Desire, formulada con Aceite de Coco. Al prenderla y dejarla fundir se transforma en un delicado aceite para masajes. La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Una rica combinación de aceites naturales. Encendé la vela y dejá que unos minutos para que se derrita el aceite. Aplicá unas gotas sobre tu cuerpo o el de tu pareja. Dejá volar la imaginación y masajeá sensualmente.  CONTIENE: 15grs ",
         categoria: "Velas"
     },
     {
@@ -1004,7 +988,7 @@ const Products = [
         image2: "img/velas/vainilla sweet 15gr.jpg",
         name: "Vela Perfumada Vainilla",
         price: "$1,478.00",
-        descripcion: "",
+        descripcion: " Modo de uso:  Encendé la vela y dejá que unos minutos para que se derrita el aceite. Aplicá unas gotas sobre tu cuerpo o el de tu pareja. Dejá volar la imaginación y masajeá sensualmente Contenido 15g Fragancia a vainilla Ficha técnica. Sabor y Aroma: Vainilla y Coco",
         categoria: "Velas"
     },
     {
@@ -1012,7 +996,7 @@ const Products = [
         image2: "img/velas/mon amour intense 30gr 2.webp",
         name: "Vela Masajes Mon Amour",
         price: "$2,228.00",
-        descripcion: "",
+        descripcion: "La vela para masajes está formulada con aceite de soja y jojoba, componentes de propiedades emolientes y tonificantes. Al prenderlas y dejarla fundir en su totalidad se transforma en un aceite tibio de masajes que se vuelca sobre tu piel para permitir un delicado y sumamente tibio masaje. Contenido: 30grs",
         categoria: "Velas"
     },
     {
@@ -1020,7 +1004,7 @@ const Products = [
         image2: "img/velas/st massage candle mango y maracuya.webp",
         name: "Vela Masajes Mango y Maracuya",
         price: "$2,228.00",
-        descripcion: "",
+        descripcion: "La vela se derrite convirtiéndose en un tibio aceite para masajes. Se encuentra elaborada con una rica combinación de aceites naturales y vitaminas que suavizan y nutren la piel. Un blend de frutas tropicales de aroma muy suave y sedoso. Encendé...Prende la vela y deja unos minutos para que se derrita el aceite. Aplicá unas gotitas sobre tu cuerpo o el de tu pareja. Masajeá...Dejá volar la imaginación y masajeá sensualmente. Contenido: 30grs",
         categoria: "Velas"
     },
     {
@@ -1028,7 +1012,7 @@ const Products = [
         image2: "img/velas/be aphrodisiac 15gr.jpg",
         name: "Vela Masajes Afrodisíaca BE",
         price: "$1,478.00",
-        descripcion: "",
+        descripcion: "La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Se encuentra elaborada con una rica combinación de aceites naturales y vitaminas que suavizan y nutren la piel. La combinación de sus aceites esenciales despierta el lado más sensual de la piel.Desarrollado para que tome la temperatura ideal que necesita tu cuerpo, creando un profundo relax y estimulando tus sentidos. Contenido: 15grs",
         categoria: "Velas"
     },
     {
@@ -1036,7 +1020,7 @@ const Products = [
         image2: "img/velas/body souffle sexitive 15gr.jpg",
         name: "Vela Perfumada Body Soufflé Frutilla",
         price: "$1,478.00",
-        descripcion: "",
+        descripcion: "Formulada con los mejores componentes del coco, la vela para masajes será el mejor aliado para una intensa sesión de masajes con propiedades emolientes y tonificantes. Enciéndela y déjala fundir en su totalidad para que se transforme en un exquisito aceite tibio para masajes que se aplica sobre la piel y te dará una sensación muy delicada y sumamente placentera. Enciende la vela y pasados unos 8 minutos ya la puedes usar para dar tu masaje especial.            Contenido 15g Vela para Masajes eroticos",
         categoria: "Velas"
     },
     {
@@ -1044,7 +1028,7 @@ const Products = [
         image2: "img/velas/body souffle sexitive 30gr.jpg",
         name: "Vela de Masajes Body Souffle",
         price: "$2,675.00",
-        descripcion: "",
+        descripcion: "Formulada con los mejores componentes del coco, la vela para masajes será el mejor aliado para una intensa sesión de masajes con propiedades emolientes y tonificantes. Enciéndela y déjala fundir en su totalidad para que se transforme en un exquisito aceite tibio para masajes que se aplica sobre la piel y te dará una sensación muy delicada y sumamente placentera. Enciende la vela y pasados unos 8 minutos ya la puedes usar para dar tu masaje especial.            Contenido 30g - Vela para Masajes eroticos",
         categoria: "Velas"
     },
     {
@@ -1052,7 +1036,7 @@ const Products = [
         image2: "img/velas/desire coconut scented candle 30gr.jpg",
         name: "Vela de Masajes Candle Desire Coconut",
         price: "$2,228.00",
-        descripcion: "",
+        descripcion: "Massage Candle. La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Una rica combinación de aceites naturales. ----- Encendé la vela y dejá que unos minutos para que se derrita el aceite. ----- Aplicá unas gotas sobre tu cuerpo o el de tu pareja. ----- Dejá volar la imaginación y masajeá sensualmente.Voilá! ----- Contenido: 30grs",
         categoria: "Velas"
     },
     {
@@ -1060,7 +1044,7 @@ const Products = [
         image2: "img/velas/crazy girl 30gr.webp",
         name: "Vela de Masajes Crazy Girls 30grs",
         price: "$2,228.00",
-        descripcion: "",
+        descripcion: "Vela corporal para masajes, sensacion calida, deslizante,humecta,suaviza la piel, disfrutar en pareja del agradable aroma a jojoba y soja, prolongar el juego previo  se enciende la vela, a medida que se derrite se coloca en las manos, para distribuir sobre el cuerpo ----- contenido: x 30grs",
         categoria: "Velas"
     },
     {
@@ -1068,7 +1052,7 @@ const Products = [
         image2: "img/velas/Vela Perfumada Vainilla Sweet 30grs Sexitive.jpg",
         name: "Vela Perfumada Vainilla Sweet",
         price: "$2,228.00",
-        descripcion: "",
+        descripcion: "La vela para Masajes tibios Vainilla Coconut está formulada con aceite de soja y jojoba, componentes de propiedades emolientes y tonificantes. Descubrí un dulce mundo de  vainilla y coco ydejate seducir por los perfumes. Al derretirla y esparcirla sobre tu cuerpo o el de tu pareja, su delicioso aroma y textura suave te transportan a la mejor sesión de masajes de tu vida, relajando tu cuerpo y dejando tu piel suave e hidratada. ----- contenido: x 30grs",
         categoria: "Velas"
     },
     {
@@ -1076,7 +1060,7 @@ const Products = [
         image2: "img/velas/st massage candle mango y maracuya.webp",
         name: "Vela de Masajes Mango y Maracuyá",
         price: "$5,968.47",
-        descripcion: "",
+        descripcion: "Vela corporal, pensada para masajes, sensacion calida, con agradable aroma afrodisisaco a maracuya y mango, para disfrutar en pareja de una previa prolongada, aumentar las sensaciones, despertar los sentidos ----- contenido: x 30grs",
         categoria: "Velas"
     },
     {
@@ -1084,7 +1068,7 @@ const Products = [
         image2: "img/velas/st massage candle frutos del bosque.jpg",
         name: "Vela de Masajes Frutos del Bosque",
         price: "$5,968.47",
-        descripcion: "",
+        descripcion: "Velas para masajes Modo de Uso: Encender la vela y dejar fundir en el frasco. Apaguelo y viértalo sobre el cuerpo. El punto de fusión de las velas es solamente unos grados encima de la temperatura del cuerpo. Las velas derretidas se sienten tibias en la piel y tiene exquisitos aromas.Cantidad: 60cc. -----  Aroma: Frutos del Bosque.",
         categoria: "Velas"
     },
     //---------------------------------------------------------------------------------------------------------------------------
@@ -1095,7 +1079,7 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo Warming 120cc.jpg",
         name: "Gel íntino WARMING ",
         price: "$5,209.80",
-        descripcion: "",
+        descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco.Cantidad: 120cc.",
         categoria: "Lubricantes"
     },
     {
@@ -1103,7 +1087,7 @@ const Products = [
         image2: "img/lubricantes/Gel Maracuyá 120cc.jpg",
         name: "Gel íntimo MARACUYÁ",
         price: "$5,209.80",
-        descripcion: "",
+        descripcion: "Gel lubricante estimulante saborizado compuesto a base de agua, diseñado con delicioso sabor y aroma a maracuyá. Ideal para sumar los sentidos del olfato y el gusto en el juego sexual.Ideal también para usar en el sexo oral. Su poder estimulante es gracias a la arginina, un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, estiren y respondan al estímulo con capacidad vasodilatadora, aumentando la irrigación sanguínea en la zona utilizada. Especialmente formulado para un mayor disfrute de las sensaciones durante la relación sexual, aumentando la excitación y especialmente la sensibilidad del clítoris, facilitando los orgasmos y haciéndolos más intensos. Compatible con preservativos y sex toys. 120 cc de contenido.",
         categoria: "Lubricantes"
     },
     {
@@ -1111,7 +1095,7 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo Extra time 120cc.jpg",
         name: "Gel íntimo EXTRA TIME",
         price: "$5,209.80",
-        descripcion: "",
+        descripcion: "Gel lubricante retardante 120cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera.",
         categoria: "Lubricantes"
     },
     {
@@ -1119,7 +1103,7 @@ const Products = [
         image2: "img/lubricantes/Gel MEN 120cc.jpg",
         name: "Gel íntimo MEN",
         price: "$5,209.80",
-        descripcion: "",
+        descripcion: " Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. 120cc. ",
         categoria: "Lubricantes"
     },
     {
@@ -1127,7 +1111,7 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo BUTT 120cc.jpg",
         name: "Gel íntimo BUTT",
         price: "$5,209.80",
-        descripcion: "",
+        descripcion: "Gel Lubricante Intimo Butt Gel lubricante íntimo anal  Base acuosa. Compatible con preservativos y sextoys ----- Cantidad: 125cc",
         categoria: "Lubricantes"
     },
     {
@@ -1135,7 +1119,7 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo Frutilla 60cc ST.jpg",
         name: "Gel íntimo Frutilla",
         price: "$3,818.91",
-        descripcion: "",
+        descripcion: "Lubricante de base acuosa sabor frutilla con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos.",
         categoria: "Lubricantes"
     },
     {
@@ -1143,7 +1127,7 @@ const Products = [
         image2: "img/lubricantes/Gel frutilla 120cc.jpg",
         name: "Gel íntmo ON FRUTILLA",
         price: "$5,209.80",
-        descripcion: "",
+        descripcion: "Lubricante de base acuosa sabor frutilla con arginina 120cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys.",
         categoria: "Lubricantes"
     },
     {
@@ -1151,7 +1135,7 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo MEN 60cc.jpg",
         name: "Gel íntmo MEN",
         price: "$3,818.91",
-        descripcion: "",
+        descripcion: "Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. 60cc.",
         categoria: "Lubricantes"
     },
     {
@@ -1159,23 +1143,23 @@ const Products = [
         image2: "img/lubricantes/Gel Maracuyá 60cc.jpg",
         name: "Gel íntimo MARACUYÁ",
         price: "$3,818.91",
-        descripcion: "",
+        descripcion: "Lubricante de base acuosa sabor maracuya con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos.",
         categoria: "Lubricantes"
     },
-    {
+    /*{
         image: "img/lubricantes/Gel íntimo ICE 60cc.jpg",
         image2: "img/lubricantes/Gel íntimo ICE 60cc.jpg",
         name: "Gel íntimo ICE",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes"
-    },
+    },*/
     {
         image: "img/lubricantes/Gel Neutro 60cc.jpg",
         image2: "img/lubricantes/Gel Neutro 60cc.jpg",
         name: "Gel íntimo NEUTRO",
         price: "$3,818.91",
-        descripcion: "",
+        descripcion: "Creado exclusivamente con extractos naturales, propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. - Evita la lesion dermica por friccion. - Disminuye la probabilidad de dolor. - Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. 60cc.",
         categoria: "Lubricantes"
     },
     {
@@ -1183,7 +1167,7 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo Woman 60cc.jpg",
         name: "Gel íntimo WOMAN",
         price: "$3,818.91",
-        descripcion: "",
+        descripcion: "Si las experiencias sexuales con penetración te están resultando algo molestas, es más que probable que tengas un problema de lubricación. Productos como Woman  proporcionan una lubricación íntima muy natural para que puedas seguir disfrutando del sexo de un modo mucho más seguro y placentero. 60cc.",
         categoria: "Lubricantes"
     },
     {
@@ -1191,7 +1175,7 @@ const Products = [
         image2: "img/lubricantes/Gel Chocolate 60cc.jpg",
         name: "Gel íntimo CHOCOLATE",
         price: "$3,818.91",
-        descripcion: "",
+        descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys.",
         categoria: "Lubricantes"
     },
     {
@@ -1199,7 +1183,7 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo Extra time 60cc.jpg",
         name: "Gel íntimo EXTRA TIME",
         price: "$3,818.91",
-        descripcion: "",
+        descripcion: "Gel lubricante retardante 60cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera.",
         categoria: "Lubricantes"
     },
     {
@@ -1207,31 +1191,7 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo Warming 60cc.jpg",
         name: "Gel íntimo WARMING",
         price: "$3,818.91",
-        descripcion: "",
-        categoria: "Lubricantes"
-    },
-    {
-        image: "img/lubricantes/Toy Cleaner Limpiador de juguetes Premium sexitive 120ml.jpg",
-        image2: "img/lubricantes/Toy Cleaner Limpiador de juguetes Premium sexitive 120ml.jpg",
-        name: "Limpiador de Juguetes Premiun Sexitive 120cc",
-        price: "$1,623.00",
-        descripcion: "",
-        categoria: "Lubricantes"
-    },
-    {
-        image: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
-        image2: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
-        name: "Limpiador de Juguetes Fly Night 100cc",
-        price: "$2,014.00",
-        descripcion: "",
-        categoria: "Lubricantes"
-    },
-    {
-        image: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
-        image2: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
-        name: "Limpiador de Juguetes Fly Night 90cc",
-        price: "$1,531.00",
-        descripcion: "",
+        descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco.Cantidad: 60cc.",
         categoria: "Lubricantes"
     },
     {
@@ -1239,7 +1199,7 @@ const Products = [
         image2: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         name: "Aceite Masajes Love Potion Frutos Rojos 30ml",
         price: "$2,554.00",
-        descripcion: "",
+        descripcion: "Aceite Love Potion Frutos Rojos. Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. ----- Contenido: 30 ml",
         categoria: "Lubricantes"
     },
     {
@@ -1247,7 +1207,7 @@ const Products = [
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         name: "Aceite de Masaj Mini Love Potion ice Cream 15gr",
         price: "$1,438.00",
-        descripcion: "",
+        descripcion: "Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. Compatible con latéx. Sabor a Menta. ----- Contenido: 15 ml.",
         categoria: "Lubricantes"
     },
     {
@@ -1255,23 +1215,23 @@ const Products = [
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
         name: "Aceite de Masajes Mini Love Potion Banana 15gr",
         price: "$1,438.00",
-        descripcion: "",
+        descripcion: "Sácale provecho a todas las ventajas de la cosmética erótica e incluye aceites de masaje en tus juegos de pareja. Son un modo muy sencillo y sensual de incrementar el potencial estimulador de tus caricias. Aparte de la textura suave que proporciona el love potion, puedes sacarle mucho partido si le brindas a tu pareja una previa muy sensual y placentera. Todo tu cuerpo está a punto de experimentar un escalofrío de placer que lo recorrerá de los pies a la cabeza.La calidez de este aceite de masaje con aroma y sabor a banana no sólo se deja notar en el lugar en el que lo aplicas sino que se transmite por todo tu cuerpo como una oleada de excitación ---- Contenido: 15 ml.",
         categoria: "Lubricantes"
     },
-    {
+    /*{
         image: "img/lubricantes/Crema Intensif de Erecciones y Orgasmos Black 50ml.jpg",
         image2: "img/lubricantes/Crema Intensif de Erecciones y Orgasmos Black 50ml.jpg",
         name: "Crema Intensif de Erecciones y Orgasmos Black 50ml",
         price: "$4,163.00",
         descripcion: "",
         categoria: "Lubricantes"
-    },
+    },*/
     {
         image: "img/lubricantes/thewildboys-gelcrema-anal1.webp",
         image2: "img/lubricantes/thewildboys-gelcrema-anal1.webp",
-        name: "Crema Íntima Anal Relajante The Wild Boys 250grs",
+        name: "Crema Íntima Anal Relajante The Wild Boys 200grs",
         price: "$5,105.00",
-        descripcion: "",
+        descripcion: "Desarrollado para relajar los músculos sin perder sensibilidad. La calendula contiene propiedades regenerativas, suaviza e hidrata. Ideal para utilizarlo con juguetes sexuales. Instrucciones de uso: aplica la cantidad de crema gel que quieras en las partes del cuerpo deseadas.Las cremas The Wild Boy® son compatibles con preservativos de Latex. Perfecto para lubricación y masajes anales.Ideal para utilizarlo con juguetes sexuales Cont.Neto: 200grs",
         categoria: "Lubricantes"
     },
     {
@@ -1279,7 +1239,7 @@ const Products = [
         image2: "img/lubricantes/Gel crema Tonificante The Wild Boys.png",
         name: "Gel Crema Tonificante The WB Paprika & Mentol 200g",
         price: "$3,519.00",
-        descripcion: "",
+        descripcion: "La sensibilidad y la dureza de tus erecciones van a determinar el placer que sientes durante tus relaciones sexuales. Si quieres potenciar esa capacidad de una manera prácticamente inmediata, la crema tonificante the Wild Boys te resultará muy útil. Es un producto elaborado a base de extractos naturales como el mentol y la paprika que ayudan al desarrollo de los tejidos del pene y a darle firmeza al miembro para gozar de erecciones más fuertes y duraderas, junto a orgasmos más intensos y explosivos. Modo de uso: Aplicar en la zona íntima las veces que sea necesario. 200g",
         categoria: "Lubricantes"
     },
     {
@@ -1287,7 +1247,7 @@ const Products = [
         image2: "img/lubricantes/Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml.jfif",
         name: "Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml",
         price: "$2,094.00",
-        descripcion: "",
+        descripcion: "Gel lubricante íntimo vegano con jojoba y caléndula. Fórmula desarrollada con componentes libres de parabenos y sin testeo en animales. Sumamos jojoba que tiene propiedades muy potentes para hidratación y es antioxidante, además de caléndula que es regenerativa. ----- Apto celíaco, Sin TACC ----- Sin Parabenos -----Cruelty Free ----- No mancha la ropa. ----- Es hidrosoluble, compatible con el uso de preservativos",
         categoria: "Lubricantes"
     },
     {
@@ -1295,7 +1255,7 @@ const Products = [
         image2: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.jpg",
         name: "Óleo Orgásmico Estimulante XXX 15ml",
         price: "$3,359.00",
-        descripcion: "",
+        descripcion: "Crea una sensación única de vibración y placer en el clítoris. Comienza como un suave hormigueo, seguido de un calor que se convierte en un resplandor envolvente. Esta sensación se extiende más allá del clítoris e incluso se puede sentir en los labios y en la entrada vaginal. Luego viene una fuerte sensación de hormigueo acompañada con una sensación de apretamiento creando una experiencia sexual completamente nueva e intensa... Este Estimulante de Clítoris, como la mayoría de nuestros productos podes utilizarlos sola o en pareja, recordá que con solo una gota alcanzará todo su efecto, es por ello que te rendirá para muchas veladas de amor… 15ml",
         categoria: "Lubricantes"
     },
     {
@@ -1303,7 +1263,7 @@ const Products = [
         image2: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
         name: "Aceite de Masajes Mini Love Potion Frutilla 15gr",
         price: "$1,438.00",
-        descripcion: "",
+        descripcion: "Tus caricias ahora serán más dulces que nunca gracias a la sensual combinación de fragancias de este Mini Aceite Comestible Love Potion, experimenta el placer máximo en la estimulación piel con piel o mejor aún labios con piel. El Mini Aceite Comestible Love Potion Frutilla tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato.",
         categoria: "Lubricantes"
     },
     {
@@ -1311,15 +1271,15 @@ const Products = [
         image2: "img/lubricantes/gel intimo efecto frio miss v.jpg",
         name: "Gel Íntimo Efecto Frío Miss V",
         price: "$1,709.00",
-        descripcion: "",
+        descripcion: "es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de la eyaculación. Genera un efecto agradablemente refrescante tanto en el hombre como en la mujer. También puede utilizarse para sexo oral debido a sus componentes y su agradable sabor y aroma a mentol. Se trata de un producto formulado con ingredientes naturales, que es seguro y no agresivo, no es pegajoso y se absorbe rápidamente en la piel después de su aplicación.----- Producto: Gel con Efecto ----- Contenido: 50 ml. ----- Características: Efecto Frío y Retardante",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel lubricante anal lube premium.webp",
         image2: "img/lubricantes/gel lubricante anal lube premium.webp",
-        name: "Gel Lubricante Anal Lube Premium 130ml",
+        name: "Gel Lubricante Anal Lube Premium Relajante 130ml",
         price: "$2,715.00",
-        descripcion: "",
+        descripcion: "Ideado especialmente para una lubricación de muy larga duracion. Con extractos de Jojoba de alta concentración que relajan y hacen que la piel sea suave y sedosa. Así, el juego anal se puede disfrutar sin dolor, mientras que los juguetes más grandes pueden proporcionar más diversión. Tacto Suave, contiene Jojoba & Manzanilla. ----- Contenido: 130gr",
         categoria: "Lubricantes"
     },
     {
@@ -1327,7 +1287,7 @@ const Products = [
         image2: "img/lubricantes/gel lubricante intimo anal fly night.jpg",
         name: "Gel Lubricante Íntimo Anal Fly Night",
         price: "$4,083.00",
-        descripcion: "",
+        descripcion: "Crema lubricante y humectante diseñada para otorgar una mayor fluidez y deslizamiento, y genera una lubricación prolongada. Aumenta la lubricación y logra la distensión de esta zona, permitiendo así alcanzar un pleno disfrute debido a su exclusiva formula natural. Creado exclusivamente con extractos naturales, componentes con propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. ----- Contenido: 125 ml",
         categoria: "Lubricantes"
     },
     {
@@ -1335,7 +1295,7 @@ const Products = [
         image2: "img/lubricantes/lubricante siliconado anal afrodisia.jpeg",
         name: "Lubricante Siliconado Anal Afrodisia",
         price: "$4,898.00",
-        descripcion: "",
+        descripcion: "Formulado para piel sensible. Todo el extracto natural de Bisabolol de la planta de manzanilla lo convierte en el lubricante de silicona vegetal perfecto para relajar el sexo anal. Se ha utilizado durante cientos de años en remedios para la piel debido a sus propiedades curativas y relajantes musculares. El bisabolol tiene propiedades antiirritantes, antiinflamatorias y antimicrobianas. Contiene vitamenina E. ----- Cont.neto: 75ml",
         categoria: "Lubricantes"
     },
     {
@@ -1343,7 +1303,7 @@ const Products = [
         image2: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
         name: "Aceite Comestible Love Potion Champagne Frambuesa",
         price: "$1,438.00",
-        descripcion: "",
+        descripcion: "El Mini Aceite Comestible Love Potion Champagne y Frambuesa tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato.Tendrás una piel bien hidratada y sensible al mínimo roce para disfrutar más de tus encuentros sexuales en pareja. 15gr",
         categoria: "Lubricantes"
     },
     {
@@ -1351,7 +1311,7 @@ const Products = [
         image2: "img/lubricantes/love-potion chocolate sexitive.png",
         name: "Aceite Comestible Love Potion Chocolate",
         price: "$1,438.00",
-        descripcion: "",
+        descripcion: "DELICIOSO ACEITE SABORIZADO Y TOTALMENTE COMESTIBLE PARA SABOREAR EN LA PIEL Y ESTIMULAR LA PASIÓN. ----- Elaborado a base de agua cristalina, ingredientes naturales y materia prima hipoalergénica premium. ----- Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. ----- Su textura permite utilizarlo para masajes y también como lubricante íntimo ya que aumenta el nivel de placer, creando sensación de calor al contacto con la piel.  15gr",
         categoria: "Lubricantes"
     },
     {
@@ -1359,23 +1319,23 @@ const Products = [
         image2: "img/lubricantes/Prime Gel Natural Mixta 22grs.jpg",
         name: "Prime Gel Natural Mixta 22grs",
         price: "$2,888.00",
-        descripcion: "",
+        descripcion: "Formulado Con Aloe Vera Y Caléndula, Provee Una Lubricación Superior Porque Permite Una Hidratación Inmediata Y Prolongada Haciendo De Tu Encuentro Una Experiencia Más Placentera. A Base De Agua. No Afecta El Látex. No Mancha. 22grs",
         categoria: "Lubricantes"
     },
-    {
+    /*{
         image: "img/lubricantes/PRIME gel TOUCH AFRODISIACO X 200ML.jpg",
         image2: "img/lubricantes/PRIME gel TOUCH AFRODISIACO X 200ML.jpg",
         name: "Prime Gel Touch Afrodisíaco 200ml",
         price: "$6,981.00",
-        descripcion: "",
+        descripcion: "Gel sensual & masaje Prime Touch 2 en 1. Se trata de un gel doblemente eficaz, ya que puede ser aplicado como gel íntimo y/o mediante masajes en todo el cuerpo. 200 ml ",
         categoria: "Lubricantes"
-    },
+    },*/
     {
         image: "img/lubricantes/gel maxx lado b 30 grs.webp",
         image2: "img/lubricantes/gel maxx lado b 30 grs.webp",
         name: "Gel Maxx Lado B 30grs",
         price: "$2,568.00",
-        descripcion: "",
+        descripcion: "Diseñado para una experiencia distinta, el gel Lado B Maxx es recomendable para uso anal. Sus principales componentes son el aloe vera y extracto de jojoba, que proporcionan una lubricación y relajación duradera de la zona intima, facilitando la penetración. 30grs",
         categoria: "Lubricantes"
     },
     {
@@ -1383,7 +1343,7 @@ const Products = [
         image2: "img/lubricantes/Gel Íntmo Chocolate 120cc ST.webp",
         name: "Gel Íntmo Chocolate 120cc ST",
         price: "$5,209.80",
-        descripcion: "",
+        descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys.",
         categoria: "Lubricantes"
     },
     {
@@ -1391,7 +1351,7 @@ const Products = [
         image2: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.webp",
         name: "Prime Gel Natural Hot Pleasure 22grs",
         price: "$3,475.00",
-        descripcion: "",
+        descripcion: "Encendé tu pasión con la sensación cálida que te ofrece hot pleasure. Este gel íntimo eleva la sensación de temperatura y se siente sedoso y suave. Ideal para realizar caricias estimulantes y hacer de tu encuentro una experiencia diferente. No afecta el látex. No mancha. 22grs",
         categoria: "Lubricantes"
     },
     {
@@ -1399,7 +1359,7 @@ const Products = [
         image2: "img/lubricantes/Prime Gel Natural Excite 22grs.jpg",
         name: "Prime Gel Natural Excite 22grs",
         price: "$3,475.00",
-        descripcion: "",
+        descripcion: "Gel PRIME EXCITE está diseñado para intensificar el orgasmo femenino, maximizar el placer y la experiencia sexual. Está desarrollado con el componente L- arginina que actúa como vasodilatador e incrementa la sensibilidad genital para potenciar el placer. 22grs",
         categoria: "Lubricantes"
     },
     {
@@ -1407,7 +1367,7 @@ const Products = [
         image2: "img/lubricantes/Prime Gel Touch Original 200ml.jpg",
         name: "Prime Gel Touch Original 200ml",
         price: "$6,981.00",
-        descripcion: "",
+        descripcion: "Gel sensual & masaje Prime Touch 2 en 1. Se trata de un gel doblemente eficaz, ya que puede ser aplicado como gel íntimo y/o mediante masajes en todo el cuerpo. 200 ml ",
         categoria: "Lubricantes"
     },
     {
@@ -1415,39 +1375,39 @@ const Products = [
         image2: "img/lubricantes/gel-intimo-mine-my-pleasure-50ml.png",
         name: "Gel Íntimo Mine My Plearure 50ml Sexitive",
         price: "$1,700.00",
-        descripcion: "",
+        descripcion: "Es un gel lubricante con L-Arginina, un aminoácido de origen natural con capacidad vasodilatadora, especialmente formulado para aumentar la excitación y sensibilidad del clítoris facilitando orgasmos más intensos más rápido. Básicamente, lo que hace es que los vasos sanguíneos localizados en clítoris se dilaten mejorando el flujo sanguíneo hacia la zona genital propiciando la excitación.Favorece la lubricación natural y la sensibilidad en toda la zona. Un combo totalmente solicitados por todas. Este gel crea una sensación de calor en la piel que aumenta de forma inmediata la sensibilidad intensificando las sensaciones.",
         categoria: "Lubricantes"
     },
-    {
+    /*{
         image: "img/lubricantes/lubricante lube more play intensity hot pleasure.jpg",
         image2: "img/lubricantes/lubricante lube more play intensity hot pleasure.jpg",
         name: "Gel Lubricante Lube Efecto Calor Pleasure 130ml",
         price: "$2,715.00",
         descripcion: "",
         categoria: "Lubricantes"
-    },
+    },*/
     {
         image: "img/lubricantes/lubricante lube more play supreme retardante.jpg",
         image2: "img/lubricantes/lubricante lube more play supreme retardante.jpg",
         name: "Gel Lubricante Lube Supreme Retardante 130ml",
         price: "$2,715.00",
-        descripcion: "",
+        descripcion: "Gel Lubricante efecto frío para relaciones más prolongadas y placenteras. Es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de eyaculación . RETRASA LA EYACULACIÓN, ACTÚA RAPIDAMENTE, MEJORA LAS RELACIONES SEXUALES, AYUDA A DISFRUTAR MÁS DEL SEXO, SIN EFECTOS SECUNDARIOS, Cont.Neto: 130ml",
         categoria: "Lubricantes"
     },
-    {
+    /*{
         image: "img/lubricantes/gel diabolico fisting extremo anal 500ml.jpg",
         image2: "img/lubricantes/gel diabolico fisting extremo anal 500ml.jpg",
         name: "Gel Diabólico Fisting Extremo Anal 500ml Fly Night",
         price: "$7,524.00",
         descripcion: "",
         categoria: "Lubricantes"
-    },
+    },*/
     {
         image: "img/lubricantes/gel estimulador femenino miss v L-arginina 50ml.png",
         image2: "img/lubricantes/gel estimulador femenino miss v L-arginina 50ml.png",
         name: "Gel Estimalador Femenino Miss V L-Arginina 50ml.",
         price: "$1,966.00",
-        descripcion: "",
+        descripcion: "Gel lubricante íntimo facilitador del orgasmo femenino. L- Arginina es un aminoácido que aumenta la circulación sanguínea de la zona, brindando mayor sensibilidad en la mujer.El Ginseng potencia el efecto que produce la L - Arginina, aumentando la excitación. ------ Beneficios: Orgasmos más rápidos y más intensos, No altera el PH vaginal, No mancha, no deja residuos, es inoloro, Es hidrosoluble, compatible con el uso de preservativos. 50ml",
         categoria: "Lubricantes"
     },
     {
@@ -1455,7 +1415,7 @@ const Products = [
         image2: "img/lubricantes/gel lubricante intimo anal sedanal miss v 50ml.webp",
         name: "Gel lubricante Íntimo Anal Sedanal Miss V 50ml",
         price: "$2,670.00",
-        descripcion: "",
+        descripcion: "Cremagel lubricante íntimo anal. Formulado con SILICONA HIBRIDA HIDROSOLUBLE, que mantiene la lubricación por mas tiempo. Diseñado para generar una textura sedosa. Al aplicarlo, la gota tiene aspecto de crema y cuando se extiende posee las características del gel. Pensado para relaciones anales, sumamos a la formula CARDAMOMO y CLAVO de OLOR, que por sus propiedades naturales relajan y protegen la piel. Combina las características humectantes del gel, sumadas a la sedosidad de la crema y la silicona",
         categoria: "Lubricantes"
     },
     {
@@ -1463,7 +1423,7 @@ const Products = [
         image2: "img/lubricantes/pouch oh yes! crema orgasmica estimulacion.png",
         name: "Pouch Oh Yes! Crema Orgasmica",
         price: "$391.00",
-        descripcion: "",
+        descripcion: "Con tan solo un poco de crema sobre tu zona genital sentirás como se intensifica cada caricia, roce, beso y juego sexual que puedas imaginar. Multiplicando tu placer, lubricación, deseo e incrementando el grado de goce en momentos de clímax. Ya sea a solas o en pareja, sin duda esta en una crema mágica para experiencias y juegos que no podes dejar pasar. ¡Disfruta de los orgasmos más potentes! Intensifica los orgasmos, Mayor Excitación, Mejora la lubricación",
         categoria: "Lubricantes"
     },
     {
@@ -1471,8 +1431,35 @@ const Products = [
         image2: "img/lubricantes/Pouch Oh Yes! Lubricante Revujenation.png",
         name: "Pouch Oh Yes! Lubricante Revujenation",
         price: "$391.00",
-        descripcion: "",
+        descripcion: "Gel-crema para el rejuvenecimiento de la zona íntima. Debido a la presencia de aceites naturales, Caléndula y Vitamina E, ejerce una notable acción tonificante y reafirmante.CON ACEITES NATURALES, CALÉNDULA Y VITAMINA E. Lubricante e hidratante que ayuda con la sequedad vaginal. Restaura la hidratación íntima, imitando la lubricación natural. Restaura la hidratación íntima, imitando la lubricación natural.El gel crema íntimo de Sexitive proporciona una fuerte acción hidratante y reafirmante sobre la zona vulvo- vaginal gracias a la Caléndula, Vitamina E y mezcla de hidratantes, protegiendo la zona vaginal.",
         categoria: "Lubricantes"
+    },
+    //---------------------------------------------------------------------------------------------------------------------------
+    //----------------------------------------------------------------LIMPIADORES DE JUGUETES
+    //---------------------------------------------------------------------------------------------------------------------------
+    {
+        image: "img/lubricantes/Toy Cleaner Limpiador de juguetes Premium sexitive 120ml.jpg",
+        image2: "img/lubricantes/Toy Cleaner Limpiador de juguetes Premium sexitive 120ml.jpg",
+        name: "Limpiador de Juguetes Premiun Sexitive 120cc",
+        price: "$1,623.00",
+        descripcion: "",
+        categoria: "Limpiadores de juguetes"
+    },
+    {
+        image: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
+        image2: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
+        name: "Limpiador de Juguetes Fly Night 100cc",
+        price: "$2,014.00",
+        descripcion: "",
+        categoria: "Limpiadores de juguetes"
+    },
+    {
+        image: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
+        image2: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
+        name: "Limpiador de Juguetes Fly Night 90cc",
+        price: "$1,531.00",
+        descripcion: "",
+        categoria: "Limpiadores de juguetes"
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------BOLAS KEGEL
