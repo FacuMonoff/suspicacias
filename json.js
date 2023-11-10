@@ -1443,7 +1443,7 @@ const Products = [
         name: "Limpiador de Juguetes Premiun Sexitive 120cc",
         price: "$1,623.00",
         descripcion: "",
-        categoria: "Limpiadores de juguetes"
+        categoria: "Limpiadores-de-juguetes"
     },
     {
         image: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
@@ -1451,7 +1451,7 @@ const Products = [
         name: "Limpiador de Juguetes Fly Night 100cc",
         price: "$2,014.00",
         descripcion: "",
-        categoria: "Limpiadores de juguetes"
+        categoria: "Limpiadores-de-juguetes"
     },
     {
         image: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
@@ -1459,7 +1459,7 @@ const Products = [
         name: "Limpiador de Juguetes Fly Night 90cc",
         price: "$1,531.00",
         descripcion: "",
-        categoria: "Limpiadores de juguetes"
+        categoria: "Limpiadores-de-juguetes"
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------BOLAS KEGEL
@@ -1469,7 +1469,7 @@ const Products = [
         image2: "img/KEGEL/kegel ball 4 pink.jpg",
         name: "Kegel Ball 4 Pink",
         price: "$12,290.72",
-        descripcion: "",
+        descripcion: "Mejora tu control vaginal con la increíble Bola Kegel de Sex Therapy. Ayudan a fortalecer los músculos pélvicos para experimentar orgasmos más intensos, y contribuyen a recuperar la sensibilidad vaginal tras dar a luz o por prescripción médica. Gracias a su forma alargada y ovalada es más fácil su inserción. ----- Medidas : 3, 5 cmx 15, 5 cm(cordón incluido), Material: Silicona Premiun, libre de Ftalatos, olor y tóxicos.",
         categoria: "Kegel"
     },
     {
@@ -1477,7 +1477,7 @@ const Products = [
         image2: "img/KEGEL/Smart Love Balls Blue.jpg",
         name: "Smart Love Balls Blue",
         price: "$10,773.38",
-        descripcion: "",
+        descripcion: "Descripción 100% nuevos juguetes sexuales femeninos Forma popular para el placer Cordón para una fácil extracción Fortalece los músculos de Kegel para un control mejor y más estricto Perfecto para mujeres que sufren de incontinencia y después de dar a luz Dale un buen entrenamiento a tu suelo pélvico Aumenta la fuerza de tu Material: silicona",
         categoria: "Kegel"
     },
     {
@@ -1485,7 +1485,7 @@ const Products = [
         image2: "img/KEGEL/Kegel Ball Pink.jpg",
         name: "Kegel Ball Pink",
         price: "$12,290.72",
-        descripcion: "",
+        descripcion: "Las bolas vaginales están diseñadas para fortalecer y tonificar la musculatura del suelo pélvico. Poseen unas pequeñas esferas en su interior para ayudar a la contracción del músculo y otorgarles peso. Las bolitas internas, con el movimiento del cuerpo al andar generan vibraciones que hacen reaccionar la musculatura pélvica con suaves contracciones. Un hábito sencillo y eficaz contra las pequeñas perdidas de orina y a mantener la juventud de la zona íntima femenina. Ginecólgos y terapeutas de todo el mundo recomiendan su uso a personas con vulva de todas las edades para prevenir la aparición de pérdidas leves de orina. ----- Material: Silicona + ABS ----- Colores: Violeta y Rosado. ----- Diámetro: 3, 15 cm. ----- Longitud efectiva: 11, 80 cm. ----- Ancho efectivo 4, 20 cm. ----- Longitud Total: 16, 70 cm. ----- Peso: 38, 8 gr.",
         categoria: "Kegel"
     },
     {
@@ -1493,7 +1493,7 @@ const Products = [
         image2: "img/KEGEL/kegel ball 1 fucsia.png",
         name: "Kegel Ball 1 Fucsia",
         price: "$12,290.72",
-        descripcion: "",
+        descripcion: " Bolas vaginales kegel un ejercitador perfectamente con un cordón de fácil recuperación y un cuerpo lujoso que es seguro y sensual a la vez. Hecho de silicona y ABS 14.5 cm INTRODUCIBLE: 3 cm x 6 cm, tendrá todo lo que necesita para obtener exactamente lo que desea. El ejercitador Kegel es tan seguro como gratificante. Encuentra el placer apasionado que deseas y alcanza una satisfacción increíble. Durablemente diseñado, proporciona la cima de la emoción sensual. Recomendaciones de uso: Limpieza con agua y jabón neutro. Es recomendable el uso de lubricantes al agua con este producto. Guardarlo completamente limpio y seco en contenedores de tela preferentemente. ",
         categoria: "Kegel"
     },
     {
@@ -1501,7 +1501,7 @@ const Products = [
         image2: "img/KEGEL/Playballs AG-119.jpeg",
         name: "Playballs Silver",
         price: "$22,594.84",
-        descripcion: "",
+        descripcion: "LAS BOLAS DE KEGEL DE METAL SÓLIDA Y PESADA AYUDAN A TONIFICAR Y TONIFICAR EL SUELO PÉLVICO: estas bolas móviles avanzadas ofrecen una estimulación discreta del punto G a la vez que ofrecen efectos tonificantes extremos para los músculos internos del suelo pélvico. Úselo durante los juegos previos para intensificar las sensaciones. FÁCIL DE USAR Y QUITAR CON CABLE DE RECUPERACIÓN DE SILICONA FUERTE: Inserte una bola a la vez usando abundante lubricante para mayor deslizamiento y comodidad. Un fuerte cordón de nailon conecta las bolas para ejercitar el suelo pélvico, uniéndolas a un gran lazo de metal para los dedos, lo que garantiza que las bolas no se desplacen durante el uso. ",
         categoria: "Kegel"
     },
     {
@@ -1509,7 +1509,7 @@ const Products = [
         image2: "img/KEGEL/kegel ball 2 fucsia.jpeg",
         name: "Kegel Ball 2 Fucsia",
         price: "$11,475.05",
-        descripcion: "",
+        descripcion: "Las bolas vaginales están diseñadas para fortalecer y tonificar la musculatura del suelo pélvico. Poseen unas pequeñas esferas en su interior para ayudar a la contracción del músculo y otorgarles peso. Las bolitas internas, con el movimiento del cuerpo al andar generan vibraciones que hacen reaccionar la musculatura pélvica con suaves contracciones. Ginecólogos y terapeutas de todo el mundo recomiendan su uso a mujeres de todas las edades para prevenir la aparición de pérdidas leves de orina. El suelo pélvico es un conjunto de músculos que sostiene toda la parte baja del abdomen, como un arco protector de apoyo para la vejiga de la orina, el útero y la parte inferior del intestino grueso. El ejercicio, evita desprendimientos uterinos, tonificar los músculos del suelo pélvico son es parte importante porque son los responsables de un mayor placer sexual. ",
         categoria: "Kegel"
     },
     //---------------------------------------------------------------------------------------------------------------------------
@@ -1520,15 +1520,15 @@ const Products = [
         image2: "img/JUEGOS/juego-de-dados-oh my good.jpg",
         name: "Oh my god! Juego de Dados Clásico",
         price: "$1,244.00",
-        descripcion: "",
+        descripcion: "Presentamos Oh My God de Sexitive, el juego que elevará tus encuentros íntimos a niveles de pasión inimaginables. Consta de dos dados: uno con zonas del cuerpo y otro con acciones sensuales y atrevidas. Prepárate para un juego lleno de emoción, exploración y placer desenfrenado. Oh My God es perfecto para parejas que desean agregar un toque de diversión y excitación a su vida sexual. Con cada lanzamiento de los dados, descubrirás qué zona del cuerpo explorar y qué acción realizar en ella. Desde masajes eróticos hasta besos apasionados, cada combinación te llevará a un mundo de sensaciones intensas y placer compartido.",
         categoria: "juegos"
     },
     {
         image: "img/JUEGOS/lucky lovers, your pleasure.webp",
         image2: "img/JUEGOS/lucky lovers, your pleasure.webp",
-        name: "Lucky Lovers, Your Pleasure – Raspá & jugá",
+        name: "Lucky Lovers, Your Pleasure - Raspá & jugá",
         price: "$4,313.00",
-        descripcion: "",
+        descripcion: "¿CÓMO SE JUEGA? Separá las cartas LUCKY, de las cartas LOVERS. El dado LUCKY LOVERS te indicará cómo fue hechada tu suerte y con qué mazo vas a jugar. El dado NUMÉRICO te indicará con qué carta del mazo vas a jugar. Ya tenés tu carta, el dado SÍMBOLOS te indicará cuál sector vas a raspar para realizar la acción. ----- contiene: 3 dados + 12 cartas ",
         categoria: "juegos"
     },
     {
@@ -1536,23 +1536,23 @@ const Products = [
         image2: "img/JUEGOS/mini poker xxx edition sexitive.webp",
         name: "Mini Poker XXX Edition Sexitive",
         price: "$2,278.00",
-        descripcion: "",
+        descripcion: "Mini Poker XXX Edition Baraja de poker con un twist picante!! Un sexy kamasutra para jugar al poker, donde todos se divierten. Lo mejor es que nadie pierde! Incluye: - 50 Mini cartas de poker con posiciones sexuales",
         categoria: "juegos"
     },
     {
         image: "img/JUEGOS/lucky raspa-juga-sexitive.jpg",
         image2: "img/JUEGOS/lucky raspa-juga-sexitive.jpg",
-        name: "Lucky lovers, Your Connection – Raspá & jugá Sex",
+        name: "Lucky lovers, Your Connection - Raspá & jugá",
         price: "$4,313.00",
-        descripcion: "",
+        descripcion: "Separá las cartas LUCKY, de las cartas LOVERS. El dado LUCKY LOVERS te indicará cómo fue tu suerte y con qué mazo vas a jugar. El dado NUMÉRICO te indicará con qué carta del mazo vas a jugar. Ya tenés tu carta, el dado SÍMBOLOS te indicará cuál sector vas a raspar para realizar la acción. ----- CONTIENE: 3 dados + 12 cartas",
         categoria: "juegos"
     },
     {
         image: "img/JUEGOS/kamasutra-50-posic.jpg",
         image2: "img/JUEGOS/kamasutra-50-posic.jpg",
-        name: "Kamasutra – 50 posiciones sexuales",
+        name: "Kamasutra - 50 posiciones sexuales",
         price: "$4,313.00",
-        descripcion: "",
+        descripcion: "Kamasutra 50 posiciones sexuales con tips y descripciones. Las 50 posturas sexuales más placenteras. Añade estas posturas de Kamasutra a tu lista de posiciones sexuales habituales e invita a tu pareja a ponerlas en práctica. ¿Te animas a intentarlo ? Este juego contiene cartas con posiciones extraordinarias que van a llevar su pasión a otro extremo.",
         categoria: "juegos"
     },
     {
@@ -1560,7 +1560,7 @@ const Products = [
         image2: "img/JUEGOS/please-do-not-disturb-juego-de-dados.jpg",
         name: "Please! Do not disturb + Juego de Dados",
         price: "$3,186.00",
-        descripcion: "",
+        descripcion: "Los Dados Eróticos Juego Pareja Kamasutra Please! Do Not Disturb son el complemento perfecto para una noche llena de diversión y pasión. Con este juego, podrás explorar nuevas experiencias junto a tu pareja y descubrir nuevas formas de disfrutar el placer. Cada dado cuenta con diferentes posiciones y acciones que podrás combinar para crear un juego lleno de sorpresas y emociones. Solo lanza los dados y déjate llevar por las indicaciones que te marquen. ¡La diversión está garantizada!Con los Dados Eróticos Juego Pareja Kamasutra Please! Do Not Disturb, podrás romper la rutina y explorar nuevas formas de intimidad con tu pareja.Atrévete a probar nuevas posiciones y acciones que te llevarán a alcanzar niveles de placer nunca antes experimentados. No esperes más y adquiere los Dados Eróticos Juego Pareja Kamasutra Please! Do Not Disturb. ¡Descubre una nueva dimensión de placer junto a tu pareja!",
         categoria: "juegos"
     },
     {
@@ -1568,7 +1568,7 @@ const Products = [
         image2: "img/JUEGOS/kinky-game-50-actividades.jpg",
         name: "Kinky Game 50 Actividades Fetiches",
         price: "$4,509.00",
-        descripcion: "",
+        descripcion: "Kinky Game, 50 actividades fetiches y sexies para parejas. Cada jugador, por turnos, tiene que sacar un fósforo de la cajita al azar y hacer lo que este le indica. El objetivo? Animarse a lo nuevo y crear un sexo mas salvaje. Ideal para prender la pasion de manera explosiva!",
         categoria: "juegos"
     },
     {
@@ -1576,7 +1576,7 @@ const Products = [
         image2: "img/JUEGOS/on-fire-50-maneras.jpg",
         name: "On Fire 50 Maneras Para Prenderse Fuego",
         price: "$4,509.00",
-        descripcion: "",
+        descripcion: "On Fire, 50 maneras para prenderse fuego Ideal para encender la pasión en una reunión de amigos y elevar la temperatura al máximo! Para + de 3 jugadores",
         categoria: "juegos"
     },
     {
@@ -1584,7 +1584,7 @@ const Products = [
         image2: "img/JUEGOS/fantasy-pleasure.jpg",
         name: "Fantasy Pleasure Game Fantasías",
         price: "$6,129.00",
-        descripcion: "",
+        descripcion: "Es el juego ideal para aquellas personas que quieran desarrollar su lado experimental y atrevido. Metete en tu personaje y actuá alguna de tus fantasías secretas. Usá la imaginación e improvisación para hacer que los personajes cobren vida. ----- Contiene 80 cartas con ilustraciones. ",
         categoria: "juegos"
     },
     {
@@ -1592,7 +1592,7 @@ const Products = [
         image2: "img/JUEGOS/lets-fuck.jpg",
         name: "Let’s Fuck Juego de cartas + dados Sexitive",
         price: "$4,313.00",
-        descripcion: "",
+        descripcion: "Let's Fuck Es un juego intimo pensado para dos personas. La comunicación es la base de este juego. Anímense a conocerse y hacer del sexo un momento más íntimo y placentero. Comunicar exactamente lo que queremos conduce a una mayor excitación y satisfacción sexual. En las cartas vas a encontrar desde preguntas y tareas que implican acciones no solo físicas sino habladas. Escucha a tu pareja susurrar, gemir y gritar de placer. ----- COMO JUGAR? Separá las cartas en sus tres categorías: Talk, Hot, Sex Experience. Tirá los dados para saber con cuales de las cartas vas a jugar. Las elegidas te indicarán qué pregunta u oración tenés que leer y responder. Las cartas sex incluyen tips para hablar sucio.",
         categoria: "juegos"
     },
     {
@@ -1600,7 +1600,7 @@ const Products = [
         image2: "img/JUEGOS/extreme-games-6-juegos-en-1.jpg",
         name: "Extreme Games 6 juegos en 1",
         price: "$6,658.00",
-        descripcion: "",
+        descripcion: "6 juegos en 1. Van a encontrar 6 diferentes juegos con diferentes sensaciones. Desde posiciones sexuales para cada día de la semana hasta fantasías que nunca habías escuchado de tu pareja. Opción perfecta para aquellas parejas que quieran divertirse con más de una sola opción.",
         categoria: "juegos"
     },
     {
@@ -1608,7 +1608,7 @@ const Products = [
         image2: "img/JUEGOS/tarot-erotico.jpg",
         name: "Tarot Erótico For Lovers",
         price: "$6,658.00",
-        descripcion: "",
+        descripcion: "Predice con exactitud el futuro sexual de esta noche. En este juego encontrarás desde posturas de sexo oral increíbles hasta posiciones con juguetes. Contiene 78 posiciones sexuales, 78 oportunidades para brindar y recibir el placer mas intenso. Repartí 10 cartas a tu amante tal como lo haría una vidente y juntos podrán representar la carta que quieren que se haga realidad. Este es un juego para adultos donde todo está permitido pero nada es obligatorio.La confianza, el respeto y el consentimiento mutuo forman la base de este juego. -----  Incluye  - 80 cartas",
         categoria: "juegos"
     },
     {
@@ -1616,7 +1616,7 @@ const Products = [
         image2: "img/JUEGOS/dados eroticos de posiciones kamasutra generala.jpg",
         name: "Dados Erótico de Posiciones Kamasutra Generala",
         price: "$2,105.00",
-        descripcion: "",
+        descripcion: "El mejor remedio contra la rutina es la imaginación. Pero si notas que cada vez te cuesta más ser un poquito original en la cama, ¡Te tenemos la solución! Estos dados con posturas sexuales te vendrán genial para recuperar la inspiración. Los juegos eróticos para pareja ayudan a recuperar el interés por el sexo.Cuando notes que la rutina empieza a apoderarse de tu vida sexual echa mano de recursos tan originales como éste.Si eres fan del famoso libro indio del Kamasutra, este es el juego que necesitas. Los dados con posturas sexuales te invitan a descubrir nuevas formas de placer. ¿Estás preparado? Características: ----- 5 Dados con posturas sexuales ----- Ideas originales para tus encuentros íntimos en pareja ----- Solución rápida y sencilla a la hora de tomar decisiones ----- Cantidad: 5 dados",
         categoria: "juegos"
     },
     {
@@ -1624,7 +1624,7 @@ const Products = [
         image2: "img/JUEGOS/juego de carta verdad o desafio retos atrevido sexitive.jpeg",
         name: "Juego de cartas Verdad Desafío: Retos Atrevidos",
         price: "$6,129.00",
-        descripcion: "",
+        descripcion: "Juego de cartas Verdad Desafío Un juego divertido, picante y excitante. Consta de 80 preguntas y retos atrevidos con los que vas a poder divertirte en pareja o con amigos. ----- VERDAD: Respondé de manera honesta, cuanto mas detallada la respuesta, mejor! Si tus compañeros consideran que no estás siendo sincero o si te negás a responder, pasas automaticamente a las cartas de DESAFÍO. ----- DESAFÍO: Atrvete con todo y realizá la acción. Si cumplís el desafío tu turno finalizará con éxito. Pero si te negás a responder vas a tener que tomar un shot de alguna bebida alcohólica. ----- Contiene 80 cartas + 1 dado",
         categoria: "juegos"
     },
     {
@@ -1632,7 +1632,7 @@ const Products = [
         image2: "img/JUEGOS/juegos de cartas ladies night.jpg",
         name: "Juego de cartas Ladies Night: For the girls",
         price: "$6,129.00",
-        descripcion: "",
+        descripcion: "Este es el juego ideal para el grupo de amigas que quiera tener una noche íntima y divertida, dejando de lado por un rato a los hombres. Los cuatro mazos divididos en Just for Fun, Personal Life, Sex and Relationships e Intimate Mood, harán que una reunión simple y cotidiana sea diferente y alocada. Contiene 80 cartas y 1 dado. ----- OBJETIVO del Juego Ladies Night: Cada jugadora deberá juntar la mayor cantidad de cartas posibles, respondiendo o haciendo lo que las mismas indican. El resto de las mujeres tiene la posibilidad de cuestionar y opinar sobre la respuesta de la jugadora y pueden decidir si se queda con la carta o no.Gana la jugadora que más cartas obtenga.",
         categoria: "juegos"
     },
     {
@@ -1640,7 +1640,7 @@ const Products = [
         image2: "img/JUEGOS/juego-challenge-30-days.jpg",
         name: "Juego Challenge 30 days Desafíos durante 30 días",
         price: "$1,830.00",
-        descripcion: "",
+        descripcion: "Para aquellas parejas que quieran salir de la cotidianeidad de sus encuentros sexuales y desean estimularlos todos los días. ¿Aguantarás 30 días haciendo juegos sexuales ? Este juego es la oportunidad perfecta para innovar en la intimidad dándole un toque de imaginación a las fantasías ocultas de cada integrante de la pareja, lo cual puede mejorar la relación y comunicación y a descubrir nuevas formas de complacer al otro.",
         categoria: "juegos"
     },
     {
@@ -1648,7 +1648,7 @@ const Products = [
         image2: "img/JUEGOS/les amants.jpg",
         name: "Cartas Y Dados Les Amants Juegos Eróticos Sexitive",
         price: "$4,313.00",
-        descripcion: "",
+        descripcion: "LES AMANTS es el juego perfecto para parejas que confían 100% el uno en el otro y buscan aventuras eróticas fuera de lo convencional. Atrevete a jugar con placer. ----- Cómo se juega? Primero separá las cartas Bondage de las Seductions. El dado BONDAGE O SEDUCTIONS te indicará como fue hechada tu suerte y con qué mazo vas a jugar. El dado SÍMBOLOS te indicará con que carta dentro de las seis que tiene BONDAGE O SEDUCTIONS vas a jugar. Por ejemplo: carta BONDAGE, símbolo ON FIRE Ya tenés tu carta, ahora tirá el dado NUMÉRICO que te indicará la acción que deberás hacer. Este es un juego para adultos donde todo esta permitido, pero nada es obligatorio. La confianza y el respeto mutuos forman la base del juego. ----- Contiene: 6 cartas BONDAGE 6 cartas SEDUCTIONS 1 dado numérico 1 dado SEDUCTIONS O BONDAGE. 1 dado con simbolos",
         categoria: "juegos"
     },
     {
@@ -1656,7 +1656,7 @@ const Products = [
         image2: "img/JUEGOS/sex time game dado + reloj de arena.jpg",
         name: "Sex Time Game Dado + Reloj de Arena",
         price: "$3,059.00",
-        descripcion: "",
+        descripcion: "Incluye reloj de arena + dado con posiciones sexuales. Nueva presentación con un embalaje increíble, vas a amarlo! Te animas a jugar?",
         categoria: "juegos"
     },
     {
@@ -1664,7 +1664,7 @@ const Products = [
         image2: "img/JUEGOS/cartas y dados juego erotico sexplay.jpeg",
         name: "Cartas y Dados Juego Erótico Sexplay",
         price: "$4,313.00",
-        descripcion: "",
+        descripcion: "¿Sabes qué tiene de original esta noche? Que no hay nada escrito. Da igual la idea que tuvieras en mente: las Cartas Sexplay Fetiche o Romance Sexitive transformarán la velada a tu antojo. ¿Cómo se juega ?   1) Separa las cartas fetiches de las romance. 2) El dado rosa FETICHE O ROMANCE te indicará con cual juego de cartas jugarás 3) El dado negro SÍMBOLOS te indicará con que carta dentro de las seis que tiene fetiche o romance vas a jugar.Por ejemplo: carta fetiche, símbolo antifaz. 4) Ya tenés tu carta, ahora tirá el dado NUMÉRICO de corazones que te indicará la acción que deberás hacer. Este es un juego para adultos donde todo está permitido, pero nada es obligatorio.La confianza y el respeto mutuos forman la base del juego. ----- Contiene: 6 cartas romance con acciones ROMÁNTICA, 6 cartas fetiche con acciones FETICHES, 1 dado numérico, 1 dado fetiche o romance, 1 dado con simbolos",
         categoria: "juegos"
     },
     {
@@ -1672,7 +1672,7 @@ const Products = [
         image2: "img/JUEGOS/dados secret game.jpg",
         name: "Juego de Dados - Secret Game",
         price: "$2,565.00",
-        descripcion: "",
+        descripcion: "CÓMO JUGAR: El poseedor/a de los dados realizará la acción en el lugar que le toque en un tiempo determinado. Cada dado tiene 6 variables diferentes! ¡Saca tu lado más atrevido! Podes darle más chispa con productos eróticos, lubricantes y aceites comestibles, o de masaje!",
         categoria: "juegos"
     },
     {
@@ -1680,7 +1680,7 @@ const Products = [
         image2: "img/JUEGOS/juegos de dado - love play.jpeg",
         name: "Juego de Dados - Love Play Sixitive",
         price: "$2,565.00",
-        descripcion: "",
+        descripcion: "Kit de juego de dados love play. Buscas ideas originales y divertidas para sorprender a tu pareja. Este es tu juego ----- CÓMO JUGAR: El poseedor/a de los dados realizará una posición determinada en el lugar asignado con la intensidad que le toque. Podes darle más chispa con productos eróticos, lubricantes y aceites comestibles, o de masaje! ¡Saca tu lado más atrevido! CONTIENE: 1 dado rosa de 16 mm(representa las posiciones a realizar). 1 dado negro de 16 mm(representa la intensidad). 1 dado negro de 16 mm(representa los lugares).",
         categoria: "juegos"
     },
     {
@@ -1688,7 +1688,7 @@ const Products = [
         image2: "img/JUEGOS/cartas-eroticas-kamasutra.jpg",
         name: "Cartas Eróticas Kamasutra",
         price: "$3,278.00",
-        descripcion: "",
+        descripcion: "Set de cartas ilustradas a color hechas de cartón plastificado, con las posiciones del Kamasutra. El mazo contiene 20 cartas con las distintas posiciones y descripciones. Para aprender y jugar!",
         categoria: "juegos"
     },
     {
@@ -1696,7 +1696,7 @@ const Products = [
         image2: "img/JUEGOS/juego de mesa erotico permitido sex parejas.jpg",
         name: "Juego de Mesa Erótico Permitido Sex Parejas",
         price: "$10,241.00",
-        descripcion: "",
+        descripcion: "Permitido sex es un juego erótico diseñado específicamente para parejas o para sus permitidos. Dentro de esta increíble caja vas a encontrar un tablero y cartas con propuestas muy dinámicas y divertidas pero sobre todos calientes. No solo la pasión y sensualidad tiene parte en estos juegos, sino la ventaja de poder conocer mas sobre los gustos y fantasías de tu pareja. Sin dudas ofrece una velada placentera y excitante que siempre termina con algo de diversión al desnudo.",
         categoria: "juegos"
     },
     //---------------------------------------------------------------------------------------------------------------------------
@@ -1707,7 +1707,7 @@ const Products = [
         image2: "img/anal/Dilatador 3 Large.jpg",
         name: "Dilatador 3 Largue ST",
         price: "$21,875.25",
-        descripcion: "",
+        descripcion: "Los dilatadores de diseño exclusivo tienen una curva ergonómica y un tamaño gradual para permitir una dilatación suave. Las sondas de silicona premium tienen un asa para los dedos duradera para una inserción y estimulación suave. El conjunto graduado se ha creado para rejuvenecer los músculos vaginales y reducir las molestias de inserción con cada uso.Use el pequeño dilatador para comenzar y, a medida que ejercita suavemente y aumente la elasticidad de los músculos, avance a la sonda más grande.La silicona premium es segura para el cuerpo, sin perfume y libre de ftalatos para mantener los puntos más sensibles, felices y saludables.",
         categoria: "anal"
     },
     {
@@ -1715,7 +1715,7 @@ const Products = [
         image2: "img/anal/Agus 3 Red.jpg",
         name: "Agus 3 Red ST",
         price: "$16,142.02",
-        descripcion: "",
+        descripcion: "Este plug anal con diseño texturado y puntiagudo ayuda realmente al ingresar perfectamente en tu cuerpo-. En su parte inferior posee ventosa. Te va a encantar! Adaptable para cualquier tipo de arnés universal. -----  Medidas: 13, 6 cm x 3 cm",
         categoria: "anal"
     },
     {
@@ -1723,7 +1723,7 @@ const Products = [
         image2: "img/anal/Leo.jpg",
         name: "Leo - Cola de Ratón ST",
         price: "$15,113.89",
-        descripcion: "",
+        descripcion: "Estimulador anal de silicona, forma conica, para ayudar a acostubrar o relajar la zona anal, tope seguro, pensado para dejar colocado y seducir con la cola larga extra, colorida de raton ----- Medidas: 21, 5 x 3, 2 x 9, 2cm aprox",
         categoria: "anal"
     },
     {
@@ -1731,31 +1731,16 @@ const Products = [
         image2: "img/anal/Dilatador 3 Medium.jpg",
         name: "Dilatador 3 Medium ST",
         price: "$14,635.70",
-        descripcion: "",
+        descripcion: "Los dilatadores de diseño exclusivo tienen una curva ergonómica y un tamaño gradual para permitir una dilatación suave. Las sondas de silicona premium tienen un asa para los dedos duradera para una inserción y estimulación suave. El conjunto graduado se ha creado para rejuvenecer los músculos vaginales y reducir las molestias de inserción con cada uso.Use el pequeño dilatador para comenzar y, a medida que ejercita suavemente y aumente la elasticidad de los músculos, avance a la sonda más grande.La silicona premium es segura para el cuerpo, sin perfume y libre de ftalatos para mantener los puntos más sensibles, felices y saludables.",
         categoria: "anal"
     },
-    {
-        image: "img/anal/Ducha Anal 2 - 310ml ST.jpg",
-        image2: "img/anal/Ducha Anal 2 - 310ml ST.jpg",
-        name: "Ducha Anal 2 - 310ml ST",
-        price: "$11,119.75",
-        descripcion: "",
-        categoria: "anal"
-    },
-    {
-        image: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
-        image2: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
-        name: "Easy Clean Enema 2 - 89ml ST",
-        price: "$10,773.30",
-        descripcion: "",
-        categoria: "anal"
-    },
+
     {
         image: "img/anal/Playtail Fox Anal Plug Pink.jpg",
         image2: "img/anal/Playtail Fox Anal Plug Pink.jpg",
         name: "Playtail Fox Anal Plug Pink ST",
         price: "$19,877.42",
-        descripcion: "",
+        descripcion: "Este plug anal de metal está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. Puedes jugar con la temperatura calentándolo o enfriándolo. Esto añadirá excitación en tus fantasías eróticas. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Las colas de diferentes animales y colores es un fetiche muy frecuente, anímate a jugar de otra manera y a sentirte diferente conformando es una estimulante visión sexual. ----- Características: Dilatador anal S. ----- Medidas: longitud 7.5 cm diámetro 2.5cm. -----  Cola simulando Zorro Rosa coral. -----  Aluminio ultra- liso. ----- Pelo sintético. ----- No contiene Níquel. ----- Impermeable. ----- Utilizar lubricante anal a base de agua.",
         categoria: "anal"
     },
     {
@@ -1763,7 +1748,7 @@ const Products = [
         image2: "img/anal/Plug Silicona Blue Large ST.jpg",
         name: "Plug Silicona Blue Large ST",
         price: "$15,325.40",
-        descripcion: "",
+        descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación.",
         categoria: "anal"
     },
     {
@@ -1771,7 +1756,7 @@ const Products = [
         image2: "img/anal/Plug Gold Rose Heart Large.jpg",
         name: "Plug Gold Rose Heart Large ST",
         price: "$16,842.74",
-        descripcion: "",
+        descripcion: "Plug anal con engarce en la base emulando una gema en ABS, en forma de corazón. ----- Caracteristicas. Material: aleación de aluminio ultra- liso ----- Longitud: 9, 5cm ----- Diámetro: 4cm ----- Sumergible.",
         categoria: "anal"
     },
     {
@@ -1779,7 +1764,7 @@ const Products = [
         image2: "img/anal/Nicoles Vibra Plug.png",
         name: "Nicoles Plug Vibro Blue ST",
         price: "$12,728.00",
-        descripcion: "",
+        descripcion: "El Plug Anal Azul Con Vibrador Nicole's Anal Pleaser Blue es más que un juguete, es una invitación a explorar nuevas formas de placer y a descubrir un mundo de sensaciones que te sorprenderán. No esperes más, añade un toque de emoción a tu vida íntima con este increíble producto.",
         categoria: "anal"
     },
     {
@@ -1787,10 +1772,10 @@ const Products = [
         image2: "img/anal/Platinum Waterproof Micro Inexpulsable M Negro.jpg",
         name: "Inexvibe Real Skin",
         price: "$5,098.00",
-        descripcion: "",
+        descripcion: "De la línea Platinum de Real Skin, llega este inexpulsable con vibrador, muy útil para cuando no se tiene experiencia en la penetración anal. Es ideal para dilatar la zona aunque siempre hay que ser cuidadosxs, y ayudar a que esa dilatación se produzca de la forma más natural posible(paciencia). Su anillo en el extremo, además de brindarnos seguridad, nos ayuda a retirar lentamente el juguete, aumentando aún más, el placer. ----- Medidas aprox: Largo 15cm, Diámetro maximo 3cm, Autonomía: 3 Pilas Botón ----- Recomendamos siempre el uso de lubricantes",
         categoria: "anal"
     },
-    {
+    /*{
         image: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
         image2: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
         name: "Anal Inexpulsable Mini Vibrador Violeta Caimán",
@@ -1805,16 +1790,16 @@ const Products = [
         price: "$3,126.00",
         descripcion: "",
         categoria: "anal"
-    },
+    },*/
     {
         image: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
         image2: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
         name: "Plug Personal Trainer Estimulador Anal Caimán",
         price: "$2,894.00",
-        descripcion: "",
+        descripcion: "Plug Anal Personal Trainer Piel. Plug mega suave y delicado, ideal para quienes buscan una experiencia memorable. Este dilatador es recomendable para iniciarse en el sexo anal. Es compatible con arnés, por lo que podrás disfrutar de tu juego sexual de otra manera. ----- Su medida es de 10 cm y 4 cm de diámetro.",
         categoria: "anal"
     },
-    {
+    /*{
         image: "img/anal/plug inexpulsable penetrador anal caiman.jpg",
         image2: "img/anal/plug inexpulsable penetrador anal caiman.jpg",
         name: "Plug Penetrador Anal Caimán",
@@ -1837,29 +1822,29 @@ const Products = [
         price: "$6,612.00",
         descripcion: "",
         categoria: "anal"
-    },
+    },*/
     {
         image: "img/anal/Gancho Anal de metal.jpg",
         image2: "img/anal/Gancho Anal de metal.jpg",
         name: "Gancho Anal De Metal 17x2 Bulk Con Aro Deseos Cap",
         price: "$12,066.00",
-        descripcion: "",
+        descripcion: "Para verdaderos amantes de los juegos BDSM. Este gancho de sujecion puede utilizarse tanto de forma anal como vaginal para restringir el movimiento de tu pareja y someterla de una manera completamente nueva. Utilizá el extremo anillado para atarlo e impedir que se mueva. ----- MEDIDAS: Diametro interno: 5cm, Diametro bola insertable: 3cm, Largo total: 17cm, Espesor: 2cm  ",
         categoria: "anal"
     },
-    {
+    /*{
         image: "img/anal/Super Plug XL El Grande.jpg",
         image2: "img/anal/Super Plug XL El Grande.jpg",
         name: "Super Plug 22x11 Caimán",
         price: "$12,720.00",
         descripcion: "",
         categoria: "anal"
-    },
+    },*/
     {
         image: "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
         image2: "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
-        name: "Anal Beads 1 Fucsia (SI082 Fucsia) ST",
+        name: "Anal Beads 1 Fucsia ST",
         price: "$12,233.72",
-        descripcion: "",
+        descripcion: "ST te lo pone fácil con esta cadena de bolas anales para que puedas disfrutar cómo nunca. Cuentan con 10 bolas que van aumentando de tamaño según se van introduciendo, de tacto suave y con anilla para facilitar su extracción y jugar de forma segura. En una de las cadenas las bolas son redondeadas, para una mejor inserción para principiantes. Ideal retirarlo conjuntamente con tu orgasmo. A practicar! La idea de este juguete es justamente esto. Colocar la cantidad de cuentas que creas convenientes, retirar a un ritmo estimulante y retirar con tu orgasmo",
         categoria: "anal"
     },
     {
@@ -1867,7 +1852,7 @@ const Products = [
         image2: "img/anal/Jimy 1 Blue.jpg",
         name: "Jimy 1",
         price: "$39,538.94",
-        descripcion: "",
+        descripcion: "Este vibrador anal con una leve curvatura  texturada y con diseño de glande. En su parte inferior posee ventosa y control remoto inalámbrico. ----- MODO DE USO. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. ----- Características • Silicona 100 % pura + ABS. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • Diseño anal texturado. • 10  modos de vibración diferentes. • Medidas: 12.2 cm. * 4.8 cm. * 2.9 cm. • Peso: 90 gr. • Capacidad de batería: aprox. 45 m. • Tiempo de carga: 1 hs. • Recargable.Incluye cable de carga.",
         categoria: "anal"
     },
     {
@@ -1875,7 +1860,7 @@ const Products = [
         image2: "img/anal/Jimy 2 Blue.jpg",
         name: "Jimy 2",
         price: "$39,538.94",
-        descripcion: "",
+        descripcion: "Plug anal con vibración, a control remoto. ----- Caracteristicas. Material: silicona 100% pura + ABS, 10 funciones de vibración, Longitud total: 13cm, Longitud insertable: 11cm, Diametro: 1, 5cm a 3cm, Recargable.Incluye cable USB. Impermeable.No sumergible.",
         categoria: "anal"
     },
     {
@@ -1883,7 +1868,7 @@ const Products = [
         image2: "img/anal/Jimy 3 Blue.jpg",
         name: "Jimy 3",
         price: "$39,538.94",
-        descripcion: "",
+        descripcion: "Plug anal con vibración, a control remoto. ----- Caracteristicas. Material: silicona 100% pura + ABS, 10 funciones de vibración, Longitud total: 12cm, Longitud insertable: 10cm, Diametro: 3cm, Recargable.Incluye cable USB. Impermeable.No sumergible. Libre de ftalatos.",
         categoria: "anal"
     },
     {
@@ -1891,7 +1876,7 @@ const Products = [
         image2: "img/anal/Jimy 4 Blue.jpg",
         name: "Jimy 4",
         price: "$39,538.94",
-        descripcion: "",
+        descripcion: "Plug anal con vibración, a control remoto. ----- Caracteristicas. Material: silicona 100% pura + ABS, 10 funciones de vibración, Longitud total: 13cm, Longitud insertable: 11cm, Diametro: 3cm, Recargable.Incluye cable USB. Impermeable.No sumergible.",
         categoria: "anal"
     },
     {
@@ -1899,7 +1884,7 @@ const Products = [
         image2: "img/anal/plug pride 2.webp",
         name: "Plug Pride 2",
         price: "$17,544.41",
-        descripcion: "",
+        descripcion: "Caracteristicas del plug. Material: silicona 100% pura + ABS, Longitud total: 11cm, Longitud insertable: 8cm, Diámetro: de 1 a 3cm, Sumergible. , Libre de ftalatos. ----- Caracteristicas de la bala. Material: silicona + ABS, 1 función de vibración, Longitud: 9cm, Díametro: 1, 5cm, A pila. 1 AAA. No incluida. Impermeable. No sumergible. Libre de ftalatos",
         categoria: "anal"
     },
     {
@@ -1907,7 +1892,7 @@ const Products = [
         image2: "img/anal/plug Yorck Blue.jpg",
         name: "Plug Yorck",
         price: "$45,410.11",
-        descripcion: "",
+        descripcion: "Plug anal muy potente de silicona a control remoto, suave y seguro para asegurarnos poder jugar tranquilamente por su  base en forma de ancla para dejarlo puesto sin necesidad de sostenerlo. Su diseño, gradualidad y  forma de remolino te ayudará a realizar una inserción más fácil, cómoda y estimulante. ----- Características:    Material: silicona 100% pura + ABS. ----- 10 funciones de vibración -----  Longitud: 10, 5cm ----- Diámetro: 2.5 cm.3.2 cm. 3.5cm. ----- A control remoto. ----- Recargable.Incluye cable USB. ----- Impermeable.No sumergible.",
         categoria: "anal"
     },
     {
@@ -1915,39 +1900,31 @@ const Products = [
         image2: "img/anal/vibro + pilu 1 inexpulsable.webp",
         name: "Vibro + Pilu 1 Inexpulsable",
         price: "$15,325.40",
-        descripcion: "",
+        descripcion: "Este hermoso inexpulsable curvo, que poder ser muy excitante en la boca del ano, también por su curvatura puede llegar a rozar próstata, provocando una estimulación extremadamente placentera. Es simple, cómodo de silicona ateerciopelada con un anillo en su extremo para poder manipularlo. Su incremento de tres bolitas de menor a mayor, y su extremo es de forma ovalada para su mejor inserción. ----- Silicona 100% pura + ABS, Libre de látex, diseño ergonómico anal, medidas: 14 x 4, 1 cm, sumergible ----- Bullet 9. 1 función de vibración, 1 bateria AAA",
         categoria: "anal"
     },
     {
         image: "img/anal/Hugo inexpulsable Blu.jpg",
         image2: "img/anal/Hugo inexpulsable Blu.jpg",
-        name: "Hugo Inexpulsable RC",
+        name: "Hugo Inexpulsable ST",
         price: "$34,712.87",
-        descripcion: "",
+        descripcion: "Este juguete inexpulsable suave, aterciopelado y flexible es apto tanto para principiantes como para expertos en juegos anales. Su punta cónica facilita la inserción y su tope de ancla te da la seguridad para poder disfrutar al máximo. Motor recargable con control remoto. ----- Características: • Silicona 100 % pura + ABS. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • 3 modos de vibración lineal. • 7 ritmos diferentes. • Diámetro: 3.6 cm.Longitud: 20.1 cm. • Recargable.Incluye cable de carga. • Tiempo de carga: 50 m. • Duración de la carga: 50 m. • Control remoto inalámbrico. • Impermeable.No sumergible.",
         categoria: "anal"
     },
-    {
+    /*{
         image: "img/anal/BLACK INEXPULSABLE.jpg",
         image2: "img/anal/BLACK INEXPULSABLE.jpg",
         name: "Black Inexpulsable",
         price: "$18,565.00",
         descripcion: "",
         categoria: "anal"
-    },
-    {
-        image: "img/anal/ducha anal pequeña 89ml.jpg",
-        image2: "img/anal/ducha anal pequeña 89ml.jpg",
-        name: "Ducha Anal Pequeña 89ml Deseos Capitales",
-        price: "$8,930.00",
-        descripcion: "",
-        categoria: "anal"
-    },
+    },*/
     {
         image: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
         image2: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
-        name: "Plug Anal Grande Cola De Conejo Negra Des Cap",
+        name: "Plug Anal Grande Cola De Conejo Negra ",
         price: "$15,042.00",
-        descripcion: "",
+        descripcion: "Dale rienda suelta a tu imaginación y cumple tus fantasías más intensas en la cama con este lindo plug de acero con cola de conejo. La sola imagen de este plug insertado en tu cola dejara a tu amante sin aliento y no podrá resistirse a mimar tan linda conejita. Siente como la suavidad de la felpa roza tu zona mientras el plug cumple su función de dilatar y dejarte preparada o preparado para otros juegos de penetración anal. Introduce en el ano la parte metálica del plug y deja que la cola de felpa quede en el exterior, podrás usarlo durante toda la velada y cuando estén a punto de llegar al clímax extrae el plug para que se prolongue una sensación única de placer y éxtasis.",
         categoria: "anal"
     },
     {
@@ -1955,23 +1932,23 @@ const Products = [
         image2: "img/anal/plug anal silicona small cola de conejo blanco.webp",
         name: "Plug Anal Silicona Small Cola De Conejo Blanco",
         price: "$10,650.00",
-        descripcion: "",
+        descripcion: "Esta encantadora cola de conejito te llenará de placer anal! Con un peso cómodo, el tapón de silicona es liso, cónico y pequeño, de modo que la inserción es fácil y agradable, incluso para los principiantes. A tu pareja le encantará lo bien que te ves. Este plug es perfecto para prepararse para el sexo anal. Úselo con cualquier lubricante que elija.",
         categoria: "anal"
     },
-    {
+    /*{
         image: "img/anal/anal bears 2 blue.jpg",
         image2: "img/anal/anal bears 2 blue.jpg",
         name: "Anal Bears 2 Blue",
         price: "$12,233.72",
         descripcion: "",
         categoria: "anal"
-    },
+    },*/
     {
         image: "img/anal/Glass 1 Clear.jpg",
         image2: "img/anal/Glass 1 Clear.jpg",
         name: "Glass 1",
         price: "$13,808.06",
-        descripcion: "",
+        descripcion: "Tan práctico y elegante, este magnifico plug de vidrio es el complemento perfecto para cualquier colección de vidrio o fetiche. Enfriarlo o calentarlo para una sensación increíble.",
         categoria: "anal"
     },
     {
@@ -1979,7 +1956,7 @@ const Products = [
         image2: "img/anal/maxx play plug baxx.webp",
         name: "Maxx Play Plug BAXX",
         price: "$14,301.00",
-        descripcion: "",
+        descripcion: "El tamaño y la textura recomendada para nuevas experiencias. 3 velocidades de vibracion para lograr una estimulacion ideal. Un accesorio que ademas de ser friendly con el placer, tambien lo es con la ecología ya que cuenta con una batería recargable USB ----- Especificaciones: 3 modos de vibracion, Material silicona premium de tacto muy suave, Altura de parte para penetracion: 7cm, Carga USB(categoria eco friendly- no desechable). Duración de batería / uso: 1hs",
         categoria: "anal"
     },
     {
@@ -1987,7 +1964,7 @@ const Products = [
         image2: "img/anal/Agus 2 Black ST.jfif",
         name: "Agus 2 Black ST",
         price: "$16,142.02",
-        descripcion: "",
+        descripcion: "Este plug anal con diseño texturado y puntiagudo ayuda realmente al ingreso en tu cuerpo. En su parte inferior posee una ventosa. Te va a encantar. ----- Adaptable para cualquier tipo de arnés. Silicona 100% pura, Hipo alergénico, Libre de latéx, Diseño anal texturado, Meidas: 13, 6 x 3 cm. Sumergible",
         categoria: "anal"
     },
     {
@@ -1995,7 +1972,7 @@ const Products = [
         image2: "img/anal/Silicone Plug Fucsia Medium ST.jpg",
         name: "Silicone Plug Fucsia Medium ST",
         price: "$13,808.06",
-        descripcion: "",
+        descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación.",
         categoria: "anal"
     },
     {
@@ -2003,7 +1980,7 @@ const Products = [
         image2: "img/anal/Silicone Plug Fucsia largue ST.jfif",
         name: "Silicone Plug Fucsia Large ST",
         price: "$15,325.40",
-        descripcion: "",
+        descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación.",
         categoria: "anal"
     },
     {
@@ -2011,7 +1988,7 @@ const Products = [
         image2: "img/anal/Plug Gold Rose Round Small ST.jpeg",
         name: "Plug Gold Rose Round Small ST",
         price: "$13,751.06",
-        descripcion: "",
+        descripcion: "Este plug anal, de aleación de aluminio de color oro rosado, esta diseñado para ofrecerte un sinfin de sensaciones placenteras. Su forma cónica es ideal para facilitar la inserción, estimularte y ofrecerte orgasmos increíbles. Su gema de corazón negra hará realzar las fantasías de tu pareja al verte. Puedes jugar con la temperatura calentándolo o enfríandolo, esto añadirá excitación a tus fantasías eróticas. ----- Medida: Longitud Total 7.2 cm - Longitud Insertable: 6 cm - Diametro: 3.2 cm",
         categoria: "anal"
     },
     {
@@ -2019,23 +1996,23 @@ const Products = [
         image2: "img/anal/mini plug anal de silicona S 7,3 x 2,2 cm.jpg",
         name: "Mini Plug Anal de Silicona",
         price: "$14,546.04",
-        descripcion: "",
+        descripcion: "Es un plug anal pensado para las personas que quieren iniciarse en el sexo anal. Puedes disfrutar de las sensaciones que te ofrece este pequeño juguete o continuar explorando más allá. Longitud total: 7.3 cm, Longitud insertable: 6.7 cm, Diámetro máximo: 2.2 cm, Punta redonda de fácil inserción. Base ancha con función tope. Silicona suave, Compatibles con lubricantes al agua y relajantes anales. Libre de fltalatos y látex. 100% sumergible. Color: Negro",
         categoria: "anal"
     },
     {
         image: "img/anal/monster plug escalonado negro 15cm real skin.jpg",
         image2: "img/anal/monster plug escalonado negro 15cm real skin.jpg",
-        name: "Monster Plug Escalonado Negro 15cm Real Skin",
+        name: "Monster Plug Escalonado Negro 15cm",
         price: "$4,980.00",
-        descripcion: "",
+        descripcion: "Vive una experiencia diferente con este Dilatador anal, diseñado con distintas medidas para que estimules distintos puntos en la penetración anal o vaginal. A medida que insertes el estimulador sentirás como aumenta de tamaño, experimentaras distintas sensaciones en la penetración gracias a su diseño variable. Fabricado con silicona de primera calidad, es un dilatador firme pero de textura flexible, libre de ftalatos, látex e hipo alergénico para ofrecerte todas las garantías de seguridad durante su uso. • Medidas: Largo: 15 cm.Ancho Máximo 6 cm Te recomendamos usar un lubricante a base de agua para una experiencia más placentera.",
         categoria: "anal"
     },
     {
         image: "img/anal/monster plug prostatico xl negro real skin.jpg",
         image2: "img/anal/monster plug prostatico xl negro real skin.jpg",
-        name: "Monster Plug Prostatico XL Negro Real Skin",
+        name: "Monster Plug Prostatico XL Negro",
         price: "$4,980.00",
-        descripcion: "",
+        descripcion: "Estimular el punto P con el dedo es muy satisfactorio para las personas con pene. Pero hacerlo con un juguete como el estimulador de próstata Monster te será más cómodo y placentero. El punto P es el punto G de las personas con pene y se encuentra en la próstata.Es una zona erógena que muchas veces olvidamos y con la que podemos hacer maravillas.Al estimularlo, se experimenta mucho más placer. Estimulación del ano, la próstata y el perineo. Medidas: 14 x 4 cm, Material: Silicona. Sumergible.",
         categoria: "anal"
     },
     {
@@ -2043,7 +2020,7 @@ const Products = [
         image2: "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
         name: "Plug Anal Pequeño de Silicona Negro Joya Roja",
         price: "$6,830.00",
-        descripcion: "",
+        descripcion: "El plug anal de silicona serán tu mejor aliado para iniciarte en el sexo anal sin complicaciones. Gracias a su diseño ergonómico más la suavidad de la silicona, podrás insertarlo las veces que quieras, hasta sentir comodidad y placer. De tamaño pequeño, el plug es ideal para principiantes o para aquellos que ya han experimentado con esta zona y buscan mas placer. Su diseño de base estable y punta redondeada te permitirá una fácil inserción y estimulantes efectos internos que sentirás por todo tu cuerpo.Lleva en su base una bonita piedra de color que lo hace muy elegante y le dará a tu zona un aspecto único. Fabricado en silicona flexible, tiene una superficie suave con la que se deslizará cómodamente hacia lo más profundo de tu intimidad.Déjalo en esa posición hasta que estés a punto de llegar al orgasmo y justo entonces extráelo para experimentar el placer del clímax como nunca antes lo habías vivido.",
         categoria: "anal"
     },
     {
@@ -2051,7 +2028,7 @@ const Products = [
         image2: "img/anal/plug anal smooth nano S negro.jpg",
         name: "Plug Anal Smooth Nano S Negro",
         price: "$4,260.00",
-        descripcion: "",
+        descripcion: "Plug Anal Smooth de la serie Nano, se ajusta a los contornos del cuerpo ofreciéndote la estimulación más intensa que jamás imaginaste. Cuenta con una punta nodular y luego una leve curvatura, sin embargo es ultra pequeño, ideal para iniciarte en la estimulación anal. También cuenta con una base que hace tope para mayor seguridad. Para mayor satisfacción usá este producto con gel lubricante.",
         categoria: "anal"
     },
     {
@@ -2059,47 +2036,47 @@ const Products = [
         image2: "img/anal/plug anal ultra XL rojo.jpg",
         name: "Plug Anal Ultra XL Rojo",
         price: "$3,820.00",
-        descripcion: "",
+        descripcion: "Plug Ultra Rojo. Uno de los mas grande de los plugs anales clasicos, sólo para entendidos del tema. Su largo es de 15 cm. mientras que su diámetro aumenta desde los 3,5 hasta los 7 cm.",
         categoria: "anal"
     },
-    {
+    /*{
         image: "img/anal/plug butt anal de acero pequeño joya roja.jpg",
         image2: "img/anal/plug butt anal de acero pequeño joya roja.jpg",
         name: "Plug Butt Anal de Acero Pequeño Joya Roja",
         price: "$10,320.00",
         descripcion: "",
         categoria: "anal"
-    },
+    },*/
     {
         image: "img/anal/plug vibrador ripley negro XXL 18cm x 4,5cm.jpg",
         image2: "img/anal/plug vibrador ripley negro XXL 18cm x 4,5cm.jpg",
-        name: "Plug Vibrador Ripley Negro XXL 18 cm x 4.5cm",
+        name: "Plug Vibrador Ripley Negro XXL",
         price: "$7,330.00",
-        descripcion: "",
+        descripcion: "Este plug es exclusivo para la penetración y dilatación anal. Excelente terminación y calidad. Productos libre de ftalato y asbesto. Su base ancha sirve como tope de seguridad para usarse sin temor de inserción total. Su medida es de 17 cm, insertable 15 cm x 5, 5 cm de diámetro. Encontra este modelo también con vibro. Se recomienda el uso de lubricante anal para facilitar la inserción y alcanzar niveles de satisfacción supremos.",
         categoria: "anal"
     },
-    {
+    /*{
         image: "img/anal/varita estimulador anal en rojo.jpg",
         image2: "img/anal/varita estimulador anal en rojo.jpg",
         name: "Varita Estimulador Anal en Rojo",
         price: "$5,320.00",
         descripcion: "",
         categoria: "anal"
-    },
+    },*/
     {
         image: "img/anal/varita tripli anal estimulador rojo.jpg",
         image2: "img/anal/varita tripli anal estimulador rojo.jpg",
         name: "Varita Triple Anal Estimulador Roja",
         price: "$8,310.00",
-        descripcion: "",
+        descripcion: "Dilatador anal, posee tres sets con diferentes diámetros para el gusto de cada uno. Puede ser utilizado vaginal, anal o de ambas formas a la vez. Diámetro mayor 3 cm. Diámetro menor 2 cm. Longitud insertable 13 cm. Longitud total 28 cm.",
         categoria: "anal"
     },
     {
         image: "img/anal/silicone pulg red kit.jpg",
         image2: "img/anal/silicone pulg red kit.jpg",
-        name: "Kit Silicona Corazón Red",
+        name: "Kit plugs Silicona Corazón ",
         price: "$46,051.54",
-        descripcion: "",
+        descripcion: "Combo de 3 plugs anales en diferentes tamaños, pequeño, mediano y grande. ----- Medidas:  Pequeño: 7 x 2.8 cm - Mediano: 8 x 3.4 cm - Grande: 9 x 4 cm. Para el que conoce ó quiere conocer nuevas sensaciones.Despertá tu deseo para el juego anal con este hermoso kit de Plug. Son de silicona y sus medidas van desde los 7 cm de largo hasta los 9 cm y desde 2, 8 cm en el punto más ancho hasta los 4cm. Es de Silicona en color negro y en la punta tiene una gema brillante de Strass que lo hace mucho más delicado.",
         categoria: "anal"
     },
     {
@@ -2107,7 +2084,34 @@ const Products = [
         image2: "img/anal/Kit Plug Fucsia.jfif",
         name: "Kit Plug Fucsia",
         price: "$30,498.80",
-        descripcion: "",
+        descripcion: "Combo de 3 plugs anales en diferentes tamaños, pequeño, mediano y grande. Kit de iniciación Anal, 3 piezas,  forrado integramente en silicona, utilizar con geles al agua.",
+        categoria: "anal"
+    },
+    //---------------------------------------------------------------------------------------------------------------------------
+    //---------------------------------------------------------DUCHA ANAL
+    //---------------------------------------------------------------------------------------------------------------------------
+    {
+        image: "img/anal/Ducha Anal 2 - 310ml ST.jpg",
+        image2: "img/anal/Ducha Anal 2 - 310ml ST.jpg",
+        name: "Ducha Anal 2 - 310ml ST",
+        price: "$11,119.75",
+        descripcion: "Recomendaciones de uso: Lo primero que hay que hacer es sacar la pera-ducha anal de su caja y proporcionarle un enjuague inicial. Esto es solo para asegurarnos de que está completamente limpio. Para hacerlo, deberemos quitar la punta y meterla debajo del chorro del grifo. Se debe lubricar el extremo de la ducha y la abertura del ano para luego, insertar suavemente la boquilla. Aprieta suavemente el bulbo para que el flujo de agua sea más lento. Siempre se debe comenzar lentamente y prestar atención a cómo reacciona el cuerpo. Una vez terminado el proceso, se debe retirar la ducha suavemente y mantener presionada el agua hasta que se sienta el impulso natural de expulsarla. Se aconseja que repitas esto varias veces hasta que el agua que sale al exterior es completamente clara. No te olvides de que no debes usar nada más que agua limpia en tus duchas. La temperatura del agua debe ser tibia y probada de antemano para garantizar la seguridad. Utiliza la ducha anal alrededor de 45 minutos antes del juego anal para conseguir una limpieza Óptima. ",
+        categoria: "Duchas"
+    },
+    {
+        image: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
+        image2: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
+        name: "Easy Clean Enema 2 - 89ml ST",
+        price: "$10,773.30",
+        descripcion: "Recomendaciones de uso: Lo primero que hay que hacer es sacar la pera-ducha anal de su caja y proporcionarle un enjuague inicial. Esto es solo para asegurarnos de que está completamente limpio.  Para hacerlo, deberemos quitar la punta y meterla debajo del chorro del grifo. Se debe lubricar el extremo de la ducha y la abertura del ano para luego, insertar suavemente la boquilla. Aprieta suavemente el bulbo para que el flujo de agua sea más lento. Siempre se debe comenzar lentamente y prestar atención a cómo reacciona el cuerpo. Una vez terminado el proceso, se debe retirar la ducha suavemente y mantener presionada el agua hasta que se sienta el impulso natural de expulsarla. Se aconseja que repitas esto varias veces hasta que el agua que sale al exterior es completamente clara. No te olvides de que no debes usar nada más que agua limpia en tus duchas. La temperatura del agua debe ser tibia y probada de antemano para garantizar la seguridad. Utiliza la ducha anal alrededor de 45 minutos antes del juego anal para conseguir una limpieza Óptima.",
+        categoria: "Duchas"
+    },
+    {
+        image: "img/anal/ducha anal pequeña 89ml.jpg",
+        image2: "img/anal/ducha anal pequeña 89ml.jpg",
+        name: "Ducha Anal Pequeña 89ml ",
+        price: "$8,930.00",
+        descripcion: "Para mantenerte limpio durante tus juegos con estimulación anal no hay nada más efectivo que el uso de un enema. Fácil de usar, es el tradicional producto de limpieza para tus encuentros íntimos y te brinda la comodidad que siempre has buscado. Gracias a su tamaño pequeño su uso no te resultará para nada complicado.Busca un momento de intimidad, rellena la perilla de agua tibia y vacíala en el interior de tu zona anal a través de la parte insertable del accesorio.En cuestión de minutos le habrás dado una la limpieza que necesitas para disfrutar de unas relaciones íntimas mucho más higiénicas y excitantes. ----- Capacidad: 89ml.",
         categoria: "anal"
     },
     //---------------------------------------------------------------------------------------------------------------------------
@@ -2118,23 +2122,23 @@ const Products = [
         image2: "img/fetiche/Fusta Roja.webp",
         name: "Fusta Red ST",
         price: "$14,433.39",
-        descripcion: "",
+        descripcion: "Fusta larga roja confeccionada en cuero ecológico. Fina, delicada, hermosa, para disfrutar de unos ricos azotes. Mide 52 cm",
         categoria: "fetiche"
     },
-    {
+    /*{
         image: "img/fetiche/Pasties Heart Red.jpg",
         image2: "img/fetiche/Pasties Heart Red.jpg",
         name: "Pasties Red",
         price: "$7,798.47",
         descripcion: "",
         categoria: "fetiche"
-    },
+    },*/
     {
         image: "img/fetiche/Nipples Champs 6.jpg",
         image2: "img/fetiche/Nipples Champs 6.jpg",
         name: "Niples Champs 6",
         price: "$12,011.24",
-        descripcion: "",
+        descripcion: "Experimenta nuevos niveles de éxtasis erótico con las pinzas de pezón escalonadas Nipple Play. Las joyas eróoticas del cuerpo están diseñadas para la seducción sensual y la estimulación del placer exótico. Sujete las abrazaderas de pezón totalmenteajustable sy disfrute de una fantasía orgásmica inolvidable. Las mini abrazaderas se unen entre sí a través de una resistente cadena triple de alta calidad que aumenta la sensibilidad íntima y la satisfacción sexual.",
         categoria: "fetiche"
     },
     {
@@ -2142,7 +2146,7 @@ const Products = [
         image2: "img/fetiche/Handcuffs Blue.jpg",
         name: "Handcuffs Blue",
         price: "$13,808.06",
-        descripcion: "",
+        descripcion: "Pasiona cautivadora con las esposas! Forrado con una piel de felpa negra, estos puños de piel de PU negros de calidad son duraderos y comodos. Atados con una cadena facil de ajustar y correas ajustable, estos puños de placer se convierten en una fantasia en la que quieres meterte. Material PU + Poliester + metal",
         categoria: "fetiche"
     },
     {
