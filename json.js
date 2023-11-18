@@ -2154,7 +2154,7 @@ const Products = [
         image2: "img/fetiche/Fusta con tachas.jpeg",
         name: "Fusta con tacha ST",
         price: "$12,290.72",
-        descripcion: "",
+        descripcion: "Fusta simil cuero con tachas. Largo: 44cm",
         categoria: "fetiche"
     },
     {
@@ -2162,15 +2162,15 @@ const Products = [
         image2: "img/fetiche/PALMETA NEGRA.jpeg",
         name: "Palmeta Negra ST",
         price: "$10,773.38",
-        descripcion: "",
+        descripcion: " Porqué un buen cachete en las nalgas puede ser lo más sexy del mundo, esta palmeta te va gustar más de lo que podrán reconocer tus sentidos. Ideal para iniciarte al placer de los azotes y los juegos bondage.",
         categoria: "fetiche"
     },
     {
         image: "img/fetiche/collar esposas y tobillos con cadenas.webp",
         image2: "img/fetiche/collar esposas y tobillos con cadenas.webp",
-        name: "Collar, Esposas Y Tobillos Con Cadenas Inf Placer",
+        name: "Collar, Esposas Y Tobillos Con Cadenas",
         price: "$6,972.00",
-        descripcion: "",
+        descripcion: "Increíble inmovilizador de cuello, muñecas y tobillo con cadenas . Con anillos en forma D y broches regulables. Ideal para el BDSM. Descripción: - Inmovilizador con broches regulables. - Permite inmovilizar a la persona y jugar en diferentes posiciones. - Material: Cuero. - Color: Negro.",
         categoria: "fetiche"
     },
     {
@@ -2178,7 +2178,7 @@ const Products = [
         image2: "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
         name: "Tangas Con Esposas de Cuero Inf Placer",
         price: "$4,976.00",
-        descripcion: "",
+        descripcion: "Tanga de cuero con cadena y esposas con mosquetón. Regulable ",
         categoria: "fetiche"
     },
     {
@@ -2186,7 +2186,7 @@ const Products = [
         image2: "img/fetiche/Esposas Y Tobilleras Con Correa De Cuero 2.jpeg",
         name: "Esposas Y Tobilleras Con Correa De Cuero",
         price: "$4,032.00",
-        descripcion: "",
+        descripcion: "Conjunto de esposas y tobilleras comunicadas entre si por una correa de cuero. ",
         categoria: "fetiche"
     },
     {
@@ -2194,7 +2194,7 @@ const Products = [
         image2: "img/fetiche/antifaz ciego con encaje luxury dorado.jpg",
         name: "Antifaz Ciego con encaje Luxury | Dorado",
         price: "$5,652.00",
-        descripcion: "",
+        descripcion: "Utiliza tu Antifaz Ciego con encaje Luxury para ponerle una pincelada de misterio a ese encuentro íntimo tan especial y sorprende a tu pareja con tu faceta más femenina y seductora. ¡Rompe la rutina con este precioso Antifaz Ciego con encaje Luxury Dorado!",
         categoria: "fetiche"
     },
     {
@@ -2202,7 +2202,7 @@ const Products = [
         image2: "img/fetiche/antifaz ciego con encaje luxury rosa.webp",
         name: "Antifaz Ciego con encaje Luxury | Rosa",
         price: "$5,652.00",
-        descripcion: "",
+        descripcion: "Utiliza tu Antifaz Ciego con encaje Luxury para ponerle una pincelada de misterio a ese encuentro íntimo tan especial y sorprende a tu pareja con tu faceta más femenina y seductora. ¡Rompe la rutina con este precioso Antifaz Ciego con encaje Luxury Rosa!",
         categoria: "fetiche"
     },
     {
@@ -2210,7 +2210,7 @@ const Products = [
         image2: "img/fetiche/Set esposas Ribbon y choker rojo.jpeg",
         name: "Set Esposas Ribbon y Choquer Rojo BDSM Deseos Cap",
         price: "$6,960.00",
-        descripcion: "",
+        descripcion: "Lo más sencillo también puede ser lo más seductor. Este atractivo set de esposas y collar no tiene ningún elemento decorativo salvo el original cierre con cadenas que podrás ajustar con suma facilidad, y le aportan un encanto único y muy fetishista. Esta propuesta de Infarta se caracteriza por su extraordinaria sencillez. Es un collar de casi 3 cm de ancho que cubre todo el cuello con elegancia sin necesidad de emplear ornamentos.",
         categoria: "fetiche"
     },
     {
@@ -2218,7 +2218,7 @@ const Products = [
         image2: "img/fetiche/Collar con correa y mosqueton KS35801.png",
         name: "Collar Con Correa y Mosquetón Rojo BDSM Inf Placer",
         price: "$2,801.00",
-        descripcion: "",
+        descripcion: "Las prácticas eróticas con collares BDSM son un clásico de los juegos de sometimiento y dominación que no conlleva ningún riesgo si conoces bien cuáles son las reglas, y utilizas accesorios de calidad como los de esta sección de nuestra tienda erótica online.",
         categoria: "fetiche"
     },
     {
@@ -2234,7 +2234,7 @@ const Products = [
         image2: "img/fetiche/cepo inmovilizador de pies y manos bondage.jpg",
         name: "Cepo Inmovilizador de Pies y Manos Bondage",
         price: "$8,594.00",
-        descripcion: "",
+        descripcion: "Si eres amantes del bondage y el sado asume tu rol como amo, domina a tu pareja en tus próximos encuentros y saca a relucir tu lado más fetichista. Deja volar tu imaginación y haz que tu amante viva una de sus mejores veladas sexuales. Este increible cepo es perfecto para tus juegos de sumisión, compuesto por 2 agarres fabricados 100% en cuero para pies o manos, unidos por un cepo rígido que no dará oportunidad para ningun movimiento de tu amante. Puedes emplearlos para inmovilizar las muñecas o tobillos de tu pareja. El resultado será una inmovilización perfecta para que disfruten de sus juegos favoritos. Esposas ajustables de cuero y taches. Cepo rígido para pies o manos.Dimensiones: hasta 40 cm.",
         categoria: "fetiche"
     },
     {
@@ -2242,7 +2242,7 @@ const Products = [
         image2: "img/fetiche/kit luxury niko - bondage.jpeg",
         name: "Bondage Niko",
         price: "$112,050.34",
-        descripcion: "",
+        descripcion: "Este Kit de Bondage se encuentra en una elegante, fina y resistente caja para que puedas guardario de manera segura cuando dejes de utilizarlo. Este kit es muy completo para comenzar a incursionar dentro de esta práctica. Los elementos que lo componen podrán ayudarlos a liberarse de posibles inhibiciones. INCLUYE • Una mordaza. • Unas muñequeras con llave y candado. • Unas tobilleras con llave y candado. • Un llavero. • Un candado con clave. • Dos mosquetones. • Un collar • Un collar con cadena. • Una ruedita. • Una palmeta. • 1 Vibro y Un Bolso para guardar los juguetes.     ",
         categoria: "fetiche"
     },
     {
@@ -2250,7 +2250,7 @@ const Products = [
         image2: "img/fetiche/luxury passion chantilly kit.jpg",
         name: "Luxury Passion Chantilly Kit ST",
         price: "$80,127.94",
-        descripcion: "",
+        descripcion: "Contiene: • Vibrador rosa • Venda de encaje para los ojos • 2 muñequeras • Palo para coquetear • medida del vibrador: 16,1 x 3,7cm • peso: 93gr • 10 modos de vibración",
         categoria: "fetiche"
     },
     {
@@ -2266,7 +2266,7 @@ const Products = [
         image2: "img/fetiche/antifaz Zorrita Símil Cuero negro.jpg",
         name: "Antifaz Zorrita Símil Cuero Negro Inf Placer",
         price: "$1,200.00",
-        descripcion: "",
+        descripcion: "Utiliza tu antifaz sexy para ponerle una pincelada de misterio a ese encuentro íntimo tan especial y sorprende a tu pareja con tu faceta más femenina y seductora. Vendarse los ojos siempre ha sido una práctica excitante en los juegos de dormitorio. Ahora puedes llevarla a cabo de una manera más sencilla con el antifaz de eco cuero para ojos de textura muy suave que se adapta cómodamente al contorno de la cabeza y a sus movimientos. Pon a prueba tu imaginación y vive la experiencia mas excitante al estilo 50 sombras de grey. ",
         categoria: "fetiche"
     },
     {
@@ -2274,7 +2274,7 @@ const Products = [
         image2: "img/fetiche/Antifaz Ciego Símil Cuero Rosa Inf Placer.png",
         name: "Antifaz Ciego Símil Cuero Rosa",
         price: "$1,042.00",
-        descripcion: "",
+        descripcion: "Utiliza tu antifaz sexy para ponerle una pincelada de misterio a ese encuentro íntimo tan especial y sorprende a tu pareja con tu faceta más femenina y seductora. También podrás usarlo en tu próxima fiesta de disfraces, acompañado de una prenda que haga juego con tan lindo antifaz.Fabricado 100% con eco cuero",
         categoria: "fetiche"
     },
     {
@@ -2290,7 +2290,7 @@ const Products = [
         image2: "img/fetiche/Antifaz de Enfermera Blanco y Rojo Pasionel.png",
         name: "Antifaz de Enfermera Blanco y Rojo Pasionel",
         price: "$2,290.00",
-        descripcion: "",
+        descripcion: "Despierta tus instintos y déjate llevar por las sensaciones del momento. Cubre los ojos de tu amante y hazle saber lo que es el verdadero placer. Comienza por susurrar muy cerca de su oído lo que tienes en mente o deja besos húmedos por cada rincón de su cuerpo. Lo más emocionante de la experiencia será el factor sorpresa. Diseñado para cubrir completamente la vista, elaborados con material de primera calida, en el interior tienen una cubierta de algodon muy suave al tacto para que disfrutes con plena seguridad.",
         categoria: "fetiche"
     },
     {
@@ -2298,7 +2298,7 @@ const Products = [
         image2: "img/fetiche/Cuerda 5m Red.jpg",
         name: "Cuerda Roja 5 metros Roja",
         price: "$9,256.04",
-        descripcion: "",
+        descripcion: "5 metros adecuado para juegos de cuerda, tejido suave y resistente, listo para usar.",
         categoria: "fetiche"
     },
     {
@@ -2306,7 +2306,7 @@ const Products = [
         image2: "img/fetiche/Handcuff Red.png",
         name: "Handcuff Red",
         price: "$13,808.06",
-        descripcion: "",
+        descripcion: "Pasión cuativadora con las esposas! Atados con una cadena fácil de ajustar y correas ajustables, estas esposas de placer se convierten en una fantasía en la que quieres meterte! ",
         categoria: "fetiche"
     },
     {
@@ -2314,7 +2314,7 @@ const Products = [
         image2: "img/fetiche/Cuerda 10 metros Black.jpeg",
         name: "Cuerda 10 metros Black",
         price: "$10,773.38",
-        descripcion: "",
+        descripcion: "10 metros adecuado para juegos de cuerda, tejido suave y resistente, listo para usar.",
         categoria: "fetiche"
     },
     {
@@ -2322,7 +2322,7 @@ const Products = [
         image2: "img/fetiche/Esposas Alcatraz Metalicas Reales Inf Placer.jpg",
         name: "Esposas Alcatraz Metalicas Reales",
         price: "$20,996.00",
-        descripcion: "",
+        descripcion: "Esposas profesionales de acero inoxidable, con 2 llaves. Fabricadas con tecnología de oscilación; garantizando que el gancho siempre impacte en el centro de la esposa y cerrando así automáticamente.",
         categoria: "fetiche"
     },
     {
@@ -2330,7 +2330,7 @@ const Products = [
         image2: "img/fetiche/Choker de Cuero con Púas y Argolla D Inf Placer.jpg",
         name: "Choker de Cuero con Púas y Argolla D Inf Placer",
         price: "$2,264.00",
-        descripcion: "",
+        descripcion: "Si tu pareja se comporta como una fiera en el dormitorio, trátala como tal. Este collar con aro te permitirá definir con toda claridad los roles de este encuentro sexual y establecer los límites entre dominador y sometido. Es un accesorio de fetiche para tus sesiones de BDSM.",
         categoria: "fetiche"
     },
     {
@@ -2346,7 +2346,7 @@ const Products = [
         image2: "img/fetiche/pezoneras con pinza cadena metalizada Ouch.jpg",
         name: "Pezoneras Con Pinza Cadena Metalizada Ouch!",
         price: "$19,920.00",
-        descripcion: "",
+        descripcion: "Estas pinzas para pezón con cadena de Ouch. son fáciles de usar y adecuadas tanto para él como para ella. Las pinzas y la cadena están fabricadas de acero inoxidable y aluminio y están completamente libres de níquel. VIENE CON PUNTAS DE SILICONA PARA UN AGARRE SEGURO Y SIN MOLESTIAS. EL TORNILLO REGULA LA PRESION DEL AGARRE PARA QUE LE DES MAYOR O MENOR PRESION. DISFRUTA DE UNA NUEVA EXPERIENCIA!!!",
         categoria: "fetiche"
     },
     {
@@ -2354,7 +2354,7 @@ const Products = [
         image2: "img/fetiche/pezoneras con pinza y doble cadena dorada.jpg",
         name: "Pezoneras Con Pinza y Doble Cadena Dorada",
         price: "$6,310.00",
-        descripcion: "",
+        descripcion: "Prepárate para calentar la noche Nuestras emocionantes y hermosas pezoneras íntimas con niveles son adornos de diseño con estilo sensual Este juego de 2 pezoneras de diseño multiusos cuenta con una cadena escalonada brillante de alta calidad para mayor atractivo",
         categoria: "fetiche"
     },
     {
@@ -2362,7 +2362,7 @@ const Products = [
         image2: "img/fetiche/Vibro + 7 Piezas Bondage Set Black ST.jpeg",
         name: "Vibro + 7 Piezas Bondage Set Black ST",
         price: "$16,741.58",
-        descripcion: "",
+        descripcion: "Kit bondage de 7 piezas • Incluye: • Collar ajustable • Correa • Muñequeras regulables • Tobilleras regulables • Latigo • Antifaz ciego • Sogas • Vibrador",
         categoria: "fetiche"
     },
     {
@@ -2376,20 +2376,20 @@ const Products = [
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------DILDOS
     //--------------------------------------------------------------------------------------------
-    {
+    /*{
         image: "img/Dildos/Real Dildo.jpg",
         image2: "img/Dildos/Real Dildo.jpg",
         name: "Real Dildo",
         price: "$12,973.43",
         descripcion: "",
         categoria: "dildos"
-    },
+    },*/
     {
         image: "img/Dildos/Real Cock 19.jpg",
         image2: "img/Dildos/Real Cock 19.jpg",
         name: "Real Cock 19",
         price: "$23,093.72",
-        descripcion: "",
+        descripcion: "Este doble dildo realístico está pensado para una doble penetración ano-vagina, cómoda, practica y seguro. Tiene la curvatura y el grosor perfecto en cada uno de sus extremos para que lo conduzcas sin dificultad hasta lo más profundo. No necesitaras más ayuda que la de un poco de lubricante. -----        Características: • Dildo flexible doble penetración • Estimulador del canal vaginal/anal • Silicona suave • Waterproof = A prueba de agua / Sumergible  • Dimensiones: 17 cm x 4 a 4, 5 cm / 14 cm x 3 a 3, 5 cm 📏",
         categoria: "dildos"
     },
     {
@@ -2397,7 +2397,7 @@ const Products = [
         image2: "img/Dildos/Real Cock 17.jpg",
         name: "Real Cock 17",
         price: "$25,498.48",
-        descripcion: "",
+        descripcion: "Los dos extremos de este pene realístico extra largo son insertables y comparten las mismas características de volumen y textura. La longitud de este doble dildo permite innovar con las posiciones que adoptas durante el sexo. Es lo suficientemente largo como para que vos y tu pareja puedan jugar de manera simultánea con total comodidad. ----- Características: • Dildo flexible doble penetración • Estimulador del canal vaginal/anal • Silicona suave • Waterproof = A prueba de agua • Dimensiones: 45 cm x 3, 5 a 4 cm 📏",
         categoria: "dildos"
     },
     {
@@ -2405,7 +2405,7 @@ const Products = [
         image2: "img/Dildos/Joe 5 Skin.jpg",
         name: "Dildo Joe 5 16cm ST",
         price: "$27,307.79",
-        descripcion: "",
+        descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional. Textura súper real. Puede utilizarse perfectamente con arnés. ---- Características. • Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Material: Silicona 100 % pura. • Medidas: Longitud total: 20.8 cm.  Longitud insertable: 15 cm. Diámetro: 3.7 cm.",
         categoria: "dildos"
     },
     {
@@ -2413,7 +2413,7 @@ const Products = [
         image2: "img/Dildos/Jumbo Pie Grande XL Negro 37 cm x 8 cm.jpg",
         name: "Jumbo Pié Grande XL",
         price: "$14,982.00",
-        descripcion: "",
+        descripcion: "El modelo Jumbo pie color negro presenta un eje rígido que proporciona penetraciones duras e inflexibles. Con su intensa textura y su diámetro de 8 cm, es un paso previo excelente a las experiencias de fisting. ----- Características: • Pene para el entrenamiento fisting • Dimensiones: 37 cm x 8 cm • Apto para penetraciones anales • Eje rígido • Detalle del glande • Material: Silicona negra",
         categoria: "dildos"
     },
     {
@@ -2421,7 +2421,7 @@ const Products = [
         image2: "img/Dildos/pride 4.jpg",
         name: "Pride 4",
         price: "$49,592.00",
-        descripcion: "",
+        descripcion: "Dildo macizo y flexible en forma realista, con ventosa. Más una balita vibradora. ---- Caracteristicas del dildo. • Material: silicona + ABS • Longitud total: 23cm • Longitud insertable: 20cm • Diámetro: 4cm • Sumergible. -----  Caracteristicas de la bala. • Material: silicona + ABS • 1 función de vibración • Longitud: 9cm • Díametro: 1, 5cm • A pila. 1 AAA.No incluida. • Impermeable.No sumergible. • Libre de ftalatos",
         categoria: "dildos"
     },
     {
@@ -2429,15 +2429,15 @@ const Products = [
         image2: "img/Dildos/pride 5.jpeg",
         name: "Pride 5",
         price: "$37,959.06",
-        descripcion: "",
+        descripcion: "Dildo macizo y flexible en forma realista, con ventosa. Más una balita vibradora. ----- Caracteristicas del dildo. •  Material: silicona + ABS •  Longitud total: 20cm •  Longitud insertable: 18cm •  Diámetro: 3, 5cm • Sumergible. • Libre de ftalatos ----- Caracteristicas de la bala. •  Material: silicona + ABS •  1 función de vibración •  Longitud: 9cm • Díametro: 1, 5cm •  A pila. 1 AAA.No incluida. • Impermeable.No sumergible.",
         categoria: "dildos"
     },
     {
         image: "img/Dildos/ciber vibe sean davi L 20x4.jpg",
         image2: "img/Dildos/ciber vibe sean davi L 20x4.jpg",
-        name: "Ciber Vibe Sean Davi L 20x4 Caimán",
+        name: "Ciber Vibe Sean David L",
         price: "$8,060.00",
-        descripcion: "",
+        descripcion: "Ideal para los que buscan realismo y satisfacción, Cyber es súper realístico, símil a la piel, suave al tacto y afelpado, se adapta a la temperatura corporal lo que permite sentir mejor sus vibraciones y textura, además es hipoalergénico. Se recomienda el uso de lubricantes Medidas 20x4 ",
         categoria: "dildos"
     },
     {
@@ -2445,7 +2445,7 @@ const Products = [
         image2: "img/Dildos/pride.webp",
         name: "Pride",
         price: "$36,860.13",
-        descripcion: "",
+        descripcion: "Nuestra serie Prider se compone de los colores de la bandera del orgullo; Diseñada para curvarse en su cuerpo, elaborada con la silicona más fina, la colección Prider ofrece un toque aterciopelado, un diseño elegante y ergonómico para su placer sexual. Material: silicona de grado médico  • Seguridad del material: hipoalergénico / sin látex / no poroso / sin ftalatos  • Cuidado y limpieza: Apto para lavavajillas / Hervible / Agua y jabón • Limpiador de juguetes  • Longitud total: 19, 5 cm. • Diámetro: 3, 8 cm",
         categoria: "dildos"
     },
     {
@@ -2453,23 +2453,23 @@ const Products = [
         image2: "img/Dildos/Real Cock 3.jpg",
         name: "Real Cock 3",
         price: "$16,537.60",
-        descripcion: "",
+        descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional. ----- Características. • Dildo realístico. • Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Libre de látex. • 100 % Libre de Fthalatos. • Material: Silicona 100 % pura. •  Sumergible. • Medidas: longitud total 18.5 cm, longitud insertable 11cm, diámetro 4 cm.",
         categoria: "dildos"
     },
-    {
+    /*{
         image: "img/Dildos/Real cock 5.jpeg",
         image2: "img/Dildos/Real cock 5.jpeg",
         name: "Real Cock 5",
         price: "$16,539.27",
         descripcion: "",
         categoria: "dildos"
-    },
+    },*/
     {
         image: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
         image2: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
         name: "Bam Suck Realístico con Sopapa XXL",
         price: "$15,210.00",
-        descripcion: "",
+        descripcion: "No se trata de un juguete erótico para principiantes. Sus 30 centímetros de placer son capaces de penetrar un ano o una vagina con intensidad, por lo que hay que estar preparados para emociones fuertes. Este pene de aspecto realista(glande inflamado, venas recorriendo el miembro y testículos cargados de deseo) dispone de una base de succión que te permitirá colocarlo en cualquier superficie lisa y disfrutar de la masturbación en la posición que más te guste.",
         categoria: "dildos"
     },
     {
@@ -2477,31 +2477,31 @@ const Products = [
         image2: "img/Dildos/Consolador Realistic Suck Sopapa Kevin Dean XXL.jpg",
         name: "Consolador Realistic Suck Sopapa Kevin Dean XXL",
         price: "$15,210.00",
-        descripcion: "",
+        descripcion: "Excelente consolador realístico, ideal para tus fantasías. Su cuerpo texturado y semi flexible permite que sientas hasta el último centímetro de este pene realístico, glande con forma y textura y una terminación con tésticulos y base sólida. Pensado para quien no tiene limites y sueña con las sensaciones extremas. ----- Características: Modelo: Macizo • Texturado • Color: Piel • Estructura: Semi flexible • Sopapa • Material: TPE / Sintético",
         categoria: "dildos"
     },
     {
         image: "img/Dildos/dildo clasico softee dong celeste 20 x 4cm.jpeg",
         image2: "img/Dildos/dildo clasico softee dong celeste 20 x 4cm.jpeg",
-        name: "Dildo Clásico Softee Dong Celeste 20 x 4cm",
+        name: "Dildo Clásico Softee Dong Celeste",
         price: "$12,160.00",
-        descripcion: "",
+        descripcion: "Pensá en el placer que podrías obtener con una experiencia de masturbación más realista. Softee Dong es el modelo que necesitas para hacer realidad tus sueños mas mojados. Desde la punta hasta la base, este dildo de silicona premium es sinónimo de placer. La penetración comienza con las líneas marcadas del glande y continua con un recorrido de 20 cm de máximo placer que te conducirá hasta el orgasmo que siempre habías soñado. Longitud Máxima - 20 cm. • Diámetro Máximo - 4 cm.",
         categoria: "dildos"
     },
-    {
+    /*{
         image: "img/Dildos/suck act real XXL brad Stone 27 x 6 cm.jpg",
         image2: "img/Dildos/suck act real XXL brad Stone 27 x 6 cm.jpg",
         name: "Suck Act Real XXL Brad Stone 27 x 6 cm",
         price: "$15,210.00",
         descripcion: "",
         categoria: "dildos"
-    },
+    },*/
     {
         image: "img/Dildos/suck act realistico XXL Tom Chase 27 x 6,5cm.jpeg",
         image2: "img/Dildos/suck act realistico XXL Tom Chase 27 x 6,5cm.jpeg",
         name: "Suck Act Realístico XXL Tom Chase 27 x 6.5cm",
         price: "$15,210.00",
-        descripcion: "",
+        descripcion: "Disfruta en solitario de las mejores experiencias del sexo en pareja. Este pene realista de grandes dimensiones esta fabricado con todos los detalles de una erección real.  Este juguete erótico reproduce a la perfección todos los detalles de un pene de verdad: el perfil del glande, la rigidez del miembro, la tersura de los testículos e incluso las venas. Cuenta con una sopapa de succión en la base para usarlo sin manos y en cualquier posición. Longitud Máxima - 27 cm. • Diámetro Máximo - 6,5 cm.",
         categoria: "dildos"
     },
     {
@@ -2509,7 +2509,7 @@ const Products = [
         image2: "img/Dildos/real cook 7.jpg",
         name: "Real cock 7",
         price: "$20,254.46",
-        descripcion: "",
+        descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional.   Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Libre de látex. • 100 % Libre de Fthalatos. • Sumergible. • Color Natural. • Medidas: longitud total 22 cm, longitud insertable 17.5 cm, diámetro 4.3 cm.",
         categoria: "dildos"
     },
     {
@@ -2517,7 +2517,7 @@ const Products = [
         image2: "img/Dildos/real cook 8 dildo st.jpg",
         name: "Real cock 8",
         price: "$24,185.75",
-        descripcion: "",
+        descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional.   Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Libre de látex. • 100 % Libre de Fthalatos. • Sumergible. • Color Natural. • Medidas: longitud total 23.5 cm, longitud insertable 19.3 cm, diámetro 4.5 cm.",
         categoria: "dildos"
     },
     {
@@ -2525,7 +2525,7 @@ const Products = [
         image2: "img/Dildos/real cook 12 dildo st.jpeg",
         name: "Real cock 12",
         price: "$42,759.37",
-        descripcion: "",
+        descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional.   Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Libre de látex. • 100 % Libre de Fthalatos. • Sumergible. • Color Natural. • Medidas: longitud total 30 cm, longitud insertable 22 cm, diámetro 5.7 cm. ",
         categoria: "dildos"
     },
     //--------------------------------------------------------------------------------------------
@@ -2536,7 +2536,7 @@ const Products = [
         image2: "img/preservativo/PRIME TACHAS X 3 Un.png",
         name: "Prime Tachas Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Preservativo de Látex Prime Tachas placer extremo x 3 un Placer extremo. La superficie de estos preservativos está cubierta de relieves circulares de látex en forma de tachas que proveen una estimulación más intensa",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2544,7 +2544,7 @@ const Products = [
         image2: "img/preservativo/PRESERVATIVOS PRIME RETARDANTE.png",
         name: "Prime Retardante Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Climax control. Lubricado con benzocaína al 4.5% que ayuda a retardar la eyaculación y contribuye a prolongar el tiempo de la relación sexual. Prime Retardante es placer prolongado para ambos integrantes de la pareja",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2552,7 +2552,7 @@ const Products = [
         image2: "img/preservativo/PRIME MEGA x 3 Un.png",
         name: "Prime Mega Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Preservativos de látex, con ancho nominal de 56 mm, es superior al de las otras variedades permitiendo un calce más holgado.",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2560,7 +2560,7 @@ const Products = [
         image2: "img/preservativo/PRIME ESPERMICIDA X 3 Un.png",
         name: "Prime Espermicida Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Preservativos de látex con Nonoxinol-9, un agente espermicida que actúa sobre los espermatozoides reduciendo su movilidad y disminuyendo aún más el riesgo de embarazo. Mayor Protección",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2568,7 +2568,7 @@ const Products = [
         image2: "img/preservativo/PRIME STRONGER X 3 Un.png",
         name: "Prime Stronger Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Desarrollados con una doble lubricación, están recomendados para el sexo anal, ofreciendo mayor seguridad y resistencia durante el sexo fuerte. Ancho nominal 52mm.",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2576,7 +2576,7 @@ const Products = [
         image2: "img/preservativo/PRIME ANATÓMICO X3 UN.png",
         name: "Prime Anatómico Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Adaptación más ajustada con forma anatómica que permite mayor contacto y sensibilidad. Ancho nominal de 49 mm, inferior al estándar.",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2584,7 +2584,7 @@ const Products = [
         image2: "img/preservativo/prime ultra fino caja x 3 unidades.webp",
         name: "Prime Ultra Fino Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Son los más finos de la línea látex. Permiten una mayor sensación sin disminuir su seguridad. Muy sensitivos. Se sienten como usar nada. Ancho nominal 52mm.",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2592,7 +2592,7 @@ const Products = [
         image2: "img/preservativo/PRIME SUPER FINO X 3 Un.png",
         name: "Prime Super Fino Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Uno de los preservativos de látex más finos de la línea, para quienes desean una sensación más natural con la misma seguridad y protección. Preservativo masculino.Ancho nominal 52 mm.",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2600,7 +2600,7 @@ const Products = [
         image2: "img/preservativo/PRIME EXTRA LUBRICADO x 3 Un.png",
         name: "Prime Extra Lubricado Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Para mayor suavidad. El preservativo clásico se combina con la suavidad de un lubricado extra . Cada preservativo viene acompañado por una presentación de Gel Natural en sachet de 1 gramo . A base de agua, el gel está formulado con aloe vera y caléndula, no afecta el látex.",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2608,23 +2608,23 @@ const Products = [
         image2: "img/preservativo/PRIME TEXTURADDO X 3 Un.png",
         name: "Prime Texturado Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Te ayuda a generar mayor estimulación y placer, gracias a que sus texturas adicionales aumentan la sensación de satisfaccion al momento de la relacion.",
         categoria: "PRESERVATIVOS"
     },
-    {
+    /*{
         image: "img/preservativo/skin mixta x3 unidades preservativo.png",
         image2: "img/preservativo/skin mixta x3 unidades preservativo.png",
         name: "Skin Mixta x 3 unidades",
         price: "$1,649.00",
         descripcion: "",
         categoria: "PRESERVATIVOS"
-    },
+    },*/
     {
         image: "img/preservativo/maxx super fino x3 unidades.jpg",
         image2: "img/preservativo/maxx super fino x3 unidades.jpg",
         name: "Maxx Super Fino x 3 unidades",
         price: "$779.00",
-        descripcion: "",
+        descripcion: "Estuche de preservativos en su presentación super fina, para estimular los sentidos como si no estubieras usando nada. Viví una experiencia distinta para tu cuerpo y el de tu pareja. Tan delgados que son casi imperceptibles.",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2632,7 +2632,7 @@ const Products = [
         image2: "img/preservativo/maxx tachas 3 unidades.png",
         name: "Maxx Tachas 3 unidades",
         price: "$779.00",
-        descripcion: "",
+        descripcion: " Su superficie con puntos de latex permite que vivas sensaciones mucho mas intensas y llenas de placer. Con puntitos que elevan el disfrute.",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2640,7 +2640,7 @@ const Products = [
         image2: "img/preservativo/Prime Warming.jfif",
         name: "Prime Warming Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Preservativo Prime Warming de Látex. Combinan con una sensación de mayor temperatura haciendo que tus encuentros sean más fogosos. Ademas, contiene 3 sachets de 1 gramo de gel hot pleasure, a base de agua que no afecta el látex",
         categoria: "PRESERVATIVOS"
     },
     {
@@ -2648,7 +2648,7 @@ const Products = [
         image2: "img/preservativo/PRIME TURBO X 3 Un.png",
         name: "Prime Turbo Caja x 3 unid",
         price: "$1,105.00",
-        descripcion: "",
+        descripcion: "Diseñado para elevar la intensidad del placer en la pareja, experimentando una inigualable sensación de cosquilleo. Porque al tener doble lubricación de Gel Turbo, te genera un efecto intermitente de frío y calor. Endiabladamente Excitante. Ancho nominal 52mm.",
         categoria: "PRESERVATIVOS"
     },
     //--------------------------------------------------------------------------------------------
@@ -2659,7 +2659,7 @@ const Products = [
         image2: "img/masturbadores/masturbador vagina skin.jpg",
         name: "masturbador vagina skin",
         price: "$7,279",
-        descripcion: "",
+        descripcion: "Super suave. Vagina masturbadora realizada en material Cyber-Skin. Su textura suave logra una increíble similitud a la piel humana",
         categoria: "masturbadores"
     },
     {
@@ -2667,7 +2667,7 @@ const Products = [
         image2: "img/masturbadores/dark grey masturbador de glande.jpeg",
         name: "dark grey masturbador",
         price: "$60,039",
-        descripcion: "",
+        descripcion: "Masturbador 3 en 1: Efecto Calor + Vibración + Succion. ----- Coloca tu pene y disfrutá de las sensaciones únicas de la vibración, la succión y el calor todo en uno, inclusive! ¡¡¡Imposible no llegar al clímax!!! Cuenta con 9 patrones de vibración, 3 patrones de succión y función calor hasta 40 grados",
         categoria: "masturbadores"
     },
     {
@@ -2675,7 +2675,7 @@ const Products = [
         image2: "img/masturbadores/huevo masturbador.jpg",
         name: "huevito masturbador x1 unidad",
         price: "$5,759",
-        descripcion: "",
+        descripcion: "Este juguete con forma de huevo es muy elastico, ajustable y se adapta perfectamente a cualquier tamaño de pene. El interior de este huevo tiene un sistema nuevo de texturas y diseños que proporcionan diferentes tipos de placer. Son suaves y envolventes y permiten una masturbacion muy placentera, produciendo sensaciones espectaculares al contacto de la piel.",
         categoria: "masturbadores"
     },
     {
@@ -2683,7 +2683,7 @@ const Products = [
         image2: "img/masturbadores/XP-1.jpg",
         name: "XP 1",
         price: "$33,889",
-        descripcion: "",
+        descripcion: "El masturbador XP 1 tiene una válvula de respiración especial, el pene entra en la cavidad sin problemas y la succión se hace más fuerte cuando el pene sale. Viene protegido con una cubierta de plástico para su cuidado. Su textura con relieve pronunciado y contorneado, hace mucho más placentera la experiencia.",
         categoria: "masturbadores"
     },
 
@@ -2695,7 +2695,7 @@ const Products = [
         image2: "img/vibradores/Satisfyer 1 Number One.jpg",
         name: "satisfyer number 1",
         price: "$39,420",
-        descripcion: "",
+        descripcion: "El Number One ofrece ondas de presión clásicas con un hermoso diseño de oro rosa y proporciona estimulación sin contacto para el clítoris con once intensidades. Gracias a las baterías extraíbles, sus «viajes» nunca volverán a serán igual. Estimula el clítoris utilizando intensas ondas de presión sin contacto directo. Fabricado con silicona de grado médico supersuave, agradable para la piel, suave al tacto y extremadamente higiénica. Gracias a su acabado impermeable, este juguete se puede usar de forma segura en el agua, además de ser fácil de limpiar. 11 intensidades de onda de presión	",
         categoria: "succionadores"
     },
     {
@@ -2703,7 +2703,7 @@ const Products = [
         image2: "img/succionadores/Ana 10.jpg",
         name: "Ana 10 ST",
         price: "$80,794.02",
-        descripcion: "",
+        descripcion: "Bala vibradora + succionador, 2 en 1.  Perfectamente recubierto con una suave y sedosa superficie de silicona. Este diseño incorpora un potente succionador independiente, para que puedas utilizar ambos por separado o de manera conjunta aumentando tu excitación. ----- Caracteristicas. Material: silicona 100% pura + ABS. 12 funciones de vibración. 7 modos de succión.Longitud insertable de la bala: 9cm  Diámetro de la bala: 3, 5cm.Longitud del succionador: 9cm Diámetro del succionador: 5cm Recargable.Incluye cable USB.Impermeable.No sumergible.",
         categoria: "succionadores"
     },
     {
@@ -2711,7 +2711,7 @@ const Products = [
         image2: "img/succionadores/Ana 8.jpg",
         name: "Ana 8 ST",
         price: "$64,133.17",
-        descripcion: "",
+        descripcion: "Potente masajeador clitorial. Su intensa vibracion se concentra a lo largo de todo el juguete y aun con mas fuerza en su cabezal, contiene otro cabezal para poder examinar los 10 niveles de succion que quieras en la zona clitorial. Silicona pura, Doble cabezal, vibrador masajeador y succionador, 2botones, 10 modos de pulsacion, 10 vibraciones, 10 modos de succion. largo 25.4cm diametro 3.8cm",
         categoria: "succionadores"
     },
     {
@@ -2719,7 +2719,7 @@ const Products = [
         image2: "img/succionadores/ana 3.png",
         name: "Ana 3 ST",
         price: "$54,461.28",
-        descripcion: "",
+        descripcion: "Este magnífico vibrador con succión de clítoris de silicona con varias funciones es la nueva adición perfecta para tus juguetes. Masajea tu punto G con el eje curvado y la punta más gruesa para enviarte a un frenesí. La silicona se sentirá sensacional contra tu piel, mientras que el estimulador de succión aumentará tu sensibilidad y creará deliciosos temblores en todo tu cuerpo. Este bonito vibrador rosa aumentará su sensibilidad, lo que conducirá a orgasmos más intensos y placenteros. Disfrute de horas de diversión sin fin: solo recargue su vibrador cuando se esté agotando la energía y póngalo en marcha cuando lo necesite. Medidas: 4 cm ancho - longitud 21 cm - Silicona. 12 funciones de vibración.Resistente al agua.Cargador USB.No cargar más de 3 horas",
         categoria: "succionadores"
     },
     {
@@ -2727,7 +2727,7 @@ const Products = [
         image2: "img/succionadores/ana 13.jpeg",
         name: "Ana 13",
         price: "$19,601.54",
-        descripcion: "",
+        descripcion: "ANA 13 es un estimulador de clítoris que tiene 10 diferentes modos de vibración. Es muy cómodo para que lo lleves con vos donde quieras. Destaca con su diseño gracias a su ergonómica forma y es muy silencioso. También podes utilizarlo para estimular pezones por su apropiado diseño, todo dependa de lo que quieras en el momento que lo desees. Este vibrador súper suave con 10 modos de vibración está hecho para un intenso placer. MODO DE CARGA : 2 PILAS TRIPLE AAA",
         categoria: "succionadores"
     },
     {
@@ -2735,7 +2735,7 @@ const Products = [
         image2: "img/succionadores/prime fantasy succionador vibrador sx.webp",
         name: "Prime Fantasy Succión Vibrador SX",
         price: "$30,436.00",
-        descripcion: "",
+        descripcion: "Es un objeto de placer con estilo único y doble función, para satisfacer de gran manera el encuentro sexual. De tacto super suave y agradable, podes estimular tus zonas erógenas mediante el succionador y vibrador. Explorá tus fantasías a través de sus 10 velocidades y funciones. Se carga por USB. 1hs de uso continuo. ",
         categoria: "succionadores"
     },
     {
@@ -2743,7 +2743,7 @@ const Products = [
         image2: "img/succionadores/maxx play suxx.webp",
         name: "Maxx Play SUXX",
         price: "$26,386.00",
-        descripcion: "",
+        descripcion: "Maxx Play Vibrador Succionador Suxx -Carga USB. -Silencioso. -Silicona. -10 modos de succión y vibración. -Nivel de sonido bajo en el uso. -1 1/2 Hora de uso continuo. -Contiene 3 preservativos texturados Maxx. -Ancho nominal: 52 mm -Composición: Látex de caucho natural vulcanizado. Lubricado con aceite de silicona. -Producto premium de silicona, muy suave y agradable al tacto. Apto para uso personal y lograr la satisfacción deseada. El producto contiene dos botones para controlar los dos motores internos, uno que acciona la vibración y el otro acciona el succionador",
         categoria: "succionadores"
     },
     {
@@ -2751,7 +2751,7 @@ const Products = [
         image2: "img/succionadores/ana 14.jpeg",
         name: "Ana 14 ST",
         price: "$44,460.63",
-        descripcion: "",
+        descripcion: "Dedal recargable. Ideal para poder estimular clítoris sujeto al dedo para una mejor manipulación. Sus vibraciones  intensas, harán de este juguete un estimulador muy excitante. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. • Hipo alergénico. • Libre de látex. • 3 modos de vibración lineal. • 7 ritmos diferentes. • Medidas: 8.3 cm*4.2 cm*7.3 cm. • Recargable. Incluye cable de carga. • 1 motor. • Tiempo de carga: 1.5 hs. • Duración de la carga: 2 hs.",
         categoria: "succionadores"
     },
     {
@@ -2759,7 +2759,7 @@ const Products = [
         image2: "img/succionadores/Vibrador Estimulador High Fashion Satisfyer Luxury.webp",
         name: "High Fashion Satisfyer Luxury",
         price: "$146,666.00",
-        descripcion: "",
+        descripcion: "Esta versión de lujo y sofisticada de este vibrador de ondas de presión es el compañero perfecto para tus aventuras de estimulación clitorial! Sus 11 modos de estimulación, y sus 10 modos de vibración, te brindarán 110 combinaciones de estimulación, realmente un lujo total! • Tecnología Air pressure sin tacto • 11 patrones de ondas de presión • 10 niveles de vibración • 110 combinaciones de estimulación (11 x 10) • 2 Motores independientes • Interfáz de 3 botones • Impermeable • Extremadamente silencioso. • Recargable USB (Cable magnético) • Fácil de limpiar",
         categoria: "succionadores"
     }
 ];
