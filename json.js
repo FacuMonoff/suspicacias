@@ -2789,22 +2789,22 @@ document.addEventListener("DOMContentLoaded", function () {
         const productsToDisplay = shuffledProducts.slice(productsDisplayed, productsDisplayed + productsToShow);
 
         const productHTML = productsToDisplay.map((product) => `
-            <div class="col">
-                <div class="card h-100">
-                    <a href="descripcion.html?index=${Products.indexOf(product)}">
-                        <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;"
-                            onmouseover="showImage(this, '${product.image2}')"
-                            onmouseout="showImage(this, '${product.image}')"
-                            alt="...">
-                    </a>
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
-                        <p class="card-text">${formatPrice(product.price)}</p>
-                        <button class="btn btn-primary mt-auto" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="descripcion.html?index=${Products.indexOf(product)}&name=${encodeURIComponent(product.name)}&price=${product.price}&descripcion=${encodeURIComponent(product.descripcion)}">
+                            <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;"
+                                onmouseover="showImage(this, '${product.image2}')"
+                                onmouseout="showImage(this, '${product.image}')"
+                                alt="...">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                            <p class="card-text">${formatPrice(product.price)}</p>
+                            <button class="btn btn-primary mt-auto" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        `).join("");
+            `).join("");
 
         productListContainer.innerHTML += productHTML;
 
@@ -2843,27 +2843,32 @@ function showImage(element, imageUrl) {
 }
 
 //PLANTILLA
-
 window.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const productIndex = parseInt(urlParams.get("index"));
 
     if (!isNaN(productIndex) && productIndex >= 0 && productIndex < Products.length) {
         const selectedProduct = Products[productIndex];
-        // Aquí puedes acceder a la información del producto seleccionado (selectedProduct)
-        // y modificar el contenido HTML de "descripcion.html" para mostrar la descripción del producto.
-        // Por ejemplo:
+
         document.getElementById("product-image").src = selectedProduct.image;
         document.getElementById("product-image2").src = selectedProduct.image2;
         document.getElementById("product-name").textContent = selectedProduct.name;
-        document.getElementById("product-price").textContent = selectedProduct.price;
+        document.getElementById("product-price").textContent = formatPrice(selectedProduct.price);
         document.getElementById("product-descripcion").textContent = selectedProduct.descripcion;
-        // ... Agrega más código para mostrar otros detalles del producto si es necesario.
-    } else {
-        // Si el índice del producto no es válido o no se proporcionó, puedes mostrar un mensaje de error o redirigir al usuario a otra página.
-    }
 
+        // Agregar botón "Agregar al carrito"
+        document.getElementById("add-to-cart-button").addEventListener("click", function () {
+            agregarAlCarrito(selectedProduct);
+        });
+    } else {
+        document.getElementById("product-details").innerHTML = "<h3>Producto no encontrado</h3>";
+    }
 });
+
+function agregarAlCarrito(producto) {
+    // Lógica para agregar el producto al carrito usando la información proporcionada.
+    console.log("Agregando al carrito:", producto);
+}
 
 
 // Función para obtener el fragmento de la URL
