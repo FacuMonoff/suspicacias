@@ -1075,55 +1075,55 @@ const Products = [
     //----------------------------------------------------------------LUBRICANTES
     //---------------------------------------------------------------------------------------------------------------------------
     {
-        image: "img/lubricantes/Gel íntimo Warming 120cc.jpg",
-        image2: "img/lubricantes/Gel íntimo Warming 120cc.jpg",
+        image: "img/lubricantes/warming 2.png",
+        image2: "img/lubricantes/Gel íntimo Warming 120cc Mejor.webp",
         name: "Gel íntino WARMING ",
         price: "$5,209.80",
         descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco.Cantidad: 120cc.",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel Maracuyá 120cc.jpg",
-        image2: "img/lubricantes/Gel Maracuyá 120cc.jpg",
+        image: "img/lubricantes/Gel íntimo MARACUYÁ 120cc.webp",
+        image2: "img/lubricantes/maracuya 2.webp",
         name: "Gel íntimo MARACUYÁ",
         price: "$5,209.80",
         descripcion: "Gel lubricante estimulante saborizado compuesto a base de agua, diseñado con delicioso sabor y aroma a maracuyá. Ideal para sumar los sentidos del olfato y el gusto en el juego sexual.Ideal también para usar en el sexo oral. Su poder estimulante es gracias a la arginina, un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, estiren y respondan al estímulo con capacidad vasodilatadora, aumentando la irrigación sanguínea en la zona utilizada. Especialmente formulado para un mayor disfrute de las sensaciones durante la relación sexual, aumentando la excitación y especialmente la sensibilidad del clítoris, facilitando los orgasmos y haciéndolos más intensos. Compatible con preservativos y sex toys. 120 cc de contenido.",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel íntimo Extra time 120cc.jpg",
-        image2: "img/lubricantes/Gel íntimo Extra time 120cc.jpg",
+        image: "img/lubricantes/extra time 2.2.webp",
+        image2: "img/lubricantes/extra time 2.webp",
         name: "Gel íntimo EXTRA TIME",
         price: "$5,209.80",
         descripcion: "Gel lubricante retardante 120cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera.",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel MEN 120cc.jpg",
-        image2: "img/lubricantes/Gel MEN 120cc.jpg",
+        image: "img/lubricantes/men 2.webp ",
+        image2: "img/lubricantes/Gel íntimo MEN 120CC 2.webp",
         name: "Gel íntimo MEN",
         price: "$5,209.80",
         descripcion: " Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. 120cc. ",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel íntimo BUTT 120cc.jpg",
-        image2: "img/lubricantes/Gel íntimo BUTT 120cc.jpg",
+        image: "img/lubricantes/but 2.2.png",
+        image2: "img/lubricantes/but 2.webp ",
         name: "Gel íntimo BUTT",
         price: "$5,209.80",
         descripcion: "Gel Lubricante Intimo Butt Gel lubricante íntimo anal  Base acuosa. Compatible con preservativos y sextoys ----- Cantidad: 125cc",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel íntimo Frutilla 60cc ST.jpg",
-        image2: "img/lubricantes/Gel íntimo Frutilla 60cc ST.jpg",
+        image: "img/lubricantes/frutilla 2.png",
+        image2: "img/lubricantes/frutilla 2.2.webp",
         name: "Gel íntimo Frutilla",
         price: "$3,818.91",
         descripcion: "Lubricante de base acuosa sabor frutilla con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos.",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel frutilla 120cc.jpg",
+        image: "img/lubricantes/frutilla 120 2.webp",
         image2: "img/lubricantes/Gel frutilla 120cc.jpg",
         name: "Gel íntmo ON FRUTILLA",
         price: "$5,209.80",
@@ -1187,8 +1187,8 @@ const Products = [
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel íntimo Warming 60cc.jpg",
-        image2: "img/lubricantes/Gel íntimo Warming 60cc.jpg",
+        image: "img/lubricantes/warming 2.png",
+        image2: "img/lubricantes/Gel íntimo Warming 120cc Mejor.webp",
         name: "Gel íntimo WARMING",
         price: "$3,818.91",
         descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco.Cantidad: 60cc.",
