@@ -86,9 +86,9 @@ const Products = [
     {
         image: "img/anillos/anillo-doble-hot-finger-rojo-real-skin-caiman.jpg",
         image2: "img/anillos/ANILLO DOBLE HOT FINGER ROJO 2.webp",
-        name: "Anillo Doble Hot Finger Rojo",
+        name: "Anillo Doble Hot Finger ",
         price: "$1",
-        descripcion: " Disfruta con tu pareja el profundo placer de la doble penetración con el hot finger. Este anillo está creado para realizar una doble penetración además te ayudará a mejorar la erección y funcionará como retardante de la eyaculación.Este anillo es sumamente firme y estable para que no se doble o se mueva durante el acto sexual.El dildo de menor tamaño será el mejor estimulador para tus juegos con penetración anal.Para utilizarlo solamente debes introducir tu pene en el dildo y empezar a disfrutar del placer más absoluto.La flexibilidad de su material hace que sea apto para todas las tallas.Tiene la punta redondeada para facilitar la entrada y hacerla lo más placentera posible. ----   Material: Jelly ---- Medidas dildo: Largo: 13 cm.x Ancho 2 cm(Diametro del anillo sin estirar: 4 cm)",
+        descripcion: " Disfruta con tu pareja el profundo placer de la doble penetración con el hot finger. Este anillo está creado para realizar una doble penetración además te ayudará a mejorar la erección y funcionará como retardante de la eyaculación.Este anillo es sumamente firme y estable para que no se doble o se mueva durante el acto sexual. El dildo de menor tamaño será el mejor estimulador para tus juegos con penetración anal. Para utilizarlo solamente debes introducir tu pene en el dildo y empezar a disfrutar del placer más absoluto. La flexibilidad de su material hace que sea apto para todas las tallas. Tiene la punta redondeada para facilitar la entrada y hacerla lo más placentera posible. ----   Material: Jelly ---- Medidas dildo: Largo: 13 cm.x Ancho 2 cm(Diametro del anillo sin estirar: 4 cm) ----  Color: Rojo",
         categoria: "anillos",
     },/*
     {
@@ -1099,8 +1099,8 @@ const Products = [
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/men 2.webp ",
-        image2: "img/lubricantes/Gel íntimo MEN 120CC 2.webp",
+        image: "img/lubricantes/gel intimo men 60cc.webp",
+        image2: "img/lubricantes/gel intimo men 60cc 2.png",
         name: "Gel íntimo MEN",
         price: "$5,209.80",
         descripcion: " Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. 120cc. ",
@@ -1131,16 +1131,16 @@ const Products = [
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel íntimo MEN 60cc.jpg",
-        image2: "img/lubricantes/Gel íntimo MEN 60cc.jpg",
+        image: "img/lubricantes/gel intimo men 60cc 2.png",
+        image2: "img/lubricantes/gel intimo men 60cc.webp",
         name: "Gel íntmo MEN",
         price: "$3,818.91",
         descripcion: "Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. 60cc.",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel Maracuyá 60cc.jpg",
-        image2: "img/lubricantes/Gel Maracuyá 60cc.jpg",
+        image: "img/lubricantes/maracuya 60cc.webp",
+        image2: "img/lubricantes/maracuya 60cc 2.jpg",
         name: "Gel íntimo MARACUYÁ",
         price: "$3,818.91",
         descripcion: "Lubricante de base acuosa sabor maracuya con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos.",
@@ -1155,32 +1155,32 @@ const Products = [
         categoria: "Lubricantes"
     },*/
     {
-        image: "img/lubricantes/Gel Neutro 60cc.jpg",
-        image2: "img/lubricantes/Gel Neutro 60cc.jpg",
+        image: "img/lubricantes/nuetro 60cc 2.png",
+        image2: "img/lubricantes/NEUTRO 60CC.webp",
         name: "Gel íntimo NEUTRO",
         price: "$3,818.91",
         descripcion: "Creado exclusivamente con extractos naturales, propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. - Evita la lesion dermica por friccion. - Disminuye la probabilidad de dolor. - Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. 60cc.",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel íntimo Woman 60cc.jpg",
-        image2: "img/lubricantes/Gel íntimo Woman 60cc.jpg",
+        image: "img/lubricantes/woman 60cc.webp",
+        image2: "img/lubricantes/woman 60cc 2.webp",
         name: "Gel íntimo WOMAN",
         price: "$3,818.91",
         descripcion: "Si las experiencias sexuales con penetración te están resultando algo molestas, es más que probable que tengas un problema de lubricación. Productos como Woman  proporcionan una lubricación íntima muy natural para que puedas seguir disfrutando del sexo de un modo mucho más seguro y placentero. 60cc.",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel Chocolate 60cc.jpg",
-        image2: "img/lubricantes/Gel Chocolate 60cc.jpg",
+        image: "img/lubricantes/chocolate 60cc .png",
+        image2: "img/lubricantes/chocolate 60cc 2.webp",
         name: "Gel íntimo CHOCOLATE",
         price: "$3,818.91",
         descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys.",
         categoria: "Lubricantes"
     },
     {
-        image: "img/lubricantes/Gel íntimo Extra time 60cc.jpg",
-        image2: "img/lubricantes/Gel íntimo Extra time 60cc.jpg",
+        image: "img/lubricantes/extra time 60cc 2.webp",
+        image2: "img/lubricantes/extra time 60cc.webp",
         name: "Gel íntimo EXTRA TIME",
         price: "$3,818.91",
         descripcion: "Gel lubricante retardante 60cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera.",
@@ -2772,6 +2772,8 @@ Products.forEach(producto => {
 });
 
 
+//CREA LAS CARD DE LOS PRODUCTOS, LOS MUESTRA EN EL INICIO TODO AL AZAR Y CON UN BOTON DE CARGAR MAS PARA QUE MUESTREN 12 PRODUCTOS MAS
+
 document.addEventListener("DOMContentLoaded", function () {
     const productListContainer = document.getElementById("product-lista");
     const loadMoreButton = document.getElementById("cargarMasBoton"); // Cambio de ID
@@ -2842,7 +2844,7 @@ function showImage(element, imageUrl) {
     element.src = imageUrl;
 }
 
-//PLANTILLA
+//PLANTILLA EN LA PARTE DE DESCRIPCION.HTML, MUESTRA EL PRODUCTO SELECCIONADO Y LOS DETALLES DEL MISMO
 window.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const productIndex = parseInt(urlParams.get("index"));
@@ -2910,14 +2912,21 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+let precioMinActual = 0; // Precio mínimo actual
+let precioMaxActual = Infinity; // Precio máximo actual (se inicializa como infinito para mostrar todos los productos por defecto)
+
 
 // Función para filtrar y mostrar productos según la categoría
 function mostrarProductosPorCategoria(categoria) {
     // Obtener el contenedor donde se mostrarán los productos
     const productosContainer = document.getElementById("product-list");
 
-    // Filtrar los productos que pertenecen a la categoría seleccionada
-    const productosFiltrados = Products.filter(producto => producto.categoria === categoria);
+    // Filtrar los productos que pertenecen a la categoría seleccionada y están dentro del rango de precios
+    const productosFiltrados = Products.filter(producto => {
+        return producto.categoria === categoria &&
+            producto.price >= precioMinActual &&
+            producto.price <= precioMaxActual;
+    });
 
     // Limpiar el contenedor antes de agregar los productos filtrados
     productosContainer.innerHTML = "";
@@ -2933,10 +2942,10 @@ function mostrarProductosPorCategoria(categoria) {
                             onmouseout="showImage(this, '${producto.image}')"
                             alt="...">
                     </a>
-                    <div class="card-body">
-                        <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
                         <p class="card-text">${formatPrice(producto.price)}</p>
-                        <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
+                        <button class="btn btn-primary mt-auto" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
 
                     </div>
                 </div>
@@ -2944,6 +2953,23 @@ function mostrarProductosPorCategoria(categoria) {
         `;
         productosContainer.insertAdjacentHTML("beforeend", productoHTML);
     });
+}
+
+// Función para aplicar el filtro de precio
+function aplicarFiltroPrecio() {
+    const precioMin = parseFloat(document.getElementById("precio-min").value);
+    const precioMax = parseFloat(document.getElementById("precio-max").value);
+
+    // Actualizar los valores de precio mínimo y máximo actuales
+    precioMinActual = precioMin;
+    precioMaxActual = precioMax;
+
+    // Obtener la categoría seleccionada
+    const categoryTitle = document.getElementById("category-title");
+    const categoriaSeleccionada = categoryTitle.textContent;
+
+    // Mostrar productos dentro del rango de precios y en la categoría seleccionada
+    mostrarProductosPorCategoria(categoriaSeleccionada);
 }
 
 

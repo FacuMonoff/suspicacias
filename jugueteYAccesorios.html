@@ -150,19 +150,22 @@
         </div>
     </nav>
 
-
     <!-- Main section -->
     <section class="container">
-        <!-- 1 columna en celular || 2 columnas en los demas dispositivos -->
-        <section class="row row-cols-md-2 row-cols-sm-1 justify-content-center">
-            <!-- Ruta en la que te encontras -->
-            <h2 id="category-title">Todas las categorias</h2>
+        <!-- Título y filtro de precios en una fila -->
+        <div class="row justify-content-between">
+            <!-- Título -->
+            <div class="col-md-6 text-center">
+                <h2 id="category-title">Todas las categorias</h2>
+            </div>
+        </div>
 
-        </section>
-        <section class="row justify-content-between">
-            <div id="content-container" class="col-md-3 col-sm-12">
-                <div class="mb-4">
-                    <h4 class="mb-4">Todas las categorias</h4>
+        <!-- Filas para categorías y productos -->
+        <div class="row ">
+            <!-- Columna de categorías -->
+            <div class="col-md-2">
+                <div class="mb-2">
+                    <h4 class="mb-8">Todas las categorias</h4>
                     <ul class="list-group">
                         <a href="jugueteYAccesorios.html">En Promocion</a>
                         <a class="categoria-btn" data-categoria="anal">Anal</a>
@@ -180,27 +183,51 @@
                         <a class="categoria-btn" data-categoria="vibradores">Vibradores</a>
                     </ul>
                 </div>
+                <br>
+                <div class="col-md-10">
+                    <div id="price-filter">
+                        <h4 class="mb-3">Filtrar por Precio</h4>
+                        <div class="form-group mb-3">
+                            <label for="precio-min">Precio mínimo:</label>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-text">$</span>
+                                <input type="number" id="precio-min" class="form-control" value="0" min="0"
+                                    style="color: black; background-color: white;">
+                            </div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="precio-max">Precio máximo:</label>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-text">$</span>
+                                <input type="number" id="precio-max" class="form-control" value="0" min="0"
+                                    style="color: black; background-color: white;">
+                            </div>
+                        </div>
+                        <button onclick="aplicarFiltroPrecio()" class="btn btn-primary">Aplicar</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-9 col-sm-12">
+
+
+            <!-- Columna de productos -->
+            <div class="col-md-10">
                 <section class="container">
                     <div class="row row-cols-md-4 row-cols-sm-2 g-4" id="product-list"></div>
                 </section>
             </div>
-        </section>
+        </div>
 
         <div style="display: none;" id="product-lista"></div>
 
         <!-- Categorias y Filtros, Productos  -->
         <section class="row justify-content-between">
 
-
-
             <div class="col-md-9 col-sm-12">
                 <div id="productos-container"> <!-- Aquí se mostrarán los productos filtrados --> </div>
             </div>
         </section>
-    </section>
 
+    </section>
 
 
     <footer class=" footer">
