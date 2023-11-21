@@ -3305,10 +3305,10 @@ document.addEventListener("DOMContentLoaded", function () {
                             onmouseout="showImage(this, '${product.image}')"
                             alt="...">
                     </a>
-                    <div class="card-body">
-                        <h5 class="card-title" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                    <div class="card-body  d-flex flex-column">
+                        <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
                         <p class="card-text">${formatPrice(product.price)}</p>
-                        <button class="btn btn-primary" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+                        <button class="btn btn-primary mt-auto" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
