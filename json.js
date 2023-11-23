@@ -2155,9 +2155,9 @@ const Products = [
     {
         image: "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
         image2: "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
-        name: "Tangas Con Esposas de Cuero Inf Placer",
+        name: "Tangas Con Esposas de Cuero ",
         price: "$4,976.00",
-        descripcion: "Tanga de cuero con cadena y esposas con mosquetón. Regulable ",
+        descripcion: "Tanga de cuero con cadena y esposas con mosquetón. Regulable ----- Marca: Inf Placer",
         categoria: "fetiche"
     },
     {
