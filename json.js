@@ -86,7 +86,7 @@ const Products = [
     {
         image: "img/anillos/anillo-doble-hot-finger-rojo-real-skin-caiman.jpg",
         image2: "img/anillos/ANILLO DOBLE HOT FINGER ROJO 2.webp",
-        name: "Anillo Doble Hot Finger ",
+        name: "Doble Hot Finger ",
         price: "$1",
         descripcion: " Disfruta con tu pareja el profundo placer de la doble penetración con el hot finger. Este anillo está creado para realizar una doble penetración además te ayudará a mejorar la erección y funcionará como retardante de la eyaculación.Este anillo es sumamente firme y estable para que no se doble o se mueva durante el acto sexual. El dildo de menor tamaño será el mejor estimulador para tus juegos con penetración anal. Para utilizarlo solamente debes introducir tu pene en el dildo y empezar a disfrutar del placer más absoluto. La flexibilidad de su material hace que sea apto para todas las tallas. Tiene la punta redondeada para facilitar la entrada y hacerla lo más placentera posible. ----   Material: Jelly ---- Medidas dildo: Largo: 13 cm.x Ancho 2 cm(Diametro del anillo sin estirar: 4 cm) ----  Color: Rojo",
         categoria: "anillos",
@@ -134,7 +134,7 @@ const Products = [
     {
         image: "img/anillos/anillo doble peneano conejo violeta.jpeg",
         image2: "img/anillos/anillo-doble-peneano-vibrador-conejito-violeta-usb 2.jpg",
-        name: "Anillo Doble Conejito",
+        name: "Doble Conejito",
         price: "$1",
         descripcion: "Anillo peneano con forma de conejito, posee doble anillo para que pueda ajustarse al pene y los testículos, lo que aumenta el flujo sanguíneo y logra erecciones más potentes al tiempo que retarda la eyaculación. Su potente balita logra vibración en el pene y la cabeza y orejas del conejo estimulan de manera directa",
         categoria: "anillos",
@@ -150,15 +150,15 @@ const Products = [
     {
         image: "img/anillos/dual cock ring 3 blue.png",
         image2: "img/anillos/DUAL COCK RING 3 BLUE 2.jpg",
-        name: "Dual Cock Ring 3 Blue",
+        name: "Dual Cock Ring 3",
         price: "$1",
-        descripcion: " Este anillo para pene y testículos mantiene la erección del pene y retarda la eyaculación. Colocado en la base del pene logra darle firmeza, evitando la disfunción y a su vez estimulando clítoris con el roce por medio de la penetración y los 10 modos de vibración diferentes.Su diseño con dos orejitas hará que roce perfectamentecon el clítoris de una manera muy diferente y estimulante.Motor extraíble para juego independiente del anillo Silicona ---- 100% pura Hipo alergénico ---- 3 Modos de vibración lineal ---- 7 Ritmos diferentes de vibración ---- Adaptable a todos los tamaños de pene ---- Recargable USB ---- Tiempo de Carga: Aprox. 50 Min ---- Tiempo de Uso: Aprox. 50 Min ---- Medidas: 7.5 x 7.5 x 6.5 cm ---- Impermeable.No sumergible",
+        descripcion: " Este anillo para pene y testículos mantiene la erección del pene y retarda la eyaculación. Colocado en la base del pene logra darle firmeza, evitando la disfunción y a su vez estimulando clítoris con el roce por medio de la penetración y los 10 modos de vibración diferentes.Su diseño con dos orejitas hará que roce perfectamentecon el clítoris de una manera muy diferente y estimulante.Motor extraíble para juego independiente del anillo Silicona ---- 100% pura Hipo alergénico ---- 3 Modos de vibración lineal ---- 7 Ritmos diferentes de vibración ---- Adaptable a todos los tamaños de pene ---- Recargable USB ---- Tiempo de Carga: Aprox. 50 Min ---- Tiempo de Uso: Aprox. 50 Min ---- Medidas: 7.5 x 7.5 x 6.5 cm ---- Impermeable.No sumergible ---- Color: Azul",
         categoria: "anillos",
     },
     {
         image: "img/anillos/kit de 3 anillos beaded cockring clear.jfif",
         image2: "img/anillos/kit de 3 anillos beaded cockring black.jpg",
-        name: "Kit de 3 Anillos Beaded Cockrings",
+        name: "3 Anillos Beaded Cockrings",
         price: "$1",
         descripcion: " Anillos súper elásticos adaptables para colocarse en el pene, ayudando a mantener una erección por más tiempo y retardando la eyaculación. Su exclusivo diseño permite generar distintas sensaciones para quien recibe la estimulación.  Anillos descartables. Se aconseja que su tiempo de uso no exceda los 20/30 minutos . Se recomienda usar con lubricantes de base agua al momento de colocarlos y retirarlos. Colocar por encima del preservativo.",
         categoria: "anillos",
@@ -166,7 +166,7 @@ const Products = [
     {
         image: "img/anillos/aro vibrador maxx.jpeg",
         image2: "img/anillos/aro vibrador maxx 2.png",
-        name: "Maxx Play Aro Vibrado",
+        name: "Maxx Play Aro Vibrador",
         price: "$1",
         descripcion: "El aro vibrador Maxx Play es un producto premium de silicona, muy suave y agradable al tacto. Apto para uso personal y en pareja, para vivir un momento único. El producto contiene un botón para controlar el encendido/apagado y los distintos modos de vibración. ---- Tiempo de carga: 2 hrs ---- Tiempo de uso: 1-2 hrs  ---- Nivel de sonido bajo en el uso.  ---- 5 modos de vibración. ---- Carga mediante USB.",
         categoria: "anillos",
@@ -174,9 +174,9 @@ const Products = [
     {
         image: "img/anillos/anillo-peneano-retardante-commander-calexotics 2.jpg",
         image2: "img/anillos/anillo-peneano-retardante-commander-calexotics.jpg",
-        name: "anillo peneano retardante",
+        name: "Anillo peneano retardante",
         price: "$1",
-        descripcion: "Un anillo para el pene que se adapta perfectamente debido al material flexible del cual esta fabricado. Aporta la firmeza de un pene erecto durante mucho más tiempo. Además de asegurar una firme erección retrasa el momento de la eyaculación para prolongar los momentos de placer",
+        descripcion: "Un anillo para el pene que se adapta perfectamente debido al material flexible del cual esta fabricado. Aporta la firmeza de un pene erecto durante mucho más tiempo. Además de asegurar una firme erección retrasa el momento de la eyaculación para prolongar los momentos de placer ---- Marca: Calexotics",
         categoria: "anillos",
     },
     //--------------------------------------------------------------------------------------------
@@ -191,19 +191,11 @@ const Products = [
         categoria: "vibradores",
     },
     {
-        image: "img/vibradores/Ciber 1.jpg",
-        image2: "img/vibradores/ciber 1.2.jpeg",
-        name: "Vibrador Ciber 1",
-        price: "$7,842.00",
-        descripcion: "Fantástico vibrador multi función para pasar tus noches a solas o en compañía de la forma mas placentera posible.",
-        categoria: "vibradores"
-    },
-    {
         image: "img/vibradores/Rocket blue mini.png",
         image2: "img/vibradores/ROCKET BLUE MINI BLUE 2.webp",
-        name: "Rocket Blue Mini Blue",
+        name: "Rocket Blue Mini ",
         price: "$3,338.00",
-        descripcion: "Aunque su objetivo principal es el estímulo del clítoris, estos vibradores pueden enfocarse en otras zonas del cuerpo para potenciar el deseo sexual. Si bien son ideales para utilizar individualmente, se transforman en un condimento extra al utilizarlos en pareja.",
+        descripcion: "Aunque su objetivo principal es el estímulo del clítoris, estos vibradores pueden enfocarse en otras zonas del cuerpo para potenciar el deseo sexual. Si bien son ideales para utilizar individualmente, se transforman en un condimento extra al utilizarlos en pareja. ----- Color: Azul",
         categoria: "vibradores"
     },
     {
@@ -265,9 +257,9 @@ const Products = [
     {
         image: "img/vibradores/doreen gold bala vibradora inalambrica.jpg",
         image2: "img/vibradores/PRETTY LOVE royal pleasure 2.jpg",
-        name: "Bala Vibradora Inalámbrica",
+        name: "Royal Pleasure",
         price: "$51,608.00",
-        descripcion: "con esta bola de kegel con control remoto de silicona suave. Con un control remoto inalámbrico, la bola es perfecta para emociones en solitario y juegos en pareja. Dále el control remtoo a tu pareja y deja que elija cuál de las 12 funciones de vibración vas a disfrutar esa noche. Disfruta de velocidades constantes y diferentes patrones mientras llegas a un poderoso orgasmo.",
+        descripcion: "Con esta bola de kegel con control remoto de silicona suave. Con un control remoto inalámbrico, la bola es perfecta para emociones en solitario y juegos en pareja. Dále el control remtoo a tu pareja y deja que elija cuál de las 12 funciones de vibración vas a disfrutar esa noche. Disfruta de velocidades constantes y diferentes patrones mientras llegas a un poderoso orgasmo.",
         categoria: "vibradores"
     },
     {
@@ -281,7 +273,7 @@ const Products = [
     {
         image: "img/vibradores/doble plus remote partner vibrador satisfyer 1.jpg",
         image2: "img/vibradores/Satisfyer Double Plus vibrador 2.webp",
-        name: "Double Plus Remote Partner",
+        name: "Double Plus Remote",
         price: "$62,076.00",
         descripcion: "Dos potentes motores transmiten intensos ritmos de vibración a través de todo el juguete. El Satisfyer Double Plus Remote es, por supuesto, impermeable y será tu acompañante perfecto tanto en una romántica bañera de hidromasaje como bajo las cómodas sábanas de tu casa. Las vibraciones debajo del agua de este compañero de diversión son percibidas por muchas parejas como particularmente intensas. Se puede controlar de forma inalámbrica con el mando a distancia incluido, lo que hace que sus experiencias sensuales sean más creativas y excitantes.",
         categoria: "vibradores"
@@ -321,7 +313,7 @@ const Products = [
     {
         image: "img/vibradores/finger 3.jpg",
         image2: "img/vibradores/FINGER 3 vibrador.2.jpg",
-        name: "Finger 3 Fucsia USB",
+        name: "Finger 3",
         price: "$21,396.00",
         descripcion: "Estimulador clitoriano 10 velocidades ----- Silicona + ABS ----- USB recargable -----  Medida: 10 cm ----- Higienizar con agua tibia y jabón antibacteriano para Toys o neutro. Modo de carga.El proceso de recarga funciona a través de un cargador USB, que utiliza la tecnología carga rápida en menos de 2 horas.Mientras la luz titila, significa que la recarga se está realizando, una vez que deja de titilar, desenchufar.Pegado al botón del power hay 1 punto donde debe insertarse el conector para su respectiva carga.",
         categoria: "vibradores"
@@ -361,7 +353,7 @@ const Products = [
     {
         image: "img/vibradores/vicky 2.jpeg",
         image2: "img/vibradores/vicky 2.2.png",
-        name: "Vicky 2 Red",
+        name: "Vicky 2",
         price: "$29,631.26",
         descripcion: "¿Buscas un juguete para descubrirte y conocerte mejor? Este vibrador de doble estimulación te llevará a otro universo con su hermoso diseño e intensidad. Su material de silicona pura y suave te garantizará un óptimo placer.  Su estimulador Clitorial rabbit hará que puedas sensiblemente llegar a una gran excitación. Su vaginal curvo corto, hará que puedas disfrutar del apoyo perfecto en Punto G. Es sencillamente tu acompañante perfecto en cualquier lugar, con una forma elegante, totalmente silencioso y discreto.",
         categoria: "vibradores"
@@ -478,14 +470,8 @@ const Products = [
         descripcion: "",
         categoria: "vibradores"
     },*/
-    {
-        image: "img/vibradores/gems 2 purple.jpeg",
-        image2: "img/vibradores/gems 2 purple.jpeg",
-        name: "Gems 2 Purple",
-        price: "$11,188.00",
-        descripcion: "Vibrador flexible ----- De ABS + TPE ----- Usa 2 pilas AA(no incluidas) ----- Medidas: largo 22, 5cm ----- maximo diametro: 5cm ",
-        categoria: "vibradores"
-    },/*
+
+    /*
     {
         image: "img/vibradores/gems 4 purple.jpeg",
         image2: "img/vibradores/gems 4 purple.jpeg",
@@ -494,14 +480,7 @@ const Products = [
         descripcion: "Vibrador flexible ----- De ABS + TPE ----- Usa 2 pilas AA(no incluidas) -----  Medidas: largo 20 cm ----- maximo diametro: 4cm ",
         categoria: "vibradores"
     },*/
-    {
-        image: "img/vibradores/gems 5.jpeg",
-        image2: "img/vibradores/gems 5.jpeg",
-        name: "Gems 5 Purple ",
-        price: "$10,988.00",
-        descripcion: "Vibrador flexible ----- De ABS + TPE ----- Usa 2 pilas AA(no incluidas) ----- Medidas: largo 20 cm ----- maximo diametro: 4, 8cm",
-        categoria: "vibradores"
-    },
+
     {
         image: "img/succionadores/luxury strap on 3.jpeg",
         image2: "img/succionadores/luxury strap on 3.jpeg",
@@ -513,7 +492,7 @@ const Products = [
     {
         image: "img/vibradores/nini 2 blue.jpeg",
         image2: "img/vibradores/nini 2 blue.jpeg",
-        name: "Nini 2 Blue",
+        name: "Nini 2 ",
         price: "$8,912.00",
         descripcion: "VIBRADOR FLEXIBLE -----  DE ABS + TPE -----  MEDIDAS: LARGO: 18 CM ----- ANCHO: 3, 8 CM ----- LUBRICANTE A BASE DE AGUA -----  NO SUMERGIBLE ----- HIGIENE AGUA Y JABÓN NEUTRO",
         categoria: "vibradores"
@@ -521,7 +500,7 @@ const Products = [
     {
         image: "img/vibradores/vibro 4 pink.jpeg",
         image2: "img/vibradores/vibro 4.2.jpg",
-        name: "Vibro 4 Pink",
+        name: "Vibro 4",
         price: "$11,492.00",
         descripcion: "El estimulador vibrador de alta calidad de tonos atrevidos y elegantes, repelentes al agua y seguros para el cuerpo. ----- Son excelentes juguetes discretos con patrones de vibración.  ----- Medidas: 13.7 cm Introducible: 11.5 cm x 3 cm.  ----- Utiliza una pila AAA(no incluída).",
         categoria: "vibradores"
@@ -569,33 +548,33 @@ const Products = [
     {
         image: "img/vibradores/prime fantasy bala vibradora bv.webp",
         image2: "img/vibradores/PRIME FANTASY BALA VIBRADORA BV.2.webp",
-        name: "Prime Bala Vibradora",
+        name: "Bala Vibradora BV",
         price: "$17,600.00",
-        descripcion: "Explorá tus zonas erógenas favoritas con esta elegante bala vibradora. De tacto suave y tamaño discreto, es ideal para utilizarla cuando quieras, la podés llevar puesta y activarla a tu gusto. Con sus 10 modos de vibración podés encontrar el placer que buscas y lograr tus fantasías.",
+        descripcion: "Explorá tus zonas erógenas favoritas con esta elegante bala vibradora. De tacto suave y tamaño discreto, es ideal para utilizarla cuando quieras, la podés llevar puesta y activarla a tu gusto. Con sus 10 modos de vibración podés encontrar el placer que buscas y lograr tus fantasías. ----- Marca: Prime",
         categoria: "vibradores"
     },
     {
         image: "img/vibradores/prime fantasy lengua vibradora lg.webp",
         image2: "img/vibradores/PRIME FANTASY LENGUA VIBRADORA LG.2.webp",
-        name: "Prime Lengua Vibradora",
+        name: "Lengua Vibradora LG",
         price: "$18,854.00",
-        descripcion: "Vibrá alto con la lengua vibradora y estimuladoradel punto G. Además de estimular el clítoris, podés utilizarla en todas tus zonas erógenas. De diseño minimalista y de tacto muy suave, es elcomplemento ideal para lograr el mayor placer de tuencuentro sexual.",
+        descripcion: "Vibrá alto con la lengua vibradora y estimuladoradel punto G. Además de estimular el clítoris, podés utilizarla en todas tus zonas erógenas. De diseño minimalista y de tacto muy suave, es elcomplemento ideal para lograr el mayor placer de tuencuentro sexual. ----- Marca: Prime",
         categoria: "vibradores"
     },
     {
         image: "img/vibradores/prime fantasy vibrador masajeador vm.webp",
         image2: "img/vibradores/PRIME FANTASY VIBRADOR MASAJEADOR VM.2.webp",
-        name: "Prime Vibrador Masajeador",
+        name: "Vibrador Masajeador VM",
         price: "$36,780.00",
-        descripcion: "Es un objeto de placer con estilo único. Su pricipalfunción es la vibración, donde cuenta con 7velocidades diferentes, pero ademas otorgaestimulacion ya que la parte superior, o su cabeza, sirve para realizar masajesestimuladores en las zonas más íntimas.",
+        descripcion: "Es un objeto de placer con estilo único. Su pricipalfunción es la vibración, donde cuenta con 7velocidades diferentes, pero ademas otorgaestimulacion ya que la parte superior, o su cabeza, sirve para realizar masajesestimuladores en las zonas más íntimas. ----- Marca: Prime",
         categoria: "vibradores"
     },
     {
         image: "img/vibradores/prime fantasy vibrador estimulador ve.webp",
         image2: "img/vibradores/PRIME FANTASY VIBRADOR ESTIMULADOR VE.2.webp",
-        name: "Prime Vibrador Estimulador",
+        name: "Vibrador Estimulador VE",
         price: "$32,180.00",
-        descripcion: "Experimentá una doble sensación con el vibrador y estimulador. Te permite disfrutar de 10 modos de vibración junto a una estimulación única que otorgan las tachas que tiene el juguete. Incluye: 1 VIBRADOR ESTIMULADOR, 3 PRESERVATIVOS SUPER FINOS DE LÁTEX DE CAUCHO NATURAL, 1 POUCH DE GEL ÍNTIMO 4.5gr",
+        descripcion: "Experimentá una doble sensación con el vibrador y estimulador. Te permite disfrutar de 10 modos de vibración junto a una estimulación única que otorgan las tachas que tiene el juguete. Incluye: 1 VIBRADOR ESTIMULADOR, 3 PRESERVATIVOS SUPER FINOS DE LÁTEX DE CAUCHO NATURAL, 1 POUCH DE GEL ÍNTIMO 4.5gr ----- Marca: Prime",
         categoria: "vibradores"
     },
     {
@@ -603,7 +582,7 @@ const Products = [
         image2: "img/vibradores/MAXX PLAY VIBRADOR RABBIT.2.jpg",
         name: "Vibrador Rabbit",
         price: "$33,508.00",
-        descripcion: "Es un vibrador y a la vez un estimulador del clitoris. Con un diseño muy suave al tacto, un producto con 10 velocidades de vibracion para el máximo placer. Tambien con USB recargable para volver a la carga cuantas veces quieras. Especificaciones ----- 10 modos de vibracion/ velocidades ----- Material Silicona premium - de tacto muy suave ----- Altura de parte para penetracion: 12cm ----- RECARGA DE PRODCUTO POR USB(categoria eco friendly - no desechable) ----- Duracion de batería / uso 1 hora ----- Cabeza de vibrador con texturas para mayor placer ----- Alto total: 22cm",
+        descripcion: "Es un vibrador y a la vez un estimulador del clitoris. Con un diseño muy suave al tacto, un producto con 10 velocidades de vibracion para el máximo placer. Tambien con USB recargable para volver a la carga cuantas veces quieras. Especificaciones ----- 10 modos de vibracion/ velocidades ----- Material Silicona premium - de tacto muy suave ----- Altura de parte para penetracion: 12cm ----- RECARGA DE PRODCUTO POR USB(categoria eco friendly - no desechable) ----- Duracion de batería / uso 1 hora ----- Cabeza de vibrador con texturas para mayor placer ----- Alto total: 22cm ----- Marca: Maxx",
         categoria: "vibradores"
     },
     {
@@ -611,7 +590,7 @@ const Products = [
         image2: "img/vibradores/katy 1.2.jpg",
         name: "Katy 1",
         price: "$16,935.94",
-        descripcion: "Este vibrador de doble estimulación con glande en su extremo, te llevará a otro universo por su hermoso diseño e intensidad. Su material de silicona aterciopelada te garantizará un óptimo placer.  Su estimulador Clitorial uniforme hará que puedas sensiblemente llegar a una gran excitación. Ideal mujeres sensibles que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.Totalmente silencioso y discreto.             Características • 3 modos de vibración lineal.  • 7 ritmos diferentes. • 2 motores. • Diámetro: 3.3cm.Longitud total: 18, 5 cm. • 2 pilas AAA • Teclas de fácil manejo. • Impermeable.No sumergible.",
+        descripcion: "Este vibrador de doble estimulación con glande en su extremo, te llevará a otro universo por su hermoso diseño e intensidad. Su material de silicona aterciopelada te garantizará un óptimo placer.  Su estimulador Clitorial uniforme hará que puedas sensiblemente llegar a una gran excitación. Ideal mujeres sensibles que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.Totalmente silencioso y discreto. • Características • 3 modos de vibración lineal.  • 7 ritmos diferentes. • 2 motores. • Diámetro: 3.3cm.Longitud total: 18, 5 cm. • 2 pilas AAA • Teclas de fácil manejo. • Impermeable.No sumergible.",
         categoria: "vibradores"
     },
     {
@@ -683,7 +662,7 @@ const Products = [
         image2: "img/vibradores/Diamond 3.2.webp",
         name: "Diamont 3",
         price: "$51,771.34",
-        descripcion: "Este doble estimulador de clítoris y punto G recargable, tiene un diseño sofisticado, a puro glamour y elegantemente brillante e intenso. Su ergonómica forma te dará la posibilidad de estimularte de manera completa y además podrás utilizarlo desde su control remoto inalámbrico. • Estimulador de clítoris y Punto G, con control remoto. ----- • 8 ritmos diferentes de vibración.Botones + y – para regular la intensidad de vibración. • Diseño: piedra cristal. • Longitud total: 13.6 cm.Longitud insertable: 7.7 cm. • Peso: 150 gr. • Tiempo de carga: aprox. 3.5 hs. • Tiempo de uso aprox. 50 m. • Recargable.Incluye cable de carga. • Impermeable.No sumergible.",
+        descripcion: "Este doble estimulador de clítoris y punto G recargable, tiene un diseño sofisticado, a puro glamour y elegantemente brillante e intenso. Su ergonómica forma te dará la posibilidad de estimularte de manera completa y además podrás utilizarlo desde su control remoto inalámbrico. • Estimulador de clítoris y Punto G, con control remoto. ----- • 8 ritmos diferentes de vibración.Botones + y - para regular la intensidad de vibración. • Diseño: piedra cristal. • Longitud total: 13.6 cm.Longitud insertable: 7.7 cm. • Peso: 150 gr. • Tiempo de carga: aprox. 3.5 hs. • Tiempo de uso aprox. 50 m. • Recargable.Incluye cable de carga. • Impermeable.No sumergible.",
         categoria: "vibradores"
     },
     {
@@ -724,7 +703,7 @@ const Products = [
     {
         image: "img/disfraz/Disfraz Enfermera Sexy Mordisco Fantasía.jpg",
         image2: "img/disfraz/Disfraz Enfermera Body Sexy Mordisco Fantasía 2.webp",
-        name: "Disfraz Enfermera Body Sexy",
+        name: "Disfraz Enfermera",
         price: "$7,964.00",
         descripcion: "INCLUYE: ----- Cofia -----  Mitones ----- Top regulable ----- Mini regulable ----- Less regulable",
         categoria: "disfraces"
@@ -892,7 +871,7 @@ const Products = [
     {
         image: "img/disfraz/DISFRAZ PORRISTA SELECCIÓN ARGENTINA MALENA.jpg",
         image2: "img/disfraz/DISFRAZ PORRISTA SELECCIÓN ARGENTINA MALENA 2.jpg",
-        name: "Disfraz Porrista Selección Argentina ",
+        name: "Disfraz Porrista Argentina ",
         price: "$8,654.00",
         descripcion: "El traje Se compone de 5 piezas: ----- Top blanco y azul con mangas, diseñado con un escote de escándalo en el pecho y la espalda rematado por un elegante lazo negro. -----Una minifalda súper ajustada para marcar bien tus líneas femeninas ----- Colaless a juego azul y blanco ----- 2 lacitos a juegos para atar en cualquier parte del cuerpo ----- Medias Blancas de red ",
         categoria: "disfraces"
@@ -1010,7 +989,7 @@ const Products = [
     {
         image: "img/velas/be aphrodisiac 15gr.jpg",
         image2: "img/velas/be aphrodisiac 15gr.jpg",
-        name: "Vela Masajes Afrodisíaca BE",
+        name: "Vela Afrodisíaca BE",
         price: "$1,478.00",
         descripcion: "La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Se encuentra elaborada con una rica combinación de aceites naturales y vitaminas que suavizan y nutren la piel. La combinación de sus aceites esenciales despierta el lado más sensual de la piel.Desarrollado para que tome la temperatura ideal que necesita tu cuerpo, creando un profundo relax y estimulando tus sentidos. Contenido: 15grs",
         categoria: "Velas"
@@ -1018,7 +997,7 @@ const Products = [
     {
         image: "img/velas/body souffle sexitive 15gr.jpg",
         image2: "img/velas/body souffle sexitive 15gr.jpg",
-        name: "Vela Perfumada Body Soufflé Frutilla",
+        name: "Vela Body Soufflé Frutilla",
         price: "$1,478.00",
         descripcion: "Formulada con los mejores componentes del coco, la vela para masajes será el mejor aliado para una intensa sesión de masajes con propiedades emolientes y tonificantes. Enciéndela y déjala fundir en su totalidad para que se transforme en un exquisito aceite tibio para masajes que se aplica sobre la piel y te dará una sensación muy delicada y sumamente placentera. Enciende la vela y pasados unos 8 minutos ya la puedes usar para dar tu masaje especial.            Contenido 15g Vela para Masajes eroticos",
         categoria: "Velas"
@@ -1034,7 +1013,7 @@ const Products = [
     {
         image: "img/velas/desire coconut scented candle 30gr.jpg",
         image2: "img/velas/desire coconut scented candle 30gr.jpg",
-        name: "Vela de Masajes Candle Desire Coconut",
+        name: "Vela Candle Desire Coconut",
         price: "$2,228.00",
         descripcion: "Massage Candle. La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Una rica combinación de aceites naturales. ----- Encendé la vela y dejá que unos minutos para que se derrita el aceite. ----- Aplicá unas gotas sobre tu cuerpo o el de tu pareja. ----- Dejá volar la imaginación y masajeá sensualmente.Voilá! ----- Contenido: 30grs",
         categoria: "Velas"
@@ -1042,7 +1021,7 @@ const Products = [
     {
         image: "img/velas/crazy girl 30gr.webp",
         image2: "img/velas/crazy girl 30gr.webp",
-        name: "Vela de Masajes Crazy Girls 30grs",
+        name: "Vela Crazy Girls 30grs",
         price: "$2,228.00",
         descripcion: "Vela corporal para masajes, sensacion calida, deslizante,humecta,suaviza la piel, disfrutar en pareja del agradable aroma a jojoba y soja, prolongar el juego previo  se enciende la vela, a medida que se derrite se coloca en las manos, para distribuir sobre el cuerpo ----- contenido: x 30grs",
         categoria: "Velas"
@@ -1058,7 +1037,7 @@ const Products = [
     {
         image: "img/velas/st massage candle mango y maracuya.webp",
         image2: "img/velas/st massage candle mango y maracuya.webp",
-        name: "Vela de Masajes Mango y Maracuyá",
+        name: "Vela de Mango y Maracuyá",
         price: "$5,968.47",
         descripcion: "Vela corporal, pensada para masajes, sensacion calida, con agradable aroma afrodisisaco a maracuya y mango, para disfrutar en pareja de una previa prolongada, aumentar las sensaciones, despertar los sentidos ----- contenido: x 30grs",
         categoria: "Velas"
@@ -1066,7 +1045,7 @@ const Products = [
     {
         image: "img/velas/st massage candle frutos del bosque.jpg",
         image2: "img/velas/st massage candle frutos del bosque.jpg",
-        name: "Vela de Masajes Frutos del Bosque",
+        name: "Vela de Frutos del Bosque",
         price: "$5,968.47",
         descripcion: "Velas para masajes Modo de Uso: Encender la vela y dejar fundir en el frasco. Apaguelo y viértalo sobre el cuerpo. El punto de fusión de las velas es solamente unos grados encima de la temperatura del cuerpo. Las velas derretidas se sienten tibias en la piel y tiene exquisitos aromas.Cantidad: 60cc. -----  Aroma: Frutos del Bosque.",
         categoria: "Velas"
@@ -1079,7 +1058,7 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo Warming 120cc Mejor.webp",
         name: "Gel íntino WARMING ",
         price: "$5,209.80",
-        descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco.Cantidad: 120cc.",
+        descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco. ----- Cantidad: 120cc.",
         categoria: "Lubricantes"
     },
     {
@@ -1087,7 +1066,7 @@ const Products = [
         image2: "img/lubricantes/maracuya 2.webp",
         name: "Gel íntimo MARACUYÁ",
         price: "$5,209.80",
-        descripcion: "Gel lubricante estimulante saborizado compuesto a base de agua, diseñado con delicioso sabor y aroma a maracuyá. Ideal para sumar los sentidos del olfato y el gusto en el juego sexual.Ideal también para usar en el sexo oral. Su poder estimulante es gracias a la arginina, un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, estiren y respondan al estímulo con capacidad vasodilatadora, aumentando la irrigación sanguínea en la zona utilizada. Especialmente formulado para un mayor disfrute de las sensaciones durante la relación sexual, aumentando la excitación y especialmente la sensibilidad del clítoris, facilitando los orgasmos y haciéndolos más intensos. Compatible con preservativos y sex toys. 120 cc de contenido.",
+        descripcion: "Gel lubricante estimulante saborizado compuesto a base de agua, diseñado con delicioso sabor y aroma a maracuyá. Ideal para sumar los sentidos del olfato y el gusto en el juego sexual.Ideal también para usar en el sexo oral. Su poder estimulante es gracias a la arginina, un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, estiren y respondan al estímulo con capacidad vasodilatadora, aumentando la irrigación sanguínea en la zona utilizada. Especialmente formulado para un mayor disfrute de las sensaciones durante la relación sexual, aumentando la excitación y especialmente la sensibilidad del clítoris, facilitando los orgasmos y haciéndolos más intensos. Compatible con preservativos y sex toys. -----  120cc de contenido.",
         categoria: "Lubricantes"
     },
     {
@@ -1095,7 +1074,7 @@ const Products = [
         image2: "img/lubricantes/extra time 2.webp",
         name: "Gel íntimo EXTRA TIME",
         price: "$5,209.80",
-        descripcion: "Gel lubricante retardante 120cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera.",
+        descripcion: "Gel lubricante retardante 120cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera. ----- 120cc de contenido.",
         categoria: "Lubricantes"
     },
     {
@@ -1103,7 +1082,7 @@ const Products = [
         image2: "img/lubricantes/gel intimo men 60cc 2.png",
         name: "Gel íntimo MEN",
         price: "$5,209.80",
-        descripcion: " Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. 120cc. ",
+        descripcion: " Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. ----- Cantidad: 120cc. ",
         categoria: "Lubricantes"
     },
     {
@@ -1119,7 +1098,7 @@ const Products = [
         image2: "img/lubricantes/frutilla 2.2.webp",
         name: "Gel íntimo Frutilla",
         price: "$3,818.91",
-        descripcion: "Lubricante de base acuosa sabor frutilla con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos.",
+        descripcion: "Lubricante de base acuosa sabor frutilla con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. ----- Cantidad: 60cc",
         categoria: "Lubricantes"
     },
     {
@@ -1127,7 +1106,7 @@ const Products = [
         image2: "img/lubricantes/Gel frutilla 120cc.jpg",
         name: "Gel íntmo ON FRUTILLA",
         price: "$5,209.80",
-        descripcion: "Lubricante de base acuosa sabor frutilla con arginina 120cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys.",
+        descripcion: "Lubricante de base acuosa sabor frutilla con arginina 120cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys. ----- Cantidad: 120cc",
         categoria: "Lubricantes"
     },
     {
@@ -1135,7 +1114,7 @@ const Products = [
         image2: "img/lubricantes/gel intimo men 60cc.webp",
         name: "Gel íntmo MEN",
         price: "$3,818.91",
-        descripcion: "Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. 60cc.",
+        descripcion: "Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. ----- Cantidad: 60cc",
         categoria: "Lubricantes"
     },
     {
@@ -1143,7 +1122,7 @@ const Products = [
         image2: "img/lubricantes/maracuya 60cc 2.jpg",
         name: "Gel íntimo MARACUYÁ",
         price: "$3,818.91",
-        descripcion: "Lubricante de base acuosa sabor maracuya con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos.",
+        descripcion: "Lubricante de base acuosa sabor maracuya con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. ----- Cantidad: 60cc",
         categoria: "Lubricantes"
     },
     /*{
@@ -1159,7 +1138,7 @@ const Products = [
         image2: "img/lubricantes/NEUTRO 60CC.webp",
         name: "Gel íntimo NEUTRO",
         price: "$3,818.91",
-        descripcion: "Creado exclusivamente con extractos naturales, propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. - Evita la lesion dermica por friccion. - Disminuye la probabilidad de dolor. - Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. 60cc.",
+        descripcion: "Creado exclusivamente con extractos naturales, propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. - Evita la lesion dermica por friccion. - Disminuye la probabilidad de dolor. - Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. ----- Cantidad: 60cc",
         categoria: "Lubricantes"
     },
     {
@@ -1167,7 +1146,7 @@ const Products = [
         image2: "img/lubricantes/woman 60cc 2.webp",
         name: "Gel íntimo WOMAN",
         price: "$3,818.91",
-        descripcion: "Si las experiencias sexuales con penetración te están resultando algo molestas, es más que probable que tengas un problema de lubricación. Productos como Woman  proporcionan una lubricación íntima muy natural para que puedas seguir disfrutando del sexo de un modo mucho más seguro y placentero. 60cc.",
+        descripcion: "Si las experiencias sexuales con penetración te están resultando algo molestas, es más que probable que tengas un problema de lubricación. Productos como Woman  proporcionan una lubricación íntima muy natural para que puedas seguir disfrutando del sexo de un modo mucho más seguro y placentero. ----- Cantidad: 60cc",
         categoria: "Lubricantes"
     },
     {
@@ -1175,7 +1154,7 @@ const Products = [
         image2: "img/lubricantes/chocolate 60cc 2.webp",
         name: "Gel íntimo CHOCOLATE",
         price: "$3,818.91",
-        descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys.",
+        descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys. ----- Cantidad: 60cc",
         categoria: "Lubricantes"
     },
     {
@@ -1183,7 +1162,7 @@ const Products = [
         image2: "img/lubricantes/extra time 60cc.webp",
         name: "Gel íntimo EXTRA TIME",
         price: "$3,818.91",
-        descripcion: "Gel lubricante retardante 60cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera.",
+        descripcion: "Gel lubricante retardante 60cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera. ----- Cantidad: 60cc",
         categoria: "Lubricantes"
     },
     {
@@ -1191,13 +1170,13 @@ const Products = [
         image2: "img/lubricantes/Gel íntimo Warming 120cc Mejor.webp",
         name: "Gel íntimo WARMING",
         price: "$3,818.91",
-        descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco.Cantidad: 60cc.",
+        descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco. ----- Cantidad: 60cc",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         image2: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
-        name: "Aceite Masajes Love Potion Frutos Rojos 30ml",
+        name: "Aceite Love Potion Frutos Rojos",
         price: "$2,554.00",
         descripcion: "Aceite Love Potion Frutos Rojos. Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. ----- Contenido: 30 ml",
         categoria: "Lubricantes"
@@ -1205,17 +1184,17 @@ const Products = [
     {
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
-        name: "Aceite de Masaj Mini Love Potion ice Cream 15gr",
+        name: "Aceite  Mini Love Potion ice ",
         price: "$1,438.00",
-        descripcion: "Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. Compatible con latéx. Sabor a Menta. ----- Contenido: 15 ml.",
+        descripcion: "Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. Compatible con latéx. Sabor a Menta. ----- Contenido: 15gr.",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
-        name: "Aceite de Masajes Mini Love Potion Banana 15gr",
+        name: "Aceite Mini Love Potion Banana",
         price: "$1,438.00",
-        descripcion: "Sácale provecho a todas las ventajas de la cosmética erótica e incluye aceites de masaje en tus juegos de pareja. Son un modo muy sencillo y sensual de incrementar el potencial estimulador de tus caricias. Aparte de la textura suave que proporciona el love potion, puedes sacarle mucho partido si le brindas a tu pareja una previa muy sensual y placentera. Todo tu cuerpo está a punto de experimentar un escalofrío de placer que lo recorrerá de los pies a la cabeza.La calidez de este aceite de masaje con aroma y sabor a banana no sólo se deja notar en el lugar en el que lo aplicas sino que se transmite por todo tu cuerpo como una oleada de excitación ---- Contenido: 15 ml.",
+        descripcion: "Sácale provecho a todas las ventajas de la cosmética erótica e incluye aceites de masaje en tus juegos de pareja. Son un modo muy sencillo y sensual de incrementar el potencial estimulador de tus caricias. Aparte de la textura suave que proporciona el love potion, puedes sacarle mucho partido si le brindas a tu pareja una previa muy sensual y placentera. Todo tu cuerpo está a punto de experimentar un escalofrío de placer que lo recorrerá de los pies a la cabeza.La calidez de este aceite de masaje con aroma y sabor a banana no sólo se deja notar en el lugar en el que lo aplicas sino que se transmite por todo tu cuerpo como una oleada de excitación ---- Contenido: 15gr.",
         categoria: "Lubricantes"
     },
     /*{
@@ -1229,47 +1208,47 @@ const Products = [
     {
         image: "img/lubricantes/thewildboys-gelcrema-anal1.webp",
         image2: "img/lubricantes/thewildboys-gelcrema-anal1.webp",
-        name: "Crema Íntima Anal Relajante The Wild Boys 200grs",
+        name: "Crema Anal The Wild Boys",
         price: "$5,105.00",
-        descripcion: "Desarrollado para relajar los músculos sin perder sensibilidad. La calendula contiene propiedades regenerativas, suaviza e hidrata. Ideal para utilizarlo con juguetes sexuales. Instrucciones de uso: aplica la cantidad de crema gel que quieras en las partes del cuerpo deseadas.Las cremas The Wild Boy® son compatibles con preservativos de Latex. Perfecto para lubricación y masajes anales.Ideal para utilizarlo con juguetes sexuales Cont.Neto: 200grs",
+        descripcion: "Crema Íntima Anal The Wild Boys Relajante Desarrollado para relajar los músculos sin perder sensibilidad. La calendula contiene propiedades regenerativas, suaviza e hidrata. Ideal para utilizarlo con juguetes sexuales. Instrucciones de uso: aplica la cantidad de crema gel que quieras en las partes del cuerpo deseadas. Perfecto para lubricación y masajes anales. Ideal para utilizarlo con juguetes sexuales Cont.Neto: 200grs",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel crema Tonificante The Wild Boys.png",
         image2: "img/lubricantes/Gel crema Tonificante The Wild Boys.png",
-        name: "Gel Crema Tonificante The WB Paprika & Mentol 200g",
+        name: "Crema Tonificante The Wild Boys",
         price: "$3,519.00",
-        descripcion: "La sensibilidad y la dureza de tus erecciones van a determinar el placer que sientes durante tus relaciones sexuales. Si quieres potenciar esa capacidad de una manera prácticamente inmediata, la crema tonificante the Wild Boys te resultará muy útil. Es un producto elaborado a base de extractos naturales como el mentol y la paprika que ayudan al desarrollo de los tejidos del pene y a darle firmeza al miembro para gozar de erecciones más fuertes y duraderas, junto a orgasmos más intensos y explosivos. Modo de uso: Aplicar en la zona íntima las veces que sea necesario. 200g",
+        descripcion: "La sensibilidad y la dureza de tus erecciones van a determinar el placer que sientes durante tus relaciones sexuales. Si quieres potenciar esa capacidad de una manera prácticamente inmediata, la crema tonificante the Wild Boys te resultará muy útil. Es un producto elaborado a base de extractos naturales como el mentol y la paprika que ayudan al desarrollo de los tejidos del pene y a darle firmeza al miembro para gozar de erecciones más fuertes y duraderas, junto a orgasmos más intensos y explosivos. Cont.Neto: 200g",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml.jfif",
         image2: "img/lubricantes/Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml.jfif",
-        name: "Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml",
+        name: "Gel lubricante Vegano ",
         price: "$2,094.00",
-        descripcion: "Gel lubricante íntimo vegano con jojoba y caléndula. Fórmula desarrollada con componentes libres de parabenos y sin testeo en animales. Sumamos jojoba que tiene propiedades muy potentes para hidratación y es antioxidante, además de caléndula que es regenerativa. ----- Apto celíaco, Sin TACC ----- Sin Parabenos -----Cruelty Free ----- No mancha la ropa. ----- Es hidrosoluble, compatible con el uso de preservativos",
+        descripcion: "Gel lubricante íntimo vegano con jojoba y caléndula. Fórmula desarrollada con componentes libres de parabenos y sin testeo en animales. Sumamos jojoba que tiene propiedades muy potentes para hidratación y es antioxidante, además de caléndula que es regenerativa. ----- Apto celíaco, Sin TACC ----- Sin Parabenos -----Cruelty Free ----- No mancha la ropa. ----- Es hidrosoluble, compatible con el uso de preservativos ----- Cont.Neto: 50ml",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.jpg",
         image2: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.jpg",
-        name: "Óleo Orgásmico Estimulante XXX 15ml",
+        name: "Óleo Orgásmico Estimulante XXX",
         price: "$3,359.00",
-        descripcion: "Crea una sensación única de vibración y placer en el clítoris. Comienza como un suave hormigueo, seguido de un calor que se convierte en un resplandor envolvente. Esta sensación se extiende más allá del clítoris e incluso se puede sentir en los labios y en la entrada vaginal. Luego viene una fuerte sensación de hormigueo acompañada con una sensación de apretamiento creando una experiencia sexual completamente nueva e intensa... Este Estimulante de Clítoris, como la mayoría de nuestros productos podes utilizarlos sola o en pareja, recordá que con solo una gota alcanzará todo su efecto, es por ello que te rendirá para muchas veladas de amor… 15ml",
+        descripcion: "Crea una sensación única de vibración y placer en el clítoris. Comienza como un suave hormigueo, seguido de un calor que se convierte en un resplandor envolvente. Esta sensación se extiende más allá del clítoris e incluso se puede sentir en los labios y en la entrada vaginal. Luego viene una fuerte sensación de hormigueo acompañada con una sensación de apretamiento creando una experiencia sexual completamente nueva e intensa... Este Estimulante de Clítoris, como la mayoría de nuestros productos podes utilizarlos sola o en pareja, recordá que con solo una gota alcanzará todo su efecto, es por ello que te rendirá para muchas veladas de amor  ----- Cont.Neto: 15ml",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
         image2: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
-        name: "Aceite de Masajes Mini Love Potion Frutilla 15gr",
+        name: "Aceite  Mini Love Potion Frutilla",
         price: "$1,438.00",
-        descripcion: "Tus caricias ahora serán más dulces que nunca gracias a la sensual combinación de fragancias de este Mini Aceite Comestible Love Potion, experimenta el placer máximo en la estimulación piel con piel o mejor aún labios con piel. El Mini Aceite Comestible Love Potion Frutilla tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato.",
+        descripcion: "Tus caricias ahora serán más dulces que nunca gracias a la sensual combinación de fragancias de este Mini Aceite Comestible Love Potion, experimenta el placer máximo en la estimulación piel con piel o mejor aún labios con piel. El Mini Aceite Comestible Love Potion Frutilla tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato. ----- Cont.Neto: 15ml",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel intimo efecto frio miss v.jpg",
         image2: "img/lubricantes/gel intimo efecto frio miss v.jpg",
-        name: "Gel Íntimo Efecto Frío Miss V",
+        name: "Gel Efecto Frío Miss V",
         price: "$1,709.00",
         descripcion: "es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de la eyaculación. Genera un efecto agradablemente refrescante tanto en el hombre como en la mujer. También puede utilizarse para sexo oral debido a sus componentes y su agradable sabor y aroma a mentol. Se trata de un producto formulado con ingredientes naturales, que es seguro y no agresivo, no es pegajoso y se absorbe rápidamente en la piel después de su aplicación.----- Producto: Gel con Efecto ----- Contenido: 50 ml. ----- Características: Efecto Frío y Retardante",
         categoria: "Lubricantes"
@@ -1277,19 +1256,19 @@ const Products = [
     {
         image: "img/lubricantes/gel lubricante anal lube premium.webp",
         image2: "img/lubricantes/gel lubricante anal lube premium.webp",
-        name: "Gel Lubricante Anal Lube Premium Relajante 130ml",
+        name: "Gel Anal Premium Relajante",
         price: "$2,715.00",
         descripcion: "Ideado especialmente para una lubricación de muy larga duracion. Con extractos de Jojoba de alta concentración que relajan y hacen que la piel sea suave y sedosa. Así, el juego anal se puede disfrutar sin dolor, mientras que los juguetes más grandes pueden proporcionar más diversión. Tacto Suave, contiene Jojoba & Manzanilla. ----- Contenido: 130gr",
         categoria: "Lubricantes"
     },
-    {
+    /*{
         image: "img/lubricantes/gel lubricante intimo anal fly night.jpg",
         image2: "img/lubricantes/gel lubricante intimo anal fly night.jpg",
         name: "Gel Lubricante Íntimo Anal Fly Night",
         price: "$4,083.00",
         descripcion: "Crema lubricante y humectante diseñada para otorgar una mayor fluidez y deslizamiento, y genera una lubricación prolongada. Aumenta la lubricación y logra la distensión de esta zona, permitiendo así alcanzar un pleno disfrute debido a su exclusiva formula natural. Creado exclusivamente con extractos naturales, componentes con propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. ----- Contenido: 125 ml",
         categoria: "Lubricantes"
-    },
+    },*/
     {
         image: "img/lubricantes/lubricante siliconado anal afrodisia.jpeg",
         image2: "img/lubricantes/lubricante siliconado anal afrodisia.jpeg",
@@ -1301,9 +1280,9 @@ const Products = [
     {
         image: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
         image2: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
-        name: "Aceite Comestible Love Potion Champagne Frambuesa",
+        name: "Aceite Comestible Love Potion",
         price: "$1,438.00",
-        descripcion: "El Mini Aceite Comestible Love Potion Champagne y Frambuesa tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato.Tendrás una piel bien hidratada y sensible al mínimo roce para disfrutar más de tus encuentros sexuales en pareja. 15gr",
+        descripcion: "El Mini Aceite Comestible Love Potion Champagne y Frambuesa tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato.Tendrás una piel bien hidratada y sensible al mínimo roce para disfrutar más de tus encuentros sexuales en pareja. 15gr ----- Sabor: Champagne Frambuesa",
         categoria: "Lubricantes"
     },
     {
@@ -1317,7 +1296,7 @@ const Products = [
     {
         image: "img/lubricantes/Prime Gel Natural Mixta 22grs.jpg",
         image2: "img/lubricantes/Prime Gel Natural Mixta 22grs.jpg",
-        name: "Prime Gel Natural Mixta 22grs",
+        name: "Prime Gel Natural Mixta",
         price: "$2,888.00",
         descripcion: "Formulado Con Aloe Vera Y Caléndula, Provee Una Lubricación Superior Porque Permite Una Hidratación Inmediata Y Prolongada Haciendo De Tu Encuentro Una Experiencia Más Placentera. A Base De Agua. No Afecta El Látex. No Mancha. 22grs",
         categoria: "Lubricantes"
@@ -1333,49 +1312,49 @@ const Products = [
     {
         image: "img/lubricantes/gel maxx lado b 30 grs.webp",
         image2: "img/lubricantes/gel maxx lado b 30 grs.webp",
-        name: "Gel Maxx Lado B 30grs",
+        name: "Gel Maxx Lado B",
         price: "$2,568.00",
-        descripcion: "Diseñado para una experiencia distinta, el gel Lado B Maxx es recomendable para uso anal. Sus principales componentes son el aloe vera y extracto de jojoba, que proporcionan una lubricación y relajación duradera de la zona intima, facilitando la penetración. 30grs",
+        descripcion: "Diseñado para una experiencia distinta, el gel Lado B Maxx es recomendable para uso anal. Sus principales componentes son el aloe vera y extracto de jojoba, que proporcionan una lubricación y relajación duradera de la zona intima, facilitando la penetración. ----- Cont.neto: 30grs",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Gel Íntmo Chocolate 120cc ST.webp",
         image2: "img/lubricantes/Gel Íntmo Chocolate 120cc ST.webp",
-        name: "Gel Íntmo Chocolate 120cc ST",
+        name: "Gel Íntmo Chocolate",
         price: "$5,209.80",
-        descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys.",
+        descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys. ----- Cont.neto: 120cc",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.webp",
         image2: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.webp",
-        name: "Prime Gel Natural Hot Pleasure 22grs",
+        name: "Gel Natural Hot Pleasure",
         price: "$3,475.00",
-        descripcion: "Encendé tu pasión con la sensación cálida que te ofrece hot pleasure. Este gel íntimo eleva la sensación de temperatura y se siente sedoso y suave. Ideal para realizar caricias estimulantes y hacer de tu encuentro una experiencia diferente. No afecta el látex. No mancha. 22grs",
+        descripcion: "Encendé tu pasión con la sensación cálida que te ofrece hot pleasure. Este gel íntimo eleva la sensación de temperatura y se siente sedoso y suave. Ideal para realizar caricias estimulantes y hacer de tu encuentro una experiencia diferente. No afecta el látex. No mancha. ----- Cont.neto: 22grs",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Prime Gel Natural Excite 22grs.jpg",
         image2: "img/lubricantes/Prime Gel Natural Excite 22grs.jpg",
-        name: "Prime Gel Natural Excite 22grs",
+        name: "Gel Natural Excite",
         price: "$3,475.00",
-        descripcion: "Gel PRIME EXCITE está diseñado para intensificar el orgasmo femenino, maximizar el placer y la experiencia sexual. Está desarrollado con el componente L- arginina que actúa como vasodilatador e incrementa la sensibilidad genital para potenciar el placer. 22grs",
+        descripcion: "Gel PRIME EXCITE está diseñado para intensificar el orgasmo femenino, maximizar el placer y la experiencia sexual. Está desarrollado con el componente L- arginina que actúa como vasodilatador e incrementa la sensibilidad genital para potenciar el placer. ----- Cont.neto: 22grs",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/Prime Gel Touch Original 200ml.jpg",
         image2: "img/lubricantes/Prime Gel Touch Original 200ml.jpg",
-        name: "Prime Gel Touch Original 200ml",
+        name: " Touch Original",
         price: "$6,981.00",
-        descripcion: "Gel sensual & masaje Prime Touch 2 en 1. Se trata de un gel doblemente eficaz, ya que puede ser aplicado como gel íntimo y/o mediante masajes en todo el cuerpo. 200 ml ",
+        descripcion: "Gel sensual & masaje Prime Touch 2 en 1. Se trata de un gel doblemente eficaz, ya que puede ser aplicado como gel íntimo y/o mediante masajes en todo el cuerpo. ----- Cont.neto: 200 ml ",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel-intimo-mine-my-pleasure-50ml.png",
         image2: "img/lubricantes/gel-intimo-mine-my-pleasure-50ml.png",
-        name: "Gel Íntimo Mine My Plearure 50ml Sexitive",
+        name: "Mine My Plearure ",
         price: "$1,700.00",
-        descripcion: "Es un gel lubricante con L-Arginina, un aminoácido de origen natural con capacidad vasodilatadora, especialmente formulado para aumentar la excitación y sensibilidad del clítoris facilitando orgasmos más intensos más rápido. Básicamente, lo que hace es que los vasos sanguíneos localizados en clítoris se dilaten mejorando el flujo sanguíneo hacia la zona genital propiciando la excitación.Favorece la lubricación natural y la sensibilidad en toda la zona. Un combo totalmente solicitados por todas. Este gel crea una sensación de calor en la piel que aumenta de forma inmediata la sensibilidad intensificando las sensaciones.",
+        descripcion: "Es un gel lubricante con L-Arginina, un aminoácido de origen natural con capacidad vasodilatadora, especialmente formulado para aumentar la excitación y sensibilidad del clítoris facilitando orgasmos más intensos más rápido. Básicamente, lo que hace es que los vasos sanguíneos localizados en clítoris se dilaten mejorando el flujo sanguíneo hacia la zona genital propiciando la excitación.Favorece la lubricación natural y la sensibilidad en toda la zona. Un combo totalmente solicitados por todas. Este gel crea una sensación de calor en la piel que aumenta de forma inmediata la sensibilidad intensificando las sensaciones. ----- Cont.neto: 50ml",
         categoria: "Lubricantes"
     },
     /*{
@@ -1389,9 +1368,9 @@ const Products = [
     {
         image: "img/lubricantes/lubricante lube more play supreme retardante.jpg",
         image2: "img/lubricantes/lubricante lube more play supreme retardante.jpg",
-        name: "Gel Lubricante Lube Supreme Retardante 130ml",
+        name: "Lube Supreme Retardante ",
         price: "$2,715.00",
-        descripcion: "Gel Lubricante efecto frío para relaciones más prolongadas y placenteras. Es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de eyaculación . RETRASA LA EYACULACIÓN, ACTÚA RAPIDAMENTE, MEJORA LAS RELACIONES SEXUALES, AYUDA A DISFRUTAR MÁS DEL SEXO, SIN EFECTOS SECUNDARIOS, Cont.Neto: 130ml",
+        descripcion: "Gel Lubricante efecto frío para relaciones más prolongadas y placenteras. Es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de eyaculación . RETRASA LA EYACULACIÓN, ACTÚA RAPIDAMENTE, MEJORA LAS RELACIONES SEXUALES, AYUDA A DISFRUTAR MÁS DEL SEXO, SIN EFECTOS SECUNDARIOS, ----- Cont.Neto: 130ml",
         categoria: "Lubricantes"
     },
     /*{
@@ -1405,17 +1384,17 @@ const Products = [
     {
         image: "img/lubricantes/gel estimulador femenino miss v L-arginina 50ml.png",
         image2: "img/lubricantes/gel estimulador femenino miss v L-arginina 50ml.png",
-        name: "Gel Estimalador Femenino Miss V L-Arginina 50ml.",
+        name: " Miss V L-Arginina.",
         price: "$1,966.00",
-        descripcion: "Gel lubricante íntimo facilitador del orgasmo femenino. L- Arginina es un aminoácido que aumenta la circulación sanguínea de la zona, brindando mayor sensibilidad en la mujer.El Ginseng potencia el efecto que produce la L - Arginina, aumentando la excitación. ------ Beneficios: Orgasmos más rápidos y más intensos, No altera el PH vaginal, No mancha, no deja residuos, es inoloro, Es hidrosoluble, compatible con el uso de preservativos. 50ml",
+        descripcion: "Gel lubricante íntimo facilitador del orgasmo femenino. L- Arginina es un aminoácido que aumenta la circulación sanguínea de la zona, brindando mayor sensibilidad en la mujer.El Ginseng potencia el efecto que produce la L - Arginina, aumentando la excitación. ------ Beneficios: Orgasmos más rápidos y más intensos, No altera el PH vaginal, No mancha, no deja residuos, es inoloro, Es hidrosoluble, compatible con el uso de preservativos. ----- Cont.Neto: 50ml",
         categoria: "Lubricantes"
     },
     {
         image: "img/lubricantes/gel lubricante intimo anal sedanal miss v 50ml.webp",
         image2: "img/lubricantes/gel lubricante intimo anal sedanal miss v 50ml.webp",
-        name: "Gel lubricante Íntimo Anal Sedanal Miss V 50ml",
+        name: "Sedanal Miss V",
         price: "$2,670.00",
-        descripcion: "Cremagel lubricante íntimo anal. Formulado con SILICONA HIBRIDA HIDROSOLUBLE, que mantiene la lubricación por mas tiempo. Diseñado para generar una textura sedosa. Al aplicarlo, la gota tiene aspecto de crema y cuando se extiende posee las características del gel. Pensado para relaciones anales, sumamos a la formula CARDAMOMO y CLAVO de OLOR, que por sus propiedades naturales relajan y protegen la piel. Combina las características humectantes del gel, sumadas a la sedosidad de la crema y la silicona",
+        descripcion: "Cremagel lubricante íntimo anal. Formulado con SILICONA HIBRIDA HIDROSOLUBLE, que mantiene la lubricación por mas tiempo. Diseñado para generar una textura sedosa. Al aplicarlo, la gota tiene aspecto de crema y cuando se extiende posee las características del gel. Pensado para relaciones anales, sumamos a la formula CARDAMOMO y CLAVO de OLOR, que por sus propiedades naturales relajan y protegen la piel. Combina las características humectantes del gel, sumadas a la sedosidad de la crema y la silicona ----- Cont.Neto: 50ml",
         categoria: "Lubricantes"
     },
     {
@@ -1423,7 +1402,7 @@ const Products = [
         image2: "img/lubricantes/pouch oh yes! crema orgasmica estimulacion.png",
         name: "Pouch Oh Yes! Crema Orgasmica",
         price: "$391.00",
-        descripcion: "Con tan solo un poco de crema sobre tu zona genital sentirás como se intensifica cada caricia, roce, beso y juego sexual que puedas imaginar. Multiplicando tu placer, lubricación, deseo e incrementando el grado de goce en momentos de clímax. Ya sea a solas o en pareja, sin duda esta en una crema mágica para experiencias y juegos que no podes dejar pasar. ¡Disfruta de los orgasmos más potentes! Intensifica los orgasmos, Mayor Excitación, Mejora la lubricación",
+        descripcion: "Con tan solo un poco de crema sobre tu zona genital sentirás como se intensifica cada caricia, roce, beso y juego sexual que puedas imaginar. Multiplicando tu placer, lubricación, deseo e incrementando el grado de goce en momentos de clímax. Ya sea a solas o en pareja, sin duda esta en una crema mágica para experiencias y juegos que no podes dejar pasar. ¡Disfruta de los orgasmos más potentes! Intensifica los orgasmos, Mayor Excitación, Mejora la lubricación ----- Cont.Neto: 10ml",
         categoria: "Lubricantes"
     },
     {
@@ -1431,7 +1410,7 @@ const Products = [
         image2: "img/lubricantes/Pouch Oh Yes! Lubricante Revujenation.png",
         name: "Pouch Oh Yes! Lubricante Revujenation",
         price: "$391.00",
-        descripcion: "Gel-crema para el rejuvenecimiento de la zona íntima. Debido a la presencia de aceites naturales, Caléndula y Vitamina E, ejerce una notable acción tonificante y reafirmante.CON ACEITES NATURALES, CALÉNDULA Y VITAMINA E. Lubricante e hidratante que ayuda con la sequedad vaginal. Restaura la hidratación íntima, imitando la lubricación natural. Restaura la hidratación íntima, imitando la lubricación natural.El gel crema íntimo de Sexitive proporciona una fuerte acción hidratante y reafirmante sobre la zona vulvo- vaginal gracias a la Caléndula, Vitamina E y mezcla de hidratantes, protegiendo la zona vaginal.",
+        descripcion: "Gel-crema para el rejuvenecimiento de la zona íntima. Debido a la presencia de aceites naturales, Caléndula y Vitamina E, ejerce una notable acción tonificante y reafirmante.CON ACEITES NATURALES, CALÉNDULA Y VITAMINA E. Lubricante e hidratante que ayuda con la sequedad vaginal. Restaura la hidratación íntima, imitando la lubricación natural. Restaura la hidratación íntima, imitando la lubricación natural.El gel crema íntimo de Sexitive proporciona una fuerte acción hidratante y reafirmante sobre la zona vulvo- vaginal gracias a la Caléndula, Vitamina E y mezcla de hidratantes, protegiendo la zona vaginal. ----- Cont.Neto: 10ml",
         categoria: "Lubricantes"
     },
     //---------------------------------------------------------------------------------------------------------------------------
@@ -1440,7 +1419,7 @@ const Products = [
     {
         image: "img/lubricantes/Toy Cleaner Limpiador de juguetes Premium sexitive 120ml.jpg",
         image2: "img/lubricantes/Toy Cleaner Limpiador de juguetes Premium sexitive 120ml.jpg",
-        name: "Limpiador de Juguetes Premiun Sexitive 120cc",
+        name: " Premiun Sexitive 120cc",
         price: "$1,623.00",
         descripcion: "",
         categoria: "Limpiadores-de-juguetes"
@@ -1448,19 +1427,19 @@ const Products = [
     {
         image: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
         image2: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
-        name: "Limpiador de Juguetes Fly Night 100cc",
+        name: "Fly Night 100cc",
         price: "$2,014.00",
         descripcion: "",
         categoria: "Limpiadores-de-juguetes"
     },
-    {
+    /*{
         image: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
         image2: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
-        name: "Limpiador de Juguetes Fly Night 90cc",
+        name: " Fly Night 90cc",
         price: "$1,531.00",
         descripcion: "",
         categoria: "Limpiadores-de-juguetes"
-    },
+    },*/
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------BOLAS KEGEL
     //---------------------------------------------------------------------------------------------------------------------------
@@ -1518,7 +1497,7 @@ const Products = [
     {
         image: "img/JUEGOS/juego-de-dados-oh my good.jpg",
         image2: "img/JUEGOS/juego-de-dados-oh my good.jpg",
-        name: "Oh my god! Juego de Dados Clásico",
+        name: "Oh my god!",
         price: "$1,244.00",
         descripcion: "Presentamos Oh My God de Sexitive, el juego que elevará tus encuentros íntimos a niveles de pasión inimaginables. Consta de dos dados: uno con zonas del cuerpo y otro con acciones sensuales y atrevidas. Prepárate para un juego lleno de emoción, exploración y placer desenfrenado. Oh My God es perfecto para parejas que desean agregar un toque de diversión y excitación a su vida sexual. Con cada lanzamiento de los dados, descubrirás qué zona del cuerpo explorar y qué acción realizar en ella. Desde masajes eróticos hasta besos apasionados, cada combinación te llevará a un mundo de sensaciones intensas y placer compartido.",
         categoria: "juegos"
@@ -1526,7 +1505,7 @@ const Products = [
     {
         image: "img/JUEGOS/lucky lovers, your pleasure.webp",
         image2: "img/JUEGOS/lucky lovers, your pleasure.webp",
-        name: "Lucky Lovers, Your Pleasure - Raspá & jugá",
+        name: "Lucky Lovers, Your Pleasure",
         price: "$4,313.00",
         descripcion: "¿CÓMO SE JUEGA? Separá las cartas LUCKY, de las cartas LOVERS. El dado LUCKY LOVERS te indicará cómo fue hechada tu suerte y con qué mazo vas a jugar. El dado NUMÉRICO te indicará con qué carta del mazo vas a jugar. Ya tenés tu carta, el dado SÍMBOLOS te indicará cuál sector vas a raspar para realizar la acción. ----- contiene: 3 dados + 12 cartas ",
         categoria: "juegos"
@@ -1534,7 +1513,7 @@ const Products = [
     {
         image: "img/JUEGOS/mini poker xxx edition sexitive.webp",
         image2: "img/JUEGOS/mini poker xxx edition sexitive.webp",
-        name: "Mini Poker XXX Edition Sexitive",
+        name: "Mini Poker XXX",
         price: "$2,278.00",
         descripcion: "Mini Poker XXX Edition Baraja de poker con un twist picante!! Un sexy kamasutra para jugar al poker, donde todos se divierten. Lo mejor es que nadie pierde! Incluye: - 50 Mini cartas de poker con posiciones sexuales",
         categoria: "juegos"
@@ -1542,7 +1521,7 @@ const Products = [
     {
         image: "img/JUEGOS/lucky raspa-juga-sexitive.jpg",
         image2: "img/JUEGOS/lucky raspa-juga-sexitive.jpg",
-        name: "Lucky lovers, Your Connection - Raspá & jugá",
+        name: "Lucky lovers, Your Connection",
         price: "$4,313.00",
         descripcion: "Separá las cartas LUCKY, de las cartas LOVERS. El dado LUCKY LOVERS te indicará cómo fue tu suerte y con qué mazo vas a jugar. El dado NUMÉRICO te indicará con qué carta del mazo vas a jugar. Ya tenés tu carta, el dado SÍMBOLOS te indicará cuál sector vas a raspar para realizar la acción. ----- CONTIENE: 3 dados + 12 cartas",
         categoria: "juegos"
@@ -1590,7 +1569,7 @@ const Products = [
     {
         image: "img/JUEGOS/lets-fuck.jpg",
         image2: "img/JUEGOS/lets-fuck.jpg",
-        name: "Let’s Fuck Juego de cartas + dados Sexitive",
+        name: "Let’s Fuck Juego de cartas + dados",
         price: "$4,313.00",
         descripcion: "Let's Fuck Es un juego intimo pensado para dos personas. La comunicación es la base de este juego. Anímense a conocerse y hacer del sexo un momento más íntimo y placentero. Comunicar exactamente lo que queremos conduce a una mayor excitación y satisfacción sexual. En las cartas vas a encontrar desde preguntas y tareas que implican acciones no solo físicas sino habladas. Escucha a tu pareja susurrar, gemir y gritar de placer. ----- COMO JUGAR? Separá las cartas en sus tres categorías: Talk, Hot, Sex Experience. Tirá los dados para saber con cuales de las cartas vas a jugar. Las elegidas te indicarán qué pregunta u oración tenés que leer y responder. Las cartas sex incluyen tips para hablar sucio.",
         categoria: "juegos"
@@ -1614,7 +1593,7 @@ const Products = [
     {
         image: "img/JUEGOS/dados eroticos de posiciones kamasutra generala.jpg",
         image2: "img/JUEGOS/dados eroticos de posiciones kamasutra generala.jpg",
-        name: "Dados Erótico de Posiciones Kamasutra Generala",
+        name: "Dados Erótico de Posiciones Kamasutra",
         price: "$2,105.00",
         descripcion: "El mejor remedio contra la rutina es la imaginación. Pero si notas que cada vez te cuesta más ser un poquito original en la cama, ¡Te tenemos la solución! Estos dados con posturas sexuales te vendrán genial para recuperar la inspiración. Los juegos eróticos para pareja ayudan a recuperar el interés por el sexo.Cuando notes que la rutina empieza a apoderarse de tu vida sexual echa mano de recursos tan originales como éste.Si eres fan del famoso libro indio del Kamasutra, este es el juego que necesitas. Los dados con posturas sexuales te invitan a descubrir nuevas formas de placer. ¿Estás preparado? Características: ----- 5 Dados con posturas sexuales ----- Ideas originales para tus encuentros íntimos en pareja ----- Solución rápida y sencilla a la hora de tomar decisiones ----- Cantidad: 5 dados",
         categoria: "juegos"
@@ -1622,7 +1601,7 @@ const Products = [
     {
         image: "img/JUEGOS/juego de carta verdad o desafio retos atrevido sexitive.jpeg",
         image2: "img/JUEGOS/juego de carta verdad o desafio retos atrevido sexitive.jpeg",
-        name: "Juego de cartas Verdad Desafío: Retos Atrevidos",
+        name: "Verdad Desafío: Retos Atrevidos",
         price: "$6,129.00",
         descripcion: "Juego de cartas Verdad Desafío Un juego divertido, picante y excitante. Consta de 80 preguntas y retos atrevidos con los que vas a poder divertirte en pareja o con amigos. ----- VERDAD: Respondé de manera honesta, cuanto mas detallada la respuesta, mejor! Si tus compañeros consideran que no estás siendo sincero o si te negás a responder, pasas automaticamente a las cartas de DESAFÍO. ----- DESAFÍO: Atrvete con todo y realizá la acción. Si cumplís el desafío tu turno finalizará con éxito. Pero si te negás a responder vas a tener que tomar un shot de alguna bebida alcohólica. ----- Contiene 80 cartas + 1 dado",
         categoria: "juegos"
@@ -1630,7 +1609,7 @@ const Products = [
     {
         image: "img/JUEGOS/juegos de cartas ladies night.jpg",
         image2: "img/JUEGOS/juegos de cartas ladies night.jpg",
-        name: "Juego de cartas Ladies Night: For the girls",
+        name: "Ladies Night: For the girls",
         price: "$6,129.00",
         descripcion: "Este es el juego ideal para el grupo de amigas que quiera tener una noche íntima y divertida, dejando de lado por un rato a los hombres. Los cuatro mazos divididos en Just for Fun, Personal Life, Sex and Relationships e Intimate Mood, harán que una reunión simple y cotidiana sea diferente y alocada. Contiene 80 cartas y 1 dado. ----- OBJETIVO del Juego Ladies Night: Cada jugadora deberá juntar la mayor cantidad de cartas posibles, respondiendo o haciendo lo que las mismas indican. El resto de las mujeres tiene la posibilidad de cuestionar y opinar sobre la respuesta de la jugadora y pueden decidir si se queda con la carta o no.Gana la jugadora que más cartas obtenga.",
         categoria: "juegos"
@@ -1638,7 +1617,7 @@ const Products = [
     {
         image: "img/JUEGOS/juego-challenge-30-days.jpg",
         image2: "img/JUEGOS/juego-challenge-30-days.jpg",
-        name: "Juego Challenge 30 days Desafíos durante 30 días",
+        name: " Challenge 30 days",
         price: "$1,830.00",
         descripcion: "Para aquellas parejas que quieran salir de la cotidianeidad de sus encuentros sexuales y desean estimularlos todos los días. ¿Aguantarás 30 días haciendo juegos sexuales ? Este juego es la oportunidad perfecta para innovar en la intimidad dándole un toque de imaginación a las fantasías ocultas de cada integrante de la pareja, lo cual puede mejorar la relación y comunicación y a descubrir nuevas formas de complacer al otro.",
         categoria: "juegos"
@@ -1646,7 +1625,7 @@ const Products = [
     {
         image: "img/JUEGOS/les amants.jpg",
         image2: "img/JUEGOS/les amants.jpg",
-        name: "Cartas Y Dados Les Amants Juegos Eróticos Sexitive",
+        name: " Les Amants Juegos Eróticos",
         price: "$4,313.00",
         descripcion: "LES AMANTS es el juego perfecto para parejas que confían 100% el uno en el otro y buscan aventuras eróticas fuera de lo convencional. Atrevete a jugar con placer. ----- Cómo se juega? Primero separá las cartas Bondage de las Seductions. El dado BONDAGE O SEDUCTIONS te indicará como fue hechada tu suerte y con qué mazo vas a jugar. El dado SÍMBOLOS te indicará con que carta dentro de las seis que tiene BONDAGE O SEDUCTIONS vas a jugar. Por ejemplo: carta BONDAGE, símbolo ON FIRE Ya tenés tu carta, ahora tirá el dado NUMÉRICO que te indicará la acción que deberás hacer. Este es un juego para adultos donde todo esta permitido, pero nada es obligatorio. La confianza y el respeto mutuos forman la base del juego. ----- Contiene: 6 cartas BONDAGE 6 cartas SEDUCTIONS 1 dado numérico 1 dado SEDUCTIONS O BONDAGE. 1 dado con simbolos",
         categoria: "juegos"
@@ -1662,7 +1641,7 @@ const Products = [
     {
         image: "img/JUEGOS/cartas y dados juego erotico sexplay.jpeg",
         image2: "img/JUEGOS/cartas y dados juego erotico sexplay.jpeg",
-        name: "Cartas y Dados Juego Erótico Sexplay",
+        name: "Cartas y Dados Juego Erótico",
         price: "$4,313.00",
         descripcion: "¿Sabes qué tiene de original esta noche? Que no hay nada escrito. Da igual la idea que tuvieras en mente: las Cartas Sexplay Fetiche o Romance Sexitive transformarán la velada a tu antojo. ¿Cómo se juega ?   1) Separa las cartas fetiches de las romance. 2) El dado rosa FETICHE O ROMANCE te indicará con cual juego de cartas jugarás 3) El dado negro SÍMBOLOS te indicará con que carta dentro de las seis que tiene fetiche o romance vas a jugar.Por ejemplo: carta fetiche, símbolo antifaz. 4) Ya tenés tu carta, ahora tirá el dado NUMÉRICO de corazones que te indicará la acción que deberás hacer. Este es un juego para adultos donde todo está permitido, pero nada es obligatorio.La confianza y el respeto mutuos forman la base del juego. ----- Contiene: 6 cartas romance con acciones ROMÁNTICA, 6 cartas fetiche con acciones FETICHES, 1 dado numérico, 1 dado fetiche o romance, 1 dado con simbolos",
         categoria: "juegos"
@@ -1678,7 +1657,7 @@ const Products = [
     {
         image: "img/JUEGOS/juegos de dado - love play.jpeg",
         image2: "img/JUEGOS/juegos de dado - love play.jpeg",
-        name: "Juego de Dados - Love Play Sixitive",
+        name: "Juego de Dados - Love Play",
         price: "$2,565.00",
         descripcion: "Kit de juego de dados love play. Buscas ideas originales y divertidas para sorprender a tu pareja. Este es tu juego ----- CÓMO JUGAR: El poseedor/a de los dados realizará una posición determinada en el lugar asignado con la intensidad que le toque. Podes darle más chispa con productos eróticos, lubricantes y aceites comestibles, o de masaje! ¡Saca tu lado más atrevido! CONTIENE: 1 dado rosa de 16 mm(representa las posiciones a realizar). 1 dado negro de 16 mm(representa la intensidad). 1 dado negro de 16 mm(representa los lugares).",
         categoria: "juegos"
@@ -1694,7 +1673,7 @@ const Products = [
     {
         image: "img/JUEGOS/juego de mesa erotico permitido sex parejas.jpg",
         image2: "img/JUEGOS/juego de mesa erotico permitido sex parejas.jpg",
-        name: "Juego de Mesa Erótico Permitido Sex Parejas",
+        name: "Juego de Mesa Erótico Permitido",
         price: "$10,241.00",
         descripcion: "Permitido sex es un juego erótico diseñado específicamente para parejas o para sus permitidos. Dentro de esta increíble caja vas a encontrar un tablero y cartas con propuestas muy dinámicas y divertidas pero sobre todos calientes. No solo la pasión y sensualidad tiene parte en estos juegos, sino la ventaja de poder conocer mas sobre los gustos y fantasías de tu pareja. Sin dudas ofrece una velada placentera y excitante que siempre termina con algo de diversión al desnudo.",
         categoria: "juegos"
@@ -1738,7 +1717,7 @@ const Products = [
     {
         image: "img/anal/Playtail Fox Anal Plug Pink.jpg",
         image2: "img/anal/Playtail Fox Anal Plug Pink.jpg",
-        name: "Playtail Fox Anal Plug Pink ST",
+        name: " Fox Anal Plug Pink ST",
         price: "$19,877.42",
         descripcion: "Este plug anal de metal está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. Puedes jugar con la temperatura calentándolo o enfriándolo. Esto añadirá excitación en tus fantasías eróticas. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Las colas de diferentes animales y colores es un fetiche muy frecuente, anímate a jugar de otra manera y a sentirte diferente conformando es una estimulante visión sexual. ----- Características: Dilatador anal S. ----- Medidas: longitud 7.5 cm diámetro 2.5cm. -----  Cola simulando Zorro Rosa coral. -----  Aluminio ultra- liso. ----- Pelo sintético. ----- No contiene Níquel. ----- Impermeable. ----- Utilizar lubricante anal a base de agua.",
         categoria: "anal"
@@ -1754,7 +1733,7 @@ const Products = [
     {
         image: "img/anal/Plug Gold Rose Heart Large.jpg",
         image2: "img/anal/Plug Gold Rose Heart Large.jpg",
-        name: "Plug Gold Rose Heart Large ST",
+        name: "Plug Gold Rose Heart Large",
         price: "$16,842.74",
         descripcion: "Plug anal con engarce en la base emulando una gema en ABS, en forma de corazón. ----- Caracteristicas. Material: aleación de aluminio ultra- liso ----- Longitud: 9, 5cm ----- Diámetro: 4cm ----- Sumergible.",
         categoria: "anal"
@@ -1794,7 +1773,7 @@ const Products = [
     {
         image: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
         image2: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
-        name: "Plug Personal Trainer Estimulador Anal Caimán",
+        name: "Plug Personal Trainer",
         price: "$2,894.00",
         descripcion: "Plug Anal Personal Trainer Piel. Plug mega suave y delicado, ideal para quienes buscan una experiencia memorable. Este dilatador es recomendable para iniciarse en el sexo anal. Es compatible con arnés, por lo que podrás disfrutar de tu juego sexual de otra manera. ----- Su medida es de 10 cm y 4 cm de diámetro.",
         categoria: "anal"
@@ -1826,7 +1805,7 @@ const Products = [
     {
         image: "img/anal/Gancho Anal de metal.jpg",
         image2: "img/anal/Gancho Anal de metal.jpg",
-        name: "Gancho Anal De Metal 17x2 Bulk Con Aro Deseos Cap",
+        name: "Gancho Anal De Metal",
         price: "$12,066.00",
         descripcion: "Para verdaderos amantes de los juegos BDSM. Este gancho de sujecion puede utilizarse tanto de forma anal como vaginal para restringir el movimiento de tu pareja y someterla de una manera completamente nueva. Utilizá el extremo anillado para atarlo e impedir que se mueva. ----- MEDIDAS: Diametro interno: 5cm, Diametro bola insertable: 3cm, Largo total: 17cm, Espesor: 2cm  ",
         categoria: "anal"
@@ -1922,7 +1901,7 @@ const Products = [
     {
         image: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
         image2: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
-        name: "Plug Anal Grande Cola De Conejo Negra ",
+        name: "Plug Cola De Conejo Negra ",
         price: "$15,042.00",
         descripcion: "Dale rienda suelta a tu imaginación y cumple tus fantasías más intensas en la cama con este lindo plug de acero con cola de conejo. La sola imagen de este plug insertado en tu cola dejara a tu amante sin aliento y no podrá resistirse a mimar tan linda conejita. Siente como la suavidad de la felpa roza tu zona mientras el plug cumple su función de dilatar y dejarte preparada o preparado para otros juegos de penetración anal. Introduce en el ano la parte metálica del plug y deja que la cola de felpa quede en el exterior, podrás usarlo durante toda la velada y cuando estén a punto de llegar al clímax extrae el plug para que se prolongue una sensación única de placer y éxtasis.",
         categoria: "anal"
@@ -1930,9 +1909,9 @@ const Products = [
     {
         image: "img/anal/plug anal silicona small cola de conejo blanco.webp",
         image2: "img/anal/plug anal silicona small cola de conejo blanco.webp",
-        name: "Plug Anal Silicona Small Cola De Conejo Blanco",
+        name: "Plug Silicona Cola De Conejo Blanco",
         price: "$10,650.00",
-        descripcion: "Esta encantadora cola de conejito te llenará de placer anal! Con un peso cómodo, el tapón de silicona es liso, cónico y pequeño, de modo que la inserción es fácil y agradable, incluso para los principiantes. A tu pareja le encantará lo bien que te ves. Este plug es perfecto para prepararse para el sexo anal. Úselo con cualquier lubricante que elija.",
+        descripcion: "Esta encantadora cola de conejito te llenará de placer anal! Con un peso cómodo, el tapón de silicona es liso, cónico y pequeño, de modo que la inserción es fácil y agradable, incluso para los principiantes. A tu pareja le encantará lo bien que te ves. Este plug es perfecto para prepararse para el sexo anal. Úselo con cualquier lubricante que elija. ----- Tamaño: Small",
         categoria: "anal"
     },
     /*{
@@ -1970,25 +1949,25 @@ const Products = [
     {
         image: "img/anal/Silicone Plug Fucsia Medium ST.jpg",
         image2: "img/anal/Silicone Plug Fucsia Medium ST.jpg",
-        name: "Silicone Plug Fucsia Medium ST",
+        name: "Silicone Plug Fucsia ST",
         price: "$13,808.06",
-        descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación.",
+        descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación. ----- Tamaño: Medium",
         categoria: "anal"
     },
     {
         image: "img/anal/Silicone Plug Fucsia largue ST.jfif",
         image2: "img/anal/Silicone Plug Fucsia largue ST.jfif",
-        name: "Silicone Plug Fucsia Large ST",
+        name: "Silicone Plug Fucsia ST",
         price: "$15,325.40",
-        descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación.",
+        descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación. ----- Tamaño: Large",
         categoria: "anal"
     },
     {
         image: "img/anal/Plug Gold Rose Round Small ST.jpeg",
         image2: "img/anal/Plug Gold Rose Round Small ST.jpeg",
-        name: "Plug Gold Rose Round Small ST",
+        name: "Plug Gold Rose Round  ST",
         price: "$13,751.06",
-        descripcion: "Este plug anal, de aleación de aluminio de color oro rosado, esta diseñado para ofrecerte un sinfin de sensaciones placenteras. Su forma cónica es ideal para facilitar la inserción, estimularte y ofrecerte orgasmos increíbles. Su gema de corazón negra hará realzar las fantasías de tu pareja al verte. Puedes jugar con la temperatura calentándolo o enfríandolo, esto añadirá excitación a tus fantasías eróticas. ----- Medida: Longitud Total 7.2 cm - Longitud Insertable: 6 cm - Diametro: 3.2 cm",
+        descripcion: "Este plug anal, de aleación de aluminio de color oro rosado, esta diseñado para ofrecerte un sinfin de sensaciones placenteras. Su forma cónica es ideal para facilitar la inserción, estimularte y ofrecerte orgasmos increíbles. Su gema de corazón negra hará realzar las fantasías de tu pareja al verte. Puedes jugar con la temperatura calentándolo o enfríandolo, esto añadirá excitación a tus fantasías eróticas. ----- Medida: Longitud Total 7.2 cm - Longitud Insertable: 6 cm - Diametro: 3.2 cm ----- Tamaño: Small",
         categoria: "anal"
     },
     {
@@ -2002,7 +1981,7 @@ const Products = [
     {
         image: "img/anal/monster plug escalonado negro 15cm real skin.jpg",
         image2: "img/anal/monster plug escalonado negro 15cm real skin.jpg",
-        name: "Monster Plug Escalonado Negro 15cm",
+        name: "Monster Plug Escalonado Negro",
         price: "$4,980.00",
         descripcion: "Vive una experiencia diferente con este Dilatador anal, diseñado con distintas medidas para que estimules distintos puntos en la penetración anal o vaginal. A medida que insertes el estimulador sentirás como aumenta de tamaño, experimentaras distintas sensaciones en la penetración gracias a su diseño variable. Fabricado con silicona de primera calidad, es un dilatador firme pero de textura flexible, libre de ftalatos, látex e hipo alergénico para ofrecerte todas las garantías de seguridad durante su uso. • Medidas: Largo: 15 cm.Ancho Máximo 6 cm Te recomendamos usar un lubricante a base de agua para una experiencia más placentera.",
         categoria: "anal"
@@ -2018,7 +1997,7 @@ const Products = [
     {
         image: "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
         image2: "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
-        name: "Plug Anal Pequeño de Silicona Negro Joya Roja",
+        name: "Plug Pequeño de Silicona con Joya Roja",
         price: "$6,830.00",
         descripcion: "El plug anal de silicona serán tu mejor aliado para iniciarte en el sexo anal sin complicaciones. Gracias a su diseño ergonómico más la suavidad de la silicona, podrás insertarlo las veces que quieras, hasta sentir comodidad y placer. De tamaño pequeño, el plug es ideal para principiantes o para aquellos que ya han experimentado con esta zona y buscan mas placer. Su diseño de base estable y punta redondeada te permitirá una fácil inserción y estimulantes efectos internos que sentirás por todo tu cuerpo.Lleva en su base una bonita piedra de color que lo hace muy elegante y le dará a tu zona un aspecto único. Fabricado en silicona flexible, tiene una superficie suave con la que se deslizará cómodamente hacia lo más profundo de tu intimidad.Déjalo en esa posición hasta que estés a punto de llegar al orgasmo y justo entonces extráelo para experimentar el placer del clímax como nunca antes lo habías vivido.",
         categoria: "anal"
@@ -2101,9 +2080,9 @@ const Products = [
     {
         image: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
         image2: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
-        name: "Easy Clean Enema 2 - 89ml ST",
+        name: "Easy Clean Enema 2",
         price: "$10,773.30",
-        descripcion: "Recomendaciones de uso: Lo primero que hay que hacer es sacar la pera-ducha anal de su caja y proporcionarle un enjuague inicial. Esto es solo para asegurarnos de que está completamente limpio.  Para hacerlo, deberemos quitar la punta y meterla debajo del chorro del grifo. Se debe lubricar el extremo de la ducha y la abertura del ano para luego, insertar suavemente la boquilla. Aprieta suavemente el bulbo para que el flujo de agua sea más lento. Siempre se debe comenzar lentamente y prestar atención a cómo reacciona el cuerpo. Una vez terminado el proceso, se debe retirar la ducha suavemente y mantener presionada el agua hasta que se sienta el impulso natural de expulsarla. Se aconseja que repitas esto varias veces hasta que el agua que sale al exterior es completamente clara. No te olvides de que no debes usar nada más que agua limpia en tus duchas. La temperatura del agua debe ser tibia y probada de antemano para garantizar la seguridad. Utiliza la ducha anal alrededor de 45 minutos antes del juego anal para conseguir una limpieza Óptima.",
+        descripcion: "Recomendaciones de uso: Lo primero que hay que hacer es sacar la pera-ducha anal de su caja y proporcionarle un enjuague inicial. Esto es solo para asegurarnos de que está completamente limpio.  Para hacerlo, deberemos quitar la punta y meterla debajo del chorro del grifo. Se debe lubricar el extremo de la ducha y la abertura del ano para luego, insertar suavemente la boquilla. Aprieta suavemente el bulbo para que el flujo de agua sea más lento. Una vez terminado el proceso, se debe retirar la ducha suavemente y mantener presionada el agua hasta que se sienta el impulso natural de expulsarla. Se aconseja que repitas esto varias veces hasta que el agua que sale al exterior es completamente clara. No te olvides de que no debes usar nada más que agua limpia en tus duchas. La temperatura del agua debe ser tibia y probada de antemano para garantizar la seguridad. ----- contenido: 89ml ----- Marca: ST",
         categoria: "Duchas"
     },
     {
@@ -2111,7 +2090,7 @@ const Products = [
         image2: "img/anal/ducha anal pequeña 89ml.jpg",
         name: "Ducha Anal Pequeña 89ml ",
         price: "$8,930.00",
-        descripcion: "Para mantenerte limpio durante tus juegos con estimulación anal no hay nada más efectivo que el uso de un enema. Fácil de usar, es el tradicional producto de limpieza para tus encuentros íntimos y te brinda la comodidad que siempre has buscado. Gracias a su tamaño pequeño su uso no te resultará para nada complicado.Busca un momento de intimidad, rellena la perilla de agua tibia y vacíala en el interior de tu zona anal a través de la parte insertable del accesorio.En cuestión de minutos le habrás dado una la limpieza que necesitas para disfrutar de unas relaciones íntimas mucho más higiénicas y excitantes. ----- Capacidad: 89ml.",
+        descripcion: "Para mantenerte limpio durante tus juegos con estimulación anal no hay nada más efectivo que el uso de un enema. Fácil de usar, es el tradicional producto de limpieza para tus encuentros íntimos y te brinda la comodidad que siempre has buscado. Gracias a su tamaño pequeño su uso no te resultará para nada complicado.Busca un momento de intimidad, rellena la perilla de agua tibia y vacíala en el interior de tu zona anal a través de la parte insertable del accesorio.En cuestión de minutos le habrás dado una la limpieza que necesitas para disfrutar de unas relaciones íntimas mucho más higiénicas y excitantes. ----- ----- contenido: 89ml",
         categoria: "anal"
     },
     //---------------------------------------------------------------------------------------------------------------------------
