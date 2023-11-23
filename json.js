@@ -2779,9 +2779,9 @@ document.addEventListener("DOMContentLoaded", function () {
                                 alt="...">
                         </a>
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                            <h5 class="card-title mb-0 responsive-text">${product.name}</h5>
                             <p class="card-text">${formatPrice(product.price)}</p>
-                            <button class="btn btn-primary mt-auto" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+                            <button class="btn btn-primary mt-auto responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
                         </div>
                     </div>
                 </div>
@@ -2955,6 +2955,7 @@ function aplicarFiltroPrecio() {
 const carritoContainer = document.getElementById('carritoContainer');
 let carritoProductos = [];
 
+
 function agregarAlCarrito(producto) {
     // Verificar si el objeto producto existe y no es nulo
     if (producto && typeof producto === 'object') {
@@ -2983,28 +2984,40 @@ function agregarAlCarrito(producto) {
                 // Actualizar el almacenamiento local con los datos del carrito
                 localStorage.setItem('carrito', JSON.stringify(carritoProductos));
             }
+            function showToast() {
+                const width = window.innerWidth;
 
-            // Mostrar el toast usando Toastify
-            Toastify({
-                text: `${producto.name} ha sido agregado al carrito.`,
-                duration: 3000,
-                position: "center",
-                close: true,
-                style: {
-                    background: "linear-gradient(to right, #00b09b, #96c93d)",
-                },
-            }).showToast();
+                if (width <= 800) {
 
-            // Actualizar el contenido del carrito después de agregar el producto
-            actualizarCarrito();
-        } else {
-            console.error("El objeto producto no contiene todas las propiedades necesarias.");
+                    Toastify({
+                        text: `${producto.name} ha sido agregado al carrito.`,
+                        duration: 1500,
+                        position: "left", // Cambia la posición a "right" cuando la pantalla sea más pequeña que 800px
+                        close: true,
+                        style: {
+                            background: "linear-gradient(to right, #00b09b, #96c93d)",
+                        },
+                        className: "toastify-text ",
+                    }).showToast();
+
+                } else {
+                    Toastify({
+                        text: `${producto.name} ha sido agregado al carrito.`,
+                        duration: 1500,
+                        position: "center", // Mantiene la posición "center" para pantallas más grandes que 800px
+                        close: true,
+                        style: {
+                            background: "linear-gradient(to right, #00b09b, #96c93d)",
+                        },
+                    }).showToast();
+                }
+            } actualizarCarrito();
+
+            showToast(); // Llamar a la función para mostrar el Toastify con la posición adecuada
+
         }
-    } else {
-        console.error("El objeto producto no es válido o está ausente.");
     }
 }
-
 function formatPrice(price) {
     return '$' + price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
 }

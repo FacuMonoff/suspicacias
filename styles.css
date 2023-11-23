@@ -215,3 +215,30 @@ section {
     margin-right: 5%;
     margin-top: 3%;
 }
+
+.toastify-text {
+    text-align: center;
+}
+
+
+/* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
+@media screen and (max-width: 800px) {
+    .card-title {
+        font-size: 0.8em;
+        /* Cambia el valor según el tamaño deseado */
+    }
+
+    .responsive-button {
+        font-size: 0.8em;
+        /* Ajusta el tamaño del texto del botón */
+        /* Otros estilos que desees aplicar al botón en pantallas más pequeñas */
+    }
+
+    .col {
+        flex: 0 0 50%;
+        /* Establece el ancho de la columna en un 50% */
+        max-width: 50%;
+        /* Establece el ancho máximo en un 50% */
+    }
+
+}
