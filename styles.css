@@ -92,6 +92,7 @@ body {
     transition: transform 0.3s ease;
 }
 
+
 .cardCatalogo:hover img {
     transform: scale(1.1);
 }
@@ -220,11 +221,20 @@ section {
     text-align: center;
 }
 
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-close-white {
+    color: white;
+    /* Otros estilos si es necesario */
+}
 
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
 @media screen and (max-width: 800px) {
     .card-title {
-        font-size: 0.8em;
+        font-size: 1em;
         /* Cambia el valor según el tamaño deseado */
     }
 
@@ -239,6 +249,68 @@ section {
         /* Establece el ancho de la columna en un 50% */
         max-width: 50%;
         /* Establece el ancho máximo en un 50% */
+    }
+
+    .cardCatalogo {
+        width: 80%;
+        /* Ocupar todo el ancho disponible */
+        display: block;
+        /* Mostrar una tarjeta debajo de la otra */
+        margin: 10px auto;
+        padding: 0;
+        margin-bottom: 8%;
+    }
+
+    .cardCatalogo img {
+        width: 90%;
+        /* Ajustar imagen al ancho completo de la tarjeta */
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 10%;
+        transition: transform 0.3s ease;
+
+    }
+
+    .nuestrosDestacados {
+        padding-top: 5%;
+    }
+
+    .footerDiv {
+        margin-bottom: 8%;
+    }
+
+    .carousel-item {
+        width: 100%;
+        /* Asegura que los elementos ocupen todo el ancho disponible */
+    }
+
+    .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-md-8 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .label-input-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .label-input-group button {
+        flex: 0 0 30%;
+        /* Ajusta el ancho de los botones */
+        max-width: 30%;
+    }
+
+    .label-input-group input {
+        flex: 0 0 40%;
+        /* Ajusta el ancho del input */
+        max-width: 40%;
     }
 
 }

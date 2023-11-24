@@ -2454,7 +2454,7 @@ const Products = [
     {
         image: "img/Dildos/Consolador Realistic Suck Sopapa Kevin Dean XXL.jpg",
         image2: "img/Dildos/Consolador Realistic Suck Sopapa Kevin Dean XXL.jpg",
-        name: "Consolador Realistic Suck Sopapa Kevin Dean XXL",
+        name: " Realistic Suck Kevin Dean XXL",
         price: "$15,210.00",
         descripcion: "Excelente consolador realístico, ideal para tus fantasías. Su cuerpo texturado y semi flexible permite que sientas hasta el último centímetro de este pene realístico, glande con forma y textura y una terminación con tésticulos y base sólida. Pensado para quien no tiene limites y sueña con las sensaciones extremas. ----- Características: Modelo: Macizo • Texturado • Color: Piel • Estructura: Semi flexible • Sopapa • Material: TPE / Sintético",
         categoria: "dildos"
@@ -3106,13 +3106,10 @@ function actualizarCarrito() {
     const productoCarritoTextArea = document.getElementById('producto-carrito');
 
     let total = 0; // Variable para calcular el precio total
-    let inputCounter = 0; // Contador para IDs únicos de input
 
-    // Calcular el precio total de todos los productos en el carrito
-    let precioTotalCarrito = 0;
     carritoProductos.forEach(item => {
         const precioTotalProducto = item.price * item.cantidad;
-        precioTotalCarrito += precioTotalProducto;
+        total += precioTotalProducto; // Sumar al total el precio total de cada producto
     });
 
     // Obtener el elemento donde se mostrará el precio total
@@ -3120,7 +3117,7 @@ function actualizarCarrito() {
 
     if (totalAmountElemento) {
         // Mostrar el precio total formateado en el elemento
-        totalAmountElemento.textContent = formatPrice(precioTotalCarrito);
+        totalAmountElemento.textContent = formatPrice(total);
     }
 
     if (productoCarritoTextArea) {
@@ -3139,103 +3136,62 @@ function actualizarCarrito() {
             <p>No hay productos en el carrito.</p>
         `;
     } else {
+        const tarjetasContainer = document.createElement('div');
+        tarjetasContainer.id = 'misTarjetas';
+        tarjetasContainer.className = 'tarjetas-container';
+
         // Si hay productos en el carrito, creamos una tarjeta para cada producto
         carritoProductos.forEach((item, index) => {
+            // Crear la estructura HTML de la tarjeta utilizando plantillas de cadena
+            const cardHTML = `
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <div class="container p-2">
+                            <img src="${item.image}" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title mt-8">${item.name}</h5>
+                            <p class="card-text">${formatPrice(item.price * item.cantidad)}</p>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button class="btn btn-primary" onclick="eliminarDelCarrito('${item.name}')">Borrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-12">
+                            <label for="cantidad${index}" class="text-center">Cantidad:</label>
+                            <div class="input-group">
+                                <button type="button" class="btn btn-outline-secondary" onclick="restarCantidad('${item.name}')">-</button>
+                                <input type="number" name="cantidad${index}" id="cantidad${index}" class="form-control" value="${item.cantidad}" min="1" onchange="actualizarCantidad('${item.name}', this.value)">
+                                <button type="button" class="btn btn-outline-secondary" onclick="sumarCantidad('${item.name}')">+</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+         `;
+
+            // Crear un elemento div para la tarjeta y asignar el HTML generado
             const card = document.createElement('div');
-            card.className = 'card mb-3';
-            card.style.maxWidth = '540px';
+            card.innerHTML = cardHTML.trim(); // Eliminar espacios en blanco alrededor del HTML
 
-            const cardBody = document.createElement('div');
-            cardBody.className = 'row g-0';
-            card.appendChild(cardBody);
-
-            const imgContainer = document.createElement('div');
-            imgContainer.className = 'container p-2 col-md-4';
-            cardBody.appendChild(imgContainer);
-
-            const img = document.createElement('img');
-            img.src = item.image;
-            img.className = 'img-fluid rounded-start';
-            img.alt = '...';
-            imgContainer.appendChild(img);
-
-            const infoContainer = document.createElement('div');
-            infoContainer.className = 'col-md-4';
-            cardBody.appendChild(infoContainer);
-
-            const title = document.createElement('h5');
-            title.className = 'card-title mt-4';
-            title.textContent = item.name;
-            infoContainer.appendChild(title);
-
-            const price = document.createElement('p');
-            price.className = 'card-text';
-            const totalPrice = item.price * item.cantidad; // Calcular el precio total por producto
-            price.textContent = formatPrice(totalPrice); // Formatear el precio con el símbolo "$" y separadores de miles
-            infoContainer.appendChild(price);
-
-            const buttonContainer = document.createElement('div');
-            buttonContainer.className = 'col-md-3  mt-2';
-            cardBody.appendChild(buttonContainer);
-
-            const deleteButton = document.createElement('button');
-            deleteButton.className = 'btn btn-primary';
-            deleteButton.textContent = 'Borrar';
-            deleteButton.onclick = () => eliminarDelCarrito(item.name);
-            buttonContainer.appendChild(deleteButton);
-
-            const quantityContainer = document.createElement('div');
-            quantityContainer.className = 'col-md text-center'; // Agregamos la clase "text-center" para centrar el contenido
-            cardBody.appendChild(quantityContainer);
-
-            const quantityLabel = document.createElement('label');
-            quantityLabel.htmlFor = `cantidad${index}`; // Usar el mismo índice para el id del campo de cantidad
-            quantityLabel.textContent = 'Cantidad:';
-            quantityContainer.appendChild(quantityLabel);
-
-            const quantityInputGroup = document.createElement('div');
-            quantityInputGroup.className = 'input-group'; // Agregamos la clase "input-group" para mostrar los botones dentro del input
-            quantityContainer.appendChild(quantityInputGroup);
-
-            const quantityDecreaseButton = document.createElement('button');
-            quantityDecreaseButton.type = 'button';
-            quantityDecreaseButton.className = 'btn btn-outline-secondary';
-            quantityDecreaseButton.textContent = '-';
-            quantityDecreaseButton.onclick = () => restarCantidad(item.name); // Llamamos a la función para restar la cantidad
-            quantityInputGroup.appendChild(quantityDecreaseButton);
-
-            const quantityInput = document.createElement('input');
-            quantityInput.type = 'number';
-            quantityInput.name = `cantidad${index}`; // Asignar un nombre único usando el índice
-            quantityInput.id = `cantidad${index}`; // Asignar un ID único usando el índice
-            quantityInput.className = 'form-control';
-            quantityInput.value = item.cantidad;
-            quantityInput.min = '1';
-            quantityInput.onchange = () => actualizarCantidad(item.name, quantityInput.value);
-            quantityInputGroup.appendChild(quantityInput);
-
-            const quantityIncreaseButton = document.createElement('button');
-            quantityIncreaseButton.type = 'button';
-            quantityIncreaseButton.className = 'btn btn-outline-secondary';
-            quantityIncreaseButton.textContent = '+';
-            quantityIncreaseButton.onclick = () => sumarCantidad(item.name); // Llamamos a la función para sumar la cantidad
-            quantityInputGroup.appendChild(quantityIncreaseButton);
-
-            carritoContent.appendChild(card);
-
-
-            // Calculamos el precio total del producto (precio * cantidad)
-            const precioTotalProducto = item.price * item.cantidad;
-            total += precioTotalProducto; // Acumulamos el precio total del producto al total general
+            // Agregar la tarjeta al contenedor del carrito
+            carritoContent.appendChild(card.firstChild);
         });
-    }
+        // Al final, agregas el contenedor principal al elemento donde deseas mostrar las tarjetas
+        carritoContent.appendChild(tarjetasContainer);
 
-    // Mostramos el total en el elemento con id "totalAmount"
-    const totalAmountElement = document.getElementById('totalAmount');
-    if (totalAmountElement) {
-        totalAmountElement.textContent = formatPrice(total); // Utilizamos la función formatPrice para formatear el total con el símbolo "$" y separadores de miles
+        // Mostramos el total en el elemento con id "totalAmount"
+        const totalAmountElement = document.getElementById('totalAmount');
+        if (totalAmountElement) {
+            totalAmountElement.textContent = formatPrice(total); // Utilizamos la función formatPrice para formatear el total con el símbolo "$" y separadores de miles
+        }
     }
-
 }
 
 
