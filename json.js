@@ -2924,7 +2924,7 @@ function mostrarProductosPorCategoria(categoria) {
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
                         <p class="card-text">${formatPrice(producto.price)}</p>
-                        <button class="btn btn-primary mt-auto" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
+                        <button class="btn btn-primary mt-auto responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
 
                     </div>
                 </div>
@@ -3256,7 +3256,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="card-body  d-flex flex-column">
                         <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
                         <p class="card-text">${formatPrice(product.price)}</p>
-                        <button class="btn btn-primary mt-auto" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+                        <button class="btn btn-primary mt-auto responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
                     </div>
                 </div>
             </div>

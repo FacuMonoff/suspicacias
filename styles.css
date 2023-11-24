@@ -166,23 +166,6 @@ section {
     margin-top: 10px;
 }
 
-@media (max-width: 767.98px) {
-
-    /* Estilos para la pantalla pequeña */
-    #content-container {
-        display: none;
-        /* Ocultar todo el contenido en pantallas pequeñas */
-    }
-
-    #filtro-btn {
-        display: block;
-    }
-
-    #filtro-list.active {
-        display: block;
-    }
-}
-
 
 .form-control {
     background-color: white;
@@ -231,10 +214,10 @@ section {
     /* Otros estilos si es necesario */
 }
 
-form {
-    display: flex;
-    align-items: center;
-}
+
+
+
+
 
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
 @media screen and (max-width: 800px) {
@@ -325,4 +308,5 @@ form {
         font-size: 16px;
         /* Tamaño de fuente del input */
     }
+
 }

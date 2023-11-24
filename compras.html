@@ -178,12 +178,12 @@
                     </div>
                     <div class="form-group" style="margin-top: 2%;">
                         <label for="telefono">Teléfono:</label>
-                        <input type="number" class="form-control" id="telefono" name="telefono"
+                        <input type="text" class="form-control" id="telefono" name="telefono"
                             placeholder="Ingrese su teléfono">
                     </div>
                     <div class="form-group" style="margin-top: 2%;">
                         <label for="correo">Correo:</label>
-                        <input type="email" class="form-control" id="correo" name="correo" placeholder="Email">
+                        <input type="text" class="form-control" id="correo" name="correo" placeholder="Email">
                     </div>
 
                     <h1 style="text-align: center; margin-top: 6%; font-weight: 700;">Domicilio del destinatario</h1>
@@ -260,7 +260,11 @@
                     </div>
                     <textarea placeholder="Your Message" class="form-control" name="productosAgregados" rows="10"
                         style="display: none;" id="producto-carrito"></textarea>
-                    <button type="submit" name="enviar" id="checkout-btn">Enviar</button>
+                    <hr>
+                    <button class="btn btn-primary"
+                        style="display: block; margin: 0 auto; text-align: center; margin-bottom: 5%;" type="submit"
+                        name="enviar" id="checkout-btn">CONTINUAR CON EL PAGO
+                    </button>
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
                     <input type="hidden" name="_captcha" value="false">
                     <script>
@@ -315,46 +319,8 @@
 
 
 
-    <div style="text-align: center; margin-top: 3%; margin-bottom: 3%;">
-        <!-- Carrito de compra -->
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#carritoContainer"
-            aria-controls="offcanvasNavbar">
-            Ver Carrito
-        </button>
 
-        <!-- Carrito de compra card -->
-        <div class="offcanvas" id="carritoContainer">
-            <!-- Agregamos el header del carrito -->
-            <div>
-                <h5 class="text-uppercase" id="offcanvasNavbarLabel">Carrito</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" style="font-size: 2rem;"></button>
-            </div>
-            <div class="offcanvas-body">
 
-                <!-- Contenedor del carrito de compras -->
-                <div id="carritoContent"></div>
-
-                <div class="d-grid gap-2 carritoContent">
-                    <p>TOTAL: <span id="totalAmount">0.00</span></p>
-                    <!-- Modifica el botón "Realizar compra" para almacenar los productos en el LocalStorage -->
-                    <button type="button" class="btn btn-success btn-lg" style="text-align: center;"
-                        onclick="realizarCompra();">
-                        Realizar compra
-                    </button>
-                    <script>
-                        // Función para realizar la compra
-                        function realizarCompra() {
-                            // Guarda el carrito en el LocalStorage
-                            localStorage.setItem('carrito', JSON.stringify(carritoProductos));
-                            // Abre la página de compras.html
-                            window.location.href = 'compras.html';
-                        }
-                    </script>
-
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <section class="container" style="display: none;">
@@ -364,7 +330,7 @@
     <footer class=" footer">
         <div class="row">
             <!-- Primera columna con botones -->
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 footerDiv">
                 <h3>Navegación</h3>
                 <ul class="list-unstyled">
 
@@ -389,7 +355,7 @@
             </div>
 
             <!-- Segunda columna con métodos de pago e imágenes -->
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 footerDiv ">
                 <h3>Métodos de Pago</h3>
                 <div>
                     <img src="/metodos de pago/MASTERCARD.png" alt="Métodos de pago" class="img-fluid" width="50"
@@ -406,7 +372,7 @@
             </div>
 
             <!-- Tercera columna con contacto -->
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 footerDiv ">
                 <h3>Contactanos</h3>
                 <p>
                     Puedes contactarnos a través de:
@@ -428,7 +394,7 @@
             </div>
 
             <!-- Cuarta columna con redes sociales -->
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3 footerDiv ">
                 <h3>Redes Sociales</h3>
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100093064702085"><img
