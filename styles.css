@@ -214,9 +214,55 @@ section {
     /* Otros estilos si es necesario */
 }
 
+.custom-btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2%;
+}
 
+.containerEditado {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
+.rowEditado {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
 
+.colEditado {
+    flex: 1 0 50%;
+    padding: 0 15px;
+    margin-top: 5%;
+}
+
+.h2Editado {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.h2EditadoDos {
+    margin-top: 20%;
+}
+
+.pEditado {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ulEditado {
+    padding-left: 20px;
+}
+
+.imgEditado {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
 
 
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
@@ -308,5 +354,55 @@ section {
         font-size: 16px;
         /* Tamaño de fuente del input */
     }
+
+    .custom-btn {
+        margin-bottom: 5%;
+    }
+
+    .containerEditado {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .rowEditado {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+
+    .h2Editado {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .h2EditadoDos {
+        margin-top: 5%;
+    }
+
+    .pEditado {
+        font-size: 16px;
+        line-height: 1.5;
+
+    }
+
+    .ulEditado {
+        padding-left: 20px;
+    }
+
+    .colEditado {
+        /* Tu estilo existente para las columnas */
+        flex: 0 0 100%;
+        /* Centrar contenido horizontalmente */
+    }
+
+    .imgEditado {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20%;
+    }
+
+
 
 }
