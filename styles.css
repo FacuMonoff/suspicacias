@@ -272,8 +272,30 @@ section {
     /* O el display apropiado que tengas para este contenedor */
 }
 
+.nombreEditadoDescripcion {
+    margin-top: -15%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 3%;
+}
+
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
 @media screen and (max-width: 800px) {
+
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 10%;
+    }
+
+    .nombreEditadoDescripcion {
+        margin-top: 3%;
+    }
 
     .categorias-container {
         display: none;

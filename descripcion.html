@@ -161,7 +161,7 @@
         </div>
     </nav>
     <section class="container">
-        <div class="row product-container text-center">
+        <div class="rowEditado product-container text-center">
             <div id="carouselExample" class="carousel slide col-md-6 product-image" data-bs-ride="carousel">
                 <!-- Indicadores -->
                 <div class="carousel-indicators">
@@ -176,7 +176,7 @@
                 <div class="carousel-inner">
                     <!-- Primera imagen (puedes añadir más según sea necesario) -->
                     <div class="carousel-item active">
-                        <img id="product-image" class="d-block w-100" style="height: 500px;"
+                        <img id="product-image" class="d-block w-100 " style="height: 500px;"
                             src="ruta_de_la_primera_imagen.jpg" alt="Imagen del producto">
                     </div>
 
@@ -221,31 +221,33 @@
             </div>
 
 
-            <div class="col product-details text-start" style="color: white;">
-                <div class="row">
-                    <div class="col">
-                        <h2 id="product-name"></h2>
+            <div class="colEditado product-details text-start" style="color: white;">
+                <div class="rowEditado">
+                    <div class="colEditado">
+                        <h2 id="product-name" class="nombreEditadoDescripcion"></h2>
                         <br>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <h4><b id="product-price"></b></h4>
+                <div class="rowEditado" style="margin-top: 0%;">
+                    <div class="colEditado">
+                        <h4 style="margin-top: 0%;"><b id="product-price"></b></h4>
                         <br>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <h4>Descripcion:</h4>
+                <div class="rowEditado">
+                    <div class="colEditado">
+                        <h4 style="margin-top: 0%;">Descripcion:</h4>
                         <p id="product-descripcion"></p>
                     </div>
                 </div>
                 <br>
-                <button id="add-to-cart-button" class="btn btn-primary">Agregar al carrito</button>
-                <button id="cargarMasBoton" class="btn btn-primary" style="display: none;">Cargar más</button>
             </div>
         </div>
     </section>
+    <div class="button-container">
+        <button id="add-to-cart-button" class="btn btn-primary">Agregar al carrito</button>
+    </div>
+    <button id="cargarMasBoton" class="btn btn-primary" style="display: none;">Cargar más</button>
 
 
     <h2 class="text-white text-center">Tambien te puede gustar</h2>
