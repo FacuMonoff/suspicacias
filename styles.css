@@ -100,6 +100,8 @@ body {
 .card {
     position: relative;
     overflow: hidden;
+    background-color: white;
+    color: black;
     /* Evita que el texto adicional desborde el contenedor de la tarjeta */
 }
 
@@ -169,6 +171,7 @@ section {
 
 .form-control {
     background-color: white;
+    color: black;
 }
 
 /* Estilos para el total en el carrito */
@@ -264,9 +267,18 @@ section {
     margin-bottom: 10%;
 }
 
+.categorias-container {
+    display: block;
+    /* O el display apropiado que tengas para este contenedor */
+}
 
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
 @media screen and (max-width: 800px) {
+
+    .categorias-container {
+        display: none;
+    }
+
     .card-title {
         font-size: 1em;
         /* Cambia el valor según el tamaño deseado */

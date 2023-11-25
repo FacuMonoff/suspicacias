@@ -2772,7 +2772,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const productHTML = productsToDisplay.map((product) => `
                 <div class="col">
                     <div class="card h-100">
-                        <a href="descripcion.html?index=${Products.indexOf(product)}&name=${encodeURIComponent(product.name)}&price=${product.price}&descripcion=${encodeURIComponent(product.descripcion)}">
+                        <a href="descripcion.html?index=${Products.indexOf(product)}&name=${encodeURIComponent(product.name)}">
                             <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;"
                                 onmouseover="showImage(this, '${product.image2}')"
                                 onmouseout="showImage(this, '${product.image}')"
@@ -2851,8 +2851,18 @@ function agregarAlCarrito(producto) {
     console.log("Agregando al carrito:", producto);
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    const enlacesCategoria = document.querySelectorAll(".dropdown-item");
+    const offcanvasNavbar = new bootstrap.Offcanvas(document.getElementById('offcanvasNavbar'));
 
-// Función para obtener el fragmento de la URL
+    enlacesCategoria.forEach(enlace => {
+        enlace.addEventListener("click", () => {
+            offcanvasNavbar.hide(); // Oculta el offcanvas al hacer clic en un enlace de categoría
+        });
+    });
+});
+
+// Obtener el fragmento de la URL
 function getFragmentFromURL() {
     return window.location.hash.substring(1); // Obtiene el fragmento excluyendo el #
 }
@@ -2874,17 +2884,47 @@ function filtrarProductosPorFragmento() {
 // Llama a la función para filtrar productos cuando se carga la página
 window.addEventListener("load", filtrarProductosPorFragmento);
 
-// Código para manejar los botones de categoría
+// Escucha los cambios en el fragmento de la URL
+window.addEventListener("hashchange", filtrarProductosPorFragmento);
+
+
+// Función para obtener el fragmento de la URL
+function getFragmentFromURL() {
+    return window.location.hash.substring(1); // Obtiene el fragmento excluyendo el #
+}
+
+// Función para filtrar productos en base al fragmento de la URL
+function filtrarProductosPorFragmento() {
+    const fragmento = getFragmentFromURL();
+
+    if (fragmento) {
+        // Filtra los productos según la categoría del fragmento
+        mostrarProductosPorCategoria(fragmento);
+
+        // Cambia el título del H2 con el nombre de la categoría seleccionada
+        const categoryTitle = document.getElementById("category-title");
+        categoryTitle.textContent = fragmento;
+        categoryTitle.textContent = fragmento.toUpperCase(); // Convertir a mayúsculas
+    }
+}
+
+// Llama a la función para filtrar productos cuando se carga la página
+window.addEventListener("load", filtrarProductosPorFragmento);
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const categoriaBtns = document.querySelectorAll(".categoria-btn");
 
     categoriaBtns.forEach(btn => {
-        btn.addEventListener("click", () => {
+        btn.addEventListener("click", (event) => {
+            event.preventDefault(); // Evitar el comportamiento predeterminado de los enlaces
+
             const categoriaSeleccionada = btn.getAttribute("data-categoria");
 
-            // Filtra los productos y cambia el título al hacer clic en un botón de categoría
+            // Filtrar y mostrar los productos según la categoría seleccionada
             mostrarProductosPorCategoria(categoriaSeleccionada);
 
+            // Actualizar el título con el nombre de la categoría seleccionada si es necesario
             const categoryTitle = document.getElementById("category-title");
             categoryTitle.textContent = categoriaSeleccionada;
         });
@@ -2910,9 +2950,20 @@ function mostrarProductosPorCategoria(categoria) {
     // Limpiar el contenedor antes de agregar los productos filtrados
     productosContainer.innerHTML = "";
 
-    // Agregar los productos filtrados al contenedor
-    productosFiltrados.forEach(producto => {
-        const productoHTML = `
+    if (productosFiltrados.length === 0) {
+
+        // Si no hay productos, mostrar un mensaje en lugar de los productos
+        const mensajeHTML = `
+            <h2 style="text-align: center;">No se han encontrado artículos disponibles en el rango de precios especificado</h2>
+        `;
+        productosContainer.insertAdjacentHTML("beforeend", mensajeHTML);
+
+        productosContainer.classList.remove("row", "row-cols-md-4", "row-cols-sm-2", "g-4");
+
+    } else {
+        // Agregar los productos filtrados al contenedor
+        productosFiltrados.forEach(producto => {
+            const productoHTML = `
             <div class="col">
                 <div class="card h-100"> <!-- Usa la clase "card" aquí -->
                     <a href="descripcion.html?index=${Products.indexOf(producto)}">
@@ -2930,8 +2981,9 @@ function mostrarProductosPorCategoria(categoria) {
                 </div>
             </div>
         `;
-        productosContainer.insertAdjacentHTML("beforeend", productoHTML);
-    });
+            productosContainer.insertAdjacentHTML("beforeend", productoHTML);
+        });
+    }
 }
 
 // Función para aplicar el filtro de precio
@@ -3144,7 +3196,7 @@ function actualizarCarrito() {
         carritoProductos.forEach((item, index) => {
             // Crear la estructura HTML de la tarjeta utilizando plantillas de cadena
             const cardHTML = `
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3" style="max-width: 540px;" >
                 <div class="row g-0">
                     <div class="col-md-4">
                         <div class="container p-2">

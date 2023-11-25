@@ -17,7 +17,7 @@
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-dark sticky-top" style="background-color: black;">
         <div class="container-fluid">
             <!-- Boton para expandir el nav -->
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -26,7 +26,7 @@
             </button>
 
             <!-- menu despegable-->
-            <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="offcanvasNavbar"
+            <div class="offcanvas offcanvas-start  text-white" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <!-- Cabecera del nav cuando expandimos -->
                 <div class="offcanvas-header">
@@ -52,8 +52,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#anal">Anal</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#anillos">Anillos</a></li>
-                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#Kegel">Bolas
-                                        Chinas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#Kegel">Bolas Chinas</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#dildos">Dildos</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#Duchas">Duchas</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#disfraces">Disfraz</a></li>
@@ -64,17 +63,14 @@
                                 </li>
                                 <li><a class="dropdown-item"
                                         href="/jugueteYAccesorios.html#Limpiadores-de-juguetes">Limpiadores de
-                                        juguetes</a>
-                                </li>
+                                        juguetes</a></li>
                                 <li><a class="dropdown-item"
-                                        href="/jugueteYAccesorios.html#PRESERVATIVOS">Preservativos</a>
-                                </li>
+                                        href="/jugueteYAccesorios.html#PRESERVATIVOS">Preservativos</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#Velas">Velas</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#vibradores">Vibradores</a>
                                 </li>
                                 <li><a class="dropdown-item"
-                                        href="/jugueteYAccesorios.html#succionadores">Succionadores</a>
-                                </li>
+                                        href="/jugueteYAccesorios.html#succionadores">Succionadores</a></li>
 
                             </ul>
                         </li>
@@ -92,7 +88,8 @@
                                         href="https://www.facebook.com/profile.php?id=100093064702085">Facebook
                                         <i class="bi bi-facebook"></i></a></li>
                                 <li><a class="dropdown-item" href="https://wa.link/rgb5ni">Whatsapp <i
-                                            class="bi bi-whatsapp"></i></a></li>
+                                            class="bi bi-whatsapp"></i></a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -118,7 +115,7 @@
             </button>
 
             <!-- Carrito de compra card -->
-            <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" aria-labelledby="offcanvasNavbarLabel"
+            <div class="offcanvas offcanvas-end  text-white" tabindex="-1" aria-labelledby="offcanvasNavbarLabel"
                 id="carritoContainer">
                 <!-- Agregamos el header del carrito -->
                 <div class="offcanvas-header">
@@ -166,7 +163,7 @@
         <div class="row justify-content-between">
             <!-- Título -->
             <div class="col-md-6 text-center">
-                <h2 id="category-title">Todas las categorias</h2>
+                <h2 id="category-title"></h2>
             </div>
         </div>
 
@@ -174,7 +171,7 @@
         <div class="row ">
             <!-- Columna de categorías -->
             <div class="col-md-2">
-                <div class="mb-2">
+                <div class="mb-2 categorias-container">
                     <h4 class="mb-8">Todas las categorias</h4>
                     <ul class="list-group">
                         <a href="jugueteYAccesorios.html">En Promocion</a>
@@ -202,7 +199,7 @@
                             <div class="input-group input-group-sm">
                                 <span class="input-group-text">$</span>
                                 <input type="number" id="precio-min" class="form-control" value="0" min="0"
-                                    style="color: black; background-color: white;">
+                                    style="color: black; background-color: white;" onfocus="limpiarValor(this)">
                             </div>
                         </div>
                         <div class="form-group mb-3">
@@ -210,11 +207,18 @@
                             <div class="input-group input-group-sm">
                                 <span class="input-group-text">$</span>
                                 <input type="number" id="precio-max" class="form-control" value="0" min="0"
-                                    style="color: black; background-color: white;">
+                                    style="color: black; background-color: white;" onfocus="limpiarValor(this)">
                             </div>
                         </div>
                         <button onclick="aplicarFiltroPrecio()" class="btn btn-primary">Aplicar</button>
                     </div>
+                    <script> //codigo para sacar el 0 a la hora de poner el precio
+                        function limpiarValor(input) {
+                            if (input.value === '0') {
+                                input.value = ''; // Si el valor es 0, lo borra al hacer clic en el campo
+                            }
+                        }
+                    </script>
                 </div>
             </div>
 
