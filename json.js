@@ -1,72 +1,10 @@
 const Products = [
-    {
-        image: "img/vicky 1.1.png",
-        image2: "img/vicky 1.2.png",
-        name: "VICKY 1",
-        price: "$15,712",
-        descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender",
-        categoria: "vibradores"
-    },
-    {
-        image: "img/miky 4.png",
-        image2: "img/miky 4.1.png",
-        name: "MIKY 4",
-        price: "$15,302",
-        descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
-        categoria: "vibradores"
-    },
-    {
-        image: "img/katy 4.png",
-        image2: "img/katy 4.1.png",
-        name: "KATY 4",
-        price: "$9,588",
-        descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
-        categoria: "vibradores"
-    },
-    {
-        image: "img/diamont 1.1.png",
-        image2: "img/diamont 1.png",
-        name: "DIAMONT 1",
-        price: "$27,442",
-        descripcion: "¿Buscas sentirte diferente? El Vibrador Diamond,  tiene un diseño sofisticado a puro glamour, y elegantemente brillante e intenso. Con su doble motor estimulará completamente tu zona de punto G y clítoris de manera muy efectiva. Para una dosis extra de placer, combínalo con el serum lubricante EOS DSICOVER PUNTO G.",
-        categoria: "estimuladores"
-    },
-    {
-        image: "img/male 2.png",
-        image2: "img/male 2.1.png",
-        name: "MALE 2",
-        price: "$34,462",
-        descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
-        categoria: "estimuladores"
-    },
-    {
-        image: "img/luxe rabbit 1.png",
-        image2: "img/luxe rabbit 1.1.png",
-        name: "LUXE RABBIT",
-        price: "$51,383",
-        descripcion: "está equipado con características únicas para provocar y tentar. Eje giratorio de 3 velocidades a prueba de agua Tecnología Rolling WavesTM 7 Vibrador con función de estimulador del clítoris Elastómero puro seguro para la piel Libre de ftalato y látex El carro extraíble de la batería ahorra vida útil de la batería: requiere 3 baterías AAA Longitud: 9 pulgadas Longitud insertable: 4 pulgadas Ancho: 1.43 pulgadas Circunferencia: 4.5 pulgadas Peso del producto (sin paquete) : 8.6 onzas",
-        categoria: "estimuladores"
-    },
-    {
-        image: "img/ana 8.png",
-        image2: "img/JUGUETE 3.png",
-        name: "ANA 8",
-        price: "$35,238",
-        descripcion: " Su intensa vibración se concentra a lo largo de todo el juguete y aún más fuerte en su cabezal, esto hace que puedas deslizarlo en tu zona genital y en cualquier otra parte del cuerpo donde necesites estimularte. Este masajeador contiene otro cabezal para poder experimentar los 10 niveles de succión que quieras en tu zona Clitorial. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. Presione el botón derecho para ajustar los modos de pulsación del cabezal, 10 modos de pulsación de frecuencia. Presione el botón izquierdo para ajustar los 10 modos de vibración final. Cambie el cabezal para sus 10 niveles de succión. ",
-        categoria: "succionadores"
-    },
-    {
-        image: "img/sofi 3.png",
-        image2: "img/sofi 3.1.png",
-        name: "SOFI 3",
-        price: "$18,494",
-        descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior  y uno levemente menor  en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona de vaginal y clítoris de manera muy efectiva. Apenas con una zona superior texturada y su estimulador de clítoris con un diseño de conejo con una solo oreja.",
-        categoria: "estimuladores"
-    },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------ANILLOS
     //--------------------------------------------------------------------------------------------
     {
+        SKU: "1726", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/Ring 6 Blue.jpeg",
         image2: "img/anillos/Ring 6 Clear.jpeg",
         name: "Ring 6 ST Blue",
@@ -75,6 +13,8 @@ const Products = [
         categoria: "anillos",
     },
     {
+        SKU: "1737", //el SKU no se tiene que modificar una vez ya colocado el numero
+        Stock: "1111",
         image: "img/anillos/Kevin.jpg",
         image2: "img/anillos/kevin.2.webp",
         name: "Kevin ST",
@@ -84,54 +24,68 @@ const Products = [
 
     },
     {
+        SKU: "1761", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/anillo-doble-hot-finger-rojo-real-skin-caiman.jpg",
         image2: "img/anillos/ANILLO DOBLE HOT FINGER ROJO 2.webp",
         name: "Doble Hot Finger ",
         price: "$1",
         descripcion: " Disfruta con tu pareja el profundo placer de la doble penetración con el hot finger. Este anillo está creado para realizar una doble penetración además te ayudará a mejorar la erección y funcionará como retardante de la eyaculación.Este anillo es sumamente firme y estable para que no se doble o se mueva durante el acto sexual. El dildo de menor tamaño será el mejor estimulador para tus juegos con penetración anal. Para utilizarlo solamente debes introducir tu pene en el dildo y empezar a disfrutar del placer más absoluto. La flexibilidad de su material hace que sea apto para todas las tallas. Tiene la punta redondeada para facilitar la entrada y hacerla lo más placentera posible. ----   Material: Jelly ---- Medidas dildo: Largo: 13 cm.x Ancho 2 cm(Diametro del anillo sin estirar: 4 cm) ----  Color: Rojo",
         categoria: "anillos",
-    },/*
+    },
     {
+        SKU: "2368", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/anillo torito peneano vibrador el matador.jpg",
         image2: "img/anillos/anillo torito 2.webp",
         name: "Anillo Torito Peneano",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
-    },*/
+    },
     {
+        SKU: "1962", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/Ring 6 Black.jpg",
         image2: "img/anillos/ring 6 black.2.jpg",
         name: "Ring 6 Black ST",
         price: "$1",
         descripcion: "Anillo peneano, mantiene la erección  y retarda la eyaculación. Colocalo en la base del pene logra darle firmeza evitando la disfunción y a su vez estimulando clítoris con el roce por medio de la penetración.Balita extraíble.y un hermoso diseño con orejitas, que  rozan perfectamente con el clítoris de una manera muy diferente y estimulante. ----  Silicona 100 % pura + ABS. ----  100 % Libre de Fthalatos. ----  Libre de látex. ----  3 modos de vibración lineal. ----  7 ritmos diferentes de vibración ----  Adaptable a todos los tamaños de Pene ----  Recargable.Incluye cable de carga ----  Tiempo de carga: aprox. 50m ----  Tiempo de uso: 50 m. ----  Tecla de fácil manejo ----  Medidas: 7.8 cm x 6 cm x 1.8 cm. ----  Impermeable.No sumergible.",
         categoria: "anillos",
-    },/*
+    },
     {
+        SKU: "1966", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/Adjustable Ring 37mm.jpg",
         image2: "img/anillos/RING AJUSTABLE 2.webp",
         name: "Ring Ajustable",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
-    },*/
+    },
     {
+        SKU: "1988", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/Cristal Ring.jpg",
         image2: "img/anillos/cristal ring 2.jpg",
         name: "Cristal Ring ST",
         price: "$1",
         descripcion: "CRISTAL mantiene la erección; retarda la eyaculación y a su vez estimula clítoris a partir del roce del mismo por medio de la penetración. Gracias a su elasticidad conseguirás mantener una erección más firme y fuerte. Cristal es ideal para jugar en pareja y que ambos puedan disfrutar plenamente. Los anillos permiten mantener el pene erecto evitando la disfunción y prolongando el periodo de las relaciones sexuales. La unidad vibradora es extraíble para poder darle otros usos en el cuerpo. ---- 3Pilas LR41. NO INCLUIDA",
         categoria: "anillos",
-    },/*
+    },
     {
+        SKU: "2034", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/miss v anillos.jpg",
         image2: "img/anillos/miss v anillos.jpg",
         name: "Anillo Love Ring",
         price: "$1",
         descripcion: "",
         categoria: "anillos",
-    },*/
+    },
     {
+        SKU: "2136", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/anillo doble peneano conejo violeta.jpeg",
         image2: "img/anillos/anillo-doble-peneano-vibrador-conejito-violeta-usb 2.jpg",
         name: "Doble Conejito",
@@ -140,6 +94,8 @@ const Products = [
         categoria: "anillos",
     },
     {
+        SKU: "2189", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/ring 8 azul.png",
         image2: "img/anillos/ring 8.jpeg",
         name: "Ring 8 ",
@@ -148,6 +104,8 @@ const Products = [
         categoria: "anillos",
     },
     {
+        SKU: "2232", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/dual cock ring 3 blue.png",
         image2: "img/anillos/DUAL COCK RING 3 BLUE 2.jpg",
         name: "Dual Cock Ring 3",
@@ -156,6 +114,8 @@ const Products = [
         categoria: "anillos",
     },
     {
+        SKU: "2439", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/kit de 3 anillos beaded cockring clear.jfif",
         image2: "img/anillos/kit de 3 anillos beaded cockring black.jpg",
         name: "3 Anillos Beaded Cockrings",
@@ -164,6 +124,8 @@ const Products = [
         categoria: "anillos",
     },
     {
+        SKU: "2254", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/aro vibrador maxx.jpeg",
         image2: "img/anillos/aro vibrador maxx 2.png",
         name: "Maxx Play Aro Vibrador",
@@ -172,6 +134,8 @@ const Products = [
         categoria: "anillos",
     },
     {
+        SKU: "1772", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anillos/anillo-peneano-retardante-commander-calexotics 2.jpg",
         image2: "img/anillos/anillo-peneano-retardante-commander-calexotics.jpg",
         name: "Anillo peneano retardante",
@@ -182,6 +146,30 @@ const Products = [
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------VIBRADORES
     //--------------------------------------------------------------------------------------------
+    {
+        image: "img/male 2.png",
+        image2: "img/male 2.1.png",
+        name: "MALE 2",
+        price: "$34,462",
+        descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
+        categoria: "estimuladores"
+    },
+    {
+        image: "img/katy 4.png",
+        image2: "img/katy 4.1.png",
+        name: "KATY 4",
+        price: "$9,588",
+        descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
+        categoria: "vibradores"
+    },
+    {
+        image: "img/miky 4.png",
+        image2: "img/miky 4.1.png",
+        name: "MIKY 4",
+        price: "$15,302",
+        descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
+        categoria: "vibradores"
+    },
     {
         image: "img/vibradores/Hi-Rubber Piel.jpg",
         image2: "img/vibradores/hi rubber 2.jpeg",
@@ -382,14 +370,7 @@ const Products = [
         descripcion: "",
         categoria: "vibradores"
     },*/
-    {
-        image: "img/vibradores/male 2.jpg",
-        image2: "img/male 2.1.png",
-        name: "Male 2",
-        price: "$54,983.18",
-        descripcion: "¿Buscas un juguete diferente? Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G. ----- Totalmente silencioso y discreto. ----- 10 ritmos diferentes de vibración. -----  3 motores.-----            Medidas: 22 cm x 3.8 cm x 9 cm",
-        categoria: "vibradores"
-    },
+
     {
         image: "img/luxe rabbit 1.1.png",
         image2: "img/luxe rabbit 1.1.png",
@@ -453,23 +434,17 @@ const Products = [
         price: "$25,691.50",
         descripcion: "Material: silicona 100% pura + ABS ----- 7 funciones de vibración ----- Longitud total: 16cm ----- Longitud insertable: 12cm ----- Diametro: 3cm ----- Recargable.Incluye cable USB. ----- Impermeable.No sumergible. ----- Libre de ftalatos.",
         categoria: "vibradores"
-    },/*
-    {
-        image: "img/vibradores/miky 4.jpeg",
-        image2: "img/vibradores/miky 4 .2.jpg",
-        name: "Miky 4",
-        price: "$24,379.86",
-        descripcion: "",
-        categoria: "vibradores"
     },
     {
+        SKU: "2202", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/vibradores/anahi 2.jpeg",
         image2: "img/vibradores/anahi 2.2.webp",
         name: "Anahi 2 ",
         price: "$70,096.78",
         descripcion: "",
         categoria: "vibradores"
-    },*/
+    },
 
     /*
     {
@@ -1174,6 +1149,8 @@ const Products = [
         categoria: "Lubricantes"
     },
     {
+        SKU: "1782", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         image2: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         name: "Aceite Love Potion Frutos Rojos",
@@ -1182,6 +1159,8 @@ const Products = [
         categoria: "Lubricantes"
     },
     {
+        SKU: "2349", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         name: "Aceite  Mini Love Potion ice ",
@@ -1190,6 +1169,8 @@ const Products = [
         categoria: "Lubricantes"
     },
     {
+        SKU: "2045", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
         name: "Aceite Mini Love Potion Banana",
@@ -1238,6 +1219,8 @@ const Products = [
         categoria: "Lubricantes"
     },
     {
+        SKU: "2058", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
         image2: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
         name: "Aceite  Mini Love Potion Frutilla",
@@ -1278,6 +1261,8 @@ const Products = [
         categoria: "Lubricantes"
     },
     {
+        SKU: "2158", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
         image2: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
         name: "Aceite Comestible Love Potion",
@@ -1286,6 +1271,8 @@ const Products = [
         categoria: "Lubricantes"
     },
     {
+        SKU: "2159", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/lubricantes/love-potion chocolate sexitive.png",
         image2: "img/lubricantes/love-potion chocolate sexitive.png",
         name: "Aceite Comestible Love Potion Chocolate",
@@ -1690,6 +1677,8 @@ const Products = [
         categoria: "anal"
     },
     {
+        SKU: "1712", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anal/Agus 3 Red.jpg",
         image2: "img/anal/Agus 3 Red.jpg",
         name: "Agus 3 Red ST",
@@ -1754,7 +1743,9 @@ const Products = [
         descripcion: "De la línea Platinum de Real Skin, llega este inexpulsable con vibrador, muy útil para cuando no se tiene experiencia en la penetración anal. Es ideal para dilatar la zona aunque siempre hay que ser cuidadosxs, y ayudar a que esa dilatación se produzca de la forma más natural posible(paciencia). Su anillo en el extremo, además de brindarnos seguridad, nos ayuda a retirar lentamente el juguete, aumentando aún más, el placer. ----- Medidas aprox: Largo 15cm, Diámetro maximo 3cm, Autonomía: 3 Pilas Botón ----- Recomendamos siempre el uso de lubricantes",
         categoria: "anal"
     },
-    /*{
+    {
+        SKU: "1754", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
         image2: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
         name: "Anal Inexpulsable Mini Vibrador Violeta Caimán",
@@ -1769,7 +1760,7 @@ const Products = [
         price: "$3,126.00",
         descripcion: "",
         categoria: "anal"
-    },*/
+    },
     {
         image: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
         image2: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
@@ -1778,7 +1769,7 @@ const Products = [
         descripcion: "Plug Anal Personal Trainer Piel. Plug mega suave y delicado, ideal para quienes buscan una experiencia memorable. Este dilatador es recomendable para iniciarse en el sexo anal. Es compatible con arnés, por lo que podrás disfrutar de tu juego sexual de otra manera. ----- Su medida es de 10 cm y 4 cm de diámetro.",
         categoria: "anal"
     },
-    /*{
+    {
         image: "img/anal/plug inexpulsable penetrador anal caiman.jpg",
         image2: "img/anal/plug inexpulsable penetrador anal caiman.jpg",
         name: "Plug Penetrador Anal Caimán",
@@ -1795,13 +1786,15 @@ const Products = [
         categoria: "anal"
     },
     {
+        SKU: "1773", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anal/Bolas anales N5.jpg",
         image2: "img/anal/Bolas anales N5.jpg",
         name: "Bolas Anales N5 Calexotics",
         price: "$6,612.00",
         descripcion: "",
         categoria: "anal"
-    },*/
+    },
     {
         image: "img/anal/Gancho Anal de metal.jpg",
         image2: "img/anal/Gancho Anal de metal.jpg",
@@ -1819,6 +1812,8 @@ const Products = [
         categoria: "anal"
     },*/
     {
+        SKU: "2061", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
         image2: "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
         name: "Anal Beads 1 Fucsia ST",
@@ -1890,14 +1885,16 @@ const Products = [
         descripcion: "Este juguete inexpulsable suave, aterciopelado y flexible es apto tanto para principiantes como para expertos en juegos anales. Su punta cónica facilita la inserción y su tope de ancla te da la seguridad para poder disfrutar al máximo. Motor recargable con control remoto. ----- Características: • Silicona 100 % pura + ABS. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • 3 modos de vibración lineal. • 7 ritmos diferentes. • Diámetro: 3.6 cm.Longitud: 20.1 cm. • Recargable.Incluye cable de carga. • Tiempo de carga: 50 m. • Duración de la carga: 50 m. • Control remoto inalámbrico. • Impermeable.No sumergible.",
         categoria: "anal"
     },
-    /*{
+    {
+        SKU: "2096", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anal/BLACK INEXPULSABLE.jpg",
         image2: "img/anal/BLACK INEXPULSABLE.jpg",
         name: "Black Inexpulsable",
         price: "$18,565.00",
         descripcion: "",
         categoria: "anal"
-    },*/
+    },
     {
         image: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
         image2: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
@@ -1914,14 +1911,16 @@ const Products = [
         descripcion: "Esta encantadora cola de conejito te llenará de placer anal! Con un peso cómodo, el tapón de silicona es liso, cónico y pequeño, de modo que la inserción es fácil y agradable, incluso para los principiantes. A tu pareja le encantará lo bien que te ves. Este plug es perfecto para prepararse para el sexo anal. Úselo con cualquier lubricante que elija. ----- Tamaño: Small",
         categoria: "anal"
     },
-    /*{
+    {
+        SKU: "2179", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anal/anal bears 2 blue.jpg",
         image2: "img/anal/anal bears 2 blue.jpg",
         name: "Anal Bears 2 Blue",
         price: "$12,233.72",
         descripcion: "",
         categoria: "anal"
-    },*/
+    },
     {
         image: "img/anal/Glass 1 Clear.jpg",
         image2: "img/anal/Glass 1 Clear.jpg",
@@ -1939,6 +1938,8 @@ const Products = [
         categoria: "anal"
     },
     {
+        SKU: "2272", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/anal/Agus 2 Black ST.jfif",
         image2: "img/anal/Agus 2 Black ST.jfif",
         name: "Agus 2 Black ST",
@@ -2169,6 +2170,8 @@ const Products = [
         categoria: "fetiche"
     },
     {
+        SKU: "2202", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1889",
         image: "img/fetiche/antifaz ciego con encaje luxury dorado.jpg",
         image2: "img/fetiche/antifaz ciego con encaje luxury dorado.jpg",
         name: "Antifaz Ciego con encaje Luxury | Dorado",
@@ -2177,6 +2180,8 @@ const Products = [
         categoria: "fetiche"
     },
     {
+        SKU: "1890", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/fetiche/antifaz ciego con encaje luxury rosa.webp",
         image2: "img/fetiche/antifaz ciego con encaje luxury rosa.webp",
         name: "Antifaz Ciego con encaje Luxury | Rosa",
@@ -2217,6 +2222,8 @@ const Products = [
         categoria: "fetiche"
     },
     {
+        SKU: "1989", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/fetiche/kit luxury niko - bondage.jpeg",
         image2: "img/fetiche/kit luxury niko - bondage.jpeg",
         name: "Bondage Niko",
@@ -2233,6 +2240,8 @@ const Products = [
         categoria: "fetiche"
     },
     {
+        SKU: "2022", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/fetiche/Antifaz Zorrita Símil Cuero Rosa Inf Placer.jpg",
         image2: "img/fetiche/Antifaz Zorrita Símil Cuero Rosa Inf Placer.jpg",
         name: "Antifaz Zorrita Símil Cuero Rosa",
@@ -2241,6 +2250,8 @@ const Products = [
         categoria: "fetiche"
     },
     {
+        SKU: "2023", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/fetiche/antifaz Zorrita Símil Cuero negro.jpg",
         image2: "img/fetiche/antifaz Zorrita Símil Cuero negro.jpg",
         name: "Antifaz Zorrita Símil Cuero Negro Inf Placer",
@@ -2249,6 +2260,8 @@ const Products = [
         categoria: "fetiche"
     },
     {
+        SKU: "2024", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/fetiche/Antifaz Ciego Símil Cuero Rosa Inf Placer.png",
         image2: "img/fetiche/Antifaz Ciego Símil Cuero Rosa Inf Placer.png",
         name: "Antifaz Ciego Símil Cuero Rosa",
@@ -2257,6 +2270,8 @@ const Products = [
         categoria: "fetiche"
     },
     {
+        SKU: "2027", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/fetiche/antifaz fiesta negro pasionel.webp",
         image2: "img/fetiche/antifaz fiesta negro pasionel.webp",
         name: "Antifaz Fiesta Negro Pasionel",
@@ -2265,6 +2280,8 @@ const Products = [
         categoria: "fetiche"
     },
     {
+        SKU: "2029", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/fetiche/Antifaz de Enfermera Blanco y Rojo Pasionel.png",
         image2: "img/fetiche/Antifaz de Enfermera Blanco y Rojo Pasionel.png",
         name: "Antifaz de Enfermera Blanco y Rojo Pasionel",
@@ -2313,6 +2330,8 @@ const Products = [
         categoria: "fetiche"
     },
     {
+        SKU: "2369", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/fetiche/antifaz ciego de cuero bdsm.jpg",
         image2: "img/fetiche/antifaz ciego de cuero bdsm.jpg",
         name: "Antifaz Ciego De Cuero BDSM",
@@ -2444,6 +2463,8 @@ const Products = [
         categoria: "dildos"
     },*/
     {
+        SKU: "2389", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
         image2: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
         name: "Bam Suck Realístico con Sopapa XXL",
@@ -2634,6 +2655,8 @@ const Products = [
     //-------------------------------------------MASTURBADORES
     //--------------------------------------------------------------------------------------------
     {
+        SKU: "", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/masturbadores/masturbador vagina skin.jpg",
         image2: "img/masturbadores/masturbador vagina skin.jpg",
         name: "masturbador vagina skin",
@@ -2642,6 +2665,8 @@ const Products = [
         categoria: "masturbadores"
     },
     {
+        SKU: "",
+        stock: "1111",
         image: "img/masturbadores/dark grey masturbador de glande.jpeg",
         image2: "img/masturbadores/dark grey masturbador de glande.jpeg",
         name: "dark grey masturbador",
@@ -2650,6 +2675,8 @@ const Products = [
         categoria: "masturbadores"
     },
     {
+        SKU: "",
+        stock: "1111",
         image: "img/masturbadores/huevo masturbador.jpg",
         image2: "img/masturbadores/huevo masturbador.jpg",
         name: "huevito masturbador x1 unidad",
@@ -2670,6 +2697,16 @@ const Products = [
     //-------------------------------------------SUCCIONADORES
     //--------------------------------------------------------------------------------------------
     {
+        SKU: "1965", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
+        image: "img/ana 8.png",
+        image2: "img/JUGUETE 3.png",
+        name: "ANA 8",
+        price: "$35,238",
+        descripcion: " Su intensa vibración se concentra a lo largo de todo el juguete y aún más fuerte en su cabezal, esto hace que puedas deslizarlo en tu zona genital y en cualquier otra parte del cuerpo donde necesites estimularte. Este masajeador contiene otro cabezal para poder experimentar los 10 niveles de succión que quieras en tu zona Clitorial. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. Presione el botón derecho para ajustar los modos de pulsación del cabezal, 10 modos de pulsación de frecuencia. Presione el botón izquierdo para ajustar los 10 modos de vibración final. Cambie el cabezal para sus 10 niveles de succión. ",
+        categoria: "succionadores"
+    },
+    {
         image: "img/vibradores/Satisfyer 1 Number One.jpg",
         image2: "img/vibradores/Satisfyer 1 Number One.jpg",
         name: "satisfyer number 1",
@@ -2678,6 +2715,8 @@ const Products = [
         categoria: "succionadores"
     },
     {
+        SKU: "1697", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/succionadores/Ana 10.jpg",
         image2: "img/succionadores/Ana 10.jpg",
         name: "Ana 10 ST",
@@ -2686,14 +2725,8 @@ const Products = [
         categoria: "succionadores"
     },
     {
-        image: "img/succionadores/Ana 8.jpg",
-        image2: "img/succionadores/Ana 8.jpg",
-        name: "Ana 8 ST",
-        price: "$64,133.17",
-        descripcion: "Potente masajeador clitorial. Su intensa vibracion se concentra a lo largo de todo el juguete y aun con mas fuerza en su cabezal, contiene otro cabezal para poder examinar los 10 niveles de succion que quieras en la zona clitorial. Silicona pura, Doble cabezal, vibrador masajeador y succionador, 2botones, 10 modos de pulsacion, 10 vibraciones, 10 modos de succion. largo 25.4cm diametro 3.8cm",
-        categoria: "succionadores"
-    },
-    {
+        SKU: "2067", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/succionadores/ana 3.png",
         image2: "img/succionadores/ana 3.png",
         name: "Ana 3 ST",
@@ -2702,6 +2735,8 @@ const Products = [
         categoria: "succionadores"
     },
     {
+        SKU: "2082", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/succionadores/ana 13.jpeg",
         image2: "img/succionadores/ana 13.jpeg",
         name: "Ana 13",
@@ -2726,6 +2761,8 @@ const Products = [
         categoria: "succionadores"
     },
     {
+        SKU: "2264", //el SKU no se tiene que modificar una vez ya colocado el numero
+        stock: "1111",
         image: "img/succionadores/ana 14.jpeg",
         image2: "img/succionadores/ana 14.jpeg",
         name: "Ana 14 ST",
@@ -2744,11 +2781,67 @@ const Products = [
 ];
 
 
+// Tu array productos
+const productos = [
+    //ANILLOS
+    ["2457", "8762", "0"],
+    ["2135", "9476", "0"],
+    ["1761", "3124", "1"],
+    ["2136", "21976", "1"],
+    ["2458", "4830", "0"],
+    ["2034", "1232", "0"],
+    ["1759", "5932", "0"],
+    ["2462", "1267", "0"],
+    ["1760", "3596", "0"],
+    ["1772", "7226", "3"],
+    ["1768", "6354", "0"],
+    ["2368", "6095", "0"],
+    ["1988", "14355", "8"],
+    ["2232", "26335", "2"],
+    ["1737", "40140", "0"],
+    ["2439", "6550", "1"],
+    ["2234", "6550", "0"],
+    ["2254", "16942", "1"],
+    ["2239", "8414", "0"],
+    ["1962", "26335", "2"],
+    ["1726", "15325", "0"],
+    ["1668", "15325", "0"],
+    ["1709", "15325", "0"],
+    ["2189", "13808", "3"],
+    ["2190", "13808,", "4"],
+    ["1966", "152", "0"],
+
+
+];
+
+
+
+function actualizarProductos() {
+    productos.forEach(producto => {
+        const sku = producto[0];
+        const precio = producto[1];
+        const stock = producto[2];
+
+
+        const productoEncontrado = Products.find(p => p.SKU === sku);
+        if (productoEncontrado) {
+            productoEncontrado.price = `$${precio}`;
+            productoEncontrado.stock = stock;
+        }
+    });
+}
+
+
+// Llamar a la función para actualizar los datos
+actualizarProductos();
+
+
 
 // Convertir los precios en números antes de usar los productos
 Products.forEach(producto => {
     producto.price = parseFloat(producto.price.replace(/[^0-9.-]+/g, ""));
 });
+
 
 
 //CREA LAS CARD DE LOS PRODUCTOS, LOS MUESTRA EN EL INICIO TODO AL AZAR Y CON UN BOTON DE CARGAR MAS PARA QUE MUESTREN 12 PRODUCTOS MAS
@@ -2779,6 +2872,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 alt="...">
                         </a>
                         <div class="card-body d-flex flex-column">
+                        <h4 style="display: none;">Stock: <b id="product-stock"></b></h4>
                             <h5 class="card-title mb-0 responsive-text">${product.name}</h5>
                             <p class="card-text">${formatPrice(product.price)}</p>
                             <button class="btn btn-primary mt-auto responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
@@ -2812,8 +2906,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 });
-
-
 
 
 
@@ -2959,32 +3051,32 @@ function mostrarProductosPorCategoria(categoria) {
         productosContainer.insertAdjacentHTML("beforeend", mensajeHTML);
 
         productosContainer.classList.remove("row", "row-cols-md-4", "row-cols-sm-2", "g-4");
-
     } else {
         // Agregar los productos filtrados al contenedor
         productosFiltrados.forEach(producto => {
             const productoHTML = `
-            <div class="col">
-                <div class="card h-100"> <!-- Usa la clase "card" aquí -->
-                    <a href="descripcion.html?index=${Products.indexOf(producto)}">
-                        <img src="${producto.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
-                            onmouseover="showImage(this, '${producto.image2}')" 
-                            onmouseout="showImage(this, '${producto.image}')"
-                            alt="...">
-                    </a>
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
-                        <p class="card-text">${formatPrice(producto.price)}</p>
-                        <button class="btn btn-primary mt-auto responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
+                <div class="col">
+                    <div class="card h-100"> <!-- Usa la clase "card" aquí -->
+                        <a href="descripcion.html?index=${Products.indexOf(producto)}">
+                            <img src="${producto.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
+                                onmouseover="showImage(this, '${producto.image2}')" 
+                                onmouseout="showImage(this, '${producto.image}')"
+                                alt="...">
+                        </a>
+                        <div class="card-body d-flex flex-column">
+                                                        <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
+                            <p class="card-text">${formatPrice(producto.price)}</p>
+                            <button class="btn btn-primary mt-auto responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
 
+                        </div>
                     </div>
                 </div>
-            </div>
-        `;
+            `;
             productosContainer.insertAdjacentHTML("beforeend", productoHTML);
         });
     }
 }
+
 
 // Función para aplicar el filtro de precio
 function aplicarFiltroPrecio() {
@@ -3009,6 +3101,7 @@ let carritoProductos = [];
 
 
 function agregarAlCarrito(producto) {
+
     // Verificar si el objeto producto existe y no es nulo
     if (producto && typeof producto === 'object') {
         // Verificar si el objeto producto tiene las propiedades requeridas
@@ -3036,6 +3129,7 @@ function agregarAlCarrito(producto) {
                 // Actualizar el almacenamiento local con los datos del carrito
                 localStorage.setItem('carrito', JSON.stringify(carritoProductos));
             }
+
             function showToast() {
                 const width = window.innerWidth;
 
@@ -3070,7 +3164,13 @@ function agregarAlCarrito(producto) {
         }
     }
 }
+
+
+
 function formatPrice(price) {
+    if (typeof price !== 'number') {
+        return "Precio no disponible"; // o un mensaje de error adecuado
+    }
     return '$' + price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
 }
 
@@ -3204,7 +3304,7 @@ function actualizarCarrito() {
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <div class="card-body">
+                                            <div class="card-body">
                             <h5 class="card-title mt-8">${item.name}</h5>
                             <p class="card-text">${formatPrice(item.price * item.cantidad)}</p>
                             <div class="row">
@@ -3306,7 +3406,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             alt="...">
                     </a>
                     <div class="card-body  d-flex flex-column">
-                        <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                                            <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
                         <p class="card-text">${formatPrice(product.price)}</p>
                         <button class="btn btn-primary mt-auto responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
                     </div>
