@@ -208,6 +208,7 @@
                                 <span class="input-group-text">$</span>
                                 <input type="number" id="precio-max" class="form-control" value="0" min="0"
                                     style="color: black; background-color: white;" onfocus="limpiarValor(this)">
+
                             </div>
                         </div>
                         <button onclick="aplicarFiltroPrecio()" class="btn btn-primary">Aplicar</button>
@@ -242,12 +243,6 @@
         </section>
 
     </section>
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p id="modal-message"></p>
-        </div>
-    </div>
 
 
     <footer class=" footer">
@@ -337,6 +332,9 @@
                 permiso.</p>
         </div>
     </footer>
+    <div id="load-more-button" style="display: none;"></div>
+    <div id="product-details" style="display: none;"></div>
+    <div id="cargarMasBoton" style="display: none;"></div>
 
     <!-- Icono de whatsapp -->
     <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>

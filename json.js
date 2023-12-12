@@ -2938,10 +2938,6 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-function agregarAlCarrito(producto) {
-    // Lógica para agregar el producto al carrito usando la información proporcionada.
-    console.log("Agregando al carrito:", producto);
-}
 
 document.addEventListener("DOMContentLoaded", function () {
     const enlacesCategoria = document.querySelectorAll(".dropdown-item");
@@ -2964,7 +2960,7 @@ function filtrarProductosPorFragmento() {
     const fragmento = getFragmentFromURL();
 
     if (fragmento) {
-        // Filtra los productos según la categoría del fragmento
+        categoriaActual = fragmento; // Almacena la categoría actual
         mostrarProductosPorCategoria(fragmento);
 
         // Cambia el título del H2 con el nombre de la categoría seleccionada
@@ -2985,7 +2981,7 @@ function getFragmentFromURL() {
     return window.location.hash.substring(1); // Obtiene el fragmento excluyendo el #
 }
 
-// Función para filtrar productos en base al fragmento de la URL
+// Función para filtrar productos por fragmento
 function filtrarProductosPorFragmento() {
     const fragmento = getFragmentFromURL();
 
@@ -3013,61 +3009,54 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const categoriaSeleccionada = btn.getAttribute("data-categoria");
 
-            // Filtrar y mostrar los productos según la categoría seleccionada
+            // Actualizar el título y mostrar los productos según la categoría seleccionada
+            actualizarCategoryTitle(categoriaSeleccionada);
             mostrarProductosPorCategoria(categoriaSeleccionada);
-
-            // Actualizar el título con el nombre de la categoría seleccionada si es necesario
-            const categoryTitle = document.getElementById("category-title");
-            categoryTitle.textContent = categoriaSeleccionada;
         });
     });
 });
 
+function actualizarCategoryTitle(categoria) {
+    const categoryTitle = document.getElementById("category-title");
+    categoryTitle.textContent = categoria.toUpperCase(); // Convertir a mayúsculas o realiza el formateo necesario
+}
+
+let categoriaActual = '';
 let precioMinActual = 0; // Precio mínimo actual
 let precioMaxActual = Infinity; // Precio máximo actual (se inicializa como infinito para mostrar todos los productos por defecto)
 
-
 // Función para filtrar y mostrar productos según la categoría
 function mostrarProductosPorCategoria(categoria) {
-    // Obtener el contenedor donde se mostrarán los productos
     const productosContainer = document.getElementById("product-list");
-
-    // Filtrar los productos que pertenecen a la categoría seleccionada y están dentro del rango de precios
     const productosFiltrados = Products.filter(producto => {
         return producto.categoria === categoria &&
             producto.price >= precioMinActual &&
             producto.price <= precioMaxActual;
     });
 
-    // Limpiar el contenedor antes de agregar los productos filtrados
     productosContainer.innerHTML = "";
 
     if (productosFiltrados.length === 0) {
-
-        // Si no hay productos, mostrar un mensaje en lugar de los productos
         const mensajeHTML = `
             <h2 style="text-align: center;">No se han encontrado artículos disponibles en el rango de precios especificado</h2>
         `;
         productosContainer.insertAdjacentHTML("beforeend", mensajeHTML);
-
         productosContainer.classList.remove("row", "row-cols-md-4", "row-cols-sm-2", "g-4");
     } else {
-        // Agregar los productos filtrados al contenedor
         productosFiltrados.forEach(producto => {
             const productoHTML = `
                 <div class="col">
-                    <div class="card h-100"> <!-- Usa la clase "card" aquí -->
+                    <div class="card h-100">
                         <a href="descripcion.html?index=${Products.indexOf(producto)}">
                             <img src="${producto.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
-                                onmouseover="showImage(this, '${producto.image2}')" 
+                                onmouseover="showImage(this, '${producto.image2}')"
                                 onmouseout="showImage(this, '${producto.image}')"
                                 alt="...">
                         </a>
                         <div class="card-body d-flex flex-column">
-                                                        <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
+                            <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
                             <p class="card-text">${formatPrice(producto.price)}</p>
                             <button class="btn btn-primary mt-auto responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
-
                         </div>
                     </div>
                 </div>
@@ -3078,22 +3067,21 @@ function mostrarProductosPorCategoria(categoria) {
 }
 
 
+
 // Función para aplicar el filtro de precio
 function aplicarFiltroPrecio() {
     const precioMin = parseFloat(document.getElementById("precio-min").value);
     const precioMax = parseFloat(document.getElementById("precio-max").value);
 
-    // Actualizar los valores de precio mínimo y máximo actuales
     precioMinActual = precioMin;
     precioMaxActual = precioMax;
 
-    // Obtener la categoría seleccionada
     const categoryTitle = document.getElementById("category-title");
     const categoriaSeleccionada = categoryTitle.textContent;
 
-    // Mostrar productos dentro del rango de precios y en la categoría seleccionada
     mostrarProductosPorCategoria(categoriaSeleccionada);
 }
+
 
 
 const carritoContainer = document.getElementById('carritoContainer');
@@ -3174,36 +3162,41 @@ function formatPrice(price) {
     return '$' + price.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
 }
 
-// Función para restar cantidad de un producto en el carrito
 function restarCantidad(itemName) {
     const producto = carritoProductos.find((item) => item.name === itemName);
 
     if (producto && producto.cantidad > 1) {
         producto.cantidad -= 1;
+        actualizarCarrito(); // Llama a actualizarCarrito() solo si la resta de cantidad causa un cambio visual significativo
     }
+
     localStorage.setItem('carrito', JSON.stringify(carritoProductos));
-    actualizarCarrito();
 }
 
-// Función para sumar cantidad de un producto en el carrito
 function sumarCantidad(itemName) {
     const producto = carritoProductos.find((item) => item.name === itemName);
 
     if (producto) {
         producto.cantidad += 1;
+        actualizarCarrito(); // Llama a actualizarCarrito() solo si la suma de cantidad causa un cambio visual significativo
     }
+
     localStorage.setItem('carrito', JSON.stringify(carritoProductos));
-    actualizarCarrito();
 }
+
 
 // Función CARRITO
 function eliminarDelCarrito(nombreProducto) {
-    carritoProductos = carritoProductos.filter((item) => item.name !== nombreProducto);
-    actualizarCarrito();
+    const productoEliminado = carritoProductos.find((item) => item.name === nombreProducto);
 
-    // Actualizar el almacenamiento local con los datos del carrito
+    if (productoEliminado) {
+        carritoProductos = carritoProductos.filter((item) => item.name !== nombreProducto);
+        actualizarCarrito(); // Llama a actualizarCarrito() solo si se elimina un producto del carrito
+    }
+
     localStorage.setItem('carrito', JSON.stringify(carritoProductos));
 }
+
 
 // Función para cargar los datos del carrito desde el almacenamiento local
 function cargarCarritoDesdeLocalStorage() {
@@ -3279,7 +3272,6 @@ function actualizarCarrito() {
         const mensaje = productosAgregados + ' ---- Total de todos los productos: ' + formatPrice(productosTotales);
         productoCarritoTextArea.textContent = mensaje;
         console.log(productoCarritoTextArea.textContent)
-
     }
 
     if (carritoProductos.length === 0) {
@@ -3335,6 +3327,7 @@ function actualizarCarrito() {
             // Agregar la tarjeta al contenedor del carrito
             carritoContent.appendChild(card.firstChild);
         });
+
         // Al final, agregas el contenedor principal al elemento donde deseas mostrar las tarjetas
         carritoContent.appendChild(tarjetasContainer);
 
