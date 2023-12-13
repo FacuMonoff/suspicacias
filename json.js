@@ -2972,32 +2972,6 @@ function filtrarProductosPorFragmento() {
 // Llama a la función para filtrar productos cuando se carga la página
 window.addEventListener("load", filtrarProductosPorFragmento);
 
-// Escucha los cambios en el fragmento de la URL
-window.addEventListener("hashchange", filtrarProductosPorFragmento);
-
-
-// Función para obtener el fragmento de la URL
-function getFragmentFromURL() {
-    return window.location.hash.substring(1); // Obtiene el fragmento excluyendo el #
-}
-
-// Función para filtrar productos por fragmento
-function filtrarProductosPorFragmento() {
-    const fragmento = getFragmentFromURL();
-
-    if (fragmento) {
-        // Filtra los productos según la categoría del fragmento
-        mostrarProductosPorCategoria(fragmento);
-
-        // Cambia el título del H2 con el nombre de la categoría seleccionada
-        const categoryTitle = document.getElementById("category-title");
-        categoryTitle.textContent = fragmento;
-        categoryTitle.textContent = fragmento.toUpperCase(); // Convertir a mayúsculas
-    }
-}
-
-// Llama a la función para filtrar productos cuando se carga la página
-window.addEventListener("load", filtrarProductosPorFragmento);
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -3021,7 +2995,6 @@ function actualizarCategoryTitle(categoria) {
     categoryTitle.textContent = categoria.toUpperCase(); // Convertir a mayúsculas o realiza el formateo necesario
 }
 
-let categoriaActual = '';
 let precioMinActual = 0; // Precio mínimo actual
 let precioMaxActual = Infinity; // Precio máximo actual (se inicializa como infinito para mostrar todos los productos por defecto)
 
