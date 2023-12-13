@@ -2986,17 +2986,36 @@ document.addEventListener("DOMContentLoaded", () => {
             // Actualizar el título y mostrar los productos según la categoría seleccionada
             actualizarCategoryTitle(categoriaSeleccionada);
             mostrarProductosPorCategoria(categoriaSeleccionada);
+
+            // Cambiar el fragmento de la URL según la categoría seleccionada
+            const currentPage = window.location.pathname;
+            history.pushState({}, '', `${currentPage}#${categoriaSeleccionada}`);
+
+            // Recargar la página
+            window.location.reload();
         });
     });
 });
 
+
 function actualizarCategoryTitle(categoria) {
     const categoryTitle = document.getElementById("category-title");
-    categoryTitle.textContent = categoria.toUpperCase(); // Convertir a mayúsculas o realiza el formateo necesario
+    categoryTitle.textContent = categoria.toUpperCase();
+
+    // Restablecer los valores de precio mínimo y máximo a sus estados iniciales
+    precioMinActual = 0;
+    precioMaxActual = Infinity;
+
+    // Restablecer los valores de los campos de entrada de precio en HTML a 0
+    document.getElementById("precio-min").value = 0;
+    document.getElementById("precio-max").value = 0;
+
+    mostrarProductosPorCategoria(categoria);
 }
 
-let precioMinActual = 0; // Precio mínimo actual
-let precioMaxActual = Infinity; // Precio máximo actual (se inicializa como infinito para mostrar todos los productos por defecto)
+// Restablecer los valores de precio mínimo y máximo a sus estados iniciales
+precioMinActual = 0;
+precioMaxActual = Infinity;
 
 // Función para filtrar y mostrar productos según la categoría
 function mostrarProductosPorCategoria(categoria) {
