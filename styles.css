@@ -44,6 +44,39 @@ body {
     width: 3%;
 }
 
+
+
+/* Estilos para pantallas grandes */
+@media (min-width: 850px) {
+    .navbar {
+        background-color: transparent;
+        position: absolute;
+        width: 100%;
+        z-index: 1000;
+    }
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 849px) {
+    .navbar {
+        background-color: transparent;
+        /* Cambiar al color oscuro deseado */
+    }
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.menuIcono {
+    background-color: white;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+
 .footer {
     text-align: center;
     background-color: #000000;
