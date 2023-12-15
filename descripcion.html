@@ -32,7 +32,8 @@
                 <!-- Cabecera del nav cuando expandimos -->
                 <div class="offcanvas-header">
                     <!-- Titulo -->
-                    <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel">Suspicacias</h5>
+                    <h5 class="offcanvas-title text-uppercase" id="offcanvasNavbarLabel"
+                        style="font-family: Lobster;font-size: 2.1em;">Suspicacias</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
@@ -41,8 +42,7 @@
                     <!-- Una lista para los items que vamos a tener en el offcanvas -->
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active text-uppercase" aria-current="page" href="#">Sex sale |
-                                ¡OFERTAS!</a>
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">¡OFERTAS!</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -162,7 +162,8 @@
     </nav>
     <section class="container">
         <div class="rowEditado product-container text-center">
-            <div id="carouselExample" class="carousel slide col-md-6 product-image" data-bs-ride="carousel">
+            <div id="carouselExample" class="carousel slide col-md-6 product-image imagenDescripcion"
+                data-bs-ride="carousel">
                 <!-- Indicadores -->
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
@@ -219,19 +220,19 @@
 
 
             <div class="colEditado product-details text-start" style="color: white;">
-                <div class="rowEditado">
-                    <div class="colEditado">
+                <div class="rowEditado rowEditadoDescripcion" style="text-align: center;">
+                    <div>
                         <h2 id="product-name" class="nombreEditadoDescripcion"></h2>
                         <br>
                     </div>
                 </div>
-                <div class="rowEditado" style="margin-top: 0%;">
+                <div class="rowEditado rowEditadoDescripcion" style="margin-top: 0%;">
                     <div class="colEditado">
                         <h4 style="margin-top: 0%;"><b id="product-price"></b></h4>
                         <br>
                     </div>
                 </div>
-                <div class="rowEditado">
+                <div class="rowEditado rowEditadoDescripcion">
                     <div class="colEditado">
                         <h4 style="margin-top: 0%;">Descripcion:</h4>
                         <p id="product-descripcion"></p>
@@ -249,14 +250,15 @@
                         <p id="modal-message"></p>
                     </div>
                 </div>
-                <br>
-
+                <div class="button-container">
+                    <button id="add-to-cart-button" class="btn btn-primary">Agregar al carrito</button>
+                </div>
             </div>
+
         </div>
+
     </section>
-    <div class="button-container">
-        <button id="add-to-cart-button" class="btn btn-primary">Agregar al carrito</button>
-    </div>
+
     <button id="cargarMasBoton" class="btn btn-primary" style="display: none;">Cargar más</button>
 
 

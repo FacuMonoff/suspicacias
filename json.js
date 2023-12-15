@@ -2872,14 +2872,21 @@ document.addEventListener("DOMContentLoaded", function () {
                                 alt="...">
                         </a>
                         <div class="card-body d-flex flex-column">
-                        <h4 style="display: none;">Stock: <b id="product-stock"></b></h4>
-                            <h5 class="card-title mb-0 responsive-text">${product.name}</h5>
-                            <p class="card-text">${formatPrice(product.price)}</p>
-                            <button class="btn btn-primary mt-auto responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})">Agregar al carrito</button>
+                            <h4 style="display: none;">Stock: <b id="product-stock"></b></h4>
+                            <div style="margin-bottom: auto;">
+                                <h5 class="card-title mb-0 responsive-text" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${product.name}</h5>
+                            </div>
+                            <div style="margin-top: auto; margin-bottom: auto;">
+                                <p class="card-text">${formatPrice(product.price)}</p>
+                            </div>
+                            <div style="margin-top: auto;">
+                                <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            `).join("");
+                      `
+        ).join("");
 
         productListContainer.innerHTML += productHTML;
 

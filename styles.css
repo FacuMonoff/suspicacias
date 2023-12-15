@@ -44,6 +44,9 @@ body {
     width: 3%;
 }
 
+.nav-link {
+    color: white;
+}
 
 
 /* Estilos para pantallas grandes */
@@ -70,10 +73,6 @@ body {
 
 .menuIcono {
     background-color: white;
-}
-
-.navbar-nav {
-    color: white;
 }
 
 
@@ -301,13 +300,22 @@ section {
 .rowEditado {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
+
+}
+
+.rowEditadoDescripcion {
+    margin-bottom: -10%;
+
+}
+
+.imagenDescripcion {
+    margin-top: 5%;
 }
 
 .colEditado {
     flex: 1 0 50%;
     padding: 0 15px;
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .h2Editado {
@@ -471,6 +479,7 @@ section {
         display: flex;
         flex-wrap: wrap;
         margin: 0 -15px;
+        margin-bottom: -10%;
     }
 
     .h2Editado {
@@ -504,7 +513,5 @@ section {
         height: auto;
         margin-bottom: 20%;
     }
-
-
 
 }
