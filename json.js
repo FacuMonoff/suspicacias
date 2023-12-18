@@ -3364,11 +3364,7 @@ function mostrarProductosPorCategoria(categoria) {
     productosContainer.innerHTML = "";
 
     if (productosFiltrados.length === 0) {
-        const mensajeHTML = `
-            <h2 style="text-align: center;">No se han encontrado artículos disponibles en el rango de precios especificado</h2>
-        `;
-        productosContainer.insertAdjacentHTML("beforeend", mensajeHTML);
-        productosContainer.classList.remove("row", "row-cols-md-4", "row-cols-sm-2", "g-4");
+        alert("No se han encontrado artículos disponibles en el rango de precios especificado. Por favor ingrese otro rango de precio");
     } else {
         productosFiltrados.forEach(producto => {
             const productoHTML = `
@@ -3397,8 +3393,21 @@ function mostrarProductosPorCategoria(categoria) {
 
 // Función para aplicar el filtro de precio
 function aplicarFiltroPrecio() {
-    const precioMin = parseFloat(document.getElementById("precio-min").value);
-    const precioMax = parseFloat(document.getElementById("precio-max").value);
+    const precioMinInput = document.getElementById("precio-min");
+    const precioMaxInput = document.getElementById("precio-max");
+
+    const precioMin = parseFloat(precioMinInput.value);
+    const precioMax = parseFloat(precioMaxInput.value);
+
+    if (precioMin > precioMax) {
+        alert("El precio mínimo no puede ser mayor al precio máximo");
+        precioMinInput.value = precioMaxInput.value; // Restablecer el valor mínimo al máximo ingresado
+        return;
+    } else if (precioMax < precioMin) {
+        alert("El precio máximo no puede ser menor al precio mínimo");
+        precioMaxInput.value = precioMinInput.value; // Restablecer el valor máximo al mínimo ingresado
+        return;
+    }
 
     precioMinActual = precioMin;
     precioMaxActual = precioMax;
@@ -3408,6 +3417,7 @@ function aplicarFiltroPrecio() {
 
     mostrarProductosPorCategoria(categoriaSeleccionada);
 }
+
 
 
 
