@@ -348,9 +348,6 @@ section {
     /* O el display apropiado que tengas para este contenedor */
 }
 
-.nombreEditadoDescripcion {
-    margin-top: -15%;
-}
 
 .button-container {
     display: flex;
@@ -359,8 +356,73 @@ section {
     margin-bottom: 3%;
 }
 
+.container-nueva {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row-nueva {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-bottom: -10%;
+}
+
+.columna-nueva-left {
+    flex: 0 0 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.columna-nueva-right {
+    flex: 0 0 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.titulo-nuevo {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.titulo-nuevo-1 {
+    margin-top: 5%;
+}
+
+.parrafo-nuevo {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.lista-nueva {
+    padding-left: 20px;
+}
+
+.imagen-nueva {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20%;
+}
+
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
 @media screen and (max-width: 800px) {
+
+
+    #product-name {
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+
+    .columna-nueva-left,
+    .columna-nueva-right {
+        flex: 0 0 100%;
+    }
+
+    .columna-nueva-right {
+        margin-top: 10%;
+    }
 
     .button-container {
         display: flex;
@@ -369,17 +431,13 @@ section {
         margin-bottom: 10%;
     }
 
-    .nombreEditadoDescripcion {
-        margin-top: 3%;
-    }
 
     .categorias-container {
         display: none;
     }
 
     .card-title {
-        font-size: 1em;
-        /* Cambia el valor según el tamaño deseado */
+        font-size: medium;
     }
 
     .responsive-button {
