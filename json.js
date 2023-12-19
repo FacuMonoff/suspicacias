@@ -136,7 +136,6 @@ const Products = [
     },
     {
         SKU: "2254", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/anillos/aro vibrador maxx.jpeg",
         image2: "img/anillos/aro vibrador maxx 2.png",
         name: "Maxx Play Aro Vibrador",
@@ -147,14 +146,13 @@ const Products = [
     },
     {
         SKU: "1772", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/anillos/anillo-peneano-retardante-commander-calexotics 2.jpg",
         image2: "img/anillos/anillo-peneano-retardante-commander-calexotics.jpg",
         name: "Anillo peneano retardante",
         price: "$1",
         descripcion: "Un anillo para el pene que se adapta perfectamente debido al material flexible del cual esta fabricado. Aporta la firmeza de un pene erecto durante mucho más tiempo. Además de asegurar una firme erección retrasa el momento de la eyaculación para prolongar los momentos de placer ---- Marca: Calexotics",
         categoria: "anillos",
-        stock: "1"
+        stock: "0"
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------VIBRADORES
@@ -166,8 +164,7 @@ const Products = [
         price: "$34,462",
         descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
         categoria: "estimuladores",
-        stock: "1",
-        stock: "1"
+        stock: "0"
     },
     {
         image: "img/katy 4.png",
@@ -3104,39 +3101,40 @@ const Products = [
         name: "High Fashion Satisfyer Luxury",
         price: "$146,666.00",
         descripcion: "Esta versión de lujo y sofisticada de este vibrador de ondas de presión es el compañero perfecto para tus aventuras de estimulación clitorial! Sus 11 modos de estimulación, y sus 10 modos de vibración, te brindarán 110 combinaciones de estimulación, realmente un lujo total! • Tecnología Air pressure sin tacto • 11 patrones de ondas de presión • 10 niveles de vibración • 110 combinaciones de estimulación (11 x 10) • 2 Motores independientes • Interfáz de 3 botones • Impermeable • Extremadamente silencioso. • Recargable USB (Cable magnético) • Fácil de limpiar",
-        categoria: "succionadores"
+        categoria: "succionadores",
+        stock: "0"
     }
 ];
 
-
+/* FUNCION SOLO PARA ACTUALIZAR PRODUCTOS, PRECIOS Y STOCK DESDE EXCEL
 // Tu array productos
 const productos = [
     //ANILLOS
     ["2457", "8762", "0"],
     ["2135", "9476", "0"],
-    ["1761", "3124", "1"],
-    ["2136", "21976", "1"],
+    ["1761", "3124", "0"],
+    ["2136", "21976", "0"],
     ["2458", "4830", "0"],
     ["2034", "1232", "0"],
     ["1759", "5932", "0"],
     ["2462", "1267", "0"],
     ["1760", "3596", "0"],
-    ["1772", "7226", "3"],
+    ["1772", "7226", "0"],
     ["1768", "6354", "0"],
     ["2368", "6095", "0"],
-    ["1988", "14355", "8"],
-    ["2232", "26335", "2"],
+    ["1988", "14355", "0"],
+    ["2232", "26335", "0"],
     ["1737", "40140", "0"],
-    ["2439", "6550", "1"],
+    ["2439", "6550", "0"],
     ["2234", "6550", "0"],
-    ["2254", "16942", "1"],
+    ["2254", "16942", "0"],
     ["2239", "8414", "0"],
-    ["1962", "26335", "2"],
+    ["1962", "26335", "0"],
     ["1726", "15325", "0"],
     ["1668", "15325", "0"],
     ["1709", "15325", "0"],
-    ["2189", "13808", "3"],
-    ["2190", "13808,", "4"],
+    ["2189", "13808", "0"],
+    ["2190", "13808,", "0"],
     ["1966", "152", "0"],
 
 
@@ -3161,7 +3159,7 @@ function actualizarProductos() {
 
 
 // Llamar a la función para actualizar los datos
-actualizarProductos();
+actualizarProductos();*/
 
 
 
@@ -3176,61 +3174,60 @@ Products.forEach(producto => {
 
 document.addEventListener("DOMContentLoaded", function () {
     const productListContainer = document.getElementById("product-lista");
-    const loadMoreButton = document.getElementById("cargarMasBoton"); // Cambio de ID
+    const loadMoreButton = document.getElementById("cargarMasBoton");
     let productsToShow = 12;
     let productsDisplayed = 0;
-    let shuffledProducts = []; // Array para almacenar los productos en orden aleatorio
+    let shuffledProducts = [];
 
-    // Función para cargar y mostrar más productos (similar a la primera función)
     function loadMoreProducts() {
+        const availableProducts = Products.filter(product => parseInt(product.stock) > 0); // Filtra los productos disponibles
+        shuffledProducts = availableProducts.slice(); // Utiliza solo los productos disponibles
+        shuffleArray(shuffledProducts); // Mezcla los productos en orden aleatorio
+
         if (shuffledProducts.length === 0) {
-            // Si no hay productos en orden aleatorio, mezcla los productos originales y guárdalos en shuffledProducts
-            shuffledProducts = Products.slice(); // Copia los productos originales
-            shuffleArray(shuffledProducts); // Mezcla los productos en orden aleatorio
+            loadMoreButton.style.display = "none";
+            return; // Si no hay productos disponibles, detiene la función
         }
+
         const productsToDisplay = shuffledProducts.slice(productsDisplayed, productsDisplayed + productsToShow);
 
         const productHTML = productsToDisplay.map((product) => `
-                <div class="col">
-                    <div class="card h-100">
-                        <a href="descripcion.html?index=${Products.indexOf(product)}&name=${encodeURIComponent(product.name)}">
-                            <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;"
-                                onmouseover="showImage(this, '${product.image2}')"
-                                onmouseout="showImage(this, '${product.image}')"
-                                alt="...">
-                        </a>
-                        <div class="card-body d-flex flex-column">
-                            <h4 style="display: none;">Stock: <b id="product-stock"></b></h4>
-                            <div style="margin-bottom: auto;">
-                                <h5 class="card-title mb-0 responsive-text" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${product.name}</h5>
-                            </div>
-                            <div style="margin-top: auto; margin-bottom: auto;">
-                                <p class="card-text">${formatPrice(product.price)}</p>
-                            </div>
-                            <div style="margin-top: auto;">
-                                <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
-                            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <a href="descripcion.html?index=${Products.indexOf(product)}&name=${encodeURIComponent(product.name)}">
+                        <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;"
+                            onmouseover="showImage(this, '${product.image2}')"
+                            onmouseout="showImage(this, '${product.image}')"
+                            alt="...">
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h4 style="display: none;">Stock: <b id="product-stock"></b></h4>
+                        <div style="margin-bottom: auto;">
+                            <h5 class="card-title mb-0 responsive-text" style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${product.name}</h5>
+                        </div>
+                        <div style="margin-top: auto; margin-bottom: auto;">
+                            <p class="card-text">${formatPrice(product.price)}</p>
+                        </div>
+                        <div style="margin-top: auto;">
+                            <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
                         </div>
                     </div>
                 </div>
-                      `
+            </div>
+            `
         ).join("");
 
         productListContainer.innerHTML += productHTML;
 
-        // Actualiza la cantidad de productos mostrados
         productsDisplayed += productsToDisplay.length;
 
-        // Oculta el botón de carga si no hay más productos
         if (productsDisplayed >= shuffledProducts.length) {
             loadMoreButton.style.display = "none";
         }
     }
 
-    // Cargar y mostrar los primeros 12 productos en su orden original
     loadMoreProducts();
 
-    // Manejar el evento de clic del nuevo botón "Cargar más"
     loadMoreButton.addEventListener("click", loadMoreProducts);
 
     // Función para mezclar un array en orden aleatorio (Fisher-Yates shuffle)
@@ -3249,8 +3246,6 @@ document.addEventListener("DOMContentLoaded", function () {
 function showImage(element, imageUrl) {
     element.src = imageUrl;
 }
-
-//PLANTILLA EN LA PARTE DE DESCRIPCION.HTML, MUESTRA EL PRODUCTO SELECCIONADO Y LOS DETALLES DEL MISMO
 window.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const productIndex = parseInt(urlParams.get("index"));
@@ -3258,20 +3253,39 @@ window.addEventListener("DOMContentLoaded", () => {
     if (!isNaN(productIndex) && productIndex >= 0 && productIndex < Products.length) {
         const selectedProduct = Products[productIndex];
 
-        document.getElementById("product-image").src = selectedProduct.image;
-        document.getElementById("product-image2").src = selectedProduct.image2;
-        document.getElementById("product-name").textContent = selectedProduct.name;
-        document.getElementById("product-price").textContent = formatPrice(selectedProduct.price);
-        document.getElementById("product-descripcion").textContent = selectedProduct.descripcion;
+        // Verificar si el producto tiene stock mayor que cero
+        if (parseInt(selectedProduct.stock) > 0) {
+            // Mostrar los detalles del producto
+            document.getElementById("product-image").src = selectedProduct.image;
+            document.getElementById("product-image2").src = selectedProduct.image2;
+            document.getElementById("product-name").textContent = selectedProduct.name;
+            document.getElementById("product-price").textContent = formatPrice(selectedProduct.price);
+            document.getElementById("product-descripcion").textContent = selectedProduct.descripcion;
+            document.getElementById("product-stock").textContent = selectedProduct.stock;
 
-        // Agregar botón "Agregar al carrito"
-        document.getElementById("add-to-cart-button").addEventListener("click", function () {
-            agregarAlCarrito(selectedProduct);
-        });
+            // Agregar botón "Agregar al carrito"
+            document.getElementById("add-to-cart-button").addEventListener("click", function () {
+                agregarAlCarrito(selectedProduct);
+            });
+        } else {
+            // Si el stock es cero, ocultar la sección de producto y mostrar un mensaje
+            document.querySelector(".product-container").style.display = "none";
+            const modalMessage = document.getElementById("modal-message");
+            modalMessage.textContent = "No hay stock disponible para este producto.";
+            const modal = document.getElementById("myModal");
+            modal.style.display = "block";
+
+            // Agregar evento para cerrar el modal
+            const closeButton = document.querySelector(".close");
+            closeButton.addEventListener("click", function () {
+                modal.style.display = "none";
+            });
+        }
     } else {
         document.getElementById("product-details").innerHTML = "<h3>Producto no encontrado</h3>";
     }
 });
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -3357,6 +3371,7 @@ function mostrarProductosPorCategoria(categoria) {
     const productosContainer = document.getElementById("product-list");
     const productosFiltrados = Products.filter(producto => {
         return producto.categoria === categoria &&
+            producto.stock > 0 &&
             producto.price >= precioMinActual &&
             producto.price <= precioMaxActual;
     });
@@ -3713,7 +3728,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 descripcionEnMinusculas.includes(query.toLowerCase()) ||
                 categoriaEnMinusculas.includes(query.toLowerCase())
             );
-        });
+        }).filter(producto => parseInt(producto.stock) > 0); // Filtra los productos con stock mayor a 0
+
     }
 
     // Obtén el contenedor de la lista de productos en tu página HTML
