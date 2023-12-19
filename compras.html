@@ -165,7 +165,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 style="text-align: center; margin-top: 2%; font-weight: 700;">Datos del destinatario</h1>
-                <form action="https://formsubmit.co/maximilianomonoff@gmail.com" method="POST">
+                <form action="https://formsubmit.co/9a4e9d99cf846d7f23c42e6c0a446bce" method="POST">
                     <div class="form-group" style="margin-top: 3%;">
                         <label for="nombre">Nombre:</label>
                         <input type="text" class="form-control" id="nombre" name="nombre"
@@ -276,8 +276,11 @@
                                 let totalPrice = 0;
 
                                 if (carrito) {
-                                    // Calcular el precio total sumando los precios de los productos en el carrito
-                                    totalPrice = carrito.reduce((total, product) => total + parseFloat(product.price), 0);
+                                    // Calcular el precio total sumando los precios de los productos en el carrito, considerando la cantidad
+                                    totalPrice = carrito.reduce((total, product) => {
+                                        const precioTotalProducto = product.price * product.cantidad; // Multiplica el precio por la cantidad
+                                        return total + parseFloat(precioTotalProducto);
+                                    }, 0);
                                 }
 
                                 const orderData = {
