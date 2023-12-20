@@ -406,9 +406,44 @@ section {
     margin-bottom: 20%;
 }
 
+/* Estilos CSS para los precios */
+.smaller {
+    font-size: 0.8em;
+    /* Hace el precio original un poco más pequeño */
+    font-weight: 400;
+    /* Puede modificar la intensidad del texto */
+    text-decoration: line-through;
+    /* Agrega el tachado */
+}
+
+.bigger {
+    font-size: 1.2em;
+    /* Hace el precio con descuento un poco más grande */
+    font-weight: 600;
+    /* Aumenta la intensidad del texto */
+    /* Otros estilos adicionales que desees */
+}
+
+.discount-badge {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 4px 95px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
 @media screen and (max-width: 800px) {
 
+    .discount-badge {
+        padding: 4px 8px;
+        /* Ajusta el padding para pantallas más pequeñas */
+    }
 
     #product-name {
         margin-top: 10%;
