@@ -3,15 +3,15 @@ const Products = [
     //-------------------------------------------ANILLOS
     //--------------------------------------------------------------------------------------------
     {
+        ID: "1",
         SKU: "1726", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/anillos/Ring 6 Blue.jpeg",
         image2: "img/anillos/Ring 6 Clear.jpeg",
         name: "Ring 6 ST Blue",
         price: "$1",
         descripcion: " Para innovar y experimentar cosas nuevas, este anillo generará una fabulosa sensación tanto para el que lo lleva colocado como para su pareja. Su potente sujeción en pene y testículos ayudan a retardar la eyaculación y a mantener la erección y en este caso encontrará una generosa lengua para estimula el clítoris En este caso además de sujetar el pene también abraza los testículos Gracias a su fuerte sujeción conseguirás mantener una erección mas fuerte y firme, evitando asi la dsifunción y prolongar el período de la relación sexual  Unidad vibradora extraíble para jugar independiente del anillo ---- 1 Nivel de vibración ----  Usa 3 LR44 ---- ",
         categoria: "anillos",
-        stock: "1",
+        stock: "10000",
         discount: 10, // Porcentaje de descuento
     },
     {
@@ -260,6 +260,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1986", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/bullet 9 varios.jpeg",
         image2: "img/vibradores/bullet 9 2.png",
         name: "Bullet 9",
@@ -280,6 +281,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1996", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/bullet 8 varios.jpeg",
         image2: "img/vibradores/bullet 8 2.webp",
         name: "Bullet 8",
@@ -320,6 +322,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2290", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/bullet silver pink.jpeg",
         image2: "img/vibradores/bullet silver pink.jpeg",
         name: "Bullet 5 Silver",
@@ -398,8 +401,9 @@ const Products = [
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },/*
+    },
     {
+        SKU: "2084", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/bullet remote black.jpeg",
         image2: "img/vibradores/BULLET REMOTE BLACK 2.png",
         name: "Bullet Remote Black",
@@ -408,7 +412,7 @@ const Products = [
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
         image: "img/vibradores/vicky 2.jpeg",
         image2: "img/vibradores/vicky 2.2.png",
@@ -491,6 +495,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2188", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/bullet 6.jpeg",
         image2: "img/vibradores/bullet 6 black.jpeg",
         name: "Bullet 6",
@@ -596,6 +601,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },*/
     {
+        SKU: "2221", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/bullet 1 pink.jpg",
         image2: "img/vibradores/bullet 1.2.webp",
         name: "Bullet 1",
@@ -606,6 +612,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2223", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/bullet 7.jpg",
         image2: "img/vibradores/bullet 7 .2.jpeg",
         name: "Bullet 7",
@@ -776,6 +783,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2443", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/diamont 3.jpg",
         image2: "img/vibradores/Diamond 3.2.webp",
         name: "Diamont 3",
@@ -798,16 +806,17 @@ const Products = [
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------DISFRACES
     //--------------------------------------------------------------------------------------------
-    /* {
+     {
+        SKU: "1813", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz Agente FBI Premium Talle L Sexyrol.jpg",
         image2: "img/disfraz/FBI 2.webp",
         name: "Disfraz Agente FBI",
         price: "$17,814.00",
         descripcion: "marca malena",
         categoria: "disfraces",
-        stock: "1",
+        stock: "0",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
         image2: "img/disfraz/Disfraz Diablita Sexy Mordisco Fantasía 2.jpeg",
         image: "img/disfraz/Disfraz Diablita Sexy Mordisco Fantasía 3.jpg",
@@ -849,6 +858,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1921", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Caperucita Roja Free Tax Line Pasionel PA-FT04.jpg",
         image2: "img/disfraz/Disfraz de Caperucita Roja Free Tax Line Pasionel PA-FT04.jpg",
         name: "Disfraz de Caperucita Roja ",
@@ -989,6 +999,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },*/
     {
+        SKU: "2137", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Conjunto Selección Argentina Free Tax Pasionel.jpg",
         image2: "img/disfraz/Conjunto Selección Argentina Free Tax Pasionel.jpg",
         name: "Conjunto Selección Argentina",
@@ -1453,7 +1464,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "2047", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Crema Intensif de Erecciones y Orgasmos Black 50ml.jpg",
         image2: "img/lubricantes/Crema Intensif de Erecciones y Orgasmos Black 50ml.jpg",
         name: "Crema Intensif de Erecciones y Orgasmos Black 50ml",
@@ -1462,8 +1474,9 @@ const Products = [
         categoria: "Lubricantes",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "2048", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/thewildboys-gelcrema-anal1.webp",
         image2: "img/lubricantes/thewildboys-gelcrema-anal1.webp",
         name: "Crema Anal The Wild Boys",
@@ -1949,6 +1962,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2011", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/dados eroticos de posiciones kamasutra generala.jpg",
         image2: "img/JUEGOS/dados eroticos de posiciones kamasutra generala.jpg",
         name: "Dados Erótico de Posiciones Kamasutra",
@@ -1989,6 +2003,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2015", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/les amants.jpg",
         image2: "img/JUEGOS/les amants.jpg",
         name: " Les Amants Juegos Eróticos",
@@ -2009,6 +2024,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2017", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/cartas y dados juego erotico sexplay.jpeg",
         image2: "img/JUEGOS/cartas y dados juego erotico sexplay.jpeg",
         name: "Cartas y Dados Juego Erótico",
@@ -2039,6 +2055,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2020", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/cartas-eroticas-kamasutra.jpg",
         image2: "img/JUEGOS/cartas-eroticas-kamasutra.jpg",
         name: "Cartas Eróticas Kamasutra",
@@ -2062,6 +2079,7 @@ const Products = [
     //---------------------------------------------------------ANAL
     //---------------------------------------------------------------------------------------------------------------------------
     {
+        SKU: "1711", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Dilatador 3 Large.jpg",
         image2: "img/anal/Dilatador 3 Large.jpg",
         name: "Dilatador 3 Largue ST",
@@ -2094,6 +2112,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1719", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Dilatador 3 Medium.jpg",
         image2: "img/anal/Dilatador 3 Medium.jpg",
         name: "Dilatador 3 Medium ST",
@@ -2653,6 +2672,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1776", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/collar esposas y tobillos con cadenas.webp",
         image2: "img/fetiche/collar esposas y tobillos con cadenas.webp",
         name: "Collar, Esposas Y Tobillos Con Cadenas",
@@ -2717,6 +2737,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1940", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/Collar con correa y mosqueton KS35801.png",
         image2: "img/fetiche/Collar con correa y mosqueton KS35801.png",
         name: "Collar Con Correa y Mosquetón Rojo BDSM Inf Placer",
@@ -2737,6 +2758,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1977", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/cepo inmovilizador de pies y manos bondage.jpg",
         image2: "img/fetiche/cepo inmovilizador de pies y manos bondage.jpg",
         name: "Cepo Inmovilizador de Pies y Manos Bondage",
@@ -2829,6 +2851,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2191", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/Cuerda 5m Red.jpg",
         image2: "img/fetiche/Cuerda 5m Red.jpg",
         name: "Cuerda Roja 5 metros Roja",
@@ -2849,6 +2872,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2194", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/Cuerda 10 metros Black.jpeg",
         image2: "img/fetiche/Cuerda 10 metros Black.jpeg",
         name: "Cuerda 10 metros Black",
@@ -2964,6 +2988,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1689", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/Dildos/Joe 5 Skin.jpg",
         image2: "img/Dildos/Joe 5 Skin.jpg",
         name: "Dildo Joe 5 16cm ST",
@@ -3004,6 +3029,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2138", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/Dildos/ciber vibe sean davi L 20x4.jpg",
         image2: "img/Dildos/ciber vibe sean davi L 20x4.jpg",
         name: "Ciber Vibe Sean David L",
@@ -3056,6 +3082,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2391", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/Dildos/Consolador Realistic Suck Sopapa Kevin Dean XXL.jpg",
         image2: "img/Dildos/Consolador Realistic Suck Sopapa Kevin Dean XXL.jpg",
         name: " Realistic Suck Kevin Dean XXL",
@@ -3066,6 +3093,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2392", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/Dildos/dildo clasico softee dong celeste 20 x 4cm.jpeg",
         image2: "img/Dildos/dildo clasico softee dong celeste 20 x 4cm.jpeg",
         name: "Dildo Clásico Softee Dong Celeste",
@@ -3295,7 +3323,7 @@ const Products = [
 
     },
     {
-        SKU: "",
+        SKU: "2237",
         stock: "1111",
         image: "img/masturbadores/dark grey masturbador de glande.jpeg",
         image2: "img/masturbadores/dark grey masturbador de glande.jpeg",
@@ -3435,6 +3463,63 @@ const Products = [
         discount: 10,
     }
 ];
+
+
+function mostrarEnConsola(data) {
+    console.log("Datos de la base de datos:");
+    console.table(data); // Mostrar datos en forma de tabla en la consola
+
+    // Recorremos los productos de la base de datos
+    data.forEach(function (productoBD) {
+        // Recorremos los productos del archivo JSON
+        Products.forEach(function (productoJSON) {
+            // Comparamos los IDs
+            if (productoBD.artId === productoJSON.ID) {
+                console.log("¡Ambos IDs coinciden!");
+                // Aquí puedes realizar acciones adicionales si los IDs coinciden
+            }
+        });
+    });
+}
+
+// Función para obtener los datos de la base de datos y actualizar Products
+function obtenerDatosYActualizarProductos() {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                var data = JSON.parse(xhr.responseText);
+                actualizarProductosConDatos(data);
+            } else {
+                console.error('Error al obtener datos de la base de datos');
+            }
+        }
+    };
+    xhr.open('GET', 'obtener_datos.php');
+    xhr.send();
+}
+
+// Función para actualizar los productos con los datos obtenidos de la base de datos
+function actualizarProductosConDatos(datosDeLaBaseDeDatos) {
+    Products.forEach(productoJSON => {
+        datosDeLaBaseDeDatos.forEach(productoBD => {
+            if (productoBD.artId === productoJSON.ID) {
+                productoJSON.stock = productoBD.artStock;
+
+                // Asigna el precio original de la base de datos al productoJSON.price si está presente
+                if (productoBD.artPrecio !== undefined && productoBD.artPrecio !== null) {
+                    productoJSON.price = parseFloat(productoBD.artPrecio); // Asegúrate de que sea un número
+                }
+            }
+        });
+    });
+}
+
+
+// Llamada inicial para obtener datos y actualizar los productos
+obtenerDatosYActualizarProductos();
+
+
 
 /* FUNCION SOLO PARA ACTUALIZAR PRODUCTOS, PRECIOS Y STOCK DESDE EXCEL
 // Tu array productos
@@ -3776,8 +3861,10 @@ function mostrarProductosPorCategoria(categoria) {
     }
 }
 
-// Función para obtener el HTML de la tarjeta del producto
+// FUNCION DESCUENTOS. ACCESORIOS.HTML
 function getProductCardHTML(producto) {
+    console.log("Precio del producto:", producto.price); // Agregar esta línea para depurar
+
     const hasDiscount = producto.discount && producto.discount > 0;
     let displayPrice = formatPrice(producto.price);
 
@@ -3789,17 +3876,15 @@ function getProductCardHTML(producto) {
         </div>
     `;
 
-    if (hasDiscount) {
+    if (producto.discount && producto.discount > 0) {
         const discountedPrice = producto.price * (1 - producto.discount / 100);
-        displayPrice = `
-            <span class="original-price smaller">${formatPrice(producto.price)}</span>
-            <span class="discounted-price bigger">${formatPrice(discountedPrice)}</span>
-        `;
-
         priceSection = `
             <div class="card-body">
                 <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
-                <p class="card-text">${displayPrice}</p>
+                <p class="card-text">
+                    <span class="original-price smaller">${formatPrice(producto.price)}</span>
+                    <span class="discounted-price bigger">${formatPrice(discountedPrice)}</span>
+                </p>
                 <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
             </div>
         `;
@@ -3808,7 +3893,7 @@ function getProductCardHTML(producto) {
     return `
         <div class="col">
             <div class="card h-100">
-                ${hasDiscount ? `<span class="discount-badge">-${producto.discount}%&nbsp;OFF</span>` : ''}
+                ${producto.discount && producto.discount > 0 ? `<span class="discount-badge">-${producto.discount}%&nbsp;OFF</span>` : ''}
                 <a href="descripcion.html?index=${Products.indexOf(producto)}&name=${encodeURIComponent(producto.name)}">
                     <img src="${producto.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
                         onmouseover="showImage(this, '${producto.image2}')"
@@ -3820,6 +3905,9 @@ function getProductCardHTML(producto) {
         </div>
     `;
 }
+
+
+
 
 
 

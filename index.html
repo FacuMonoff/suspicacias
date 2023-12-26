@@ -551,6 +551,28 @@
 
         </script>
 
+        <script>
+            // Hacer una solicitud AJAX a obtener_datos.php para obtener los datos
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        var data = JSON.parse(xhr.responseText); // Parsear la respuesta JSON
+                        mostrarEnConsola(data); // Llamar a la función para mostrar en la consola
+                    } else {
+                        console.error('Error al obtener datos');
+                    }
+                }
+            };
+            xhr.open('GET', 'obtener_datos.php'); // Ruta a tu archivo obtener_datos.php
+            xhr.send();
+
+            function mostrarEnConsola(data) {
+                console.log("Datos de la base de datos:");
+                console.table(data); // Mostrar datos en forma de tabla en la consola
+            }
+        </script>
+
 
         <footer class=" footer">
             <div class="row">
