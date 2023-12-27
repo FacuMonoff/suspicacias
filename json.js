@@ -171,6 +171,7 @@ const Products = [
     //-------------------------------------------VIBRADORES
     //--------------------------------------------------------------------------------------------
     {
+        SKU: "2094", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/male 2.png",
         image2: "img/male 2.1.png",
         name: "MALE 2",
@@ -180,6 +181,7 @@ const Products = [
         stock: "0"
     },
     {
+        SKU: "2213", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/katy 4.png",
         image2: "img/katy 4.1.png",
         name: "KATY 4",
@@ -195,16 +197,6 @@ const Products = [
         name: "MIKY 4",
         price: "$15,302",
         descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
-        categoria: "vibradores",
-        stock: "1",
-        discount: 10, // Porcentaje de descuento
-    },
-    {
-        image: "img/vibradores/Hi-Rubber Piel.jpg",
-        image2: "img/vibradores/hi rubber 2.jpeg",
-        name: "hi rubber",
-        price: "$1",
-        descripcion: "Fantástico vibrador multi función para pasar tus noches a solas o en compañía de la forma mas placentera posible.",
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
@@ -271,6 +263,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1993", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/finger due.webp",
         image2: "img/vibradores/finger due black 2.jpeg",
         name: "Finger Due ST",
@@ -292,6 +285,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2032", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/doreen gold bala vibradora inalambrica.jpg",
         image2: "img/vibradores/PRETTY LOVE royal pleasure 2.jpg",
         name: "Royal Pleasure",
@@ -312,6 +306,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2054", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/doble plus remote partner vibrador satisfyer 1.jpg",
         image2: "img/vibradores/Satisfyer Double Plus vibrador 2.webp",
         name: "Double Plus Remote",
@@ -331,7 +326,7 @@ const Products = [
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },/*
+    },
     {
         image: "img/vibradores/nini 1.jpeg",
         image2: "img/vibradores/nini 1 2.jpg",
@@ -343,6 +338,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2074", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/finger 1 purple.webp",
         image2: "img/vibradores/FINGER 1 PURPLE 2.jpg",
         name: "Finger 1 Purple",
@@ -353,6 +349,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2075", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/finger 2 blue.jpeg",
         image2: "img/vibradores/FINGER 2 blue.2.png",
         name: "Finger 2 Blue",
@@ -361,8 +358,9 @@ const Products = [
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "2076", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/finger 3.jpg",
         image2: "img/vibradores/FINGER 3 vibrador.2.jpg",
         name: "Finger 3",
@@ -373,6 +371,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2180", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/finger 4 fucsia.webp",
         image2: "img/vibradores/FINGER 4 vibrador mariposa 2.png",
         name: "Finger 4",
@@ -383,6 +382,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2079", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/lula.webp",
         image2: "img/vibradores/lula vibrador 2.jpeg",
         name: "Lula",
@@ -442,8 +442,9 @@ const Products = [
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },/*
+    },
     {
+        SKU: "2093", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/fiorella 1.jpg",
         image2: "img/vibradores/fiorella 1.2.jpeg",
         name: "Fiorella 1",
@@ -452,8 +453,7 @@ const Products = [
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
-
+    },
     {
         image: "img/luxe rabbit 1.1.png",
         image2: "img/luxe rabbit 1.1.png",
@@ -475,6 +475,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2434", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/finger 5 fucsia.webp",
         image2: "img/vibradores/finger 5.2.jpeg",
         name: "Finger 5",
@@ -504,8 +505,9 @@ const Products = [
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },/*
+    },
     {
+        SKU: "2198", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/fiorella 2.webp",
         image2: "img/vibradores/fiorella 2.2.jpeg",
         name: "Fiorella 2",
@@ -514,7 +516,7 @@ const Products = [
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
         image: "img/vibradores/miky 2.jpeg",
         image2: "img/vibradores/miky 2.jpeg",
@@ -547,9 +549,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-
-    /*
     {
+        SKU: "2207", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/gems 4 purple.jpeg",
         image2: "img/vibradores/gems 4 purple.jpeg",
         name: "Gems 4 Purple",
@@ -558,9 +559,9 @@ const Products = [
         categoria: "vibradores",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
-
+    },
     {
+        SKU: "2176", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/succionadores/luxury strap on 3.jpeg",
         image2: "img/succionadores/luxury strap on 3.jpeg",
         name: "Luxury Strap On 3 ",
@@ -683,6 +684,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2257", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/maxx play vibrador rabbit.webp",
         image2: "img/vibradores/MAXX PLAY VIBRADOR RABBIT.2.jpg",
         name: "Vibrador Rabbit",
@@ -693,6 +695,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2258", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/katy 1.jpeg",
         image2: "img/vibradores/katy 1.2.jpg",
         name: "Katy 1",
@@ -723,6 +726,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2262", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/laura.jpeg",
         image2: "img/vibradores/laura.2.jpeg",
         name: "Laura",
@@ -743,6 +747,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1695", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/martina ST.jpeg",
         image2: "img/vibradores/martina.2.jpg",
         name: "Martina",
@@ -753,6 +758,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2435", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/majo 3 vibrador.jpeg",
         image2: "img/vibradores/majo 3.2.png",
         name: "Majo 3",
@@ -763,6 +769,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2436", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/vibradores/majo 2.jpg",
         image2: "img/vibradores/majo 2.2.jpg",
         name: "Majo 2",
@@ -818,6 +825,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1823", //el SKU no se tiene que modificar una vez ya colocado el numero
         image2: "img/disfraz/Disfraz Diablita Sexy Mordisco Fantasía 2.jpeg",
         image: "img/disfraz/Disfraz Diablita Sexy Mordisco Fantasía 3.jpg",
         name: "Disfraz Diablita",
@@ -827,7 +835,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "1824", //el SKU no se tiene que modificar una vez ya colocado el numero
         image2: "img/disfraz/disfraz secretaria sexy mordisco fantasia.webp",
         image: "img/disfraz/disfraz secretaria sexy mordisco fantasia 2.jpg",
         name: "Disfraz Secretaria Sexy",
@@ -836,8 +845,9 @@ const Products = [
         categoria: "disfraces",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "1825", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz Enfermera Sexy Mordisco Fantasía.jpg",
         image2: "img/disfraz/Disfraz Enfermera Body Sexy Mordisco Fantasía 2.webp",
         name: "Disfraz Enfermera",
@@ -848,6 +858,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1918", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Diablita Sexy - xl - Queen Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Diablita Sexy Queen Line de Pasionel 2.jpg",
         name: "Disfraz de Diablita Sexy",
@@ -858,7 +869,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
-        SKU: "1921", //el SKU no se tiene que modificar una vez ya colocado el numero
+        SKU: "1919", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Caperucita Roja Free Tax Line Pasionel PA-FT04.jpg",
         image2: "img/disfraz/Disfraz de Caperucita Roja Free Tax Line Pasionel PA-FT04.jpg",
         name: "Disfraz de Caperucita Roja ",
@@ -869,6 +880,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1920", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/secretaria pasionel.jpg",
         image2: "img/disfraz/secretaria pasionel 2.png",
         name: "Disfraz de Secretaria",
@@ -879,6 +891,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1923", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/disfraz de mujer maravilla free tax line pasionel.jpg",
         image2: "img/disfraz/disfraz de mujer maravilla free tax line pasionel 2.jpg",
         name: "Disfraz de Mujer Maravilla",
@@ -889,6 +902,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1924", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de bebota sexy premium Pasionel PA-P045.jpg",
         image2: "img/disfraz/Disfraz de bebota sexy premium Pasionel 2.jpeg",
         name: "Disfraz de Bebota Sexy",
@@ -898,7 +912,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "1925", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Minnie Mouse Free Tax Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Minnie Mouse Free Tax Line de Pasionel 2",
         name: "Disfraz de Minnie Mouse",
@@ -907,8 +922,9 @@ const Products = [
         categoria: "disfraces",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
-    /*{
+    },
+    {
+        SKU: "1927", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz Mucamita Erótica de Malena ML-005.jpg",
         image2: "img/disfraz/Disfraz Mucamita Erótica de Malena 2.jpg",
         name: "Disfraz Mucamita Erótica",
@@ -917,8 +933,9 @@ const Products = [
         categoria: "disfraces",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "1928", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Secretaria Sexy Candy Lips CL504.jpg",
         image2: "img/disfraz/Disfraz de Secretaria Sexy Candy Lips 2.jpg",
         name: "Disfraz de Secretaria Sexy",
@@ -928,7 +945,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "1930", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Enfermera Sexy Disfraz Candy Lips.jpg",
         image2: "img/disfraz/Enfermera Sexy Disfraz Candy Lips 2.webp",
         name: "Enfermera Sexy Disfraz",
@@ -937,8 +955,9 @@ const Products = [
         categoria: "disfraces",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "1931", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Mucamita Candy Lips.jpg",
         image2: "img/disfraz/Disfraz de Mucamita Candy Lips 2.jpg",
         name: "Disfraz de Mucamita",
@@ -949,6 +968,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1932", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz De Colegiala Erótica Queen Line de Pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE COLEGIALA ERÓTICA QUEEN LINE PASIONEL 2.jpg",
         name: "Disfraz De Colegiala Erótica",
@@ -958,7 +978,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "1933", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/disfraz de novia erotica free tax line pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE NOVIA EROTICA FREE TAX LINE DE PASIONEL 2.jpg",
         name: "Disfraz de Novia Erotica ",
@@ -967,8 +988,9 @@ const Products = [
         categoria: "disfraces",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "1934", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Bebota Free Tax Line de Pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE BEBOTA FREE TAX LINE PASIONEL 2.png",
         name: "Disfraz De Bebota",
@@ -979,6 +1001,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1932", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Enfermera Free Tax Line de Pasionel.webp",
         image2: "img/disfraz/Disfraz de Enfermera Free Tax Line de Pasionel 2.jfif",
         name: "Disfraz de Enfermera",
@@ -988,7 +1011,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "1937", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Monja Sexy Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Monja Sexy Pasionel 2.webp",
         name: "Disfraz de Monja Sexy",
@@ -997,7 +1021,7 @@ const Products = [
         categoria: "disfraces",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
         SKU: "2137", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Conjunto Selección Argentina Free Tax Pasionel.jpg",
@@ -1010,6 +1034,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2140", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Conejita Playboy Queen Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Conejita Playboy Queen Line de Pasionel 2.jpg",
         name: "Disfraz de Conejita Playboy",
@@ -1020,6 +1045,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2142", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz De Harley Queen Free tax Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz De Harley Queen Free tax Line de Pasionel 2.webp",
         name: "Disfraz De Harley Queen",
@@ -1030,6 +1056,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2143", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Mamá Noel Queen Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz de Mamá Noel Queen Line de Pasionel.jpg",
         name: "Disfraz de Mamá Noel",
@@ -1039,7 +1066,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "2144", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz De Ninja Sexy Free tax Line de Pasionel.jpg",
         image2: "img/disfraz/Disfraz De Ninja Sexy Free tax Line de Pasionel 2.jpg",
         name: "Disfraz De Ninja Sexy",
@@ -1048,8 +1076,9 @@ const Products = [
         categoria: "disfraces",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "2147", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/DISFRAZ PORRISTA SELECCIÓN ARGENTINA MALENA.jpg",
         image2: "img/disfraz/DISFRAZ PORRISTA SELECCIÓN ARGENTINA MALENA 2.jpg",
         name: "Disfraz Porrista Argentina ",
@@ -1070,6 +1099,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2340", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz de Diablita Sexy Malena.jpg",
         image2: "img/disfraz/Disfraz de Diablita Sexy Malena 2.jpg",
         name: "Disfraz de Diablita Sexy",
@@ -1080,6 +1110,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2341", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/DISFRAZ DE GATITA SEXY DE MALENA",
         image2: "img/disfraz/DISFRAZ DE GATITA SEXY DE MALENA 2.jpg",
         name: "Disfraz de Gatita Sexy",
@@ -1090,6 +1121,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2342", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/DISFRAZ DE MARINERA SEXY FREE TAX LINE DE PASIONEL.jpg",
         image2: "img/disfraz/DISFRAZ DE MARINERA SEXY FREE TAX LINE DE PASIONEL 2.jpg",
         name: "Disfraz De Marinera Sexy",
@@ -1100,6 +1132,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2344", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/disfraz fantasia presa pasionel.jpg",
         image2: "img/disfraz/disfraz fantasia presa pasionel 2.webp",
         name: "Disfraz de Presa Erótica",
@@ -1110,6 +1143,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2345", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/DISFRAZ DE VIUDA ALEGRE SEXY DE MALENA",
         image2: "img/disfraz/DISFRAZ DE VIUDA ALEGRE SEXY DE MALENA 2.jpg",
         name: "Disfraz de Viuda Alegre Sexy",
@@ -1123,6 +1157,7 @@ const Products = [
     //-------------------------------------------FUNDAS
     //--------------------------------------------------------------------------------------------
     {
+        SKU: "1963", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fundas/X-Tender 1.jpg",
         image2: "img/fundas/X-Tender 1.2.jpg",
         name: "Funda X-Tender 1",
@@ -1133,6 +1168,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1704", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fundas/X-Tender 2.jpg",
         image2: "img/fundas/funda X-Tender 2.2.jpg",
         name: "Funda X-Tender 2",
@@ -1143,6 +1179,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1684", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fundas/X-Tender 4.jpg",
         image2: "img/fundas/funda X-Tender 4.2.jpg",
         name: "Funda X-Tender 4",
@@ -1279,9 +1316,10 @@ const Products = [
     //----------------------------------------------------------------LUBRICANTES
     //---------------------------------------------------------------------------------------------------------------------------
     {
+        SKU: "1650", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/warming 2.png",
         image2: "img/lubricantes/Gel íntimo Warming 120cc Mejor.webp",
-        name: "Gel íntino WARMING ",
+        name: "Gel íntino WARMING 120cc",
         price: "$5,209.80",
         descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco. ----- Cantidad: 120cc.",
         categoria: "Lubricantes",
@@ -1289,9 +1327,10 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1651", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Gel íntimo MARACUYÁ 120cc.webp",
         image2: "img/lubricantes/maracuya 2.webp",
-        name: "Gel íntimo MARACUYÁ",
+        name: "Gel íntimo MARACUYÁ 120cc",
         price: "$5,209.80",
         descripcion: "Gel lubricante estimulante saborizado compuesto a base de agua, diseñado con delicioso sabor y aroma a maracuyá. Ideal para sumar los sentidos del olfato y el gusto en el juego sexual.Ideal también para usar en el sexo oral. Su poder estimulante es gracias a la arginina, un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, estiren y respondan al estímulo con capacidad vasodilatadora, aumentando la irrigación sanguínea en la zona utilizada. Especialmente formulado para un mayor disfrute de las sensaciones durante la relación sexual, aumentando la excitación y especialmente la sensibilidad del clítoris, facilitando los orgasmos y haciéndolos más intensos. Compatible con preservativos y sex toys. -----  120cc de contenido.",
         categoria: "Lubricantes",
@@ -1299,9 +1338,10 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1652", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/extra time 2.2.webp",
         image2: "img/lubricantes/extra time 2.webp",
-        name: "Gel íntimo EXTRA TIME",
+        name: "Gel íntimo EXTRA TIME 120cc",
         price: "$5,209.80",
         descripcion: "Gel lubricante retardante 120cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera. ----- 120cc de contenido.",
         categoria: "Lubricantes",
@@ -1309,9 +1349,10 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1653", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel intimo men 60cc.webp",
         image2: "img/lubricantes/gel intimo men 60cc 2.png",
-        name: "Gel íntimo MEN",
+        name: "Gel íntimo MEN 120cc",
         price: "$5,209.80",
         descripcion: " Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. ----- Cantidad: 120cc. ",
         categoria: "Lubricantes",
@@ -1319,19 +1360,21 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1654", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/but 2.2.png",
         image2: "img/lubricantes/but 2.webp ",
-        name: "Gel íntimo BUTT",
+        name: "Gel íntimo BUTT 120cc",
         price: "$5,209.80",
-        descripcion: "Gel Lubricante Intimo Butt Gel lubricante íntimo anal  Base acuosa. Compatible con preservativos y sextoys ----- Cantidad: 125cc",
+        descripcion: "Gel Lubricante Intimo Butt Gel lubricante íntimo anal  Base acuosa. Compatible con preservativos y sextoys ----- Cantidad: 120cc",
         categoria: "Lubricantes",
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1655", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/frutilla 2.png",
         image2: "img/lubricantes/frutilla 2.2.webp",
-        name: "Gel íntimo Frutilla",
+        name: "Gel íntimo Frutilla 60cc",
         price: "$3,818.91",
         descripcion: "Lubricante de base acuosa sabor frutilla con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
@@ -1339,9 +1382,10 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1656", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/frutilla 120 2.webp",
         image2: "img/lubricantes/Gel frutilla 120cc.jpg",
-        name: "Gel íntmo ON FRUTILLA",
+        name: "Gel íntmo ON FRUTILLA 120cc",
         price: "$5,209.80",
         descripcion: "Lubricante de base acuosa sabor frutilla con arginina 120cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys. ----- Cantidad: 120cc",
         categoria: "Lubricantes",
@@ -1349,9 +1393,10 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1657", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel intimo men 60cc 2.png",
         image2: "img/lubricantes/gel intimo men 60cc.webp",
-        name: "Gel íntmo MEN",
+        name: "Gel íntmo MEN 60cc",
         price: "$3,818.91",
         descripcion: "Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
@@ -1359,29 +1404,32 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1658", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/maracuya 60cc.webp",
         image2: "img/lubricantes/maracuya 60cc 2.jpg",
-        name: "Gel íntimo MARACUYÁ",
+        name: "Gel íntimo MARACUYÁ 60cc",
         price: "$3,818.91",
         descripcion: "Lubricante de base acuosa sabor maracuya con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "1659", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Gel íntimo ICE 60cc.jpg",
         image2: "img/lubricantes/Gel íntimo ICE 60cc.jpg",
-        name: "Gel íntimo ICE",
+        name: "Gel íntimo ICE 60cc",
         price: "$3,818.91",
         descripcion: "",
         categoria: "Lubricantes",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "1660", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/nuetro 60cc 2.png",
         image2: "img/lubricantes/NEUTRO 60CC.webp",
-        name: "Gel íntimo NEUTRO",
+        name: "Gel íntimo NEUTRO 60cc",
         price: "$3,818.91",
         descripcion: "Creado exclusivamente con extractos naturales, propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. - Evita la lesion dermica por friccion. - Disminuye la probabilidad de dolor. - Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
@@ -1389,9 +1437,10 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1661", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/woman 60cc.webp",
         image2: "img/lubricantes/woman 60cc 2.webp",
-        name: "Gel íntimo WOMAN",
+        name: "Gel íntimo WOMAN 60cc",
         price: "$3,818.91",
         descripcion: "Si las experiencias sexuales con penetración te están resultando algo molestas, es más que probable que tengas un problema de lubricación. Productos como Woman  proporcionan una lubricación íntima muy natural para que puedas seguir disfrutando del sexo de un modo mucho más seguro y placentero. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
@@ -1399,6 +1448,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1662", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/chocolate 60cc .png",
         image2: "img/lubricantes/chocolate 60cc 2.webp",
         name: "Gel íntimo CHOCOLATE",
@@ -1409,6 +1459,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1663", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/extra time 60cc 2.webp",
         image2: "img/lubricantes/extra time 60cc.webp",
         name: "Gel íntimo EXTRA TIME",
@@ -1419,9 +1470,10 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1664", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/warming 2.png",
         image2: "img/lubricantes/Gel íntimo Warming 120cc Mejor.webp",
-        name: "Gel íntimo WARMING",
+        name: "Gel íntimo WARMING 60cc",
         price: "$3,818.91",
         descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
@@ -1476,6 +1528,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        //SKU: "2011", TAMBIEN PUEDE SER ESTE SKU, HAY DOBLE
         SKU: "2048", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/thewildboys-gelcrema-anal1.webp",
         image2: "img/lubricantes/thewildboys-gelcrema-anal1.webp",
@@ -1487,6 +1540,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2051", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Gel crema Tonificante The Wild Boys.png",
         image2: "img/lubricantes/Gel crema Tonificante The Wild Boys.png",
         name: "Crema Tonificante The Wild Boys",
@@ -1497,6 +1551,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2052", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml.jfif",
         image2: "img/lubricantes/Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml.jfif",
         name: "Gel lubricante Vegano ",
@@ -1529,6 +1584,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2150", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel intimo efecto frio miss v.jpg",
         image2: "img/lubricantes/gel intimo efecto frio miss v.jpg",
         name: "Gel Efecto Frío Miss V",
@@ -1539,6 +1595,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2151", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel lubricante anal lube premium.webp",
         image2: "img/lubricantes/gel lubricante anal lube premium.webp",
         name: "Gel Anal Premium Relajante",
@@ -1548,7 +1605,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "2153", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel lubricante intimo anal fly night.jpg",
         image2: "img/lubricantes/gel lubricante intimo anal fly night.jpg",
         name: "Gel Lubricante Íntimo Anal Fly Night",
@@ -1557,8 +1615,9 @@ const Products = [
         categoria: "Lubricantes",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "2157", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/lubricante siliconado anal afrodisia.jpeg",
         image2: "img/lubricantes/lubricante siliconado anal afrodisia.jpeg",
         name: "Lubricante Siliconado Anal Afrodisia",
@@ -1613,6 +1672,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },*/
     {
+        SKU: "2251", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel maxx lado b 30 grs.webp",
         image2: "img/lubricantes/gel maxx lado b 30 grs.webp",
         name: "Gel Maxx Lado B",
@@ -1623,9 +1683,10 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2279", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Gel Íntmo Chocolate 120cc ST.webp",
         image2: "img/lubricantes/Gel Íntmo Chocolate 120cc ST.webp",
-        name: "Gel Íntmo Chocolate",
+        name: "Gel Íntmo Chocolate 120cc",
         price: "$5,209.80",
         descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys. ----- Cont.neto: 120cc",
         categoria: "Lubricantes",
@@ -1663,6 +1724,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2354", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel-intimo-mine-my-pleasure-50ml.png",
         image2: "img/lubricantes/gel-intimo-mine-my-pleasure-50ml.png",
         name: "Mine My Plearure ",
@@ -1672,7 +1734,8 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "2355", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/lubricante lube more play intensity hot pleasure.jpg",
         image2: "img/lubricantes/lubricante lube more play intensity hot pleasure.jpg",
         name: "Gel Lubricante Lube Efecto Calor Pleasure 130ml",
@@ -1681,8 +1744,9 @@ const Products = [
         categoria: "Lubricantes",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     {
+        SKU: "2356", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/lubricante lube more play supreme retardante.jpg",
         image2: "img/lubricantes/lubricante lube more play supreme retardante.jpg",
         name: "Lube Supreme Retardante ",
@@ -1703,6 +1767,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },*/
     {
+        SKU: "2396", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel estimulador femenino miss v L-arginina 50ml.png",
         image2: "img/lubricantes/gel estimulador femenino miss v L-arginina 50ml.png",
         name: " Miss V L-Arginina.",
@@ -1713,6 +1778,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2398", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel lubricante intimo anal sedanal miss v 50ml.webp",
         image2: "img/lubricantes/gel lubricante intimo anal sedanal miss v 50ml.webp",
         name: "Sedanal Miss V",
@@ -1746,6 +1812,7 @@ const Products = [
     //----------------------------------------------------------------LIMPIADORES DE JUGUETES
     //---------------------------------------------------------------------------------------------------------------------------
     {
+        SKU: "1778", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Toy Cleaner Limpiador de juguetes Premium sexitive 120ml.jpg",
         image2: "img/lubricantes/Toy Cleaner Limpiador de juguetes Premium sexitive 120ml.jpg",
         name: " Premiun Sexitive 120cc",
@@ -1756,6 +1823,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1779", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
         image2: "img/lubricantes/Limpiador de Juguetes Fly Night 100cc.jpg",
         name: "Fly Night 100cc",
@@ -1765,20 +1833,22 @@ const Products = [
         stock: "1",
         discount: 10, // Porcentaje de descuento
     },
-    /*{
+    {
+        SKU: "1780", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
         image2: "img/lubricantes/Limpiador de juguetes Fly Night 90ml.jpg",
-        name: " Fly Night 90cc",
+        name: "limpiador de juguetes Fly Night 90cc",
         price: "$1,531.00",
         descripcion: "",
         categoria: "Limpiadores-de-juguetes",
         stock: "1",
         discount: 10, // Porcentaje de descuento
-    },*/
+    },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------BOLAS KEGEL
     //---------------------------------------------------------------------------------------------------------------------------
     {
+        SKU: "1670", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/KEGEL/kegel ball 4 pink.jpg",
         image2: "img/KEGEL/kegel ball 4 pink.jpg",
         name: "Kegel Ball 4 Pink",
@@ -1799,6 +1869,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1698", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/KEGEL/Kegel Ball Pink.jpg",
         image2: "img/KEGEL/Kegel Ball Pink.jpg",
         name: "Kegel Ball Pink",
@@ -1809,6 +1880,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1710", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/KEGEL/kegel ball 1 fucsia.png",
         image2: "img/KEGEL/kegel ball 1 fucsia.png",
         name: "Kegel Ball 1 Fucsia",
@@ -1829,6 +1901,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1961", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/KEGEL/kegel ball 2 fucsia.jpeg",
         image2: "img/KEGEL/kegel ball 2 fucsia.jpeg",
         name: "Kegel Ball 2 Fucsia",
@@ -1852,6 +1925,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1999", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/lucky lovers, your pleasure.webp",
         image2: "img/JUEGOS/lucky lovers, your pleasure.webp",
         name: "Lucky Lovers, Your Pleasure",
@@ -1872,6 +1946,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2002", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/lucky raspa-juga-sexitive.jpg",
         image2: "img/JUEGOS/lucky raspa-juga-sexitive.jpg",
         name: "Lucky lovers, Your Connection",
@@ -1882,6 +1957,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2003", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/kamasutra-50-posic.jpg",
         image2: "img/JUEGOS/kamasutra-50-posic.jpg",
         name: "Kamasutra - 50 posiciones sexuales",
@@ -1902,6 +1978,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2005", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/kinky-game-50-actividades.jpg",
         image2: "img/JUEGOS/kinky-game-50-actividades.jpg",
         name: "Kinky Game 50 Actividades Fetiches",
@@ -1922,6 +1999,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2007", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/fantasy-pleasure.jpg",
         image2: "img/JUEGOS/fantasy-pleasure.jpg",
         name: "Fantasy Pleasure Game Fantasías",
@@ -1932,6 +2010,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2008", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/lets-fuck.jpg",
         image2: "img/JUEGOS/lets-fuck.jpg",
         name: "Let’s Fuck Juego de cartas + dados",
@@ -1942,6 +2021,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2009", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/extreme-games-6-juegos-en-1.jpg",
         image2: "img/JUEGOS/extreme-games-6-juegos-en-1.jpg",
         name: "Extreme Games 6 juegos en 1",
@@ -1973,6 +2053,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2012", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/juego de carta verdad o desafio retos atrevido sexitive.jpeg",
         image2: "img/JUEGOS/juego de carta verdad o desafio retos atrevido sexitive.jpeg",
         name: "Verdad Desafío: Retos Atrevidos",
@@ -1983,6 +2064,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2013", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/juegos de cartas ladies night.jpg",
         image2: "img/JUEGOS/juegos de cartas ladies night.jpg",
         name: "Ladies Night: For the girls",
@@ -1993,6 +2075,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2014", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/juego-challenge-30-days.jpg",
         image2: "img/JUEGOS/juego-challenge-30-days.jpg",
         name: " Challenge 30 days",
@@ -2035,6 +2118,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2018", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/dados secret game.jpg",
         image2: "img/JUEGOS/dados secret game.jpg",
         name: "Juego de Dados - Secret Game",
@@ -2045,6 +2129,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2019", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/juegos de dado - love play.jpeg",
         image2: "img/JUEGOS/juegos de dado - love play.jpeg",
         name: "Juego de Dados - Love Play",
@@ -2066,6 +2151,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2059", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/JUEGOS/juego de mesa erotico permitido sex parejas.jpg",
         image2: "img/JUEGOS/juego de mesa erotico permitido sex parejas.jpg",
         name: "Juego de Mesa Erótico Permitido",
@@ -2102,6 +2188,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1717", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Leo.jpg",
         image2: "img/anal/Leo.jpg",
         name: "Leo - Cola de Ratón ST",
@@ -2164,6 +2251,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1753", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Platinum Waterproof Micro Inexpulsable M Negro.jpg",
         image2: "img/anal/Platinum Waterproof Micro Inexpulsable M Negro.jpg",
         name: "Inexvibe Real Skin",
@@ -2238,6 +2326,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1774", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Gancho Anal de metal.jpg",
         image2: "img/anal/Gancho Anal de metal.jpg",
         name: "Gancho Anal De Metal",
@@ -2270,6 +2359,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2063", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Jimy 1 Blue.jpg",
         image2: "img/anal/Jimy 1 Blue.jpg",
         name: "Jimy 1",
@@ -2280,6 +2370,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2064", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Jimy 2 Blue.jpg",
         image2: "img/anal/Jimy 2 Blue.jpg",
         name: "Jimy 2",
@@ -2290,6 +2381,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2065", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Jimy 3 Blue.jpg",
         image2: "img/anal/Jimy 3 Blue.jpg",
         name: "Jimy 3",
@@ -2300,6 +2392,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2066", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Jimy 4 Blue.jpg",
         image2: "img/anal/Jimy 4 Blue.jpg",
         name: "Jimy 4",
@@ -2340,6 +2433,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2095", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Hugo inexpulsable Blu.jpg",
         image2: "img/anal/Hugo inexpulsable Blu.jpg",
         name: "Hugo Inexpulsable ST",
@@ -2394,6 +2488,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2197", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Glass 1 Clear.jpg",
         image2: "img/anal/Glass 1 Clear.jpg",
         name: "Glass 1",
@@ -2404,6 +2499,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2255", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/maxx play plug baxx.webp",
         image2: "img/anal/maxx play plug baxx.webp",
         name: "Maxx Play Plug BAXX",
@@ -2566,6 +2662,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2441", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Kit Plug Fucsia.jfif",
         image2: "img/anal/Kit Plug Fucsia.jfif",
         name: "Kit Plug Fucsia",
@@ -2579,6 +2676,7 @@ const Products = [
     //---------------------------------------------------------DUCHA ANAL
     //---------------------------------------------------------------------------------------------------------------------------
     {
+        SKU: "1723", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Ducha Anal 2 - 310ml ST.jpg",
         image2: "img/anal/Ducha Anal 2 - 310ml ST.jpg",
         name: "Ducha Anal 2 - 310ml ST",
@@ -2589,6 +2687,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1724", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
         image2: "img/anal/Easy Clean Enema 2 - 89ml ST.jpg",
         name: "Easy Clean Enema 2",
@@ -2599,6 +2698,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2148", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anal/ducha anal pequeña 89ml.jpg",
         image2: "img/anal/ducha anal pequeña 89ml.jpg",
         name: "Ducha Anal Pequeña 89ml ",
@@ -2612,6 +2712,7 @@ const Products = [
     //---------------------------------------------------------FETICHE
     //---------------------------------------------------------------------------------------------------------------------------
     {
+        SKU: "1676", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/FUSTA ROJA.jpeg",
         image2: "img/fetiche/Fusta Roja.webp",
         name: "Fusta Red ST",
@@ -2652,6 +2753,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1739", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/Fusta con tachas.jpeg",
         image2: "img/fetiche/Fusta con tachas.jpeg",
         name: "Fusta con tacha ST",
@@ -2693,6 +2795,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2394", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/Esposas Y Tobilleras Con Correa De Cuero 2.jpeg",
         image2: "img/fetiche/Esposas Y Tobilleras Con Correa De Cuero 2.jpeg",
         name: "Esposas Y Tobilleras Con Correa De Cuero",
@@ -2781,6 +2884,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1990", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/luxury passion chantilly kit.jpg",
         image2: "img/fetiche/luxury passion chantilly kit.jpg",
         name: "Luxury Passion Chantilly Kit ST",
@@ -2862,6 +2966,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2193", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/Handcuff Red.png",
         image2: "img/fetiche/Handcuff Red.png",
         name: "Handcuff Red",
@@ -2883,6 +2988,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2277", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/Esposas Alcatraz Metalicas Reales Inf Placer.jpg",
         image2: "img/fetiche/Esposas Alcatraz Metalicas Reales Inf Placer.jpg",
         name: "Esposas Alcatraz Metalicas Reales",
@@ -2945,6 +3051,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2448", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/esposas inmovilizador de metal rojo.webp",
         image2: "img/fetiche/esposas inmovilizador de metal rojo.webp",
         name: "Inmovilizador Rojo",
@@ -2999,6 +3106,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "1765", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/Dildos/Jumbo Pie Grande XL Negro 37 cm x 8 cm.jpg",
         image2: "img/Dildos/Jumbo Pie Grande XL Negro 37 cm x 8 cm.jpg",
         name: "Jumbo Pié Grande XL",
@@ -3267,6 +3375,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },*/
     {
+        SKU: "2253", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/preservativo/maxx super fino x3 unidades.jpg",
         image2: "img/preservativo/maxx super fino x3 unidades.jpg",
         name: "Maxx Super Fino x 3 unidades",
@@ -3310,7 +3419,7 @@ const Products = [
     //-------------------------------------------MASTURBADORES
     //--------------------------------------------------------------------------------------------
     {
-        SKU: "", //el SKU no se tiene que modificar una vez ya colocado el numero
+        SKU: "2035", //el SKU no se tiene que modificar una vez ya colocado el numero
         stock: "1111",
         image: "img/masturbadores/masturbador vagina skin.jpg",
         image2: "img/masturbadores/masturbador vagina skin.jpg",
@@ -3431,6 +3540,7 @@ const Products = [
         discount: 10, // Porcentaje de descuento
     },
     {
+        SKU: "2256", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/succionadores/maxx play suxx.webp",
         image2: "img/succionadores/maxx play suxx.webp",
         name: "Maxx Play SUXX",
