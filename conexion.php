@@ -8,8 +8,7 @@ class Conexion
     public function getConection()
     {
         try {
-            // Utilizar la persistencia de conexión añadiendo 'PDO::ATTR_PERSISTENT => true'
-            $this->conector = new PDO("sqlsrv:server=" . SERVIDOR . ";database=" . DATABASE, USUARIO, PASSWORD, array(PDO::ATTR_PERSISTENT => true));
+            $this->conector = new PDO("sqlsrv:server=" . SERVIDOR . ";database=" . DATABASE, USUARIO, PASSWORD);
             $this->conector->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return $this->conector;
         } catch (PDOException $e) {
