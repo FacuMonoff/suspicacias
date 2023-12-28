@@ -3,25 +3,25 @@ require 'setting.php';
 
 class Conexion
 {
-    private static $conexion = null;
+    private $conector = null;
 
-    public static function getConection()
+    public function getConection()
     {
-        if (self::$conexion === null) {
-            try {
-                self::$conexion = new PDO("sqlsrv:server=" . SERVIDOR . ";database=" . DATABASE, USUARIO, PASSWORD);
-                self::$conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            } catch (PDOException $e) {
-                echo "Error de conexión: " . $e->getMessage();
-            }
+        try {
+            // Utilizar la persistencia de conexión añadiendo 'PDO::ATTR_PERSISTENT => true'
+            $this->conector = new PDO("sqlsrv:server=" . SERVIDOR . ";database=" . DATABASE, USUARIO, PASSWORD, array(PDO::ATTR_PERSISTENT => true));
+            $this->conector->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            return $this->conector;
+        } catch (PDOException $e) {
+            echo "Error de conexión: " . $e->getMessage();
+            return null;
         }
-        return self::$conexion;
     }
 
     public function getArticulos()
     {
         try {
-            $conexion = self::getConection();
+            $conexion = $this->getConection();
             if ($conexion !== null) {
                 $query = $conexion->prepare("SELECT [artId], [artDescripcion], [artPrecio], [artPrecioDto], [artStock], [artPeso], [artDescripAdic], [artRubro] FROM [Suspicacias].[dbo].[Articulos]");
                 $query->execute();
