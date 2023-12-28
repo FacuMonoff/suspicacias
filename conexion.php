@@ -3,24 +3,25 @@ require 'setting.php';
 
 class Conexion
 {
-    private $conector = null;
+    private static $conexion = null;
 
-    public function getConection()
+    public static function getConection()
     {
-        try {
-            $this->conector = new PDO("sqlsrv:server=" . SERVIDOR . ";database=" . DATABASE, USUARIO, PASSWORD);
-            $this->conector->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            return $this->conector;
-        } catch (PDOException $e) {
-            echo "Error de conexión: " . $e->getMessage();
-            return null;
+        if (self::$conexion === null) {
+            try {
+                self::$conexion = new PDO("sqlsrv:server=" . SERVIDOR . ";database=" . DATABASE, USUARIO, PASSWORD);
+                self::$conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            } catch (PDOException $e) {
+                echo "Error de conexión: " . $e->getMessage();
+            }
         }
+        return self::$conexion;
     }
 
     public function getArticulos()
     {
         try {
-            $conexion = $this->getConection();
+            $conexion = self::getConection();
             if ($conexion !== null) {
                 $query = $conexion->prepare("SELECT [artId], [artDescripcion], [artPrecio], [artPrecioDto], [artStock], [artPeso], [artDescripAdic], [artRubro] FROM [Suspicacias].[dbo].[Articulos]");
                 $query->execute();
@@ -35,5 +36,3 @@ class Conexion
         }
     }
 }
-
-// No se ejecuta nada aquí, simplemente define la clase para ser usada en otros archivos
