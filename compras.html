@@ -137,11 +137,12 @@
                     </div>
 
                     <div class="d-grid gap-2 carritoContent">
-                        <p>TOTAL: <span id="totalAmount">0.00</span></p>
+                        <p>Envio: Se calcula en el siguiente paso</p>
+                        <p>SUBTOTAL: <span id="totalAmount">0.00</span></p>
                         <!-- Modifica el botón "Realizar compra" para almacenar los productos en el LocalStorage -->
                         <button type="button" class="btn btn-success btn-lg" style="text-align: center;"
                             onclick="realizarCompra();">
-                            Realizar compra
+                            Iniciar compra
                         </button>
                         <script>
                             // Función para realizar la compra
@@ -165,7 +166,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 style="text-align: center; margin-top: 8%; font-weight: 700;">Datos del destinatario</h1>
-                <form action="https://formsubmit.co/9a4e9d99cf846d7f23c42e6c0a446bce" method="POST">
+                <form action="https://formsubmit.co/suspicaciasbrasil805@gmail.com" method="POST">
                     <div class="form-group" style="margin-top: 3%;">
                         <label for="nombre">Nombre:</label>
                         <input type="text" class="form-control" id="nombre" name="nombre"
@@ -199,68 +200,261 @@
                         <label for="barrio">Barrio:</label>
                         <input type="text" class="form-control" id="barrio" name="barrio" placeholder="Barrio">
                     </div>
+
+                    <style>
+                        /* Estilo para limitar la altura máxima del menú desplegable */
+                        select[name="provincia"] {
+                            max-height: 200px;
+                            /* Ajusta este valor según tu preferencia */
+                            overflow-y: auto;
+                            /* Habilita el scroll si la lista es larga */
+                        }
+                    </style>
+                    
+                    <div class="form-group" style="margin-top: 2%; margin-bottom: 4%;">
+                        <label for="provincia">Provincia:</label>
+                        <select class="form-control" id="provincia" name="provincia">
+                            <option value="" disabled selected style="display: none;">Click Aquí</option>
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Catamarca">Catamarca</option>
+                            <option value="Chaco">Chaco</option>
+                            <option value="Chubut">Chubut</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Entre Ríos">Entre Ríos</option>
+                            <option value="Formosa">Formosa</option>
+                            <option value="Jujuy">Jujuy</option>
+                            <option value="La Pampa">La Pampa</option>
+                            <option value="La Rioja">La Rioja</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Misiones">Misiones</option>
+                            <option value="Neuquén">Neuquén</option>
+                            <option value="Río Negro">Río Negro</option>
+                            <option value="Salta">Salta</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="San Luis">San Luis</option>
+                            <option value="Santa Cruz">Santa Cruz</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Santiago del Estero">Santiago del Estero</option>
+                            <option value="Tierra del Fuego">Tierra del Fuego</option>
+                            <option value="Tucumán">Tucumán</option>
+                        </select>
+                    </div>
+
                     <div class="form-group" style="margin-top: 2%; margin-bottom: 4%;">
                         <label for="ciudad">Ciudad:</label>
-                        <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ciudad">
+                        <select class="form-control" id="ciudad" name="ciudad">
+                            <!-- Las opciones de las ciudades se llenarán dinámicamente -->
+                        </select>
                     </div>
+
+                    <script>
+                        const provinciasConCiudades = {
+                            'Buenos Aires': [
+                                'Adrogué', 'Avellaneda', 'Azul', 'Bahía Blanca', 'Banfield', 'Baradero',
+                                'Berazategui', 'Berisso', 'Campana', 'Cañuelas', 'Chascomús', 'Chivilcoy',
+                                'Dolores', 'Ensenada', 'Escobar', 'Ezeiza', 'Florencio Varela', 'General Pueyrredón',
+                                'General Rodríguez', 'Junín', 'La Matanza', 'La Plata', 'Lobos', 'Luján',
+                                'Mar del Plata', 'Mercedes', 'Merlo', 'Miramar', 'Morón', 'Necochea',
+                                'Olavarría', 'Pergamino', 'Presidente Perón', 'Quilmes', 'San Fernando', 'San Isidro',
+                                'San Nicolás de los Arroyos', 'San Pedro', 'San Vicente', 'Tandil', 'Tigre',
+                                'Tres Arroyos', 'Villa Gesell'
+                            ],
+                            'Catamarca': [
+                                'Ancasti', 'Andalgalá', 'Antofagasta de la Sierra', 'Belén', 'Capayán', 'El Rodeo',
+                                'Fiambalá', 'La Puerta', 'Pomán', 'San Fernando del Valle de Catamarca', 'Santa María',
+                                'Saujil', 'Tinogasta', 'Valle Viejo'
+                            ],
+                            'Córdoba': [
+                                'Alta Gracia', 'Bell Ville', 'Córdoba', 'Cosquín', 'Deán Funes', 'Embalse',
+                                'Jesús María', 'La Carlota', 'Laboulaye', 'Las Varillas', 'Mina Clavero',
+                                'Río Cuarto', 'Río Tercero', 'San Francisco', 'Villa Carlos Paz', 'Villa Dolores',
+                                'Villa General Belgrano', 'Villa María', 'Villa Rumipal', 'Villa del Rosario'
+                            ],
+                            'Chaco': [
+                                'Barranqueras', 'Campo Largo', 'Charata', 'General José de San Martín', 'General Pinedo',
+                                'Las Breñas', 'Machagai', 'Presidencia Roque Sáenz Peña', 'Quitilipi', 'Resistencia',
+                                'Tres Isletas', 'Villa Ángela', 'Villa Berthet', 'Villa Río Bermejito'
+                            ],
+                            'Chubut': [
+                                'Biedma', 'Cushamen', 'Escalante', 'Futaleufú', 'Gaiman', 'Gastre',
+                                'Languiñeo', 'Mártires', 'Paso de Indios', 'Rawson', 'Río Senguer',
+                                'Sarmiento', 'Tehuelches', 'Telsen', 'Viedma'
+                            ],
+                            'Corrientes': [
+                                'Bella Vista', 'Berón de Astrada', 'Capital', 'Concepción', 'Curuzú Cuatiá',
+                                'Empedrado', 'Esquina', 'General Alvear', 'General Paz', 'Goya', 'Itatí',
+                                'Ituzaingó', 'Lavalle', 'Mburucuyá', 'Mercedes', 'Monte Caseros',
+                                'Paso de los Libres', 'Saladas', 'San Cosme', 'San Luis del Palmar',
+                                'San Martín', 'San Miguel', 'San Roque', 'Santa Ana', 'Santo Tomé',
+                                'Sauce', 'Sauce', 'Yapeyú'
+                            ],
+                            'Entre Ríos': [
+                                'Colón', 'Concordia', 'Diamante', 'Federación', 'Federal', 'Gualeguay', 'Gualeguaychú',
+                                'Islas del Ibicuy', 'La Paz', 'Nogoyá', 'Paraná', 'San Salvador', 'Tala', 'Uruguay',
+                                'Villaguay', 'Victoria', 'Villaguay'
+                            ],
+                            'Formosa': [
+                                'Bermejo', 'Formosa', 'Laishí', 'Matacos', 'Patiño', 'Pilcomayo', 'Pilagás',
+                                'Pilcomayo', 'Pirané', 'Pozo del Tigre', 'Rancho El Ñato', 'Riacho He He',
+                                'San Martín', 'Siete Palmas'
+                            ],
+                            'Jujuy': [
+                                'Cochinoca', 'Doctor Manuel Belgrano', 'El Carmen', 'Humahuaca', 'Ledesma',
+                                'Palpalá', 'Rinconada', 'San Antonio', 'San Pedro', 'Santa Bárbara', 'Santa Catalina',
+                                'Susques', 'Tilcara', 'Tumbaya', 'Valle Grande', 'Yavi'
+                            ],
+                             'La Pampa': [
+                                'Atreuco', 'Caleu Caleu', 'Capital', 'Catriló', 'Chalileo', 'Chapaleufú', 'Chical Co',
+                                'Conhelo', 'Curacó', 'Guatraché', 'Hucal', 'Lihuel Calel', 'Limay Mahuida',
+                                'Loventué', 'Maracó', 'Puelén', 'Quemú Quemú', 'Rancul', 'Realicó', 'Toay', 'Trenel',
+                                'Utracán'
+                            ],
+                             'La Rioja': [
+                                'Arauco', 'Capital', 'Castro Barros', 'Chilecito', 'Famatina', 'General Lamadrid',
+                                'General Ocampo', 'General San Martín', 'Independencia', 'Rosario Vera Peñaloza',
+                                'San Blas de los Sauces', 'Sanagasta', 'Vinchina'
+                            ],
+                            'Mendoza': [
+                                'Capital', 'General Alvear', 'Godoy Cruz', 'Guaymallén', 'Junín', 'La Paz', 'Las Heras',
+                                'Lavalle', 'Luján de Cuyo', 'Maipú', 'Malargüe', 'Rivadavia', 'San Carlos', 'San Martín',
+                                'San Rafael', 'Santa Rosa', 'Tunuyán', 'Tupungato'
+                            ],
+                            'Misiones': [
+                                'Apóstoles', 'Cainguás', 'Candelaria', 'Capital (Posadas)', 'Concepción', 'Eldorado', 'General Manuel Belgrano',
+                                'Guaraní', 'Leandro N. Alem', 'Libertador General San Martín', 'Montecarlo', 'Oberá', 'San Ignacio',
+                                'San Javier', 'San Pedro', 'Veinticinco de Mayo'
+                            ],
+                            'Neuquén': [
+                                'Aluminé', 'Añelo', 'Catán Lil', 'Chos Malal', 'Collón Curá', 'Confluencia', 'Huiliches',
+                                'Lácar', 'Loncopué', 'Los Lagos', 'Minas', 'Ñorquín', 'Picunches', 'Picún Leufú', 'Pehuenches',
+                                'Picún Leufú', 'Zapala'
+                            ],
+                            'Río Negro': [
+                                '9 de Julio', 'Adolfo Alsina', 'Avellaneda', 'Bariloche', 'Conesa', 'El Cuy', 'General Roca',
+                                'Nueve de Julio', 'Ñorquinco', 'Pichi Mahuida', 'Pilcaniyeu', 'San Antonio', 'Valcheta',
+                                'Veinticinco de Mayo'
+                            ],
+                            'Salta': [
+                                'Anta', 'Cachi', 'Cafayate', 'Capital', 'Cerrillos', 'Chicoana', 'General Güemes', 'Güachipas',
+                                'Iruya', 'La Caldera', 'La Candelaria', 'La Poma', 'La Viña', 'Los Andes', 'Metán',
+                                'Molinos', 'Orán', 'Rivadavia', 'Rosario de la Frontera', 'Rosario de Lerma', 'San Carlos',
+                                'Santa Victoria'
+                            ],
+                             'San Juan': [
+                                'Albardón', 'Angaco', 'Calingasta', 'Capital', 'Chimbas', 'Iglesia', 'Jáchal', 'Pocito',
+                                'Rawson', 'Rivadavia', 'San Martín', 'Santa Lucía', 'Sarmiento', 'Ullum', 'Valle Fértil',
+                                'Veinticinco de Mayo', 'Zonda'
+                            ],
+                             'San Luis': [
+                                'Ayacucho', 'Belgrano', 'Chacabuco', 'Coronel Pringles', 'General Pedernera', 'Gobernador Dupuy',
+                                'Junín', 'La Capital', 'Libertador General San Martín', 'Libertador General San Martín',
+                                'Libertador General San Martín', 'Libertador General San Martín', 'Pueyrredón', 'San Martín', 'Victoria'
+                            ],
+                            'Santa Cruz': [
+                                'Corpen Aike', 'Deseado', 'Güer Aike', 'Lago Argentino', 'Lago Buenos Aires', 'Magallanes', 'Río Chico',
+                            ],
+                            'Santa Fe': [
+                                '9 de Julio', 'Belgrano', 'Caseros', 'Castellanos', 'Constitución', 'Garay', 'General López',
+                                'General Obligado', 'Iriondo', 'La Capital', 'Las Colonias', 'Rosario', 'San Cristóbal',
+                                'San Javier', 'San Jerónimo', 'San Justo', 'San Lorenzo', 'San Martín', 'Vera'
+                            ],
+                            'Santiago del Estero': [
+                                'Aguirre', 'Alberdi', 'Atamisqui', 'Avellaneda', 'Banda', 'Belgrano', 'Capital', 'Choya',
+                                'Copo', 'Figueroa', 'General Taboada', 'Guasayán', 'Jiménez', 'Juan Felipe Ibarra', 'Loreto',
+                                'Mitre', 'Moreno', 'Ojo de Agua', 'Pellegrini', 'Quebrachos', 'Río Hondo', 'Rivadavia',
+                                'Robles', 'Salavina', 'San Martín', 'Silípica', 'Sarmiento', 'Taboada', 'Tereñak'
+                            ],
+                            'Tierra del Fuego': [
+                                'Islas del Atlántico Sur', 'Ushuaia', 'Río Grande'
+                            ],
+                            'Tucumán': [
+                                'Burruyacú', 'Capital', 'Chicligasta', 'Famaillá', 'Graneros', 'Juan Bautista Alberdi', 'La Cocha',
+                                'Leales', 'Lules', 'Monteros', 'Río Chico', 'Simoca', 'Tafí del Valle', 'Tafí Viejo', 'Trancas',
+                                'Yerba Buena'
+                            ],
+                            // Agrega más provincias y sus ciudades aquí
+                        };
+
+                        const provinciaSelect = document.getElementById('provincia');
+                            const ciudadSelect = document.getElementById('ciudad');
+
+                            provinciaSelect.addEventListener('click', function () {
+                                if (this.childNodes.length <= 1) { // Verifica si ya se han agregado opciones
+                                    Object.keys(provinciasConCiudades).forEach(function (provincia) {
+                                        const option = document.createElement('option');
+                                        option.value = provincia;
+                                        option.text = provincia;
+                                        provinciaSelect.add(option);
+                                    });
+                                }
+                            });
+
+                            provinciaSelect.addEventListener('change', function () {
+                                const selectedProvince = this.value;
+                                const cities = provinciasConCiudades[selectedProvince] || [];
+
+                                // Limpiar las opciones actuales del select de ciudades
+                                ciudadSelect.innerHTML = '';
+
+                                // Llenar el select de ciudades con las opciones correspondientes a la provincia seleccionada
+                                cities.forEach(function (ciudad) {
+                                    const option = document.createElement('option');
+                                    option.text = ciudad;
+                                    ciudadSelect.add(option);
+                                });
+                            });
+                    </script>
+
+                    
                     <div class="form-group" style="margin-top: 2%; margin-bottom: 4%;">
                         <label for="codigoPostal">Código Postal:</label>
                         <input type="text" class="form-control" id="codigoPostal" name="codigoPostal"
                             placeholder="Código Postal">
                     </div>
-                    <div class="form-group" style="margin-top: 2%; margin-bottom: 4%;">
-                        <label for="provincia">Provincia:</label>
-                        <input type="text" class="form-control" id="provincia" name="provincia" placeholder="Provincia">
-                    </div>
                     <hr>
                     <div style="padding-right: 5%;">
                         <h2 style="text-align: center; margin-top: 4%; font-weight: 700;">Entrega</h2>
                         <p class="bi-geo-alt-fill">Envío a domicilio</p>
-                        <div class="form-check">
-                            <input type="radio" class="form-check-input" id="opcion1" name="entrega"
-                                value="correoArgentino">
-                            <label class="form-check-label d-flex justify-content-between" for="opcion1">
-                                <span>Correo Argentino Clásico - Envío a domicilio</span>
-                                <span>$2000</span>
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input type="radio" class="form-check-input" id="opcion2" name="entrega"
-                                value="otraOpcion1">
-                            <label class="form-check-label d-flex justify-content-between" for="opcion2">
-                                <span>Correo Argentino Clásico - Envío a domicilio</span>
-                                <span>$2000</span>
-                            </label>
-                        </div>
+                        
                         <div class="form-check">
                             <input type="radio" class="form-check-input" id="opcion3" name="entrega"
                                 value="otraOpcion2">
                             <label class="form-check-label d-flex justify-content-between" for="opcion3">
                                 <span>Correo Argentino Clásico - Envío a domicilio</span>
-                                <span>$2000</span>
+                                <span>$6500</span>
                             </label>
                         </div>
+
+
                         <p class="bi-geo-alt-fill" style="margin-top: 5%;">Retiro por local</p>
                         <div class="form-check">
                             <input type="radio" class="form-check-input" id="opcion4" name="entrega"
                                 value="otraOpcion1">
                             <label class="form-check-label d-flex justify-content-between" for="opcion4">
-                                <span>Correo Argentino Clásico - Envío a domicilio</span>
-                                <span>$2000</span>
+                                <span>Retiro en nuestro local</span>
+                                <span>GRATIS</span>
                             </label>
                         </div>
+
+                        <p class="bi-geo-alt-fill" style="margin-top: 5%;">Envios dentro de Corrientes Capital</p>
                         <div class="form-check">
-                            <input type="radio" class="form-check-input" id="opcion5" name="entrega"
-                                value="otraOpcion2">
+                            <input type="radio" class="form-check-input" id="opcion5" name="entrega" value="otraOpcion1">
                             <label class="form-check-label d-flex justify-content-between" for="opcion5">
-                                <span>Correo Argentino Clásico - Envío a domicilio</span>
-                                <span>$2000</span>
+                                <span>Envio por moto</span>
+                                <span><a class="dropdown-item" href="https://wa.link/nnxn4b">Consultar precio por Whatsapp</a> </span>
+                                
                             </label>
                         </div>
+                       
                     </div>
                     <textarea placeholder="Your Message" class="form-control" name="productosAgregados" rows="10"
                         style="display: none;" id="producto-carrito"></textarea>
-                    <hr>
+                    
+                        <hr>
+                    
+                        <p>SUBTOTAL: <span id="totalAmount">0.00</span></p>
+
                     <button class="btn btn-primary custom-btn" type="submit" name="enviar" id="checkout-btn">CONTINUAR
                         CON EL PAGO
                     </button>
@@ -380,7 +574,7 @@
                     Puedes contactarnos a través de:
                     <br>
                     <i class="bi bi-envelope-at"></i>
-                    <a href="mailto:suspicaciasexshopctes@gmail.com">suspicaciasexshopctes@gmail.com</a>
+                    <a href="mailto:suspicaciasbrasil805@gmail.com">suspicaciasbrasil805@gmail.com</a>
                     <br>
                     <i class="bi bi-telephone"></i><a href="https://wa.link/rgb5ni">+54 9 3794015905</a>
                     <br>
