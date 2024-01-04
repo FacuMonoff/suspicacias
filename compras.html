@@ -214,7 +214,7 @@
                     <div class="form-group" style="margin-top: 2%; margin-bottom: 4%;">
                         <label for="provincia">Provincia:</label>
                         <select class="form-control" id="provincia" name="provincia">
-                            <option value="" disabled selected style="display: none;">Click Aquí</option>
+                            <option value="" disabled selected style="display: none;">Selecciona una provincia</option>
                             <option value="Buenos Aires">Buenos Aires</option>
                             <option value="Catamarca">Catamarca</option>
                             <option value="Chaco">Chaco</option>
@@ -248,7 +248,22 @@
                         </select>
                     </div>
 
+                    <div class="form-group" style="margin-top: 2%; margin-bottom: 4%;">
+                        <label for="codigoPostal">Código Postal:</label>
+                        <input type="text" class="form-control" id="codigoPostal" name="codigoPostal" placeholder="Código Postal">
+                    </div>
+                    <hr>
+
+                    <div class="opciones-entrega" style="display: none;"> </div>
+
+
                     <script>
+                        const envioSeleccionado = document.querySelector('#envioDisplay');
+                        const opcionesEntrega = document.querySelector('.opciones-entrega');
+                        const provinciaSelect = document.getElementById('provincia');
+                        const totalDisplay = document.getElementById('subtotalDisplay'); // Cambié el ID a "totalDisplay" para evitar IDs duplicados
+
+
                         const provinciasConCiudades = {
                             'Buenos Aires': [
                                 'Adrogué', 'Avellaneda', 'Azul', 'Bahía Blanca', 'Banfield', 'Baradero',
@@ -304,13 +319,13 @@
                                 'Palpalá', 'Rinconada', 'San Antonio', 'San Pedro', 'Santa Bárbara', 'Santa Catalina',
                                 'Susques', 'Tilcara', 'Tumbaya', 'Valle Grande', 'Yavi'
                             ],
-                             'La Pampa': [
+                            'La Pampa': [
                                 'Atreuco', 'Caleu Caleu', 'Capital', 'Catriló', 'Chalileo', 'Chapaleufú', 'Chical Co',
                                 'Conhelo', 'Curacó', 'Guatraché', 'Hucal', 'Lihuel Calel', 'Limay Mahuida',
                                 'Loventué', 'Maracó', 'Puelén', 'Quemú Quemú', 'Rancul', 'Realicó', 'Toay', 'Trenel',
                                 'Utracán'
                             ],
-                             'La Rioja': [
+                            'La Rioja': [
                                 'Arauco', 'Capital', 'Castro Barros', 'Chilecito', 'Famatina', 'General Lamadrid',
                                 'General Ocampo', 'General San Martín', 'Independencia', 'Rosario Vera Peñaloza',
                                 'San Blas de los Sauces', 'Sanagasta', 'Vinchina'
@@ -341,12 +356,12 @@
                                 'Molinos', 'Orán', 'Rivadavia', 'Rosario de la Frontera', 'Rosario de Lerma', 'San Carlos',
                                 'Santa Victoria'
                             ],
-                             'San Juan': [
+                            'San Juan': [
                                 'Albardón', 'Angaco', 'Calingasta', 'Capital', 'Chimbas', 'Iglesia', 'Jáchal', 'Pocito',
                                 'Rawson', 'Rivadavia', 'San Martín', 'Santa Lucía', 'Sarmiento', 'Ullum', 'Valle Fértil',
                                 'Veinticinco de Mayo', 'Zonda'
                             ],
-                             'San Luis': [
+                            'San Luis': [
                                 'Ayacucho', 'Belgrano', 'Chacabuco', 'Coronel Pringles', 'General Pedernera', 'Gobernador Dupuy',
                                 'Junín', 'La Capital', 'Libertador General San Martín', 'Libertador General San Martín',
                                 'Libertador General San Martín', 'Libertador General San Martín', 'Pueyrredón', 'San Martín', 'Victoria'
@@ -375,91 +390,204 @@
                             ],
                             // Agrega más provincias y sus ciudades aquí
                         };
+                            const opcionesEntregaCorrientes = `
+                                <div class="opciones-entrega-corrientes opciones-entrega">
+                                    
+                                    <div style="padding-right: 5%;">
+                                        <h2 style="text-align: center; margin-top: 4%; font-weight: 700;">Entrega</h2>
+                                        <p class="bi-geo-alt-fill">Envío a domicilio</p>
+                                        <div class="form-check">
+                                            <input type="radio" class="form-check-input" id="opcion3Corrientes" name="entrega" value="5,800">
+                                            <label class="form-check-label d-flex justify-content-between" for="opcion3Corrientes">
+                                                <span>Correo Argentino Regional - Envío a domicilio</span>
+                                                <span style="font-size: 1.2em; color: black;">$5800</span>
+                                            </label>
+                                        </div>
+                                        <p class="bi-geo-alt-fill" style="margin-top: 5%;">Retiro por local</p>
+                                        <div class="form-check">
+                                            <input type="radio" class="form-check-input" id="opcion4" name="entrega" value="otraOpcion1">
+                                            <label class="form-check-label d-flex justify-content-between" for="opcion4">
+                                                <span>Retiro en nuestro local</span>
+                                                     <span style="font-size: 1.2em; color: black;">GRATIS</span>
+                                            </label>
+                                        </div>
+                                        <p class="bi-geo-alt-fill" style="margin-top: 5%;">Envios dentro de Corrientes Capital</p>
+                                        <div class="form-check">
+                                            <input type="radio" class="form-check-input" id="opcion5" name="entrega" value="Consultar precio por Whatsapp">
+                                            <label class="form-check-label d-flex justify-content-between" for="opcion5">
+                                                <span>Envio por moto</span>
+                                              <span style="font-size: 1.2em; color: black; margin-top: 10px;"><a class="btn btn-success" href="https://wa.link/nnxn4b">Consultar precio por Whatsapp</a> </span>
+                                                                    
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            `;
+                            const opcionesEntregaOtras = `
+                                <div class="opciones-entrega-otras opciones-entrega">
+                                    <div style="padding-right: 5%;">
+                                        <h2 style="text-align: center; margin-top: 4%; font-weight: 700;">Entrega</h2>
+                                        <p class="bi-geo-alt-fill">Envío a domicilio</p>
+                                        <div class="form-check">
+                                            <input type="radio" class="form-check-input" id="opcion3Otras" name="entrega" value="7,800">
+                                            <label class="form-check-label d-flex justify-content-between" for="opcion3Otras">
+                                                <span>Correo Argentino Nacional - Envío a domicilio</span>
+                                                <span style="font-size: 1.2em; color: black;">$7800</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                
+                            `;
 
-                        const provinciaSelect = document.getElementById('provincia');
-                            const ciudadSelect = document.getElementById('ciudad');
+                        
 
-                            provinciaSelect.addEventListener('click', function () {
-                                if (this.childNodes.length <= 1) { // Verifica si ya se han agregado opciones
-                                    Object.keys(provinciasConCiudades).forEach(function (provincia) {
+                            provinciaSelect.addEventListener('change', actualizarOpcionesEntrega);
+                            opcionesEntrega.addEventListener('change', actualizarEnvio);
+
+                            
+
+                            function actualizarOpcionesEntrega() {
+                                    const selectedProvince = provinciaSelect.value;
+                                    const cities = provinciasConCiudades[selectedProvince] || [];
+
+                                    const ciudadSelect = document.getElementById('ciudad');
+                                    ciudadSelect.innerHTML = '';
+
+                                    cities.forEach(function (ciudad) {
                                         const option = document.createElement('option');
-                                        option.value = provincia;
-                                        option.text = provincia;
-                                        provinciaSelect.add(option);
+                                        option.text = ciudad;
+                                        ciudadSelect.add(option);
                                     });
-                                }
-                            });
 
-                            provinciaSelect.addEventListener('change', function () {
+                                    if (selectedProvince === 'Corrientes') {
+                                        opcionesEntrega.innerHTML = opcionesEntregaCorrientes;
+                                    } else {
+                                        opcionesEntrega.innerHTML = opcionesEntregaOtras;
+                                    }
+                                }
+
+                                function actualizarEnvio() {
+                                        const opcionEnvio = document.querySelector('input[name="entrega"]:checked');
+                                        const envioSeleccionado = document.querySelector('#envioDisplay');
+                                        const subtotalDisplay = document.getElementById('subtotalDisplay');
+                                        const totalDisplay = document.getElementById('totalDisplay');
+
+                                        totalDisplay.textContent = '$0.00';
+
+                                        if (opcionEnvio) {
+                                            const precioEnvio = opcionEnvio.value;
+
+                                            if (precioEnvio === 'Consultar precio por Whatsapp') {
+                                                envioSeleccionado.textContent = 'Consultar precio por Whatsapp';
+                                            } else if (precioEnvio === 'otraOpcion1') {
+                                                envioSeleccionado.textContent = 'GRATIS';
+                                            } else {
+                                                envioSeleccionado.textContent = `$${precioEnvio}`;
+                                            }
+                                        }
+
+                                        const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, '')); // Elimina el signo $ y las comas
+                                        let envio = 0;
+
+                                        if (envioSeleccionado.textContent.includes('$')) {
+                                            envio = parseFloat(envioSeleccionado.textContent.replace('$', '').replace(/,/g, ''));
+                                        }
+
+                                        const total = subtotal + envio;
+                                    totalDisplay.textContent = `$${total.toFixed(2)}`; 
+                                    }
+
+
+                          provinciaSelect.addEventListener('change', function () {
+                                const opcionEnvio = document.querySelector('input[name="entrega"]:checked');
+                              const envioSeleccionado = document.querySelector('#envioDisplay');
+                              const totalDisplay = document.getElementById('totalDisplay');
+                              totalDisplay.textContent = '$0.00';
+                              envioSeleccionado.textContent = '0.00';
+
+                                if (opcionEnvio) {
+                                  const precioEnvio = opcionEnvio.value;
+
+                                  if (precioEnvio === "otraOpcion1") {
+                                      envioSeleccionado.textContent = 'GRATIS';
+                                  } else {
+                                      envioSeleccionado.textContent = precioEnvio;
+                                  }
+                              }
+
                                 const selectedProvince = this.value;
                                 const cities = provinciasConCiudades[selectedProvince] || [];
 
-                                // Limpiar las opciones actuales del select de ciudades
+                                const ciudadSelect = document.getElementById('ciudad');
                                 ciudadSelect.innerHTML = '';
 
-                                // Llenar el select de ciudades con las opciones correspondientes a la provincia seleccionada
                                 cities.forEach(function (ciudad) {
                                     const option = document.createElement('option');
                                     option.text = ciudad;
                                     ciudadSelect.add(option);
                                 });
+
+                                if (selectedProvince === "Corrientes") {
+                                    opcionesEntrega.innerHTML = opcionesEntregaCorrientes;
+                                } else {
+                                    opcionesEntrega.innerHTML = opcionesEntregaOtras;
+                                }
+
+                                if (selectedProvince !== "") {
+                                    opcionesEntrega.style.display = 'block';
+                                } else {
+                                    opcionesEntrega.style.display = 'none';
+                                }
                             });
                     </script>
 
                     
-                    <div class="form-group" style="margin-top: 2%; margin-bottom: 4%;">
-                        <label for="codigoPostal">Código Postal:</label>
-                        <input type="text" class="form-control" id="codigoPostal" name="codigoPostal"
-                            placeholder="Código Postal">
-                    </div>
-                    <hr>
-                    <div style="padding-right: 5%;">
-                        <h2 style="text-align: center; margin-top: 4%; font-weight: 700;">Entrega</h2>
-                        <p class="bi-geo-alt-fill">Envío a domicilio</p>
-                        
-                        <div class="form-check">
-                            <input type="radio" class="form-check-input" id="opcion3" name="entrega"
-                                value="otraOpcion2">
-                            <label class="form-check-label d-flex justify-content-between" for="opcion3">
-                                <span>Correo Argentino Clásico - Envío a domicilio</span>
-                                <span>$6500</span>
-                            </label>
-                        </div>
+                    
+
+                    <p id="">SUBTOTAL: <span id="subtotalDisplay">0.00</span></p>
+                    <p id="">ENVIO: <span id="envioDisplay">0.00</span></p>
+                    <p id="totalStyle">TOTAL:<span id="totalDisplay">0.00</span></p>
+                    
+                    <style>
+                        /* Estilos para las etiquetas <p> específicas */
+                        .opciones-entrega p {
+                            font-size: 1.2em; /* Tamaño del texto */
+                            color: #000; /* Color del texto */
+                        }
+                                        /* Media query para pantallas menores a 850px */
+                        @media screen and (max-width: 850px) {
+                            .opciones-entrega p.bi-geo-alt-fill,
+                            .opciones-entrega p:nth-of-type(4),
+                            .opciones-entrega p:nth-of-type(6) {
+                                font-size: 1.4em; /* Tamaño de texto más grande */
+                                color: #000; /* Color de texto negro */
+                            }
+                            .form-check-label {
+                                flex-direction: column; /* Cambia la dirección del flex a columna */
+                                align-items: flex-start; /* Alinea los elementos a la izquierda */
+                            }
+                            .form-check-label span {
+                                margin-bottom: 5px; /* Añade un margen inferior entre los elementos */
+                            }
+                        }
+                    </style>
 
 
-                        <p class="bi-geo-alt-fill" style="margin-top: 5%;">Retiro por local</p>
-                        <div class="form-check">
-                            <input type="radio" class="form-check-input" id="opcion4" name="entrega"
-                                value="otraOpcion1">
-                            <label class="form-check-label d-flex justify-content-between" for="opcion4">
-                                <span>Retiro en nuestro local</span>
-                                <span>GRATIS</span>
-                            </label>
-                        </div>
-
-                        <p class="bi-geo-alt-fill" style="margin-top: 5%;">Envios dentro de Corrientes Capital</p>
-                        <div class="form-check">
-                            <input type="radio" class="form-check-input" id="opcion5" name="entrega" value="otraOpcion1">
-                            <label class="form-check-label d-flex justify-content-between" for="opcion5">
-                                <span>Envio por moto</span>
-                                <span><a class="dropdown-item" href="https://wa.link/nnxn4b">Consultar precio por Whatsapp</a> </span>
-                                
-                            </label>
-                        </div>
-                       
-                    </div>
                     <textarea placeholder="Your Message" class="form-control" name="productosAgregados" rows="10"
                         style="display: none;" id="producto-carrito"></textarea>
                     
                         <hr>
-                    
-                        <p>SUBTOTAL: <span id="totalAmount">0.00</span></p>
 
-                    <button class="btn btn-primary custom-btn" type="submit" name="enviar" id="checkout-btn">CONTINUAR
-                        CON EL PAGO
+                    <button class="btn btn-primary custom-btn" type="submit" name="enviar" id="checkout-btn">
+                        CONTINUAR CON EL PAGO
                     </button>
+
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
                     <input type="hidden" name="_captcha" value="false">
+
                     <script>
                         document.addEventListener("DOMContentLoaded", function () {
                             document.getElementById("checkout-btn").addEventListener("click", function () {

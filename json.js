@@ -4304,10 +4304,21 @@ function actualizarCarrito() {
         // Al final, agregas el contenedor principal al elemento donde deseas mostrar las tarjetas
         carritoContent.appendChild(tarjetasContainer);
 
-        // Mostramos el total en el elemento con id "totalAmount"
+        // Obtener el elemento donde se mostrará el precio total
         const totalAmountElement = document.getElementById('totalAmount');
+
         if (totalAmountElement) {
-            totalAmountElement.textContent = formatPrice(total); // Utilizamos la función formatPrice para formatear el total con el símbolo "$" y separadores de miles
+            // Mostrar el precio total formateado en el elemento
+            totalAmountElement.textContent = formatPrice(total);
+
+            // Obtener el valor del subtotal
+            const subtotal = totalAmountElement.textContent;
+
+            // Muestra el subtotal en el elemento HTML
+            const subtotalDisplay = document.getElementById('subtotalDisplay');
+            if (subtotalDisplay) {
+                subtotalDisplay.textContent = subtotal;
+            }
         }
     }
 }

@@ -437,9 +437,11 @@ section {
 }
 
 
+
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
 @media screen and (max-width: 800px) {
 
+    
     .discount-badge {
         padding: 4px 8px;
         /* Ajusta el padding para pantallas más pequeñas */
