@@ -256,7 +256,6 @@
 
                     <div class="opciones-entrega" style="display: none;"> </div>
 
-
                     <script>
                         const envioSeleccionado = document.querySelector('#envioDisplay');
                         const opcionesEntrega = document.querySelector('.opciones-entrega');
@@ -442,12 +441,8 @@
                                 
                             `;
 
-                        
-
                             provinciaSelect.addEventListener('change', actualizarOpcionesEntrega);
                             opcionesEntrega.addEventListener('change', actualizarEnvio);
-
-                            
 
                             function actualizarOpcionesEntrega() {
                                     const selectedProvince = provinciaSelect.value;
@@ -497,7 +492,7 @@
                                         }
 
                                         const total = subtotal + envio;
-                                    totalDisplay.textContent = `$${total.toFixed(2)}`; 
+                                        totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`; 
                                     }
 
 
@@ -544,56 +539,95 @@
                             });
                     </script>
 
-                    
-                    
-
                     <p id="">SUBTOTAL: <span id="subtotalDisplay">0.00</span></p>
                     <p id="">ENVIO: <span id="envioDisplay">0.00</span></p>
-                    <p id="totalStyle">TOTAL:<span id="totalDisplay">0.00</span></p>
-                    
-                    <style>
-                        /* Estilos para las etiquetas <p> específicas */
-                        .opciones-entrega p {
-                            font-size: 1.2em; /* Tamaño del texto */
-                            color: #000; /* Color del texto */
-                        }
-                                        /* Media query para pantallas menores a 850px */
-                        @media screen and (max-width: 850px) {
-                            .opciones-entrega p.bi-geo-alt-fill,
-                            .opciones-entrega p:nth-of-type(4),
-                            .opciones-entrega p:nth-of-type(6) {
-                                font-size: 1.4em; /* Tamaño de texto más grande */
-                                color: #000; /* Color de texto negro */
-                            }
-                            .form-check-label {
-                                flex-direction: column; /* Cambia la dirección del flex a columna */
-                                align-items: flex-start; /* Alinea los elementos a la izquierda */
-                            }
-                            .form-check-label span {
-                                margin-bottom: 5px; /* Añade un margen inferior entre los elementos */
-                            }
-                        }
-                    </style>
-
-
-                    <textarea placeholder="Your Message" class="form-control" name="productosAgregados" rows="10"
-                        style="display: none;" id="producto-carrito"></textarea>
-                    
-                        <hr>
-
+                    <p id="totalStyle">TOTAL: <span id="totalDisplay">0.00</span></p>
+                    <hr>
                     <button class="btn btn-primary custom-btn" type="submit" name="enviar" id="checkout-btn">
                         CONTINUAR CON EL PAGO
                     </button>
 
+                    <!-- CODIGO PARA BLOQUEAR EL BOTON DE PAGO HASTA NO HACER CLICK EN ALGUN ENVIO-->
+                    <script>
+                        // Selecciona el elemento que contiene el valor del envío
+                        const envioDisplay = document.getElementById('envioDisplay');
+                        const checkoutBtn = document.getElementById('checkout-btn');
+
+                        // Función para habilitar o deshabilitar el botón según el valor del envío
+                        function toggleCheckoutButton() {
+                            // Obtén el valor actual del envío
+                            const envioValue = parseFloat(envioDisplay.innerText);
+
+                            // Habilita el botón si el valor del envío no es igual a 0.00, de lo contrario, deshabilítalo
+                            checkoutBtn.disabled = (envioValue === 0.00);
+                        }
+
+                        // Ejecuta la función al cargar la página y cuando cambie el valor del envío
+                        toggleCheckoutButton(); // Verificar inicialmente el estado del botón al cargar la página
+                        envioDisplay.addEventListener('DOMSubtreeModified', toggleCheckoutButton); // Verificar cuando cambie el valor del envío
+                    </script>
+
                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
                     <input type="hidden" name="_captcha" value="false">
 
+                    <textarea placeholder="Your Message" class="form-control" name="productosAgregados" rows="10" style="display: none;"
+                        id="producto-carrito"></textarea>
+
+                    <style>
+                            /* Estilos para las etiquetas <p> específicas */
+                            .opciones-entrega p {
+                                font-size: 1.2em;
+                                /* Tamaño del texto */
+                                color: #000;
+                                /* Color del texto */
+                            }
+                        
+                            /* Media query para pantallas menores a 850px */
+                            @media screen and (max-width: 850px) {
+                        
+                                .opciones-entrega p.bi-geo-alt-fill,
+                                .opciones-entrega p:nth-of-type(4),
+                                .opciones-entrega p:nth-of-type(6) {
+                                    font-size: 1.4em;
+                                    /* Tamaño de texto más grande */
+                                    color: #000;
+                                    /* Color de texto negro */
+                                }
+                        
+                                .form-check-label {
+                                    flex-direction: column;
+                                    /* Cambia la dirección del flex a columna */
+                                    align-items: flex-start;
+                                    /* Alinea los elementos a la izquierda */
+                                }
+                        
+                                .form-check-label span {
+                                    margin-bottom: 5px;
+                                    /* Añade un margen inferior entre los elementos */
+                                }
+                            }
+                    </style>
+
                     <script>
-                        document.addEventListener("DOMContentLoaded", function () {
+                        function obtenerPrecioEnvio() {
+                            const envioSeleccionado = document.querySelector('#envioDisplay');
+                            let envio = 0;
+
+                            if (envioSeleccionado.textContent.includes('$')) {
+                                envio = parseFloat(envioSeleccionado.textContent.replace('$', '').replace(/,/g, ''));
+                            }
+
+                            return envio;
+                        }
+
+                        // Resto de tu código JavaScript que maneja eventos y lógica relacionada con el envío y el total
+                    </script>
+
+                    <script>
+                      document.addEventListener("DOMContentLoaded", function () {
                             document.getElementById("checkout-btn").addEventListener("click", function () {
                                 // Obtener los datos del carrito almacenados en el localStorage
                                 const carrito = JSON.parse(localStorage.getItem('carrito'));
-
                                 // Inicializar el precio en 0
                                 let totalPrice = 0;
 
@@ -605,10 +639,16 @@
                                     }, 0);
                                 }
 
+                                // Obtener el precio de envío
+                                const envio = obtenerPrecioEnvio(); // Esta función debe retornar el precio del envío
+
+                                // Sumar el costo de envío al precio total
+                                const totalPriceWithShipping = totalPrice + envio;
+
                                 const orderData = {
                                     quantity: 1,
                                     description: "Total",
-                                    price: totalPrice, // Utiliza el precio total calculado
+                                    price: totalPriceWithShipping, // Utiliza el precio total incluyendo el envío
                                 };
 
                                 fetch("http://localhost:8080/create_preference", {
@@ -638,14 +678,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
 
     <section class="container" style="display: none;">
         <div class="row row-cols-md-4 row-cols-sm-2 g-4" id="product-list"></div>
@@ -738,6 +770,7 @@
                 permiso.</p>
         </div>
     </footer>
+
     <div id="load-more-button" style="display: none;"></div>
     <div id="product-details" style="display: none;"></div>
     <div id="cargarMasBoton" style="display: none;"></div>
