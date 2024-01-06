@@ -487,13 +487,15 @@
                                         const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, '')); // Elimina el signo $ y las comas
                                         let envio = 0;
 
-                                        if (envioSeleccionado.textContent.includes('$')) {
-                                            envio = parseFloat(envioSeleccionado.textContent.replace('$', '').replace(/,/g, ''));
+                                         if (envioSeleccionado.textContent.includes('$')) {
+                                        envio = parseFloat(envioSeleccionado.textContent.replace('$', '').replace(/,/g, ''));
+                                        } else if (envioSeleccionado.textContent === 'Consultar precio por Whatsapp' || envioSeleccionado.textContent === 'GRATIS') {
+                                            envio = 0;
                                         }
 
-                                        const total = subtotal + envio;
-                                        totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`; 
-                                    }
+                                         const total = subtotal + envio;
+                                    totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+                                }
 
 
                           provinciaSelect.addEventListener('change', function () {
@@ -547,6 +549,29 @@
                         CONTINUAR CON EL PAGO
                     </button>
 
+                    <script>
+                        // Función para calcular el total y guardar en localStorage
+                        function calcularTotal() {
+                            const subtotal = parseFloat(document.getElementById('subtotalDisplay').innerText);
+                            const envio = parseFloat(document.getElementById('envioDisplay').innerText);
+
+                            const total = subtotal + envio;
+
+                            // Guardar el total en el localStorage
+                            localStorage.setItem('total', total.toFixed(2));
+
+                            // Actualizar el valor en el span
+                            document.getElementById('totalDisplay').innerText = total.toFixed(2);
+
+                            // Confirmar que se ha guardado en el localStorage
+                            const valorGuardado = localStorage.getItem('total');
+                            console.log('Valor guardado en localStorage:', valorGuardado);
+                        }
+
+                        // Llamar a la función para calcular el total al cargar la página
+                        window.onload = calcularTotal;
+                    </script>
+
                     <!-- CODIGO PARA BLOQUEAR EL BOTON DE PAGO HASTA NO HACER CLICK EN ALGUN ENVIO-->
                     <script>
                         // Selecciona el elemento que contiene el valor del envío
@@ -572,112 +597,148 @@
 
                     <textarea placeholder="Your Message" class="form-control" name="productosAgregados" rows="10" style="display: none;"
                         id="producto-carrito"></textarea>
-
-                    <style>
-                            /* Estilos para las etiquetas <p> específicas */
-                            .opciones-entrega p {
-                                font-size: 1.2em;
-                                /* Tamaño del texto */
-                                color: #000;
-                                /* Color del texto */
-                            }
-                        
-                            /* Media query para pantallas menores a 850px */
-                            @media screen and (max-width: 850px) {
-                        
-                                .opciones-entrega p.bi-geo-alt-fill,
-                                .opciones-entrega p:nth-of-type(4),
-                                .opciones-entrega p:nth-of-type(6) {
-                                    font-size: 1.4em;
-                                    /* Tamaño de texto más grande */
-                                    color: #000;
-                                    /* Color de texto negro */
-                                }
-                        
-                                .form-check-label {
-                                    flex-direction: column;
-                                    /* Cambia la dirección del flex a columna */
-                                    align-items: flex-start;
-                                    /* Alinea los elementos a la izquierda */
-                                }
-                        
-                                .form-check-label span {
-                                    margin-bottom: 5px;
-                                    /* Añade un margen inferior entre los elementos */
-                                }
-                            }
-                    </style>
-
-                    <script>
-                        function obtenerPrecioEnvio() {
-                            const envioSeleccionado = document.querySelector('#envioDisplay');
-                            let envio = 0;
-
-                            if (envioSeleccionado.textContent.includes('$')) {
-                                envio = parseFloat(envioSeleccionado.textContent.replace('$', '').replace(/,/g, ''));
-                            }
-
-                            return envio;
-                        }
-
-                        // Resto de tu código JavaScript que maneja eventos y lógica relacionada con el envío y el total
-                    </script>
-
-                    <script>
-                      document.addEventListener("DOMContentLoaded", function () {
-                            document.getElementById("checkout-btn").addEventListener("click", function () {
-                                // Obtener los datos del carrito almacenados en el localStorage
-                                const carrito = JSON.parse(localStorage.getItem('carrito'));
-                                // Inicializar el precio en 0
-                                let totalPrice = 0;
-
-                                if (carrito) {
-                                    // Calcular el precio total sumando los precios de los productos en el carrito, considerando la cantidad
-                                    totalPrice = carrito.reduce((total, product) => {
-                                        const precioTotalProducto = product.price * product.cantidad; // Multiplica el precio por la cantidad
-                                        return total + parseFloat(precioTotalProducto);
-                                    }, 0);
-                                }
-
-                                // Obtener el precio de envío
-                                const envio = obtenerPrecioEnvio(); // Esta función debe retornar el precio del envío
-
-                                // Sumar el costo de envío al precio total
-                                const totalPriceWithShipping = totalPrice + envio;
-
-                                const orderData = {
-                                    quantity: 1,
-                                    description: "Total",
-                                    price: totalPriceWithShipping, // Utiliza el precio total incluyendo el envío
-                                };
-
-                                fetch("http://localhost:8080/create_preference", {
-                                    method: "POST",
-                                    headers: {
-                                        "Content-Type": "application/json",
-                                    },
-                                    body: JSON.stringify(orderData),
-                                })
-                                    .then(function (response) {
-                                        return response.json();
-                                    })
-                                    .then(function (init_point) {
-                                        // Redirige a la página de Mercado Pago usando el init_point
-                                        window.location.href = init_point["id"];
-                                        console.log(init_point["id"]);
-                                    })
-                                    .catch(function () {
-                                        alert("Unexpected error");
-                                        $('#checkout-btn').attr("disabled", false);
-                                    });
-                            });
-                        });
-                    </script>
-
                 </form>
             </div>
         </div>
     </div>
+
+    <style>
+        /* Estilos para las etiquetas <p> específicas */
+        .opciones-entrega p {
+            font-size: 1.2em;
+            /* Tamaño del texto */
+            color: #000;
+            /* Color del texto */
+        }
+    
+        /* Media query para pantallas menores a 850px */
+        @media screen and (max-width: 850px) {
+    
+            .opciones-entrega p.bi-geo-alt-fill,
+            .opciones-entrega p:nth-of-type(4),
+            .opciones-entrega p:nth-of-type(6) {
+                font-size: 1.4em;
+                /* Tamaño de texto más grande */
+                color: #000;
+                /* Color de texto negro */
+            }
+    
+            .form-check-label {
+                flex-direction: column;
+                /* Cambia la dirección del flex a columna */
+                align-items: flex-start;
+                /* Alinea los elementos a la izquierda */
+            }
+    
+            .form-check-label span {
+                margin-bottom: 5px;
+                /* Añade un margen inferior entre los elementos */
+            }
+        }
+    </style>
+
+    <script>
+        function actualizarSubtotal() {
+                const totalAmountElement = document.getElementById('totalAmount');
+                const subtotalDisplay = document.getElementById('subtotalDisplay');
+                const totalDisplay = document.getElementById('totalDisplay');
+
+                if (totalAmountElement && subtotalDisplay && totalDisplay) {
+                    const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, ''));
+                    const envio = obtenerPrecioEnvio();
+
+                    let total = subtotal + envio;
+
+                    subtotalDisplay.textContent = `$${subtotal.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+                    totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+
+                    // Guardar el subtotal y el total en el localStorage
+                    localStorage.setItem('subtotal', subtotal.toFixed(2));
+                    localStorage.setItem('total', total.toFixed(2));
+                }
+            }
+
+      // Esta función calcula el total y lo actualiza en el HTML y el localStorage
+        function actualizarTotal() {
+                const subtotalDisplay = document.getElementById('subtotalDisplay');
+                const totalDisplay = document.getElementById('totalDisplay');
+
+                const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, ''));
+                const envio = obtenerPrecioEnvio();
+
+                let total = subtotal + envio;
+
+                totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+
+                // Guardar el total en el localStorage
+                localStorage.setItem('total', total.toFixed(2));
+            }
+
+        // Esta función obtiene el precio de envío, considerando palabras como cero
+        function obtenerPrecioEnvio() {
+                const envioSeleccionado = document.querySelector('#envioDisplay');
+                let envio = 0;
+
+                if (envioSeleccionado.textContent.includes('$')) {
+                    envio = parseFloat(envioSeleccionado.textContent.replace('$', '').replace(/,/g, ''));
+                }
+
+                return envio;
+            }
+
+        // Event listener para cambios en opciones de envío
+        opcionesEntrega.addEventListener('change', function () {
+            // Actualizar el total cuando cambie la opción de envío
+            actualizarTotal();
+        });
+
+        // Llamamos a actualizarTotal al cargar la página para tener el valor inicial
+        window.onload = function () {
+            actualizarTotal();
+        };
+    </script>
+    
+    <script>
+       document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("checkout-btn").addEventListener("click", function () {
+                // Obtener los datos del carrito almacenados en el localStorage
+                const carrito = JSON.parse(localStorage.getItem('carrito'));
+                // Inicializar el precio en 0
+                let totalPrice = 0;
+                if (carrito) {
+                    // Calcular el precio total sumando los precios de los productos en el carrito, considerando la cantidad
+                    totalPrice = carrito.reduce((total, product) => {
+                        const precioTotalProducto = product.price * product.cantidad; // Multiplica el precio por la cantidad
+                        return total + parseFloat(precioTotalProducto);
+                    }, 0);
+                }
+                const orderData = {
+                    quantity: 1,
+                    description: "Total",
+                    price: totalPrice, // Utiliza el precio total calculado
+                };
+                fetch("http://localhost:8080/create_preference", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(orderData),
+                })
+                    .then(function (response) {
+                        return response.json();
+                    })
+                    .then(function (init_point) {
+                        // Redirige a la página de Mercado Pago usando el init_point
+                        window.location.href = init_point["id"];
+                        console.log(init_point["id"]);
+                    })
+                    .catch(function () {
+                        alert("Unexpected error");
+                        $('#checkout-btn').attr("disabled", false);
+                    });
+            });
+        });
+    </script>
 
     <section class="container" style="display: none;">
         <div class="row row-cols-md-4 row-cols-sm-2 g-4" id="product-list"></div>
