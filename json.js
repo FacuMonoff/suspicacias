@@ -4168,6 +4168,7 @@ function eliminarDelCarrito(nombreProducto) {
     }
 
     localStorage.setItem('carrito', JSON.stringify(carritoProductos));
+    actualizarCarrito();
 }
 
 
@@ -4244,7 +4245,6 @@ function actualizarCarrito() {
 
         const mensaje = productosAgregados + ' ---- Total de todos los productos: ' + formatPrice(productosTotales);
         productoCarritoTextArea.textContent = mensaje;
-        console.log(productoCarritoTextArea.textContent)
     }
 
     if (carritoProductos.length === 0) {
@@ -4321,6 +4321,8 @@ function actualizarCarrito() {
             }
         }
     }
+    actualizarSubtotal();
+    actualizarTotal();
 }
 
 
