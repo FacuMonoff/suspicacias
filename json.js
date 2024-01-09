@@ -3969,11 +3969,32 @@ function mostrarProductosPorCategoria(categoria) {
             productosContainer.insertAdjacentHTML("beforeend", productoHTML);
         });
     }
+    // Obtén el enlace "En Promoción"
+    const enPromocionLink = document.querySelector('a[href="jugueteYAccesorios.html"]');
+
+    enPromocionLink.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        const productosConDescuento = Products.filter(producto => {
+            return producto.discount && producto.discount > 0; // Filtra solo los productos con descuento
+        });
+
+        const productosContainer = document.getElementById("product-list");
+        productosContainer.innerHTML = "";
+
+        if (productosConDescuento.length === 0) {
+            alert("No hay productos con descuento disponibles en este momento.");
+        } else {
+            productosConDescuento.forEach(producto => {
+                const productoHTML = getProductCardHTML(producto);
+                productosContainer.insertAdjacentHTML("beforeend", productoHTML);
+            });
+        }
+    });
 }
 
 // FUNCION DESCUENTOS. ACCESORIOS.HTML
 function getProductCardHTML(producto) {
-    console.log("Precio del producto:", producto.price); // Agregar esta línea para depurar
 
     const hasDiscount = producto.discount && producto.discount > 0;
     let displayPrice = formatPrice(producto.price);
@@ -4015,10 +4036,6 @@ function getProductCardHTML(producto) {
         </div>
     `;
 }
-
-
-
-
 
 
 
@@ -4434,15 +4451,7 @@ document.addEventListener("DOMContentLoaded", function () {
     loadMoreButton.addEventListener("click", loadMoreProducts);
 });
 
-
-
-
 const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece99', {
     locale: 'es-AR' // The most common are: 'pt-BR', 'es-AR' and 'en-US'
 });
-
-
-
-
-
 
