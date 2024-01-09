@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DESCRIPCION</title>
+    <title>Compra</title>
+    <link rel="icon" href="img/iconoURL3.png" type="image/x-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -255,6 +256,15 @@
                     <hr>
 
                     <div class="opciones-entrega" style="display: none;"> </div>
+
+                    
+                    <p id="">SUBTOTAL: <span id="subtotalDisplay">0.00</span></p>
+                    <p id="">ENVIO: <span id="envioDisplay">0.00</span></p>
+                    <p id="totalStyle">TOTAL: <span id="totalDisplay">0.00</span></p>
+                    <hr>
+                    <button class="btn btn-primary custom-btn" type="submit" name="enviar" id="checkout-btn">
+                        CONTINUAR CON EL PAGO
+                    </button>
 
                     <script>
                         const envioSeleccionado = document.querySelector('#envioDisplay');
@@ -555,14 +565,6 @@
                                     });
 
                     </script>
-
-                    <p id="">SUBTOTAL: <span id="subtotalDisplay">0.00</span></p>
-                    <p id="">ENVIO: <span id="envioDisplay">0.00</span></p>
-                    <p id="totalStyle">TOTAL: <span id="totalDisplay">0.00</span></p>
-                    <hr>
-                    <button class="btn btn-primary custom-btn" type="submit" name="enviar" id="checkout-btn">
-                        CONTINUAR CON EL PAGO
-                    </button>
 
                     <script>
                         // Función para calcular el total y guardar en localStorage
