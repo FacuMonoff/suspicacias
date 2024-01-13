@@ -436,12 +436,19 @@ section {
     text-align: center;
 }
 
-
+#category-title {
+    margin-top: 10%;
+    margin-left: 100%;
+}
 
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
 @media screen and (max-width: 800px) {
 
-    
+    #category-title {
+        margin-top: 1%;
+        margin-left: -8%;
+    }
+
     .discount-badge {
         padding: 4px 8px;
         /* Ajusta el padding para pantallas más pequeñas */
@@ -608,5 +615,7 @@ section {
         height: auto;
         margin-bottom: 20%;
     }
+
+    
 
 }
