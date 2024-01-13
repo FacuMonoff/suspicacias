@@ -12,7 +12,7 @@ const Products = [
         descripcion: " Para innovar y experimentar cosas nuevas, este anillo generará una fabulosa sensación tanto para el que lo lleva colocado como para su pareja. Su potente sujeción en pene y testículos ayudan a retardar la eyaculación y a mantener la erección y en este caso encontrará una generosa lengua para estimula el clítoris En este caso además de sujetar el pene también abraza los testículos Gracias a su fuerte sujeción conseguirás mantener una erección mas fuerte y firme, evitando asi la dsifunción y prolongar el período de la relación sexual  Unidad vibradora extraíble para jugar independiente del anillo ---- 1 Nivel de vibración ----  Usa 3 LR44 ---- ",
         categoria: "anillos",
         stock: "10000",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1737", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -24,7 +24,7 @@ const Products = [
         descripcion: " El anillo Kevin de ST es un accesorio diseñado para mejorar la experiencia sexual masculina y femenina. Además, el diseño del anillo incluye lengüitas que rotan, lo que permite estimular el clítoris durante la penetración, brindando una experiencia única y placentera. El anillo Kevin cuenta con un motor interno muy potente que ofrece vibraciones intensas.Con tres modos de vibración lineal y siete ritmos diferentes, podrás ajustar la intensidad según tus preferencias y explorar diversas sensaciones. Fabricado con silicona 100% pura y ABS, el anillo Kevin es seguro para el cuerpo y cómodo de usar.Es recargable, lo que significa que no tendrás que preocuparte por comprar pilas constantemente.Además, viene con un cable de carga para facilitar su recarga.",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1761", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -36,7 +36,7 @@ const Products = [
         descripcion: " Disfruta con tu pareja el profundo placer de la doble penetración con el hot finger. Este anillo está creado para realizar una doble penetración además te ayudará a mejorar la erección y funcionará como retardante de la eyaculación.Este anillo es sumamente firme y estable para que no se doble o se mueva durante el acto sexual. El dildo de menor tamaño será el mejor estimulador para tus juegos con penetración anal. Para utilizarlo solamente debes introducir tu pene en el dildo y empezar a disfrutar del placer más absoluto. La flexibilidad de su material hace que sea apto para todas las tallas. Tiene la punta redondeada para facilitar la entrada y hacerla lo más placentera posible. ----   Material: Jelly ---- Medidas dildo: Largo: 13 cm.x Ancho 2 cm(Diametro del anillo sin estirar: 4 cm) ----  Color: Rojo",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2368", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -48,7 +48,7 @@ const Products = [
         descripcion: "",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1962", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -60,7 +60,7 @@ const Products = [
         descripcion: "Anillo peneano, mantiene la erección  y retarda la eyaculación. Colocalo en la base del pene logra darle firmeza evitando la disfunción y a su vez estimulando clítoris con el roce por medio de la penetración.Balita extraíble.y un hermoso diseño con orejitas, que  rozan perfectamente con el clítoris de una manera muy diferente y estimulante. ----  Silicona 100 % pura + ABS. ----  100 % Libre de Fthalatos. ----  Libre de látex. ----  3 modos de vibración lineal. ----  7 ritmos diferentes de vibración ----  Adaptable a todos los tamaños de Pene ----  Recargable.Incluye cable de carga ----  Tiempo de carga: aprox. 50m ----  Tiempo de uso: 50 m. ----  Tecla de fácil manejo ----  Medidas: 7.8 cm x 6 cm x 1.8 cm. ----  Impermeable.No sumergible.",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1966", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -72,7 +72,7 @@ const Products = [
         descripcion: "",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1988", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -84,7 +84,7 @@ const Products = [
         descripcion: "CRISTAL mantiene la erección; retarda la eyaculación y a su vez estimula clítoris a partir del roce del mismo por medio de la penetración. Gracias a su elasticidad conseguirás mantener una erección más firme y fuerte. Cristal es ideal para jugar en pareja y que ambos puedan disfrutar plenamente. Los anillos permiten mantener el pene erecto evitando la disfunción y prolongando el periodo de las relaciones sexuales. La unidad vibradora es extraíble para poder darle otros usos en el cuerpo. ---- 3Pilas LR41. NO INCLUIDA",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2034", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -96,7 +96,7 @@ const Products = [
         descripcion: "",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2136", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -108,7 +108,7 @@ const Products = [
         descripcion: "Anillo peneano con forma de conejito, posee doble anillo para que pueda ajustarse al pene y los testículos, lo que aumenta el flujo sanguíneo y logra erecciones más potentes al tiempo que retarda la eyaculación. Su potente balita logra vibración en el pene y la cabeza y orejas del conejo estimulan de manera directa",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2189", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -120,7 +120,7 @@ const Products = [
         descripcion: "Anillo de silicona, con vibracion, la funcion de los anillos es generar presion en la base del pene producida la ereccion, para mantener la sangre, generar mas sensacion, ereccion firme y control de la eyaculacion totalmente adaptable, estimulacion para disfrutar en pareja ---- facil higiene, a pilas, boton de encendido y apagado",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2232", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -132,7 +132,7 @@ const Products = [
         descripcion: " Este anillo para pene y testículos mantiene la erección del pene y retarda la eyaculación. Colocado en la base del pene logra darle firmeza, evitando la disfunción y a su vez estimulando clítoris con el roce por medio de la penetración y los 10 modos de vibración diferentes.Su diseño con dos orejitas hará que roce perfectamentecon el clítoris de una manera muy diferente y estimulante.Motor extraíble para juego independiente del anillo Silicona ---- 100% pura Hipo alergénico ---- 3 Modos de vibración lineal ---- 7 Ritmos diferentes de vibración ---- Adaptable a todos los tamaños de pene ---- Recargable USB ---- Tiempo de Carga: Aprox. 50 Min ---- Tiempo de Uso: Aprox. 50 Min ---- Medidas: 7.5 x 7.5 x 6.5 cm ---- Impermeable.No sumergible ---- Color: Azul",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2439", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -144,7 +144,7 @@ const Products = [
         descripcion: " Anillos súper elásticos adaptables para colocarse en el pene, ayudando a mantener una erección por más tiempo y retardando la eyaculación. Su exclusivo diseño permite generar distintas sensaciones para quien recibe la estimulación.  Anillos descartables. Se aconseja que su tiempo de uso no exceda los 20/30 minutos . Se recomienda usar con lubricantes de base agua al momento de colocarlos y retirarlos. Colocar por encima del preservativo.",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2254", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -155,7 +155,7 @@ const Products = [
         descripcion: "El aro vibrador Maxx Play es un producto premium de silicona, muy suave y agradable al tacto. Apto para uso personal y en pareja, para vivir un momento único. El producto contiene un botón para controlar el encendido/apagado y los distintos modos de vibración. ---- Tiempo de carga: 2 hrs ---- Tiempo de uso: 1-2 hrs  ---- Nivel de sonido bajo en el uso.  ---- 5 modos de vibración. ---- Carga mediante USB.",
         categoria: "anillos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1772", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -189,7 +189,7 @@ const Products = [
         descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/miky 4.png",
@@ -199,7 +199,7 @@ const Products = [
         descripcion: "Este estimulador de punto G, tiene un diseño sofiticado, a puro glamour y elegantemente delicado e intenso. Su extremo curvo y sus bordes lisos te darán la posibilidad de estimularte la zona del punto G de manera diferente.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/Rocket blue mini.png",
@@ -209,7 +209,7 @@ const Products = [
         descripcion: "Aunque su objetivo principal es el estímulo del clítoris, estos vibradores pueden enfocarse en otras zonas del cuerpo para potenciar el deseo sexual. Si bien son ideales para utilizar individualmente, se transforman en un condimento extra al utilizarlos en pareja. ----- Color: Azul",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/Strap On.jpeg",
@@ -219,7 +219,7 @@ const Products = [
         descripcion: "Strap on vibrador increíblemente potente y silencioso, hecho de silicona médica de alta calidad, totalmente segura y agradable al tacto. Consta de dos lados insertables: Uno corto y ancho para quien tome el control activo, y otro largo que permite penetrar a tu amante. Además posee una superficie texturada para mayor estimulación en el clítoris y una estimulación directa al punto G. Su cubierta suave y lisa facilita la penetración y el goce sin complicaciones. Para una mejor sensación de placer siempre es recomendable usar lubricantes de agua, así el roce es mas intenso. -----  Color: Celeste  -----  Recargable USB. -----  10 funciones.-----  Fácil de operar y limpiar. -----  El tiempo de duración de la bateria es de aproximadamente 1 hora.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/Quadruple sweet pink.jpeg",
@@ -229,7 +229,7 @@ const Products = [
         descripcion: "Divertite con este mini vibrador intercambiando sus 4 cabezales que producirán distintas sensaciones. La textura es super suave para garantizar una agradable sensación al tocar tu cuerpo y llevarte poco a poco a una explosión de placer.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/naty 5.jpeg",
@@ -239,7 +239,7 @@ const Products = [
         descripcion: "Este vibrador de silicona líquida suave y sedosa. Contiene potente motor que funciona como vibrador. Su diseño realístico, con glande perfecto, más su interesante vibración, lo hace muy singular y placentero. El tener comando a distancia, lo hace aún más cómodo de manipular. ----- Vibrador con ventosa.  ----- Textura: venosa y suave. ----- Libre de látex. ----- 100% Libre de Fthalatos. ----- Recargable. ----- Contiene el Cable USB. ----- Control remoto. ----- Rango de distancia hasta 10 m. ----- Material: Silicona. ----- Tacto realístico. ----- Impermeable No sumergible. ----- 7 ritmos de vibración. ----- Color Violeta ----- 4 Modos de vibracion -----  Medidas: longitud 18.4 cm, diametro 4 cm. ----- Utilizar lubricante a base de agua.  Higienizar con agua tibia y jabón antibacteriano para Toys o neutro.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/Vibrating 1.jpg",
@@ -249,7 +249,7 @@ const Products = [
         descripcion: "Este vibrador de silicona líquida suave y sedosa (Liquid Silicone Ultra Realistic Touch). Contiene potente motor que funciona como vibrador. Su diseño realístico, con glande perfecto, más su interesante vibración, lo hace muy singular y placentero. El tener comando a distancia, lo hace aún más cómodo de manipular. Recargable USB. Medidas: longitud total: 21 cm. Diámetro: 6 cm en su base. Medidas: longitud insertable: 19 cm. Diámetro: 4.2 cm.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1986", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -260,7 +260,7 @@ const Products = [
         descripcion: "Deléitese con los placeres simples de un clásico, versatil, simple y poderosa, estos bullet, son el juguete sexual esencial para todos. Una pulsación del botón activa una vibración intensa, mientras que la punta suave permite identificar fácilmente el placer. El tamaño discreto es perfecto para viajar y divertirse mientras viaja. Pruébelo en el spa o en la ducha y convierta la hora del baño en un momento de felicidad. Para un rendimiento óptimo, retire las pilas durante el almacenamiento. Alto: 9,3cm Díametro: 1,8cm Usa 1 AAA (no incluída)",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1993", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -271,7 +271,7 @@ const Products = [
         descripcion: "Este magnifico deddal con vibración ayuda perfectamente a estimular punto G, introduciendo dos dedos en la vagina trasladando la vibración hacia su interior y quedando la bala de manera más enérgetica apoyada en clítoris. De esta manera, lo que generalmente hacemos manualmente, se acompaña con una suave y aterciopelada silicona y vibración. ",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1996", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -282,7 +282,7 @@ const Products = [
         descripcion: "Bala vibradora recubierta de silicona.para estimular la zona erógenas que desees. Material: ABS + Silicona Tiempo de uso: 50 minutos Impermeable Tamaño: 60 m. largo 18 mm Diámetro Higenizar con agua y jabón antibacteriano o neutro.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2032", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -293,7 +293,7 @@ const Products = [
         descripcion: "Con esta bola de kegel con control remoto de silicona suave. Con un control remoto inalámbrico, la bola es perfecta para emociones en solitario y juegos en pareja. Dále el control remtoo a tu pareja y deja que elija cuál de las 12 funciones de vibración vas a disfrutar esa noche. Disfruta de velocidades constantes y diferentes patrones mientras llegas a un poderoso orgasmo.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/mini vibrador lapiz labial rosa.jpg",
@@ -303,7 +303,7 @@ const Products = [
         descripcion: "Vibrador discreto, tipo labial. Ideal para estimular tu clitoris a cualquier hora, en cualquier lugar. Su tamaño compacto, real al de un labial común, te permite llevarlo a todas partes y pasar desapercibido. Sólo necesitas una pila AAA(no incluida) para activar su funcionamiento ¡Y listo! A disfrutar de tu sexualidad con placer, discreción y responsabilidad.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2054", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -314,7 +314,7 @@ const Products = [
         descripcion: "Dos potentes motores transmiten intensos ritmos de vibración a través de todo el juguete. El Satisfyer Double Plus Remote es, por supuesto, impermeable y será tu acompañante perfecto tanto en una romántica bañera de hidromasaje como bajo las cómodas sábanas de tu casa. Las vibraciones debajo del agua de este compañero de diversión son percibidas por muchas parejas como particularmente intensas. Se puede controlar de forma inalámbrica con el mando a distancia incluido, lo que hace que sus experiencias sensuales sean más creativas y excitantes.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2290", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -325,7 +325,7 @@ const Products = [
         descripcion: "Deja volar tu imaginación con esta juguetona e intensa bala de diseño elegante y ergonómico. Haz pequeñas travesuras con sus 10 velocidades y una potencia vibradora inigualable.  Su pequeño tamaño la hace adecuado incluso para llevarla disimuladamente entre la ropa interior. Con esta bala vibradora podrás olvidarte de comprar pilas ya que tiene batería recargable y un elegante cargador magnético incluido. ----- 10 Modos de vibración ----- Material: ABS+ Silicona ----- Batería: Litio recargable -----  Cargador: Jack / USB(incluido) -----  Tiempo de uso: 50 minutos -----  Impermeable -----  Tamaño: - 61 mm.Largo - 18 mm.Diámetro",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/nini 1.jpeg",
@@ -335,7 +335,7 @@ const Products = [
         descripcion: "",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2074", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -346,7 +346,7 @@ const Products = [
         descripcion: "",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2075", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -357,7 +357,7 @@ const Products = [
         descripcion: "",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2076", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -368,7 +368,7 @@ const Products = [
         descripcion: "Estimulador clitoriano 10 velocidades ----- Silicona + ABS ----- USB recargable -----  Medida: 10 cm ----- Higienizar con agua tibia y jabón antibacteriano para Toys o neutro. Modo de carga.El proceso de recarga funciona a través de un cargador USB, que utiliza la tecnología carga rápida en menos de 2 horas.Mientras la luz titila, significa que la recarga se está realizando, una vez que deja de titilar, desenchufar.Pegado al botón del power hay 1 punto donde debe insertarse el conector para su respectiva carga.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2180", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -379,7 +379,7 @@ const Products = [
         descripcion: "Dedal recargable. Ideal para poder estimular la vulva sujeto al dedo para una mejor manipulación. De vibración silenciosa. ----- Material: silicona 100% pura + ABS ----- 10 funciones de vibración -----  Longitud: 11cm -----  Ancho de la mariposa: 9cm -----  Recargable.Incluye cable USB. ----- Impermeable.No sumergible. -----  Libre de ftalatos.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2079", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -390,7 +390,7 @@ const Products = [
         descripcion: "Explora con este fino y elegante estimulador de clítoris de diseño tridimensional tus zonas erógenas favoritas. Sus puntas en forma de lengüitas y su vibración intensa en todo el largo del juguete, hará que puedas estimularte de la forma que más te guste llegando al clímax rápidamente. Con él podrás jugar en cualquier zona sensible de tu cuerpo o el de tu pareja. -----  Silicona 100 % pura + ABS. -----  100 % Libre de Fthalatos. -----  Hipo alergénico. -----  Libre de látex.-----  1 motor. -----  10 ritmos diferentes de vibración. -----  Medidas: 19 cm * 5 cm. 5 cm. -----  Peso del Kit: 213 gr. -----  Tiempo de carga: aprox. 1.30 hs. -----  Tiempo de uso aprox. 1 hs. -----  Recargable.Incluye cable de carga. -----  Impermeable.No sumergible.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/majo.jpg",
@@ -400,7 +400,7 @@ const Products = [
         descripcion: "Vibrador estimulador de clitoris. Su diseño es ideal para usar debajo de la ropa interior.  -----  Material: silicona -----  10 funciones de vibración -----  Longitud: 9, 5cm -----  Diámetro: 4, 5cm -----  Recargable.Incluye cable USB ----- Impermeable.No sumergible. ----- Libre de ftalatos.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2084", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -411,7 +411,7 @@ const Products = [
         descripcion: "",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/vicky 2.jpeg",
@@ -421,7 +421,7 @@ const Products = [
         descripcion: "¿Buscas un juguete para descubrirte y conocerte mejor? Este vibrador de doble estimulación te llevará a otro universo con su hermoso diseño e intensidad. Su material de silicona pura y suave te garantizará un óptimo placer.  Su estimulador Clitorial rabbit hará que puedas sensiblemente llegar a una gran excitación. Su vaginal curvo corto, hará que puedas disfrutar del apoyo perfecto en Punto G. Es sencillamente tu acompañante perfecto en cualquier lugar, con una forma elegante, totalmente silencioso y discreto.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/vicky 1.jpeg",
@@ -431,7 +431,7 @@ const Products = [
         descripcion: "Este juguete mini Punto G recargable, de delicado  diseño e intensa vibraciones será tu mejor elección. Su diseño en la extremidad superior con mayor diámetro, lo hace sumamente estimulante con un mejor apoyo en la zona del punto G. Fácil control.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/miky 1.jpg",
@@ -441,7 +441,7 @@ const Products = [
         descripcion: "Su aguda punta y vibración intensa en todo el largo del juguete, hará que puedas estimularte de la forma que más te guste en cualquier zona erógena. Apto para penetración superficial, con irregularidades en su textura para una mayor estimulación. ----- Silicona 100% pura + ABS. 100% Libre de Fthalatos.    ----- Hipoalergénico.Libre de látex. Silencioso y discreto. -----  7 ritmos de vibración. -----Tecla de fácil manejo. ----- Recargable. ----- Incluye cable de carga. ----- Capacidad de batería: aprox. 1.5 hs.Tiempo de carga: aprox. 1.5 hs. ----- Impermeable.No sumergible. ----- Longitud total: 16.6cm ----- Diámetro: mayor 4cm, de base 2.8cm",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2093", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -452,7 +452,7 @@ const Products = [
         descripcion: "",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/luxe rabbit 1.1.png",
@@ -462,7 +462,7 @@ const Products = [
         descripcion: "Es un juguete erótico que te permite controlar todos los detalles de tus prácticas masturbatorias: intensidad, patrón de movimiento, vibrador interno y externo, dirección del giro…   Imagínate hasta 36 combinaciones diferentes o, mejor aún, lánzate a probarlas.Este vibrador con conejito debería formar parte de la colección de juguetes sexuales de todas las mujeres.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/mini wand.jpg",
@@ -472,7 +472,7 @@ const Products = [
         descripcion: "Poderoso mini vibrador Portatil ----- Medidas: 6, 5cm x 1, 5 cm ----- Ideal para llevarlo con vos a cualquier lado! Funciona, con 2 pilas de reloj(incluidas) Diseñado para estimulacion clitoriana o anal. Este pequeño y potente vibrador que podras llevar facilmente a cualquier parte te permitira vivir facilmente sensaciones unicas de placer",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2434", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -483,7 +483,7 @@ const Products = [
         descripcion: "ideal estimulador de clítoris con forma y textura suave para una placentera sensación, con diez velocidades, además con su práctico aro para introducir un dedo para mayor comodidad al manipular los movimientos que te harán alcanzar otros niveles de satisfacción. Con uso de pilas, Se recomiendo el uso de lubricantes a base de agua con este producto",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/vibro clasic 3 red.webp",
@@ -493,7 +493,7 @@ const Products = [
         descripcion: "VIBRACIÓN DE ULTRA VELOCIDAD ----- VIBRO CLÁSICO QUE NO TE PUEDE FALTAR EN TU COLECCIÓN DE JUGUETES ----- PRUÉBALO EN EL SPA O EN LA DUCHA Y CONVIERTA LA HORA DELBAÑO EN UN MOMENTO DE FELICIDAD ----- PARA UN RENDIMIENTO ÓPTIMO, RETIRE LAS BATERÍAS DURANTE EL ALMACENAMIENTO ",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2188", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -504,7 +504,7 @@ const Products = [
         descripcion: "Bala vibradora para estimular las zonas erógenas de tu cuerpo que más desees. Características • 10 funciones de vibración. • Material: ABS+ Silicona. • Batería: 1AAA (no incluida). • Tiempo de uso: 50 minutos. • Medidas: 8.7 x 1.8 cm. • Libre de Phalatos. • Impermeable. • Silencioso, máximo 55db. • Tamaño: 94mm largo. 18 mm. • Utilizar lubricante a base de agua. • Higienizar con agua tibia y jabón neutro.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2198", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -515,7 +515,7 @@ const Products = [
         descripcion: "",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/miky 2.jpeg",
@@ -525,7 +525,7 @@ const Products = [
         descripcion: "Material: silicona 100% pura + ABS ----- 7 funciones de vibración ----- Longitud total: 15cm ----- Diametro: 2, 5cm ----- Recargable.Incluye cable USB. ----- Impermeable.No sumergible. ----- Libre de ftalatos.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/miky 3.jpeg",
@@ -535,7 +535,7 @@ const Products = [
         descripcion: "Material: silicona 100% pura + ABS ----- 7 funciones de vibración ----- Longitud total: 16cm ----- Longitud insertable: 12cm ----- Diametro: 3cm ----- Recargable.Incluye cable USB. ----- Impermeable.No sumergible. ----- Libre de ftalatos.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2202", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -547,7 +547,7 @@ const Products = [
         descripcion: "",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2207", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -558,7 +558,7 @@ const Products = [
         descripcion: "Vibrador flexible ----- De ABS + TPE ----- Usa 2 pilas AA(no incluidas) -----  Medidas: largo 20 cm ----- maximo diametro: 4cm ",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2176", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -569,7 +569,7 @@ const Products = [
         descripcion: "Strap on Strapless. Ideal para pegging. Su diseño permite Cada extremo de este juguete posee su motor. Su extremo más corto se introduce en el canal vaginal haciendo fuerza con los músculos pubocoxigeos y el otro extremo en tu pareja. Ideal para una musculatura firme, y en el caso de resultar muy pesado puede colocarse cualquier arnés desmontable. Por su diseño es ideal para estimular punto G, clítoris o próstata. Además, este en particular producto trae un control remoto a distancia para poder manejarlo con mayor comodidad.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/nini 2 blue.jpeg",
@@ -579,7 +579,7 @@ const Products = [
         descripcion: "VIBRADOR FLEXIBLE -----  DE ABS + TPE -----  MEDIDAS: LARGO: 18 CM ----- ANCHO: 3, 8 CM ----- LUBRICANTE A BASE DE AGUA -----  NO SUMERGIBLE ----- HIGIENE AGUA Y JABÓN NEUTRO",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/vibro 4 pink.jpeg",
@@ -589,7 +589,7 @@ const Products = [
         descripcion: "El estimulador vibrador de alta calidad de tonos atrevidos y elegantes, repelentes al agua y seguros para el cuerpo. ----- Son excelentes juguetes discretos con patrones de vibración.  ----- Medidas: 13.7 cm Introducible: 11.5 cm x 3 cm.  ----- Utiliza una pila AAA(no incluída).",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },/*
     {
         image: "img/vibradores/punto g blue.webp",
@@ -599,7 +599,7 @@ const Products = [
         descripcion: "",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         SKU: "2221", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -610,7 +610,7 @@ const Products = [
         descripcion: "Bala vibradora de silicona extrasuave ----- Tiene 7 programas de vibración. ----- Tiempo de uso 50 minutos. ----- Disponible en color fucsia. ----- Impermeable. ----- Bateria con cargador USB. ----- Mide 9, 8cm de largo total y 2, 1cm de diámetro.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2223", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -621,7 +621,7 @@ const Products = [
         descripcion: "Bala vibradora para estimular las zonas erógenas de tu cuerpo que más desees. Características • 10 funciones de vibración. • Material: ABS+ Silicona. • Batería: 1AAA (no incluida). • Tiempo de uso: 50 minutos. • Medidas: 8.7 x 1.8 cm. • Libre de Phalatos. • Impermeable. • Silencioso, máximo 55db. • Tamaño: 94mm largo. 18 mm. • Utilizar lubricante a base de agua. • Higienizar con agua tibia y jabón neutro.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/naty 7.jpg",
@@ -631,7 +631,7 @@ const Products = [
         descripcion: " Vibrador recargable en silicona suave y sedosa de gran calidad. Caracteristicas: Material: silicona pura suave y sedosa. Contiene 4 velocidades. 7 modos de vibración. Recargable mediante cable USB Medidas 19 cm Introducible: 15 cm x 4 medidas aproximadas. Cómo utilizar mantenga presionado el botón de encendido 2 segundos para encender o apagar. Presione cada vez para controlar la vibración 7 modos de vibracion. Cómo cargar Incluye un cable USB para cargar. La señal de luz LED parpadea durante el período de carga. Luz constante una vez cargada por completo. Estás listo para hasta 1,5 horas de vibración increíble. Es recomendable el uso de lubricantes al agua con este producto. Guardarlo completamente limpio y seco en contenedores de tela preferentemente.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/rabbit 2 vibrador.jpeg",
@@ -641,7 +641,7 @@ const Products = [
         descripcion: "Vibrador rotador. Posee varios modos de rotación y vibración muy potentes, esto te dará sin duda una estimulación inolvidable, al mismo tiempo cuando se introduce dentro tuyo, te hará sentir aún más profundamente sus vibraciones, masajeando tu interior. • TPE + ABS. • 2 Motores. • 36 modos de vibración. • 8 modos de rotación independientes. • 2 botones de encendido independiente.  • Batería de Litio. • Medidas: 23 cm * 3.5 cm.  • Peso: 163 gr. • Recargable.Incluye cable de carga. • Capacidad de batería: aprox. 1 hs.  • Tiempo de carga: 2 hs.  • Impermeable.No sumergible.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/prime fantasy bala vibradora bv.webp",
@@ -651,7 +651,7 @@ const Products = [
         descripcion: "Explorá tus zonas erógenas favoritas con esta elegante bala vibradora. De tacto suave y tamaño discreto, es ideal para utilizarla cuando quieras, la podés llevar puesta y activarla a tu gusto. Con sus 10 modos de vibración podés encontrar el placer que buscas y lograr tus fantasías. ----- Marca: Prime",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/prime fantasy lengua vibradora lg.webp",
@@ -661,7 +661,7 @@ const Products = [
         descripcion: "Vibrá alto con la lengua vibradora y estimuladoradel punto G. Además de estimular el clítoris, podés utilizarla en todas tus zonas erógenas. De diseño minimalista y de tacto muy suave, es elcomplemento ideal para lograr el mayor placer de tuencuentro sexual. ----- Marca: Prime",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/prime fantasy vibrador masajeador vm.webp",
@@ -671,7 +671,7 @@ const Products = [
         descripcion: "Es un objeto de placer con estilo único. Su pricipalfunción es la vibración, donde cuenta con 7velocidades diferentes, pero ademas otorgaestimulacion ya que la parte superior, o su cabeza, sirve para realizar masajesestimuladores en las zonas más íntimas. ----- Marca: Prime",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/prime fantasy vibrador estimulador ve.webp",
@@ -681,7 +681,7 @@ const Products = [
         descripcion: "Experimentá una doble sensación con el vibrador y estimulador. Te permite disfrutar de 10 modos de vibración junto a una estimulación única que otorgan las tachas que tiene el juguete. Incluye: 1 VIBRADOR ESTIMULADOR, 3 PRESERVATIVOS SUPER FINOS DE LÁTEX DE CAUCHO NATURAL, 1 POUCH DE GEL ÍNTIMO 4.5gr ----- Marca: Prime",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2257", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -692,7 +692,7 @@ const Products = [
         descripcion: "Es un vibrador y a la vez un estimulador del clitoris. Con un diseño muy suave al tacto, un producto con 10 velocidades de vibracion para el máximo placer. Tambien con USB recargable para volver a la carga cuantas veces quieras. Especificaciones ----- 10 modos de vibracion/ velocidades ----- Material Silicona premium - de tacto muy suave ----- Altura de parte para penetracion: 12cm ----- RECARGA DE PRODCUTO POR USB(categoria eco friendly - no desechable) ----- Duracion de batería / uso 1 hora ----- Cabeza de vibrador con texturas para mayor placer ----- Alto total: 22cm ----- Marca: Maxx",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2258", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -703,7 +703,7 @@ const Products = [
         descripcion: "Este vibrador de doble estimulación con glande en su extremo, te llevará a otro universo por su hermoso diseño e intensidad. Su material de silicona aterciopelada te garantizará un óptimo placer.  Su estimulador Clitorial uniforme hará que puedas sensiblemente llegar a una gran excitación. Ideal mujeres sensibles que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.Totalmente silencioso y discreto. • Características • 3 modos de vibración lineal.  • 7 ritmos diferentes. • 2 motores. • Diámetro: 3.3cm.Longitud total: 18, 5 cm. • 2 pilas AAA • Teclas de fácil manejo. • Impermeable.No sumergible.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/sofi 2.jpg",
@@ -713,7 +713,7 @@ const Products = [
         descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior y uno levemente menor en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona superior texturada y su estimulador de clítoris con un diseño de conejo con una sola oreja. ----- 10 ritmos diferentes de vibración. ----- Dos motores. ----- Longitud total: 18cm. ----- Tiempo de carga: aprox. 70 m. ----- Tiempo de uso aprox. 2hs.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/sofi 3.jpg",
@@ -723,7 +723,7 @@ const Products = [
         descripcion: "Este modelo de vibrador tiene un diámetro un poco más ancho en su extremo superior  y uno levemente menor  en su base, es muy suave e intenso. Con su doble motor estimulará completamente tu zona de vaginal y clítoris de manera muy efectiva. Apenas con una zona superior texturada y su estimulador de clítoris con un diseño de conejo con una solo oreja. Diseño Ergonómico vaginal + clítoris. • 10 ritmos diferentes de vibración. • Dos motores. • Longitud total: 18 cm.Estimulador: 3.3 cm. • Peso: 131 gr. • Tiempo de carga: aprox. 70 m. • Tiempo de uso aprox. 2 hs. • Recargable.Incluye cable de carga.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2262", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -734,7 +734,7 @@ const Products = [
         descripcion: "POTENTE MASAJEADOR CLITORIAL: El masaje le ofrecerá una fuerte vibración que concentrará la energía en todo el juguete y en cualquier parte del cuerpo, en su zona genital, en su cuello, espalda, hombros, pies y piernas o donde necesite estimularse.  Tu experiencia de masaje clitorial puede ser más suave o más intenso de acuerdo a tu sensibilidad; sin dudas significará una experiencia muy excitante cualquiera que elijas. ----- 10 PATRONES: Relájate con un juguete súper silencioso que cuenta 10 modos de vibración diferentes.  ----- Portatíl y recargable  ----- Controlador de 3 botones la batería tan solo necesita 2 horas para estar completamente cargada.Importante no cargar más de 3 horas ",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/tongue vibrador.png",
@@ -744,7 +744,7 @@ const Products = [
         descripcion: "Vibrador de lengua realista, estimula las partes sensibles de tu cuerpo. 10 modos de vibración, para satisfacer sus necesidades. Fabricado con materiales de silicona de, agradables para la piel y suaves. Diseño resistente al agua, fácil de limpiar y usar. Carga magnética USB por la base de carga.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1695", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -755,7 +755,7 @@ const Products = [
         descripcion: "Este juguete es un masajeador recargable muy intenso. Lo práctico de su diseño es que cuenta con sus botones para alternar sus modos de vibración en la parte superior y está diseñado ergonómicamente para tener un agarre perfecto y poder masajear cualquier zona erógena del cuerpo con mayor facilidad. Experimenta un diseño diferente de masajeador con el que podrás recorrer todas las curvas de tu cuerpo y el de tu pareja. -----  10 ritmos diferentes de vibración. • Recargable.Incluye cable de carga. • Tecla de fácil manejo. • Medidas: 9.4 cm * 5.6 cm * 9.5 cm. • Peso: 143 gr. • Tiempo de carga: aprox. 4 hs.• Tiempo de uso: aprox. 1.5 hs.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2435", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -766,7 +766,7 @@ const Products = [
         descripcion: "Este estimulador de clitoris está diseñado para que puedas llevarlo colocado a donde quieras que vayas como si fuera un protector diario, con la diferencia que su intensa vibración te hará trepar las nubes, rapidamente. Cuenta también con un control rmeoto inalámbrico para que puedas manejarlos vos o quien quieras. Perfectamente cubierto con una suave y sedosa superficie de silicona. El diseño está adaptado para que puedas utilizar en la parte del cuerpo que quieras, incluso en el de tu pareja. ----- 1 motor -----  7 ritmos diferentes de vibración -----  Longitud total: 11cm x 4, 3 cm x 4, 1 cm ----- Peso: 95 gr ----- Tiempo de carga: aprox. 2 hs. -----  Tiempo de uso aprox: 1 hs. ----- Recargable.Incluye cable de carga. ----- Impermeable.No sumergible.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2436", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -777,7 +777,7 @@ const Products = [
         descripcion: "ST nos trae este simpático diseño para estimular clítoris de diferentes maneras y con diferentes texturas y formas para aprovechar un mismo juguete con opciones de estimulación diferente para lograr un mayor placer. Para una mejor manipulación posee control remoto inalambrico. Colocalo en tu tanga preferida y sali a disfrutar de la vida  • 1 motor Control remoto inalambrico 10 modos de vibración • Longitud total: 10, 7 cm.Diámetro: 4, 5 cm. • Peso: 50 gr. • Tiempo de carga: aprox. 70 m. • Tiempo de uso aprox. 2 hs. • Recargable.Incluye cable de carga. •  Impermeable.No sumergible.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/vibrador paula st.jpg",
@@ -787,7 +787,7 @@ const Products = [
         descripcion: "Cuenta con 7 funciones de vibración y una interfaz súper sencilla. Si juntamos todo eso a su increíble apariencia este juguete se convertirá en tu favorito en muy poco tiempo. Produce una excitante sensación por medio de la penetración y la estimulación del clítoris y Punto G al mismo tiempo! Este diseño, se caracteriza por estimular con vibración en la penetración con la medida justa, sin ser pequeño, ni grande, tanto en su longitud como diámetro, y también estimular el clítoris también con vibración. Silicona de material seguro, sedoso y suave, muy agradable al tacto y fácil de limpiar. A prueba de agua, lo cual permite su utilización en ambientes húmedos, como el baño.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2443", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -798,7 +798,7 @@ const Products = [
         descripcion: "Este doble estimulador de clítoris y punto G recargable, tiene un diseño sofisticado, a puro glamour y elegantemente brillante e intenso. Su ergonómica forma te dará la posibilidad de estimularte de manera completa y además podrás utilizarlo desde su control remoto inalámbrico. • Estimulador de clítoris y Punto G, con control remoto. ----- • 8 ritmos diferentes de vibración.Botones + y - para regular la intensidad de vibración. • Diseño: piedra cristal. • Longitud total: 13.6 cm.Longitud insertable: 7.7 cm. • Peso: 150 gr. • Tiempo de carga: aprox. 3.5 hs. • Tiempo de uso aprox. 50 m. • Recargable.Incluye cable de carga. • Impermeable.No sumergible.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/strap on 2.jpeg",
@@ -808,7 +808,7 @@ const Products = [
         descripcion: "Ideal para pegging o penetración que no involucre un pene, su diseño permite que la pareja inserte el extremo más pequeño por vía vaginal y lo sostenga con sus músculos pubocoxígeos o agregue un arnés para soporte adicional. Cada extremo de este consolador doble ingeniosamente diseñado tiene la forma para un placer óptimo. El eje liso presenta una punta redondeada para su fácil inserción y una almohadilla estriada para la estimulación del clítoris. Ambos extremos presentan curvas que apuntan al punto G o al punto P para una estimulación directa. El eje largo es cómodo y su diseño curvo es ideal  para masajear a su pareja. Adecuado para principiantes y avanzados.",
         categoria: "vibradores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------DISFRACES
@@ -822,7 +822,7 @@ const Products = [
         descripcion: "marca malena",
         categoria: "disfraces",
         stock: "0",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1823", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -833,7 +833,7 @@ const Products = [
         descripcion: "Disfraz de diablita. incluye ----- less ----- capa ----- cuernitos ----- pollera y top ----- guantes",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1824", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -844,7 +844,7 @@ const Products = [
         descripcion: "",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1825", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -855,7 +855,7 @@ const Products = [
         descripcion: "INCLUYE: ----- Cofia -----  Mitones ----- Top regulable ----- Mini regulable ----- Less regulable",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1918", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -866,7 +866,7 @@ const Products = [
         descripcion: "Conjunto de 4 (cuatro) piezas: ----- Vestido con pollerita y cuello de diabla + colita y detalles de tul ----- Cuernitos de espuma forrados en rojo con vincha plástica ----- Talle único regulable.",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1919", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -877,7 +877,7 @@ const Products = [
         descripcion: "Disfraz sexy de Caperucita ----- Compuesto por: ----- Body trikini con sobrefalda ----- Caperuza roja ----- NO INCLUYE MEDIAS ----- Talle único con múltiples ajustes que abarca S, M y L",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1920", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -888,7 +888,7 @@ const Products = [
         descripcion: "Top tiras regulables ----- Colitas para el pelo ----- Pollerita tiras regulables ----- Tanga incorporada",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1923", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -899,7 +899,7 @@ const Products = [
         descripcion: "Conjunto de 4 (cuatro) piezas: ----- Vincha roja de tela con estrella dorada. ----- Corpiño rojo ajustable al cuello y la espalda. ----- 2 brazaletes rojos. ----- Culotte azul con estrellas doradas y 2 tiras rojas a los costados para un mejor ajuste. ",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1924", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -910,7 +910,7 @@ const Products = [
         descripcion: "Compuesto por: -----  Vestido cuadrillé rosa con moño ----- Colaless con tutú ----- Cuellito BB ----- Chupete ----- Colitas para el pelo ",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1925", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -921,7 +921,7 @@ const Products = [
         descripcion: "",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1927", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -932,7 +932,7 @@ const Products = [
         descripcion: "",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1928", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -943,7 +943,7 @@ const Products = [
         descripcion: "Disfraz de secretaria sexy, de 3 piezas ----- Top, Pollera, Corbata. ----- Talle único con múltiples ajustes.",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1930", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -954,7 +954,7 @@ const Products = [
         descripcion: "",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1931", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -965,7 +965,7 @@ const Products = [
         descripcion: "Complace tu fantasía con Candy Lips Contenido: Vincha. Blusa. Guantes. Pollera. Talle ajustable del S al L",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1932", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -976,7 +976,7 @@ const Products = [
         descripcion: "Conjunto de 3 (tres) piezas: ----- Vestido con faldita de cuadros rojos y corpiño blanco. -----  Cuellito blanco con mini corbata -----  2 coletas para el cabello. ----- Talle único regulable. (Ideal para talles grandes)",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1933", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -987,7 +987,7 @@ const Products = [
         descripcion: "",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1934", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -998,7 +998,7 @@ const Products = [
         descripcion: "Disfraz de Bebota ----- Compuesto por: ----- Culotte con cintas laterales ----- Corpiño con cuellito BB ----- Colitas para el pelo ----- Medias bucaneras lisas, sin moños ----- Talle único con múltiples ajustes que abarca S, M y L",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1932", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1009,7 +1009,7 @@ const Products = [
         descripcion: "Talle único. El corpiño abarca del 85 al 95 máximo de busto aproximadamente -----  La pollera abarca hasta un 42/44 aprox (Se ata atras) -----  El top tiene el pecho cruzado -----  Incluye: todo lo de la foto",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1937", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1020,7 +1020,7 @@ const Products = [
         descripcion: "",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2137", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1031,7 +1031,7 @@ const Products = [
         descripcion: "El traje Se compone de 2 piezas: ----- 1 Top blanco y azul, con estampa numero 10 y logo amarillo ----- 1 minifalda súper ajustada para marcar bien tus líneas femeninas",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2140", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1042,7 +1042,7 @@ const Products = [
         descripcion: "Conjunto de 4 (Cuatro) piezas: ----- ----- Trikini combinado en blanco y negro con detalles de boleritos en el vientre y la mini falda. (Incluye colaless) ----- 2 puños en peluche blanco. ----- Vincha con orejas blancas. ----- Cuello blanco con moño, se ajusta a las tiras principales del trikini.",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2142", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1053,7 +1053,7 @@ const Products = [
         descripcion: "Compuesto por: ----- ----- Corpiño Daddy's Lil Monster ----- Culotte con cintas laterales ----- Colitas para el pelo ----- Medias panty de red ----- Talle único con múltiples ajustes que abarca S, M y L ",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2143", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1064,7 +1064,7 @@ const Products = [
         descripcion: "Conjunto de 4 (cuatro) piezas: ----- Vestido con rojo y blanco con cuello y moño negro ----- 2 brazaletes ----- Gorrito ----- Talle Grande ----- Talle único regulable.",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2144", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1075,7 +1075,7 @@ const Products = [
         descripcion: "",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2147", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1086,7 +1086,7 @@ const Products = [
         descripcion: "El traje Se compone de 5 piezas: ----- Top blanco y azul con mangas, diseñado con un escote de escándalo en el pecho y la espalda rematado por un elegante lazo negro. -----Una minifalda súper ajustada para marcar bien tus líneas femeninas ----- Colaless a juego azul y blanco ----- 2 lacitos a juegos para atar en cualquier parte del cuerpo ----- Medias Blancas de red ",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/disfraz/Disfraz de Colegiala Sexy Free Tax Line de Pasionel.jpg",
@@ -1096,7 +1096,7 @@ const Products = [
         descripcion: "Conjunto de 3 (tres) piezas: ----- Top ajustable en negro con mini corbata en el centro. ----- Pollerita cuadrillé ajustable. ----- 2 cintas para el pelo. ----- Talle único regulable. ",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2340", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1107,7 +1107,7 @@ const Products = [
         descripcion: "Este disfraz de diablita es ideal para ser la más sexy. Con el conjunto ardiente de Malena que incorpora cuernos y cola atraerás todas las miradas, ya que su body ajustado y las medias con encaje no dejan indiferente a nadie.No cabe ninguna duda de que su diseño es de lo más original para esos momentos acalorados. -----  Conjunto de 2(dos) piezas: -----  Body rojo multitalle con cola de diablo. -----  Diadema roja. -----  Talle único regulable.",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2341", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1118,7 +1118,7 @@ const Products = [
         descripcion: "Este disfraz de gatúbela se compone de 3 piezas, el body con los guantes con el antifaz te darán un aspecto irresistiblemente sexy.  ----- El conjunto tiene 3 piezas: ----- Body negro ajustable en top y tanga. ----- Guantes negros. ----- Antifaz negro.",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2342", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1129,7 +1129,7 @@ const Products = [
         descripcion: "El disfraz de marinera es un kit súper sensual para que cumplas tus fantasías mas íntimas. Compuesto por un corpiño de rayas negras y blancas con moño, 1 culotte negro con cintas rojas para ajustar a los costados, y una linda gorra blanca con la inconfundible marca del ancla. Rompe la rutina con una experiencia que sacará a flote tus mas preciosos encantos. ----- Disfraz de Marina incluye 3(tres piezas): ----- 1 corpiño ajustable de rayas negras y blancas con moño rojo en el centro. ----- 1 culotte azul ----- 1 gorra blanca",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2344", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1140,7 +1140,7 @@ const Products = [
         descripcion: "*Disfraz Presa Super Sexy Incluye: -----  Gorro. -----  Gargantilla -----  Soutien Regulable -----  Esposas de Tela. ----- Pollerita Regulable con Colaless Incorporada. ----- NO INCLUYE MEDIAS.",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2345", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1151,7 +1151,7 @@ const Products = [
         descripcion: "Talla única: se adapta a tu cuerpo  ----- El conjunto tiene 3(tres) piezas: ----- Baby doll ajustable con encaje negro. ----- Portaligas de encaje negro. ----- Bombacha de encaje.",
         categoria: "disfraces",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------FUNDAS
@@ -1165,7 +1165,7 @@ const Products = [
         descripcion: "¿Deseas un poco más de tamaño de la forma más cómoda posible? ¡Entonces esto es exactamente lo que necesitas! La funda está diseñada para alargar y engrosar el cuerpo del pene. Eso sí, para poder utilizar una funda se debe tener una erección firme, porque la misma se colocará como un guante sobre el pene. ----- Características • Material TPE. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • Diseño Ergonómico. • Textura venosa. • Realística.",
         categoria: "fundas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1704", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1176,7 +1176,7 @@ const Products = [
         descripcion: "Funda peneana de silicona, flexible, texturada, adaptable, hueca para colocar el pene adentro, extensora hasta 5cm de longitud • higiene agua y jabon • medidas: 19, 5 x 4, 2cm aprox",
         categoria: "fundas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1684", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1187,7 +1187,7 @@ const Products = [
         descripcion: "La funda está diseñada para alargar  y engrosar el cuerpo del pene. Tiene un contorno que proporciona una estimulación óptima y gracias al anillo para testículos se mantendrá en su lugar. ¡Ni siquiera sus mejores movimientos podrán hacer que se suelte! A esta funda se le agrego una bullet de vibración para auto estimularse y estimular clítoris por medio del roce en la penetración. Eso sí, para poder utilizar una funda se debe tener una erección firme, porque la misma se colocará como un guante sobre el pene. Características • Material TPE + -ABS. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • Textura venosa. • Realística. • Bullet  1 vibración. 3 pilas LR44, no incluidas. • Sumergible. • Usar lubricante a base de agua sobre la superficie de la funda. -----    Medidas: 21 cm x 9.6 cm x 6.5cm.",
         categoria: "fundas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------VELAS
@@ -1200,7 +1200,7 @@ const Products = [
         descripcion: "Vela para masajes Desire, formulada con Aceite de Coco. Al prenderla y dejarla fundir se transforma en un delicado aceite para masajes. La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Una rica combinación de aceites naturales. Encendé la vela y dejá que unos minutos para que se derrita el aceite. Aplicá unas gotas sobre tu cuerpo o el de tu pareja. Dejá volar la imaginación y masajeá sensualmente.  CONTIENE: 15grs ",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/vainilla sweet 15gr.jpg",
@@ -1210,7 +1210,7 @@ const Products = [
         descripcion: " Modo de uso:  Encendé la vela y dejá que unos minutos para que se derrita el aceite. Aplicá unas gotas sobre tu cuerpo o el de tu pareja. Dejá volar la imaginación y masajeá sensualmente Contenido 15g Fragancia a vainilla Ficha técnica. Sabor y Aroma: Vainilla y Coco",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/mon amour intense 30gr 2.webp",
@@ -1220,7 +1220,7 @@ const Products = [
         descripcion: "La vela para masajes está formulada con aceite de soja y jojoba, componentes de propiedades emolientes y tonificantes. Al prenderlas y dejarla fundir en su totalidad se transforma en un aceite tibio de masajes que se vuelca sobre tu piel para permitir un delicado y sumamente tibio masaje. Contenido: 30grs",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/st massage candle mango y maracuya.webp",
@@ -1230,7 +1230,7 @@ const Products = [
         descripcion: "La vela se derrite convirtiéndose en un tibio aceite para masajes. Se encuentra elaborada con una rica combinación de aceites naturales y vitaminas que suavizan y nutren la piel. Un blend de frutas tropicales de aroma muy suave y sedoso. Encendé...Prende la vela y deja unos minutos para que se derrita el aceite. Aplicá unas gotitas sobre tu cuerpo o el de tu pareja. Masajeá...Dejá volar la imaginación y masajeá sensualmente. Contenido: 30grs",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/be aphrodisiac 15gr.jpg",
@@ -1240,7 +1240,7 @@ const Products = [
         descripcion: "La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Se encuentra elaborada con una rica combinación de aceites naturales y vitaminas que suavizan y nutren la piel. La combinación de sus aceites esenciales despierta el lado más sensual de la piel.Desarrollado para que tome la temperatura ideal que necesita tu cuerpo, creando un profundo relax y estimulando tus sentidos. Contenido: 15grs",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/body souffle sexitive 15gr.jpg",
@@ -1250,7 +1250,7 @@ const Products = [
         descripcion: "Formulada con los mejores componentes del coco, la vela para masajes será el mejor aliado para una intensa sesión de masajes con propiedades emolientes y tonificantes. Enciéndela y déjala fundir en su totalidad para que se transforme en un exquisito aceite tibio para masajes que se aplica sobre la piel y te dará una sensación muy delicada y sumamente placentera. Enciende la vela y pasados unos 8 minutos ya la puedes usar para dar tu masaje especial.            Contenido 15g Vela para Masajes eroticos",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/body souffle sexitive 30gr.jpg",
@@ -1260,7 +1260,7 @@ const Products = [
         descripcion: "Formulada con los mejores componentes del coco, la vela para masajes será el mejor aliado para una intensa sesión de masajes con propiedades emolientes y tonificantes. Enciéndela y déjala fundir en su totalidad para que se transforme en un exquisito aceite tibio para masajes que se aplica sobre la piel y te dará una sensación muy delicada y sumamente placentera. Enciende la vela y pasados unos 8 minutos ya la puedes usar para dar tu masaje especial.            Contenido 30g - Vela para Masajes eroticos",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/desire coconut scented candle 30gr.jpg",
@@ -1270,7 +1270,7 @@ const Products = [
         descripcion: "Massage Candle. La vela se derrite convirtiéndose en un tibio aceite para masajes sedosos. Una rica combinación de aceites naturales. ----- Encendé la vela y dejá que unos minutos para que se derrita el aceite. ----- Aplicá unas gotas sobre tu cuerpo o el de tu pareja. ----- Dejá volar la imaginación y masajeá sensualmente.Voilá! ----- Contenido: 30grs",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/crazy girl 30gr.webp",
@@ -1280,7 +1280,7 @@ const Products = [
         descripcion: "Vela corporal para masajes, sensacion calida, deslizante,humecta,suaviza la piel, disfrutar en pareja del agradable aroma a jojoba y soja, prolongar el juego previo  se enciende la vela, a medida que se derrite se coloca en las manos, para distribuir sobre el cuerpo ----- contenido: x 30grs",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/Vela Perfumada Vainilla Sweet 30grs Sexitive.jpg",
@@ -1290,7 +1290,7 @@ const Products = [
         descripcion: "La vela para Masajes tibios Vainilla Coconut está formulada con aceite de soja y jojoba, componentes de propiedades emolientes y tonificantes. Descubrí un dulce mundo de  vainilla y coco ydejate seducir por los perfumes. Al derretirla y esparcirla sobre tu cuerpo o el de tu pareja, su delicioso aroma y textura suave te transportan a la mejor sesión de masajes de tu vida, relajando tu cuerpo y dejando tu piel suave e hidratada. ----- contenido: x 30grs",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/st massage candle mango y maracuya.webp",
@@ -1300,7 +1300,7 @@ const Products = [
         descripcion: "Vela corporal, pensada para masajes, sensacion calida, con agradable aroma afrodisisaco a maracuya y mango, para disfrutar en pareja de una previa prolongada, aumentar las sensaciones, despertar los sentidos ----- contenido: x 30grs",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/velas/st massage candle frutos del bosque.jpg",
@@ -1310,7 +1310,7 @@ const Products = [
         descripcion: "Velas para masajes Modo de Uso: Encender la vela y dejar fundir en el frasco. Apaguelo y viértalo sobre el cuerpo. El punto de fusión de las velas es solamente unos grados encima de la temperatura del cuerpo. Las velas derretidas se sienten tibias en la piel y tiene exquisitos aromas.Cantidad: 60cc. -----  Aroma: Frutos del Bosque.",
         categoria: "Velas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //----------------------------------------------------------------LUBRICANTES
@@ -1324,7 +1324,7 @@ const Products = [
         descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco. ----- Cantidad: 120cc.",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1651", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1335,7 +1335,7 @@ const Products = [
         descripcion: "Gel lubricante estimulante saborizado compuesto a base de agua, diseñado con delicioso sabor y aroma a maracuyá. Ideal para sumar los sentidos del olfato y el gusto en el juego sexual.Ideal también para usar en el sexo oral. Su poder estimulante es gracias a la arginina, un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, estiren y respondan al estímulo con capacidad vasodilatadora, aumentando la irrigación sanguínea en la zona utilizada. Especialmente formulado para un mayor disfrute de las sensaciones durante la relación sexual, aumentando la excitación y especialmente la sensibilidad del clítoris, facilitando los orgasmos y haciéndolos más intensos. Compatible con preservativos y sex toys. -----  120cc de contenido.",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1652", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1346,7 +1346,7 @@ const Products = [
         descripcion: "Gel lubricante retardante 120cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera. ----- 120cc de contenido.",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1653", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1357,7 +1357,7 @@ const Products = [
         descripcion: " Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. ----- Cantidad: 120cc. ",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1654", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1368,7 +1368,7 @@ const Products = [
         descripcion: "Gel Lubricante Intimo Butt Gel lubricante íntimo anal  Base acuosa. Compatible con preservativos y sextoys ----- Cantidad: 120cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1655", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1379,7 +1379,7 @@ const Products = [
         descripcion: "Lubricante de base acuosa sabor frutilla con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1656", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1390,7 +1390,7 @@ const Products = [
         descripcion: "Lubricante de base acuosa sabor frutilla con arginina 120cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys. ----- Cantidad: 120cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1657", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1401,7 +1401,7 @@ const Products = [
         descripcion: "Los geles íntimos estimulantes de hombre poseen Arginina en su fórmula. La Arginina es un aminoácido natural que ayuda a mejorar la sensibilidad de la zona íntima, permite que los tejidos se agranden, se estiren y respondan al estímulo con capacidad vasodilatadora aumentando la irrigación sanguínea en la zona utilizada. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1658", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1412,7 +1412,7 @@ const Products = [
         descripcion: "Lubricante de base acuosa sabor maracuya con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1659", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1423,7 +1423,7 @@ const Products = [
         descripcion: "",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1660", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1434,7 +1434,7 @@ const Products = [
         descripcion: "Creado exclusivamente con extractos naturales, propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. - Evita la lesion dermica por friccion. - Disminuye la probabilidad de dolor. - Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1661", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1445,7 +1445,7 @@ const Products = [
         descripcion: "Si las experiencias sexuales con penetración te están resultando algo molestas, es más que probable que tengas un problema de lubricación. Productos como Woman  proporcionan una lubricación íntima muy natural para que puedas seguir disfrutando del sexo de un modo mucho más seguro y placentero. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1662", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1456,7 +1456,7 @@ const Products = [
         descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1663", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1467,7 +1467,7 @@ const Products = [
         descripcion: "Gel lubricante retardante 60cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1664", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1478,7 +1478,7 @@ const Products = [
         descripcion: "Lubricante de base acuosa con efecto Calor. Genera calor al ser aplicado, frotado o soplado, ideal para el momento previo a la acción. Aroma a Coco. ----- Cantidad: 60cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1782", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1490,7 +1490,7 @@ const Products = [
         descripcion: "Aceite Love Potion Frutos Rojos. Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. ----- Contenido: 30 ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2349", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1502,7 +1502,7 @@ const Products = [
         descripcion: "Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. Compatible con latéx. Sabor a Menta. ----- Contenido: 15gr.",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2045", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1514,7 +1514,7 @@ const Products = [
         descripcion: "Sácale provecho a todas las ventajas de la cosmética erótica e incluye aceites de masaje en tus juegos de pareja. Son un modo muy sencillo y sensual de incrementar el potencial estimulador de tus caricias. Aparte de la textura suave que proporciona el love potion, puedes sacarle mucho partido si le brindas a tu pareja una previa muy sensual y placentera. Todo tu cuerpo está a punto de experimentar un escalofrío de placer que lo recorrerá de los pies a la cabeza.La calidez de este aceite de masaje con aroma y sabor a banana no sólo se deja notar en el lugar en el que lo aplicas sino que se transmite por todo tu cuerpo como una oleada de excitación ---- Contenido: 15gr.",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2047", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1525,7 +1525,7 @@ const Products = [
         descripcion: "",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         //SKU: "2011", TAMBIEN PUEDE SER ESTE SKU, HAY DOBLE
@@ -1537,7 +1537,7 @@ const Products = [
         descripcion: "Crema Íntima Anal The Wild Boys Relajante Desarrollado para relajar los músculos sin perder sensibilidad. La calendula contiene propiedades regenerativas, suaviza e hidrata. Ideal para utilizarlo con juguetes sexuales. Instrucciones de uso: aplica la cantidad de crema gel que quieras en las partes del cuerpo deseadas. Perfecto para lubricación y masajes anales. Ideal para utilizarlo con juguetes sexuales Cont.Neto: 200grs",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2051", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1548,7 +1548,7 @@ const Products = [
         descripcion: "La sensibilidad y la dureza de tus erecciones van a determinar el placer que sientes durante tus relaciones sexuales. Si quieres potenciar esa capacidad de una manera prácticamente inmediata, la crema tonificante the Wild Boys te resultará muy útil. Es un producto elaborado a base de extractos naturales como el mentol y la paprika que ayudan al desarrollo de los tejidos del pene y a darle firmeza al miembro para gozar de erecciones más fuertes y duraderas, junto a orgasmos más intensos y explosivos. Cont.Neto: 200g",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2052", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1559,7 +1559,7 @@ const Products = [
         descripcion: "Gel lubricante íntimo vegano con jojoba y caléndula. Fórmula desarrollada con componentes libres de parabenos y sin testeo en animales. Sumamos jojoba que tiene propiedades muy potentes para hidratación y es antioxidante, además de caléndula que es regenerativa. ----- Apto celíaco, Sin TACC ----- Sin Parabenos -----Cruelty Free ----- No mancha la ropa. ----- Es hidrosoluble, compatible con el uso de preservativos ----- Cont.Neto: 50ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.jpg",
@@ -1569,7 +1569,7 @@ const Products = [
         descripcion: "Crea una sensación única de vibración y placer en el clítoris. Comienza como un suave hormigueo, seguido de un calor que se convierte en un resplandor envolvente. Esta sensación se extiende más allá del clítoris e incluso se puede sentir en los labios y en la entrada vaginal. Luego viene una fuerte sensación de hormigueo acompañada con una sensación de apretamiento creando una experiencia sexual completamente nueva e intensa... Este Estimulante de Clítoris, como la mayoría de nuestros productos podes utilizarlos sola o en pareja, recordá que con solo una gota alcanzará todo su efecto, es por ello que te rendirá para muchas veladas de amor  ----- Cont.Neto: 15ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2058", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1581,7 +1581,7 @@ const Products = [
         descripcion: "Tus caricias ahora serán más dulces que nunca gracias a la sensual combinación de fragancias de este Mini Aceite Comestible Love Potion, experimenta el placer máximo en la estimulación piel con piel o mejor aún labios con piel. El Mini Aceite Comestible Love Potion Frutilla tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato. ----- Cont.Neto: 15ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2150", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1592,7 +1592,7 @@ const Products = [
         descripcion: "es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de la eyaculación. Genera un efecto agradablemente refrescante tanto en el hombre como en la mujer. También puede utilizarse para sexo oral debido a sus componentes y su agradable sabor y aroma a mentol. Se trata de un producto formulado con ingredientes naturales, que es seguro y no agresivo, no es pegajoso y se absorbe rápidamente en la piel después de su aplicación.----- Producto: Gel con Efecto ----- Contenido: 50 ml. ----- Características: Efecto Frío y Retardante",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2151", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1603,7 +1603,7 @@ const Products = [
         descripcion: "Ideado especialmente para una lubricación de muy larga duracion. Con extractos de Jojoba de alta concentración que relajan y hacen que la piel sea suave y sedosa. Así, el juego anal se puede disfrutar sin dolor, mientras que los juguetes más grandes pueden proporcionar más diversión. Tacto Suave, contiene Jojoba & Manzanilla. ----- Contenido: 130gr",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2153", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1614,7 +1614,7 @@ const Products = [
         descripcion: "Crema lubricante y humectante diseñada para otorgar una mayor fluidez y deslizamiento, y genera una lubricación prolongada. Aumenta la lubricación y logra la distensión de esta zona, permitiendo así alcanzar un pleno disfrute debido a su exclusiva formula natural. Creado exclusivamente con extractos naturales, componentes con propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. ----- Contenido: 125 ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2157", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1625,7 +1625,7 @@ const Products = [
         descripcion: "Formulado para piel sensible. Todo el extracto natural de Bisabolol de la planta de manzanilla lo convierte en el lubricante de silicona vegetal perfecto para relajar el sexo anal. Se ha utilizado durante cientos de años en remedios para la piel debido a sus propiedades curativas y relajantes musculares. El bisabolol tiene propiedades antiirritantes, antiinflamatorias y antimicrobianas. Contiene vitamenina E. ----- Cont.neto: 75ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2158", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1637,7 +1637,7 @@ const Products = [
         descripcion: "El Mini Aceite Comestible Love Potion Champagne y Frambuesa tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato.Tendrás una piel bien hidratada y sensible al mínimo roce para disfrutar más de tus encuentros sexuales en pareja. 15gr ----- Sabor: Champagne Frambuesa",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2159", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1649,7 +1649,7 @@ const Products = [
         descripcion: "DELICIOSO ACEITE SABORIZADO Y TOTALMENTE COMESTIBLE PARA SABOREAR EN LA PIEL Y ESTIMULAR LA PASIÓN. ----- Elaborado a base de agua cristalina, ingredientes naturales y materia prima hipoalergénica premium. ----- Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. ----- Su textura permite utilizarlo para masajes y también como lubricante íntimo ya que aumenta el nivel de placer, creando sensación de calor al contacto con la piel.  15gr",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/lubricantes/Prime Gel Natural Mixta 22grs.jpg",
@@ -1659,7 +1659,7 @@ const Products = [
         descripcion: "Formulado Con Aloe Vera Y Caléndula, Provee Una Lubricación Superior Porque Permite Una Hidratación Inmediata Y Prolongada Haciendo De Tu Encuentro Una Experiencia Más Placentera. A Base De Agua. No Afecta El Látex. No Mancha. 22grs",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     /*{
         image: "img/lubricantes/PRIME gel TOUCH AFRODISIACO X 200ML.jpg",
@@ -1669,7 +1669,7 @@ const Products = [
         descripcion: "Gel sensual & masaje Prime Touch 2 en 1. Se trata de un gel doblemente eficaz, ya que puede ser aplicado como gel íntimo y/o mediante masajes en todo el cuerpo. 200 ml ",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         SKU: "2251", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1680,7 +1680,7 @@ const Products = [
         descripcion: "Diseñado para una experiencia distinta, el gel Lado B Maxx es recomendable para uso anal. Sus principales componentes son el aloe vera y extracto de jojoba, que proporcionan una lubricación y relajación duradera de la zona intima, facilitando la penetración. ----- Cont.neto: 30grs",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2279", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1691,7 +1691,7 @@ const Products = [
         descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys. ----- Cont.neto: 120cc",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.webp",
@@ -1701,7 +1701,7 @@ const Products = [
         descripcion: "Encendé tu pasión con la sensación cálida que te ofrece hot pleasure. Este gel íntimo eleva la sensación de temperatura y se siente sedoso y suave. Ideal para realizar caricias estimulantes y hacer de tu encuentro una experiencia diferente. No afecta el látex. No mancha. ----- Cont.neto: 22grs",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/lubricantes/Prime Gel Natural Excite 22grs.jpg",
@@ -1711,7 +1711,7 @@ const Products = [
         descripcion: "Gel PRIME EXCITE está diseñado para intensificar el orgasmo femenino, maximizar el placer y la experiencia sexual. Está desarrollado con el componente L- arginina que actúa como vasodilatador e incrementa la sensibilidad genital para potenciar el placer. ----- Cont.neto: 22grs",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/lubricantes/Prime Gel Touch Original 200ml.jpg",
@@ -1721,7 +1721,7 @@ const Products = [
         descripcion: "Gel sensual & masaje Prime Touch 2 en 1. Se trata de un gel doblemente eficaz, ya que puede ser aplicado como gel íntimo y/o mediante masajes en todo el cuerpo. ----- Cont.neto: 200 ml ",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2354", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1732,7 +1732,7 @@ const Products = [
         descripcion: "Es un gel lubricante con L-Arginina, un aminoácido de origen natural con capacidad vasodilatadora, especialmente formulado para aumentar la excitación y sensibilidad del clítoris facilitando orgasmos más intensos más rápido. Básicamente, lo que hace es que los vasos sanguíneos localizados en clítoris se dilaten mejorando el flujo sanguíneo hacia la zona genital propiciando la excitación.Favorece la lubricación natural y la sensibilidad en toda la zona. Un combo totalmente solicitados por todas. Este gel crea una sensación de calor en la piel que aumenta de forma inmediata la sensibilidad intensificando las sensaciones. ----- Cont.neto: 50ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2355", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1743,7 +1743,7 @@ const Products = [
         descripcion: "",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2356", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1754,7 +1754,7 @@ const Products = [
         descripcion: "Gel Lubricante efecto frío para relaciones más prolongadas y placenteras. Es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de eyaculación . RETRASA LA EYACULACIÓN, ACTÚA RAPIDAMENTE, MEJORA LAS RELACIONES SEXUALES, AYUDA A DISFRUTAR MÁS DEL SEXO, SIN EFECTOS SECUNDARIOS, ----- Cont.Neto: 130ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     /*{
         image: "img/lubricantes/gel diabolico fisting extremo anal 500ml.jpg",
@@ -1764,7 +1764,7 @@ const Products = [
         descripcion: "",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         SKU: "2396", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1775,7 +1775,7 @@ const Products = [
         descripcion: "Gel lubricante íntimo facilitador del orgasmo femenino. L- Arginina es un aminoácido que aumenta la circulación sanguínea de la zona, brindando mayor sensibilidad en la mujer.El Ginseng potencia el efecto que produce la L - Arginina, aumentando la excitación. ------ Beneficios: Orgasmos más rápidos y más intensos, No altera el PH vaginal, No mancha, no deja residuos, es inoloro, Es hidrosoluble, compatible con el uso de preservativos. ----- Cont.Neto: 50ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2398", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1786,7 +1786,7 @@ const Products = [
         descripcion: "Cremagel lubricante íntimo anal. Formulado con SILICONA HIBRIDA HIDROSOLUBLE, que mantiene la lubricación por mas tiempo. Diseñado para generar una textura sedosa. Al aplicarlo, la gota tiene aspecto de crema y cuando se extiende posee las características del gel. Pensado para relaciones anales, sumamos a la formula CARDAMOMO y CLAVO de OLOR, que por sus propiedades naturales relajan y protegen la piel. Combina las características humectantes del gel, sumadas a la sedosidad de la crema y la silicona ----- Cont.Neto: 50ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/lubricantes/pouch oh yes! crema orgasmica estimulacion.png",
@@ -1796,7 +1796,7 @@ const Products = [
         descripcion: "Con tan solo un poco de crema sobre tu zona genital sentirás como se intensifica cada caricia, roce, beso y juego sexual que puedas imaginar. Multiplicando tu placer, lubricación, deseo e incrementando el grado de goce en momentos de clímax. Ya sea a solas o en pareja, sin duda esta en una crema mágica para experiencias y juegos que no podes dejar pasar. ¡Disfruta de los orgasmos más potentes! Intensifica los orgasmos, Mayor Excitación, Mejora la lubricación ----- Cont.Neto: 10ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/lubricantes/Pouch Oh Yes! Lubricante Revujenation.png",
@@ -1806,7 +1806,7 @@ const Products = [
         descripcion: "Gel-crema para el rejuvenecimiento de la zona íntima. Debido a la presencia de aceites naturales, Caléndula y Vitamina E, ejerce una notable acción tonificante y reafirmante.CON ACEITES NATURALES, CALÉNDULA Y VITAMINA E. Lubricante e hidratante que ayuda con la sequedad vaginal. Restaura la hidratación íntima, imitando la lubricación natural. Restaura la hidratación íntima, imitando la lubricación natural.El gel crema íntimo de Sexitive proporciona una fuerte acción hidratante y reafirmante sobre la zona vulvo- vaginal gracias a la Caléndula, Vitamina E y mezcla de hidratantes, protegiendo la zona vaginal. ----- Cont.Neto: 10ml",
         categoria: "Lubricantes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //----------------------------------------------------------------LIMPIADORES DE JUGUETES
@@ -1820,7 +1820,7 @@ const Products = [
         descripcion: "",
         categoria: "Limpiadores-de-juguetes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1779", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1831,7 +1831,7 @@ const Products = [
         descripcion: "",
         categoria: "Limpiadores-de-juguetes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1780", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1842,7 +1842,7 @@ const Products = [
         descripcion: "",
         categoria: "Limpiadores-de-juguetes",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------BOLAS KEGEL
@@ -1856,7 +1856,7 @@ const Products = [
         descripcion: "Mejora tu control vaginal con la increíble Bola Kegel de Sex Therapy. Ayudan a fortalecer los músculos pélvicos para experimentar orgasmos más intensos, y contribuyen a recuperar la sensibilidad vaginal tras dar a luz o por prescripción médica. Gracias a su forma alargada y ovalada es más fácil su inserción. ----- Medidas : 3, 5 cmx 15, 5 cm(cordón incluido), Material: Silicona Premiun, libre de Ftalatos, olor y tóxicos.",
         categoria: "Kegel",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/KEGEL/Smart Love Balls Blue.jpg",
@@ -1866,7 +1866,7 @@ const Products = [
         descripcion: "Descripción 100% nuevos juguetes sexuales femeninos Forma popular para el placer Cordón para una fácil extracción Fortalece los músculos de Kegel para un control mejor y más estricto Perfecto para mujeres que sufren de incontinencia y después de dar a luz Dale un buen entrenamiento a tu suelo pélvico Aumenta la fuerza de tu Material: silicona",
         categoria: "Kegel",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1698", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1877,7 +1877,7 @@ const Products = [
         descripcion: "Las bolas vaginales están diseñadas para fortalecer y tonificar la musculatura del suelo pélvico. Poseen unas pequeñas esferas en su interior para ayudar a la contracción del músculo y otorgarles peso. Las bolitas internas, con el movimiento del cuerpo al andar generan vibraciones que hacen reaccionar la musculatura pélvica con suaves contracciones. Un hábito sencillo y eficaz contra las pequeñas perdidas de orina y a mantener la juventud de la zona íntima femenina. Ginecólgos y terapeutas de todo el mundo recomiendan su uso a personas con vulva de todas las edades para prevenir la aparición de pérdidas leves de orina. ----- Material: Silicona + ABS ----- Colores: Violeta y Rosado. ----- Diámetro: 3, 15 cm. ----- Longitud efectiva: 11, 80 cm. ----- Ancho efectivo 4, 20 cm. ----- Longitud Total: 16, 70 cm. ----- Peso: 38, 8 gr.",
         categoria: "Kegel",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1710", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1888,7 +1888,7 @@ const Products = [
         descripcion: " Bolas vaginales kegel un ejercitador perfectamente con un cordón de fácil recuperación y un cuerpo lujoso que es seguro y sensual a la vez. Hecho de silicona y ABS 14.5 cm INTRODUCIBLE: 3 cm x 6 cm, tendrá todo lo que necesita para obtener exactamente lo que desea. El ejercitador Kegel es tan seguro como gratificante. Encuentra el placer apasionado que deseas y alcanza una satisfacción increíble. Durablemente diseñado, proporciona la cima de la emoción sensual. Recomendaciones de uso: Limpieza con agua y jabón neutro. Es recomendable el uso de lubricantes al agua con este producto. Guardarlo completamente limpio y seco en contenedores de tela preferentemente. ",
         categoria: "Kegel",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/KEGEL/Playballs AG-119.jpeg",
@@ -1898,7 +1898,7 @@ const Products = [
         descripcion: "LAS BOLAS DE KEGEL DE METAL SÓLIDA Y PESADA AYUDAN A TONIFICAR Y TONIFICAR EL SUELO PÉLVICO: estas bolas móviles avanzadas ofrecen una estimulación discreta del punto G a la vez que ofrecen efectos tonificantes extremos para los músculos internos del suelo pélvico. Úselo durante los juegos previos para intensificar las sensaciones. FÁCIL DE USAR Y QUITAR CON CABLE DE RECUPERACIÓN DE SILICONA FUERTE: Inserte una bola a la vez usando abundante lubricante para mayor deslizamiento y comodidad. Un fuerte cordón de nailon conecta las bolas para ejercitar el suelo pélvico, uniéndolas a un gran lazo de metal para los dedos, lo que garantiza que las bolas no se desplacen durante el uso. ",
         categoria: "Kegel",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1961", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1909,7 +1909,7 @@ const Products = [
         descripcion: "Las bolas vaginales están diseñadas para fortalecer y tonificar la musculatura del suelo pélvico. Poseen unas pequeñas esferas en su interior para ayudar a la contracción del músculo y otorgarles peso. Las bolitas internas, con el movimiento del cuerpo al andar generan vibraciones que hacen reaccionar la musculatura pélvica con suaves contracciones. Ginecólogos y terapeutas de todo el mundo recomiendan su uso a mujeres de todas las edades para prevenir la aparición de pérdidas leves de orina. El suelo pélvico es un conjunto de músculos que sostiene toda la parte baja del abdomen, como un arco protector de apoyo para la vejiga de la orina, el útero y la parte inferior del intestino grueso. El ejercicio, evita desprendimientos uterinos, tonificar los músculos del suelo pélvico son es parte importante porque son los responsables de un mayor placer sexual. ",
         categoria: "Kegel",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------JUEGOS
@@ -1922,7 +1922,7 @@ const Products = [
         descripcion: "Presentamos Oh My God de Sexitive, el juego que elevará tus encuentros íntimos a niveles de pasión inimaginables. Consta de dos dados: uno con zonas del cuerpo y otro con acciones sensuales y atrevidas. Prepárate para un juego lleno de emoción, exploración y placer desenfrenado. Oh My God es perfecto para parejas que desean agregar un toque de diversión y excitación a su vida sexual. Con cada lanzamiento de los dados, descubrirás qué zona del cuerpo explorar y qué acción realizar en ella. Desde masajes eróticos hasta besos apasionados, cada combinación te llevará a un mundo de sensaciones intensas y placer compartido.",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1999", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1933,7 +1933,7 @@ const Products = [
         descripcion: "¿CÓMO SE JUEGA? Separá las cartas LUCKY, de las cartas LOVERS. El dado LUCKY LOVERS te indicará cómo fue hechada tu suerte y con qué mazo vas a jugar. El dado NUMÉRICO te indicará con qué carta del mazo vas a jugar. Ya tenés tu carta, el dado SÍMBOLOS te indicará cuál sector vas a raspar para realizar la acción. ----- contiene: 3 dados + 12 cartas ",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/JUEGOS/mini poker xxx edition sexitive.webp",
@@ -1943,7 +1943,7 @@ const Products = [
         descripcion: "Mini Poker XXX Edition Baraja de poker con un twist picante!! Un sexy kamasutra para jugar al poker, donde todos se divierten. Lo mejor es que nadie pierde! Incluye: - 50 Mini cartas de poker con posiciones sexuales",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2002", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1954,7 +1954,7 @@ const Products = [
         descripcion: "Separá las cartas LUCKY, de las cartas LOVERS. El dado LUCKY LOVERS te indicará cómo fue tu suerte y con qué mazo vas a jugar. El dado NUMÉRICO te indicará con qué carta del mazo vas a jugar. Ya tenés tu carta, el dado SÍMBOLOS te indicará cuál sector vas a raspar para realizar la acción. ----- CONTIENE: 3 dados + 12 cartas",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2003", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1965,7 +1965,7 @@ const Products = [
         descripcion: "Kamasutra 50 posiciones sexuales con tips y descripciones. Las 50 posturas sexuales más placenteras. Añade estas posturas de Kamasutra a tu lista de posiciones sexuales habituales e invita a tu pareja a ponerlas en práctica. ¿Te animas a intentarlo ? Este juego contiene cartas con posiciones extraordinarias que van a llevar su pasión a otro extremo.",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/JUEGOS/please-do-not-disturb-juego-de-dados.jpg",
@@ -1975,7 +1975,7 @@ const Products = [
         descripcion: "Los Dados Eróticos Juego Pareja Kamasutra Please! Do Not Disturb son el complemento perfecto para una noche llena de diversión y pasión. Con este juego, podrás explorar nuevas experiencias junto a tu pareja y descubrir nuevas formas de disfrutar el placer. Cada dado cuenta con diferentes posiciones y acciones que podrás combinar para crear un juego lleno de sorpresas y emociones. Solo lanza los dados y déjate llevar por las indicaciones que te marquen. ¡La diversión está garantizada!Con los Dados Eróticos Juego Pareja Kamasutra Please! Do Not Disturb, podrás romper la rutina y explorar nuevas formas de intimidad con tu pareja.Atrévete a probar nuevas posiciones y acciones que te llevarán a alcanzar niveles de placer nunca antes experimentados. No esperes más y adquiere los Dados Eróticos Juego Pareja Kamasutra Please! Do Not Disturb. ¡Descubre una nueva dimensión de placer junto a tu pareja!",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2005", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1986,7 +1986,7 @@ const Products = [
         descripcion: "Kinky Game, 50 actividades fetiches y sexies para parejas. Cada jugador, por turnos, tiene que sacar un fósforo de la cajita al azar y hacer lo que este le indica. El objetivo? Animarse a lo nuevo y crear un sexo mas salvaje. Ideal para prender la pasion de manera explosiva!",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/JUEGOS/on-fire-50-maneras.jpg",
@@ -1996,7 +1996,7 @@ const Products = [
         descripcion: "On Fire, 50 maneras para prenderse fuego Ideal para encender la pasión en una reunión de amigos y elevar la temperatura al máximo! Para + de 3 jugadores",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2007", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2007,7 +2007,7 @@ const Products = [
         descripcion: "Es el juego ideal para aquellas personas que quieran desarrollar su lado experimental y atrevido. Metete en tu personaje y actuá alguna de tus fantasías secretas. Usá la imaginación e improvisación para hacer que los personajes cobren vida. ----- Contiene 80 cartas con ilustraciones. ",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2008", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2018,7 +2018,7 @@ const Products = [
         descripcion: "Let's Fuck Es un juego intimo pensado para dos personas. La comunicación es la base de este juego. Anímense a conocerse y hacer del sexo un momento más íntimo y placentero. Comunicar exactamente lo que queremos conduce a una mayor excitación y satisfacción sexual. En las cartas vas a encontrar desde preguntas y tareas que implican acciones no solo físicas sino habladas. Escucha a tu pareja susurrar, gemir y gritar de placer. ----- COMO JUGAR? Separá las cartas en sus tres categorías: Talk, Hot, Sex Experience. Tirá los dados para saber con cuales de las cartas vas a jugar. Las elegidas te indicarán qué pregunta u oración tenés que leer y responder. Las cartas sex incluyen tips para hablar sucio.",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2009", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2029,7 +2029,7 @@ const Products = [
         descripcion: "6 juegos en 1. Van a encontrar 6 diferentes juegos con diferentes sensaciones. Desde posiciones sexuales para cada día de la semana hasta fantasías que nunca habías escuchado de tu pareja. Opción perfecta para aquellas parejas que quieran divertirse con más de una sola opción.",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/JUEGOS/tarot-erotico.jpg",
@@ -2039,7 +2039,7 @@ const Products = [
         descripcion: "Predice con exactitud el futuro sexual de esta noche. En este juego encontrarás desde posturas de sexo oral increíbles hasta posiciones con juguetes. Contiene 78 posiciones sexuales, 78 oportunidades para brindar y recibir el placer mas intenso. Repartí 10 cartas a tu amante tal como lo haría una vidente y juntos podrán representar la carta que quieren que se haga realidad. Este es un juego para adultos donde todo está permitido pero nada es obligatorio.La confianza, el respeto y el consentimiento mutuo forman la base de este juego. -----  Incluye  - 80 cartas",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2011", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2050,7 +2050,7 @@ const Products = [
         descripcion: "El mejor remedio contra la rutina es la imaginación. Pero si notas que cada vez te cuesta más ser un poquito original en la cama, ¡Te tenemos la solución! Estos dados con posturas sexuales te vendrán genial para recuperar la inspiración. Los juegos eróticos para pareja ayudan a recuperar el interés por el sexo.Cuando notes que la rutina empieza a apoderarse de tu vida sexual echa mano de recursos tan originales como éste.Si eres fan del famoso libro indio del Kamasutra, este es el juego que necesitas. Los dados con posturas sexuales te invitan a descubrir nuevas formas de placer. ¿Estás preparado? Características: ----- 5 Dados con posturas sexuales ----- Ideas originales para tus encuentros íntimos en pareja ----- Solución rápida y sencilla a la hora de tomar decisiones ----- Cantidad: 5 dados",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2012", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2061,7 +2061,7 @@ const Products = [
         descripcion: "Juego de cartas Verdad Desafío Un juego divertido, picante y excitante. Consta de 80 preguntas y retos atrevidos con los que vas a poder divertirte en pareja o con amigos. ----- VERDAD: Respondé de manera honesta, cuanto mas detallada la respuesta, mejor! Si tus compañeros consideran que no estás siendo sincero o si te negás a responder, pasas automaticamente a las cartas de DESAFÍO. ----- DESAFÍO: Atrvete con todo y realizá la acción. Si cumplís el desafío tu turno finalizará con éxito. Pero si te negás a responder vas a tener que tomar un shot de alguna bebida alcohólica. ----- Contiene 80 cartas + 1 dado",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2013", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2072,7 +2072,7 @@ const Products = [
         descripcion: "Este es el juego ideal para el grupo de amigas que quiera tener una noche íntima y divertida, dejando de lado por un rato a los hombres. Los cuatro mazos divididos en Just for Fun, Personal Life, Sex and Relationships e Intimate Mood, harán que una reunión simple y cotidiana sea diferente y alocada. Contiene 80 cartas y 1 dado. ----- OBJETIVO del Juego Ladies Night: Cada jugadora deberá juntar la mayor cantidad de cartas posibles, respondiendo o haciendo lo que las mismas indican. El resto de las mujeres tiene la posibilidad de cuestionar y opinar sobre la respuesta de la jugadora y pueden decidir si se queda con la carta o no.Gana la jugadora que más cartas obtenga.",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2014", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2083,7 +2083,7 @@ const Products = [
         descripcion: "Para aquellas parejas que quieran salir de la cotidianeidad de sus encuentros sexuales y desean estimularlos todos los días. ¿Aguantarás 30 días haciendo juegos sexuales ? Este juego es la oportunidad perfecta para innovar en la intimidad dándole un toque de imaginación a las fantasías ocultas de cada integrante de la pareja, lo cual puede mejorar la relación y comunicación y a descubrir nuevas formas de complacer al otro.",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2015", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2094,7 +2094,7 @@ const Products = [
         descripcion: "LES AMANTS es el juego perfecto para parejas que confían 100% el uno en el otro y buscan aventuras eróticas fuera de lo convencional. Atrevete a jugar con placer. ----- Cómo se juega? Primero separá las cartas Bondage de las Seductions. El dado BONDAGE O SEDUCTIONS te indicará como fue hechada tu suerte y con qué mazo vas a jugar. El dado SÍMBOLOS te indicará con que carta dentro de las seis que tiene BONDAGE O SEDUCTIONS vas a jugar. Por ejemplo: carta BONDAGE, símbolo ON FIRE Ya tenés tu carta, ahora tirá el dado NUMÉRICO que te indicará la acción que deberás hacer. Este es un juego para adultos donde todo esta permitido, pero nada es obligatorio. La confianza y el respeto mutuos forman la base del juego. ----- Contiene: 6 cartas BONDAGE 6 cartas SEDUCTIONS 1 dado numérico 1 dado SEDUCTIONS O BONDAGE. 1 dado con simbolos",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/JUEGOS/sex time game dado + reloj de arena.jpg",
@@ -2104,7 +2104,7 @@ const Products = [
         descripcion: "Incluye reloj de arena + dado con posiciones sexuales. Nueva presentación con un embalaje increíble, vas a amarlo! Te animas a jugar?",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2017", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2115,7 +2115,7 @@ const Products = [
         descripcion: "¿Sabes qué tiene de original esta noche? Que no hay nada escrito. Da igual la idea que tuvieras en mente: las Cartas Sexplay Fetiche o Romance Sexitive transformarán la velada a tu antojo. ¿Cómo se juega ?   1) Separa las cartas fetiches de las romance. 2) El dado rosa FETICHE O ROMANCE te indicará con cual juego de cartas jugarás 3) El dado negro SÍMBOLOS te indicará con que carta dentro de las seis que tiene fetiche o romance vas a jugar.Por ejemplo: carta fetiche, símbolo antifaz. 4) Ya tenés tu carta, ahora tirá el dado NUMÉRICO de corazones que te indicará la acción que deberás hacer. Este es un juego para adultos donde todo está permitido, pero nada es obligatorio.La confianza y el respeto mutuos forman la base del juego. ----- Contiene: 6 cartas romance con acciones ROMÁNTICA, 6 cartas fetiche con acciones FETICHES, 1 dado numérico, 1 dado fetiche o romance, 1 dado con simbolos",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2018", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2126,7 +2126,7 @@ const Products = [
         descripcion: "CÓMO JUGAR: El poseedor/a de los dados realizará la acción en el lugar que le toque en un tiempo determinado. Cada dado tiene 6 variables diferentes! ¡Saca tu lado más atrevido! Podes darle más chispa con productos eróticos, lubricantes y aceites comestibles, o de masaje!",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2019", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2137,7 +2137,7 @@ const Products = [
         descripcion: "Kit de juego de dados love play. Buscas ideas originales y divertidas para sorprender a tu pareja. Este es tu juego ----- CÓMO JUGAR: El poseedor/a de los dados realizará una posición determinada en el lugar asignado con la intensidad que le toque. Podes darle más chispa con productos eróticos, lubricantes y aceites comestibles, o de masaje! ¡Saca tu lado más atrevido! CONTIENE: 1 dado rosa de 16 mm(representa las posiciones a realizar). 1 dado negro de 16 mm(representa la intensidad). 1 dado negro de 16 mm(representa los lugares).",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2020", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2148,7 +2148,7 @@ const Products = [
         descripcion: "Set de cartas ilustradas a color hechas de cartón plastificado, con las posiciones del Kamasutra. El mazo contiene 20 cartas con las distintas posiciones y descripciones. Para aprender y jugar!",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2059", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2159,7 +2159,7 @@ const Products = [
         descripcion: "Permitido sex es un juego erótico diseñado específicamente para parejas o para sus permitidos. Dentro de esta increíble caja vas a encontrar un tablero y cartas con propuestas muy dinámicas y divertidas pero sobre todos calientes. No solo la pasión y sensualidad tiene parte en estos juegos, sino la ventaja de poder conocer mas sobre los gustos y fantasías de tu pareja. Sin dudas ofrece una velada placentera y excitante que siempre termina con algo de diversión al desnudo.",
         categoria: "juegos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------ANAL
@@ -2173,7 +2173,7 @@ const Products = [
         descripcion: "Los dilatadores de diseño exclusivo tienen una curva ergonómica y un tamaño gradual para permitir una dilatación suave. Las sondas de silicona premium tienen un asa para los dedos duradera para una inserción y estimulación suave. El conjunto graduado se ha creado para rejuvenecer los músculos vaginales y reducir las molestias de inserción con cada uso.Use el pequeño dilatador para comenzar y, a medida que ejercita suavemente y aumente la elasticidad de los músculos, avance a la sonda más grande.La silicona premium es segura para el cuerpo, sin perfume y libre de ftalatos para mantener los puntos más sensibles, felices y saludables.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1712", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2185,7 +2185,7 @@ const Products = [
         descripcion: "Este plug anal con diseño texturado y puntiagudo ayuda realmente al ingresar perfectamente en tu cuerpo-. En su parte inferior posee ventosa. Te va a encantar! Adaptable para cualquier tipo de arnés universal. -----  Medidas: 13, 6 cm x 3 cm",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1717", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2196,7 +2196,7 @@ const Products = [
         descripcion: "Estimulador anal de silicona, forma conica, para ayudar a acostubrar o relajar la zona anal, tope seguro, pensado para dejar colocado y seducir con la cola larga extra, colorida de raton ----- Medidas: 21, 5 x 3, 2 x 9, 2cm aprox",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1719", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2207,7 +2207,7 @@ const Products = [
         descripcion: "Los dilatadores de diseño exclusivo tienen una curva ergonómica y un tamaño gradual para permitir una dilatación suave. Las sondas de silicona premium tienen un asa para los dedos duradera para una inserción y estimulación suave. El conjunto graduado se ha creado para rejuvenecer los músculos vaginales y reducir las molestias de inserción con cada uso.Use el pequeño dilatador para comenzar y, a medida que ejercita suavemente y aumente la elasticidad de los músculos, avance a la sonda más grande.La silicona premium es segura para el cuerpo, sin perfume y libre de ftalatos para mantener los puntos más sensibles, felices y saludables.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
 
     {
@@ -2218,7 +2218,7 @@ const Products = [
         descripcion: "Este plug anal de metal está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. Puedes jugar con la temperatura calentándolo o enfriándolo. Esto añadirá excitación en tus fantasías eróticas. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Las colas de diferentes animales y colores es un fetiche muy frecuente, anímate a jugar de otra manera y a sentirte diferente conformando es una estimulante visión sexual. ----- Características: Dilatador anal S. ----- Medidas: longitud 7.5 cm diámetro 2.5cm. -----  Cola simulando Zorro Rosa coral. -----  Aluminio ultra- liso. ----- Pelo sintético. ----- No contiene Níquel. ----- Impermeable. ----- Utilizar lubricante anal a base de agua.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Plug Silicona Blue Large ST.jpg",
@@ -2228,7 +2228,7 @@ const Products = [
         descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Plug Gold Rose Heart Large.jpg",
@@ -2238,7 +2238,7 @@ const Products = [
         descripcion: "Plug anal con engarce en la base emulando una gema en ABS, en forma de corazón. ----- Caracteristicas. Material: aleación de aluminio ultra- liso ----- Longitud: 9, 5cm ----- Diámetro: 4cm ----- Sumergible.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Nicoles Vibra Plug.png",
@@ -2248,7 +2248,7 @@ const Products = [
         descripcion: "El Plug Anal Azul Con Vibrador Nicole's Anal Pleaser Blue es más que un juguete, es una invitación a explorar nuevas formas de placer y a descubrir un mundo de sensaciones que te sorprenderán. No esperes más, añade un toque de emoción a tu vida íntima con este increíble producto.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1753", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2259,7 +2259,7 @@ const Products = [
         descripcion: "De la línea Platinum de Real Skin, llega este inexpulsable con vibrador, muy útil para cuando no se tiene experiencia en la penetración anal. Es ideal para dilatar la zona aunque siempre hay que ser cuidadosxs, y ayudar a que esa dilatación se produzca de la forma más natural posible(paciencia). Su anillo en el extremo, además de brindarnos seguridad, nos ayuda a retirar lentamente el juguete, aumentando aún más, el placer. ----- Medidas aprox: Largo 15cm, Diámetro maximo 3cm, Autonomía: 3 Pilas Botón ----- Recomendamos siempre el uso de lubricantes",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1754", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2271,7 +2271,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Plug Anal Curvo Avispa Violeta.jpg",
@@ -2281,7 +2281,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
@@ -2291,7 +2291,7 @@ const Products = [
         descripcion: "Plug Anal Personal Trainer Piel. Plug mega suave y delicado, ideal para quienes buscan una experiencia memorable. Este dilatador es recomendable para iniciarse en el sexo anal. Es compatible con arnés, por lo que podrás disfrutar de tu juego sexual de otra manera. ----- Su medida es de 10 cm y 4 cm de diámetro.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/plug inexpulsable penetrador anal caiman.jpg",
@@ -2301,7 +2301,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Plug Anal Mediano Natural 00-124-21.jpg",
@@ -2311,7 +2311,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1773", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2323,7 +2323,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1774", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2334,7 +2334,7 @@ const Products = [
         descripcion: "Para verdaderos amantes de los juegos BDSM. Este gancho de sujecion puede utilizarse tanto de forma anal como vaginal para restringir el movimiento de tu pareja y someterla de una manera completamente nueva. Utilizá el extremo anillado para atarlo e impedir que se mueva. ----- MEDIDAS: Diametro interno: 5cm, Diametro bola insertable: 3cm, Largo total: 17cm, Espesor: 2cm  ",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     /*{
         image: "img/anal/Super Plug XL El Grande.jpg",
@@ -2344,7 +2344,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         SKU: "2061", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2356,7 +2356,7 @@ const Products = [
         descripcion: "ST te lo pone fácil con esta cadena de bolas anales para que puedas disfrutar cómo nunca. Cuentan con 10 bolas que van aumentando de tamaño según se van introduciendo, de tacto suave y con anilla para facilitar su extracción y jugar de forma segura. En una de las cadenas las bolas son redondeadas, para una mejor inserción para principiantes. Ideal retirarlo conjuntamente con tu orgasmo. A practicar! La idea de este juguete es justamente esto. Colocar la cantidad de cuentas que creas convenientes, retirar a un ritmo estimulante y retirar con tu orgasmo",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2063", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2367,7 +2367,7 @@ const Products = [
         descripcion: "Este vibrador anal con una leve curvatura  texturada y con diseño de glande. En su parte inferior posee ventosa y control remoto inalámbrico. ----- MODO DE USO. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar.Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente.Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida.Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. ----- Características • Silicona 100 % pura + ABS. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • Diseño anal texturado. • 10  modos de vibración diferentes. • Medidas: 12.2 cm. * 4.8 cm. * 2.9 cm. • Peso: 90 gr. • Capacidad de batería: aprox. 45 m. • Tiempo de carga: 1 hs. • Recargable.Incluye cable de carga.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2064", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2378,7 +2378,7 @@ const Products = [
         descripcion: "Plug anal con vibración, a control remoto. ----- Caracteristicas. Material: silicona 100% pura + ABS, 10 funciones de vibración, Longitud total: 13cm, Longitud insertable: 11cm, Diametro: 1, 5cm a 3cm, Recargable.Incluye cable USB. Impermeable.No sumergible.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2065", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2389,7 +2389,7 @@ const Products = [
         descripcion: "Plug anal con vibración, a control remoto. ----- Caracteristicas. Material: silicona 100% pura + ABS, 10 funciones de vibración, Longitud total: 12cm, Longitud insertable: 10cm, Diametro: 3cm, Recargable.Incluye cable USB. Impermeable.No sumergible. Libre de ftalatos.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2066", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2400,7 +2400,7 @@ const Products = [
         descripcion: "Plug anal con vibración, a control remoto. ----- Caracteristicas. Material: silicona 100% pura + ABS, 10 funciones de vibración, Longitud total: 13cm, Longitud insertable: 11cm, Diametro: 3cm, Recargable.Incluye cable USB. Impermeable.No sumergible.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/plug pride 2.webp",
@@ -2410,7 +2410,7 @@ const Products = [
         descripcion: "Caracteristicas del plug. Material: silicona 100% pura + ABS, Longitud total: 11cm, Longitud insertable: 8cm, Diámetro: de 1 a 3cm, Sumergible. , Libre de ftalatos. ----- Caracteristicas de la bala. Material: silicona + ABS, 1 función de vibración, Longitud: 9cm, Díametro: 1, 5cm, A pila. 1 AAA. No incluida. Impermeable. No sumergible. Libre de ftalatos",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/plug Yorck Blue.jpg",
@@ -2420,7 +2420,7 @@ const Products = [
         descripcion: "Plug anal muy potente de silicona a control remoto, suave y seguro para asegurarnos poder jugar tranquilamente por su  base en forma de ancla para dejarlo puesto sin necesidad de sostenerlo. Su diseño, gradualidad y  forma de remolino te ayudará a realizar una inserción más fácil, cómoda y estimulante. ----- Características:    Material: silicona 100% pura + ABS. ----- 10 funciones de vibración -----  Longitud: 10, 5cm ----- Diámetro: 2.5 cm.3.2 cm. 3.5cm. ----- A control remoto. ----- Recargable.Incluye cable USB. ----- Impermeable.No sumergible.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/vibro + pilu 1 inexpulsable.webp",
@@ -2430,7 +2430,7 @@ const Products = [
         descripcion: "Este hermoso inexpulsable curvo, que poder ser muy excitante en la boca del ano, también por su curvatura puede llegar a rozar próstata, provocando una estimulación extremadamente placentera. Es simple, cómodo de silicona ateerciopelada con un anillo en su extremo para poder manipularlo. Su incremento de tres bolitas de menor a mayor, y su extremo es de forma ovalada para su mejor inserción. ----- Silicona 100% pura + ABS, Libre de látex, diseño ergonómico anal, medidas: 14 x 4, 1 cm, sumergible ----- Bullet 9. 1 función de vibración, 1 bateria AAA",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2095", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2441,7 +2441,7 @@ const Products = [
         descripcion: "Este juguete inexpulsable suave, aterciopelado y flexible es apto tanto para principiantes como para expertos en juegos anales. Su punta cónica facilita la inserción y su tope de ancla te da la seguridad para poder disfrutar al máximo. Motor recargable con control remoto. ----- Características: • Silicona 100 % pura + ABS. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • 3 modos de vibración lineal. • 7 ritmos diferentes. • Diámetro: 3.6 cm.Longitud: 20.1 cm. • Recargable.Incluye cable de carga. • Tiempo de carga: 50 m. • Duración de la carga: 50 m. • Control remoto inalámbrico. • Impermeable.No sumergible.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2096", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2453,7 +2453,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
@@ -2463,7 +2463,7 @@ const Products = [
         descripcion: "Dale rienda suelta a tu imaginación y cumple tus fantasías más intensas en la cama con este lindo plug de acero con cola de conejo. La sola imagen de este plug insertado en tu cola dejara a tu amante sin aliento y no podrá resistirse a mimar tan linda conejita. Siente como la suavidad de la felpa roza tu zona mientras el plug cumple su función de dilatar y dejarte preparada o preparado para otros juegos de penetración anal. Introduce en el ano la parte metálica del plug y deja que la cola de felpa quede en el exterior, podrás usarlo durante toda la velada y cuando estén a punto de llegar al clímax extrae el plug para que se prolongue una sensación única de placer y éxtasis.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/plug anal silicona small cola de conejo blanco.webp",
@@ -2473,7 +2473,7 @@ const Products = [
         descripcion: "Esta encantadora cola de conejito te llenará de placer anal! Con un peso cómodo, el tapón de silicona es liso, cónico y pequeño, de modo que la inserción es fácil y agradable, incluso para los principiantes. A tu pareja le encantará lo bien que te ves. Este plug es perfecto para prepararse para el sexo anal. Úselo con cualquier lubricante que elija. ----- Tamaño: Small",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2179", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2485,7 +2485,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2197", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2496,7 +2496,7 @@ const Products = [
         descripcion: "Tan práctico y elegante, este magnifico plug de vidrio es el complemento perfecto para cualquier colección de vidrio o fetiche. Enfriarlo o calentarlo para una sensación increíble.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2255", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2507,7 +2507,7 @@ const Products = [
         descripcion: "El tamaño y la textura recomendada para nuevas experiencias. 3 velocidades de vibracion para lograr una estimulacion ideal. Un accesorio que ademas de ser friendly con el placer, tambien lo es con la ecología ya que cuenta con una batería recargable USB ----- Especificaciones: 3 modos de vibracion, Material silicona premium de tacto muy suave, Altura de parte para penetracion: 7cm, Carga USB(categoria eco friendly- no desechable). Duración de batería / uso: 1hs",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2272", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2519,7 +2519,7 @@ const Products = [
         descripcion: "Este plug anal con diseño texturado y puntiagudo ayuda realmente al ingreso en tu cuerpo. En su parte inferior posee una ventosa. Te va a encantar. ----- Adaptable para cualquier tipo de arnés. Silicona 100% pura, Hipo alergénico, Libre de latéx, Diseño anal texturado, Meidas: 13, 6 x 3 cm. Sumergible",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Silicone Plug Fucsia Medium ST.jpg",
@@ -2529,7 +2529,7 @@ const Products = [
         descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación. ----- Tamaño: Medium",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Silicone Plug Fucsia largue ST.jfif",
@@ -2539,7 +2539,7 @@ const Products = [
         descripcion: "Este plug anal de silicona 100%, está diseñado para ofrecerte un sinfín de sensaciones placenteras. Su forma cónica es ideal para estimularte y ofrecerte orgasmos increíbles. Además, su textura lisa extra suave te encantará. La punta delgada facilita la inserción del producto ayudando a los que no tienen tanta experiencia. Un plug anal es una gran forma de introducir los juegos anales en su vida sexual.Estos juguetes sexuales anales vienen en una gran variedad de tamaños para adaptarse a cualquier nivel de experiencia anal.Los plug anales son perfectos para la doble penetración y la doble estimulación. ----- Tamaño: Large",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/Plug Gold Rose Round Small ST.jpeg",
@@ -2549,7 +2549,7 @@ const Products = [
         descripcion: "Este plug anal, de aleación de aluminio de color oro rosado, esta diseñado para ofrecerte un sinfin de sensaciones placenteras. Su forma cónica es ideal para facilitar la inserción, estimularte y ofrecerte orgasmos increíbles. Su gema de corazón negra hará realzar las fantasías de tu pareja al verte. Puedes jugar con la temperatura calentándolo o enfríandolo, esto añadirá excitación a tus fantasías eróticas. ----- Medida: Longitud Total 7.2 cm - Longitud Insertable: 6 cm - Diametro: 3.2 cm ----- Tamaño: Small",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/mini plug anal de silicona S 7,3 x 2,2 cm.jpg",
@@ -2559,7 +2559,7 @@ const Products = [
         descripcion: "Es un plug anal pensado para las personas que quieren iniciarse en el sexo anal. Puedes disfrutar de las sensaciones que te ofrece este pequeño juguete o continuar explorando más allá. Longitud total: 7.3 cm, Longitud insertable: 6.7 cm, Diámetro máximo: 2.2 cm, Punta redonda de fácil inserción. Base ancha con función tope. Silicona suave, Compatibles con lubricantes al agua y relajantes anales. Libre de fltalatos y látex. 100% sumergible. Color: Negro",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/monster plug escalonado negro 15cm real skin.jpg",
@@ -2569,7 +2569,7 @@ const Products = [
         descripcion: "Vive una experiencia diferente con este Dilatador anal, diseñado con distintas medidas para que estimules distintos puntos en la penetración anal o vaginal. A medida que insertes el estimulador sentirás como aumenta de tamaño, experimentaras distintas sensaciones en la penetración gracias a su diseño variable. Fabricado con silicona de primera calidad, es un dilatador firme pero de textura flexible, libre de ftalatos, látex e hipo alergénico para ofrecerte todas las garantías de seguridad durante su uso. • Medidas: Largo: 15 cm.Ancho Máximo 6 cm Te recomendamos usar un lubricante a base de agua para una experiencia más placentera.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/monster plug prostatico xl negro real skin.jpg",
@@ -2579,7 +2579,7 @@ const Products = [
         descripcion: "Estimular el punto P con el dedo es muy satisfactorio para las personas con pene. Pero hacerlo con un juguete como el estimulador de próstata Monster te será más cómodo y placentero. El punto P es el punto G de las personas con pene y se encuentra en la próstata.Es una zona erógena que muchas veces olvidamos y con la que podemos hacer maravillas.Al estimularlo, se experimenta mucho más placer. Estimulación del ano, la próstata y el perineo. Medidas: 14 x 4 cm, Material: Silicona. Sumergible.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
@@ -2589,7 +2589,7 @@ const Products = [
         descripcion: "El plug anal de silicona serán tu mejor aliado para iniciarte en el sexo anal sin complicaciones. Gracias a su diseño ergonómico más la suavidad de la silicona, podrás insertarlo las veces que quieras, hasta sentir comodidad y placer. De tamaño pequeño, el plug es ideal para principiantes o para aquellos que ya han experimentado con esta zona y buscan mas placer. Su diseño de base estable y punta redondeada te permitirá una fácil inserción y estimulantes efectos internos que sentirás por todo tu cuerpo.Lleva en su base una bonita piedra de color que lo hace muy elegante y le dará a tu zona un aspecto único. Fabricado en silicona flexible, tiene una superficie suave con la que se deslizará cómodamente hacia lo más profundo de tu intimidad.Déjalo en esa posición hasta que estés a punto de llegar al orgasmo y justo entonces extráelo para experimentar el placer del clímax como nunca antes lo habías vivido.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/plug anal smooth nano S negro.jpg",
@@ -2599,7 +2599,7 @@ const Products = [
         descripcion: "Plug Anal Smooth de la serie Nano, se ajusta a los contornos del cuerpo ofreciéndote la estimulación más intensa que jamás imaginaste. Cuenta con una punta nodular y luego una leve curvatura, sin embargo es ultra pequeño, ideal para iniciarte en la estimulación anal. También cuenta con una base que hace tope para mayor seguridad. Para mayor satisfacción usá este producto con gel lubricante.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/plug anal ultra XL rojo.jpg",
@@ -2609,7 +2609,7 @@ const Products = [
         descripcion: "Plug Ultra Rojo. Uno de los mas grande de los plugs anales clasicos, sólo para entendidos del tema. Su largo es de 15 cm. mientras que su diámetro aumenta desde los 3,5 hasta los 7 cm.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     /*{
         image: "img/anal/plug butt anal de acero pequeño joya roja.jpg",
@@ -2619,7 +2619,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         image: "img/anal/plug vibrador ripley negro XXL 18cm x 4,5cm.jpg",
@@ -2629,7 +2629,7 @@ const Products = [
         descripcion: "Este plug es exclusivo para la penetración y dilatación anal. Excelente terminación y calidad. Productos libre de ftalato y asbesto. Su base ancha sirve como tope de seguridad para usarse sin temor de inserción total. Su medida es de 17 cm, insertable 15 cm x 5, 5 cm de diámetro. Encontra este modelo también con vibro. Se recomienda el uso de lubricante anal para facilitar la inserción y alcanzar niveles de satisfacción supremos.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     /*{
         image: "img/anal/varita estimulador anal en rojo.jpg",
@@ -2639,7 +2639,7 @@ const Products = [
         descripcion: "",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         image: "img/anal/varita tripli anal estimulador rojo.jpg",
@@ -2649,7 +2649,7 @@ const Products = [
         descripcion: "Dilatador anal, posee tres sets con diferentes diámetros para el gusto de cada uno. Puede ser utilizado vaginal, anal o de ambas formas a la vez. Diámetro mayor 3 cm. Diámetro menor 2 cm. Longitud insertable 13 cm. Longitud total 28 cm.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/anal/silicone pulg red kit.jpg",
@@ -2659,7 +2659,7 @@ const Products = [
         descripcion: "Combo de 3 plugs anales en diferentes tamaños, pequeño, mediano y grande. ----- Medidas:  Pequeño: 7 x 2.8 cm - Mediano: 8 x 3.4 cm - Grande: 9 x 4 cm. Para el que conoce ó quiere conocer nuevas sensaciones.Despertá tu deseo para el juego anal con este hermoso kit de Plug. Son de silicona y sus medidas van desde los 7 cm de largo hasta los 9 cm y desde 2, 8 cm en el punto más ancho hasta los 4cm. Es de Silicona en color negro y en la punta tiene una gema brillante de Strass que lo hace mucho más delicado.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2441", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2670,7 +2670,7 @@ const Products = [
         descripcion: "Combo de 3 plugs anales en diferentes tamaños, pequeño, mediano y grande. Kit de iniciación Anal, 3 piezas,  forrado integramente en silicona, utilizar con geles al agua.",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------DUCHA ANAL
@@ -2684,7 +2684,7 @@ const Products = [
         descripcion: "Recomendaciones de uso: Lo primero que hay que hacer es sacar la pera-ducha anal de su caja y proporcionarle un enjuague inicial. Esto es solo para asegurarnos de que está completamente limpio. Para hacerlo, deberemos quitar la punta y meterla debajo del chorro del grifo. Se debe lubricar el extremo de la ducha y la abertura del ano para luego, insertar suavemente la boquilla. Aprieta suavemente el bulbo para que el flujo de agua sea más lento. Siempre se debe comenzar lentamente y prestar atención a cómo reacciona el cuerpo. Una vez terminado el proceso, se debe retirar la ducha suavemente y mantener presionada el agua hasta que se sienta el impulso natural de expulsarla. Se aconseja que repitas esto varias veces hasta que el agua que sale al exterior es completamente clara. No te olvides de que no debes usar nada más que agua limpia en tus duchas. La temperatura del agua debe ser tibia y probada de antemano para garantizar la seguridad. Utiliza la ducha anal alrededor de 45 minutos antes del juego anal para conseguir una limpieza Óptima. ",
         categoria: "Duchas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1724", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2695,7 +2695,7 @@ const Products = [
         descripcion: "Recomendaciones de uso: Lo primero que hay que hacer es sacar la pera-ducha anal de su caja y proporcionarle un enjuague inicial. Esto es solo para asegurarnos de que está completamente limpio.  Para hacerlo, deberemos quitar la punta y meterla debajo del chorro del grifo. Se debe lubricar el extremo de la ducha y la abertura del ano para luego, insertar suavemente la boquilla. Aprieta suavemente el bulbo para que el flujo de agua sea más lento. Una vez terminado el proceso, se debe retirar la ducha suavemente y mantener presionada el agua hasta que se sienta el impulso natural de expulsarla. Se aconseja que repitas esto varias veces hasta que el agua que sale al exterior es completamente clara. No te olvides de que no debes usar nada más que agua limpia en tus duchas. La temperatura del agua debe ser tibia y probada de antemano para garantizar la seguridad. ----- contenido: 89ml ----- Marca: ST",
         categoria: "Duchas",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2148", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2706,7 +2706,7 @@ const Products = [
         descripcion: "Para mantenerte limpio durante tus juegos con estimulación anal no hay nada más efectivo que el uso de un enema. Fácil de usar, es el tradicional producto de limpieza para tus encuentros íntimos y te brinda la comodidad que siempre has buscado. Gracias a su tamaño pequeño su uso no te resultará para nada complicado.Busca un momento de intimidad, rellena la perilla de agua tibia y vacíala en el interior de tu zona anal a través de la parte insertable del accesorio.En cuestión de minutos le habrás dado una la limpieza que necesitas para disfrutar de unas relaciones íntimas mucho más higiénicas y excitantes. ----- ----- contenido: 89ml",
         categoria: "anal",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //---------------------------------------------------------------------------------------------------------------------------
     //---------------------------------------------------------FETICHE
@@ -2720,7 +2720,7 @@ const Products = [
         descripcion: "Fusta larga roja confeccionada en cuero ecológico. Fina, delicada, hermosa, para disfrutar de unos ricos azotes. Mide 52 cm",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     /*{
         image: "img/fetiche/Pasties Heart Red.jpg",
@@ -2730,7 +2730,7 @@ const Products = [
         descripcion: "",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         image: "img/fetiche/Nipples Champs 6.jpg",
@@ -2740,7 +2740,7 @@ const Products = [
         descripcion: "Experimenta nuevos niveles de éxtasis erótico con las pinzas de pezón escalonadas Nipple Play. Las joyas eróoticas del cuerpo están diseñadas para la seducción sensual y la estimulación del placer exótico. Sujete las abrazaderas de pezón totalmenteajustable sy disfrute de una fantasía orgásmica inolvidable. Las mini abrazaderas se unen entre sí a través de una resistente cadena triple de alta calidad que aumenta la sensibilidad íntima y la satisfacción sexual.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/fetiche/Handcuffs Blue.jpg",
@@ -2750,7 +2750,7 @@ const Products = [
         descripcion: "Pasiona cautivadora con las esposas! Forrado con una piel de felpa negra, estos puños de piel de PU negros de calidad son duraderos y comodos. Atados con una cadena facil de ajustar y correas ajustable, estos puños de placer se convierten en una fantasia en la que quieres meterte. Material PU + Poliester + metal",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1739", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2761,7 +2761,7 @@ const Products = [
         descripcion: "Fusta simil cuero con tachas. Largo: 44cm",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/fetiche/PALMETA NEGRA.jpeg",
@@ -2771,7 +2771,7 @@ const Products = [
         descripcion: " Porqué un buen cachete en las nalgas puede ser lo más sexy del mundo, esta palmeta te va gustar más de lo que podrán reconocer tus sentidos. Ideal para iniciarte al placer de los azotes y los juegos bondage.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1776", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2782,7 +2782,7 @@ const Products = [
         descripcion: "Increíble inmovilizador de cuello, muñecas y tobillo con cadenas . Con anillos en forma D y broches regulables. Ideal para el BDSM. Descripción: - Inmovilizador con broches regulables. - Permite inmovilizar a la persona y jugar en diferentes posiciones. - Material: Cuero. - Color: Negro.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
@@ -2792,7 +2792,7 @@ const Products = [
         descripcion: "Tanga de cuero con cadena y esposas con mosquetón. Regulable ----- Marca: Inf Placer",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2394", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2803,7 +2803,7 @@ const Products = [
         descripcion: "Conjunto de esposas y tobilleras comunicadas entre si por una correa de cuero. ",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2202", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2815,7 +2815,7 @@ const Products = [
         descripcion: "Utiliza tu Antifaz Ciego con encaje Luxury para ponerle una pincelada de misterio a ese encuentro íntimo tan especial y sorprende a tu pareja con tu faceta más femenina y seductora. ¡Rompe la rutina con este precioso Antifaz Ciego con encaje Luxury Dorado!",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1890", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2827,7 +2827,7 @@ const Products = [
         descripcion: "Utiliza tu Antifaz Ciego con encaje Luxury para ponerle una pincelada de misterio a ese encuentro íntimo tan especial y sorprende a tu pareja con tu faceta más femenina y seductora. ¡Rompe la rutina con este precioso Antifaz Ciego con encaje Luxury Rosa!",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/fetiche/Set esposas Ribbon y choker rojo.jpeg",
@@ -2837,7 +2837,7 @@ const Products = [
         descripcion: "Lo más sencillo también puede ser lo más seductor. Este atractivo set de esposas y collar no tiene ningún elemento decorativo salvo el original cierre con cadenas que podrás ajustar con suma facilidad, y le aportan un encanto único y muy fetishista. Esta propuesta de Infarta se caracteriza por su extraordinaria sencillez. Es un collar de casi 3 cm de ancho que cubre todo el cuello con elegancia sin necesidad de emplear ornamentos.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1940", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2848,7 +2848,7 @@ const Products = [
         descripcion: "Las prácticas eróticas con collares BDSM son un clásico de los juegos de sometimiento y dominación que no conlleva ningún riesgo si conoces bien cuáles son las reglas, y utilizas accesorios de calidad como los de esta sección de nuestra tienda erótica online.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/fetiche/mini cola less tipo v ecocuero bdsm.jpg",
@@ -2858,7 +2858,7 @@ const Products = [
         descripcion: "",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1977", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2869,7 +2869,7 @@ const Products = [
         descripcion: "Si eres amantes del bondage y el sado asume tu rol como amo, domina a tu pareja en tus próximos encuentros y saca a relucir tu lado más fetichista. Deja volar tu imaginación y haz que tu amante viva una de sus mejores veladas sexuales. Este increible cepo es perfecto para tus juegos de sumisión, compuesto por 2 agarres fabricados 100% en cuero para pies o manos, unidos por un cepo rígido que no dará oportunidad para ningun movimiento de tu amante. Puedes emplearlos para inmovilizar las muñecas o tobillos de tu pareja. El resultado será una inmovilización perfecta para que disfruten de sus juegos favoritos. Esposas ajustables de cuero y taches. Cepo rígido para pies o manos.Dimensiones: hasta 40 cm.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1989", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2881,7 +2881,7 @@ const Products = [
         descripcion: "Este Kit de Bondage se encuentra en una elegante, fina y resistente caja para que puedas guardario de manera segura cuando dejes de utilizarlo. Este kit es muy completo para comenzar a incursionar dentro de esta práctica. Los elementos que lo componen podrán ayudarlos a liberarse de posibles inhibiciones. INCLUYE • Una mordaza. • Unas muñequeras con llave y candado. • Unas tobilleras con llave y candado. • Un llavero. • Un candado con clave. • Dos mosquetones. • Un collar • Un collar con cadena. • Una ruedita. • Una palmeta. • 1 Vibro y Un Bolso para guardar los juguetes.     ",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1990", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2892,7 +2892,7 @@ const Products = [
         descripcion: "Contiene: • Vibrador rosa • Venda de encaje para los ojos • 2 muñequeras • Palo para coquetear • medida del vibrador: 16,1 x 3,7cm • peso: 93gr • 10 modos de vibración",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2022", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2904,7 +2904,7 @@ const Products = [
         descripcion: "",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2023", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2916,7 +2916,7 @@ const Products = [
         descripcion: "Utiliza tu antifaz sexy para ponerle una pincelada de misterio a ese encuentro íntimo tan especial y sorprende a tu pareja con tu faceta más femenina y seductora. Vendarse los ojos siempre ha sido una práctica excitante en los juegos de dormitorio. Ahora puedes llevarla a cabo de una manera más sencilla con el antifaz de eco cuero para ojos de textura muy suave que se adapta cómodamente al contorno de la cabeza y a sus movimientos. Pon a prueba tu imaginación y vive la experiencia mas excitante al estilo 50 sombras de grey. ",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2024", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2928,7 +2928,7 @@ const Products = [
         descripcion: "Utiliza tu antifaz sexy para ponerle una pincelada de misterio a ese encuentro íntimo tan especial y sorprende a tu pareja con tu faceta más femenina y seductora. También podrás usarlo en tu próxima fiesta de disfraces, acompañado de una prenda que haga juego con tan lindo antifaz.Fabricado 100% con eco cuero",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2027", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2940,7 +2940,7 @@ const Products = [
         descripcion: "",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2029", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2952,7 +2952,7 @@ const Products = [
         descripcion: "Despierta tus instintos y déjate llevar por las sensaciones del momento. Cubre los ojos de tu amante y hazle saber lo que es el verdadero placer. Comienza por susurrar muy cerca de su oído lo que tienes en mente o deja besos húmedos por cada rincón de su cuerpo. Lo más emocionante de la experiencia será el factor sorpresa. Diseñado para cubrir completamente la vista, elaborados con material de primera calida, en el interior tienen una cubierta de algodon muy suave al tacto para que disfrutes con plena seguridad.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2191", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2963,7 +2963,7 @@ const Products = [
         descripcion: "5 metros adecuado para juegos de cuerda, tejido suave y resistente, listo para usar.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2193", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2974,7 +2974,7 @@ const Products = [
         descripcion: "Pasión cuativadora con las esposas! Atados con una cadena fácil de ajustar y correas ajustables, estas esposas de placer se convierten en una fantasía en la que quieres meterte! ",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2194", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2985,7 +2985,7 @@ const Products = [
         descripcion: "10 metros adecuado para juegos de cuerda, tejido suave y resistente, listo para usar.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2277", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2996,7 +2996,7 @@ const Products = [
         descripcion: "Esposas profesionales de acero inoxidable, con 2 llaves. Fabricadas con tecnología de oscilación; garantizando que el gancho siempre impacte en el centro de la esposa y cerrando así automáticamente.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/fetiche/Choker de Cuero con Púas y Argolla D Inf Placer.jpg",
@@ -3006,7 +3006,7 @@ const Products = [
         descripcion: "Si tu pareja se comporta como una fiera en el dormitorio, trátala como tal. Este collar con aro te permitirá definir con toda claridad los roles de este encuentro sexual y establecer los límites entre dominador y sometido. Es un accesorio de fetiche para tus sesiones de BDSM.",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2369", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3018,7 +3018,7 @@ const Products = [
         descripcion: "",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/fetiche/pezoneras con pinza cadena metalizada Ouch.jpg",
@@ -3028,7 +3028,7 @@ const Products = [
         descripcion: "Estas pinzas para pezón con cadena de Ouch. son fáciles de usar y adecuadas tanto para él como para ella. Las pinzas y la cadena están fabricadas de acero inoxidable y aluminio y están completamente libres de níquel. VIENE CON PUNTAS DE SILICONA PARA UN AGARRE SEGURO Y SIN MOLESTIAS. EL TORNILLO REGULA LA PRESION DEL AGARRE PARA QUE LE DES MAYOR O MENOR PRESION. DISFRUTA DE UNA NUEVA EXPERIENCIA!!!",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/fetiche/pezoneras con pinza y doble cadena dorada.jpg",
@@ -3038,7 +3038,7 @@ const Products = [
         descripcion: "Prepárate para calentar la noche Nuestras emocionantes y hermosas pezoneras íntimas con niveles son adornos de diseño con estilo sensual Este juego de 2 pezoneras de diseño multiusos cuenta con una cadena escalonada brillante de alta calidad para mayor atractivo",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/fetiche/Vibro + 7 Piezas Bondage Set Black ST.jpeg",
@@ -3048,7 +3048,7 @@ const Products = [
         descripcion: "Kit bondage de 7 piezas • Incluye: • Collar ajustable • Correa • Muñequeras regulables • Tobilleras regulables • Latigo • Antifaz ciego • Sogas • Vibrador",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2448", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3059,7 +3059,7 @@ const Products = [
         descripcion: "",
         categoria: "fetiche",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------DILDOS
@@ -3072,7 +3072,7 @@ const Products = [
         descripcion: "",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         image: "img/Dildos/Real Cock 19.jpg",
@@ -3082,7 +3082,7 @@ const Products = [
         descripcion: "Este doble dildo realístico está pensado para una doble penetración ano-vagina, cómoda, practica y seguro. Tiene la curvatura y el grosor perfecto en cada uno de sus extremos para que lo conduzcas sin dificultad hasta lo más profundo. No necesitaras más ayuda que la de un poco de lubricante. -----        Características: • Dildo flexible doble penetración • Estimulador del canal vaginal/anal • Silicona suave • Waterproof = A prueba de agua / Sumergible  • Dimensiones: 17 cm x 4 a 4, 5 cm / 14 cm x 3 a 3, 5 cm 📏",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/Dildos/Real Cock 17.jpg",
@@ -3092,7 +3092,7 @@ const Products = [
         descripcion: "Los dos extremos de este pene realístico extra largo son insertables y comparten las mismas características de volumen y textura. La longitud de este doble dildo permite innovar con las posiciones que adoptas durante el sexo. Es lo suficientemente largo como para que vos y tu pareja puedan jugar de manera simultánea con total comodidad. ----- Características: • Dildo flexible doble penetración • Estimulador del canal vaginal/anal • Silicona suave • Waterproof = A prueba de agua • Dimensiones: 45 cm x 3, 5 a 4 cm 📏",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1689", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3103,7 +3103,7 @@ const Products = [
         descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional. Textura súper real. Puede utilizarse perfectamente con arnés. ---- Características. • Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Material: Silicona 100 % pura. • Medidas: Longitud total: 20.8 cm.  Longitud insertable: 15 cm. Diámetro: 3.7 cm.",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1765", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3114,7 +3114,7 @@ const Products = [
         descripcion: "El modelo Jumbo pie color negro presenta un eje rígido que proporciona penetraciones duras e inflexibles. Con su intensa textura y su diámetro de 8 cm, es un paso previo excelente a las experiencias de fisting. ----- Características: • Pene para el entrenamiento fisting • Dimensiones: 37 cm x 8 cm • Apto para penetraciones anales • Eje rígido • Detalle del glande • Material: Silicona negra",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/Dildos/pride 4.jpg",
@@ -3124,7 +3124,7 @@ const Products = [
         descripcion: "Dildo macizo y flexible en forma realista, con ventosa. Más una balita vibradora. ---- Caracteristicas del dildo. • Material: silicona + ABS • Longitud total: 23cm • Longitud insertable: 20cm • Diámetro: 4cm • Sumergible. -----  Caracteristicas de la bala. • Material: silicona + ABS • 1 función de vibración • Longitud: 9cm • Díametro: 1, 5cm • A pila. 1 AAA.No incluida. • Impermeable.No sumergible. • Libre de ftalatos",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/Dildos/pride 5.jpeg",
@@ -3134,7 +3134,7 @@ const Products = [
         descripcion: "Dildo macizo y flexible en forma realista, con ventosa. Más una balita vibradora. ----- Caracteristicas del dildo. •  Material: silicona + ABS •  Longitud total: 20cm •  Longitud insertable: 18cm •  Diámetro: 3, 5cm • Sumergible. • Libre de ftalatos ----- Caracteristicas de la bala. •  Material: silicona + ABS •  1 función de vibración •  Longitud: 9cm • Díametro: 1, 5cm •  A pila. 1 AAA.No incluida. • Impermeable.No sumergible.",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2138", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3145,7 +3145,7 @@ const Products = [
         descripcion: "Ideal para los que buscan realismo y satisfacción, Cyber es súper realístico, símil a la piel, suave al tacto y afelpado, se adapta a la temperatura corporal lo que permite sentir mejor sus vibraciones y textura, además es hipoalergénico. Se recomienda el uso de lubricantes Medidas 20x4 ",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/Dildos/pride.webp",
@@ -3155,7 +3155,7 @@ const Products = [
         descripcion: "Nuestra serie Prider se compone de los colores de la bandera del orgullo; Diseñada para curvarse en su cuerpo, elaborada con la silicona más fina, la colección Prider ofrece un toque aterciopelado, un diseño elegante y ergonómico para su placer sexual. Material: silicona de grado médico  • Seguridad del material: hipoalergénico / sin látex / no poroso / sin ftalatos  • Cuidado y limpieza: Apto para lavavajillas / Hervible / Agua y jabón • Limpiador de juguetes  • Longitud total: 19, 5 cm. • Diámetro: 3, 8 cm",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/Dildos/Real Cock 3.jpg",
@@ -3165,7 +3165,7 @@ const Products = [
         descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional. ----- Características. • Dildo realístico. • Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Libre de látex. • 100 % Libre de Fthalatos. • Material: Silicona 100 % pura. •  Sumergible. • Medidas: longitud total 18.5 cm, longitud insertable 11cm, diámetro 4 cm.",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     /*{
         image: "img/Dildos/Real cock 5.jpeg",
@@ -3175,7 +3175,7 @@ const Products = [
         descripcion: "",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         SKU: "2389", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3187,7 +3187,7 @@ const Products = [
         descripcion: "No se trata de un juguete erótico para principiantes. Sus 30 centímetros de placer son capaces de penetrar un ano o una vagina con intensidad, por lo que hay que estar preparados para emociones fuertes. Este pene de aspecto realista(glande inflamado, venas recorriendo el miembro y testículos cargados de deseo) dispone de una base de succión que te permitirá colocarlo en cualquier superficie lisa y disfrutar de la masturbación en la posición que más te guste.",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2391", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3198,7 +3198,7 @@ const Products = [
         descripcion: "Excelente consolador realístico, ideal para tus fantasías. Su cuerpo texturado y semi flexible permite que sientas hasta el último centímetro de este pene realístico, glande con forma y textura y una terminación con tésticulos y base sólida. Pensado para quien no tiene limites y sueña con las sensaciones extremas. ----- Características: Modelo: Macizo • Texturado • Color: Piel • Estructura: Semi flexible • Sopapa • Material: TPE / Sintético",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2392", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3209,7 +3209,7 @@ const Products = [
         descripcion: "Pensá en el placer que podrías obtener con una experiencia de masturbación más realista. Softee Dong es el modelo que necesitas para hacer realidad tus sueños mas mojados. Desde la punta hasta la base, este dildo de silicona premium es sinónimo de placer. La penetración comienza con las líneas marcadas del glande y continua con un recorrido de 20 cm de máximo placer que te conducirá hasta el orgasmo que siempre habías soñado. Longitud Máxima - 20 cm. • Diámetro Máximo - 4 cm.",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     /*{
         image: "img/Dildos/suck act real XXL brad Stone 27 x 6 cm.jpg",
@@ -3219,7 +3219,7 @@ const Products = [
         descripcion: "",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         image: "img/Dildos/suck act realistico XXL Tom Chase 27 x 6,5cm.jpeg",
@@ -3229,7 +3229,7 @@ const Products = [
         descripcion: "Disfruta en solitario de las mejores experiencias del sexo en pareja. Este pene realista de grandes dimensiones esta fabricado con todos los detalles de una erección real.  Este juguete erótico reproduce a la perfección todos los detalles de un pene de verdad: el perfil del glande, la rigidez del miembro, la tersura de los testículos e incluso las venas. Cuenta con una sopapa de succión en la base para usarlo sin manos y en cualquier posición. Longitud Máxima - 27 cm. • Diámetro Máximo - 6,5 cm.",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/Dildos/real cook 7.jpg",
@@ -3239,7 +3239,7 @@ const Products = [
         descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional.   Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Libre de látex. • 100 % Libre de Fthalatos. • Sumergible. • Color Natural. • Medidas: longitud total 22 cm, longitud insertable 17.5 cm, diámetro 4.3 cm.",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/Dildos/real cook 8 dildo st.jpg",
@@ -3249,7 +3249,7 @@ const Products = [
         descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional.   Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Libre de látex. • 100 % Libre de Fthalatos. • Sumergible. • Color Natural. • Medidas: longitud total 23.5 cm, longitud insertable 19.3 cm, diámetro 4.5 cm.",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/Dildos/real cook 12 dildo st.jpeg",
@@ -3259,7 +3259,7 @@ const Products = [
         descripcion: "Este dildo macizo está pensado para que puedas disfrutarlo colocado en superficies no porosas, con una robusta ventosa de muy buena adherencia. Su diseño de color natural es ideal para aquellas personas que buscan un juguete dentro de lo convencional.   Venas en relieve para una mayor satisfacción. • Textura: venosa y suave. • Libre de látex. • 100 % Libre de Fthalatos. • Sumergible. • Color Natural. • Medidas: longitud total 30 cm, longitud insertable 22 cm, diámetro 5.7 cm. ",
         categoria: "dildos",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------PRESERVATIVOS
@@ -3272,7 +3272,7 @@ const Products = [
         descripcion: "Preservativo de Látex Prime Tachas placer extremo x 3 un Placer extremo. La superficie de estos preservativos está cubierta de relieves circulares de látex en forma de tachas que proveen una estimulación más intensa",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/PRESERVATIVOS PRIME RETARDANTE.png",
@@ -3282,7 +3282,7 @@ const Products = [
         descripcion: "Climax control. Lubricado con benzocaína al 4.5% que ayuda a retardar la eyaculación y contribuye a prolongar el tiempo de la relación sexual. Prime Retardante es placer prolongado para ambos integrantes de la pareja",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/PRIME MEGA x 3 Un.png",
@@ -3292,7 +3292,7 @@ const Products = [
         descripcion: "Preservativos de látex, con ancho nominal de 56 mm, es superior al de las otras variedades permitiendo un calce más holgado.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/PRIME ESPERMICIDA X 3 Un.png",
@@ -3302,7 +3302,7 @@ const Products = [
         descripcion: "Preservativos de látex con Nonoxinol-9, un agente espermicida que actúa sobre los espermatozoides reduciendo su movilidad y disminuyendo aún más el riesgo de embarazo. Mayor Protección",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/PRIME STRONGER X 3 Un.png",
@@ -3312,7 +3312,7 @@ const Products = [
         descripcion: "Desarrollados con una doble lubricación, están recomendados para el sexo anal, ofreciendo mayor seguridad y resistencia durante el sexo fuerte. Ancho nominal 52mm.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/PRIME ANATÓMICO X3 UN.png",
@@ -3322,7 +3322,7 @@ const Products = [
         descripcion: "Adaptación más ajustada con forma anatómica que permite mayor contacto y sensibilidad. Ancho nominal de 49 mm, inferior al estándar.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/prime ultra fino caja x 3 unidades.webp",
@@ -3332,7 +3332,7 @@ const Products = [
         descripcion: "Son los más finos de la línea látex. Permiten una mayor sensación sin disminuir su seguridad. Muy sensitivos. Se sienten como usar nada. Ancho nominal 52mm.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/PRIME SUPER FINO X 3 Un.png",
@@ -3342,7 +3342,7 @@ const Products = [
         descripcion: "Uno de los preservativos de látex más finos de la línea, para quienes desean una sensación más natural con la misma seguridad y protección. Preservativo masculino.Ancho nominal 52 mm.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/PRIME EXTRA LUBRICADO x 3 Un.png",
@@ -3352,7 +3352,7 @@ const Products = [
         descripcion: "Para mayor suavidad. El preservativo clásico se combina con la suavidad de un lubricado extra . Cada preservativo viene acompañado por una presentación de Gel Natural en sachet de 1 gramo . A base de agua, el gel está formulado con aloe vera y caléndula, no afecta el látex.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/PRIME TEXTURADDO X 3 Un.png",
@@ -3362,7 +3362,7 @@ const Products = [
         descripcion: "Te ayuda a generar mayor estimulación y placer, gracias a que sus texturas adicionales aumentan la sensación de satisfaccion al momento de la relacion.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     /*{
         image: "img/preservativo/skin mixta x3 unidades preservativo.png",
@@ -3372,7 +3372,7 @@ const Products = [
         descripcion: "",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },*/
     {
         SKU: "2253", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3383,7 +3383,7 @@ const Products = [
         descripcion: "Estuche de preservativos en su presentación super fina, para estimular los sentidos como si no estubieras usando nada. Viví una experiencia distinta para tu cuerpo y el de tu pareja. Tan delgados que son casi imperceptibles.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/maxx tachas 3 unidades.png",
@@ -3393,7 +3393,7 @@ const Products = [
         descripcion: " Su superficie con puntos de latex permite que vivas sensaciones mucho mas intensas y llenas de placer. Con puntitos que elevan el disfrute.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/Prime Warming.jfif",
@@ -3403,7 +3403,7 @@ const Products = [
         descripcion: "Preservativo Prime Warming de Látex. Combinan con una sensación de mayor temperatura haciendo que tus encuentros sean más fogosos. Ademas, contiene 3 sachets de 1 gramo de gel hot pleasure, a base de agua que no afecta el látex",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/preservativo/PRIME TURBO X 3 Un.png",
@@ -3413,7 +3413,7 @@ const Products = [
         descripcion: "Diseñado para elevar la intensidad del placer en la pareja, experimentando una inigualable sensación de cosquilleo. Porque al tener doble lubricación de Gel Turbo, te genera un efecto intermitente de frío y calor. Endiabladamente Excitante. Ancho nominal 52mm.",
         categoria: "PRESERVATIVOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------MASTURBADORES
@@ -3465,7 +3465,7 @@ const Products = [
         descripcion: "El masturbador XP 1 tiene una válvula de respiración especial, el pene entra en la cavidad sin problemas y la succión se hace más fuerte cuando el pene sale. Viene protegido con una cubierta de plástico para su cuidado. Su textura con relieve pronunciado y contorneado, hace mucho más placentera la experiencia.",
         categoria: "masturbadores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
 
     //--------------------------------------------------------------------------------------------
@@ -3481,7 +3481,7 @@ const Products = [
         descripcion: " Su intensa vibración se concentra a lo largo de todo el juguete y aún más fuerte en su cabezal, esto hace que puedas deslizarlo en tu zona genital y en cualquier otra parte del cuerpo donde necesites estimularte. Este masajeador contiene otro cabezal para poder experimentar los 10 niveles de succión que quieras en tu zona Clitorial. Modo de uso. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. Presione el botón derecho para ajustar los modos de pulsación del cabezal, 10 modos de pulsación de frecuencia. Presione el botón izquierdo para ajustar los 10 modos de vibración final. Cambie el cabezal para sus 10 niveles de succión. ",
         categoria: "succionadores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/vibradores/Satisfyer 1 Number One.jpg",
@@ -3491,7 +3491,7 @@ const Products = [
         descripcion: "El Number One ofrece ondas de presión clásicas con un hermoso diseño de oro rosa y proporciona estimulación sin contacto para el clítoris con once intensidades. Gracias a las baterías extraíbles, sus «viajes» nunca volverán a serán igual. Estimula el clítoris utilizando intensas ondas de presión sin contacto directo. Fabricado con silicona de grado médico supersuave, agradable para la piel, suave al tacto y extremadamente higiénica. Gracias a su acabado impermeable, este juguete se puede usar de forma segura en el agua, además de ser fácil de limpiar. 11 intensidades de onda de presión	",
         categoria: "succionadores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1697", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3503,7 +3503,7 @@ const Products = [
         descripcion: "Bala vibradora + succionador, 2 en 1.  Perfectamente recubierto con una suave y sedosa superficie de silicona. Este diseño incorpora un potente succionador independiente, para que puedas utilizar ambos por separado o de manera conjunta aumentando tu excitación. ----- Caracteristicas. Material: silicona 100% pura + ABS. 12 funciones de vibración. 7 modos de succión.Longitud insertable de la bala: 9cm  Diámetro de la bala: 3, 5cm.Longitud del succionador: 9cm Diámetro del succionador: 5cm Recargable.Incluye cable USB.Impermeable.No sumergible.",
         categoria: "succionadores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2067", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3515,7 +3515,7 @@ const Products = [
         descripcion: "Este magnífico vibrador con succión de clítoris de silicona con varias funciones es la nueva adición perfecta para tus juguetes. Masajea tu punto G con el eje curvado y la punta más gruesa para enviarte a un frenesí. La silicona se sentirá sensacional contra tu piel, mientras que el estimulador de succión aumentará tu sensibilidad y creará deliciosos temblores en todo tu cuerpo. Este bonito vibrador rosa aumentará su sensibilidad, lo que conducirá a orgasmos más intensos y placenteros. Disfrute de horas de diversión sin fin: solo recargue su vibrador cuando se esté agotando la energía y póngalo en marcha cuando lo necesite. Medidas: 4 cm ancho - longitud 21 cm - Silicona. 12 funciones de vibración.Resistente al agua.Cargador USB.No cargar más de 3 horas",
         categoria: "succionadores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2082", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3527,7 +3527,7 @@ const Products = [
         descripcion: "ANA 13 es un estimulador de clítoris que tiene 10 diferentes modos de vibración. Es muy cómodo para que lo lleves con vos donde quieras. Destaca con su diseño gracias a su ergonómica forma y es muy silencioso. También podes utilizarlo para estimular pezones por su apropiado diseño, todo dependa de lo que quieras en el momento que lo desees. Este vibrador súper suave con 10 modos de vibración está hecho para un intenso placer. MODO DE CARGA : 2 PILAS TRIPLE AAA",
         categoria: "succionadores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/succionadores/prime fantasy succionador vibrador sx.webp",
@@ -3537,7 +3537,7 @@ const Products = [
         descripcion: "Es un objeto de placer con estilo único y doble función, para satisfacer de gran manera el encuentro sexual. De tacto super suave y agradable, podes estimular tus zonas erógenas mediante el succionador y vibrador. Explorá tus fantasías a través de sus 10 velocidades y funciones. Se carga por USB. 1hs de uso continuo. ",
         categoria: "succionadores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2256", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3548,7 +3548,7 @@ const Products = [
         descripcion: "Maxx Play Vibrador Succionador Suxx -Carga USB. -Silencioso. -Silicona. -10 modos de succión y vibración. -Nivel de sonido bajo en el uso. -1 1/2 Hora de uso continuo. -Contiene 3 preservativos texturados Maxx. -Ancho nominal: 52 mm -Composición: Látex de caucho natural vulcanizado. Lubricado con aceite de silicona. -Producto premium de silicona, muy suave y agradable al tacto. Apto para uso personal y lograr la satisfacción deseada. El producto contiene dos botones para controlar los dos motores internos, uno que acciona la vibración y el otro acciona el succionador",
         categoria: "succionadores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2264", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3560,7 +3560,7 @@ const Products = [
         descripcion: "Dedal recargable. Ideal para poder estimular clítoris sujeto al dedo para una mejor manipulación. Sus vibraciones  intensas, harán de este juguete un estimulador muy excitante. Mantenga presionado el botón de encendido durante 3 segundos para encender / apagar, la luz indicadora se enciende y comienza a vibrar. Cada vez que se presiona el botón de encendido, cambie el modo de vibración diferente. Durante la  carga, la luz indicadora parpadea, después de la carga completa, la luz sigue encendida. Cuando el producto se está cargando, el chip está en estado de protección y no se puede encender. • Hipo alergénico. • Libre de látex. • 3 modos de vibración lineal. • 7 ritmos diferentes. • Medidas: 8.3 cm*4.2 cm*7.3 cm. • Recargable. Incluye cable de carga. • 1 motor. • Tiempo de carga: 1.5 hs. • Duración de la carga: 2 hs.",
         categoria: "succionadores",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         image: "img/succionadores/Vibrador Estimulador High Fashion Satisfyer Luxury.webp",
@@ -3892,11 +3892,16 @@ function filtrarProductosPorFragmento() {
 
     if (fragmento) {
         categoriaActual = fragmento; // Almacena la categoría actual
-        mostrarProductosPorCategoria(fragmento);
 
-        // Cambia el título del H2 con el nombre de la categoría seleccionada
-        const categoryTitle = document.getElementById("category-title");
-        categoryTitle.textContent = fragmento;
+        if (fragmento === 'Descuentos') {
+            mostrarProductosConDescuento();
+        } else {
+            mostrarProductosPorCategoria(fragmento);
+
+            // Cambia el título del H2 con el nombre de la categoría seleccionada
+            const categoryTitle = document.getElementById("category-title");
+            categoryTitle.textContent = fragmento;
+        }
     }
 }
 
@@ -3906,7 +3911,19 @@ window.addEventListener("load", filtrarProductosPorFragmento);
 
 
 document.addEventListener("DOMContentLoaded", () => {
+    const enPromocionLink = document.getElementById("en-promocion-link");
     const categoriaBtns = document.querySelectorAll(".categoria-btn");
+
+    enPromocionLink.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        // Cambiar el fragmento de la URL a #Descuentos
+        history.replaceState({}, '', '#Descuentos');
+
+        // Llamar a la función para mostrar productos con descuento
+        mostrarProductosConDescuento();
+        
+    });
 
     categoriaBtns.forEach(btn => {
         btn.addEventListener("click", (event) => {
@@ -3916,17 +3933,103 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Actualizar el título y mostrar los productos según la categoría seleccionada
             actualizarCategoryTitle(categoriaSeleccionada);
-            mostrarProductosPorCategoria(categoriaSeleccionada);
 
             // Cambiar el fragmento de la URL según la categoría seleccionada
             const currentPage = window.location.pathname;
             history.pushState({}, '', `${currentPage}#${categoriaSeleccionada}`);
 
-            // Recargar la página
-            window.location.reload();
+             window.location.reload();
+
+            if (categoriaSeleccionada !== "en-promocion") {
+                mostrarProductosPorCategoria(categoriaSeleccionada);
+            } else {
+                mostrarProductosConDescuento();
+            }
         });
     });
 });
+
+function mostrarProductosConDescuento() {
+    const productosConDescuento = Products.filter(producto => {
+        return producto.discount && producto.discount > 0; // Filtra solo los productos con descuento
+    });
+
+    mostrarProductos(productosConDescuento);
+}
+
+function mostrarProductosPorCategoria(categoria) {
+    const productosContainer = document.getElementById("product-list");
+
+    // Obtén el enlace "En Promoción"
+    const enPromocionLink = document.getElementById("en-promocion-link");
+
+    enPromocionLink.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        const productosConDescuento = Products.filter(producto => {
+            return producto.discount && producto.discount > 0; // Filtra solo los productos con descuento
+        });
+
+        productosContainer.innerHTML = "";
+
+        if (productosConDescuento.length === 0) {
+            alert("No hay productos con descuento disponibles en este momento.");
+        } else {
+            productosConDescuento.forEach(producto => {
+                const productoHTML = getProductCardHTML(producto);
+                productosContainer.insertAdjacentHTML("beforeend", productoHTML);
+            });
+        }
+    });
+
+    const precioMinMax = { min: precioMinActual, max: precioMaxActual };
+    const productosFiltrados = filtrarProductosPorCategoria(Products, categoria, precioMinMax);
+
+    mostrarProductos(productosFiltrados);
+}
+
+function mostrarProductos(productos) {
+    const productosContainer = document.getElementById("product-list");
+    productosContainer.innerHTML = "";
+
+    if (productos.length === 0) {
+        alert("No se han encontrado artículos que cumplan con los criterios especificados.");
+    } else {
+        productos.forEach(producto => {
+            const productoHTML = getProductCardHTML(producto);
+            productosContainer.insertAdjacentHTML("beforeend", productoHTML);
+        });
+    }
+}
+
+function filtrarProductosConDescuento(productos, precioMinMax) {
+    const productosConDescuento = productos.filter(producto => {
+        return producto.discount && producto.discount > 0 &&
+            producto.price >= precioMinMax.min &&
+            producto.price <= precioMinMax.max;
+    });
+
+    return productosConDescuento;
+}
+
+function filtrarProductosPorCategoria(productos, categoria, precioMinMax) {
+    return productos.filter(producto => {
+        return producto.categoria === categoria &&
+            producto.stock > 0 &&
+            producto.price >= precioMinMax.min &&
+            producto.price <= precioMinMax.max;
+    });
+}
+
+function obtenerPrecioMinMax() {
+    const precioMinInput = document.getElementById("precio-min");
+    const precioMaxInput = document.getElementById("precio-max");
+
+    const precioMin = parseFloat(precioMinInput.value);
+    const precioMax = parseFloat(precioMaxInput.value);
+
+    return { min: precioMin, max: precioMax };
+}
 
 
 function actualizarCategoryTitle(categoria) {
@@ -3948,50 +4051,6 @@ function actualizarCategoryTitle(categoria) {
 precioMinActual = 0;
 precioMaxActual = Infinity;
 
-
-// Función para filtrar y mostrar productos según la categoría
-function mostrarProductosPorCategoria(categoria) {
-    const productosContainer = document.getElementById("product-list");
-    const productosFiltrados = Products.filter(producto => {
-        return producto.categoria === categoria &&
-            producto.stock > 0 &&
-            producto.price >= precioMinActual &&
-            producto.price <= precioMaxActual;
-    });
-
-    productosContainer.innerHTML = "";
-
-    if (productosFiltrados.length === 0) {
-        alert("No se han encontrado artículos disponibles en el rango de precios especificado. Por favor ingrese otro rango de precio");
-    } else {
-        productosFiltrados.forEach(producto => {
-            const productoHTML = getProductCardHTML(producto);
-            productosContainer.insertAdjacentHTML("beforeend", productoHTML);
-        });
-    }
-    // Obtén el enlace "En Promoción"
-    const enPromocionLink = document.querySelector('a[href="jugueteYAccesorios.html"]');
-
-    enPromocionLink.addEventListener('click', function (event) {
-        event.preventDefault();
-
-        const productosConDescuento = Products.filter(producto => {
-            return producto.discount && producto.discount > 0; // Filtra solo los productos con descuento
-        });
-
-        const productosContainer = document.getElementById("product-list");
-        productosContainer.innerHTML = "";
-
-        if (productosConDescuento.length === 0) {
-            alert("No hay productos con descuento disponibles en este momento.");
-        } else {
-            productosConDescuento.forEach(producto => {
-                const productoHTML = getProductCardHTML(producto);
-                productosContainer.insertAdjacentHTML("beforeend", productoHTML);
-            });
-        }
-    });
-}
 
 // FUNCION DESCUENTOS. ACCESORIOS.HTML
 function getProductCardHTML(producto) {
