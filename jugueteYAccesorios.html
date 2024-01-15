@@ -48,7 +48,7 @@
                     <!-- Una lista para los items que vamos a tener en el offcanvas -->
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a href="jugueteYAccesorios.html" id="en-promocion-link" style="text-transform: uppercase;">¡OFERTAS!</a>
+                          <a id="en-promocion-link" style="text-transform: uppercase;"></a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -245,6 +245,30 @@
                             }
                         }
                     </script>
+                    <script>
+                         document.addEventListener('DOMContentLoaded', function () {
+                                 // Función para ocultar el div price-filter
+                                 function ocultarPrecioFilter() {
+                                     var priceFilterDiv = document.querySelector('.col-md-10 #price-filter');
+                                     if (priceFilterDiv) {
+                                         priceFilterDiv.style.display = 'none';
+                                     }
+                                 }
+
+                                 // Verificar la URL al cargar la página
+                                 if (window.location.href.indexOf('jugueteYAccesorios.html#Descuentos') !== -1) {
+                                     ocultarPrecioFilter();
+                                 }
+
+                                 // Verificar cambios en el fragmento de la URL (parte después del '#')
+                                 window.addEventListener('hashchange', function () {
+                                     if (window.location.href.indexOf('jugueteYAccesorios.html#Descuentos') !== -1) {
+                                         ocultarPrecioFilter();
+                                     }
+                                 });
+                            });
+                    </script>
+
                 </div>
             </div>
 
