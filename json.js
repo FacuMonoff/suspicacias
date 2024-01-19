@@ -3895,18 +3895,10 @@ function filtrarProductosPorFragmento() {
 
         const categoryTitle = document.getElementById("category-title");
 
-        if (fragmento === 'Descuentos') {
-            categoryTitle.textContent = 'DESCUENTOS';
-            mostrarProductosConDescuento();
-        } else {
-            categoryTitle.textContent = fragmento;
-
-            // Resto del código...
-            mostrarProductosPorCategoria(fragmento);
-
-            // Cambia el título del H2 con el nombre de la categoría seleccionada
-            categoryTitle.textContent = fragmento;
-        }
+        // Cambia el título del H2 con el nombre de la categoría seleccionada
+        categoryTitle.textContent = fragmento;
+        mostrarProductosPorCategoria(fragmento);
+        // }
     }
 }
 
@@ -3914,53 +3906,6 @@ function filtrarProductosPorFragmento() {
 window.addEventListener("load", filtrarProductosPorFragmento);
 
 
-
-document.addEventListener("DOMContentLoaded", () => {
-    const enPromocionLink = document.getElementById("en-promocion-link");
-    const categoriaBtns = document.querySelectorAll(".categoria-btn");
-
-    enPromocionLink.addEventListener('click', function (event) {
-        event.preventDefault();
-
-        // Cambiar el fragmento de la URL a #Descuentos
-        history.replaceState({}, '', '#Descuentos');
-
-        // Llamar a la función para mostrar productos con descuento
-        mostrarProductosConDescuento();
-        
-    });
-
-    categoriaBtns.forEach(btn => {
-        btn.addEventListener("click", (event) => {
-            event.preventDefault(); // Evitar el comportamiento predeterminado de los enlaces
-
-            const categoriaSeleccionada = btn.getAttribute("data-categoria");
-
-            // Actualizar el título y mostrar los productos según la categoría seleccionada
-            actualizarCategoryTitle(categoriaSeleccionada);
-
-            // Cambiar el fragmento de la URL según la categoría seleccionada
-            const currentPage = window.location.pathname;
-            history.pushState({}, '', `${currentPage}#${categoriaSeleccionada}`);
-
-             window.location.reload();
-
-            if (categoriaSeleccionada !== "en-promocion") {
-                mostrarProductosPorCategoria(categoriaSeleccionada);
-            } else {
-                mostrarProductosConDescuento();
-            }
-        });
-    });
-});
-
-function mostrarProductosConDescuento() {
-    const productosConDescuento = Products.filter(producto => {
-        return producto.discount && producto.discount > 0; // Filtra solo los productos con descuento
-    });
-
-    mostrarProductos(productosConDescuento);
-}
 
 function mostrarProductosPorCategoria(categoria) {
     const productosContainer = document.getElementById("product-list");
@@ -4519,3 +4464,67 @@ const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece9
     locale: 'es-AR' // The most common are: 'pt-BR', 'es-AR' and 'en-US'
 });
 
+
+function actualizarSubtotal() {
+    const totalAmountElement = document.getElementById('totalAmount');
+    const subtotalDisplay = document.getElementById('subtotalDisplay');
+    const totalDisplay = document.getElementById('totalDisplay');
+
+    if (totalAmountElement && subtotalDisplay && totalDisplay) {
+        const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, ''));
+        const envio = obtenerPrecioEnvio();
+
+        let total = subtotal + envio;
+
+        subtotalDisplay.textContent = `$${subtotal.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+        totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+
+        // Guardar el subtotal y el total en el localStorage
+        localStorage.setItem('subtotal', subtotal.toFixed(2));
+        localStorage.setItem('total', total.toFixed(2));
+    }
+}
+
+function actualizarTotal() {
+    const subtotalDisplay = document.getElementById('subtotalDisplay');
+    const totalDisplay = document.getElementById('totalDisplay');
+
+    // Verificar si los elementos existen antes de acceder a sus propiedades
+    if (subtotalDisplay && totalDisplay) {
+        const subtotalText = subtotalDisplay.textContent || '0';
+        const subtotal = parseFloat(subtotalText.replace('$', '').replace(/,/g, ''));
+
+        const envio = obtenerPrecioEnvio();
+
+        let total = subtotal + envio;
+
+        totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+
+        // Guardar el total en el localStorage
+        localStorage.setItem('total', total.toFixed(2));
+    } else {
+        console.error("Al menos uno de los elementos 'subtotalDisplay' o 'totalDisplay' no se encontró.");
+    }
+}
+// Esta función obtiene el precio de envío, considerando palabras como cero
+function obtenerPrecioEnvio() {
+    const envioSeleccionado = document.querySelector('#envioDisplay');
+    let envio = 0;
+
+    if (envioSeleccionado.textContent.includes('$')) {
+        envio = parseFloat(envioSeleccionado.textContent.replace('$', '').replace(/,/g, ''));
+    }
+
+    return envio;
+}
+
+// Event listener para cambios en opciones de envío
+opcionesEntrega.addEventListener('change', function () {
+    // Actualizar el total cuando cambie la opción de envío
+    actualizarTotal();
+});
+
+// Llamamos a actualizarTotal al cargar la página para tener el valor inicial
+window.onload = function () {
+    actualizarTotal();
+};

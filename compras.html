@@ -654,66 +654,6 @@
         }
     </style>
 
-    <script>
-        function actualizarSubtotal() {
-                const totalAmountElement = document.getElementById('totalAmount');
-                const subtotalDisplay = document.getElementById('subtotalDisplay');
-                const totalDisplay = document.getElementById('totalDisplay');
-
-                if (totalAmountElement && subtotalDisplay && totalDisplay) {
-                    const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, ''));
-                    const envio = obtenerPrecioEnvio();
-
-                    let total = subtotal + envio;
-
-                    subtotalDisplay.textContent = `$${subtotal.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
-                    totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
-
-                    // Guardar el subtotal y el total en el localStorage
-                    localStorage.setItem('subtotal', subtotal.toFixed(2));
-                    localStorage.setItem('total', total.toFixed(2));
-                }
-            }
-
-      // Esta función calcula el total y lo actualiza en el HTML y el localStorage
-        function actualizarTotal() {
-                const subtotalDisplay = document.getElementById('subtotalDisplay');
-                const totalDisplay = document.getElementById('totalDisplay');
-
-                const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, ''));
-                const envio = obtenerPrecioEnvio();
-
-                let total = subtotal + envio;
-
-                totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
-
-                // Guardar el total en el localStorage
-                localStorage.setItem('total', total.toFixed(2));
-            }
-
-        // Esta función obtiene el precio de envío, considerando palabras como cero
-        function obtenerPrecioEnvio() {
-                const envioSeleccionado = document.querySelector('#envioDisplay');
-                let envio = 0;
-
-                if (envioSeleccionado.textContent.includes('$')) {
-                    envio = parseFloat(envioSeleccionado.textContent.replace('$', '').replace(/,/g, ''));
-                }
-
-                return envio;
-            }
-
-        // Event listener para cambios en opciones de envío
-        opcionesEntrega.addEventListener('change', function () {
-            // Actualizar el total cuando cambie la opción de envío
-            actualizarTotal();
-        });
-
-        // Llamamos a actualizarTotal al cargar la página para tener el valor inicial
-        window.onload = function () {
-            actualizarTotal();
-        };
-    </script>
     
     <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -848,6 +788,17 @@
     </footer>
 
     <div id="load-more-button" style="display: none;"></div>
+        <div id="product-details" style="display: none;"></div>
+
+        <div style="display: none;">
+        <p id="">SUBTOTAL: <span id="subtotalDisplay">0.00</span></p>
+        <p id="">ENVIO: <span id="envioDisplay">0.00</span></p>
+        <p id="totalStyle">TOTAL: <span id="totalDisplay">0.00</span></p>
+        <hr>
+        <button class="btn btn-primary custom-btn" type="submit" name="enviar" id="checkout-btn">
+            CONTINUAR CON EL PAGO
+        </button>
+        </div>
     <div id="product-details" style="display: none;"></div>
     <div id="cargarMasBoton" style="display: none;"></div>
     <div id="product-lista" style="display: none;"></div>
