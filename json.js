@@ -4039,9 +4039,11 @@ function getProductCardHTML(producto) {
     let displayPrice = formatPrice(producto.price);
 
     let priceSection = `
-        <div class="card-body">
-            <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
-            <p class="card-text">${formatPrice(producto.price)}</p>
+        <div class="card-body d-flex flex-column">
+            <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
+            <div style="margin-top: auto; margin-bottom: auto;">
+                    <p class="card-text">${displayPrice}</p>
+                </div>
             <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
         </div>
     `;
@@ -4049,9 +4051,11 @@ function getProductCardHTML(producto) {
     if (producto.discount && producto.discount > 0) {
         const discountedPrice = producto.price * (1 - producto.discount / 100);
         priceSection = `
-            <div class="card-body">
-                <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
-                <p class="card-text">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
+                <div style="margin-top: auto; margin-bottom: auto;">
+                    <p class="card-text">${displayPrice}</p>
+                </div>
                     <span class="original-price smaller">${formatPrice(producto.price)}</span>
                     <span class="discounted-price bigger">${formatPrice(discountedPrice)}</span>
                 </p>
@@ -4325,9 +4329,12 @@ function actualizarCarrito() {
                         </div>
                     </div>
                     <div class="col-md-8">
-                                            <div class="card-body">
+                                            <div class="card-body d-flex flex-column">
                             <h5 class="card-title mt-8">${item.name}</h5>
-                            <p class="card-text">${formatPrice(item.price * item.cantidad)}</p>
+                            <div style="margin-top: auto; margin-bottom: auto;">
+                                <p class="card-text">${formatPrice(item.price * item.cantidad)}</p>
+                            </div>
+                            
                             <div class="row">
                                 <div class="col-md-12">
                                     <button class="btn btn-primary" onclick="eliminarDelCarrito('${item.name}')">Borrar</button>
@@ -4448,9 +4455,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             onmouseout="showImage(this, '${product.image}')"
                             alt="...">
                     </a>
-                    <div class="card-body">
-                        <h5 class="card-title mb-0" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
-                        <p class="card-text">${displayPrice}</p>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                        <div style="margin-top: auto; margin-bottom: auto;">
+                           <p class="card-text">${displayPrice}</p>
+                        </div>
                         <div style="margin-top: auto;">
                     <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
                 </div>
