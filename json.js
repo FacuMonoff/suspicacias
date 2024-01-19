@@ -3426,7 +3426,7 @@ const Products = [
         name: "masturbador vagina skin",
         price: "$7,279",
         descripcion: "Super suave. Vagina masturbadora realizada en material Cyber-Skin. Su textura suave logra una increíble similitud a la piel humana",
-        categoria: "masturbadores",
+        categoria: "MASTURBADORES",
         stock: "1",
         discount: 10, // Porcentaje de descuento
 
@@ -3439,7 +3439,7 @@ const Products = [
         name: "dark grey masturbador",
         price: "$60,039",
         descripcion: "Masturbador 3 en 1: Efecto Calor + Vibración + Succion. ----- Coloca tu pene y disfrutá de las sensaciones únicas de la vibración, la succión y el calor todo en uno, inclusive! ¡¡¡Imposible no llegar al clímax!!! Cuenta con 9 patrones de vibración, 3 patrones de succión y función calor hasta 40 grados",
-        categoria: "masturbadores",
+        categoria: "MASTURBADORES",
         stock: "1",
         discount: 10, // Porcentaje de descuento
 
@@ -3452,7 +3452,7 @@ const Products = [
         name: "huevito masturbador x1 unidad",
         price: "$5,759",
         descripcion: "Este juguete con forma de huevo es muy elastico, ajustable y se adapta perfectamente a cualquier tamaño de pene. El interior de este huevo tiene un sistema nuevo de texturas y diseños que proporcionan diferentes tipos de placer. Son suaves y envolventes y permiten una masturbacion muy placentera, produciendo sensaciones espectaculares al contacto de la piel.",
-        categoria: "masturbadores",
+        categoria: "MASTURBADORES",
         stock: "1",
         discount: 10, // Porcentaje de descuento
 
@@ -3463,7 +3463,7 @@ const Products = [
         name: "XP 1",
         price: "$33,889",
         descripcion: "El masturbador XP 1 tiene una válvula de respiración especial, el pene entra en la cavidad sin problemas y la succión se hace más fuerte cuando el pene sale. Viene protegido con una cubierta de plástico para su cuidado. Su textura con relieve pronunciado y contorneado, hace mucho más placentera la experiencia.",
-        categoria: "masturbadores",
+        categoria: "MASTURBADORES",
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
@@ -3901,6 +3901,36 @@ function filtrarProductosPorFragmento() {
         // }
     }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const enPromocionLink = document.getElementById("en-promocion-link");
+    const categoriaBtns = document.querySelectorAll(".categoria-btn");
+    enPromocionLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        // Cambiar el fragmento de la URL a #Descuentos
+        history.replaceState({}, '', '#Descuentos');
+        // Llamar a la función para mostrar productos con descuento
+        mostrarProductosConDescuento();
+
+    });
+    categoriaBtns.forEach(btn => {
+        btn.addEventListener("click", (event) => {
+            event.preventDefault(); // Evitar el comportamiento predeterminado de los enlaces
+            const categoriaSeleccionada = btn.getAttribute("data-categoria");
+            // Actualizar el título y mostrar los productos según la categoría seleccionada
+            actualizarCategoryTitle(categoriaSeleccionada);
+            // Cambiar el fragmento de la URL según la categoría seleccionada
+            const currentPage = window.location.pathname;
+            history.pushState({}, '', `${currentPage}#${categoriaSeleccionada}`);
+            window.location.reload();
+            if (categoriaSeleccionada !== "en-promocion") {
+                mostrarProductosPorCategoria(categoriaSeleccionada);
+            } else {
+                mostrarProductosConDescuento();
+            }
+        });
+    });
+});
 
 // Llama a la función para filtrar productos cuando se carga la página
 window.addEventListener("load", filtrarProductosPorFragmento);
