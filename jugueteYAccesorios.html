@@ -48,7 +48,7 @@
                     <!-- Una lista para los items que vamos a tener en el offcanvas -->
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a id="en-promocion-link" style="text-transform: uppercase;"></a>
+                            <a id="en-promocion-link" style="text-transform: uppercase;"></a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -233,15 +233,22 @@
                         </div>
                         <button onclick="aplicarFiltroPrecio()" class="btn btn-primary">Aplicar</button>
                     </div>
-                </div>
-                <script>
-                    document.addEventListener('DOMContentLoaded', function () {
-                        function ocultarPrecioFilter() {
-                            var priceFilterDiv = document.querySelector('.d-md-block #price-filter');
-                            if (priceFilterDiv) {
-                                priceFilterDiv.style.display = 'none';
+                    <script> //codigo para sacar el 0 a la hora de poner el precio
+                        function limpiarValor(input) {
+                            if (input.value === '0') {
+                                input.value = ''; // Si el valor es 0, lo borra al hacer clic en el campo
                             }
                         }
+                    </script>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function () {
+                            // Función para ocultar el div price-filter
+                            function ocultarPrecioFilter() {
+                                var priceFilterDiv = document.querySelector('.col-md-10 #price-filter');
+                                if (priceFilterDiv) {
+                                    priceFilterDiv.style.display = 'none';
+                                }
+                            }
 
                         if (window.location.href.indexOf('jugueteYAccesorios.html#Descuentos') !== -1) {
                             ocultarPrecioFilter();
