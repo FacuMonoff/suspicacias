@@ -438,15 +438,16 @@ section {
 
 #category-title {
     margin-top: 10%;
-    margin-left: 100%;
 }
+
+
+
 
 /* Media query para reducir el tamaño del texto cuando la pantalla sea más pequeña */
 @media screen and (max-width: 800px) {
 
     #category-title {
         margin-top: 1%;
-        margin-left: -8%;
     }
 
     .discount-badge {

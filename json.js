@@ -4444,6 +4444,8 @@ document.addEventListener("DOMContentLoaded", function () {
             discountBadge = `<span class="discount-badge">-${product.discount}% OFF</span>`;
         }
 
+        // Truncar el nombre del producto si es mayor a 18 caracteres
+        const truncatedName = product.name.length > 30 ? product.name.slice(0, 30) + "..." : product.name;
 
         return `
             <div class="col">
@@ -4456,17 +4458,17 @@ document.addEventListener("DOMContentLoaded", function () {
                             alt="...">
                     </a>
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${product.name}</h5>
+                        <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${truncatedName}</h5>
                         <div style="margin-top: auto; margin-bottom: auto;">
-                           <p class="card-text">${displayPrice}</p>
+                            <p class="card-text">${displayPrice}</p>
                         </div>
                         <div style="margin-top: auto;">
-                    <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
-                </div>
+                            <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        `;
+            `;
     }
 
     // Obtén el contenedor de la lista de productos en tu página HTML
@@ -4498,6 +4500,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Manejar el evento de clic del botón "Mostrar más"
     loadMoreButton.addEventListener("click", loadMoreProducts);
 });
+
+
 
 const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece99', {
     locale: 'es-AR' // The most common are: 'pt-BR', 'es-AR' and 'en-US'
