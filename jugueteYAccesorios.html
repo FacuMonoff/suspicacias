@@ -67,7 +67,6 @@
                                 <li><a class="categoria-btn dropdown-item" data-categoria="KEGEL">Kegel</a></li>
                                 <li><a class="categoria-btn dropdown-item" data-categoria="LUBRICANTES">Lubricantes</a>
                                 </li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="MASTURBADORES">Masturbadores</a></li>
                                 <li><a class="categoria-btn dropdown-item"
                                         data-categoria="PRESERVATIVOS">Preservativos</a></li>
                                 <li><a class="categoria-btn dropdown-item"
@@ -207,7 +206,7 @@
                             <a class="categoria-btn" data-categoria="SUCCIONADORES">Succionadores</a>
                             <a class="categoria-btn" data-categoria="VELAS">Velas</a>
                             <a class="categoria-btn" data-categoria="VIBRADORES">Vibradores</a>
-                         </ul>
+                        </ul>
                     </div>
                 </div>
                 <br>
@@ -233,22 +232,15 @@
                         </div>
                         <button onclick="aplicarFiltroPrecio()" class="btn btn-primary">Aplicar</button>
                     </div>
-                    <script> //codigo para sacar el 0 a la hora de poner el precio
-                        function limpiarValor(input) {
-                            if (input.value === '0') {
-                                input.value = ''; // Si el valor es 0, lo borra al hacer clic en el campo
+                </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        function ocultarPrecioFilter() {
+                            var priceFilterDiv = document.querySelector('.d-md-block #price-filter');
+                            if (priceFilterDiv) {
+                                priceFilterDiv.style.display = 'none';
                             }
                         }
-                    </script>
-                    <script>
-                        document.addEventListener('DOMContentLoaded', function () {
-                            // Función para ocultar el div price-filter
-                            function ocultarPrecioFilter() {
-                                var priceFilterDiv = document.querySelector('.col-md-10 #price-filter');
-                                if (priceFilterDiv) {
-                                    priceFilterDiv.style.display = 'none';
-                                }
-                            }
 
                         if (window.location.href.indexOf('jugueteYAccesorios.html#Descuentos') !== -1) {
                             ocultarPrecioFilter();
@@ -261,7 +253,7 @@
                         });
                     });
                 </script>
-
+    
                 <!-- Filtro de precio para pantallas grandes -->
                 <div class="d-none d-md-block" id="price-filter">
                     <h4 class="mb-3">Filtrar por Precio</h4>
@@ -283,10 +275,10 @@
                     </div>
                     <button onclick="aplicarFiltroPrecio()" class="btn btn-primary">Aplicar</button>
                 </div>
-                
+    
             </div>
-
-                   
+    
+    
             <!-- Columna de Productos -->
             <div class="col-md-10 col-12 custom-width-80">
                 <!-- Título -->
@@ -295,19 +287,19 @@
                         <h2 id="category-title"></h2>
                     </div>
                 </div>
-            
+    
                 <!-- Lista de Productos -->
                 <div class="row row-cols-md-4 row-cols-sm-2 g-4 justify-content-center" id="product-list"></div>
             </div>
-            
-
+    
+    
             <!-- Categorias y Filtros, Productos  -->
             <section class="row justify-content-between">
                 <div class="col-md-9 col-sm-12">
                     <div id="productos-container"> <!-- Aquí se mostrarán los productos filtrados --> </div>
                 </div>
             </section>
-
+    
         </div>
     </section>
 
@@ -399,58 +391,9 @@
                 permiso.</p>
         </div>
     </footer>
-
-    <style>
-        @media (min-width: 900px) {
-            .custom-width-80 {
-                width: 81%;
-            }
-        }
-    </style>
-
     <div id="load-more-button" style="display: none;"></div>
-        <div id="product-details" style="display: none;"></div>
-
-        <div style="display: none;">
-        <div style="display: none;" id="product-lista"></div>
-        <p id="">SUBTOTAL: <span id="subtotalDisplay">0.00</span></p>
-        <p id="">ENVIO: <span id="envioDisplay">0.00</span></p>
-        <p id="totalStyle">TOTAL: <span id="totalDisplay">0.00</span></p>
-        <hr>
-        <button class="btn btn-primary custom-btn" type="submit" name="enviar" id="checkout-btn">
-            CONTINUAR CON EL PAGO
-        </button>
-        </div>
-    <script> //codigo para sacar el 0 a la hora de poner el precio
-        function limpiarValor(input) {
-            if (input.value === '0') {
-                input.value = ''; // Si el valor es 0, lo borra al hacer clic en el campo
-            }
-        }
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Función para ocultar el div price-filter
-            function ocultarPrecioFilter() {
-                var priceFilterDiv = document.querySelector('.col-md-10 #price-filter');
-                if (priceFilterDiv) {
-                    priceFilterDiv.style.display = 'none';
-                }
-            }
-
-            // Verificar la URL al cargar la página
-            if (window.location.href.indexOf('jugueteYAccesorios.html#Descuentos') !== -1) {
-                ocultarPrecioFilter();
-            }
-
-            // Verificar cambios en el fragmento de la URL (parte después del '#')
-            window.addEventListener('hashchange', function () {
-                if (window.location.href.indexOf('jugueteYAccesorios.html#Descuentos') !== -1) {
-                    ocultarPrecioFilter();
-                }
-            });
-        });
-    </script>
+    <div id="product-details" style="display: none;"></div>
+    <div id="cargarMasBoton" style="display: none;"></div>
 
     <!-- Icono de whatsapp -->
     <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
