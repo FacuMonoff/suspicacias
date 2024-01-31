@@ -160,28 +160,6 @@
         </div>
     </nav>
 
-    <script>
-        // Hacer una solicitud AJAX a obtener_datos.php para obtener los datos
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === XMLHttpRequest.DONE) {
-                if (xhr.status === 200) {
-                    var data = JSON.parse(xhr.responseText); // Parsear la respuesta JSON
-                    mostrarEnConsola(data); // Llamar a la función para mostrar en la consola
-                } else {
-                    console.error('Error al obtener datos');
-                }
-            }
-        };
-        xhr.open('GET', 'obtener_datos.php'); // Ruta a tu archivo obtener_datos.php
-        xhr.send();
-
-        function mostrarEnConsola(data) {
-            console.log("Datos de la base de datos:");
-            console.table(data); // Mostrar datos en forma de tabla en la consola
-        }
-    </script>
-
     <!-- Main section -->
     <section class="container-fluid">
         <div class="row">
@@ -233,6 +211,8 @@
                         <button onclick="aplicarFiltroPrecio()" class="btn btn-primary">Aplicar</button>
                     </div>
                 </div>
+
+                <!--CODIGO PARA FILTRO DE PRECIOS -->
                 <script>
                     document.addEventListener('DOMContentLoaded', function () {
                         function ocultarPrecioFilter() {
@@ -391,9 +371,48 @@
                 permiso.</p>
         </div>
     </footer>
-    <div id="load-more-button" style="display: none;"></div>
-    <div id="product-details" style="display: none;"></div>
-    <div id="cargarMasBoton" style="display: none;"></div>
+
+   <script>
+        // Función para actualizar los productos desde localStorage
+        function actualizarProductosDesdeLocalStorage() {
+            var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
+            if (cachedData) {
+                var data = JSON.parse(cachedData);
+                Products.forEach(productoJSON => {
+                    data.forEach(productoBD => {
+                        if (productoBD.artId === productoJSON.ID) {
+                            productoJSON.stock = productoBD.artStock;
+                            if (productoBD.artPrecio !== undefined && productoBD.artPrecio !== null) {
+                                productoJSON.price = parseFloat(productoBD.artPrecio);
+                            }
+                        }
+                    });
+                });
+                console.log('Productos actualizados desde el localStorage');
+                console.table(Products);
+            } else {
+                console.error('No hay datos en el localStorage');
+            }
+        }
+
+        // Al cargar la página, actualizar productos desde el localStorage
+        actualizarProductosDesdeLocalStorage();
+    </script>
+
+    <div style="display: none;"> <!-- CODIGOS PARA EVITAR ERRORES EN LA CONSOLA  -->
+        <div id="load-more-button" style="display: none;"></div>
+        <div id="product-details" style="display: none;"></div>
+        <div id="cargarMasBoton" ></div>
+        <div style="display: none;" id="product-lista"></div>
+        <p id="" style="display: none;" >SUBTOTAL: <span id="subtotalDisplay">0.00</span></p>
+        <p id="" style="display: none;" >ENVIO: <span id="envioDisplay">0.00</span></p>
+        <p id="totalStyle" style="display: none;">TOTAL: <span id="totalDisplay">0.00</span></p>
+        <div id="load-more-button" style="display: none;"></div>
+        <div class="opciones-entrega" style="display: none;"> </div>
+        <script>
+            const opcionesEntrega = document.querySelector('.opciones-entrega');
+        </script>
+    </div>
 
     <!-- Icono de whatsapp -->
     <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>

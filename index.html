@@ -552,39 +552,6 @@
 
         </script>
 
-        <script>
-            // Obtener datos desde LocalStorage si están disponibles
-            var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
-
-            // Si hay datos almacenados en caché, utilizarlos
-            if (cachedData) {
-                var data = JSON.parse(cachedData);
-                mostrarEnConsola(data);
-            } else {
-                // Realizar solicitud al servidor para obtener datos de la base de datos
-                var xhr = new XMLHttpRequest();
-                xhr.onreadystatechange = function () {
-                    if (xhr.readyState === XMLHttpRequest.DONE) {
-                        if (xhr.status === 200) {
-                            var data = JSON.parse(xhr.responseText);
-                            mostrarEnConsola(data);
-                            // Guardar datos en LocalStorage para uso futuro
-                            localStorage.setItem('datosDeLaBaseDeDatos', JSON.stringify(data));
-                        } else {
-                            console.error('Error al obtener datos');
-                        }
-                    }
-                };
-                xhr.open('GET', 'obtener_datos.php');
-                xhr.send();
-            }
-
-            function mostrarEnConsola(data) {
-                console.log("Datos de la base de datos:");
-                console.table(data);
-            }
-        </script>
-
 
         <footer class=" footer">
             <div class="row">
@@ -676,6 +643,33 @@
                     permiso.</p>
             </div>
         </footer>
+
+        <script>
+            // Función para actualizar los productos desde localStorage
+            function actualizarProductosDesdeLocalStorage() {
+                var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
+                if (cachedData) {
+                    var data = JSON.parse(cachedData);
+                    Products.forEach(productoJSON => {
+                        data.forEach(productoBD => {
+                            if (productoBD.artId === productoJSON.ID) {
+                                productoJSON.stock = productoBD.artStock;
+                                if (productoBD.artPrecio !== undefined && productoBD.artPrecio !== null) {
+                                    productoJSON.price = parseFloat(productoBD.artPrecio);
+                                }
+                            }
+                        });
+                    });
+                    console.log('Productos actualizados desde el localStorage');
+                    console.table(Products);
+                } else {
+                    console.error('No hay datos en el localStorage');
+                }
+            }
+
+            // Al cargar la página, actualizar productos desde el localStorage
+            actualizarProductosDesdeLocalStorage();
+        </script>
 
         <div id="load-more-button" style="display: none;"></div>
         <div id="product-details" style="display: none;"></div>

@@ -15,6 +15,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        ID: "1",
         SKU: "1737", //el SKU no se tiene que modificar una vez ya colocado el numero
         Stock: "1111",
         image: "img/anillos/Kevin.jpg",
@@ -3575,6 +3576,81 @@ const Products = [
 ];
 
 
+
+// Función para obtener datos desde la base de datos y almacenarlos en localStorage
+function obtenerDatosYGuardarEnLocalStorage() {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === XMLHttpRequest.DONE) {
+                if (xhr.status === 200) {
+                    var data = JSON.parse(xhr.responseText);
+                    localStorage.setItem('datosDeLaBaseDeDatos', JSON.stringify(data));
+                    actualizarProductosDesdeLocalStorage();
+                } else {
+                    console.error('Error al obtener datos de la base de datos');
+                }
+            }
+        };
+        xhr.open('GET', 'obtener_datos.php');
+        xhr.send();
+}
+
+// Función para actualizar los productos desde localStorage
+function actualizarProductosDesdeLocalStorage() {
+    var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
+    if (cachedData) {
+        var data = JSON.parse(cachedData);
+        Products.forEach(productoJSON => {
+            data.forEach(productoBD => {
+                if (productoBD.artId === productoJSON.ID) {
+                    productoJSON.stock = productoBD.artStock;
+                    if (productoBD.artPrecio !== undefined && productoBD.artPrecio !== null) {
+                        productoJSON.price = parseFloat(productoBD.artPrecio);
+                    }
+                }
+            });
+        });
+        console.log('Productos actualizados desde el localStorage');
+        console.table(Products);
+    } else {
+        console.error('No hay datos en el localStorage');
+    }
+}
+
+// Al cargar la página, obtener datos de la base de datos y guardar en localStorage
+obtenerDatosYGuardarEnLocalStorage();
+
+
+
+/*
+// Obtener datos desde LocalStorage si están disponibles
+var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
+
+// Si hay datos almacenados en caché, utilizarlos
+if (cachedData) {
+    var data = JSON.parse(cachedData);
+    mostrarEnConsola(data);
+} else {
+    // Realizar solicitud al servidor para obtener datos de la base de datos
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                var data = JSON.parse(xhr.responseText);
+                mostrarEnConsola(data);
+                // Guardar datos en LocalStorage para uso futuro
+                localStorage.setItem('datosDeLaBaseDeDatos', JSON.stringify(data));
+            } else {
+                console.error('Error al obtener datos');
+            }
+        }
+    };
+    xhr.open('GET', 'obtener_datos.php');
+    xhr.send();
+}
+
+
+// Función para mostrar datos en la consola y actualizar productos
 function mostrarEnConsola(data) {
     console.log("Datos de la base de datos:");
     console.table(data); // Mostrar datos en forma de tabla en la consola
@@ -3587,19 +3663,23 @@ function mostrarEnConsola(data) {
             if (productoBD.artId === productoJSON.ID) {
                 console.log("¡Ambos IDs coinciden!");
                 // Aquí puedes realizar acciones adicionales si los IDs coinciden
+                // Por ejemplo, actualizar el stock o el precio del productoJSON con el de la base de datos
+                productoJSON.stock = productoBD.artStock;
+                productoJSON.price = parseFloat(productoBD.artPrecio); // Asegúrate de que sea un número
             }
         });
     });
 }
 
-// Función para obtener los datos de la base de datos y actualizar Products
-function obtenerDatosYActualizarProductos() {
+// Función para obtener los datos de la base de datos y almacenarlos en localStorage
+function obtenerDatosYGuardarLocalStorage() {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (xhr.readyState === XMLHttpRequest.DONE) {
             if (xhr.status === 200) {
                 var data = JSON.parse(xhr.responseText);
-                actualizarProductosConDatos(data);
+                localStorage.setItem('datosDeLaBaseDeDatos', JSON.stringify(data)); // Almacenar en localStorage
+                mostrarEnConsola(data); // Mostrar datos y actualizar productos
             } else {
                 console.error('Error al obtener datos de la base de datos');
             }
@@ -3609,25 +3689,22 @@ function obtenerDatosYActualizarProductos() {
     xhr.send();
 }
 
-// Función para actualizar los productos con los datos obtenidos de la base de datos
-function actualizarProductosConDatos(datosDeLaBaseDeDatos) {
-    Products.forEach(productoJSON => {
-        datosDeLaBaseDeDatos.forEach(productoBD => {
-            if (productoBD.artId === productoJSON.ID) {
-                productoJSON.stock = productoBD.artStock;
-
-                // Asigna el precio original de la base de datos al productoJSON.price si está presente
-                if (productoBD.artPrecio !== undefined && productoBD.artPrecio !== null) {
-                    productoJSON.price = parseFloat(productoBD.artPrecio); // Asegúrate de que sea un número
-                }
-            }
-        });
-    });
+// Función para actualizar los productos con los datos obtenidos de localStorage
+function actualizarProductosConLocalStorage() {
+    var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
+    if (cachedData) {
+        var data = JSON.parse(cachedData);
+        mostrarEnConsola(data); // Mostrar datos y actualizar productos
+    } else {
+        console.error('No hay datos en el localStorage');
+    }
 }
 
+// Llamada inicial para obtener datos y guardar en localStorage
+obtenerDatosYGuardarLocalStorage();
 
-// Llamada inicial para obtener datos y actualizar los productos
-obtenerDatosYActualizarProductos();
+// Llamada para actualizar los productos con los datos de localStorage
+actualizarProductosConLocalStorage();*/
 
 
 
