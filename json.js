@@ -12,7 +12,7 @@ const Products = [
         descripcion: " Para innovar y experimentar cosas nuevas, este anillo generará una fabulosa sensación tanto para el que lo lleva colocado como para su pareja. Su potente sujeción en pene y testículos ayudan a retardar la eyaculación y a mantener la erección y en este caso encontrará una generosa lengua para estimula el clítoris En este caso además de sujetar el pene también abraza los testículos Gracias a su fuerte sujeción conseguirás mantener una erección mas fuerte y firme, evitando asi la dsifunción y prolongar el período de la relación sexual  Unidad vibradora extraíble para jugar independiente del anillo ---- 1 Nivel de vibración ----  Usa 3 LR44 ---- ",
         categoria: "ANILLOS",
         stock: "10000",
-        discount: 0, // Porcentaje de descuento
+        discount: 10, // Porcentaje de descuento
     },
     {
         ID: "1",
@@ -3579,20 +3579,20 @@ const Products = [
 
 // Función para obtener datos desde la base de datos y almacenarlos en localStorage
 function obtenerDatosYGuardarEnLocalStorage() {
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === XMLHttpRequest.DONE) {
-                if (xhr.status === 200) {
-                    var data = JSON.parse(xhr.responseText);
-                    localStorage.setItem('datosDeLaBaseDeDatos', JSON.stringify(data));
-                    actualizarProductosDesdeLocalStorage();
-                } else {
-                    console.error('Error al obtener datos de la base de datos');
-                }
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                var data = JSON.parse(xhr.responseText);
+                localStorage.setItem('datosDeLaBaseDeDatos', JSON.stringify(data));
+                actualizarProductosDesdeLocalStorage();
+            } else {
+                console.error('Error al obtener datos de la base de datos');
             }
-        };
-        xhr.open('GET', 'obtener_datos.php');
-        xhr.send();
+        }
+    };
+    xhr.open('GET', 'obtener_datos.php');
+    xhr.send();
 }
 
 // Función para actualizar los productos desde localStorage
@@ -3610,8 +3610,6 @@ function actualizarProductosDesdeLocalStorage() {
                 }
             });
         });
-        console.log('Productos actualizados desde el localStorage');
-        console.table(Products);
     } else {
         console.error('No hay datos en el localStorage');
     }
@@ -3620,6 +3618,17 @@ function actualizarProductosDesdeLocalStorage() {
 // Al cargar la página, obtener datos de la base de datos y guardar en localStorage
 obtenerDatosYGuardarEnLocalStorage();
 
+// Escuchar el evento "DOMContentLoaded" para actualizar los datos al cargar la página
+document.addEventListener("DOMContentLoaded", function () {
+    // Actualizar los productos desde el localStorage cada vez que se carga la página
+    actualizarProductosDesdeLocalStorage();
+});
+
+// Escuchar el evento "popstate" para actualizar los datos cuando cambie la URL (navegación interna)
+window.addEventListener('popstate', function () {
+    // Actualizar los productos desde el localStorage cuando cambie la URL
+    actualizarProductosDesdeLocalStorage();
+});
 
 
 /*
@@ -3889,55 +3898,83 @@ window.addEventListener("DOMContentLoaded", () => {
     if (!isNaN(productIndex) && productIndex >= 0 && productIndex < Products.length) {
         const selectedProduct = Products[productIndex];
 
-        // Verificar si el producto tiene stock mayor que cero
-        if (parseInt(selectedProduct.stock) > 0) {
-            let price = parseFloat(selectedProduct.price);
+        // Función para actualizar los productos desde el localStorage
+        function actualizarProductoDesdeLocalStorage(productId) {
+            var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
+            if (cachedData) {
+                var data = JSON.parse(cachedData);
+                var productData = data.find(producto => producto.artId === productId);
+                if (productData) {
+                    // Actualizar el precio y stock del producto seleccionado
+                    selectedProduct.stock = productData.artStock;
+                    if (productData.artPrecio !== undefined && productData.artPrecio !== null) {
+                        selectedProduct.price = parseFloat(productData.artPrecio);
+                    }
 
-            // Verificar si el precio es un string y realizar el reemplazo si es necesario
-            if (typeof selectedProduct.price === 'string') {
-                price = parseFloat(selectedProduct.price.replace("$", "").replace(",", ""));
+                    // Actualizar la descripción del producto con los datos actualizados
+                    actualizarDescripcion(selectedProduct);
+                } else {
+                    console.error('No se encontró el producto en el localStorage');
+                }
+            } else {
+                console.error('No hay datos en el localStorage');
             }
-
-            const discount = parseInt(selectedProduct.discount);
-            const discountedPrice = price - (price * (discount / 100));
-
-
-            // Mostrar los detalles del producto con el precio actualizado
-            document.getElementById("product-image").src = selectedProduct.image;
-            document.getElementById("product-image2").src = selectedProduct.image2;
-            document.getElementById("product-name").textContent = selectedProduct.name;
-            document.getElementById("product-price").textContent = formatPrice(discountedPrice); // Mostrar el precio con descuento
-            document.getElementById("product-descripcion").textContent = selectedProduct.descripcion;
-            document.getElementById("product-stock").textContent = selectedProduct.stock;
-
-            // Precio original tachado
-            const originalPriceElement = document.getElementById("product-original-price");
-            originalPriceElement.textContent = formatPrice(price);
-            originalPriceElement.style.textDecoration = "line-through"; // Aplicar tachado
-
-            // Precio con descuento
-            const discountedPriceElement = document.getElementById("product-price");
-            discountedPriceElement.textContent = formatPrice(discountedPrice);
-
-
-            // Agregar botón "Agregar al carrito"
-            document.getElementById("add-to-cart-button").addEventListener("click", function () {
-                agregarAlCarrito(selectedProduct);
-            });
-        } else {
-            // Si el stock es cero, ocultar la sección de producto y mostrar un mensaje
-            document.querySelector(".product-container").style.display = "none";
-            const modalMessage = document.getElementById("modal-message");
-            modalMessage.textContent = "No hay stock disponible para este producto.";
-            const modal = document.getElementById("myModal");
-            modal.style.display = "block";
-
-            // Agregar evento para cerrar el modal
-            const closeButton = document.querySelector(".close");
-            closeButton.addEventListener("click", function () {
-                modal.style.display = "none";
-            });
         }
+
+        // Función para actualizar la descripción del producto con los datos proporcionados
+        function actualizarDescripcion(producto) {
+            // Verificar si el producto tiene stock mayor que cero
+            if (parseInt(producto.stock) > 0) {
+                let price = parseFloat(producto.price);
+
+                // Verificar si el precio es un string y realizar el reemplazo si es necesario
+                if (typeof producto.price === 'string') {
+                    price = parseFloat(producto.price.replace("$", "").replace(",", ""));
+                }
+
+                const discount = parseInt(producto.discount);
+                const discountedPrice = price - (price * (discount / 100));
+
+                // Mostrar los detalles del producto con el precio actualizado
+                document.getElementById("product-image").src = producto.image;
+                document.getElementById("product-image2").src = producto.image2;
+                document.getElementById("product-name").textContent = producto.name;
+                document.getElementById("product-price").textContent = formatPrice(discountedPrice); // Mostrar el precio con descuento
+                document.getElementById("product-descripcion").textContent = producto.descripcion;
+                document.getElementById("product-stock").textContent = producto.stock;
+
+                // Precio original tachado
+                const originalPriceElement = document.getElementById("product-original-price");
+                originalPriceElement.textContent = formatPrice(price);
+                originalPriceElement.style.textDecoration = "line-through"; // Aplicar tachado
+
+                // Precio con descuento
+                const discountedPriceElement = document.getElementById("product-price");
+                discountedPriceElement.textContent = formatPrice(discountedPrice);
+
+
+                // Agregar botón "Agregar al carrito"
+                document.getElementById("add-to-cart-button").addEventListener("click", function () {
+                    agregarAlCarrito(producto);
+                });
+            } else {
+                // Si el stock es cero, ocultar la sección de producto y mostrar un mensaje
+                document.querySelector(".product-container").style.display = "none";
+                const modalMessage = document.getElementById("modal-message");
+                modalMessage.textContent = "No hay stock disponible para este producto.";
+                const modal = document.getElementById("myModal");
+                modal.style.display = "block";
+
+                // Agregar evento para cerrar el modal
+                const closeButton = document.querySelector(".close");
+                closeButton.addEventListener("click", function () {
+                    modal.style.display = "none";
+                });
+            }
+        }
+
+        // Llamar a la función para actualizar los datos del producto desde el localStorage
+        actualizarProductoDesdeLocalStorage(selectedProduct.ID);
     } else {
         document.getElementById("product-details").innerHTML = "<h3>Producto no encontrado</h3>";
     }
@@ -4131,7 +4168,6 @@ function getProductCardHTML(producto) {
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
                 <div style="margin-top: auto; margin-bottom: auto;">
-                    <p class="card-text">${displayPrice}</p>
                 </div>
                     <span class="original-price smaller">${formatPrice(producto.price)}</span>
                     <span class="discounted-price bigger">${formatPrice(discountedPrice)}</span>
@@ -4512,40 +4548,40 @@ document.addEventListener("DOMContentLoaded", function () {
         let displayPrice = formatPrice(product.price);
 
         let discountBadge = '';
+        let priceContent = '';
         if (hasDiscount) {
             const discountedPrice = product.price * (1 - product.discount / 100);
-            displayPrice = `
-                <span class="original-price smaller">${formatPrice(product.price)}</span>
-                <span class="discounted-price bigger">${formatPrice(discountedPrice)}</span>
-            `;
+            priceContent = `<span class="original-price smaller">${formatPrice(product.price)}</span><br><span class="discounted-price bigger">${formatPrice(discountedPrice)}</span>`;
             discountBadge = `<span class="discount-badge">-${product.discount}% OFF</span>`;
+        } else {
+            priceContent = `<span class="original-price smaller">${formatPrice(product.price)}</span>`;
         }
 
         // Truncar el nombre del producto si es mayor a 18 caracteres
         const truncatedName = product.name.length > 30 ? product.name.slice(0, 30) + "..." : product.name;
 
         return `
-            <div class="col">
-                <div class="card h-100">
-                    ${hasDiscount ? discountBadge : ''}
-                    <a href="descripcion.html?index=${Products.indexOf(product)}&name=${encodeURIComponent(product.name)}">
-                        <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
-                            onmouseover="showImage(this, '${product.image2}')"
-                            onmouseout="showImage(this, '${product.image}')"
-                            alt="...">
-                    </a>
-                    <div class="card-body d-flex flex-column">
-                        <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${truncatedName}</h5>
-                        <div style="margin-top: auto; margin-bottom: auto;">
-                            <p class="card-text">${displayPrice}</p>
-                        </div>
-                        <div style="margin-top: auto;">
-                            <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
-                        </div>
+        <div class="col">
+            <div class="card h-100">
+                ${hasDiscount ? discountBadge : ''}
+                <a href="descripcion.html?index=${Products.indexOf(product)}&id=${product.ID}&name=${encodeURIComponent(product.name)}">
+                    <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
+                        onmouseover="showImage(this, '${product.image2}')"
+                        onmouseout="showImage(this, '${product.image}')"
+                        alt="...">
+                </a>
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${truncatedName}</h5>
+                    <div style="margin-top: auto; margin-bottom: auto;">
+                        ${priceContent}
+                    </div>
+                    <div style="margin-top: auto;">
+                        <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
                     </div>
                 </div>
             </div>
-            `;
+        </div>
+        `;
     }
 
     // Obtén el contenedor de la lista de productos en tu página HTML
@@ -4577,7 +4613,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Manejar el evento de clic del botón "Mostrar más"
     loadMoreButton.addEventListener("click", loadMoreProducts);
 });
-
 
 
 const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece99', {

@@ -175,20 +175,20 @@
                         aria-label="Slide 2"></button>
                     <!-- Agrega más botones según sea necesario -->
                 </div>
-
+    
                 <!-- Contenedor de las imágenes -->
                 <div class="carousel-inner">
                     <!-- Primera imagen (puedes añadir más según sea necesario) -->
                     <div class="carousel-item active">
                         <img id="product-image" class="d-block w-100 " style="height: 500px;" alt="Imagen del producto">
                     </div>
-
+    
                     <!-- Segunda imagen -->
                     <div class="carousel-item">
                         <img id="product-image2" class="d-block w-100" style="height: 500px;"
                             alt="Otra imagen del producto">
                     </div>
-
+    
                     <!-- Puedes agregar más imágenes según sea necesario -->
                 </div>
                 <style>
@@ -198,7 +198,7 @@
                         background-color: black;
                         /* Fondo negro */
                     }
-
+    
                     /* Estilo para el color de las flechas */
                     .carousel-control-prev-icon::before,
                     .carousel-control-next-icon::before {
@@ -206,22 +206,20 @@
                         /* Color de la flecha */
                     }
                 </style>
-
-
+    
+    
                 <!-- Botones de navegación -->
-                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
-
-
+    
+    
             <div class="colEditado product-details text-start" style="color: white;">
                 <div class="rowEditado rowEditadoDescripcion">
                     <div class="nombreDescripcion">
@@ -261,27 +259,62 @@
                     <button id="add-to-cart-button" class="btn btn-primary">Agregar al carrito</button>
                 </div>
             </div>
-
+    
         </div>
+    
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const urlParams = new URLSearchParams(window.location.search);
+                const index = urlParams.get('index');
 
+                if (index !== null) {
+                    const cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
+                    if (cachedData) {
+                        const products = JSON.parse(cachedData);
+                        // Obtener el ID del producto de la URL
+                        const productId = parseInt(index);
+                        // Buscar el producto en base al ID en el localStorage
+                        const product = products.find(product => product.artId === productId);
+                        if (product) {
+                            // Actualizar la información del producto en la página
+                            document.getElementById("product-name").textContent = product.name;
+                            document.getElementById("product-descripcion").textContent = product.descripcion;
+                            document.getElementById("product-stock").textContent = product.stock;
+                            if (product.artPrecio !== undefined && product.artPrecio !== null) {
+                                document.getElementById("product-price").textContent = product.artPrecio;
+                            }
+                            if (product.artPrecioDto !== undefined && product.artPrecioDto !== null) {
+                                document.getElementById("product-original-price").textContent = product.artPrecioDto;
+                            }
+                        } else {
+                            console.error('No se encontró el producto correspondiente en el almacenamiento local.');
+                        }
+                    } else {
+                        console.error('No hay datos en el almacenamiento local.');
+                    }
+                } else {
+                    console.error('No se proporcionó un índice de producto en la URL.');
+                }
+            });
+        </script>
+    
+    </section>
+    
+    <h2 class="text-white text-center">Tambien te puede gustar</h2>
+    
+    <section class="container">
+        <div class="row row-cols-md-4 row-cols-sm-2 g-4" id="product-lista"></div>
+        <div id="button-container" style="text-align: center; padding-top: 3%; font-size: xx-large;">
+            <button id="cargarMasBoton" class="btn btn-primary">Cargar más</button>
+        </div>
     </section>
 
-    <button id="cargarMasBoton" class="btn btn-primary" style="display: none;">Cargar más</button>
-    <div id="load-more-button" style="display: none;"></div>
-    <div id="product-details" style="display: none;"></div>
 
-    <div style="display: none;">
-        <p id="">SUBTOTAL: <span id="subtotalDisplay">0.00</span></p>
-        <p id="">ENVIO: <span id="envioDisplay">0.00</span></p>
-        <p id="totalStyle">TOTAL: <span id="totalDisplay">0.00</span></p>
-        <hr>
-        <button class="btn btn-primary custom-btn" type="submit" name="enviar" id="checkout-btn">
-            CONTINUAR CON EL PAGO
-        </button>
-    </div>
+
+   
 
     <h2 class="text-white text-center">Tambien te puede gustar</h2>
-    <div style="display: none;" id="product-list"></div>
+    
 
     <section class="container">
         <div class="row row-cols-md-4 row-cols-sm-2 g-4" id="product-lista"></div>
@@ -499,33 +532,18 @@
         </div>
     </footer>
 
-    <script>
-        // Función para actualizar los productos desde localStorage
-        function actualizarProductosDesdeLocalStorage() {
-            var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
-            if (cachedData) {
-                var data = JSON.parse(cachedData);
-                Products.forEach(productoJSON => {
-                    data.forEach(productoBD => {
-                        if (productoBD.artId === productoJSON.ID) {
-                            productoJSON.stock = productoBD.artStock;
-                            if (productoBD.artPrecio !== undefined && productoBD.artPrecio !== null) {
-                                productoJSON.price = parseFloat(productoBD.artPrecio);
-                            }
-                        }
-                    });
-                });
-                console.log('Productos actualizados desde el localStorage');
-                console.table(Products);
-            } else {
-                console.error('No hay datos en el localStorage');
-            }
-        }
-
-        // Al cargar la página, actualizar productos desde el localStorage
-        actualizarProductosDesdeLocalStorage();
-    </script>
-
+    <div style="display: none;"> <!-- CODIGOS PARA EVITAR ERRORES EN LA CONSOLA  -->
+        <div id="product-details" style="display: none;"></div>
+        <div id="cargarMasBoton"></div>
+        <div style="display: none;" id="product-list"></div>
+        <p id="" style="display: none;">SUBTOTAL: <span id="subtotalDisplay">0.00</span></p>
+        <p id="" style="display: none;">ENVIO: <span id="envioDisplay">0.00</span></p>
+        <p id="totalStyle" style="display: none;">TOTAL: <span id="totalDisplay">0.00</span></p>
+        <div class="opciones-entrega" style="display: none;"> </div>
+        <script>
+            const opcionesEntrega = document.querySelector('.opciones-entrega');
+        </script>
+    </div>
 
     <a class="float-wa" href="https://wa.link/rgb5ni"><i class="bi bi-whatsapp"></i></a>
 

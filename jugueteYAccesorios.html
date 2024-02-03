@@ -372,32 +372,6 @@
         </div>
     </footer>
 
-   <script>
-        // Función para actualizar los productos desde localStorage
-        function actualizarProductosDesdeLocalStorage() {
-            var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
-            if (cachedData) {
-                var data = JSON.parse(cachedData);
-                Products.forEach(productoJSON => {
-                    data.forEach(productoBD => {
-                        if (productoBD.artId === productoJSON.ID) {
-                            productoJSON.stock = productoBD.artStock;
-                            if (productoBD.artPrecio !== undefined && productoBD.artPrecio !== null) {
-                                productoJSON.price = parseFloat(productoBD.artPrecio);
-                            }
-                        }
-                    });
-                });
-                console.log('Productos actualizados desde el localStorage');
-                console.table(Products);
-            } else {
-                console.error('No hay datos en el localStorage');
-            }
-        }
-
-        // Al cargar la página, actualizar productos desde el localStorage
-        actualizarProductosDesdeLocalStorage();
-    </script>
 
     <div style="display: none;"> <!-- CODIGOS PARA EVITAR ERRORES EN LA CONSOLA  -->
         <div id="load-more-button" style="display: none;"></div>

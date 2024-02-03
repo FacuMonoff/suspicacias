@@ -165,7 +165,7 @@
 
 
     <section class="container">
-        <div id="search-results">
+        <div>
             <h2 style="color: white; text-align: center; margin-top: 8%; margin-bottom: 5%;">Resultados de búsqueda</h2>
             <div class="row row-cols-md-4 row-cols-sm-2 g-4" id="product-list">
                 <!-- Aquí se mostrarán las tarjetas de productos relacionados con la búsqueda -->
@@ -175,6 +175,19 @@
             </div>
         </div>
     </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Llama a la función para obtener datos de la base de datos y guardar en localStorage
+            obtenerDatosYGuardarEnLocalStorage();
+
+            // Obtén el parámetro de consulta 'query' de la URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const query = urlParams.get('query');
+
+            // Resto del código para la búsqueda de productos y mostrar resultados...
+        });
+    </script>
 
 
 
@@ -267,32 +280,6 @@
         </div>
     </footer>
 
-    <script>
-        // Función para actualizar los productos desde localStorage
-        function actualizarProductosDesdeLocalStorage() {
-            var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
-            if (cachedData) {
-                var data = JSON.parse(cachedData);
-                Products.forEach(productoJSON => {
-                    data.forEach(productoBD => {
-                        if (productoBD.artId === productoJSON.ID) {
-                            productoJSON.stock = productoBD.artStock;
-                            if (productoBD.artPrecio !== undefined && productoBD.artPrecio !== null) {
-                                productoJSON.price = parseFloat(productoBD.artPrecio);
-                            }
-                        }
-                    });
-                });
-                console.log('Productos actualizados desde el localStorage');
-                console.table(Products);
-            } else {
-                console.error('No hay datos en el localStorage');
-            }
-        }
-
-        // Al cargar la página, actualizar productos desde el localStorage
-        actualizarProductosDesdeLocalStorage();
-    </script>
 
     <!-- PARA QUE NO ME APAREZCA ERRORES EN LA CONSOLA  -->
     <button id="cargarMasBoton" class="btn btn-primary" style="display: none;">Cargar más</button>
