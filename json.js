@@ -17,7 +17,7 @@ const Products = [
     {
         ID: "1",
         SKU: "1737", //el SKU no se tiene que modificar una vez ya colocado el numero
-        Stock: "1111",
+
         image: "img/anillos/Kevin.jpg",
         image2: "img/anillos/kevin.2.webp",
         name: "Kevin ST",
@@ -29,7 +29,7 @@ const Products = [
     },
     {
         SKU: "1761", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/anillo-doble-hot-finger-rojo-real-skin-caiman.jpg",
         image2: "img/anillos/ANILLO DOBLE HOT FINGER ROJO 2.webp",
         name: "Doble Hot Finger ",
@@ -41,7 +41,7 @@ const Products = [
     },
     {
         SKU: "2368", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/anillo torito peneano vibrador el matador.jpg",
         image2: "img/anillos/anillo torito 2.webp",
         name: "Anillo Torito Peneano",
@@ -53,7 +53,7 @@ const Products = [
     },
     {
         SKU: "1962", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/Ring 6 Black.jpg",
         image2: "img/anillos/ring 6 black.2.jpg",
         name: "Ring 6 Black ST",
@@ -65,7 +65,7 @@ const Products = [
     },
     {
         SKU: "1966", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/Adjustable Ring 37mm.jpg",
         image2: "img/anillos/RING AJUSTABLE 2.webp",
         name: "Ring Ajustable",
@@ -77,7 +77,7 @@ const Products = [
     },
     {
         SKU: "1988", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/Cristal Ring.jpg",
         image2: "img/anillos/cristal ring 2.jpg",
         name: "Cristal Ring ST",
@@ -89,7 +89,7 @@ const Products = [
     },
     {
         SKU: "2034", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/miss v anillos.jpg",
         image2: "img/anillos/miss v anillos.jpg",
         name: "Anillo Love Ring",
@@ -101,7 +101,7 @@ const Products = [
     },
     {
         SKU: "2136", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/anillo doble peneano conejo violeta.jpeg",
         image2: "img/anillos/anillo-doble-peneano-vibrador-conejito-violeta-usb 2.jpg",
         name: "Doble Conejito",
@@ -113,7 +113,7 @@ const Products = [
     },
     {
         SKU: "2189", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/ring 8 azul.png",
         image2: "img/anillos/ring 8.jpeg",
         name: "Ring 8 ",
@@ -125,7 +125,7 @@ const Products = [
     },
     {
         SKU: "2232", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/dual cock ring 3 blue.png",
         image2: "img/anillos/DUAL COCK RING 3 BLUE 2.jpg",
         name: "Dual Cock Ring 3",
@@ -137,7 +137,7 @@ const Products = [
     },
     {
         SKU: "2439", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anillos/kit de 3 anillos beaded cockring clear.jfif",
         image2: "img/anillos/kit de 3 anillos beaded cockring black.jpg",
         name: "3 Anillos Beaded Cockrings",
@@ -166,7 +166,8 @@ const Products = [
         price: "$1",
         descripcion: "Un anillo para el pene que se adapta perfectamente debido al material flexible del cual esta fabricado. Aporta la firmeza de un pene erecto durante mucho más tiempo. Además de asegurar una firme erección retrasa el momento de la eyaculación para prolongar los momentos de placer ---- Marca: Calexotics",
         categoria: "ANILLOS",
-        stock: "0"
+        stock: "100",
+        discount: 0, // Porcentaje de descuento
     },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------VIBRADORES
@@ -179,7 +180,8 @@ const Products = [
         price: "$34,462",
         descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
         categoria: "estimuladores",
-        stock: "0"
+        stock: "100",
+        discount: 10, // Porcentaje de descuento
     },
     {
         SKU: "2213", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -193,6 +195,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2201",
         image: "img/miky 4.png",
         image2: "img/miky 4.1.png",
         name: "MIKY 4",
@@ -203,6 +206,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1688",
         image: "img/vibradores/Rocket blue mini.png",
         image2: "img/vibradores/ROCKET BLUE MINI BLUE 2.webp",
         name: "Rocket Blue Mini ",
@@ -213,6 +217,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1693",
         image: "img/vibradores/Strap On.jpeg",
         image2: "img/vibradores/strap on blue 2.png",
         name: "Strap On Blue",
@@ -223,6 +228,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1707",
         image: "img/vibradores/Quadruple sweet pink.jpeg",
         image2: "img/vibradores/Quadruple sweet purple.jpeg",
         name: "Quadruple Sweet",
@@ -233,6 +239,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1721",
         image: "img/vibradores/naty 5.jpeg",
         image2: "img/vibradores/naty 5.jpeg",
         name: "Naty 5",
@@ -243,6 +250,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1722",
         image: "img/vibradores/Vibrating 1.jpg",
         image2: "img/vibradores/Vibrating 1.2.webp",
         name: "Vibrating 1",
@@ -297,6 +305,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2033",
         image: "img/vibradores/mini vibrador lapiz labial rosa.jpg",
         image2: "img/vibradores/mini vibrador lapiz labial rojo.jpg",
         name: "Mini Vibrador Lápiz labial",
@@ -329,6 +338,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2068",
         image: "img/vibradores/nini 1.jpeg",
         image2: "img/vibradores/nini 1 2.jpg",
         name: "Nini 1 ST",
@@ -394,6 +404,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2081",
         image: "img/vibradores/majo.jpg",
         image2: "img/vibradores/maseajador majo.png",
         name: "Majo",
@@ -415,6 +426,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2090",
         image: "img/vibradores/vicky 2.jpeg",
         image2: "img/vibradores/vicky 2.2.png",
         name: "Vicky 2",
@@ -425,6 +437,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2091",
         image: "img/vibradores/vicky 1.jpeg",
         image2: "img/vicky 1.2.png",
         name: "Vicky 1",
@@ -435,6 +448,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2092",
         image: "img/vibradores/miky 1.jpg",
         image2: "img/vibradores/miky 1.2.jpg",
         name: "Miky 1",
@@ -456,6 +470,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2173",
         image: "img/luxe rabbit 1.1.png",
         image2: "img/luxe rabbit 1.1.png",
         name: "Luxe Rabbit",
@@ -466,6 +481,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2175",
         image: "img/vibradores/mini wand.jpg",
         image2: "img/vibradores/mini wand 2.webp",
         name: "Mini Wand",
@@ -487,6 +503,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2183",
         image: "img/vibradores/vibro clasic 3 red.webp",
         image2: "img/vibradores/vibro clasic 3 gold.webp",
         name: "Vibro Clasic 3",
@@ -519,6 +536,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2199",
         image: "img/vibradores/miky 2.jpeg",
         image2: "img/vibradores/miky 2.jpeg",
         name: "Miky 2",
@@ -529,6 +547,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2200",
         image: "img/vibradores/miky 3.jpeg",
         image2: "img/vibradores/miky 3 .2.jpg",
         name: "Miky 3",
@@ -540,7 +559,7 @@ const Products = [
     },
     {
         SKU: "2202", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/vibradores/anahi 2.jpeg",
         image2: "img/vibradores/anahi 2.2.webp",
         name: "Anahi 2 ",
@@ -573,6 +592,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2209",
         image: "img/vibradores/nini 2 blue.jpeg",
         image2: "img/vibradores/nini 2 blue.jpeg",
         name: "Nini 2 ",
@@ -583,6 +603,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2210",
         image: "img/vibradores/vibro 4 pink.jpeg",
         image2: "img/vibradores/vibro 4.2.jpg",
         name: "Vibro 4",
@@ -625,6 +646,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2227",
         image: "img/vibradores/naty 7.jpg",
         image2: "img/vibradores/naty 7 .2.jpg",
         name: "Naty 7",
@@ -635,6 +657,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2233",
         image: "img/vibradores/rabbit 2 vibrador.jpeg",
         image2: "img/vibradores/RABBIT 2 ST vibrador.2.webp",
         name: "Rabbit 2",
@@ -645,6 +668,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2241",
         image: "img/vibradores/prime fantasy bala vibradora bv.webp",
         image2: "img/vibradores/PRIME FANTASY BALA VIBRADORA BV.2.webp",
         name: "Bala Vibradora BV",
@@ -655,6 +679,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2242",
         image: "img/vibradores/prime fantasy lengua vibradora lg.webp",
         image2: "img/vibradores/PRIME FANTASY LENGUA VIBRADORA LG.2.webp",
         name: "Lengua Vibradora LG",
@@ -665,6 +690,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2244",
         image: "img/vibradores/prime fantasy vibrador masajeador vm.webp",
         image2: "img/vibradores/PRIME FANTASY VIBRADOR MASAJEADOR VM.2.webp",
         name: "Vibrador Masajeador VM",
@@ -675,6 +701,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2245",
         image: "img/vibradores/prime fantasy vibrador estimulador ve.webp",
         image2: "img/vibradores/PRIME FANTASY VIBRADOR ESTIMULADOR VE.2.webp",
         name: "Vibrador Estimulador VE",
@@ -707,6 +734,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2260",
         image: "img/vibradores/sofi 2.jpg",
         image2: "img/vibradores/sofi 2.2.jpg",
         name: "Sofi 2 ",
@@ -717,6 +745,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2261",
         image: "img/vibradores/sofi 3.jpg",
         image2: "img/vibradores/sofi 3.2.jpg",
         name: "Sofi 3",
@@ -738,6 +767,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2265",
         image: "img/vibradores/tongue vibrador.png",
         image2: "img/vibradores/tongue.2.webp",
         name: "Tongue",
@@ -781,6 +811,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2442",
         image: "img/vibradores/vibrador paula st.jpg",
         image2: "img/vibradores/paula.2.jfif",
         name: "Paula",
@@ -802,6 +833,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2450",
         image: "img/vibradores/strap on 2.jpeg",
         image2: "img/vibradores/strap on 2.2.jpg",
         name: "Strap On 2 Luxury",
@@ -814,7 +846,7 @@ const Products = [
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------DISFRACES
     //--------------------------------------------------------------------------------------------
-     {
+    {
         SKU: "1813", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/disfraz/Disfraz Agente FBI Premium Talle L Sexyrol.jpg",
         image2: "img/disfraz/FBI 2.webp",
@@ -822,7 +854,7 @@ const Products = [
         price: "$17,814.00",
         descripcion: "marca malena",
         categoria: "DISFRACES",
-        stock: "0",
+        stock: "100",
         discount: 0, // Porcentaje de descuento
     },
     {
@@ -1090,6 +1122,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2336",
         image: "img/disfraz/Disfraz de Colegiala Sexy Free Tax Line de Pasionel.jpg",
         image2: "img/disfraz/DISFRAZ DE COLEGIALA SEXY FREE TAX LINE PASIONEL 2",
         name: "Disfraz de Colegiala Sexy",
@@ -1194,6 +1227,7 @@ const Products = [
     //-------------------------------------------VELAS
     //--------------------------------------------------------------------------------------------
     {
+        SKU: "1786",
         image: "img/velas/desire coconut 15gr.webp",
         image2: "img/velas/desire coconut 15gr.webp",
         name: "Vela Perfumada Coconut ",
@@ -1204,6 +1238,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1787",
         image: "img/velas/vainilla sweet 15gr.jpg",
         image2: "img/velas/vainilla sweet 15gr.jpg",
         name: "Vela Perfumada Vainilla",
@@ -1214,6 +1249,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1788",
         image: "img/velas/mon amour intense 30gr 2.webp",
         image2: "img/velas/mon amour intense 30gr 2.webp",
         name: "Vela Masajes Mon Amour",
@@ -1224,6 +1260,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1789",
         image: "img/velas/st massage candle mango y maracuya.webp",
         image2: "img/velas/st massage candle mango y maracuya.webp",
         name: "Vela Masajes Mango y Maracuya",
@@ -1234,6 +1271,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1790",
         image: "img/velas/be aphrodisiac 15gr.jpg",
         image2: "img/velas/be aphrodisiac 15gr.jpg",
         name: "Vela Afrodisíaca BE",
@@ -1244,6 +1282,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1785",
         image: "img/velas/body souffle sexitive 15gr.jpg",
         image2: "img/velas/body souffle sexitive 15gr.jpg",
         name: "Vela Body Soufflé Frutilla",
@@ -1254,6 +1293,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2166",
         image: "img/velas/body souffle sexitive 30gr.jpg",
         image2: "img/velas/body souffle sexitive 30gr.jpg",
         name: "Vela de Masajes Body Souffle",
@@ -1264,6 +1304,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2167",
         image: "img/velas/desire coconut scented candle 30gr.jpg",
         image2: "img/velas/desire coconut scented candle 30gr.jpg",
         name: "Vela Candle Desire Coconut",
@@ -1274,6 +1315,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2168",
         image: "img/velas/crazy girl 30gr.webp",
         image2: "img/velas/crazy girl 30gr.webp",
         name: "Vela Crazy Girls 30grs",
@@ -1284,6 +1326,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2169",
         image: "img/velas/Vela Perfumada Vainilla Sweet 30grs Sexitive.jpg",
         image2: "img/velas/Vela Perfumada Vainilla Sweet 30grs Sexitive.jpg",
         name: "Vela Perfumada Vainilla Sweet",
@@ -1294,16 +1337,18 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2266",
         image: "img/velas/st massage candle mango y maracuya.webp",
         image2: "img/velas/st massage candle mango y maracuya.webp",
         name: "Vela de Mango y Maracuyá",
         price: "$5,968.47",
-        descripcion: "Vela corporal, pensada para masajes, sensacion calida, con agradable aroma afrodisisaco a maracuya y mango, para disfrutar en pareja de una previa prolongada, aumentar las sensaciones, despertar los sentidos ----- contenido: x 30grs",
+        descripcion: "Vela corporal, pensada para masajes, sensacion calida, con agradable aroma afrodisisaco a maracuya y mango, para disfrutar en pareja de una previa prolongada, aumentar las sensaciones, despertar los sentidos ----- contenido: x 60grs",
         categoria: "VELAS",
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2284",
         image: "img/velas/st massage candle frutos del bosque.jpg",
         image2: "img/velas/st massage candle frutos del bosque.jpg",
         name: "Vela de Frutos del Bosque",
@@ -1483,7 +1528,7 @@ const Products = [
     },
     {
         SKU: "1782", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         image2: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         name: "Aceite Love Potion Frutos Rojos",
@@ -1495,7 +1540,7 @@ const Products = [
     },
     {
         SKU: "2349", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         name: "Aceite  Mini Love Potion ice ",
@@ -1507,7 +1552,7 @@ const Products = [
     },
     {
         SKU: "2045", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
         name: "Aceite Mini Love Potion Banana",
@@ -1563,6 +1608,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2053",
         image: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.jpg",
         image2: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.jpg",
         name: "Óleo Orgásmico Estimulante XXX",
@@ -1574,7 +1620,7 @@ const Products = [
     },
     {
         SKU: "2058", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
         image2: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
         name: "Aceite  Mini Love Potion Frutilla",
@@ -1630,7 +1676,6 @@ const Products = [
     },
     {
         SKU: "2158", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
         image2: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
         name: "Aceite Comestible Love Potion",
@@ -1642,7 +1687,6 @@ const Products = [
     },
     {
         SKU: "2159", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/lubricantes/love-potion chocolate sexitive.png",
         image2: "img/lubricantes/love-potion chocolate sexitive.png",
         name: "Aceite Comestible Love Potion Chocolate",
@@ -1653,6 +1697,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2246",
         image: "img/lubricantes/Prime Gel Natural Mixta 22grs.jpg",
         image2: "img/lubricantes/Prime Gel Natural Mixta 22grs.jpg",
         name: "Prime Gel Natural Mixta",
@@ -1695,6 +1740,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2280",
         image: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.webp",
         image2: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.webp",
         name: "Gel Natural Hot Pleasure",
@@ -1705,6 +1751,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2281",
         image: "img/lubricantes/Prime Gel Natural Excite 22grs.jpg",
         image2: "img/lubricantes/Prime Gel Natural Excite 22grs.jpg",
         name: "Gel Natural Excite",
@@ -1715,6 +1762,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2283",
         image: "img/lubricantes/Prime Gel Touch Original 200ml.jpg",
         image2: "img/lubricantes/Prime Gel Touch Original 200ml.jpg",
         name: " Touch Original",
@@ -1790,6 +1838,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2421",
         image: "img/lubricantes/pouch oh yes! crema orgasmica estimulacion.png",
         image2: "img/lubricantes/pouch oh yes! crema orgasmica estimulacion.png",
         name: "Pouch Oh Yes! Crema Orgasmica",
@@ -1800,6 +1849,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2422",
         image: "img/lubricantes/Pouch Oh Yes! Lubricante Revujenation.png",
         image2: "img/lubricantes/Pouch Oh Yes! Lubricante Revujenation.png",
         name: "Pouch Oh Yes! Lubricante Revujenation",
@@ -1860,6 +1910,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1687",
         image: "img/KEGEL/Smart Love Balls Blue.jpg",
         image2: "img/KEGEL/Smart Love Balls Blue.jpg",
         name: "Smart Love Balls Blue",
@@ -1892,6 +1943,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1718",
         image: "img/KEGEL/Playballs AG-119.jpeg",
         image2: "img/KEGEL/Playballs AG-119.jpeg",
         name: "Playballs Silver",
@@ -1916,6 +1968,7 @@ const Products = [
     //---------------------------------------------------------JUEGOS
     //---------------------------------------------------------------------------------------------------------------------------
     {
+        SKU: "1685",
         image: "img/JUEGOS/juego-de-dados-oh my good.jpg",
         image2: "img/JUEGOS/juego-de-dados-oh my good.jpg",
         name: "Oh my god!",
@@ -1937,6 +1990,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2000",
         image: "img/JUEGOS/mini poker xxx edition sexitive.webp",
         image2: "img/JUEGOS/mini poker xxx edition sexitive.webp",
         name: "Mini Poker XXX",
@@ -1969,6 +2023,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2004",
         image: "img/JUEGOS/please-do-not-disturb-juego-de-dados.jpg",
         image2: "img/JUEGOS/please-do-not-disturb-juego-de-dados.jpg",
         name: "Please! Do not disturb + Juego de Dados",
@@ -1990,6 +2045,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2006",
         image: "img/JUEGOS/on-fire-50-maneras.jpg",
         image2: "img/JUEGOS/on-fire-50-maneras.jpg",
         name: "On Fire 50 Maneras Para Prenderse Fuego",
@@ -2033,6 +2089,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2010",
         image: "img/JUEGOS/tarot-erotico.jpg",
         image2: "img/JUEGOS/tarot-erotico.jpg",
         name: "Tarot Erótico For Lovers",
@@ -2098,6 +2155,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2016",
         image: "img/JUEGOS/sex time game dado + reloj de arena.jpg",
         image2: "img/JUEGOS/sex time game dado + reloj de arena.jpg",
         name: "Sex Time Game Dado + Reloj de Arena",
@@ -2178,7 +2236,6 @@ const Products = [
     },
     {
         SKU: "1712", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/anal/Agus 3 Red.jpg",
         image2: "img/anal/Agus 3 Red.jpg",
         name: "Agus 3 Red ST",
@@ -2210,8 +2267,8 @@ const Products = [
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
-
     {
+        SKU: "1727",
         image: "img/anal/Playtail Fox Anal Plug Pink.jpg",
         image2: "img/anal/Playtail Fox Anal Plug Pink.jpg",
         name: " Fox Anal Plug Pink ST",
@@ -2222,6 +2279,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1730",
         image: "img/anal/Plug Silicona Blue Large ST.jpg",
         image2: "img/anal/Plug Silicona Blue Large ST.jpg",
         name: "Plug Silicona Blue Large ST",
@@ -2232,6 +2290,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1735",
         image: "img/anal/Plug Gold Rose Heart Large.jpg",
         image2: "img/anal/Plug Gold Rose Heart Large.jpg",
         name: "Plug Gold Rose Heart Large",
@@ -2242,6 +2301,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1738",
         image: "img/anal/Nicoles Vibra Plug.png",
         image2: "img/anal/Nicoles Vibra Plug.png",
         name: "Nicoles Plug Vibro Blue ST",
@@ -2264,7 +2324,7 @@ const Products = [
     },
     {
         SKU: "1754", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
         image2: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
         name: "Anal Inexpulsable Mini Vibrador Violeta Caimán",
@@ -2275,6 +2335,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1755",
         image: "img/anal/Plug Anal Curvo Avispa Violeta.jpg",
         image2: "img/anal/Plug Anal Curvo Avispa Violeta.jpg",
         name: "Plug Anal Curvo Avispa Violeta Caimán",
@@ -2285,6 +2346,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1762",
         image: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
         image2: "img/anal/Plug Personal Trainer Estimulador Anal 00-138-21.jpg",
         name: "Plug Personal Trainer",
@@ -2295,6 +2357,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1763",
         image: "img/anal/plug inexpulsable penetrador anal caiman.jpg",
         image2: "img/anal/plug inexpulsable penetrador anal caiman.jpg",
         name: "Plug Penetrador Anal Caimán",
@@ -2305,6 +2368,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1764",
         image: "img/anal/Plug Anal Mediano Natural 00-124-21.jpg",
         image2: "img/anal/Plug Anal Mediano Natural 00-124-21.jpg",
         name: "Plug Anal Mediano Natural Caimán",
@@ -2316,7 +2380,6 @@ const Products = [
     },
     {
         SKU: "1773", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/anal/Bolas anales N5.jpg",
         image2: "img/anal/Bolas anales N5.jpg",
         name: "Bolas Anales N5 Calexotics",
@@ -2349,7 +2412,6 @@ const Products = [
     },*/
     {
         SKU: "2061", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
         image2: "img/anal/SI082 Silicone Fucsia - anal beads.jpg",
         name: "Anal Beads 1 Fucsia ST",
@@ -2404,6 +2466,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2070",
         image: "img/anal/plug pride 2.webp",
         image2: "img/anal/plug pride 2.webp",
         name: "Plug Pride 2",
@@ -2414,6 +2477,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2080",
         image: "img/anal/plug Yorck Blue.jpg",
         image2: "img/anal/plug Yorck Blue.jpg",
         name: "Plug Yorck",
@@ -2424,6 +2488,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2088",
         image: "img/anal/vibro + pilu 1 inexpulsable.webp",
         image2: "img/anal/vibro + pilu 1 inexpulsable.webp",
         name: "Vibro + Pilu 1 Inexpulsable",
@@ -2446,7 +2511,6 @@ const Products = [
     },
     {
         SKU: "2096", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/anal/BLACK INEXPULSABLE.jpg",
         image2: "img/anal/BLACK INEXPULSABLE.jpg",
         name: "Black Inexpulsable",
@@ -2457,6 +2521,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2160",
         image: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
         image2: "img/anal/Plug Anal Grande Cola De Conejo Negra Des Cap.webp",
         name: "Plug Cola De Conejo Negra ",
@@ -2467,6 +2532,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2162",
         image: "img/anal/plug anal silicona small cola de conejo blanco.webp",
         image2: "img/anal/plug anal silicona small cola de conejo blanco.webp",
         name: "Plug Silicona Cola De Conejo Blanco",
@@ -2478,7 +2544,6 @@ const Products = [
     },
     {
         SKU: "2179", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/anal/anal bears 2 blue.jpg",
         image2: "img/anal/anal bears 2 blue.jpg",
         name: "Anal Bears 2 Blue",
@@ -2512,7 +2577,6 @@ const Products = [
     },
     {
         SKU: "2272", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/anal/Agus 2 Black ST.jfif",
         image2: "img/anal/Agus 2 Black ST.jfif",
         name: "Agus 2 Black ST",
@@ -2523,6 +2587,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2304",
         image: "img/anal/Silicone Plug Fucsia Medium ST.jpg",
         image2: "img/anal/Silicone Plug Fucsia Medium ST.jpg",
         name: "Silicone Plug Fucsia ST",
@@ -2533,6 +2598,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2305",
         image: "img/anal/Silicone Plug Fucsia largue ST.jfif",
         image2: "img/anal/Silicone Plug Fucsia largue ST.jfif",
         name: "Silicone Plug Fucsia ST",
@@ -2543,6 +2609,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2306",
         image: "img/anal/Plug Gold Rose Round Small ST.jpeg",
         image2: "img/anal/Plug Gold Rose Round Small ST.jpeg",
         name: "Plug Gold Rose Round  ST",
@@ -2553,6 +2620,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2407",
         image: "img/anal/mini plug anal de silicona S 7,3 x 2,2 cm.jpg",
         image2: "img/anal/mini plug anal de silicona S 7,3 x 2,2 cm.jpg",
         name: "Mini Plug Anal de Silicona",
@@ -2563,6 +2631,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2409",
         image: "img/anal/monster plug escalonado negro 15cm real skin.jpg",
         image2: "img/anal/monster plug escalonado negro 15cm real skin.jpg",
         name: "Monster Plug Escalonado Negro",
@@ -2573,6 +2642,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2410",
         image: "img/anal/monster plug prostatico xl negro real skin.jpg",
         image2: "img/anal/monster plug prostatico xl negro real skin.jpg",
         name: "Monster Plug Prostatico XL Negro",
@@ -2583,6 +2653,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2414",
         image: "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
         image2: "img/anal/plug anal pequeño de silicona negro joya roja.jpg",
         name: "Plug Pequeño de Silicona con Joya Roja",
@@ -2593,6 +2664,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2415",
         image: "img/anal/plug anal smooth nano S negro.jpg",
         image2: "img/anal/plug anal smooth nano S negro.jpg",
         name: "Plug Anal Smooth Nano S Negro",
@@ -2603,6 +2675,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2416",
         image: "img/anal/plug anal ultra XL rojo.jpg",
         image2: "img/anal/plug anal ultra XL rojo.jpg",
         name: "Plug Anal Ultra XL Rojo",
@@ -2623,6 +2696,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },*/
     {
+        SKU: "2418",
         image: "img/anal/plug vibrador ripley negro XXL 18cm x 4,5cm.jpg",
         image2: "img/anal/plug vibrador ripley negro XXL 18cm x 4,5cm.jpg",
         name: "Plug Vibrador Ripley Negro XXL",
@@ -2643,6 +2717,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },*/
     {
+        SKU: "2426",
         image: "img/anal/varita tripli anal estimulador rojo.jpg",
         image2: "img/anal/varita tripli anal estimulador rojo.jpg",
         name: "Varita Triple Anal Estimulador Roja",
@@ -2653,6 +2728,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2440",
         image: "img/anal/silicone pulg red kit.jpg",
         image2: "img/anal/silicone pulg red kit.jpg",
         name: "Kit plugs Silicona Corazón ",
@@ -2734,6 +2810,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },*/
     {
+        SKU: "1708",
         image: "img/fetiche/Nipples Champs 6.jpg",
         image2: "img/fetiche/Nipples Champs 6.jpg",
         name: "Niples Champs 6",
@@ -2744,6 +2821,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1720",
         image: "img/fetiche/Handcuffs Blue.jpg",
         image2: "img/fetiche/Handcuffs Blue.jpg",
         name: "Handcuffs Blue",
@@ -2765,6 +2843,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1741",
         image: "img/fetiche/PALMETA NEGRA.jpeg",
         image2: "img/fetiche/PALMETA NEGRA.jpeg",
         name: "Palmeta Negra ST",
@@ -2786,6 +2865,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1793",
         image: "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
         image2: "img/fetiche/tanga con esposas de cuero bondage inf placer.jpg",
         name: "Tangas Con Esposas de Cuero ",
@@ -2820,7 +2900,6 @@ const Products = [
     },
     {
         SKU: "1890", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/fetiche/antifaz ciego con encaje luxury rosa.webp",
         image2: "img/fetiche/antifaz ciego con encaje luxury rosa.webp",
         name: "Antifaz Ciego con encaje Luxury | Rosa",
@@ -2831,6 +2910,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1913",
         image: "img/fetiche/Set esposas Ribbon y choker rojo.jpeg",
         image2: "img/fetiche/Set esposas Ribbon y choker rojo.jpeg",
         name: "Set Esposas Ribbon y Choquer Rojo BDSM Deseos Cap",
@@ -2851,7 +2931,7 @@ const Products = [
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
-    {
+    /*{
         image: "img/fetiche/mini cola less tipo v ecocuero bdsm.jpg",
         image2: "img/fetiche/mini cola less tipo v ecocuero bdsm.jpg",
         name: "Mini Cola less Tipo V",
@@ -2860,7 +2940,7 @@ const Products = [
         categoria: "FETICHE",
         stock: "1",
         discount: 0, // Porcentaje de descuento
-    },
+    },*/
     {
         SKU: "1977", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/fetiche/cepo inmovilizador de pies y manos bondage.jpg",
@@ -2874,7 +2954,6 @@ const Products = [
     },
     {
         SKU: "1989", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/fetiche/kit luxury niko - bondage.jpeg",
         image2: "img/fetiche/kit luxury niko - bondage.jpeg",
         name: "Bondage Niko",
@@ -2897,7 +2976,6 @@ const Products = [
     },
     {
         SKU: "2022", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/fetiche/Antifaz Zorrita Símil Cuero Rosa Inf Placer.jpg",
         image2: "img/fetiche/Antifaz Zorrita Símil Cuero Rosa Inf Placer.jpg",
         name: "Antifaz Zorrita Símil Cuero Rosa",
@@ -2909,7 +2987,6 @@ const Products = [
     },
     {
         SKU: "2023", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/fetiche/antifaz Zorrita Símil Cuero negro.jpg",
         image2: "img/fetiche/antifaz Zorrita Símil Cuero negro.jpg",
         name: "Antifaz Zorrita Símil Cuero Negro Inf Placer",
@@ -2921,7 +2998,6 @@ const Products = [
     },
     {
         SKU: "2024", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/fetiche/Antifaz Ciego Símil Cuero Rosa Inf Placer.png",
         image2: "img/fetiche/Antifaz Ciego Símil Cuero Rosa Inf Placer.png",
         name: "Antifaz Ciego Símil Cuero Rosa",
@@ -2933,7 +3009,6 @@ const Products = [
     },
     {
         SKU: "2027", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/fetiche/antifaz fiesta negro pasionel.webp",
         image2: "img/fetiche/antifaz fiesta negro pasionel.webp",
         name: "Antifaz Fiesta Negro Pasionel",
@@ -2945,7 +3020,6 @@ const Products = [
     },
     {
         SKU: "2029", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/fetiche/Antifaz de Enfermera Blanco y Rojo Pasionel.png",
         image2: "img/fetiche/Antifaz de Enfermera Blanco y Rojo Pasionel.png",
         name: "Antifaz de Enfermera Blanco y Rojo Pasionel",
@@ -3000,6 +3074,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2350",
         image: "img/fetiche/Choker de Cuero con Púas y Argolla D Inf Placer.jpg",
         image2: "img/fetiche/Choker de Cuero con Púas y Argolla D Inf Placer.jpg",
         name: "Choker de Cuero con Púas y Argolla D Inf Placer",
@@ -3011,7 +3086,6 @@ const Products = [
     },
     {
         SKU: "2369", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
         image: "img/fetiche/antifaz ciego de cuero bdsm.jpg",
         image2: "img/fetiche/antifaz ciego de cuero bdsm.jpg",
         name: "Antifaz Ciego De Cuero BDSM",
@@ -3022,6 +3096,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2412",
         image: "img/fetiche/pezoneras con pinza cadena metalizada Ouch.jpg",
         image2: "img/fetiche/pezoneras con pinza cadena metalizada Ouch.jpg",
         name: "Pezoneras Con Pinza Cadena Metalizada Ouch!",
@@ -3032,6 +3107,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2413",
         image: "img/fetiche/pezoneras con pinza y doble cadena dorada.jpg",
         image2: "img/fetiche/pezoneras con pinza y doble cadena dorada.jpg",
         name: "Pezoneras Con Pinza y Doble Cadena Dorada",
@@ -3042,6 +3118,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2444",
         image: "img/fetiche/Vibro + 7 Piezas Bondage Set Black ST.jpeg",
         image2: "img/fetiche/Vibro + 7 Piezas Bondage Set Black ST.jpeg",
         name: "Vibro + 7 Piezas Bondage Set Black ST",
@@ -3076,6 +3153,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },*/
     {
+        SKU: "1682",
         image: "img/Dildos/Real Cock 19.jpg",
         image2: "img/Dildos/Real Cock 19.jpg",
         name: "Real Cock 19",
@@ -3086,6 +3164,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1683",
         image: "img/Dildos/Real Cock 17.jpg",
         image2: "img/Dildos/Real Cock 17.jpg",
         name: "Real Cock 17",
@@ -3118,6 +3197,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2072",
         image: "img/Dildos/pride 4.jpg",
         image2: "img/Dildos/pride 4.jpg",
         name: "Pride 4",
@@ -3128,6 +3208,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2073",
         image: "img/Dildos/pride 5.jpeg",
         image2: "img/Dildos/pride 5.jpeg",
         name: "Pride 5",
@@ -3149,6 +3230,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2178",
         image: "img/Dildos/pride.webp",
         image2: "img/Dildos/pride.webp",
         name: "Pride",
@@ -3159,6 +3241,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2231",
         image: "img/Dildos/Real Cock 3.jpg",
         image2: "img/Dildos/Real Cock 3.jpg",
         name: "Real Cock 3",
@@ -3180,7 +3263,7 @@ const Products = [
     },*/
     {
         SKU: "2389", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
         image2: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
         name: "Bam Suck Realístico con Sopapa XXL",
@@ -3223,6 +3306,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },*/
     {
+        SKU: "2424",
         image: "img/Dildos/suck act realistico XXL Tom Chase 27 x 6,5cm.jpeg",
         image2: "img/Dildos/suck act realistico XXL Tom Chase 27 x 6,5cm.jpeg",
         name: "Suck Act Realístico XXL Tom Chase 27 x 6.5cm",
@@ -3233,6 +3317,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2445",
         image: "img/Dildos/real cook 7.jpg",
         image2: "img/Dildos/real cook 7.jpg",
         name: "Real cock 7",
@@ -3243,6 +3328,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2446",
         image: "img/Dildos/real cook 8 dildo st.jpg",
         image2: "img/Dildos/real cook 8 dildo st.jpg",
         name: "Real cock 8",
@@ -3253,6 +3339,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2447",
         image: "img/Dildos/real cook 12 dildo st.jpeg",
         image2: "img/Dildos/real cook 12 dildo st.jpeg",
         name: "Real cock 12",
@@ -3266,6 +3353,7 @@ const Products = [
     //-------------------------------------------PRESERVATIVOS
     //--------------------------------------------------------------------------------------------
     {
+        SKU: "1947",
         image: "img/preservativo/PRIME TACHAS X 3 Un.png",
         image2: "img/preservativo/PRIME TACHAS X 3 Un.png",
         name: "Prime Tachas Caja x 3 unid",
@@ -3276,6 +3364,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1948",
         image: "img/preservativo/PRESERVATIVOS PRIME RETARDANTE.png",
         image2: "img/preservativo/PRESERVATIVOS PRIME RETARDANTE.png",
         name: "Prime Retardante Caja x 3 unid",
@@ -3286,6 +3375,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1949",
         image: "img/preservativo/PRIME MEGA x 3 Un.png",
         image2: "img/preservativo/PRIME MEGA x 3 Un.png",
         name: "Prime Mega Caja x 3 unid",
@@ -3296,6 +3386,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1951",
         image: "img/preservativo/PRIME ESPERMICIDA X 3 Un.png",
         image2: "img/preservativo/PRIME ESPERMICIDA X 3 Un.png",
         name: "Prime Espermicida Caja x 3 unid",
@@ -3306,6 +3397,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1952",
         image: "img/preservativo/PRIME STRONGER X 3 Un.png",
         image2: "img/preservativo/PRIME STRONGER X 3 Un.png",
         name: "Prime Stronger Caja x 3 unid",
@@ -3316,6 +3408,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1953",
         image: "img/preservativo/PRIME ANATÓMICO X3 UN.png",
         image2: "img/preservativo/PRIME ANATÓMICO X3 UN.png",
         name: "Prime Anatómico Caja x 3 unid",
@@ -3326,6 +3419,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1954",
         image: "img/preservativo/prime ultra fino caja x 3 unidades.webp",
         image2: "img/preservativo/prime ultra fino caja x 3 unidades.webp",
         name: "Prime Ultra Fino Caja x 3 unid",
@@ -3336,6 +3430,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1955",
         image: "img/preservativo/PRIME SUPER FINO X 3 Un.png",
         image2: "img/preservativo/PRIME SUPER FINO X 3 Un.png",
         name: "Prime Super Fino Caja x 3 unid",
@@ -3346,6 +3441,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1956",
         image: "img/preservativo/PRIME EXTRA LUBRICADO x 3 Un.png",
         image2: "img/preservativo/PRIME EXTRA LUBRICADO x 3 Un.png",
         name: "Prime Extra Lubricado Caja x 3 unid",
@@ -3356,6 +3452,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "1957",
         image: "img/preservativo/PRIME TEXTURADDO X 3 Un.png",
         image2: "img/preservativo/PRIME TEXTURADDO X 3 Un.png",
         name: "Prime Texturado Caja x 3 unid",
@@ -3387,6 +3484,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2253",
         image: "img/preservativo/maxx tachas 3 unidades.png",
         image2: "img/preservativo/maxx tachas 3 unidades.png",
         name: "Maxx Tachas 3 unidades",
@@ -3397,6 +3495,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2285",
         image: "img/preservativo/Prime Warming.jfif",
         image2: "img/preservativo/Prime Warming.jfif",
         name: "Prime Warming Caja x 3 unid",
@@ -3407,6 +3506,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2291",
         image: "img/preservativo/PRIME TURBO X 3 Un.png",
         image2: "img/preservativo/PRIME TURBO X 3 Un.png",
         name: "Prime Turbo Caja x 3 unid",
@@ -3421,7 +3521,7 @@ const Products = [
     //--------------------------------------------------------------------------------------------
     {
         SKU: "2035", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/masturbadores/masturbador vagina skin.jpg",
         image2: "img/masturbadores/masturbador vagina skin.jpg",
         name: "masturbador vagina skin",
@@ -3434,7 +3534,6 @@ const Products = [
     },
     {
         SKU: "2237",
-        stock: "1111",
         image: "img/masturbadores/dark grey masturbador de glande.jpeg",
         image2: "img/masturbadores/dark grey masturbador de glande.jpeg",
         name: "dark grey masturbador",
@@ -3442,12 +3541,11 @@ const Products = [
         descripcion: "Masturbador 3 en 1: Efecto Calor + Vibración + Succion. ----- Coloca tu pene y disfrutá de las sensaciones únicas de la vibración, la succión y el calor todo en uno, inclusive! ¡¡¡Imposible no llegar al clímax!!! Cuenta con 9 patrones de vibración, 3 patrones de succión y función calor hasta 40 grados",
         categoria: "MASTURBADORES",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 30, // Porcentaje de descuento
 
     },
     {
-        SKU: "",
-        stock: "1111",
+        SKU: "2432",
         image: "img/masturbadores/huevo masturbador.jpg",
         image2: "img/masturbadores/huevo masturbador.jpg",
         name: "huevito masturbador x1 unidad",
@@ -3459,6 +3557,7 @@ const Products = [
 
     },
     {
+        SKU: "2455",
         image: "img/masturbadores/XP-1.jpg",
         image2: "img/masturbadores/XP-1.jpg",
         name: "XP 1",
@@ -3474,7 +3573,7 @@ const Products = [
     //--------------------------------------------------------------------------------------------
     {
         SKU: "1965", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/ana 8.png",
         image2: "img/JUGUETE 3.png",
         name: "ANA 8",
@@ -3485,6 +3584,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2365",
         image: "img/vibradores/Satisfyer 1 Number One.jpg",
         image2: "img/vibradores/Satisfyer 1 Number One.jpg",
         name: "satisfyer number 1",
@@ -3496,7 +3596,7 @@ const Products = [
     },
     {
         SKU: "1697", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/succionadores/Ana 10.jpg",
         image2: "img/succionadores/Ana 10.jpg",
         name: "Ana 10 ST",
@@ -3508,7 +3608,7 @@ const Products = [
     },
     {
         SKU: "2067", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/succionadores/ana 3.png",
         image2: "img/succionadores/ana 3.png",
         name: "Ana 3 ST",
@@ -3520,7 +3620,7 @@ const Products = [
     },
     {
         SKU: "2082", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/succionadores/ana 13.jpeg",
         image2: "img/succionadores/ana 13.jpeg",
         name: "Ana 13",
@@ -3531,6 +3631,7 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2243",
         image: "img/succionadores/prime fantasy succionador vibrador sx.webp",
         image2: "img/succionadores/prime fantasy succionador vibrador sx.webp",
         name: "Prime Fantasy Succión Vibrador SX",
@@ -3553,7 +3654,7 @@ const Products = [
     },
     {
         SKU: "2264", //el SKU no se tiene que modificar una vez ya colocado el numero
-        stock: "1111",
+
         image: "img/succionadores/ana 14.jpeg",
         image2: "img/succionadores/ana 14.jpeg",
         name: "Ana 14 ST",
@@ -3564,13 +3665,14 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2288",
         image: "img/succionadores/Vibrador Estimulador High Fashion Satisfyer Luxury.webp",
         image2: "img/succionadores/Vibrador Estimulador High Fashion Satisfyer Luxury.webp",
         name: "High Fashion Satisfyer Luxury",
         price: "$146,666.00",
         descripcion: "Esta versión de lujo y sofisticada de este vibrador de ondas de presión es el compañero perfecto para tus aventuras de estimulación clitorial! Sus 11 modos de estimulación, y sus 10 modos de vibración, te brindarán 110 combinaciones de estimulación, realmente un lujo total! • Tecnología Air pressure sin tacto • 11 patrones de ondas de presión • 10 niveles de vibración • 110 combinaciones de estimulación (11 x 10) • 2 Motores independientes • Interfáz de 3 botones • Impermeable • Extremadamente silencioso. • Recargable USB (Cable magnético) • Fácil de limpiar",
         categoria: "SUCCIONADORES",
-        stock: "0",
+        stock: "1",
         discount: 10,
     }
 ];
@@ -4171,7 +4273,6 @@ function getProductCardHTML(producto) {
                 </div>
                     <span class="original-price smaller">${formatPrice(producto.price)}</span>
                     <span class="discounted-price bigger">${formatPrice(discountedPrice)}</span>
-                </p>
                 <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
             </div>
         `;
@@ -4542,7 +4643,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-    // Función para obtener el HTML de la tarjeta del producto con descuentos
     function getProductCardHTMLWithDiscount(product) {
         const hasDiscount = product.discount && product.discount > 0;
         let displayPrice = formatPrice(product.price);
@@ -4554,34 +4654,34 @@ document.addEventListener("DOMContentLoaded", function () {
             priceContent = `<span class="original-price smaller">${formatPrice(product.price)}</span><br><span class="discounted-price bigger">${formatPrice(discountedPrice)}</span>`;
             discountBadge = `<span class="discount-badge">-${product.discount}% OFF</span>`;
         } else {
-            priceContent = `<span class="original-price smaller">${formatPrice(product.price)}</span>`;
+            priceContent = `<span>${formatPrice(product.price)}</span>`; // Sin estilos adicionales para productos sin descuento
         }
 
         // Truncar el nombre del producto si es mayor a 18 caracteres
         const truncatedName = product.name.length > 30 ? product.name.slice(0, 30) + "..." : product.name;
 
         return `
-        <div class="col">
-            <div class="card h-100">
-                ${hasDiscount ? discountBadge : ''}
-                <a href="descripcion.html?index=${Products.indexOf(product)}&id=${product.ID}&name=${encodeURIComponent(product.name)}">
-                    <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
-                        onmouseover="showImage(this, '${product.image2}')"
-                        onmouseout="showImage(this, '${product.image}')"
-                        alt="...">
-                </a>
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${truncatedName}</h5>
-                    <div style="margin-top: auto; margin-bottom: auto;">
-                        ${priceContent}
-                    </div>
-                    <div style="margin-top: auto;">
-                        <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
-                    </div>
+    <div class="col">
+        <div class="card h-100">
+            ${hasDiscount ? discountBadge : ''}
+            <a href="descripcion.html?index=${Products.indexOf(product)}&id=${product.ID}&name=${encodeURIComponent(product.name)}">
+                <img src="${product.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
+                    onmouseover="showImage(this, '${product.image2}')"
+                    onmouseout="showImage(this, '${product.image}')"
+                    alt="...">
+            </a>
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${truncatedName}</h5>
+                <div style="margin-top: auto; margin-bottom: auto;">
+                    ${priceContent}
+                </div>
+                <div style="margin-top: auto;">
+                    <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(product)})" style="font-size: 0.9em;">Agregar al carrito</button>
                 </div>
             </div>
         </div>
-        `;
+    </div>
+    `;
     }
 
     // Obtén el contenedor de la lista de productos en tu página HTML
