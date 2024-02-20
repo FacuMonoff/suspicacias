@@ -17,7 +17,6 @@ const Products = [
     {
         ID: "1",
         SKU: "1737", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/Kevin.jpg",
         image2: "img/anillos/kevin.2.webp",
         name: "Kevin ST",
@@ -29,7 +28,6 @@ const Products = [
     },
     {
         SKU: "1761", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/anillo-doble-hot-finger-rojo-real-skin-caiman.jpg",
         image2: "img/anillos/ANILLO DOBLE HOT FINGER ROJO 2.webp",
         name: "Doble Hot Finger ",
@@ -41,7 +39,6 @@ const Products = [
     },
     {
         SKU: "2368", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/anillo torito peneano vibrador el matador.jpg",
         image2: "img/anillos/anillo torito 2.webp",
         name: "Anillo Torito Peneano",
@@ -53,7 +50,6 @@ const Products = [
     },
     {
         SKU: "1962", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/Ring 6 Black.jpg",
         image2: "img/anillos/ring 6 black.2.jpg",
         name: "Ring 6 Black ST",
@@ -65,7 +61,6 @@ const Products = [
     },
     {
         SKU: "1966", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/Adjustable Ring 37mm.jpg",
         image2: "img/anillos/RING AJUSTABLE 2.webp",
         name: "Ring Ajustable",
@@ -77,7 +72,6 @@ const Products = [
     },
     {
         SKU: "1988", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/Cristal Ring.jpg",
         image2: "img/anillos/cristal ring 2.jpg",
         name: "Cristal Ring ST",
@@ -89,7 +83,6 @@ const Products = [
     },
     {
         SKU: "2034", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/miss v anillos.jpg",
         image2: "img/anillos/miss v anillos.jpg",
         name: "Anillo Love Ring",
@@ -101,7 +94,6 @@ const Products = [
     },
     {
         SKU: "2136", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/anillo doble peneano conejo violeta.jpeg",
         image2: "img/anillos/anillo-doble-peneano-vibrador-conejito-violeta-usb 2.jpg",
         name: "Doble Conejito",
@@ -113,7 +105,6 @@ const Products = [
     },
     {
         SKU: "2189", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/ring 8 azul.png",
         image2: "img/anillos/ring 8.jpeg",
         name: "Ring 8 ",
@@ -125,7 +116,6 @@ const Products = [
     },
     {
         SKU: "2232", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/dual cock ring 3 blue.png",
         image2: "img/anillos/DUAL COCK RING 3 BLUE 2.jpg",
         name: "Dual Cock Ring 3",
@@ -137,7 +127,6 @@ const Products = [
     },
     {
         SKU: "2439", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anillos/kit de 3 anillos beaded cockring clear.jfif",
         image2: "img/anillos/kit de 3 anillos beaded cockring black.jpg",
         name: "3 Anillos Beaded Cockrings",
@@ -559,7 +548,6 @@ const Products = [
     },
     {
         SKU: "2202", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/vibradores/anahi 2.jpeg",
         image2: "img/vibradores/anahi 2.2.webp",
         name: "Anahi 2 ",
@@ -1528,8 +1516,7 @@ const Products = [
     },
     {
         SKU: "1782", //el SKU no se tiene que modificar una vez ya colocado el numero
-
-        image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
+ image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         image2: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         name: "Aceite Love Potion Frutos Rojos",
         price: "$2,554.00",
@@ -1540,8 +1527,7 @@ const Products = [
     },
     {
         SKU: "2349", //el SKU no se tiene que modificar una vez ya colocado el numero
-
-        image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
+ image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         name: "Aceite  Mini Love Potion ice ",
         price: "$1,438.00",
@@ -1552,7 +1538,6 @@ const Products = [
     },
     {
         SKU: "2045", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
         name: "Aceite Mini Love Potion Banana",
@@ -1620,7 +1605,6 @@ const Products = [
     },
     {
         SKU: "2058", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
         image2: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
         name: "Aceite  Mini Love Potion Frutilla",
@@ -2324,7 +2308,6 @@ const Products = [
     },
     {
         SKU: "1754", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
         image2: "img/anal/Anal Inexpulsable Vibrador Violeta 20-106-58.jpg",
         name: "Anal Inexpulsable Mini Vibrador Violeta Caimán",
@@ -3263,7 +3246,6 @@ const Products = [
     },*/
     {
         SKU: "2389", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
         image2: "img/Dildos/bam suck realistico con sopapa xxl.jpg",
         name: "Bam Suck Realístico con Sopapa XXL",
@@ -3521,7 +3503,6 @@ const Products = [
     //--------------------------------------------------------------------------------------------
     {
         SKU: "2035", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/masturbadores/masturbador vagina skin.jpg",
         image2: "img/masturbadores/masturbador vagina skin.jpg",
         name: "masturbador vagina skin",
@@ -3573,7 +3554,6 @@ const Products = [
     //--------------------------------------------------------------------------------------------
     {
         SKU: "1965", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/ana 8.png",
         image2: "img/JUGUETE 3.png",
         name: "ANA 8",
@@ -3596,7 +3576,6 @@ const Products = [
     },
     {
         SKU: "1697", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/succionadores/Ana 10.jpg",
         image2: "img/succionadores/Ana 10.jpg",
         name: "Ana 10 ST",
@@ -3608,7 +3587,6 @@ const Products = [
     },
     {
         SKU: "2067", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/succionadores/ana 3.png",
         image2: "img/succionadores/ana 3.png",
         name: "Ana 3 ST",
@@ -3620,7 +3598,6 @@ const Products = [
     },
     {
         SKU: "2082", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/succionadores/ana 13.jpeg",
         image2: "img/succionadores/ana 13.jpeg",
         name: "Ana 13",
@@ -3654,7 +3631,6 @@ const Products = [
     },
     {
         SKU: "2264", //el SKU no se tiene que modificar una vez ya colocado el numero
-
         image: "img/succionadores/ana 14.jpeg",
         image2: "img/succionadores/ana 14.jpeg",
         name: "Ana 14 ST",
