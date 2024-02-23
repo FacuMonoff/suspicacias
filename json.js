@@ -168,7 +168,7 @@ const Products = [
         name: "MALE 2",
         price: "$34,462",
         descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
-        categoria: "estimuladores",
+        categoria: "VIBRADORES",
         stock: "100",
         discount: 10, // Porcentaje de descuento
     },
@@ -1516,7 +1516,7 @@ const Products = [
     },
     {
         SKU: "1782", //el SKU no se tiene que modificar una vez ya colocado el numero
- image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
+        image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         image2: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
         name: "Aceite Love Potion Frutos Rojos",
         price: "$2,554.00",
@@ -1527,7 +1527,7 @@ const Products = [
     },
     {
         SKU: "2349", //el SKU no se tiene que modificar una vez ya colocado el numero
- image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
+        image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
         name: "Aceite  Mini Love Potion ice ",
         price: "$1,438.00",
@@ -1853,9 +1853,9 @@ const Products = [
         name: " Premiun Sexitive 120cc",
         price: "$1,623.00",
         descripcion: "",
-        categoria: "Limpiadores-de-juguetes",
+        categoria: "LIMPIADORES",
         stock: "1",
-        discount: 0, // Porcentaje de descuento
+        discount: 20, // Porcentaje de descuento
     },
     {
         SKU: "1779", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -1864,7 +1864,7 @@ const Products = [
         name: "Fly Night 100cc",
         price: "$2,014.00",
         descripcion: "",
-        categoria: "Limpiadores-de-juguetes",
+        categoria: "LIMPIADORES",
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
@@ -1875,7 +1875,7 @@ const Products = [
         name: "limpiador de juguetes Fly Night 90cc",
         price: "$1,531.00",
         descripcion: "",
-        categoria: "Limpiadores-de-juguetes",
+        categoria: "LIMPIADORES",
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
@@ -4084,27 +4084,22 @@ function filtrarProductosPorFragmento() {
 
     if (fragmento) {
         categoriaActual = fragmento; // Almacena la categoría actual
-
-        const categoryTitle = document.getElementById("category-title");
+        mostrarProductosPorCategoria(fragmento);
 
         // Cambia el título del H2 con el nombre de la categoría seleccionada
+        const categoryTitle = document.getElementById("category-title");
         categoryTitle.textContent = fragmento;
-        mostrarProductosPorCategoria(fragmento);
-        // }
     }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-    const enPromocionLink = document.getElementById("en-promocion-link");
-    const categoriaBtns = document.querySelectorAll(".categoria-btn");
-    enPromocionLink.addEventListener('click', function (event) {
-        event.preventDefault();
-        // Cambiar el fragmento de la URL a #Descuentos
-        history.replaceState({}, '', '#Descuentos');
-        // Llamar a la función para mostrar productos con descuento
-        mostrarProductosConDescuento();
+// Llama a la función para filtrar productos cuando se carga la página
+window.addEventListener("load", filtrarProductosPorFragmento);
 
-    });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const categoriaBtns = document.querySelectorAll(".categoria-btn");
+
     categoriaBtns.forEach(btn => {
         btn.addEventListener("click", (event) => {
             event.preventDefault(); // Evitar el comportamiento predeterminado de los enlaces
@@ -4115,93 +4110,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const currentPage = window.location.pathname;
             history.pushState({}, '', `${currentPage}#${categoriaSeleccionada}`);
             window.location.reload();
-            if (categoriaSeleccionada !== "en-promocion") {
-                mostrarProductosPorCategoria(categoriaSeleccionada);
-            } else {
-                mostrarProductosConDescuento();
-            }
         });
     });
 });
-
-// Llama a la función para filtrar productos cuando se carga la página
-window.addEventListener("load", filtrarProductosPorFragmento);
-
-
-
-function mostrarProductosPorCategoria(categoria) {
-    const productosContainer = document.getElementById("product-list");
-
-    // Obtén el enlace "En Promoción"
-    const enPromocionLink = document.getElementById("en-promocion-link");
-
-    enPromocionLink.addEventListener('click', function (event) {
-        event.preventDefault();
-
-        const productosConDescuento = Products.filter(producto => {
-            return producto.discount && producto.discount > 0; // Filtra solo los productos con descuento
-        });
-
-        productosContainer.innerHTML = "";
-
-        if (productosConDescuento.length === 0) {
-            alert("No hay productos con descuento disponibles en este momento.");
-        } else {
-            productosConDescuento.forEach(producto => {
-                const productoHTML = getProductCardHTML(producto);
-                productosContainer.insertAdjacentHTML("beforeend", productoHTML);
-            });
-        }
-    });
-
-    const precioMinMax = { min: precioMinActual, max: precioMaxActual };
-    const productosFiltrados = filtrarProductosPorCategoria(Products, categoria, precioMinMax);
-
-    mostrarProductos(productosFiltrados);
-}
-
-function mostrarProductos(productos) {
-    const productosContainer = document.getElementById("product-list");
-    productosContainer.innerHTML = "";
-
-    if (productos.length === 0) {
-        alert("No se han encontrado artículos que cumplan con los criterios especificados.");
-    } else {
-        productos.forEach(producto => {
-            const productoHTML = getProductCardHTML(producto);
-            productosContainer.insertAdjacentHTML("beforeend", productoHTML);
-        });
-    }
-}
-
-function filtrarProductosConDescuento(productos, precioMinMax) {
-    const productosConDescuento = productos.filter(producto => {
-        return producto.discount && producto.discount > 0 &&
-            producto.price >= precioMinMax.min &&
-            producto.price <= precioMinMax.max;
-    });
-
-    return productosConDescuento;
-}
-
-function filtrarProductosPorCategoria(productos, categoria, precioMinMax) {
-    return productos.filter(producto => {
-        return producto.categoria === categoria &&
-            producto.stock > 0 &&
-            producto.price >= precioMinMax.min &&
-            producto.price <= precioMinMax.max;
-    });
-}
-
-function obtenerPrecioMinMax() {
-    const precioMinInput = document.getElementById("precio-min");
-    const precioMaxInput = document.getElementById("precio-max");
-
-    const precioMin = parseFloat(precioMinInput.value);
-    const precioMax = parseFloat(precioMaxInput.value);
-
-    return { min: precioMin, max: precioMax };
-}
 
 
 function actualizarCategoryTitle(categoria) {
@@ -4224,9 +4135,30 @@ precioMinActual = 0;
 precioMaxActual = Infinity;
 
 
-// FUNCION DESCUENTOS. ACCESORIOS.HTML
-function getProductCardHTML(producto) {
+// Función para filtrar, aplicar descuentos y mostrar productos según la categoría
+function mostrarProductosPorCategoria(categoria) {
+    const productosContainer = document.getElementById("product-list");
+    const productosFiltrados = Products.filter(producto => {
+        return producto.categoria === categoria &&
+            producto.stock > 0 &&
+            producto.price >= precioMinActual &&
+            producto.price <= precioMaxActual;
+    });
 
+    productosContainer.innerHTML = "";
+
+    if (productosFiltrados.length === 0) {
+        alert("No se han encontrado artículos disponibles en el rango de precios especificado. Por favor ingrese otro rango de precio");
+    } else {
+        productosFiltrados.forEach(producto => {
+            const productoHTML = getProductCardHTML(producto);
+            productosContainer.insertAdjacentHTML("beforeend", productoHTML);
+        });
+    }
+}
+
+// Función para obtener el HTML de la tarjeta de producto con la posibilidad de descuento
+function getProductCardHTML(producto) {
     const hasDiscount = producto.discount && producto.discount > 0;
     let displayPrice = formatPrice(producto.price);
 
@@ -4234,21 +4166,21 @@ function getProductCardHTML(producto) {
         <div class="card-body d-flex flex-column">
             <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
             <div style="margin-top: auto; margin-bottom: auto;">
-                    <p class="card-text">${displayPrice}</p>
-                </div>
+                <p class="card-text">${displayPrice}</p>
+            </div>
             <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
         </div>
     `;
 
-    if (producto.discount && producto.discount > 0) {
+    if (hasDiscount) {
         const discountedPrice = producto.price * (1 - producto.discount / 100);
         priceSection = `
             <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-0 responsive-text" style="text-transform: uppercase; letter-spacing: 0.1em">${producto.name}</h5>
                 <div style="margin-top: auto; margin-bottom: auto;">
-                </div>
                     <span class="original-price smaller">${formatPrice(producto.price)}</span>
                     <span class="discounted-price bigger">${formatPrice(discountedPrice)}</span>
+                </div>
                 <button class="btn btn-primary mt-2 responsive-button" onclick="mostrarEnCarrito(${Products.indexOf(producto)})">Agregar al carrito</button>
             </div>
         `;
@@ -4257,7 +4189,7 @@ function getProductCardHTML(producto) {
     return `
         <div class="col">
             <div class="card h-100">
-                ${producto.discount && producto.discount > 0 ? `<span class="discount-badge">-${producto.discount}%&nbsp;OFF</span>` : ''}
+                ${hasDiscount ? `<span class="discount-badge">-${producto.discount}%&nbsp;OFF</span>` : ''}
                 <a href="descripcion.html?index=${Products.indexOf(producto)}&name=${encodeURIComponent(producto.name)}">
                     <img src="${producto.image}" class="card-img-top object-fit-cover w-100" style="aspect-ratio: 1;" 
                         onmouseover="showImage(this, '${producto.image2}')"
@@ -4269,6 +4201,7 @@ function getProductCardHTML(producto) {
         </div>
     `;
 }
+
 
 
 
@@ -4330,7 +4263,7 @@ function agregarAlCarrito(producto) {
                     localStorage.setItem('carrito', JSON.stringify(carritoProductos));
                 } else {
                     console.error("El precio del producto no es un número válido:", producto.price);
-                    return;
+                    return; // Salir de la función si el precio no es válido
                 }
             } else {
                 carritoProductos = carritoProductos.map((item) =>
@@ -4495,6 +4428,7 @@ function actualizarCarrito() {
 
         const mensaje = productosAgregados + ' ---- Total de todos los productos: ' + formatPrice(productosTotales);
         productoCarritoTextArea.textContent = mensaje;
+        console.log(productoCarritoTextArea.textContent)
     }
 
     if (carritoProductos.length === 0) {

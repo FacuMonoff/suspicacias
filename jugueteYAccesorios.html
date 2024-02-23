@@ -38,17 +38,12 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
-                <style>
-                    #en-promocion-link {
-                        text-transform: uppercase;
-                    }
-                </style>
                 <!-- Todo el contenido que vamos a tener en el offcanvas -->
                 <div class="offcanvas-body">
                     <!-- Una lista para los items que vamos a tener en el offcanvas -->
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a id="en-promocion-link" style="text-transform: uppercase;"></a>
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#">¡OFERTAS!</a>
                         </li>
 
                         <li class="nav-item dropdown">
@@ -57,23 +52,21 @@
                                 CATEGORIAS
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="categoria-btn dropdown-item" data-categoria="ANAL">Anal</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="ANILLOS">Anillos</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="DILDOS">Dildos</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="DISFRACES">Disfraz</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="FETICHE">Fetiche</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="FUNDAS">Fundas</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="JUEGOS">Juegos</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="KEGEL">Kegel</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="LUBRICANTES">Lubricantes</a>
-                                </li>
-                                <li><a class="categoria-btn dropdown-item"
-                                        data-categoria="PRESERVATIVOS">Preservativos</a></li>
-                                <li><a class="categoria-btn dropdown-item"
-                                        data-categoria="SUCCIONADORES">Succionadores</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="VELAS">Velas</a></li>
-                                <li><a class="categoria-btn dropdown-item" data-categoria="VIBRADORES">Vibradores</a>
-                                </li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#ANAL">Anal</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#ANILLOS">Anillos</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#KEGEL">Bolas Chinas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#DILDOS">Dildos</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#DUCHAS">Duchas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#DISFRACES">Disfraz</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#FETICHE">Fetiche</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#FUNDAS">Fundas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#JUEGOS">Juegos</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#LIMPIADORES">Limpiadores de juguetes</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#LUBRICANTES">Lubricantes</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#PRESERVATIVOS">Preservativos</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#VELAS">Velas</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#VIBRADORES">Vibradores</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#SUCCIONADORES">Succionadores</a></li>
                             </ul>
                         </li>
 
@@ -178,18 +171,18 @@
                             <a class="categoria-btn" data-categoria="FUNDAS">Fundas</a>
                             <a class="categoria-btn" data-categoria="JUEGOS">Juegos</a>
                             <a class="categoria-btn" data-categoria="KEGEL">Kegel</a>
+                            <a class="categoria-btn" data-categoria="LIMPIADORES">Limpiador de juguetes</a>
                             <a class="categoria-btn" data-categoria="LUBRICANTES">Lubricantes</a>
-                            <a class="categoria-btn" data-categoria="MASTURBADORES">Masturbadores</a>
                             <a class="categoria-btn" data-categoria="PRESERVATIVOS">Preservativos</a>
                             <a class="categoria-btn" data-categoria="SUCCIONADORES">Succionadores</a>
                             <a class="categoria-btn" data-categoria="VELAS">Velas</a>
                             <a class="categoria-btn" data-categoria="VIBRADORES">Vibradores</a>
+                            
                         </ul>
                     </div>
                 </div>
                 <br>
-                <!-- Filtro de precio para pantallas pequeñas -->
-                <div class="d-md-none" style="margin-top: -13%;">
+                <div class="col-md-10">
                     <div id="price-filter">
                         <h4 class="mb-3">Filtrar por Precio</h4>
                         <div class="form-group mb-3">
@@ -206,60 +199,22 @@
                                 <span class="input-group-text">$</span>
                                 <input type="number" id="precio-max" class="form-control" value="0" min="0"
                                     style="color: black; background-color: white;" onfocus="limpiarValor(this)">
+    
                             </div>
                         </div>
                         <button onclick="aplicarFiltroPrecio()" class="btn btn-primary">Aplicar</button>
                     </div>
-                </div>
-
-                <!--CODIGO PARA FILTRO DE PRECIOS -->
-                <script>
-                    document.addEventListener('DOMContentLoaded', function () {
-                        function ocultarPrecioFilter() {
-                            var priceFilterDiv = document.querySelector('.d-md-block #price-filter');
-                            if (priceFilterDiv) {
-                                priceFilterDiv.style.display = 'none';
+                    <script> //codigo para sacar el 0 a la hora de poner el precio
+                        function limpiarValor(input) {
+                            if (input.value === '0') {
+                                input.value = ''; // Si el valor es 0, lo borra al hacer clic en el campo
                             }
                         }
-
-                        if (window.location.href.indexOf('jugueteYAccesorios.html#Descuentos') !== -1) {
-                            ocultarPrecioFilter();
-                        }
-
-                        window.addEventListener('hashchange', function () {
-                            if (window.location.href.indexOf('jugueteYAccesorios.html#Descuentos') !== -1) {
-                                ocultarPrecioFilter();
-                            }
-                        });
-                    });
-                </script>
-    
-                <!-- Filtro de precio para pantallas grandes -->
-                <div class="d-none d-md-block" id="price-filter">
-                    <h4 class="mb-3">Filtrar por Precio</h4>
-                    <div class="form-group mb-3">
-                        <label for="precio-min">Precio mínimo:</label>
-                        <div class="input-group input-group-sm">
-                            <span class="input-group-text">$</span>
-                            <input type="number" id="precio-min" class="form-control" value="0" min="0"
-                                style="color: black; background-color: white;" onfocus="limpiarValor(this)">
-                        </div>
-                    </div>
-                    <div class="form-group mb-3">
-                        <label for="precio-max">Precio máximo:</label>
-                        <div class="input-group input-group-sm">
-                            <span class="input-group-text">$</span>
-                            <input type="number" id="precio-max" class="form-control" value="0" min="0"
-                                style="color: black; background-color: white;" onfocus="limpiarValor(this)">
-                        </div>
-                    </div>
-                    <button onclick="aplicarFiltroPrecio()" class="btn btn-primary">Aplicar</button>
+                    </script>
                 </div>
-    
             </div>
     
     
-            <!-- Columna de Productos -->
             <div class="col-md-10 col-12 custom-width-80">
                 <!-- Título -->
                 <div class="row justify-content-center align-items-center" style="margin-bottom: 2%;">
@@ -271,17 +226,20 @@
                 <!-- Lista de Productos -->
                 <div class="row row-cols-md-4 row-cols-sm-2 g-4 justify-content-center" id="product-list"></div>
             </div>
-    
-    
-            <!-- Categorias y Filtros, Productos  -->
-            <section class="row justify-content-between">
-                <div class="col-md-9 col-sm-12">
-                    <div id="productos-container"> <!-- Aquí se mostrarán los productos filtrados --> </div>
-                </div>
-            </section>
-    
         </div>
+    
+        <div style="display: none;" id="product-lista"></div>
+    
+        <!-- Categorias y Filtros, Productos  -->
+        <section class="row justify-content-between">
+    
+            <div class="col-md-9 col-sm-12">
+                <div id="productos-container"> <!-- Aquí se mostrarán los productos filtrados --> </div>
+            </div>
+        </section>
+    
     </section>
+
 
 
     <footer class=" footer">
