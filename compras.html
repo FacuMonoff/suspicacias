@@ -645,44 +645,50 @@
 
     
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("checkout-btn").addEventListener("click", function () {
                 // Obtener el precio total almacenado en el localStorage
                 const totalPrice = parseFloat(localStorage.getItem('total'));
 
                 if (!isNaN(totalPrice)) { // Verificar si el precio es un número válido
                     const orderData = {
-                        quantity: 1,
-                        description: "Total",
-                        price: totalPrice, // Utilizar el precio almacenado en el localStorage
+                        items: [
+                            {
+                                title: "Total", // Descripción del artículo
+                                quantity: 1, // Cantidad del artículo
+                                currency_id: "ARS", // Moneda (pesos argentinos)
+                                unit_price: totalPrice // Precio unitario del artículo
+                            }
+                        ]
                     };
 
-                    fetch("http://localhost:8080/create_preference", {
+                    fetch("https://api.mercadopago.com/checkout/preferences", {
                         method: "POST",
                         headers: {
                             "Content-Type": "application/json",
+                            "Authorization": "Bearer TEST-8974501914594065-100914-f5208db3acdbf0e2b344bdad3bef64d1-321551085" // Reemplaza YOUR_ACCESS_TOKEN con tu token de acceso de Mercado Pago
                         },
                         body: JSON.stringify(orderData),
                     })
                         .then(function (response) {
                             return response.json();
                         })
-                        .then(function (init_point) {
+                        .then(function (preference) {
                             // Redirigir a la página de Mercado Pago usando el init_point
-                            window.location.href = init_point["id"];
-                            console.log(init_point["id"]);
+                            window.location.href = preference.init_point;
+                            console.log(preference.init_point);
                         })
-                        .catch(function () {
+                        .catch(function (error) {
+                            console.error("Error al crear la preferencia de pago:", error);
                             alert("Error inesperado");
-                            $('#checkout-btn').attr("disabled", false);
                         });
                 } else {
                     alert("El precio total no es válido");
                 }
             });
         });
-
     </script>
+
 
     <section class="container" style="display: none;">
         <div class="row row-cols-md-4 row-cols-sm-2 g-4" id="product-list"></div>
