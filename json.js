@@ -4092,9 +4092,16 @@ function filtrarProductosPorFragmento() {
     }
 }
 
-// Llama a la función para filtrar productos cuando se carga la página
-window.addEventListener("load", filtrarProductosPorFragmento);
 
+// Llama a la función para filtrar productos cuando se carga la página
+window.addEventListener("load", () => {
+    const fragmento = getFragmentFromURL();
+    if (fragmento === "DESCUENTOS") {
+        mostrarProductosConDescuento(); // Mostrar productos con descuento si el fragmento es DESCUENTOS
+    } else {
+        filtrarProductosPorFragmento(); // Filtrar productos según el fragmento de la URL
+    }
+});
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -4104,15 +4111,52 @@ document.addEventListener("DOMContentLoaded", () => {
         btn.addEventListener("click", (event) => {
             event.preventDefault(); // Evitar el comportamiento predeterminado de los enlaces
             const categoriaSeleccionada = btn.getAttribute("data-categoria");
-            // Actualizar el título y mostrar los productos según la categoría seleccionada
-            actualizarCategoryTitle(categoriaSeleccionada);
-            // Cambiar el fragmento de la URL según la categoría seleccionada
-            const currentPage = window.location.pathname;
-            history.pushState({}, '', `${currentPage}#${categoriaSeleccionada}`);
-            window.location.reload();
+
+            if (categoriaSeleccionada === "DESCUENTOS") {
+                mostrarProductosConDescuento();
+                // Cambiar el fragmento de la URL a #DESCUENTOS
+                window.location.hash = "DESCUENTOS";
+                // Recargar la página para actualizar los productos filtrados
+                window.location.reload();
+            } else {
+                // Actualizar el título y mostrar los productos según la categoría seleccionada
+                actualizarCategoryTitle(categoriaSeleccionada);
+                // Cambiar el fragmento de la URL según la categoría seleccionada
+                const currentPage = window.location.pathname;
+                history.pushState({}, '', `${currentPage}#${categoriaSeleccionada}`);
+                window.location.reload();
+            }
         });
     });
 });
+
+
+
+function mostrarProductosConDescuento() {
+    const productosContainer = document.getElementById("product-list");
+    const productosConDescuentoFiltrados = Products.filter(producto => {
+        return producto.discount > 0 &&
+            producto.price >= precioMinActual &&
+            producto.price <= precioMaxActual;
+    });
+
+    if (productosConDescuentoFiltrados.length === 0) {
+        alert("No se han encontrado artículos disponibles en el rango de precios especificado. Por favor ingrese otro rango de precio.");
+        return;
+    }
+
+    // Cambiar el título para mostrar que se están mostrando productos con descuento
+    const categoryTitle = document.getElementById("category-title");
+    categoryTitle.textContent = "Descuentos";
+
+    // Mostrar productos con descuento filtrados por precio
+    productosContainer.innerHTML = "";
+    productosConDescuentoFiltrados.forEach(producto => {
+        const productoHTML = getProductCardHTML(producto);
+        productosContainer.insertAdjacentHTML("beforeend", productoHTML);
+    });
+}
+
 
 
 function actualizarCategoryTitle(categoria) {
@@ -4205,7 +4249,6 @@ function getProductCardHTML(producto) {
 
 
 
-// Función para aplicar el filtro de precio
 function aplicarFiltroPrecio() {
     const precioMinInput = document.getElementById("precio-min");
     const precioMaxInput = document.getElementById("precio-max");
@@ -4223,14 +4266,23 @@ function aplicarFiltroPrecio() {
         return;
     }
 
+    // Actualizar los precios mínimos y máximos actuales
     precioMinActual = precioMin;
     precioMaxActual = precioMax;
 
-    const categoryTitle = document.getElementById("category-title");
-    const categoriaSeleccionada = categoryTitle.textContent;
+    // Verificar si estamos en la sección de Descuentos
+    if (window.location.hash === "#DESCUENTOS") {
+        mostrarProductosConDescuento(); // Mostrar productos con descuento
+    } else {
+        // Obtener la categoría seleccionada del título
+        const categoryTitle = document.getElementById("category-title");
+        const categoriaSeleccionada = categoryTitle.textContent;
 
-    mostrarProductosPorCategoria(categoriaSeleccionada);
+        // Mostrar productos según la categoría seleccionada
+        mostrarProductosPorCategoria(categoriaSeleccionada);
+    }
 }
+
 
 
 
