@@ -4182,9 +4182,15 @@ precioMaxActual = Infinity;
 // Función para filtrar, aplicar descuentos y mostrar productos según la categoría
 function mostrarProductosPorCategoria(categoria) {
     const productosContainer = document.getElementById("product-list");
-    const productosFiltrados = Products.filter(producto => {
-        return producto.categoria === categoria &&
-            producto.stock > 0 &&
+    const productosEnMemoria = Products.filter(producto => producto.categoria === categoria);
+    const productosEnLocalStorage = JSON.parse(localStorage.getItem('datosDeLaBaseDeDatos')) || [];
+
+    // Combinar productos de la memoria y del localStorage
+    const todosLosProductos = [...productosEnMemoria, ...productosEnLocalStorage];
+
+    const productosFiltrados = todosLosProductos.filter(producto => {
+        return producto.stock > 0 &&
+            producto.categoria === categoria &&
             producto.price >= precioMinActual &&
             producto.price <= precioMaxActual;
     });
@@ -4200,6 +4206,7 @@ function mostrarProductosPorCategoria(categoria) {
         });
     }
 }
+
 
 // Función para obtener el HTML de la tarjeta de producto con la posibilidad de descuento
 function getProductCardHTML(producto) {
