@@ -4684,7 +4684,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-const mercadopago = new MercadoPago('APP_USR-6121c894-2604-42cb-abae-e813f0eece99', {
+const mercadopago = new MercadoPago('APP_USR-f419b930-47dd-4340-a957-f3fd0c241007', {
     locale: 'es-AR' // The most common are: 'pt-BR', 'es-AR' and 'en-US'
 });
 
