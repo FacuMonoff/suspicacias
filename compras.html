@@ -396,7 +396,7 @@
                                         <h2 style="text-align: center; margin-top: 4%; font-weight: 700;">Entrega</h2>
                                         <p class="bi-geo-alt-fill">Envío a domicilio</p>
                                         <div class="form-check">
-                                            <input type="radio" class="form-check-input" id="opcion3Corrientes" name="entrega" value="5,800">
+                                            <input type="radio" class="form-check-input" id="opcion3Corrientes" name="entrega" value="7,700">
                                             <label class="form-check-label d-flex justify-content-between" for="opcion3Corrientes">
                                                 <span>Correo Argentino Regional - Envío a domicilio</span>
                                                 <span style="font-size: 1.2em; color: black;">$7700</span>
@@ -429,7 +429,7 @@
                                         <h2 style="text-align: center; margin-top: 4%; font-weight: 700;">Entrega</h2>
                                         <p class="bi-geo-alt-fill">Envío a domicilio</p>
                                         <div class="form-check">
-                                            <input type="radio" class="form-check-input" id="opcion3Otras" name="entrega" value="7,800">
+                                            <input type="radio" class="form-check-input" id="opcion3Otras" name="entrega" value="10,400">
                                             <label class="form-check-label d-flex justify-content-between" for="opcion3Otras">
                                                 <span>Correo Argentino Nacional - Envío a domicilio</span>
                                                 <span style="font-size: 1.2em; color: black;">$10400</span>
@@ -445,10 +445,10 @@
                                         <h2 style="text-align: center; margin-top: 4%; font-weight: 700;">Entrega</h2>
                                         <p class="bi-geo-alt-fill">Envío a domicilio</p>
                                         <div class="form-check">
-                                            <input type="radio" class="form-check-input" id="opcion3Corrientes" name="entrega" value="7,800">
+                                            <input type="radio" class="form-check-input" id="opcion3Corrientes" name="entrega" value="10,400">
                                             <label class="form-check-label d-flex justify-content-between" for="opcion3Corrientes">
                                                 <span>Correo Argentino Nacional - Envío a domicilio</span>
-                                                <span style="font-size: 1.2em; color: black;">$7800</span>
+                                                <span style="font-size: 1.2em; color: black;">$10400</span>
                                             </label>
                                         </div>
                                         <div class="form-check">
@@ -499,6 +499,9 @@
                                         }
 
                                         const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, '')); // Elimina el signo $ y las comas
+                                        const descuento = parseFloat(document.getElementById('descuentoDisplay').innerText.replace('$', '').replace(/,/g, '')); // Obtener el descuento
+                                        const subtotalConDescuento = subtotal - descuento; // Calcular el subtotal con descuento
+
                                         let envio = 0;
 
                                         if (envioSeleccionado.textContent.includes('$')) {
@@ -507,16 +510,16 @@
                                             envio = 0;
                                         }
 
-                                        const total = subtotal + envio;
+                                        const total = subtotalConDescuento + envio; // Calcular el total con descuento
                                         totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
-                                                                            }
+                                    }
 
                                     provinciaSelect.addEventListener('change', function () {
-                                            const opcionEnvio = document.querySelector('input[name="entrega"]:checked');
-                                            const envioSeleccionado = document.querySelector('#envioDisplay');
-                                            const totalDisplay = document.getElementById('totalDisplay');
-                                            totalDisplay.textContent = '$0.00';
-                                            envioSeleccionado.textContent = '0.00';
+                                        const opcionEnvio = document.querySelector('input[name="entrega"]:checked');
+                                        const envioSeleccionado = document.querySelector('#envioDisplay');
+                                        const totalDisplay = document.getElementById('totalDisplay');
+                                        totalDisplay.textContent = '$0.00';
+                                        envioSeleccionado.textContent = '0.00';
 
                                         if (opcionEnvio) {
                                             const precioEnvio = opcionEnvio.value;
@@ -559,24 +562,27 @@
                     <script>
                         // Función para calcular el total y guardar en localStorage
                         function calcularTotal() {
-                            const subtotal = parseFloat(document.getElementById('subtotalDisplay').innerText);
-                            const envio = parseFloat(document.getElementById('envioDisplay').innerText);
+                                const subtotal = parseFloat(document.getElementById('subtotalDisplay').innerText);
+                                const envio = parseFloat(document.getElementById('envioDisplay').innerText);
+                                const descuento = parseFloat(document.getElementById('descuentoDisplay').innerText.replace('$', '').replace(/,/g, '')); // Obtener el descuento
 
-                            const total = subtotal + envio;
+                                const subtotalConDescuento = subtotal - descuento; // Calcular el subtotal con descuento
 
-                            // Guardar el total en el localStorage
-                            localStorage.setItem('total', total.toFixed(2));
+                                const total = subtotalConDescuento + envio;
 
-                            // Actualizar el valor en el span
-                            document.getElementById('totalDisplay').innerText = total.toFixed(2);
+                                // Guardar el total en el localStorage
+                                localStorage.setItem('total', total.toFixed(2));
 
-                            // Confirmar que se ha guardado en el localStorage
-                            const valorGuardado = localStorage.getItem('total');
-                            console.log('Valor guardado en localStorage:', valorGuardado);
-                        }
+                                // Actualizar el valor en el span
+                                document.getElementById('totalDisplay').innerText = total.toFixed(2);
 
-                        // Llamar a la función para calcular el total al cargar la página
-                        window.onload = calcularTotal;
+                                // Confirmar que se ha guardado en el localStorage
+                                const valorGuardado = localStorage.getItem('total');
+                                console.log('Valor guardado en localStorage:', valorGuardado);
+                            }
+
+                            // Llamar a la función para calcular el total al cargar la página
+                            window.onload = calcularTotal;
                     </script>
 
                     <!-- CODIGO PARA BLOQUEAR EL BOTON DE PAGO HASTA NO HACER CLICK EN ALGUN ENVIO-->

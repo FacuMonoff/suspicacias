@@ -4461,24 +4461,41 @@ function inicializarCarrito() {
 // Llama a la función para inicializar el carrito al cargar la página
 inicializarCarrito();
 
+
 function actualizarCarrito() {
     const carritoContent = document.getElementById('carritoContent');
     carritoContent.innerHTML = ''; // Limpiamos el contenido antes de actualizar
     const productoCarritoTextArea = document.getElementById('producto-carrito');
 
     let total = 0; // Variable para calcular el precio total
+    let descuento = 0; // Variable para almacenar el descuento
 
     carritoProductos.forEach(item => {
         const precioTotalProducto = item.price * item.cantidad;
         total += precioTotalProducto; // Sumar al total el precio total de cada producto
     });
 
+    // Calcular el descuento si el subtotal es mayor o igual a $30,000
+    if (total >= 30000) {
+        descuento = total * 0.1; // 10% de descuento
+    }
+
+    // Agregar mensaje de descuento
+    const descuentoMensaje = document.createElement('p');
+    descuentoMensaje.textContent = 'DESCUENTOS A PARTIR DE $30,000';
+    carritoContent.appendChild(descuentoMensaje);
+
     // Obtener el elemento donde se mostrará el precio total
     const totalAmountElemento = document.getElementById('totalAmount');
 
     if (totalAmountElemento) {
-        // Mostrar el precio total formateado en el elemento
-        totalAmountElemento.textContent = formatPrice(total);
+        if (total >= 30000) {
+            // Mostrar el precio total formateado en el elemento con descuento
+            totalAmountElemento.innerHTML = `<del>${formatPrice(total)}</del> ${formatPrice(total - descuento)} (con descuento)`;
+        } else {
+            // Mostrar el precio total sin descuento
+            totalAmountElemento.textContent = formatPrice(total);
+        }
     }
 
     if (productoCarritoTextArea) {
@@ -4487,7 +4504,6 @@ function actualizarCarrito() {
 
         const mensaje = productosAgregados + ' ---- Total de todos los productos: ' + formatPrice(productosTotales);
         productoCarritoTextArea.textContent = mensaje;
-        console.log(productoCarritoTextArea.textContent)
     }
 
     if (carritoProductos.length === 0) {
@@ -4512,12 +4528,11 @@ function actualizarCarrito() {
                         </div>
                     </div>
                     <div class="col-md-8">
-                                            <div class="card-body d-flex flex-column">
+                        <div class="card-body d-flex flex-column">
                             <h5 class="card-title mt-8">${item.name}</h5>
                             <div style="margin-top: auto; margin-bottom: auto;">
                                 <p class="card-text">${formatPrice(item.price * item.cantidad)}</p>
                             </div>
-                            
                             <div class="row">
                                 <div class="col-md-12">
                                     <button class="btn btn-primary" onclick="eliminarDelCarrito('${item.name}')">Borrar</button>
@@ -4527,14 +4542,14 @@ function actualizarCarrito() {
                     </div>
                 </div>
                 <div class="row">
-                        <div class="col-12">
-                            <label for="cantidad${index}" class="text-center">Cantidad:</label>
-                            <div class="input-group">
-                                <button type="button" class="btn btn-outline-secondary" onclick="restarCantidad('${item.name}')">-</button>
-                                <input type="number" name="cantidad${index}" id="cantidad${index}" class="form-control" value="${item.cantidad}" min="1" onchange="actualizarCantidad('${item.name}', this.value)">
-                                <button type="button" class="btn btn-outline-secondary" onclick="sumarCantidad('${item.name}')">+</button>
-                            </div>
+                    <div class="col-12">
+                        <label for="cantidad${index}" class="text-center">Cantidad:</label>
+                        <div class="input-group">
+                            <button type="button" class="btn btn-outline-secondary" onclick="restarCantidad('${item.name}')">-</button>
+                            <input type="number" name="cantidad${index}" id="cantidad${index}" class="form-control" value="${item.cantidad}" min="1" onchange="actualizarCantidad('${item.name}', this.value)">
+                            <button type="button" class="btn btn-outline-secondary" onclick="sumarCantidad('${item.name}')">+</button>
                         </div>
+                    </div>
                 </div>
             </div>
          `;
@@ -4546,27 +4561,8 @@ function actualizarCarrito() {
             // Agregar la tarjeta al contenedor del carrito
             carritoContent.appendChild(card.firstChild);
         });
-
-        // Al final, agregas el contenedor principal al elemento donde deseas mostrar las tarjetas
-        carritoContent.appendChild(tarjetasContainer);
-
-        // Obtener el elemento donde se mostrará el precio total
-        const totalAmountElement = document.getElementById('totalAmount');
-
-        if (totalAmountElement) {
-            // Mostrar el precio total formateado en el elemento
-            totalAmountElement.textContent = formatPrice(total);
-
-            // Obtener el valor del subtotal
-            const subtotal = totalAmountElement.textContent;
-
-            // Muestra el subtotal en el elemento HTML
-            const subtotalDisplay = document.getElementById('subtotalDisplay');
-            if (subtotalDisplay) {
-                subtotalDisplay.textContent = subtotal;
-            }
-        }
     }
+
     actualizarSubtotal();
     actualizarTotal();
 }
@@ -4695,18 +4691,32 @@ function actualizarSubtotal() {
     const totalDisplay = document.getElementById('totalDisplay');
 
     if (totalAmountElement && subtotalDisplay && totalDisplay) {
-        const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, ''));
+        const subtotalText = totalAmountElement.textContent.trim(); // Obtener el texto del subtotal
+        const subtotal = parseFloat(subtotalText.replace(/[^\d.]/g, '')); // Usar una expresión regular para extraer solo los dígitos y los decimales
+
+        const descuento = calcularDescuento(subtotal); // Calcular el descuento
+        const subtotalConDescuento = subtotal - descuento; // Restar el descuento al subtotal original
         const envio = obtenerPrecioEnvio();
 
-        let total = subtotal + envio;
+        let total = subtotalConDescuento + envio; // Usar el subtotal con descuento
 
-        subtotalDisplay.textContent = `$${subtotal.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
+        subtotalDisplay.textContent = `$${subtotalConDescuento.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`; // Mostrar subtotal con descuento
         totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
 
         // Guardar el subtotal y el total en el localStorage
-        localStorage.setItem('subtotal', subtotal.toFixed(2));
+        localStorage.setItem('subtotal', subtotalConDescuento.toFixed(2));
         localStorage.setItem('total', total.toFixed(2));
     }
+}
+
+
+// Función para calcular el descuento basado en el subtotal
+function calcularDescuento(subtotal) {
+    let descuento = 0;
+    if (subtotal >= 30000) {
+        descuento = subtotal * 0.1; // 10% de descuento
+    }
+    return descuento;
 }
 
 function actualizarTotal() {
@@ -4730,6 +4740,7 @@ function actualizarTotal() {
         console.error("Al menos uno de los elementos 'subtotalDisplay' o 'totalDisplay' no se encontró.");
     }
 }
+
 // Esta función obtiene el precio de envío, considerando palabras como cero
 function obtenerPrecioEnvio() {
     const envioSeleccionado = document.querySelector('#envioDisplay');
