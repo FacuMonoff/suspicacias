@@ -1450,7 +1450,7 @@ const Products = [
     },
     {
         SKU: "1659", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/Gel íntimo ICE 60cc.jpg",
+        image: "img/lubricantes/Gel íntimo ICE 60cc2.jpg",
         image2: "img/lubricantes/Gel íntimo ICE 60cc.jpg",
         name: "Gel íntimo ICE 60cc",
         price: "$3,818.91",
@@ -1485,7 +1485,7 @@ const Products = [
         SKU: "1662", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/chocolate 60cc .png",
         image2: "img/lubricantes/chocolate 60cc 2.jpg",
-        name: "Gel íntimo CHOCOLATE",
+        name: "Gel íntimo CHOCOLATE 60cc",
         price: "$3,818.91",
         descripcion: "Lubricante de base acuosa sabor chocolate con arginina 60cc. No esperes a necesitarlos para usarlos! Experimenta¡ sensaciones diferentes, y hace de tu encuentro sexual algo especial. No te olvides de ellos! Incorpóralos a tu juego amoroso. Para uso en genitales externos. Recomendado para el uso de Sex toys. ----- Cantidad: 60cc",
         categoria: "LUBRICANTES",
@@ -1494,8 +1494,8 @@ const Products = [
     },
     {
         SKU: "1663", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/extra time 60cc 2.jpg",
-        image2: "img/lubricantes/extra time 60cc.jpg",
+        image: "img/lubricantes/extra time 60cc.jpg",
+        image2: "img/lubricantes/extra time 60cc 2.jpg",
         name: "Gel íntimo EXTRA TIME",
         price: "$3,818.91",
         descripcion: "Gel lubricante retardante 60cc. Soluble en agua. Esta especialmente formulado para hombres con problemas de eyaculación precoz. Contiene extractos vegetales ligeramente desensibilizadores que aseguran una relación más prolongada y placentera. ----- Cantidad: 60cc",
@@ -1522,14 +1522,14 @@ const Products = [
         price: "$2,554.00",
         descripcion: "Aceite Love Potion Frutos Rojos. Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. ----- Contenido: 30 ml",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2349", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
+        image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.png",
         image2: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
-        name: "Aceite  Mini Love Potion ice ",
+        name: "Aceite  Mini Love Potion Menta ",
         price: "$1,438.00",
         descripcion: "Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. Compatible con latéx. Sabor a Menta. ----- Contenido: 15gr.",
         categoria: "LUBRICANTES",
@@ -1539,7 +1539,7 @@ const Products = [
     {
         SKU: "2045", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
-        image2: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
+        image2: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.png",
         name: "Aceite Mini Love Potion Banana",
         price: "$1,438.00",
         descripcion: "Sácale provecho a todas las ventajas de la cosmética erótica e incluye aceites de masaje en tus juegos de pareja. Son un modo muy sencillo y sensual de incrementar el potencial estimulador de tus caricias. Aparte de la textura suave que proporciona el love potion, puedes sacarle mucho partido si le brindas a tu pareja una previa muy sensual y placentera. Todo tu cuerpo está a punto de experimentar un escalofrío de placer que lo recorrerá de los pies a la cabeza.La calidez de este aceite de masaje con aroma y sabor a banana no sólo se deja notar en el lugar en el que lo aplicas sino que se transmite por todo tu cuerpo como una oleada de excitación ---- Contenido: 15gr.",
@@ -1548,9 +1548,251 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2158", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/champagne.png",
+        image2: "img/lubricantes/champagne2.png",
+        name: "Aceite Mini Love Potion Champagne Frambuesa",
+        price: "$1,438.00",
+        descripcion: "Aceite comestible. Besos íntimos. Este es tu momento. Descubrí la pasión con los aceites comestibles, cálidos y sedosos Love Potion, harán de tus besos los más sensuales. Sabor CHAMPAGNE ---- Contenido: 15gr.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2545", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/dulceDeLeche.png",
+        image2: "img/lubricantes/aceiteLovePDulceDeLeche.png",
+        name: "Aceite Mini Love Potion Dulce de Leche",
+        price: "$1,438.00",
+        descripcion: "Aceite comestible. Besos íntimos. Este es tu momento. Descubrí la pasión con los aceites comestibles, cálidos y sedosos Love Potion, harán de tus besos los más sensuales. Sabor DULCE DE LECHE ---- Contenido: 15gr.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2513", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/algodonDeAzucar.png",
+        image2: "img/lubricantes/algodonDeAzucar2.png",
+        name: "Aceite Mini Love Potion Algodon de Azucar",
+        price: "$1,438.00",
+        descripcion: "Aceite comestible. Besos íntimos. Este es tu momento. Descubrí la pasión con los aceites comestibles, cálidos y sedosos Love Potion, harán de tus besos los más sensuales. Sabor Algodon de Azucar ---- Contenido: 15gr.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2514", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/EgoMasturbacion.png",
+        image2: "img/lubricantes/EgoMasturbacion2.png",
+        name: "Aceite EGO MISS V",
+        price: "$1,438.00",
+        descripcion: "Aceite Lubricante para Masturbación Ego Miss V. Contiene colágeno que protege e hidrata la piel. Efecto cálido. 50ml",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2050", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/twbMasturbacion.png",
+        image2: "img/lubricantes/twbMasturbacion2.png",
+        name: "Crema para masturbación The Wild Boys",
+        price: "$1,438.00",
+        descripcion: "Formulado exclusivamente para masturbarse, ideal para las sesiones de amor propio. ¿Por que? Se siente increible y llega hasta el final. Esta formula es espesa y muy suave. Es como envolver tu pene en seda. La silicona es conocida por durar, por lo que no tendras que volver a aplicarla por un tiempo. EL GINKGO BILOBA ES SINONIMO DE POTENCIA Y ENERGIA, es conocido por su efecto estimulante del riego sanguineo y es sinonimo de crecimiento, fuerza y energia. Aplicar una pequena cantidad, desde la base del pene hasta el glande, masajeando la zona hasta su absorcion. Puede usarse diariamente, para mejorar su efecto vasodilatador y aumentar la respuesta en la ereccion.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2395", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel Diabolico Fly Night.png",
+        image2: "img/lubricantes/Gel Diabolico Fly Night2.png",
+        name: "Gel Diabolico Fly Night",
+        price: "$1,438.00",
+        descripcion: "Gel lubricante elástico formulado para Fisting Anal y Vaginal. La principal ventaja es su liviandad y elasticidad Brinda una Lubricación mas duradera que un lubricante convencional, sin secarse ni dejar pegotes Formulado en base a compuestos Veganos y de un color cristalino. Pote de medio kilo en donde entra la mano entera",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2527", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/GEL ÍNTIMO LUBRICANTE ANAL DESIRE COCONUT 75 ml.png",
+        image2: "img/lubricantes/GEL ÍNTIMO LUBRICANTE ANAL DESIRE COCONUT 75 ml2.png",
+        name: "Desire Coconut",
+        price: "$1,438.00",
+        descripcion: "Diseñado para dar una lubricación de larga duración. Con un aroma a Coco exquisito que se adapta perfectamente a tu personalidad. Sedoso con base Acuosa. Ultra Deslizante. 75ml",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2528", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/For Him Sexitive.png",
+        image2: "img/lubricantes/For Him Sexitive2.png",
+        name: "For Him Sexitive",
+        price: "$1,438.00",
+        descripcion: "Gel íntimo masculino que favorece la excitación y la erección, por lo que mejora el rendimiento sexual. Compatible con preservativos y sextoys porque la fórmula es de base acuosa. Única presentación en pomo de 130 ml.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2529", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel Neutro Fly night.png",
+        image2: "img/lubricantes/Gel Neutro Fly night2.png",
+        name: "Gel Neutro Fly night (en sobre)",
+        price: "$1,438.00",
+        descripcion: "Gel Lubricante Con Aloe Vera 10 ml. Fly Night sin aroma, creado exclusivamente para otorgar una mayor fluidez y deslizamiento durante el acto sexual o el uso de juguetes eróticos. Esta formulado a base de puro aloe vera. Normaliza el ph, evita la irritacion y previene infecciones. Mejora la lubricación y reconstituye la mucosa de las zonas erógenas. Es ideal para utilizarlo con masturbadores, vibradores o diversos tipos de juguetes eróticos. Es hidrosoluble y compatible con el uso de preservativos.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2530", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Sens bomb Sandalo rojo.png",
+        image2: "img/lubricantes/Sens bomb Sandalo rojo2.png",
+        name: "Sens bomb Sandalo rojo",
+        price: "$1,438.00",
+        descripcion: "Los geles Sens Bomb con su efecto calor brindan una estimulante sensación de relajación que despierta el deseo sexual. Formulado con el poder estimulante y afrodisíaco del Sándalo. ----  Contiene 70grs",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2531", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Sweet Tentation Chocolate.png",
+        image2: "img/lubricantes/Sweet Tentation Chocolate2.png",
+        name: "Sweet Temtation Chocolate Fly night (en sobre)",
+        price: "$1,438.00",
+        descripcion: "Gel Estimulante aroma chocolate. Te garantiza un aroma dulce y tentador para poder disfrutar aún más a la hora del sexo. Gracias al poder del aroma a chocolate despierta tus sentidos y endulza el momento. Contenido: 10 ml",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2532", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel diabolico 200ml.png",
+        image2: "img/lubricantes/Gel diabolico 200ml2.png",
+        name: "Gel diabolico 200ml",
+        price: "$1,438.00",
+        descripcion: "Lubricante ideado para fisting. Es un producto liviano y elástico que otorga mayor duración que un lubricante convencional. De una textura cristalina y suave. Sin olor ni sabor.  Contiene 200ml",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2533", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/gel lubricante Sweet Femme 75ml.png",
+        image2: "img/lubricantes/gel lubricante Sweet Femme 75ml2.png",
+        name: "Sweet Femme 75ml",
+        price: "$1,438.00",
+        descripcion: "Gel Lubricante Femenino Sweet Femme: Perfumado con extractos de coco. Lubrica, perfuma e hidrata. Contiene: 75ml",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2480", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel dulce de leche, miss v.png",
+        image2: "img/lubricantes/Gel dulce de leche, miss v2.png",
+        name: "Gel dulce de leche, miss v",
+        price: "$1,438.00",
+        descripcion: "Gel lubricante íntimo saborizado. Es un gel saborizado diseñado para sexo oral masculino y femenino. Recomendado para el juego previo y nuevas experiencias. Contiene: 50ml",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2535", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel neutro aloe vera 125ml.png",
+        image2: "img/lubricantes/Gel neutro aloe vera 125ml2.png",
+        name: "Lubricante neutro aloe vera 125ml",
+        price: "$4,163.00",
+        descripcion: "El gel neutro de Fly Night, es un lubricante a base de agua formulado para simular la lubricación natural y facilitar la penetración. Su textura ultra sedosa intensifica las sensaciones y crea un efecto duradero. No mancha y es fácil de eliminar. Además, es totalmente compatible con preservativos y juguetes de silicona. Contiene: 125ml ",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2540", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/wet naturals aloe vera 75ml.png",
+        image2: "img/lubricantes/wet naturals aloe vera 75ml2.png",
+        name: "wet naturals aloe vera 75ml",
+        price: "$4,163.00",
+        descripcion: "ᴇsᴛᴀ ғᴏʀᴍᴜʟᴀ ᴇs ᴅᴜʀᴀᴅᴇʀᴀ y ʟuᴊosᴀ, y ᴇsᴛᴀ ᴅisᴇɴ̃ᴀᴅᴀ ᴘᴀʀᴀ ᴍᴇᴊᴏʀᴀʀ ʟᴀ ʜɪᴅʀᴀᴛᴀᴄɪᴏ́ɴ ɴᴀᴛᴜʀᴀʟ ᴅᴇ ʟᴀ ᴍᴜᴊᴇʀ. Sᴇ ʀᴇᴄᴏᴍɪᴇɴᴅᴀ ᴘᴀʀᴀ ᴀϙuᴇʟʟᴀs ᴘᴇʀsoɴᴀs ᴄᴏɴ ᴘiᴇʟᴇs sᴇɴsiʙʟᴇs. ᴜɴᴀ ғᴏʀᴍᴜʟᴀ ᴘᴜʀᴀ y ɴᴀᴛᴜʀᴀʟ ᴅᴇ sᴇxiᴛivᴇ. ᴇs ᴜʟᴛʀᴀ ʜɪᴅʀᴀᴛᴀɴᴛᴇ, ᴅᴇᴊᴀ́ɴᴅᴏᴛᴇ sᴇᴅosᴀ y suᴀvᴇ, iɴcʟuso ʙᴀᴊᴏ ᴇʟ ᴀɢᴜᴀ.  Contiene: 125ml ",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2537", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel wet anal 75ml.png",
+        image2: "img/lubricantes/Gel wet anal 75ml2.png",
+        name: "Gel wet anal 75ml",
+        price: "$4,163.00",
+        descripcion: "Ideal para amantes audaces que gustan de explorar nuevas experiencias! Diseñado para dar una lubricación de larga duración. ¿Qué hace nuestro Wet Anal? Genera una experiencia de mayor confianza y seguridad en la pareja Ultra deslizante. Hidradante. Sedoso con base acuosa. Contiene: 75ml ",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2538", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel wet efecto calor.png",
+        image2: "img/lubricantes/Gel wet efecto calor2.png",
+        name: "Gel wet efecto calor ",
+        price: "$4,163.00",
+        descripcion: "Es un gel lubricante con L-Arginina, un aminoácido de origen natural con capacidad vasodilatadora, especialmente formulado para aumentar la excitación y sensibilidad del clítoris facilitando orgasmos más intensos más rápido. Este gel crea una sensación de calor en la piel que aumenta de forma inmediata la sensibilidad intensificando las sensaciones. Contiene: 75ml ",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2539", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel wet ice fresh extra time.png",
+        image2: "img/lubricantes/Gel wet ice fresh extra time2.png",
+        name: "Gel wet ice fresh extra time ",
+        price: "$4,163.00",
+        descripcion: "Es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de la eyaculación. Genera un efecto agradablemente refrescante tanto en el hombre como en la mujer. Viví experiencias más intensas y duraderas con nuestra exclusiva fórmula. Es de base acuosa, por ello puede utilizarse tanto con preservativos como con juguetes de todo tipo de materiales. Animate a experimentar! Contiene 75 ml.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2541", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel wet neutro.png",
+        image2: "img/lubricantes/Gel wet neutro2.png",
+        name: "Gel wet neutro",
+        price: "$4,163.00",
+        descripcion: "Formulado con agua pura, sin sabor y libre de fragancia, que no irritará sus puntos más sensibles. Es de base acuosa, por ello puede utilizarse tanto con preservativos como con juguetes de todo tipo de materiales. No mancha. Animate a experimentar! Contiene 75 ml.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2550", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Gel maxx clasico 50gr.png",
+        image2: "img/lubricantes/Gel maxx clasico 50gr2.png",
+        name: "Gel maxx clasico",
+        price: "$4,163.00",
+        descripcion: "Gel Lubricante Maxx Clasico 50g. Hace mágico tu encuentro con el gel clásico Maxx, ideal para lograr una lubricación de calidad e instantánea.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2542", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Afrodisia Efecto calor.png",
+        image2: "img/lubricantes/Afrodisia Efecto calor2.png",
+        name: "Afrodisia goce Efecto calor",
+        price: "$4,163.00",
+        descripcion: "Lubricante efecto calor. La fórmula única calienta la piel en contacto a través de la silicona natural junto con los extractos de guaraná y Ginseng. Contiene 75 ml.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
         SKU: "2047", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Crema Intensif de Erecciones y Orgasmos Black 50ml.jpg",
-        image2: "img/lubricantes/Crema Intensif de Erecciones y Orgasmos Black 50ml.jpg",
+        image2: "img/lubricantes/blackDragon.png",
         name: "Crema Intensif de Erecciones y Orgasmos Black 50ml",
         price: "$4,163.00",
         descripcion: "",
@@ -1562,7 +1804,7 @@ const Products = [
         //SKU: "2011", TAMBIEN PUEDE SER ESTE SKU, HAY DOBLE
         SKU: "2048", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/thewildboys-gelcrema-anal1.jpg",
-        image2: "img/lubricantes/thewildboys-gelcrema-anal1.jpg",
+        image2: "img/lubricantes/thewildboys-gelcrema-anal2.png",
         name: "Crema Anal The Wild Boys",
         price: "$5,105.00",
         descripcion: "Crema Íntima Anal The Wild Boys Relajante Desarrollado para relajar los músculos sin perder sensibilidad. La calendula contiene propiedades regenerativas, suaviza e hidrata. Ideal para utilizarlo con juguetes sexuales. Instrucciones de uso: aplica la cantidad de crema gel que quieras en las partes del cuerpo deseadas. Perfecto para lubricación y masajes anales. Ideal para utilizarlo con juguetes sexuales Cont.Neto: 200grs",
@@ -1573,7 +1815,7 @@ const Products = [
     {
         SKU: "2051", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Gel crema Tonificante The Wild Boys.png",
-        image2: "img/lubricantes/Gel crema Tonificante The Wild Boys.png",
+        image2: "img/lubricantes/tonificanteTWB.png",
         name: "Crema Tonificante The Wild Boys",
         price: "$3,519.00",
         descripcion: "La sensibilidad y la dureza de tus erecciones van a determinar el placer que sientes durante tus relaciones sexuales. Si quieres potenciar esa capacidad de una manera prácticamente inmediata, la crema tonificante the Wild Boys te resultará muy útil. Es un producto elaborado a base de extractos naturales como el mentol y la paprika que ayudan al desarrollo de los tejidos del pene y a darle firmeza al miembro para gozar de erecciones más fuertes y duraderas, junto a orgasmos más intensos y explosivos. Cont.Neto: 200g",
@@ -1584,7 +1826,7 @@ const Products = [
     {
         SKU: "2052", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml.jfif",
-        image2: "img/lubricantes/Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml.jfif",
+        image2: "img/lubricantes/Gel lubricante Íntimo Vegano Jojoba y Caléndula 50ml.png",
         name: "Gel lubricante Vegano ",
         price: "$2,094.00",
         descripcion: "Gel lubricante íntimo vegano con jojoba y caléndula. Fórmula desarrollada con componentes libres de parabenos y sin testeo en animales. Sumamos jojoba que tiene propiedades muy potentes para hidratación y es antioxidante, además de caléndula que es regenerativa. ----- Apto celíaco, Sin TACC ----- Sin Parabenos -----Cruelty Free ----- No mancha la ropa. ----- Es hidrosoluble, compatible con el uso de preservativos ----- Cont.Neto: 50ml",
@@ -1595,7 +1837,7 @@ const Products = [
     {
         SKU: "2053",
         image: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.jpg",
-        image2: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.jpg",
+        image2: "img/lubricantes/Óleo Orgásmico Estimulante XXX 15ml.png",
         name: "Óleo Orgásmico Estimulante XXX",
         price: "$3,359.00",
         descripcion: "Crea una sensación única de vibración y placer en el clítoris. Comienza como un suave hormigueo, seguido de un calor que se convierte en un resplandor envolvente. Esta sensación se extiende más allá del clítoris e incluso se puede sentir en los labios y en la entrada vaginal. Luego viene una fuerte sensación de hormigueo acompañada con una sensación de apretamiento creando una experiencia sexual completamente nueva e intensa... Este Estimulante de Clítoris, como la mayoría de nuestros productos podes utilizarlos sola o en pareja, recordá que con solo una gota alcanzará todo su efecto, es por ello que te rendirá para muchas veladas de amor  ----- Cont.Neto: 15ml",
@@ -1606,7 +1848,7 @@ const Products = [
     {
         SKU: "2058", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
-        image2: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
+        image2: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.png",
         name: "Aceite  Mini Love Potion Frutilla",
         price: "$1,438.00",
         descripcion: "Tus caricias ahora serán más dulces que nunca gracias a la sensual combinación de fragancias de este Mini Aceite Comestible Love Potion, experimenta el placer máximo en la estimulación piel con piel o mejor aún labios con piel. El Mini Aceite Comestible Love Potion Frutilla tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato. ----- Cont.Neto: 15ml",
@@ -1616,7 +1858,7 @@ const Products = [
     },
     {
         SKU: "2150", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/gel intimo efecto frio miss v.jpg",
+        image: "img/lubricantes/gel intimo efecto frio miss v.png",
         image2: "img/lubricantes/gel intimo efecto frio miss v.jpg",
         name: "Gel Efecto Frío Miss V",
         price: "$1,709.00",
@@ -1627,7 +1869,7 @@ const Products = [
     },
     {
         SKU: "2151", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/gel lubricante anal lube premium.jpg",
+        image: "img/lubricantes/gel lubricante anal lube premium.png",
         image2: "img/lubricantes/gel lubricante anal lube premium.jpg",
         name: "Gel Anal Premium Relajante",
         price: "$2,715.00",
@@ -1644,14 +1886,14 @@ const Products = [
         price: "$4,083.00",
         descripcion: "Crema lubricante y humectante diseñada para otorgar una mayor fluidez y deslizamiento, y genera una lubricación prolongada. Aumenta la lubricación y logra la distensión de esta zona, permitiendo así alcanzar un pleno disfrute debido a su exclusiva formula natural. Creado exclusivamente con extractos naturales, componentes con propiedades desinflamatorias, calmantes y regeneradoras de la piel que ayudan a dilatar la musculatura. Es hidrosoluble, compatible con el uso de preservativos.No mancha la ropa. ----- Contenido: 125 ml",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2157", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/lubricante siliconado anal afrodisia.jpeg",
+        image: "img/lubricantes/Lubricante Siliconado Devorame Afrodisia.png",
         image2: "img/lubricantes/lubricante siliconado anal afrodisia.jpeg",
-        name: "Lubricante Siliconado Anal Afrodisia",
+        name: "Lubricante Siliconado Devorame Afrodisia",
         price: "$4,898.00",
         descripcion: "Formulado para piel sensible. Todo el extracto natural de Bisabolol de la planta de manzanilla lo convierte en el lubricante de silicona vegetal perfecto para relajar el sexo anal. Se ha utilizado durante cientos de años en remedios para la piel debido a sus propiedades curativas y relajantes musculares. El bisabolol tiene propiedades antiirritantes, antiinflamatorias y antimicrobianas. Contiene vitamenina E. ----- Cont.neto: 75ml",
         categoria: "LUBRICANTES",
@@ -1659,19 +1901,8 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
-        SKU: "2158", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
-        image2: "img/lubricantes/MINI-LOVE-POTION-CHAMPAGNE.jpg",
-        name: "Aceite Comestible Love Potion",
-        price: "$1,438.00",
-        descripcion: "El Mini Aceite Comestible Love Potion Champagne y Frambuesa tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato.Tendrás una piel bien hidratada y sensible al mínimo roce para disfrutar más de tus encuentros sexuales en pareja. 15gr ----- Sabor: Champagne Frambuesa",
-        categoria: "LUBRICANTES",
-        stock: "1",
-        discount: 0, // Porcentaje de descuento
-    },
-    {
         SKU: "2159", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/love-potion chocolate sexitive.png",
+        image: "img/lubricantes/love-potion chocolate sexitive2.png",
         image2: "img/lubricantes/love-potion chocolate sexitive.png",
         name: "Aceite Comestible Love Potion Chocolate",
         price: "$1,438.00",
@@ -1688,19 +1919,19 @@ const Products = [
         price: "$2,888.00",
         descripcion: "Formulado Con Aloe Vera Y Caléndula, Provee Una Lubricación Superior Porque Permite Una Hidratación Inmediata Y Prolongada Haciendo De Tu Encuentro Una Experiencia Más Placentera. A Base De Agua. No Afecta El Látex. No Mancha. 22grs",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
-    /*{
+    {
         image: "img/lubricantes/PRIME gel TOUCH AFRODISIACO X 200ML.jpg",
         image2: "img/lubricantes/PRIME gel TOUCH AFRODISIACO X 200ML.jpg",
         name: "Prime Gel Touch Afrodisíaco 200ml",
         price: "$6,981.00",
         descripcion: "Gel sensual & masaje Prime Touch 2 en 1. Se trata de un gel doblemente eficaz, ya que puede ser aplicado como gel íntimo y/o mediante masajes en todo el cuerpo. 200 ml ",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
-    },*/
+    },
     {
         SKU: "2251", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel maxx lado b 30 grs.jpg",
@@ -1709,12 +1940,12 @@ const Products = [
         price: "$2,568.00",
         descripcion: "Diseñado para una experiencia distinta, el gel Lado B Maxx es recomendable para uso anal. Sus principales componentes son el aloe vera y extracto de jojoba, que proporcionan una lubricación y relajación duradera de la zona intima, facilitando la penetración. ----- Cont.neto: 30grs",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2279", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/Gel Íntmo Chocolate 120cc ST.jpg",
+        image: "img/lubricantes/Gel Íntmo Chocolate 120cc ST.png",
         image2: "img/lubricantes/Gel Íntmo Chocolate 120cc ST.jpg",
         name: "Gel Íntmo Chocolate 120cc",
         price: "$5,209.80",
@@ -1726,7 +1957,7 @@ const Products = [
     {
         SKU: "2280",
         image: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.jpg",
-        image2: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.jpg",
+        image2: "img/lubricantes/Prime Gel Natural Hot Pleasure 22grs.png",
         name: "Gel Natural Hot Pleasure",
         price: "$3,475.00",
         descripcion: "Encendé tu pasión con la sensación cálida que te ofrece hot pleasure. Este gel íntimo eleva la sensación de temperatura y se siente sedoso y suave. Ideal para realizar caricias estimulantes y hacer de tu encuentro una experiencia diferente. No afecta el látex. No mancha. ----- Cont.neto: 22grs",
@@ -1742,7 +1973,7 @@ const Products = [
         price: "$3,475.00",
         descripcion: "Gel PRIME EXCITE está diseñado para intensificar el orgasmo femenino, maximizar el placer y la experiencia sexual. Está desarrollado con el componente L- arginina que actúa como vasodilatador e incrementa la sensibilidad genital para potenciar el placer. ----- Cont.neto: 22grs",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
     {
@@ -1753,13 +1984,13 @@ const Products = [
         price: "$6,981.00",
         descripcion: "Gel sensual & masaje Prime Touch 2 en 1. Se trata de un gel doblemente eficaz, ya que puede ser aplicado como gel íntimo y/o mediante masajes en todo el cuerpo. ----- Cont.neto: 200 ml ",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2354", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel-intimo-mine-my-pleasure-50ml.png",
-        image2: "img/lubricantes/gel-intimo-mine-my-pleasure-50ml.png",
+        image2: "img/lubricantes/gel-intimo-mine-my-pleasure-50ml2.png",
         name: "Mine My Plearure ",
         price: "$1,700.00",
         descripcion: "Es un gel lubricante con L-Arginina, un aminoácido de origen natural con capacidad vasodilatadora, especialmente formulado para aumentar la excitación y sensibilidad del clítoris facilitando orgasmos más intensos más rápido. Básicamente, lo que hace es que los vasos sanguíneos localizados en clítoris se dilaten mejorando el flujo sanguíneo hacia la zona genital propiciando la excitación.Favorece la lubricación natural y la sensibilidad en toda la zona. Un combo totalmente solicitados por todas. Este gel crea una sensación de calor en la piel que aumenta de forma inmediata la sensibilidad intensificando las sensaciones. ----- Cont.neto: 50ml",
@@ -1770,7 +2001,7 @@ const Products = [
     {
         SKU: "2355", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/lubricante lube more play intensity hot pleasure.jpg",
-        image2: "img/lubricantes/lubricante lube more play intensity hot pleasure.jpg",
+        image2: "img/lubricantes/lubricante lube more play intensity hot pleasure.png",
         name: "Gel Lubricante Lube Efecto Calor Pleasure 130ml",
         price: "$2,715.00",
         descripcion: "",
@@ -1781,7 +2012,7 @@ const Products = [
     {
         SKU: "2356", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/lubricante lube more play supreme retardante.jpg",
-        image2: "img/lubricantes/lubricante lube more play supreme retardante.jpg",
+        image2: "img/lubricantes/lubricante lube more play supreme retardante.png",
         name: "Lube Supreme Retardante ",
         price: "$2,715.00",
         descripcion: "Gel Lubricante efecto frío para relaciones más prolongadas y placenteras. Es un gel retardante de rápida acción que permite controlar las erecciones retrasando el momento de eyaculación . RETRASA LA EYACULACIÓN, ACTÚA RAPIDAMENTE, MEJORA LAS RELACIONES SEXUALES, AYUDA A DISFRUTAR MÁS DEL SEXO, SIN EFECTOS SECUNDARIOS, ----- Cont.Neto: 130ml",
@@ -1789,16 +2020,6 @@ const Products = [
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
-    /*{
-        image: "img/lubricantes/gel diabolico fisting extremo anal 500ml.jpg",
-        image2: "img/lubricantes/gel diabolico fisting extremo anal 500ml.jpg",
-        name: "Gel Diabólico Fisting Extremo Anal 500ml Fly Night",
-        price: "$7,524.00",
-        descripcion: "",
-        categoria: "LUBRICANTES",
-        stock: "1",
-        discount: 0, // Porcentaje de descuento
-    },*/
     {
         SKU: "2396", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/gel estimulador femenino miss v L-arginina 50ml.png",
@@ -1807,7 +2028,7 @@ const Products = [
         price: "$1,966.00",
         descripcion: "Gel lubricante íntimo facilitador del orgasmo femenino. L- Arginina es un aminoácido que aumenta la circulación sanguínea de la zona, brindando mayor sensibilidad en la mujer.El Ginseng potencia el efecto que produce la L - Arginina, aumentando la excitación. ------ Beneficios: Orgasmos más rápidos y más intensos, No altera el PH vaginal, No mancha, no deja residuos, es inoloro, Es hidrosoluble, compatible con el uso de preservativos. ----- Cont.Neto: 50ml",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
     {
@@ -1818,7 +2039,7 @@ const Products = [
         price: "$2,670.00",
         descripcion: "Cremagel lubricante íntimo anal. Formulado con SILICONA HIBRIDA HIDROSOLUBLE, que mantiene la lubricación por mas tiempo. Diseñado para generar una textura sedosa. Al aplicarlo, la gota tiene aspecto de crema y cuando se extiende posee las características del gel. Pensado para relaciones anales, sumamos a la formula CARDAMOMO y CLAVO de OLOR, que por sus propiedades naturales relajan y protegen la piel. Combina las características humectantes del gel, sumadas a la sedosidad de la crema y la silicona ----- Cont.Neto: 50ml",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
     {
@@ -1829,13 +2050,13 @@ const Products = [
         price: "$391.00",
         descripcion: "Con tan solo un poco de crema sobre tu zona genital sentirás como se intensifica cada caricia, roce, beso y juego sexual que puedas imaginar. Multiplicando tu placer, lubricación, deseo e incrementando el grado de goce en momentos de clímax. Ya sea a solas o en pareja, sin duda esta en una crema mágica para experiencias y juegos que no podes dejar pasar. ¡Disfruta de los orgasmos más potentes! Intensifica los orgasmos, Mayor Excitación, Mejora la lubricación ----- Cont.Neto: 10ml",
         categoria: "LUBRICANTES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2422",
         image: "img/lubricantes/Pouch Oh Yes! Lubricante Revujenation.png",
-        image2: "img/lubricantes/Pouch Oh Yes! Lubricante Revujenation.png",
+        image2: "img/lubricantes/Pouch Oh Yes! Lubricante Revujenation2.png",
         name: "Pouch Oh Yes! Lubricante Revujenation",
         price: "$391.00",
         descripcion: "Gel-crema para el rejuvenecimiento de la zona íntima. Debido a la presencia de aceites naturales, Caléndula y Vitamina E, ejerce una notable acción tonificante y reafirmante.CON ACEITES NATURALES, CALÉNDULA Y VITAMINA E. Lubricante e hidratante que ayuda con la sequedad vaginal. Restaura la hidratación íntima, imitando la lubricación natural. Restaura la hidratación íntima, imitando la lubricación natural.El gel crema íntimo de Sexitive proporciona una fuerte acción hidratante y reafirmante sobre la zona vulvo- vaginal gracias a la Caléndula, Vitamina E y mezcla de hidratantes, protegiendo la zona vaginal. ----- Cont.Neto: 10ml",
