@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago Exitoso</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="img/iconoURL3.png" type="image/x-icon">
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #ff6666;
+        /* Rojo */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        box-shadow: 0 0 10px 0px #000;
+        /* Sombra negra */
+    }
+
+    .success-container {
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 0.5s ease-in-out;
+        max-width: 400px;
+        width: 90%;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    h1 {
+        color: #4CAF50;
+        /* Verde */
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #333;
+        /* Negro */
+        margin-bottom: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff;
+        /* Azul */
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    a:hover {
+        background-color: #0056b3;
+        /* Azul más oscuro al pasar el mouse */
+    }
+
+    /* Estilos responsivos */
+    @media screen and (max-width: 500px) {
+        .success-container {
+            padding: 20px;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <div class="success-container">
+        <h1>Pago Exitoso</h1>
+        <h3>Su pago ha sido procesado exitosamente.</h3>
+        <br>
+        <p id="countdown">Se volverá a la página de inicio en <span id="seconds">10</span> segundos.</p>
+        <a href="index.html" id="return-home-btn">Volver al Inicio</a>
+    </div>
+
+    <script>
+       var seconds = 10;
+
+        function countdown() {
+            seconds--;
+            document.getElementById('seconds').textContent = seconds;
+            if (seconds <= 0) {
+                window.location.href = 'index.html';
+            } else {
+                setTimeout(countdown, 1000);
+            }
+        }
+
+        countdown();
+
+        document.getElementById('return-home-btn').addEventListener('click', function (event) {
+            event.preventDefault(); // Evita la redirección automática
+            window.location.href = 'index.html'; // Redirige al index.html
+        });
+    </script>
+</body>
+
+</html>
