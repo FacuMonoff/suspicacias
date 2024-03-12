@@ -3482,7 +3482,128 @@ const Products = [
         image2: "img/Dildos/Real Cock 19.jpg",
         name: "Real Cock 19",
         price: "$23,093.72",
-        descripcion: "Este doble dildo realístico está pensado para una doble penetración ano-vagina, cómoda, practica y seguro. Tiene la curvatura y el grosor perfecto en cada uno de sus extremos para que lo conduzcas sin dificultad hasta lo más profundo. No necesitaras más ayuda que la de un poco de lubricante. -----        Características: • Dildo flexible doble penetración • Estimulador del canal vaginal/anal • Silicona suave • Waterproof = A prueba de agua / Sumergible  • Dimensiones: 17 cm x 4 a 4, 5 cm / 14 cm x 3 a 3, 5 cm 📏",
+        descripcion: "Este doble dildo realístico está pensado para una doble penetración ano-vagina, cómoda, practica y seguro. Tiene la curvatura y el grosor perfecto en cada uno de sus extremos para que lo conduzcas sin dificultad hasta lo más profundo. No necesitaras más ayuda que la de un poco de lubricante. -----        Características: • Dildo flexible doble penetración • Estimulador del canal vaginal/anal • Silicona suave • Waterproof = A prueba de agua / Sumergible  • Dimensiones: 17 cm x 4 a 4, 5 cm / 14 cm x 3 a 3, 5 cm",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2516",
+        image: "img/Dildos/Americano con Ventosa Consolador Perlado Rojo2.png",
+        image2: "img/Dildos/Americano con Ventosa Consolador Perlado Rojo.png",
+        name: "Americano con Ventosa Consolador Perlado Rojo",
+        price: "$23,093.72",
+        descripcion: "Americano Rojo con Ventosa. Esta línea de productos posee una ventosa en la base para que pueda adherirse a superficies, pero también es ideal para acoplarlos a cualquier arnes. Sus dimensiones son de 20 por 4 cm.",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2517",
+        image: "img/Dildos/Americano realskin sopapa ciber2.png",
+        image2: "img/Dildos/Americano realskin sopapa ciber.png",
+        name: "Americano realskin sopapa ciber",
+        price: "$23,093.72",
+        descripcion: "Para los que buscan realismo y satisfacción, la línea cyber es súper realística, símil a la piel y suave al tacto. Para vivir una experiencia de placer puro, el dildo ofrece una sensación real de un pene venoso. El suck posee sopapa, lo que permite su adhesión a la superficie y es compatible con el uso de arnés Si eres de las personas que disfruta con las cosas sencillas, ¿para qué complicarte con el sexo? Experimenta el placer en su grado de expresión más simple: los consoladores clásicos que, con una gran variedad de formas, te garantizan orgasmos intensos, solo o en compañía. Medidas: Diámetro mayor 4 cm. Longitud total 20 cm.",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2522",
+        image: "img/Dildos/ciber soft macizo geminis 20x3cm.png",
+        image2: "img/Dildos/ciber soft macizo geminis 20x3cm2.png",
+        name: "ciber soft macizo geminis 20x3cm",
+        price: "$23,093.72",
+        descripcion: "En nuestro sex shop, en cuestión de dildos te ofrecemos un amplio catálogo de opciones para la estimulación del ano o la vagina con juguetes eróticos sencillos capaces de producir un placer extremo. La gran particularidad de este consolador es su textura ultra flexible, que te brindarán mayor placer en cada penetración.   Medidas:  Diámetro mayor 3, 5 cm. Longitud insertable 17 cm. Longitud total 20, 5 cm.",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2524",
+        image: "img/Dildos/consolador doble 33x3cm rojo.png",
+        image2: "img/Dildos/consolador doble 33x3cm rojo2.png",
+        name: "consolador doble 33x3cm rojo",
+        price: "$23,093.72",
+        descripcion: "Ni turnos ni esperas. Con este consolador doble de 33 cm tu y tu pareja se divertirán al mismo tiempo con las excitantes penetraciones de un juguete erótico perfecto para dos. Por sus dimensiones y las características de su material de fabricación podrán disfrutar de una penetración simultánea y llegar juntos al orgasmo mientras se divierten con este magnífico consolador doble de aspecto realístico.Su material jelly es de textura suave y flexible, siendo posible el uso tanto anal como vaginal.Además, simula perfectamente todos los detalles de un pene, incluyendo las venas. Dispones de 33 cm de juguete para darle rienda suelta a tu imaginación haciendo realidad tus fantasías eróticas mas intensas.",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2526",
+        image: "img/Dildos/consolador super super macizo natural.png",
+        image2: "img/Dildos/consolador super super macizo natural2.png",
+        name: "consolador super super macizo natural",
+        price: "$23,093.72",
+        descripcion: "Ideal para los que buscan realismo y satisfacción, Cyber es súper realístico, símil a la piel, suave al tacto y afelpado, su medida de 21 cm de largo y 5, se adapta a la temperatura corporal lo que permite sentir mejor su textura, además es hipoalergénico. Se recomienda el uso de lubricantes a base de agua. Libre de ftalatos.   - Color: Natural - Medida: 21 cm de longitud x 5 cm de diámetro - Con Sopapa - Compatible con arnés",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2078",
+        image: "img/Dildos/kit vibro mas buby.png",
+        image2: "img/Dildos/kit vibro mas buby.png",
+        name: "kit vibro mas buby",
+        price: "$23,093.72",
+        descripcion: "Magnifico dildo de vidrio macizo Color: Sin vibración. Medidas: 195 cm * 3.6 cm.Peso: 245 gr.Sumergible. INCLUYE 1 BULLET A PILA AAA(NO INCLUYE) 1 MODO DE VIBRACION IMPERMEABLE",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2543",
+        image: "img/Dildos/macizo normal jelly rojo 16x3cm.png",
+        image2: "img/Dildos/macizo normal jelly rojo 16x3cm.png",
+        name: "macizo normal jelly rojo 16x3cm",
+        price: "$23,093.72",
+        descripcion: "Este consolador jelly posee una textura siliconada suave y flexible que se adapta a la temperatura corporal brindando una excitante estimulación. El dildo ofrece una sensación real de un pene, mientras que su textura acompañada de un buen lubricante será la fuente de tus orgasmos mas intensos. Diámetro mayor 3, 5 cm. Longitud total 16 cm.",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2544",
+        image: "img/Dildos/magnific macizo natural.png",
+        image2: "img/Dildos/magnific macizo natural2.png",
+        name: "magnific macizo natural",
+        price: "$23,093.72",
+        descripcion: "De textura suave y sin perder rigidez, este consolador macizo se adapta a la temperatura corporal brindando placer a la pareja.El macizo es compatible con arnés y viene en diferentes tamaños.Este macizo es el de tamaño más grande, para que lleves tu placer más alla.medidas: 23cm por 5cm",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2552",
+        image: "img/Dildos/suck ciber nature Nro2 17x4cm.png",
+        image2: "img/Dildos/suck ciber nature Nro2 17x4cm2.png",
+        name: "suck ciber nature Nro2 17x4cm",
+        price: "$23,093.72",
+        descripcion: "Pene realístico hecho de un material hipoalergénico, con textura suave y simil a la piel. El suck posee sopapa, lo que permite su adhesión a la superficie. Este artículo es resistente al agua. Se recomienda el uso de lubricantes.    Medida: 17 cm x 4.",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2554",
+        image: "img/Dildos/suck ciber nature Nro4 19x5cm.png",
+        image2: "img/Dildos/suck ciber nature Nro4 19x5cm2.png",
+        name: "suck ciber nature Nro4 19x5cm",
+        price: "$23,093.72",
+        descripcion: "Suck realístico hecho de un material hipoalergénico, con textura suave y simil a la piel. El pene posee sopapa, lo que permite su adhesión a la superficie. Este artículo es resistente al agua. Se recomienda el uso de lubricantes Real Skin. Podes encontrar otros modelos de suck cyber, de distintos tamaños y diámetro.  Medida: 19 cm x 5cm.",
+        categoria: "DILDOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2559",
+        image: "img/Dildos/super super negro 21x5cm.png",
+        image2: "img/Dildos/super super negro 21x5cm2.png",
+        name: "super super negro 21x5cm",
+        price: "$23,093.72",
+        descripcion: "De textura suave y sin perder rigidez, este consolador macizo se adapta a la temperatura corporal brindando placer a la pareja.El macizo es compatible con arnés y viene en diferentes tamaños.Este macizo podes encontrarlo también en color piel.Se recomienda el uso de lubricante junto con el producto.",
         categoria: "DILDOS",
         stock: "1",
         discount: 0, // Porcentaje de descuento
@@ -3511,7 +3632,7 @@ const Products = [
     },
     {
         SKU: "1765", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/Dildos/Jumbo Pie Grande XL Negro 37 cm x 8 cm.jpg",
+        image: "img/Dildos/jumbo pié grande xl dildo.png",
         image2: "img/Dildos/Jumbo Pie Grande XL Negro 37 cm x 8 cm.jpg",
         name: "Jumbo Pié Grande XL",
         price: "$14,982.00",
