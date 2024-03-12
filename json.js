@@ -3,15 +3,14 @@ const Products = [
     //-------------------------------------------ANILLOS
     //--------------------------------------------------------------------------------------------
     {
-        ID: "1",
         SKU: "1726", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/anillos/Ring 6 Blue.jpeg",
         image2: "img/anillos/Ring 6 Clear.jpeg",
         name: "Ring 6 ST Blue",
-        price: "$1",
+        price: "$100000",
         descripcion: " Para innovar y experimentar cosas nuevas, este anillo generará una fabulosa sensación tanto para el que lo lleva colocado como para su pareja. Su potente sujeción en pene y testículos ayudan a retardar la eyaculación y a mantener la erección y en este caso encontrará una generosa lengua para estimula el clítoris En este caso además de sujetar el pene también abraza los testículos Gracias a su fuerte sujeción conseguirás mantener una erección mas fuerte y firme, evitando asi la dsifunción y prolongar el período de la relación sexual  Unidad vibradora extraíble para jugar independiente del anillo ---- 1 Nivel de vibración ----  Usa 3 LR44 ---- ",
         categoria: "ANILLOS",
-        stock: "10000",
+        stock: "1",
         discount: 10, // Porcentaje de descuento
     },
     {
@@ -20,7 +19,7 @@ const Products = [
         image: "img/anillos/Kevin.jpg",
         image2: "img/anillos/kevin.2.webp",
         name: "Kevin ST",
-        price: "$1",
+        price: "$100000",
         descripcion: " El anillo Kevin de ST es un accesorio diseñado para mejorar la experiencia sexual masculina y femenina. Además, el diseño del anillo incluye lengüitas que rotan, lo que permite estimular el clítoris durante la penetración, brindando una experiencia única y placentera. El anillo Kevin cuenta con un motor interno muy potente que ofrece vibraciones intensas.Con tres modos de vibración lineal y siete ritmos diferentes, podrás ajustar la intensidad según tus preferencias y explorar diversas sensaciones. Fabricado con silicona 100% pura y ABS, el anillo Kevin es seguro para el cuerpo y cómodo de usar.Es recargable, lo que significa que no tendrás que preocuparte por comprar pilas constantemente.Además, viene con un cable de carga para facilitar su recarga.",
         categoria: "ANILLOS",
         stock: "1",
@@ -31,8 +30,19 @@ const Products = [
         image: "img/anillos/anillo-doble-hot-finger-rojo-real-skin-caiman.jpg",
         image2: "img/anillos/ANILLO DOBLE HOT FINGER ROJO 2.jpeg",
         name: "Doble Hot Finger ",
-        price: "$1",
+        price: "$100000",
         descripcion: " Disfruta con tu pareja el profundo placer de la doble penetración con el hot finger. Este anillo está creado para realizar una doble penetración además te ayudará a mejorar la erección y funcionará como retardante de la eyaculación.Este anillo es sumamente firme y estable para que no se doble o se mueva durante el acto sexual. El dildo de menor tamaño será el mejor estimulador para tus juegos con penetración anal. Para utilizarlo solamente debes introducir tu pene en el dildo y empezar a disfrutar del placer más absoluto. La flexibilidad de su material hace que sea apto para todas las tallas. Tiene la punta redondeada para facilitar la entrada y hacerla lo más placentera posible. ----   Material: Jelly ---- Medidas dildo: Largo: 13 cm.x Ancho 2 cm(Diametro del anillo sin estirar: 4 cm) ----  Color: Rojo",
+        categoria: "ANILLOS",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2520", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anillos/anillo peneano retardante estimulador de clitoris.png",
+        image2: "img/anillos/anillo peneano retardante estimulador de clitoris2.png",
+        name: "anillo peneano retardante estimulador de clitoris",
+        price: "$100000",
+        descripcion: " Por un lado está el anillo de silicona que se coloca en la base del pene. Gracias a su forma mejorarás la firmeza de tus erecciones y disfrutarás de encuentros sexuales más duraderos. Por otro lado estan las bolitas que rodean todo el grosor del pene que estimularán el clítoris de tu pareja en cada embestida. Tipo: Anillo retardante y estimulador vaginal Material: TPR Phantalate Free / Libre Ftalato.  -IMAGEN ILUSTRATIVA- ",
         categoria: "ANILLOS",
         stock: "1",
         discount: 0, // Porcentaje de descuento
@@ -42,7 +52,7 @@ const Products = [
         image: "img/anillos/anillo torito peneano vibrador el matador.jpg",
         image2: "img/anillos/anillo torito 2.webp",
         name: "Anillo Torito Peneano",
-        price: "$1",
+        price: "$100000",
         descripcion: "",
         categoria: "ANILLOS",
         stock: "0",
@@ -53,7 +63,7 @@ const Products = [
         image: "img/anillos/Ring 6 Black.jpg",
         image2: "img/anillos/ring 6 black.2.jpg",
         name: "Ring 6 Black ST",
-        price: "$1",
+        price: "$100000",
         descripcion: "Anillo peneano, mantiene la erección  y retarda la eyaculación. Colocalo en la base del pene logra darle firmeza evitando la disfunción y a su vez estimulando clítoris con el roce por medio de la penetración.Balita extraíble.y un hermoso diseño con orejitas, que  rozan perfectamente con el clítoris de una manera muy diferente y estimulante. ----  Silicona 100 % pura + ABS. ----  100 % Libre de Fthalatos. ----  Libre de látex. ----  3 modos de vibración lineal. ----  7 ritmos diferentes de vibración ----  Adaptable a todos los tamaños de Pene ----  Recargable.Incluye cable de carga ----  Tiempo de carga: aprox. 50m ----  Tiempo de uso: 50 m. ----  Tecla de fácil manejo ----  Medidas: 7.8 cm x 6 cm x 1.8 cm. ----  Impermeable.No sumergible.",
         categoria: "ANILLOS",
         stock: "1",
@@ -64,7 +74,7 @@ const Products = [
         image: "img/anillos/Adjustable Ring 37mm.jpg",
         image2: "img/anillos/RING AJUSTABLE 2.webp",
         name: "Ring Ajustable",
-        price: "$1",
+        price: "$100000",
         descripcion: "",
         categoria: "ANILLOS",
         stock: "0",
@@ -75,7 +85,7 @@ const Products = [
         image: "img/anillos/Cristal Ring.jpg",
         image2: "img/anillos/cristal ring 2.jpg",
         name: "Cristal Ring ST",
-        price: "$1",
+        price: "$100000",
         descripcion: "CRISTAL mantiene la erección; retarda la eyaculación y a su vez estimula clítoris a partir del roce del mismo por medio de la penetración. Gracias a su elasticidad conseguirás mantener una erección más firme y fuerte. Cristal es ideal para jugar en pareja y que ambos puedan disfrutar plenamente. Los anillos permiten mantener el pene erecto evitando la disfunción y prolongando el periodo de las relaciones sexuales. La unidad vibradora es extraíble para poder darle otros usos en el cuerpo. ---- 3Pilas LR41. NO INCLUIDA",
         categoria: "ANILLOS",
         stock: "1",
@@ -86,7 +96,7 @@ const Products = [
         image: "img/anillos/miss v anillos.jpg",
         image2: "img/anillos/miss v anillos.jpg",
         name: "Anillo Love Ring",
-        price: "$1",
+        price: "$100000",
         descripcion: "",
         categoria: "ANILLOS",
         stock: "0",
@@ -97,7 +107,7 @@ const Products = [
         image: "img/anillos/anillo doble peneano conejo violeta.jpeg",
         image2: "img/anillos/anillo-doble-peneano-vibrador-conejito-violeta-usb 2.jpg",
         name: "Doble Conejito",
-        price: "$1",
+        price: "$100000",
         descripcion: "Anillo peneano con forma de conejito, posee doble anillo para que pueda ajustarse al pene y los testículos, lo que aumenta el flujo sanguíneo y logra erecciones más potentes al tiempo que retarda la eyaculación. Su potente balita logra vibración en el pene y la cabeza y orejas del conejo estimulan de manera directa",
         categoria: "ANILLOS",
         stock: "1",
@@ -108,7 +118,7 @@ const Products = [
         image: "img/anillos/ring 8 azul.png",
         image2: "img/anillos/ring 8.jpeg",
         name: "Ring 8 ",
-        price: "$1",
+        price: "$100000",
         descripcion: "Anillo de silicona, con vibracion, la funcion de los anillos es generar presion en la base del pene producida la ereccion, para mantener la sangre, generar mas sensacion, ereccion firme y control de la eyaculacion totalmente adaptable, estimulacion para disfrutar en pareja ---- facil higiene, a pilas, boton de encendido y apagado",
         categoria: "ANILLOS",
         stock: "1",
@@ -119,7 +129,7 @@ const Products = [
         image: "img/anillos/dual cock ring 3 blue.png",
         image2: "img/anillos/DUAL COCK RING 3 BLUE 2.jpg",
         name: "Dual Cock Ring 3",
-        price: "$1",
+        price: "$100000",
         descripcion: " Este anillo para pene y testículos mantiene la erección del pene y retarda la eyaculación. Colocado en la base del pene logra darle firmeza, evitando la disfunción y a su vez estimulando clítoris con el roce por medio de la penetración y los 10 modos de vibración diferentes.Su diseño con dos orejitas hará que roce perfectamentecon el clítoris de una manera muy diferente y estimulante.Motor extraíble para juego independiente del anillo Silicona ---- 100% pura Hipo alergénico ---- 3 Modos de vibración lineal ---- 7 Ritmos diferentes de vibración ---- Adaptable a todos los tamaños de pene ---- Recargable USB ---- Tiempo de Carga: Aprox. 50 Min ---- Tiempo de Uso: Aprox. 50 Min ---- Medidas: 7.5 x 7.5 x 6.5 cm ---- Impermeable.No sumergible ---- Color: Azul",
         categoria: "ANILLOS",
         stock: "1",
@@ -130,7 +140,7 @@ const Products = [
         image: "img/anillos/kit de 3 anillos beaded cockring clear.jfif",
         image2: "img/anillos/kit de 3 anillos beaded cockring black.jpg",
         name: "3 Anillos Beaded Cockrings",
-        price: "$1",
+        price: "$100000",
         descripcion: " Anillos súper elásticos adaptables para colocarse en el pene, ayudando a mantener una erección por más tiempo y retardando la eyaculación. Su exclusivo diseño permite generar distintas sensaciones para quien recibe la estimulación.  Anillos descartables. Se aconseja que su tiempo de uso no exceda los 20/30 minutos . Se recomienda usar con lubricantes de base agua al momento de colocarlos y retirarlos. Colocar por encima del preservativo.",
         categoria: "ANILLOS",
         stock: "0",
@@ -141,7 +151,7 @@ const Products = [
         image: "img/anillos/aro vibrador maxx.jpeg",
         image2: "img/anillos/aro vibrador maxx 2.png",
         name: "Maxx Play Aro Vibrador",
-        price: "$1",
+        price: "$100000",
         descripcion: "El aro vibrador Maxx Play es un producto premium de silicona, muy suave y agradable al tacto. Apto para uso personal y en pareja, para vivir un momento único. El producto contiene un botón para controlar el encendido/apagado y los distintos modos de vibración. ---- Tiempo de carga: 2 hrs ---- Tiempo de uso: 1-2 hrs  ---- Nivel de sonido bajo en el uso.  ---- 5 modos de vibración. ---- Carga mediante USB.",
         categoria: "ANILLOS",
         stock: "0",
@@ -152,7 +162,7 @@ const Products = [
         image: "img/anillos/anillo-peneano-retardante-commander-calexotics 2.jpg",
         image2: "img/anillos/anillo-peneano-retardante-commander-calexotics.jpg",
         name: "Anillo peneano retardante",
-        price: "$1",
+        price: "$100000",
         descripcion: "Un anillo para el pene que se adapta perfectamente debido al material flexible del cual esta fabricado. Aporta la firmeza de un pene erecto durante mucho más tiempo. Además de asegurar una firme erección retrasa el momento de la eyaculación para prolongar los momentos de placer ---- Marca: Calexotics",
         categoria: "ANILLOS",
         stock: "100",
@@ -1183,7 +1193,7 @@ const Products = [
         image: "img/fundas/X-Tender 1.jpg",
         image2: "img/fundas/X-Tender 1.2.jpg",
         name: "Funda X-Tender 1",
-        price: "$1",
+        price: "$100000",
         descripcion: "¿Deseas un poco más de tamaño de la forma más cómoda posible? ¡Entonces esto es exactamente lo que necesitas! La funda está diseñada para alargar y engrosar el cuerpo del pene. Eso sí, para poder utilizar una funda se debe tener una erección firme, porque la misma se colocará como un guante sobre el pene. ----- Características • Material TPE. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • Diseño Ergonómico. • Textura venosa. • Realística.",
         categoria: "FUNDAS",
         stock: "1",
@@ -1194,7 +1204,7 @@ const Products = [
         image: "img/fundas/X-Tender 2.jpg",
         image2: "img/fundas/funda X-Tender 2.2.jpg",
         name: "Funda X-Tender 2",
-        price: "$1",
+        price: "$100000",
         descripcion: "Funda peneana de silicona, flexible, texturada, adaptable, hueca para colocar el pene adentro, extensora hasta 5cm de longitud • higiene agua y jabon • medidas: 19, 5 x 4, 2cm aprox",
         categoria: "FUNDAS",
         stock: "1",
@@ -1205,7 +1215,7 @@ const Products = [
         image: "img/fundas/X-Tender 4.jpg",
         image2: "img/fundas/funda X-Tender 4.2.jpg",
         name: "Funda X-Tender 4",
-        price: "$1",
+        price: "$100000",
         descripcion: "La funda está diseñada para alargar  y engrosar el cuerpo del pene. Tiene un contorno que proporciona una estimulación óptima y gracias al anillo para testículos se mantendrá en su lugar. ¡Ni siquiera sus mejores movimientos podrán hacer que se suelte! A esta funda se le agrego una bullet de vibración para auto estimularse y estimular clítoris por medio del roce en la penetración. Eso sí, para poder utilizar una funda se debe tener una erección firme, porque la misma se colocará como un guante sobre el pene. Características • Material TPE + -ABS. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • Textura venosa. • Realística. • Bullet  1 vibración. 3 pilas LR44, no incluidas. • Sumergible. • Usar lubricante a base de agua sobre la superficie de la funda. -----    Medidas: 21 cm x 9.6 cm x 6.5cm.",
         categoria: "FUNDAS",
         stock: "1",
@@ -2435,6 +2445,116 @@ const Products = [
         name: "Dilatador 3 Largue ST",
         price: "$21,875.25",
         descripcion: "Los dilatadores de diseño exclusivo tienen una curva ergonómica y un tamaño gradual para permitir una dilatación suave. Las sondas de silicona premium tienen un asa para los dedos duradera para una inserción y estimulación suave. El conjunto graduado se ha creado para rejuvenecer los músculos vaginales y reducir las molestias de inserción con cada uso.Use el pequeño dilatador para comenzar y, a medida que ejercita suavemente y aumente la elasticidad de los músculos, avance a la sonda más grande.La silicona premium es segura para el cuerpo, sin perfume y libre de ftalatos para mantener los puntos más sensibles, felices y saludables.",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2509", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anal/vibrador black pro control.png",
+        image2: "img/anal/vibrador black pro control2.png",
+        name: "Black pro control",
+        price: "$21,875.25",
+        descripcion: "Vibrador de silicona con control remoto recargable. El controlador inalámbrico proporciona más libertad. Color: Negro. 8 funciones de vibración intensa y suave. Doble motor. Control con único botón. Mantén pulsado 5 seg.para encender. Mantén pulsado 3 seg.para apagar. Resistente al agua. USB recargable(cable USB incluido) ",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2511", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anal/inexpulsable mini vibrador platinum blanco.png",
+        image2: "img/anal/inexpulsable mini vibrador platinum blanco2.png",
+        name: "Inexpulsable mini vibrador platinum",
+        price: "$21,875.25",
+        descripcion: "El inexpulsable microvibro sin dudas es uno de los mejores juguetes anales, sus diferentes diametros son ideales para arrancar de cero y terminar donde uno mas lo desee. Su textura lisa y suave te ofrece la estimulacion mas realistica que jamas imaginaste y tambien son mas rigidos que los ya conocidos, esto le hace favorable a la hora de la pentracion. Cuenta con un micro-vibro poderoso, para intensificar y mayor comodidad no posee cable.",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2503", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anal/kit vibro mas inflable.png",
+        image2: "img/anal/kit vibro mas inflable.png",
+        name: "kit vibro mas inflable",
+        price: "$21,875.25",
+        descripcion: "Si nunca has probado un juguete anal inflable, entonces éste es justo lo que necesitas para explorar el maravilloso mundo de la estimulación anal. Su diseño con una punta cónica facilita la inserción y sus vibraciones intensas y silenciosas te llevaran al clímax rápidamente. Para utilizarlo correctamente introduce el juguete en el ano con un buen lubricante anal a base de agua, presiona suavemente la bomba y repita el proceso de 2 a 3 veces. Para sacarlo des cuerpo aflojar la válvula que deja salir el aire, luego retirar. Si no lo probaste, puede ser una opción muy interesante para tu estimulación anal.",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2546", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anal/plug anal metal acero pequeño perla.png",
+        image2: "img/anal/plug anal metal acero pequeño perla2.png",
+        name: "plug anal metal acero pequeño perla",
+        price: "$21,875.25",
+        descripcion: "Enciende tus momentos de pasión con los plugs anales, juguetes sexuales versátiles. Puedes utilizarlos para aumentar la intensidad de tus orgasmos o para dilatar el ano antes de penetraciones de mayor tamaño. El plug anal viene con dimensiones reducidas ideal para para aquellos que se acaban de iniciar en el uso de estimuladores anales.Fabricado en metal con forma cónica para que lo logres insertarlo fácilmente, puedes aplicar antes unas gotas de lubricante para una mejor penetración.Este será el mejor regalo para tu pareja, enciende tus momentos de pasión con este plug juguetón.",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2499", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anal/blue pro sex therapy.png",
+        image2: "img/anal/blue pro sex therapy.png",
+        name: "blue pro sex therapy",
+        price: "$21,875.25",
+        descripcion: "Estimulador prostático con vibración. 7 Niveles de vibración. Silicona. textura satinada. USB Recargable Medidas: 12 x 3 cm",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "1983", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image:  "img/anal/super plug 22x11 caiman2.jpg",
+        image2: "img/anal/super plug 22x11 .png",
+        name: "super plug 22x11",
+        price: "$21,875.25",
+        descripcion: "Diseñado para la penetración anal, su forma cónica permite una dilatación anal progresiva. - Esta hecho de PVC con un acabado súper brillante, lo que permite deslizarse suavemente. - Su base plana sirve como tope de seguridad para usarse sin temor de inserción total. - Su medida es de 22 cm de largo y 11cm de diámetro en su parte más ancha. - Se recomienda el uso de lubricantes -gel diabolico- ",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "1983", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anal/super plug 22x11 caiman2.jpg",
+        image2: "img/anal/super plug 22x11 .png",
+        name: "super plug small 12x7",
+        price: "$21,875.25",
+        descripcion: "Diseñado para la penetración anal, su forma cónica permite una dilatación anal progresiva. - Esta hecho de PVC con un acabado súper brillante, lo que permite deslizarse suavemente. - Su base plana sirve como tope de seguridad para usarse sin temor de inserción total. - Su medida es de 12 cm de largo y 7cm de diámetro en su parte más ancha. - Se recomienda el uso de lubricantes -gel diabolico- ",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2425", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anal/varita estimulador anal en rojo.png",
+        image2: "img/anal/varita estimulador anal en rojo2.png",
+        name: "varita estimulador anal en rojo",
+        price: "$21,875.25",
+        descripcion: "Enciende tus momentos de pasión con los plugs anales, juguetes sexuales versátiles. Puedes utilizarlos para aumentar la intensidad de tus orgasmos o para dilatar el ano antes de penetraciones de mayor tamaño. El plug anal viene con dimensiones reducidas ideal para para aquellos que se acaban de iniciar en el uso de estimuladores anales.Fabricado en metal con forma cónica para que lo logres insertarlo fácilmente, puedes aplicar antes unas gotas de lubricante para una mejor penetración.Este será el mejor regalo para tu pareja, enciende tus momentos de pasión con este plug juguetón.",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2562", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anal/varita triple anal estimulador.png",
+        image2: "img/anal/varita triple anal estimulador2.png",
+        name: "varita triple anal estimulador en negro",
+        price: "$21,875.25",
+        descripcion: "Enciende tus momentos de pasión con los plugs anales, juguetes sexuales versátiles. Puedes utilizarlos para aumentar la intensidad de tus orgasmos o para dilatar el ano antes de penetraciones de mayor tamaño. El plug anal viene con dimensiones reducidas ideal para para aquellos que se acaban de iniciar en el uso de estimuladores anales.Fabricado en metal con forma cónica para que lo logres insertarlo fácilmente, puedes aplicar antes unas gotas de lubricante para una mejor penetración.Este será el mejor regalo para tu pareja, enciende tus momentos de pasión con este plug juguetón.",
+        categoria: "ANAL",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2426", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/anal/varita triple anal estimulador en rojo.png",
+        image2: "img/anal/varita triple anal estimulador en rojo.png",
+        name: "varita triple anal estimulador en rojo",
+        price: "$21,875.25",
+        descripcion: "Enciende tus momentos de pasión con los plugs anales, juguetes sexuales versátiles. Puedes utilizarlos para aumentar la intensidad de tus orgasmos o para dilatar el ano antes de penetraciones de mayor tamaño. El plug anal viene con dimensiones reducidas ideal para para aquellos que se acaban de iniciar en el uso de estimuladores anales.Fabricado en metal con forma cónica para que lo logres insertarlo fácilmente, puedes aplicar antes unas gotas de lubricante para una mejor penetración.Este será el mejor regalo para tu pareja, enciende tus momentos de pasión con este plug juguetón.",
         categoria: "ANAL",
         stock: "1",
         discount: 0, // Porcentaje de descuento
