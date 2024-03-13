@@ -3463,6 +3463,17 @@ const Products = [
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
+    {
+        SKU: "2525", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/fetiche/consolador puño realistico.png",
+        image2: "img/fetiche/consolador puño2.png",
+        name: "consolador puño realistico",
+        price: "$13,808.06",
+        descripcion: "Puño con brazo extra realístico de silicona, libre de ftalatos y por lo tanto es completamente seguro para el cuerpo. Puño consolador para fisting, En forma de una mano real para jugar de forma extra- realista, Bordes suaves y ligera flexibilidad para una comodidad total, Material de PVC libre de ftalatos para una experiencia realista",
+        categoria: "FETICHE",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------DILDOS
     //--------------------------------------------------------------------------------------------
