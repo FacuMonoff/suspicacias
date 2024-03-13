@@ -11,7 +11,7 @@ const Products = [
         descripcion: " Para innovar y experimentar cosas nuevas, este anillo generará una fabulosa sensación tanto para el que lo lleva colocado como para su pareja. Su potente sujeción en pene y testículos ayudan a retardar la eyaculación y a mantener la erección y en este caso encontrará una generosa lengua para estimula el clítoris En este caso además de sujetar el pene también abraza los testículos Gracias a su fuerte sujeción conseguirás mantener una erección mas fuerte y firme, evitando asi la dsifunción y prolongar el período de la relación sexual  Unidad vibradora extraíble para jugar independiente del anillo ---- 1 Nivel de vibración ----  Usa 3 LR44 ---- ",
         categoria: "ANILLOS",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         ID: "1",
@@ -180,7 +180,7 @@ const Products = [
         descripcion: "Este vibrador recargable de triple estimulación con su leve curvatura lisa en su extremo, un clitorial intenso y con cuentas anales en su otro extremo hará de éste; un poderoso y excitante juguete. Ideal mujeres intensas que quieren sentirse plenas. Su vaginal curvo hará que puedas disfrutar del apoyo perfecto en Punto G.",
         categoria: "VIBRADORES",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "2213", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -2086,7 +2086,7 @@ const Products = [
         descripcion: "",
         categoria: "LIMPIADORES",
         stock: "1",
-        discount: 20, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
     },
     {
         SKU: "1779", //el SKU no se tiene que modificar una vez ya colocado el numero
@@ -3983,7 +3983,7 @@ const Products = [
         descripcion: "Super suave. Vagina masturbadora realizada en material Cyber-Skin. Su textura suave logra una increíble similitud a la piel humana",
         categoria: "MASTURBADORES",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
 
     },
     {
@@ -4007,7 +4007,7 @@ const Products = [
         descripcion: "Este juguete con forma de huevo es muy elastico, ajustable y se adapta perfectamente a cualquier tamaño de pene. El interior de este huevo tiene un sistema nuevo de texturas y diseños que proporcionan diferentes tipos de placer. Son suaves y envolventes y permiten una masturbacion muy placentera, produciendo sensaciones espectaculares al contacto de la piel.",
         categoria: "MASTURBADORES",
         stock: "1",
-        discount: 10, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
 
     },
     {
@@ -4122,7 +4122,7 @@ const Products = [
         descripcion: "Esta versión de lujo y sofisticada de este vibrador de ondas de presión es el compañero perfecto para tus aventuras de estimulación clitorial! Sus 11 modos de estimulación, y sus 10 modos de vibración, te brindarán 110 combinaciones de estimulación, realmente un lujo total! • Tecnología Air pressure sin tacto • 11 patrones de ondas de presión • 10 niveles de vibración • 110 combinaciones de estimulación (11 x 10) • 2 Motores independientes • Interfáz de 3 botones • Impermeable • Extremadamente silencioso. • Recargable USB (Cable magnético) • Fácil de limpiar",
         categoria: "SUCCIONADORES",
         stock: "1",
-        discount: 10,
+        discount: 0,
     }
 ];
 
