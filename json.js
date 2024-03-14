@@ -4182,148 +4182,6 @@ window.addEventListener('popstate', function () {
 });
 
 
-/*
-// Obtener datos desde LocalStorage si están disponibles
-var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
-
-// Si hay datos almacenados en caché, utilizarlos
-if (cachedData) {
-    var data = JSON.parse(cachedData);
-    mostrarEnConsola(data);
-} else {
-    // Realizar solicitud al servidor para obtener datos de la base de datos
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status === 200) {
-                var data = JSON.parse(xhr.responseText);
-                mostrarEnConsola(data);
-                // Guardar datos en LocalStorage para uso futuro
-                localStorage.setItem('datosDeLaBaseDeDatos', JSON.stringify(data));
-            } else {
-                console.error('Error al obtener datos');
-            }
-        }
-    };
-    xhr.open('GET', 'obtener_datos.php');
-    xhr.send();
-}
-
-
-// Función para mostrar datos en la consola y actualizar productos
-function mostrarEnConsola(data) {
-    console.log("Datos de la base de datos:");
-    console.table(data); // Mostrar datos en forma de tabla en la consola
-
-    // Recorremos los productos de la base de datos
-    data.forEach(function (productoBD) {
-        // Recorremos los productos del archivo JSON
-        Products.forEach(function (productoJSON) {
-            // Comparamos los IDs
-            if (productoBD.artId === productoJSON.ID) {
-                console.log("¡Ambos IDs coinciden!");
-                // Aquí puedes realizar acciones adicionales si los IDs coinciden
-                // Por ejemplo, actualizar el stock o el precio del productoJSON con el de la base de datos
-                productoJSON.stock = productoBD.artStock;
-                productoJSON.price = parseFloat(productoBD.artPrecio); // Asegúrate de que sea un número
-            }
-        });
-    });
-}
-
-// Función para obtener los datos de la base de datos y almacenarlos en localStorage
-function obtenerDatosYGuardarLocalStorage() {
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status === 200) {
-                var data = JSON.parse(xhr.responseText);
-                localStorage.setItem('datosDeLaBaseDeDatos', JSON.stringify(data)); // Almacenar en localStorage
-                mostrarEnConsola(data); // Mostrar datos y actualizar productos
-            } else {
-                console.error('Error al obtener datos de la base de datos');
-            }
-        }
-    };
-    xhr.open('GET', 'obtener_datos.php');
-    xhr.send();
-}
-
-// Función para actualizar los productos con los datos obtenidos de localStorage
-function actualizarProductosConLocalStorage() {
-    var cachedData = localStorage.getItem('datosDeLaBaseDeDatos');
-    if (cachedData) {
-        var data = JSON.parse(cachedData);
-        mostrarEnConsola(data); // Mostrar datos y actualizar productos
-    } else {
-        console.error('No hay datos en el localStorage');
-    }
-}
-
-// Llamada inicial para obtener datos y guardar en localStorage
-obtenerDatosYGuardarLocalStorage();
-
-// Llamada para actualizar los productos con los datos de localStorage
-actualizarProductosConLocalStorage();*/
-
-
-
-/* FUNCION SOLO PARA ACTUALIZAR PRODUCTOS, PRECIOS Y STOCK DESDE EXCEL
-// Tu array productos
-const productos = [
-    //ANILLOS
-    ["2457", "8762", "0"],
-    ["2135", "9476", "0"],
-    ["1761", "3124", "0"],
-    ["2136", "21976", "0"],
-    ["2458", "4830", "0"],
-    ["2034", "1232", "0"],
-    ["1759", "5932", "0"],
-    ["2462", "1267", "0"],
-    ["1760", "3596", "0"],
-    ["1772", "7226", "0"],
-    ["1768", "6354", "0"],
-    ["2368", "6095", "0"],
-    ["1988", "14355", "0"],
-    ["2232", "26335", "0"],
-    ["1737", "40140", "0"],
-    ["2439", "6550", "0"],
-    ["2234", "6550", "0"],
-    ["2254", "16942", "0"],
-    ["2239", "8414", "0"],
-    ["1962", "26335", "0"],
-    ["1726", "15325", "0"],
-    ["1668", "15325", "0"],
-    ["1709", "15325", "0"],
-    ["2189", "13808", "0"],
-    ["2190", "13808,", "0"],
-    ["1966", "152", "0"],
-
-
-];
-
-
-
-function actualizarProductos() {
-    productos.forEach(producto => {
-        const sku = producto[0];
-        const precio = producto[1];
-        const stock = producto[2];
-
-
-        const productoEncontrado = Products.find(p => p.SKU === sku);
-        if (productoEncontrado) {
-            productoEncontrado.price = `$${precio}`;
-            productoEncontrado.stock = stock;
-        }
-    });
-}
-
-
-// Llamar a la función para actualizar los datos
-actualizarProductos();*/
-
-
 
 // Convertir los precios en números antes de usar los productos
 Products.forEach(producto => {
@@ -4939,46 +4797,24 @@ function actualizarCarrito() {
     const carritoContent = document.getElementById('carritoContent');
     carritoContent.innerHTML = ''; // Limpiamos el contenido antes de actualizar
     const productoCarritoTextArea = document.getElementById('producto-carrito');
-
     let total = 0; // Variable para calcular el precio total
-    let descuento = 0; // Variable para almacenar el descuento
-
     carritoProductos.forEach(item => {
         const precioTotalProducto = item.price * item.cantidad;
         total += precioTotalProducto; // Sumar al total el precio total de cada producto
     });
-
-    // Calcular el descuento si el subtotal es mayor o igual a $30,000
-    if (total >= 30000) {
-        descuento = total * 0.1; // 10% de descuento
-    }
-
-    // Agregar mensaje de descuento
-    const descuentoMensaje = document.createElement('p');
-    descuentoMensaje.textContent = 'DESCUENTOS A PARTIR DE $30,000';
-    carritoContent.appendChild(descuentoMensaje);
-
     // Obtener el elemento donde se mostrará el precio total
     const totalAmountElemento = document.getElementById('totalAmount');
-
     if (totalAmountElemento) {
-        if (total >= 30000) {
-            // Mostrar el precio total formateado en el elemento con descuento
-            totalAmountElemento.innerHTML = `<del>${formatPrice(total)}</del> ${formatPrice(total - descuento)} (con descuento)`;
-        } else {
-            // Mostrar el precio total sin descuento
-            totalAmountElemento.textContent = formatPrice(total);
-        }
+        // Mostrar el precio total formateado en el elemento
+        totalAmountElemento.textContent = formatPrice(total);
     }
-
     if (productoCarritoTextArea) {
         const productosAgregados = carritoProductos.map(item => `${item.name} - Cantidad: ${item.cantidad}`).join(' ---- ');
         const productosTotales = carritoProductos.reduce((total, item) => total + (item.price * item.cantidad), 0);
-
         const mensaje = productosAgregados + ' ---- Total de todos los productos: ' + formatPrice(productosTotales);
         productoCarritoTextArea.textContent = mensaje;
+        console.log(productoCarritoTextArea.textContent)
     }
-
     if (carritoProductos.length === 0) {
         // Si el carrito está vacío, mostramos un mensaje
         carritoContent.innerHTML = `
@@ -4988,7 +4824,6 @@ function actualizarCarrito() {
         const tarjetasContainer = document.createElement('div');
         tarjetasContainer.id = 'misTarjetas';
         tarjetasContainer.className = 'tarjetas-container';
-
         // Si hay productos en el carrito, creamos una tarjeta para cada producto
         carritoProductos.forEach((item, index) => {
             // Crear la estructura HTML de la tarjeta utilizando plantillas de cadena
@@ -5001,11 +4836,12 @@ function actualizarCarrito() {
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <div class="card-body d-flex flex-column">
+                                            <div class="card-body d-flex flex-column">
                             <h5 class="card-title mt-8">${item.name}</h5>
                             <div style="margin-top: auto; margin-bottom: auto;">
                                 <p class="card-text">${formatPrice(item.price * item.cantidad)}</p>
                             </div>
+                            
                             <div class="row">
                                 <div class="col-md-12">
                                     <button class="btn btn-primary" onclick="eliminarDelCarrito('${item.name}')">Borrar</button>
@@ -5015,27 +4851,39 @@ function actualizarCarrito() {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
-                        <label for="cantidad${index}" class="text-center">Cantidad:</label>
-                        <div class="input-group">
-                            <button type="button" class="btn btn-outline-secondary" onclick="restarCantidad('${item.name}')">-</button>
-                            <input type="number" name="cantidad${index}" id="cantidad${index}" class="form-control" value="${item.cantidad}" min="1" onchange="actualizarCantidad('${item.name}', this.value)">
-                            <button type="button" class="btn btn-outline-secondary" onclick="sumarCantidad('${item.name}')">+</button>
+                        <div class="col-12">
+                            <label for="cantidad${index}" class="text-center">Cantidad:</label>
+                            <div class="input-group">
+                                <button type="button" class="btn btn-outline-secondary" onclick="restarCantidad('${item.name}')">-</button>
+                                <input type="number" name="cantidad${index}" id="cantidad${index}" class="form-control" value="${item.cantidad}" min="1" onchange="actualizarCantidad('${item.name}', this.value)">
+                                <button type="button" class="btn btn-outline-secondary" onclick="sumarCantidad('${item.name}')">+</button>
+                            </div>
                         </div>
-                    </div>
                 </div>
             </div>
          `;
-
             // Crear un elemento div para la tarjeta y asignar el HTML generado
             const card = document.createElement('div');
             card.innerHTML = cardHTML.trim(); // Eliminar espacios en blanco alrededor del HTML
-
             // Agregar la tarjeta al contenedor del carrito
             carritoContent.appendChild(card.firstChild);
         });
+        // Al final, agregas el contenedor principal al elemento donde deseas mostrar las tarjetas
+        carritoContent.appendChild(tarjetasContainer);
+        // Obtener el elemento donde se mostrará el precio total
+        const totalAmountElement = document.getElementById('totalAmount');
+        if (totalAmountElement) {
+            // Mostrar el precio total formateado en el elemento
+            totalAmountElement.textContent = formatPrice(total);
+            // Obtener el valor del subtotal
+            const subtotal = totalAmountElement.textContent;
+            // Muestra el subtotal en el elemento HTML
+            const subtotalDisplay = document.getElementById('subtotalDisplay');
+            if (subtotalDisplay) {
+                subtotalDisplay.textContent = subtotal;
+            }
+        }
     }
-
     actualizarSubtotal();
     actualizarTotal();
 }
@@ -5162,22 +5010,14 @@ function actualizarSubtotal() {
     const totalAmountElement = document.getElementById('totalAmount');
     const subtotalDisplay = document.getElementById('subtotalDisplay');
     const totalDisplay = document.getElementById('totalDisplay');
-
     if (totalAmountElement && subtotalDisplay && totalDisplay) {
-        const subtotalText = totalAmountElement.textContent.trim(); // Obtener el texto del subtotal
-        const subtotal = parseFloat(subtotalText.replace(/[^\d.]/g, '')); // Usar una expresión regular para extraer solo los dígitos y los decimales
-
-        const descuento = calcularDescuento(subtotal); // Calcular el descuento
-        const subtotalConDescuento = subtotal - descuento; // Restar el descuento al subtotal original
+        const subtotal = parseFloat(subtotalDisplay.textContent.replace('$', '').replace(/,/g, ''));
         const envio = obtenerPrecioEnvio();
-
-        let total = subtotalConDescuento + envio; // Usar el subtotal con descuento
-
-        subtotalDisplay.textContent = `$${subtotalConDescuento.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`; // Mostrar subtotal con descuento
+        let total = subtotal + envio;
+        subtotalDisplay.textContent = `$${subtotal.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
         totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
-
         // Guardar el subtotal y el total en el localStorage
-        localStorage.setItem('subtotal', subtotalConDescuento.toFixed(2));
+        localStorage.setItem('subtotal', subtotal.toFixed(2));
         localStorage.setItem('total', total.toFixed(2));
     }
 }
@@ -5195,18 +5035,13 @@ function calcularDescuento(subtotal) {
 function actualizarTotal() {
     const subtotalDisplay = document.getElementById('subtotalDisplay');
     const totalDisplay = document.getElementById('totalDisplay');
-
     // Verificar si los elementos existen antes de acceder a sus propiedades
     if (subtotalDisplay && totalDisplay) {
         const subtotalText = subtotalDisplay.textContent || '0';
         const subtotal = parseFloat(subtotalText.replace('$', '').replace(/,/g, ''));
-
         const envio = obtenerPrecioEnvio();
-
         let total = subtotal + envio;
-
         totalDisplay.textContent = `$${total.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')}`;
-
         // Guardar el total en el localStorage
         localStorage.setItem('total', total.toFixed(2));
     } else {
