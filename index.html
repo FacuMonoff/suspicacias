@@ -199,6 +199,134 @@
     </div>
     <div style="display: none;" id="product-list"></div>
 
+<style>
+    .gallery-container {
+        overflow-x: auto;
+        white-space: nowrap;
+        animation: slideIn 1s ease-out forwards;
+        text-align: center; /* Centrar texto */
+        
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .gallery {
+        display: inline-block;
+        /* Hacer la galería en línea para centrar */
+        cursor: grab;
+        /* Cambiar el cursor al de agarre */
+    }
+
+    .gallery:active {
+        cursor: grabbing;
+        /* Cambiar el cursor durante el arrastre */
+    }
+
+    .gallery a {
+        display: inline-block;
+        margin: 30px 20px;
+        /* Ajustar el espacio entre las imágenes */
+        text-align: center;
+        text-decoration: none; 
+        color: white;
+    }
+
+    .gallery img {
+        width: 100%;
+        /* Hacer las imágenes responsive */
+        max-width: 100px;
+        /* Establecer un tamaño máximo */
+        height: auto;
+        /* Altura automática para mantener la proporción */
+        border-radius: 50%;
+        /* Para hacer las imágenes redondas */
+    }
+
+    .gallery img:hover {
+        transform: scale(1.1);
+        /* Aumentar el tamaño al pasar el ratón */
+    }
+
+    .gallery p {
+        margin-top: 5px;
+        /* Añadir un pequeño margen superior */
+    }
+</style>
+
+<div class="gallery-container">
+    <section class="gallery" id="gallery">
+        <a href="/jugueteYAccesorios.html#ANAL">
+            <img src="img/categoriasImgMiniaturas/plug.png" alt="Imagen 1">
+            <p>ANAL</p>
+        </a>
+        <a href="/jugueteYAccesorios.html#VIBRADORES">
+            <img src="img/categoriasImgMiniaturas/vibradores.png" alt="Imagen 2">
+            <p>VIBRADORES</p>
+        </a>
+        <a href="/jugueteYAccesorios.html#DISFRACES">
+            <img src="img/categoriasImgMiniaturas/disfraz.png" alt="Imagen 3">
+            <p>DISFRACES</p>
+        </a>
+        <a href="/jugueteYAccesorios.html#ANILLOS">
+            <img src="img/categoriasImgMiniaturas/anillos.png" alt="Imagen 4">
+            <p>ANILLOS</p>
+        </a>
+        <a href="/jugueteYAccesorios.html#DILDOS">
+            <img src="img/categoriasImgMiniaturas/dildos.png" alt="Imagen 5">
+            <p>DILDOS</p>
+        </a>
+        <a href="/jugueteYAccesorios.html#LUBRICANTES">
+            <img src="img/categoriasImgMiniaturas/lubricantes.png" alt="Imagen 6">
+            <p>LUBRICANTES</p>
+        </a>
+        <a href="jugueteYAccesorios.html#FETICHE">
+            <img src="img/categoriasImgMiniaturas/bdsm2.png" alt="Imagen 7">
+            <p>BDSM</p>
+        </a>
+        
+    </section>
+</div>
+
+<script>
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    const gallery = document.getElementById('gallery');
+
+    gallery.addEventListener('mousedown', (e) => {
+        isDown = true;
+        startX = e.pageX - gallery.offsetLeft;
+        scrollLeft = gallery.scrollLeft;
+    });
+
+    gallery.addEventListener('mouseleave', () => {
+        isDown = false;
+    });
+
+    gallery.addEventListener('mouseup', () => {
+        isDown = false;
+    });
+
+    gallery.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - gallery.offsetLeft;
+        const walk = (x - startX) * 3;
+        gallery.scrollLeft = scrollLeft - walk;
+    });
+</script>
+
 
     <div class="background-container">
         <h2 class="nuestrosDestacados">NUESTROS DESTACADOS</h2>

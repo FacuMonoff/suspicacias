@@ -3995,7 +3995,7 @@ const Products = [
         descripcion: "Masturbador 3 en 1: Efecto Calor + Vibración + Succion. ----- Coloca tu pene y disfrutá de las sensaciones únicas de la vibración, la succión y el calor todo en uno, inclusive! ¡¡¡Imposible no llegar al clímax!!! Cuenta con 9 patrones de vibración, 3 patrones de succión y función calor hasta 40 grados",
         categoria: "MASTURBADORES",
         stock: "1",
-        discount: 30, // Porcentaje de descuento
+        discount: 0, // Porcentaje de descuento
 
     },
     {
