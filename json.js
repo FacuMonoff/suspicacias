@@ -677,6 +677,28 @@ const Products = [
         discount: 0, // Porcentaje de descuento
     },
     {
+        SKU: "2498",
+        image: "img/vibradores/luly 1.png",
+        image2: "img/vibradores/luly 1.png",
+        name: "Luly 1",
+        price: "$17,600.00",
+        descripcion: "Este juguete es un vaginal largo recargable con curvatura para estimular Punto G, de delicado diseño e intensa vibración. Su diseño en la extremidad superior rugoso, más su cabeza simulando el glande lo hace sumamente estimulante. Fácil control. Cuenta con 10 funciones de vibración y una interfaz súper sencilla. Si juntamos todo eso a su increíble apariencia este juguete se convertirá en tu favorito en muy poco tiempo. Silicona de material seguro, sedoso y suave, muy agradable al tacto y fácil de limpiar. A prueba de agua, lo cual permite su utilización en ambientes húmedos, como el baño.",
+        categoria: "VIBRADORES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2500",
+        image: "img/vibradores/cloe.png",
+        image2: "img/vibradores/cloe.png",
+        name: "CLOE",
+        price: "$17,600.00",
+        descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G, de delicado diseño e intensa vibración. Fácil control.Mantener pulsado durante 3 segundos para prender y apagar.  Caracteristicas Silicona 100% Hipo alergénico. Libre de látex. Diseño Ergonómico vaginal + punto G. 3 modos de vibración lineal. 7 ritmos diferentes.        Recargable.Incluye cable de carga. Impermeable. No sumergible.",
+        categoria: "VIBRADORES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
         SKU: "2242",
         image: "img/vibradores/prime fantasy lengua vibradora lg.jpg",
         image2: "img/vibradores/PRIME FANTASY LENGUA VIBRADORA LG.2.jpg",
@@ -705,6 +727,50 @@ const Products = [
         name: "Vibrador Estimulador VE",
         price: "$32,180.00",
         descripcion: "Experimentá una doble sensación con el vibrador y estimulador. Te permite disfrutar de 10 modos de vibración junto a una estimulación única que otorgan las tachas que tiene el juguete. Incluye: 1 VIBRADOR ESTIMULADOR, 3 PRESERVATIVOS SUPER FINOS DE LÁTEX DE CAUCHO NATURAL, 1 POUCH DE GEL ÍNTIMO 4.5gr ----- Marca: Prime",
+        categoria: "VIBRADORES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2496", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/vibradores/katy 5.png",
+        image2: "img/vibradores/katy 5 2.png",
+        name: "katy 5",
+        price: "$21,875.25",
+        descripcion: "Este juguete es un vaginal corto con curvatura para estimular Punto G o clítoris, de delicado  diseño e intensa vibración. Fácil control. Mantener pulsado durante 3 segundos para prender y apagar. Vibraciones suaves • Silicona 100 % pura + ABS. • 100 % Libre de Fthalatos. • Hipo alergénico. • Libre de látex. • Diseño Ergonómico vaginal + punto G. • 3 modos de vibración lineal. • 7 ritmos diferentes. • Diámetro: 3.5 cm Longitud total: 19 cm • 2 baterías AAA.",
+        categoria: "VIBRADORES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2497", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/vibradores/katy 6.png",
+        image2: "img/vibradores/katy 62.png",
+        name: "katy 5",
+        price: "$21,875.25",
+        descripcion: "Katy 6 es un vibrador de 10 funciones que está diseñado con una forma curva ideal para estimulacion del punto G. Su suave silicona te hará gritar de placer.  Silicona 100% pura + ABS. 100% Libre de Fthalatos.Hipo alergénico.Libre de látex. Diseño Ergonómico vaginal + punto G. 3 modos de vibración lineal. 7 ritmos diferentes. Diámetro: 3.7 cm Longitud total: 20, 5 cm. 2 baterías AAA. (No Incluidas) ",
+        categoria: "VIBRADORES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2507", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/vibradores/vibrador Red diamond 1.png",
+        image2: "img/vibradores/vibrador Red diamond 1.png",
+        name: "Red diamond 1",
+        price: "$21,875.25",
+        descripcion: "Este es uno de los estimuladores de clítoris de la línea mini vibradores con botón de diamante. Su diseño con punta abierta lo hace diferente a los demás ya que deja pasar el aire y esto hace que se pueda mover mucho más rápido apoye sobre clítoris de manera diferente al resto. Probalo, no te va a defraudar. • 3 modos de vibración lineal. • 7 modos de vibración diferentes. • Tiempo de carga:  entre 2 hs y 2.5 hs. • Recargable. • Tecla de fácil manejo. • Incluye cable USB. ",
+        categoria: "VIBRADORES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2507", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/vibradores/vibrador Red diamond 2.png",
+        image2: "img/vibradores/vibrador Red diamond 2.png",
+        name: "Red diamond 2",
+        price: "$21,875.25",
+        descripcion: "Material: silicona 100% pura + ABS 10 funciones de vibración Longitud total: 13cm Diametro: 3cm Recargable.Incluye cable USB. Impermeable.No sumergible.",
         categoria: "VIBRADORES",
         stock: "1",
         discount: 0, // Porcentaje de descuento
@@ -1641,6 +1707,38 @@ const Products = [
         name: "For Him Sexitive",
         price: "$1,438.00",
         descripcion: "Gel íntimo masculino que favorece la excitación y la erección, por lo que mejora el rendimiento sexual. Compatible con preservativos y sextoys porque la fórmula es de base acuosa. Única presentación en pomo de 130 ml.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2155", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/neutro miss v.png",
+        image2: "img/lubricantes/neutro miss v2.png",
+        name: "Gel Neutro Miss V",
+        price: "$1,438.00",
+        descripcion: "Gel lubricante y humectante hipoalergénico, doble testeo dermatológico para uso frecuente. Beneficios: * PH balanceado. * Produce una lubricación duradera y mayor confort para todo tipo de relaciones sexuales. * Ideal para pieles sensibles. * Es hidrosoluble, compatible con el uso de preservativos.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2551", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/eosclitoris.png",
+        image2: "img/lubricantes/eosclitoris2.png",
+        name: "Eos, placer Clitoris",
+        price: "$1,438.00",
+        descripcion: "Gel lubricante y humectante hipoalergénico, doble testeo dermatológico para uso frecuente. Beneficios: * PH balanceado. * Produce una lubricación duradera y mayor confort para todo tipo de relaciones sexuales. * Ideal para pieles sensibles. * Es hidrosoluble, compatible con el uso de preservativos.",
+        categoria: "LUBRICANTES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    }, {
+        SKU: "2550", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/eosapretado.png",
+        image2: "img/lubricantes/eosapretado2.png",
+        name: "Eos, placer apretado",
+        price: "$1,438.00",
+        descripcion: "Esta fórmula única con extractos de Hammamelis y Aloe Vera hace que el tejido vaginal se contraiga, permitiendo que ambos sientan cada centímetro de penetración para obtener el máximo placer. Sensación sedosa, duradera y no se vuelve pegajosa.",
         categoria: "LUBRICANTES",
         stock: "1",
         discount: 0, // Porcentaje de descuento
@@ -4021,7 +4119,6 @@ const Products = [
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
-
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------SUCCIONADORES
     //--------------------------------------------------------------------------------------------
@@ -4121,6 +4218,31 @@ const Products = [
         price: "$146,666.00",
         descripcion: "Esta versión de lujo y sofisticada de este vibrador de ondas de presión es el compañero perfecto para tus aventuras de estimulación clitorial! Sus 11 modos de estimulación, y sus 10 modos de vibración, te brindarán 110 combinaciones de estimulación, realmente un lujo total! • Tecnología Air pressure sin tacto • 11 patrones de ondas de presión • 10 niveles de vibración • 110 combinaciones de estimulación (11 x 10) • 2 Motores independientes • Interfáz de 3 botones • Impermeable • Extremadamente silencioso. • Recargable USB (Cable magnético) • Fácil de limpiar",
         categoria: "SUCCIONADORES",
+        stock: "1",
+        discount: 0,
+    },
+    //--------------------------------------------------------------------------------------------
+    //-------------------------------------------OTROS
+    //--------------------------------------------------------------------------------------------
+    {
+        SKU: "2456",
+        image: "img/penispum7-2.png",
+        image2: "img/penispum7.png",
+        name: "penis pum 7",
+        price: "$146,666.00",
+        descripcion: "Bomba de pene de gran calidad. Material: ABS de calidad y seguro, PVC, silicona.    Función: agrandamiento extendido del pene. Para todos los hombres que quieran ejercitar el pene. Incluye una bala vibradora multi- speed.   LLeva 2 pilas AA, no incluídas.    Tamaño:   260mm x 69mm.",
+        categoria: "OTROS",
+        stock: "1",
+        discount: 0,
+    },
+    {
+        SKU: "2508",
+        image: "img/penispum9.png",
+        image2: "img/penispum92.png",
+        name: "penis pum 9",
+        price: "$146,666.00",
+        descripcion: "Esta bomba de erección con manija permite agrandar tu pene minutos antes de la relación sexual, logrando prolongar la erección y aumentar el tamaño y la rigidez. Simplemente introduce el pene en el cilindro de acrílico y bombea hasta obtener el resultado deseado. Medidas: 20 cm x 6 cm",
+        categoria: "OTROS",
         stock: "1",
         discount: 0,
     }

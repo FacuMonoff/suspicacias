@@ -68,6 +68,7 @@
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#VELAS">Velas</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#VIBRADORES">Vibradores</a></li>
                                 <li><a class="dropdown-item" href="/jugueteYAccesorios.html#SUCCIONADORES">Succionadores</a></li>
+                                <li><a class="dropdown-item" href="/jugueteYAccesorios.html#OTROS">Otros</a></li>
                             </ul>
                         </li>
 
@@ -237,8 +238,10 @@
         margin: 30px 20px;
         /* Ajustar el espacio entre las imágenes */
         text-align: center;
-        text-decoration: none; 
+        text-decoration: none;
         color: white;
+        position: relative;
+        /* Para animaciones */
     }
 
     .gallery img {
@@ -250,9 +253,11 @@
         /* Altura automática para mantener la proporción */
         border-radius: 50%;
         /* Para hacer las imágenes redondas */
+        transition: transform 0.3s ease;
+        /* Transición suave de transformación */
     }
 
-    .gallery img:hover {
+    .gallery a:hover img {
         transform: scale(1.1);
         /* Aumentar el tamaño al pasar el ratón */
     }
