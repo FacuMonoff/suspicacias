@@ -168,6 +168,99 @@ const Products = [
         stock: "100",
         discount: 0, // Porcentaje de descuento
     },
+
+    //--------------------------------------------------------------------------------------------
+    //-------------------------------------------ACEITES
+    //--------------------------------------------------------------------------------------------
+    {
+        SKU: "2159", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/love-potion chocolate sexitive2.png",
+        image2: "img/lubricantes/love-potion chocolate sexitive.png",
+        name: "Aceite Comestible Love Potion Chocolate",
+        price: "$1,438.00",
+        descripcion: "DELICIOSO ACEITE SABORIZADO Y TOTALMENTE COMESTIBLE PARA SABOREAR EN LA PIEL Y ESTIMULAR LA PASIÓN. ----- Elaborado a base de agua cristalina, ingredientes naturales y materia prima hipoalergénica premium. ----- Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. ----- Su textura permite utilizarlo para masajes y también como lubricante íntimo ya que aumenta el nivel de placer, creando sensación de calor al contacto con la piel.  15gr",
+        categoria: "ACEITES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2058", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
+        image2: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.png",
+        name: "Aceite  Mini Love Potion Frutilla",
+        price: "$1,438.00",
+        descripcion: "Tus caricias ahora serán más dulces que nunca gracias a la sensual combinación de fragancias de este Mini Aceite Comestible Love Potion, experimenta el placer máximo en la estimulación piel con piel o mejor aún labios con piel. El Mini Aceite Comestible Love Potion Frutilla tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato. ----- Cont.Neto: 15ml",
+        categoria: "ACEITES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "1782", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
+        image2: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
+        name: "Aceite Love Potion Frutos Rojos",
+        price: "$2,554.00",
+        descripcion: "Aceite Love Potion Frutos Rojos. Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. ----- Contenido: 30 ml",
+        categoria: "ACEITES",
+        stock: "0",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2349", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.png",
+        image2: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
+        name: "Aceite  Mini Love Potion Menta ",
+        price: "$1,438.00",
+        descripcion: "Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. Compatible con latéx. Sabor a Menta. ----- Contenido: 15gr.",
+        categoria: "ACEITES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2045", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
+        image2: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.png",
+        name: "Aceite Mini Love Potion Banana",
+        price: "$1,438.00",
+        descripcion: "Sácale provecho a todas las ventajas de la cosmética erótica e incluye aceites de masaje en tus juegos de pareja. Son un modo muy sencillo y sensual de incrementar el potencial estimulador de tus caricias. Aparte de la textura suave que proporciona el love potion, puedes sacarle mucho partido si le brindas a tu pareja una previa muy sensual y placentera. Todo tu cuerpo está a punto de experimentar un escalofrío de placer que lo recorrerá de los pies a la cabeza.La calidez de este aceite de masaje con aroma y sabor a banana no sólo se deja notar en el lugar en el que lo aplicas sino que se transmite por todo tu cuerpo como una oleada de excitación ---- Contenido: 15gr.",
+        categoria: "ACEITES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2158", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/champagne.png",
+        image2: "img/lubricantes/champagne2.png",
+        name: "Aceite Mini Love Potion Champagne Frambuesa",
+        price: "$1,438.00",
+        descripcion: "Aceite comestible. Besos íntimos. Este es tu momento. Descubrí la pasión con los aceites comestibles, cálidos y sedosos Love Potion, harán de tus besos los más sensuales. Sabor CHAMPAGNE ---- Contenido: 15gr.",
+        categoria: "ACEITES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2545", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/dulceDeLeche.png",
+        image2: "img/lubricantes/aceiteLovePDulceDeLeche.png",
+        name: "Aceite Mini Love Potion Dulce de Leche",
+        price: "$1,438.00",
+        descripcion: "Aceite comestible. Besos íntimos. Este es tu momento. Descubrí la pasión con los aceites comestibles, cálidos y sedosos Love Potion, harán de tus besos los más sensuales. Sabor DULCE DE LECHE ---- Contenido: 15gr.",
+        categoria: "ACEITES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+    {
+        SKU: "2513", //el SKU no se tiene que modificar una vez ya colocado el numero
+        image: "img/lubricantes/algodonDeAzucar.png",
+        image2: "img/lubricantes/algodonDeAzucar2.png",
+        name: "Aceite Mini Love Potion Algodon de Azucar",
+        price: "$1,438.00",
+        descripcion: "Aceite comestible. Besos íntimos. Este es tu momento. Descubrí la pasión con los aceites comestibles, cálidos y sedosos Love Potion, harán de tus besos los más sensuales. Sabor Algodon de Azucar ---- Contenido: 15gr.",
+        categoria: "ACEITES",
+        stock: "1",
+        discount: 0, // Porcentaje de descuento
+    },
+
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------VIBRADORES
     //--------------------------------------------------------------------------------------------
@@ -1590,72 +1683,7 @@ const Products = [
         stock: "1",
         discount: 0, // Porcentaje de descuento
     },
-    {
-        SKU: "1782", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
-        image2: "img/lubricantes/Aceite Masajes Love Potion Frutos Rojos 30ml 2.jpg",
-        name: "Aceite Love Potion Frutos Rojos",
-        price: "$2,554.00",
-        descripcion: "Aceite Love Potion Frutos Rojos. Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. ----- Contenido: 30 ml",
-        categoria: "LUBRICANTES",
-        stock: "0",
-        discount: 0, // Porcentaje de descuento
-    },
-    {
-        SKU: "2349", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.png",
-        image2: "img/lubricantes/Aceite de Masaj Mini Love Potion ice Cream 15gr.jpeg",
-        name: "Aceite  Mini Love Potion Menta ",
-        price: "$1,438.00",
-        descripcion: "Delicioso aceite saborizado y totalmente comestible para saborear en la piel y estimular la pasión. Desarrollado a base de agua cristalina y materia prima hipoalergénica Premium. Libre de azúcar y cualquier otra sustancia que pueda irritar la piel. Ideal para ser usado como lubricante intimo ya que aumenta el nivel de sensaciones. Crea sensación de calor al contacto con la boca. Compatible con latéx. Sabor a Menta. ----- Contenido: 15gr.",
-        categoria: "LUBRICANTES",
-        stock: "1",
-        discount: 0, // Porcentaje de descuento
-    },
-    {
-        SKU: "2045", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.jpeg",
-        image2: "img/lubricantes/Aceite de Masaj Mini Love Potion banana 15gr.png",
-        name: "Aceite Mini Love Potion Banana",
-        price: "$1,438.00",
-        descripcion: "Sácale provecho a todas las ventajas de la cosmética erótica e incluye aceites de masaje en tus juegos de pareja. Son un modo muy sencillo y sensual de incrementar el potencial estimulador de tus caricias. Aparte de la textura suave que proporciona el love potion, puedes sacarle mucho partido si le brindas a tu pareja una previa muy sensual y placentera. Todo tu cuerpo está a punto de experimentar un escalofrío de placer que lo recorrerá de los pies a la cabeza.La calidez de este aceite de masaje con aroma y sabor a banana no sólo se deja notar en el lugar en el que lo aplicas sino que se transmite por todo tu cuerpo como una oleada de excitación ---- Contenido: 15gr.",
-        categoria: "LUBRICANTES",
-        stock: "1",
-        discount: 0, // Porcentaje de descuento
-    },
-    {
-        SKU: "2158", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/champagne.png",
-        image2: "img/lubricantes/champagne2.png",
-        name: "Aceite Mini Love Potion Champagne Frambuesa",
-        price: "$1,438.00",
-        descripcion: "Aceite comestible. Besos íntimos. Este es tu momento. Descubrí la pasión con los aceites comestibles, cálidos y sedosos Love Potion, harán de tus besos los más sensuales. Sabor CHAMPAGNE ---- Contenido: 15gr.",
-        categoria: "LUBRICANTES",
-        stock: "1",
-        discount: 0, // Porcentaje de descuento
-    },
-    {
-        SKU: "2545", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/dulceDeLeche.png",
-        image2: "img/lubricantes/aceiteLovePDulceDeLeche.png",
-        name: "Aceite Mini Love Potion Dulce de Leche",
-        price: "$1,438.00",
-        descripcion: "Aceite comestible. Besos íntimos. Este es tu momento. Descubrí la pasión con los aceites comestibles, cálidos y sedosos Love Potion, harán de tus besos los más sensuales. Sabor DULCE DE LECHE ---- Contenido: 15gr.",
-        categoria: "LUBRICANTES",
-        stock: "1",
-        discount: 0, // Porcentaje de descuento
-    },
-    {
-        SKU: "2513", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/algodonDeAzucar.png",
-        image2: "img/lubricantes/algodonDeAzucar2.png",
-        name: "Aceite Mini Love Potion Algodon de Azucar",
-        price: "$1,438.00",
-        descripcion: "Aceite comestible. Besos íntimos. Este es tu momento. Descubrí la pasión con los aceites comestibles, cálidos y sedosos Love Potion, harán de tus besos los más sensuales. Sabor Algodon de Azucar ---- Contenido: 15gr.",
-        categoria: "LUBRICANTES",
-        stock: "1",
-        discount: 0, // Porcentaje de descuento
-    },
+    
     {
         SKU: "2514", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/lubricantes/EgoMasturbacion.png",
@@ -1949,17 +1977,6 @@ const Products = [
         name: "Óleo Orgásmico Estimulante XXX",
         price: "$3,359.00",
         descripcion: "Crea una sensación única de vibración y placer en el clítoris. Comienza como un suave hormigueo, seguido de un calor que se convierte en un resplandor envolvente. Esta sensación se extiende más allá del clítoris e incluso se puede sentir en los labios y en la entrada vaginal. Luego viene una fuerte sensación de hormigueo acompañada con una sensación de apretamiento creando una experiencia sexual completamente nueva e intensa... Este Estimulante de Clítoris, como la mayoría de nuestros productos podes utilizarlos sola o en pareja, recordá que con solo una gota alcanzará todo su efecto, es por ello que te rendirá para muchas veladas de amor  ----- Cont.Neto: 15ml",
-        categoria: "LUBRICANTES",
-        stock: "1",
-        discount: 0, // Porcentaje de descuento
-    },
-    {
-        SKU: "2058", //el SKU no se tiene que modificar una vez ya colocado el numero
-        image: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.jpg",
-        image2: "img/lubricantes/Aceite de Masajes Mini Love Potion Frutilla 15gr.png",
-        name: "Aceite  Mini Love Potion Frutilla",
-        price: "$1,438.00",
-        descripcion: "Tus caricias ahora serán más dulces que nunca gracias a la sensual combinación de fragancias de este Mini Aceite Comestible Love Potion, experimenta el placer máximo en la estimulación piel con piel o mejor aún labios con piel. El Mini Aceite Comestible Love Potion Frutilla tiene un efecto calmante prácticamente inmediato que hace que los músculos se relajen y las preocupaciones se disipen en el aroma de su delicada y penetrante fragancia. Derrama unas gotas sobre la piel desnuda de tu pareja y utiliza las manos, la boca o cualquier otra parte de tu cuerpo para masajearla.El efecto erótico de este masaje es inmediato. ----- Cont.Neto: 15ml",
         categoria: "LUBRICANTES",
         stock: "1",
         discount: 0, // Porcentaje de descuento
@@ -4072,7 +4089,7 @@ const Products = [
     //--------------------------------------------------------------------------------------------
     //-------------------------------------------MASTURBADORES
     //--------------------------------------------------------------------------------------------
-    {
+    /*{
         SKU: "2035", //el SKU no se tiene que modificar una vez ya colocado el numero
         image: "img/masturbadores/masturbador vagina skin.jpg",
         image2: "img/masturbadores/masturbador vagina skin.jpg",
@@ -4080,22 +4097,9 @@ const Products = [
         price: "$7,279",
         descripcion: "Super suave. Vagina masturbadora realizada en material Cyber-Skin. Su textura suave logra una increíble similitud a la piel humana",
         categoria: "MASTURBADORES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
-
-    },
-    {
-        SKU: "2237",
-        image: "img/masturbadores/dark grey masturbador de glande.jpeg",
-        image2: "img/masturbadores/dark grey masturbador de glande.jpeg",
-        name: "dark grey masturbador",
-        price: "$60,039",
-        descripcion: "Masturbador 3 en 1: Efecto Calor + Vibración + Succion. ----- Coloca tu pene y disfrutá de las sensaciones únicas de la vibración, la succión y el calor todo en uno, inclusive! ¡¡¡Imposible no llegar al clímax!!! Cuenta con 9 patrones de vibración, 3 patrones de succión y función calor hasta 40 grados",
-        categoria: "MASTURBADORES",
-        stock: "1",
-        discount: 0, // Porcentaje de descuento
-
-    },
+    },*/
     {
         SKU: "2432",
         image: "img/masturbadores/huevo masturbador.jpg",
@@ -4103,10 +4107,9 @@ const Products = [
         name: "huevito masturbador x1 unidad",
         price: "$5,759",
         descripcion: "Este juguete con forma de huevo es muy elastico, ajustable y se adapta perfectamente a cualquier tamaño de pene. El interior de este huevo tiene un sistema nuevo de texturas y diseños que proporcionan diferentes tipos de placer. Son suaves y envolventes y permiten una masturbacion muy placentera, produciendo sensaciones espectaculares al contacto de la piel.",
-        categoria: "MASTURBADORES",
+        categoria: "OTROS",
         stock: "1",
         discount: 0, // Porcentaje de descuento
-
     },
     {
         SKU: "2455",
@@ -4116,7 +4119,7 @@ const Products = [
         price: "$33,889",
         descripcion: "El masturbador XP 1 tiene una válvula de respiración especial, el pene entra en la cavidad sin problemas y la succión se hace más fuerte cuando el pene sale. Viene protegido con una cubierta de plástico para su cuidado. Su textura con relieve pronunciado y contorneado, hace mucho más placentera la experiencia.",
         categoria: "MASTURBADORES",
-        stock: "1",
+        stock: "0",
         discount: 0, // Porcentaje de descuento
     },
     //--------------------------------------------------------------------------------------------
