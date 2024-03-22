@@ -4245,6 +4245,17 @@ const Products = [
         categoria: "OTROS",
         stock: "1",
         discount: 0,
+    },
+    {
+        SKU: "2237",
+        image: "img/masturbador.png",
+        image2: "img/masturbador2.png",
+        name: "Dark Grey",
+        price: "$146,666.00",
+        descripcion: "Increíble masturbador masculino de 3 funciones! Coloca tu pene y disfrutá de las sensaciones únicas de la vibración, la succión y el calor todo en uno. Cuenta con 9 patrones de vibración, 3 patrones de succión, función calor hasta 40 grados, USB RECARGABLE. * Ancho máximo: 8,97cm * Largo: 20,9cm * Diametro del inserto: 4, 31cm",
+        categoria: "OTROS",
+        stock: "1",
+        discount: 0,
     }
 ];
 
